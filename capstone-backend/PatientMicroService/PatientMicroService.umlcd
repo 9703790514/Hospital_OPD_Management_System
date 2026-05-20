@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_s_yGMHN-EfCTGutOISnrsw">
+  <modelElement href="PatientMicroService.uml#_tU6BoHN-EfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_4GCo8HN-EfCTGutOISnrsw" sourceAnchor="15.0,0.0" targetAnchor="167.0,156.0" target="_4GIIgHN-EfCTGutOISnrsw" source="_4GCo-XN-EfCTGutOISnrsw">
+    <modelElement href="PatientMicroService.uml#_tX_K0HN-EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_4GCo8XN-EfCTGutOISnrsw" name="Reference">
+      <modelElement href="PatientMicroService.uml#_tYC1MHN-EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_4GCo8nN-EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_46ztwHN-EfCTGutOISnrsw" position="-38.0,6.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_4GCo83N-EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="PatientMicroService.uml#_tX_K0XN-EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_46zGsnN-EfCTGutOISnrsw" position="-23.0,-8.0"/>
+      <visibility xmi:id="_4GCo9HN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GCo9XN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_4GCo9nN-EfCTGutOISnrsw" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="PatientMicroService.uml#_tX2A4HN-EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_46ztwXN-EfCTGutOISnrsw" position="-71.0,-16.0"/>
+      <visibility xmi:id="_4GCo93N-EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_4GCo-HN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_4GFFMHN-EfCTGutOISnrsw" target="_4GFFQHN-EfCTGutOISnrsw">
+    <modelElement href="PatientMicroService.uml#_tX98sXN-EfCTGutOISnrsw"/>
+    <nameVisual xmi:id="_4GFFMXN-EfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_4GFFMnN-EfCTGutOISnrsw" aggregationKind="NONE" name="created_at" navigable="true">
+      <modelElement href="PatientMicroService.uml#_tX5rTHN-EfCTGutOISnrsw"/>
+      <visibility xmi:id="_4GFFM3N-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFNHN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_4GFFNXN-EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="PatientMicroService.uml#_tX98snN-EfCTGutOISnrsw"/>
+      <visibility xmi:id="_4GFFNnN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFN3N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_4GFFOHN-EfCTGutOISnrsw" target="_4GFFQHN-EfCTGutOISnrsw">
+    <modelElement href="PatientMicroService.uml#_tX98s3N-EfCTGutOISnrsw"/>
+    <nameVisual xmi:id="_4GFFOXN-EfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_4GFFOnN-EfCTGutOISnrsw" aggregationKind="NONE" name="updated_at" navigable="true">
+      <modelElement href="PatientMicroService.uml#_tX6SUXN-EfCTGutOISnrsw"/>
+      <visibility xmi:id="_4GFFO3N-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFPHN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_4GFFPXN-EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="PatientMicroService.uml#_tX98tHN-EfCTGutOISnrsw"/>
+      <visibility xmi:id="_4GFFPnN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFP3N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_4GJWoHN-EfCTGutOISnrsw" sourceAnchor="145.0,0.0" targetAnchor="142.0,115.0" target="_4GG6YHN-EfCTGutOISnrsw" source="_4GLL0HN-EfCTGutOISnrsw">
+    <modelElement href="PatientMicroService.uml#_tYC1MXN-EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_4GJ9s3N-EfCTGutOISnrsw" name="Reference">
+      <modelElement href="PatientMicroService.uml#_tYGfkHN-EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_4GJ9sHN-EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_46ztw3N-EfCTGutOISnrsw" position="-77.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_4GJ9sXN-EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="PatientMicroService.uml#_tYC1MnN-EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_46ztwnN-EfCTGutOISnrsw" position="41.0,-32.0"/>
+      <visibility xmi:id="_4GKkwXN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GKkwHN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_4GJ9snN-EfCTGutOISnrsw" aggregationKind="NONE" name="repository" navigable="true">
+      <modelElement href="PatientMicroService.uml#_tX6SU3N-EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_46ztxHN-EfCTGutOISnrsw" position="-34.0,-17.0"/>
+      <visibility xmi:id="_4GKkw3N-EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_4GKkwnN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4GJWoXN-EfCTGutOISnrsw" sourceAnchor="418.0,0.0" targetAnchor="120.0,156.0" dashed="true" superClass="_4GIIgHN-EfCTGutOISnrsw" subClass="_4GLL0HN-EfCTGutOISnrsw">
+    <modelElement href="PatientMicroService.uml#_tXpzoXN-EfCTGutOISnrsw"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4GFFQHN-EfCTGutOISnrsw" name="Patient" associationsIn="_4GFFMHN-EfCTGutOISnrsw _4GFFOHN-EfCTGutOISnrsw">
+    <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_4GFFQXN-EfCTGutOISnrsw" position="-316.0,-814.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_4GFFQnN-EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="PatientMicroService.uml#_tVnzUHN-EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_4GFFQ3N-EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="PatientMicroService.uml#_tVsEwHN-EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_4GFFRHN-EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_4GFFRXN-EfCTGutOISnrsw" name="_id">
+      <modelElement href="PatientMicroService.uml#_tX2n8HN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFRnN-EfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="PatientMicroService.uml#_tX32EHN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4GFFR3N-EfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="PatientMicroService.uml#_tX4dIHN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFSHN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFSXN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GFFSnN-EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4GFFS3N-EfCTGutOISnrsw" name="id">
+      <modelElement href="PatientMicroService.uml#_tX4dIXN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFTHN-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tX4dInN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFTXN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFTnN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GFFT3N-EfCTGutOISnrsw" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4GFFUHN-EfCTGutOISnrsw" name="userId">
+      <modelElement href="PatientMicroService.uml#_tX5EMHN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFUXN-EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="PatientMicroService.uml#_tX5EMXN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFUnN-EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_4GFFU3N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GFFVHN-EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4GFFVXN-EfCTGutOISnrsw" name="first_name">
+      <modelElement href="PatientMicroService.uml#_tX5ENHN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFVnN-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tX5ENXN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFV3N-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFWHN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GFFWXN-EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4GFFWnN-EfCTGutOISnrsw" name="last_name">
+      <modelElement href="PatientMicroService.uml#_tX5ENnN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFW3N-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tX5EN3N-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFXHN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFXXN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GFFXnN-EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4GFFX3N-EfCTGutOISnrsw" name="date_of_birth">
+      <modelElement href="PatientMicroService.uml#_tX5EOHN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFYHN-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tX5EOXN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFYXN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFYnN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GFFY3N-EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4GFFZHN-EfCTGutOISnrsw" name="gender">
+      <modelElement href="PatientMicroService.uml#_tX5rQHN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFZXN-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tX5rQXN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFZnN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFZ3N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GFFaHN-EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4GFFaXN-EfCTGutOISnrsw" name="contact_number">
+      <modelElement href="PatientMicroService.uml#_tX5rQnN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFanN-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tX5rQ3N-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFa3N-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFbHN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GFFbXN-EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4GFFbnN-EfCTGutOISnrsw" name="address">
+      <modelElement href="PatientMicroService.uml#_tX5rRHN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFb3N-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tX5rRXN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFcHN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFcXN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GFFcnN-EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4GFFc3N-EfCTGutOISnrsw" name="blood_group">
+      <modelElement href="PatientMicroService.uml#_tX5rRnN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFdHN-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tX5rR3N-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFdXN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFdnN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GFFd3N-EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4GFFeHN-EfCTGutOISnrsw" name="allergies">
+      <modelElement href="PatientMicroService.uml#_tX5rSHN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFeXN-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tX5rSXN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFenN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFe3N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GFFfHN-EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4GFFfXN-EfCTGutOISnrsw" name="current_medications">
+      <modelElement href="PatientMicroService.uml#_tX5rSnN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFfnN-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tX5rS3N-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFf3N-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFgHN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GFFgXN-EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4GFFgnN-EfCTGutOISnrsw" name="created_at">
+      <modelElement href="PatientMicroService.uml#_tX5rTHN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFg3N-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tX6SUHN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFhHN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFhXN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GFFhnN-EfCTGutOISnrsw" name="Instant">
+        <modelElement href="PatientMicroService.uml#_tXc_UHN-EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4GFFh3N-EfCTGutOISnrsw" name="updated_at">
+      <modelElement href="PatientMicroService.uml#_tX6SUXN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFiHN-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tX6SUnN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFiXN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFinN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GFFi3N-EfCTGutOISnrsw" name="Instant">
+        <modelElement href="PatientMicroService.uml#_tXc_UHN-EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_4GFFjHN-EfCTGutOISnrsw" name="getUser_id">
+      <modelElement href="PatientMicroService.uml#_tVqPkHN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFjXN-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tVq2oXN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFjnN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFj3N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4GFFkHN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tVq2oHN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GFFkXN-EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4GFFknN-EfCTGutOISnrsw" name="setUser_id">
+      <modelElement href="PatientMicroService.uml#_tVq2onN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GFFk3N-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tVrdsHN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GFFlHN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GFFlXN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4GFFlnN-EfCTGutOISnrsw" name="userId">
+        <modelElement href="PatientMicroService.uml#_tVq2o3N-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GFFl3N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GFFmHN-EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_4GG6YHN-EfCTGutOISnrsw" name="PatientRepository" associationsIn="_4GJWoHN-EfCTGutOISnrsw">
+    <modelElement href="PatientMicroService.uml#_tVyLYHN-EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_4GG6YXN-EfCTGutOISnrsw" position="-103.0,-814.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_4GG6YnN-EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="PatientMicroService.uml#_tVzZgHN-EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_4GG6Y3N-EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="PatientMicroService.uml#_tV1OsHN-EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_4GG6ZHN-EfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_4GG6ZXN-EfCTGutOISnrsw" name="findByUserId">
+      <modelElement href="PatientMicroService.uml#_tVzZgXN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GG6ZnN-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tV0noHN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GG6Z3N-EfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_4GG6aHN-EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_4GG6aXN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tV0AkXN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GG6anN-EfCTGutOISnrsw" name="Patient">
+          <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4GG6a3N-EfCTGutOISnrsw" name="userId">
+        <modelElement href="PatientMicroService.uml#_tV0AkHN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GG6bHN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GG6bXN-EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4GG6bnN-EfCTGutOISnrsw" name="findById">
+      <modelElement href="PatientMicroService.uml#_tV0noXN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GG6b3N-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tV0no3N-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GG6cHN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GG6cXN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4GG6cnN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tXmwUXN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GG6c3N-EfCTGutOISnrsw" name="Patient">
+          <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4GG6dHN-EfCTGutOISnrsw" name="id">
+        <modelElement href="PatientMicroService.uml#_tV0nonN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GG6dXN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GG6dnN-EfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4GLL0HN-EfCTGutOISnrsw" name="PatientServiceImpl" associationsOut="_4GJWoHN-EfCTGutOISnrsw" generalizations="_4GJWoXN-EfCTGutOISnrsw">
+    <modelElement href="PatientMicroService.uml#_tV4SAHN-EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_4GLL0XN-EfCTGutOISnrsw" position="-106.0,-684.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_4GLL0nN-EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="PatientMicroService.uml#_tV45EHN-EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_4GLL03N-EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="PatientMicroService.uml#_tV78YnN-EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_4GLL1HN-EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_4GLL1XN-EfCTGutOISnrsw" name="repository">
+      <modelElement href="PatientMicroService.uml#_tX6SU3N-EfCTGutOISnrsw"/>
+      <visibility xmi:id="_4GLL1nN-EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_4GLL13N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GLL2HN-EfCTGutOISnrsw" name="PatientRepository">
+        <modelElement href="PatientMicroService.uml#_tVyLYHN-EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_4GLL2XN-EfCTGutOISnrsw" name="findAll">
+      <modelElement href="PatientMicroService.uml#_tV5gIHN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GLL2nN-EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="PatientMicroService.uml#_tV5gI3N-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GLL23N-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GLL3HN-EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_4GLL3XN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tV5gIXN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GLL3nN-EfCTGutOISnrsw" name="Patient">
+          <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4GLL33N-EfCTGutOISnrsw" name="findById">
+      <modelElement href="PatientMicroService.uml#_tV6HMHN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GLL4HN-EfCTGutOISnrsw" name="Generics">
+        <modelElement href="PatientMicroService.uml#_tV6uQHN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4GLL4XN-EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="PatientMicroService.uml#_tV6uQXN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GLL4nN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GLL43N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4GLL5HN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tX0LsHN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GLL5XN-EfCTGutOISnrsw" name="Optional">
+          <modelElement href="PatientMicroService.uml#_tXYG0XN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4GLL5nN-EfCTGutOISnrsw" name="id">
+        <modelElement href="PatientMicroService.uml#_tV6HMXN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GLL53N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GLL6HN-EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4GLL6XN-EfCTGutOISnrsw" name="deleteById">
+      <modelElement href="PatientMicroService.uml#_tV6uQ3N-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GLL6nN-EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="PatientMicroService.uml#_tV7VUXN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GLL63N-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GLL7HN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4GLL7XN-EfCTGutOISnrsw" name="id">
+        <modelElement href="PatientMicroService.uml#_tV7VUHN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GLL7nN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GLL73N-EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4GLL8HN-EfCTGutOISnrsw" name="findByUserId">
+      <modelElement href="PatientMicroService.uml#_tV7VU3N-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GLL8XN-EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="PatientMicroService.uml#_tV78YHN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GLL8nN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GLL83N-EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_4GLL9HN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tV7VVXN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GLL9XN-EfCTGutOISnrsw" name="Patient">
+          <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4GLL9nN-EfCTGutOISnrsw" name="userId">
+        <modelElement href="PatientMicroService.uml#_tV7VVHN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GLL93N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GLL-HN-EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4GLL-XN-EfCTGutOISnrsw" name="PatientServiceImpl">
+      <modelElement href="PatientMicroService.uml#_tXpzonN-EfCTGutOISnrsw"/>
+      <keywords xmi:id="_4GLL-nN-EfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_4GLL-3N-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tXqatHN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GLL_HN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GLL_XN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4GLL_nN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tXqas3N-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GLL_3N-EfCTGutOISnrsw" name="PatientServiceImpl">
+          <modelElement href="PatientMicroService.uml#_tV4SAHN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4GLMAHN-EfCTGutOISnrsw" name="repository">
+        <modelElement href="PatientMicroService.uml#_tXqasHN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GLMAXN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GLMAnN-EfCTGutOISnrsw" name="PatientRepository">
+          <modelElement href="PatientMicroService.uml#_tVyLYHN-EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4GLMA3N-EfCTGutOISnrsw" name="save">
+      <modelElement href="PatientMicroService.uml#_tXrBwHN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GLMBHN-EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="PatientMicroService.uml#_tXrBw3N-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GLMBXN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GLMBnN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4GLMB3N-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tXrBwnN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GLMCHN-EfCTGutOISnrsw" name="Patient">
+          <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4GLMCXN-EfCTGutOISnrsw" name="patient">
+        <modelElement href="PatientMicroService.uml#_tXrBwXN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GLMCnN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GLMC3N-EfCTGutOISnrsw" name="Patient">
+          <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_4GIIgHN-EfCTGutOISnrsw" name="PatientService" associationsIn="_4GCo8HN-EfCTGutOISnrsw" subclassedBy="_4GJWoXN-EfCTGutOISnrsw">
+    <modelElement href="PatientMicroService.uml#_tV11wHN-EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_4GIIgXN-EfCTGutOISnrsw" position="192.0,-846.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4GIIgnN-EfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_4GIIg3N-EfCTGutOISnrsw" name="findAll">
+      <modelElement href="PatientMicroService.uml#_tV2c0HN-EfCTGutOISnrsw"/>
+      <visibility xmi:id="_4GIIhHN-EfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_4GIIhXN-EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_4GIIhnN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tV2c0XN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GIIh3N-EfCTGutOISnrsw" name="Patient">
+          <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4GIIiHN-EfCTGutOISnrsw" name="findById">
+      <modelElement href="PatientMicroService.uml#_tV2c03N-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GIIiXN-EfCTGutOISnrsw" name="Generics">
+        <modelElement href="PatientMicroService.uml#_tV3D4HN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GIIinN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GIIi3N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4GIIjHN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tXzkoXN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GIIjXN-EfCTGutOISnrsw" name="Optional">
+          <modelElement href="PatientMicroService.uml#_tXYG0XN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4GIIjnN-EfCTGutOISnrsw" name="id">
+        <modelElement href="PatientMicroService.uml#_tV2c1HN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GIIj3N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GIIkHN-EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4GIIkXN-EfCTGutOISnrsw" name="deleteById">
+      <modelElement href="PatientMicroService.uml#_tV3D4XN-EfCTGutOISnrsw"/>
+      <visibility xmi:id="_4GIIknN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GIIk3N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4GIIlHN-EfCTGutOISnrsw" name="id">
+        <modelElement href="PatientMicroService.uml#_tV3D4nN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GIIlXN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GIIlnN-EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4GIIl3N-EfCTGutOISnrsw" name="findByUserId">
+      <modelElement href="PatientMicroService.uml#_tV3D43N-EfCTGutOISnrsw"/>
+      <visibility xmi:id="_4GIImHN-EfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_4GIImXN-EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_4GIImnN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tV3q8XN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GIIm3N-EfCTGutOISnrsw" name="Patient">
+          <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4GIInHN-EfCTGutOISnrsw" name="userId">
+        <modelElement href="PatientMicroService.uml#_tV3q8HN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GIInXN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GIInnN-EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4GIIn3N-EfCTGutOISnrsw" name="save">
+      <modelElement href="PatientMicroService.uml#_tXn-cHN-EfCTGutOISnrsw"/>
+      <visibility xmi:id="_4GIIoHN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GIIoXN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4GIIonN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tXn-cnN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GIIo3N-EfCTGutOISnrsw" name="Patient">
+          <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4GIIpHN-EfCTGutOISnrsw" name="patient">
+        <modelElement href="PatientMicroService.uml#_tXn-cXN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GIIpXN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GIIpnN-EfCTGutOISnrsw" name="Patient">
+          <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4GCo-XN-EfCTGutOISnrsw" name="PatientController" associationsOut="_4GCo8HN-EfCTGutOISnrsw">
+    <modelElement href="PatientMicroService.uml#_tVc0NHN-EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_4GCo-nN-EfCTGutOISnrsw" position="344.0,-683.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_4GCo-3N-EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="PatientMicroService.uml#_tVc0NXN-EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_4GCo_HN-EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="PatientMicroService.uml#_tVkI8HN-EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_4GCo_XN-EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_4GCo_nN-EfCTGutOISnrsw" name="service">
+      <modelElement href="PatientMicroService.uml#_tX2A4HN-EfCTGutOISnrsw"/>
+      <visibility xmi:id="_4GCo_3N-EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_4GCpAHN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_4GCpAXN-EfCTGutOISnrsw" name="PatientService">
+        <modelElement href="PatientMicroService.uml#_tV11wHN-EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_4GCpAnN-EfCTGutOISnrsw" name="getAll">
+      <modelElement href="PatientMicroService.uml#_tVdbQHN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GCpA3N-EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="PatientMicroService.uml#_tVeCUHN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GCpBHN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GCpBXN-EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_4GCpBnN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tVdbQXN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GCpB3N-EfCTGutOISnrsw" name="Patient">
+          <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4GCpCHN-EfCTGutOISnrsw" name="getById">
+      <modelElement href="PatientMicroService.uml#_tVeCUnN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GCpCXN-EfCTGutOISnrsw" name="Generics">
+        <modelElement href="PatientMicroService.uml#_tVepYHN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4GCpCnN-EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="PatientMicroService.uml#_tVf3gHN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GCpC3N-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GCpDHN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4GCpDXN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tXvTMHN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GCpDnN-EfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="PatientMicroService.uml#_tXYt4XN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4GCpD3N-EfCTGutOISnrsw" name="id">
+        <modelElement href="PatientMicroService.uml#_tVeCU3N-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GCpEHN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GCpEXN-EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4GCpEnN-EfCTGutOISnrsw" name="delete">
+      <modelElement href="PatientMicroService.uml#_tVgekHN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GCpE3N-EfCTGutOISnrsw" name="Generics">
+        <modelElement href="PatientMicroService.uml#_tVhFoHN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4GCpFHN-EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="PatientMicroService.uml#_tViTwnN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GCpFXN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GCpFnN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4GCpF3N-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tXvTMnN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GCpGHN-EfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="PatientMicroService.uml#_tXYt4XN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4GCpGXN-EfCTGutOISnrsw" name="id">
+        <modelElement href="PatientMicroService.uml#_tVgekXN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GCpGnN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GCpG3N-EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4GCpHHN-EfCTGutOISnrsw" name="getByUserId">
+      <modelElement href="PatientMicroService.uml#_tVi60HN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GCpHXN-EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="PatientMicroService.uml#_tVjh4nN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GCpHnN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GCpH3N-EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_4GCpIHN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tVi60nN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GCpIXN-EfCTGutOISnrsw" name="Patient">
+          <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4GCpInN-EfCTGutOISnrsw" name="userId">
+        <modelElement href="PatientMicroService.uml#_tVi60XN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GCpI3N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GCpJHN-EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4GCpJXN-EfCTGutOISnrsw" name="PatientController">
+      <modelElement href="PatientMicroService.uml#_tXZU8XN-EfCTGutOISnrsw"/>
+      <keywords xmi:id="_4GCpJnN-EfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_4GCpJ3N-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tXZ8A3N-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GCpKHN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GCpKXN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4GCpKnN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tXZ8AnN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GCpK3N-EfCTGutOISnrsw" name="PatientController">
+          <modelElement href="PatientMicroService.uml#_tVc0NHN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4GCpLHN-EfCTGutOISnrsw" name="service">
+        <modelElement href="PatientMicroService.uml#_tXZU8nN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GCpLXN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GCpLnN-EfCTGutOISnrsw" name="PatientService">
+          <modelElement href="PatientMicroService.uml#_tV11wHN-EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4GCpL3N-EfCTGutOISnrsw" name="create">
+      <modelElement href="PatientMicroService.uml#_tXZ8BHN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GCpMHN-EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="PatientMicroService.uml#_tXajE3N-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GCpMXN-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GCpMnN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4GCpM3N-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tXajEHN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GCpNHN-EfCTGutOISnrsw" name="Patient">
+          <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4GCpNXN-EfCTGutOISnrsw" name="patient">
+        <modelElement href="PatientMicroService.uml#_tXZ8BXN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GCpNnN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GCpN3N-EfCTGutOISnrsw" name="Patient">
+          <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4GCpOHN-EfCTGutOISnrsw" name="update">
+      <modelElement href="PatientMicroService.uml#_tXajFXN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GCpOXN-EfCTGutOISnrsw" name="Generics">
+        <modelElement href="PatientMicroService.uml#_tXbKInN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4GCpOnN-EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="PatientMicroService.uml#_tXbxNHN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GCpO3N-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GCpPHN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4GCpPXN-EfCTGutOISnrsw">
+        <modelElement href="PatientMicroService.uml#_tXvTMXN-EfCTGutOISnrsw"/>
+        <type xmi:id="_4GCpPnN-EfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="PatientMicroService.uml#_tXYt4XN-EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4GCpP3N-EfCTGutOISnrsw" name="id">
+        <modelElement href="PatientMicroService.uml#_tXbKIHN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GCpQHN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GCpQXN-EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4GCpQnN-EfCTGutOISnrsw" name="patient">
+        <modelElement href="PatientMicroService.uml#_tXbKIXN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GCpQ3N-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_4GCpRHN-EfCTGutOISnrsw" name="Patient">
+          <modelElement href="PatientMicroService.uml#_tVnMQHN-EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4GNBAHN-EfCTGutOISnrsw" name="PatientMicroServiceApplicationTests">
+    <modelElement href="PatientMicroService.uml#_tV-YoHN-EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_4GNBAXN-EfCTGutOISnrsw" position="-92.0,-500.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_4GNBAnN-EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="PatientMicroService.uml#_tV-_sHN-EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_4GNBA3N-EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="PatientMicroService.uml#_tV_mwHN-EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_4GNBBHN-EfCTGutOISnrsw" label="~"/>
+    <operations xmi:id="_4GNBBXN-EfCTGutOISnrsw" name="contextLoads">
+      <modelElement href="PatientMicroService.uml#_tV-_sXN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GNBBnN-EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="PatientMicroService.uml#_tV-_snN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GNBB3N-EfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_4GNBCHN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4GAMsHN-EfCTGutOISnrsw" name="PatientMicroServiceApplication">
+    <modelElement href="PatientMicroService.uml#_tVaX8HN-EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_4GAMsXN-EfCTGutOISnrsw" position="140.0,-496.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_4GAMsnN-EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="PatientMicroService.uml#_tVa_AHN-EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_4GAMs3N-EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="PatientMicroService.uml#_tVc0MnN-EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_4GAMtHN-EfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_4GAMtXN-EfCTGutOISnrsw" name="main" staticOperation="true">
+      <modelElement href="PatientMicroService.uml#_tVcNKXN-EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_4GAMtnN-EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="PatientMicroService.uml#_tVc0MHN-EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_4GAMt3N-EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_4GAMuHN-EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4GAMuXN-EfCTGutOISnrsw" name="args">
+        <modelElement href="PatientMicroService.uml#_tVcNKnN-EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_4GAMunN-EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_4GAMu3N-EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,2013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_WwRAwHNiEfCTGutOISnrsw">
+  <modelElement href="BillMicroService.uml#_XjlUEHNiEfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bUNGAHNiEfCTGutOISnrsw" sourceAnchor="0.0,161.0" targetAnchor="8.0,216.0" target="_bWrLMHNiEfCTGutOISnrsw" source="_bUNtGHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_X22OUHNiEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_9pPQ9HNsEfCTGutOISnrsw" sourceX="-1770" targetY="594"/>
+    <stereotypes xmi:id="_bUNtEHNiEfCTGutOISnrsw" name="Reference">
+      <modelElement href="BillMicroService.uml#_X3DCoHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bUNtEXNiEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_bhCBEHNiEfCTGutOISnrsw" position="1.0,-59.49999999999943"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bUNtEnNiEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="BillMicroService.uml#_X22OUXNiEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_bhAL4XNiEfCTGutOISnrsw" position="-16.0,-89.5"/>
+      <visibility xmi:id="_bUNtE3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUNtFHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bUNtFXNiEfCTGutOISnrsw" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="BillMicroService.uml#_X0Cx8HNiEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_bhCBEXNiEfCTGutOISnrsw" position="-52.0,42.807692307692946"/>
+      <visibility xmi:id="_bUNtFnNiEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_bUNtF3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bUy74HNiEfCTGutOISnrsw" sourceAnchor="377.0,197.0" targetAnchor="148.0,177.0" target="_bWSJoHNiEfCTGutOISnrsw" source="_bUy76XNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_X3DCoXNiEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_9pPQ8HNsEfCTGutOISnrsw" sourceX="1" sourceY="482" targetX="1309" targetY="70"/>
+    <bendpoints xmi:id="_9pPQ8XNsEfCTGutOISnrsw" sourceX="-1307" sourceY="482" targetX="1" targetY="70"/>
+    <stereotypes xmi:id="_bUy74XNiEfCTGutOISnrsw" name="Reference">
+      <modelElement href="BillMicroService.uml#_X3PP4HNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bUy74nNiEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_bhDPMHNiEfCTGutOISnrsw" position="36.999999999999886,1.9999999999998863"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bUy743NiEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="BillMicroService.uml#_X3DConNiEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_bhCoIHNiEfCTGutOISnrsw" position="2.0,41.0"/>
+      <visibility xmi:id="_bUy75HNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUy75XNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bUy75nNiEfCTGutOISnrsw" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="BillMicroService.uml#_X0FOMHNiEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_bhD2QHNiEfCTGutOISnrsw" position="41.0,35.999999999999716"/>
+      <visibility xmi:id="_bUy753NiEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_bUy76HNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bVGd4HNiEfCTGutOISnrsw" source="_bVITEHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_X3jY8XNiEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_bVGd4XNiEfCTGutOISnrsw" name="Reference">
+      <modelElement href="BillMicroService.uml#_X3rUwHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bVGd4nNiEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_bVGd43NiEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="BillMicroService.uml#_X3jY8nNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bVGd5HNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVGd5XNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bVGd5nNiEfCTGutOISnrsw" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="BillMicroService.uml#_X1WZg3NiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bVGd53NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVGd6HNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bVHsAHNiEfCTGutOISnrsw" source="_bVITEHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_X3r70HNiEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_bVHsAXNiEfCTGutOISnrsw" name="Reference">
+      <modelElement href="BillMicroService.uml#_X3yCcHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bVHsAnNiEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_bVHsA3NiEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="BillMicroService.uml#_X3r70XNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bVHsBHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVHsBXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bVHsBnNiEfCTGutOISnrsw" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="BillMicroService.uml#_X1Y1wHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bVHsB3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVHsCHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bVSrIHNiEfCTGutOISnrsw" source="_bVb1EHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_X3PP4XNiEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_bVUgU3NiEfCTGutOISnrsw" name="Reference">
+      <modelElement href="BillMicroService.uml#_X3ZA4HNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bVUgUHNiEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_bVUgUXNiEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="BillMicroService.uml#_X3PP4nNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bVVucXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVVucHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bVUgUnNiEfCTGutOISnrsw" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="BillMicroService.uml#_X0jvUHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bVVuc3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVVucnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bVSrIXNiEfCTGutOISnrsw" source="_bVb1EHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_X3Zn8HNiEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_bVVHYnNiEfCTGutOISnrsw" name="Reference">
+      <modelElement href="BillMicroService.uml#_X3jY8HNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bVUgVHNiEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_bVVHYHNiEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="BillMicroService.uml#_X3Zn8XNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bVWVg3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVWVgnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bVVHYXNiEfCTGutOISnrsw" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="BillMicroService.uml#_X0k9c3NiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bVWVhXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVWVhHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bWvcoHNiEfCTGutOISnrsw" sourceAnchor="0.0,68.0" targetAnchor="508.0,65.0" target="_bWFVUHNiEfCTGutOISnrsw" source="_bWzHAHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_X34JEHNiEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_bWxR0nNiEfCTGutOISnrsw" name="Reference">
+      <modelElement href="BillMicroService.uml#_X38agHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bWwqwHNiEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_bhEdUXNiEfCTGutOISnrsw" position="-21.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bWxR0HNiEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="BillMicroService.uml#_X34JEXNiEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_bhEdUHNiEfCTGutOISnrsw" position="-16.0,41.0"/>
+      <visibility xmi:id="_bWyf8XNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWyf8HNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bWxR0XNiEfCTGutOISnrsw" aggregationKind="NONE" name="repo" navigable="true">
+      <modelElement href="BillMicroService.uml#_X1hYoHNiEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_bhFEYHNiEfCTGutOISnrsw" position="-6.0,-51.0"/>
+      <visibility xmi:id="_bWyf83NiEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_bWyf8nNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bWwDsHNiEfCTGutOISnrsw" sourceAnchor="0.0,212.0" targetAnchor="507.0,65.0" dashed="true" superClass="_bWrLMHNiEfCTGutOISnrsw" subClass="_bWzHAHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_Xy7XoHNiEfCTGutOISnrsw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bXAiYHNiEfCTGutOISnrsw" sourceAnchor="0.0,140.0" targetAnchor="201.0,150.0" target="_bWPtYHNiEfCTGutOISnrsw" source="_bXEMwHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_X3yCcXNiEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_9pPQ8nNsEfCTGutOISnrsw" sourceX="-1142" targetX="-1" targetY="154"/>
+    <stereotypes xmi:id="_bXCXk3NiEfCTGutOISnrsw" name="Reference">
+      <modelElement href="BillMicroService.uml#_X33iAHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bXCXkHNiEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_bhFrcXNiEfCTGutOISnrsw" position="40.99999999999977,-19.999999999999318"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bXCXkXNiEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="BillMicroService.uml#_X3yCcnNiEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_bhFrcHNiEfCTGutOISnrsw" position="-82.0,7.0"/>
+      <visibility xmi:id="_bXDlsXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bXDlsHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bXCXknNiEfCTGutOISnrsw" aggregationKind="NONE" name="repo" navigable="true">
+      <modelElement href="BillMicroService.uml#_X1gxkHNiEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_bhGSgHNiEfCTGutOISnrsw" position="-42.0,26.999999999999318"/>
+      <visibility xmi:id="_bXDls3NiEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_bXDlsnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bXBwgHNiEfCTGutOISnrsw" sourceAnchor="0.0,170.0" targetAnchor="149.0,177.0" dashed="true" superClass="_bWSJoHNiEfCTGutOISnrsw" subClass="_bXEMwHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_Xy1RAHNiEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_9pPQ83NsEfCTGutOISnrsw" sourceX="-1747" targetX="1" targetY="148"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bWFVUHNiEfCTGutOISnrsw" name="BillRepository" associationsIn="_bWvcoHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_XqRK4HNiEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_bWFVUXNiEfCTGutOISnrsw" position="-1228.0,-445.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bWFVUnNiEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_bWFVU3NiEfCTGutOISnrsw" name="findByPatientId">
+      <modelElement href="BillMicroService.uml#_XqSZAHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWFVVHNiEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_bWFVVXNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bWFVVnNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XqTnIHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWFVV3NiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWFVWHNiEfCTGutOISnrsw" name="patientId">
+        <modelElement href="BillMicroService.uml#_XqSZAXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWFVWXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWFVWnNiEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWFVW3NiEfCTGutOISnrsw" name="findByBillId">
+      <modelElement href="BillMicroService.uml#_XqUOMHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWFVXHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWFVXXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bWFVXnNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xypq0HNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWFVX3NiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWFVYHNiEfCTGutOISnrsw" name="billId">
+        <modelElement href="BillMicroService.uml#_XqUOMXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWFVYXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWFVYnNiEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWFVY3NiEfCTGutOISnrsw" name="findByAppointmentId">
+      <modelElement href="BillMicroService.uml#_XqU1QHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWFVZHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWFVZXNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bWFVZnNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XqWDYHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWFVZ3NiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWFVaHNiEfCTGutOISnrsw" name="appointmentId">
+        <modelElement href="BillMicroService.uml#_XqVcUHNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWFVaXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWFVanNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWFVa3NiEfCTGutOISnrsw" name="findByAppointmentIdAndBillType">
+      <modelElement href="BillMicroService.uml#_XqWqcHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWFVbHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWFVbXNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bWFVbnNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XqXRgnNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWFVb3NiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWFVcHNiEfCTGutOISnrsw" name="appointmentId">
+        <modelElement href="BillMicroService.uml#_XqXRgHNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWFVcXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWFVcnNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bWFVc3NiEfCTGutOISnrsw" name="billType">
+        <modelElement href="BillMicroService.uml#_XqXRgXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWFVdHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWFVdXNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bWzHAHNiEfCTGutOISnrsw" name="BillServiceImpl" associationsOut="_bWvcoHNiEfCTGutOISnrsw" generalizations="_bWwDsHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_XqxhMHNiEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_bWzHAXNiEfCTGutOISnrsw" position="-693.0,-448.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bWzHAnNiEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="BillMicroService.uml#_Xq1LkHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bWzHA3NiEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="BillMicroService.uml#_XrGRUHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_bWzHBHNiEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_bWzHBXNiEfCTGutOISnrsw" name="repo">
+      <modelElement href="BillMicroService.uml#_X1hYoHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWzHBnNiEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_bWzHB3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bWzHCHNiEfCTGutOISnrsw" name="BillRepository">
+        <modelElement href="BillMicroService.uml#_XqRK4HNiEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bWzHCXNiEfCTGutOISnrsw" name="findAll">
+      <modelElement href="BillMicroService.uml#_Xq2ZsHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bWzHCnNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_Xq4O4HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bWzuEHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWzuEXNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bWzuEnNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xq3AwHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWzuE3NiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bWzuFHNiEfCTGutOISnrsw" name="findByMongoId">
+      <modelElement href="BillMicroService.uml#_Xq418HNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bWzuFXNiEfCTGutOISnrsw" name="Generics">
+        <modelElement href="BillMicroService.uml#_Xq6EEHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bWzuFnNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_Xq6rIHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bWzuF3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWzuGHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bWzuGXNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xz3y0HNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWzuGnNiEfCTGutOISnrsw" name="Optional">
+          <modelElement href="BillMicroService.uml#_XxjeoHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWzuG3NiEfCTGutOISnrsw" name="id">
+        <modelElement href="BillMicroService.uml#_Xq418XNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWzuHHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWzuHXNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWzuHnNiEfCTGutOISnrsw" name="findById">
+      <modelElement href="BillMicroService.uml#_Xq75QHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bWzuH3NiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_Xq9ucHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bWzuIHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWzuIXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bWzuInNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xy-a8HNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWzuI3NiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWzuJHNiEfCTGutOISnrsw" name="id">
+        <modelElement href="BillMicroService.uml#_Xq75QXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWzuJXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWzuJnNiEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWzuJ3NiEfCTGutOISnrsw" name="findByPatientId">
+      <modelElement href="BillMicroService.uml#_Xq-VgHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bWzuKHNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_Xq_joHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bWzuKXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWzuKnNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bWzuK3NiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xq-8kXNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWzuLHNiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWzuLXNiEfCTGutOISnrsw" name="patientId">
+        <modelElement href="BillMicroService.uml#_Xq-8kHNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWzuLnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWzuL3NiEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWzuMHNiEfCTGutOISnrsw" name="deleteById">
+      <modelElement href="BillMicroService.uml#_Xq_jonNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bWzuMXNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XrBY0HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bWzuMnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWzuM3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bWzuNHNiEfCTGutOISnrsw" name="id">
+        <modelElement href="BillMicroService.uml#_XrAxwHNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWzuNXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWzuNnNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWzuN3NiEfCTGutOISnrsw" name="findByAppointmentId">
+      <modelElement href="BillMicroService.uml#_XrB_4HNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bWzuOHNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XrDOAHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bWzuOXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWzuOnNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bWzuO3NiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XrB_4nNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWzuPHNiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWzuPXNiEfCTGutOISnrsw" name="appointmentId">
+        <modelElement href="BillMicroService.uml#_XrB_4XNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWzuPnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWzuP3NiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWzuQHNiEfCTGutOISnrsw" name="findByAppointmentIdAndBillType">
+      <modelElement href="BillMicroService.uml#_XrD1EHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bWzuQXNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XrFqQHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bWzuQnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWzuQ3NiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bWzuRHNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XrEcIXNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWzuRXNiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWzuRnNiEfCTGutOISnrsw" name="appointmentId">
+        <modelElement href="BillMicroService.uml#_XrD1EXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWzuR3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWzuSHNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bWzuSXNiEfCTGutOISnrsw" name="billType">
+        <modelElement href="BillMicroService.uml#_XrEcIHNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWzuSnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWzuS3NiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWzuTHNiEfCTGutOISnrsw" name="BillServiceImpl">
+      <modelElement href="BillMicroService.uml#_Xy7-sHNiEfCTGutOISnrsw"/>
+      <keywords xmi:id="_bWzuTXNiEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_bWzuTnNiEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="BillMicroService.uml#_Xy8lw3NiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bWzuT3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWzuUHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bWzuUXNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xy8lwnNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWzuUnNiEfCTGutOISnrsw" name="BillServiceImpl">
+          <modelElement href="BillMicroService.uml#_XqxhMHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWzuU3NiEfCTGutOISnrsw" name="repo">
+        <modelElement href="BillMicroService.uml#_Xy7-sXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWzuVHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWzuVXNiEfCTGutOISnrsw" name="BillRepository">
+          <modelElement href="BillMicroService.uml#_XqRK4HNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWzuVnNiEfCTGutOISnrsw" name="save">
+      <modelElement href="BillMicroService.uml#_Xy8lxHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bWzuV3NiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_Xy9M0XNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bWzuWHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWzuWXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bWzuWnNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xy9M0HNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWzuW3NiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWzuXHNiEfCTGutOISnrsw" name="bill">
+        <modelElement href="BillMicroService.uml#_Xy8lxXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWzuXXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWzuXnNiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bWSJoHNiEfCTGutOISnrsw" name="BillItemService" associationsIn="_bUy74HNiEfCTGutOISnrsw" subclassedBy="_bXBwgHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_XqZtwHNiEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_bWSJoXNiEfCTGutOISnrsw" position="-1212.0,-25.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bWSJonNiEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_bWSJo3NiEfCTGutOISnrsw" name="findAll">
+      <modelElement href="BillMicroService.uml#_Xqbi8HNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWSJpHNiEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_bWSJpXNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bWSJpnNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XqcKAHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWSJp3NiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bWSJqHNiEfCTGutOISnrsw" name="findById">
+      <modelElement href="BillMicroService.uml#_XqcxEHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bWSJqXNiEfCTGutOISnrsw" name="Generics">
+        <modelElement href="BillMicroService.uml#_XqdYIHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bWSJqnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWSJq3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bWSJrHNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xz19oHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWSJrXNiEfCTGutOISnrsw" name="Optional">
+          <modelElement href="BillMicroService.uml#_XxjeoHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWSJrnNiEfCTGutOISnrsw" name="id">
+        <modelElement href="BillMicroService.uml#_XqcxEXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWSJr3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWSJsHNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWSJsXNiEfCTGutOISnrsw" name="findByBillItemId">
+      <modelElement href="BillMicroService.uml#_Xqd_MHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWSJsnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWSJs3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bWSJtHNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XysHEHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWSJtXNiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWSJtnNiEfCTGutOISnrsw" name="billItemId">
+        <modelElement href="BillMicroService.uml#_Xqd_MXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWSJt3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWSJuHNiEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWSJuXNiEfCTGutOISnrsw" name="findByBillId">
+      <modelElement href="BillMicroService.uml#_XqemQHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWSJunNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWSJu3NiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bWSJvHNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XqemQnNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWSJvXNiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWSJvnNiEfCTGutOISnrsw" name="billId">
+        <modelElement href="BillMicroService.uml#_XqemQXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWSJv3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWSJwHNiEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWSJwXNiEfCTGutOISnrsw" name="deleteById">
+      <modelElement href="BillMicroService.uml#_XqfNUHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWSJwnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWSJw3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bWSJxHNiEfCTGutOISnrsw" name="id">
+        <modelElement href="BillMicroService.uml#_XqfNUXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWSJxXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWSJxnNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWSJx3NiEfCTGutOISnrsw" name="save">
+      <modelElement href="BillMicroService.uml#_XyrgAHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWSJyHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWSJyXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bWSJynNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XyrgAnNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWSJy3NiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWSJzHNiEfCTGutOISnrsw" name="item">
+        <modelElement href="BillMicroService.uml#_XyrgAXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWSJzXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWSJznNiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bWPtYHNiEfCTGutOISnrsw" name="BillItemRepository" associationsIn="_bXAiYHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_XqM5cHNiEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_bWPtYXNiEfCTGutOISnrsw" position="-657.0,-34.0" size="402.0,150.0"/>
+    <visibility xmi:id="_bWPtYnNiEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_bWPtY3NiEfCTGutOISnrsw" name="findByBillId">
+      <modelElement href="BillMicroService.uml#_XqOHkHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWPtZHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWPtZXNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bWPtZnNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XqOHknNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWPtZ3NiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWPtaHNiEfCTGutOISnrsw" name="billId">
+        <modelElement href="BillMicroService.uml#_XqOHkXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWPtaXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWPtanNiEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWPta3NiEfCTGutOISnrsw" name="findByBillItemId">
+      <modelElement href="BillMicroService.uml#_XqPVsHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWPtbHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWPtbXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bWPtbnNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XypDwHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWPtb3NiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWPtcHNiEfCTGutOISnrsw" name="billItemId">
+        <modelElement href="BillMicroService.uml#_XqPVsXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWPtcXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWPtcnNiEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bXKTYHNiEfCTGutOISnrsw" name="BillMicroServiceApplicationTests">
+    <modelElement href="BillMicroService.uml#_XrKiwHNiEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_bXKTYXNiEfCTGutOISnrsw" position="-233.0,53.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bXKTYnNiEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="BillMicroService.uml#_XrLJ03NiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bXKTY3NiEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="BillMicroService.uml#_XrLw4nNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_bXKTZHNiEfCTGutOISnrsw" label="~"/>
+    <operations xmi:id="_bXKTZXNiEfCTGutOISnrsw" name="contextLoads">
+      <modelElement href="BillMicroService.uml#_XrLJ1HNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bXKTZnNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XrLw4HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bXKTZ3NiEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_bXKTaHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bWrLMHNiEfCTGutOISnrsw" name="BillService" associationsIn="_bUNGAHNiEfCTGutOISnrsw" subclassedBy="_bWwDsHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_Xqf0YHNiEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_bWrLMXNiEfCTGutOISnrsw" position="-1235.0,-301.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bWrLMnNiEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_bWrLM3NiEfCTGutOISnrsw" name="findAll">
+      <modelElement href="BillMicroService.uml#_XqgbcHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWrLNHNiEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_bWrLNXNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bWrLNnNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XqgbcXNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWrLN3NiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bWrLOHNiEfCTGutOISnrsw" name="findByMongoId">
+      <modelElement href="BillMicroService.uml#_XqhCgHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bWrLOXNiEfCTGutOISnrsw" name="Generics">
+        <modelElement href="BillMicroService.uml#_XqhpkHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bWrLOnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWrLO3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bWrLPHNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xz2ksHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWrLPXNiEfCTGutOISnrsw" name="Optional">
+          <modelElement href="BillMicroService.uml#_XxjeoHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWrLPnNiEfCTGutOISnrsw" name="id">
+        <modelElement href="BillMicroService.uml#_XqhCgXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWrLP3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWrLQHNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWryQHNiEfCTGutOISnrsw" name="findById">
+      <modelElement href="BillMicroService.uml#_XqhpkXNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWryQXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWryQnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bWryQ3NiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XyujUHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWryRHNiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWryRXNiEfCTGutOISnrsw" name="id">
+        <modelElement href="BillMicroService.uml#_XqhpknNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWryRnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWryR3NiEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWrySHNiEfCTGutOISnrsw" name="findByPatientId">
+      <modelElement href="BillMicroService.uml#_Xqi3sHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWrySXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWrySnNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bWryS3NiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xqi3snNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWryTHNiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWryTXNiEfCTGutOISnrsw" name="patientId">
+        <modelElement href="BillMicroService.uml#_Xqi3sXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWryTnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWryT3NiEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWryUHNiEfCTGutOISnrsw" name="deleteById">
+      <modelElement href="BillMicroService.uml#_Xqi3tHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWryUXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWryUnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bWryU3NiEfCTGutOISnrsw" name="id">
+        <modelElement href="BillMicroService.uml#_Xqi3tXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWryVHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWryVXNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWryVnNiEfCTGutOISnrsw" name="findByAppointmentId">
+      <modelElement href="BillMicroService.uml#_XqjewHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWryV3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWryWHNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bWryWXNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XqkF0HNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWryWnNiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWryW3NiEfCTGutOISnrsw" name="appointmentId">
+        <modelElement href="BillMicroService.uml#_XqjewXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWryXHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWryXXNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWryXnNiEfCTGutOISnrsw" name="findByAppointmentIdAndBillType">
+      <modelElement href="BillMicroService.uml#_Xqks4HNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWryX3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWryYHNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bWryYXNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XqlT8nNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWryYnNiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWryY3NiEfCTGutOISnrsw" name="appointmentId">
+        <modelElement href="BillMicroService.uml#_XqlT8HNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWryZHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWryZXNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bWryZnNiEfCTGutOISnrsw" name="billType">
+        <modelElement href="BillMicroService.uml#_XqlT8XNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWryZ3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWryaHNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bWryaXNiEfCTGutOISnrsw" name="save">
+      <modelElement href="BillMicroService.uml#_Xyt8QHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bWryanNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bWrya3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bWrybHNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xyt8QnNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bWrybXNiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bWrybnNiEfCTGutOISnrsw" name="bill">
+        <modelElement href="BillMicroService.uml#_Xyt8QXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bWryb3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bWrycHNiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bVITEHNiEfCTGutOISnrsw" name="BillItem" associationsOut="_bVGd4HNiEfCTGutOISnrsw _bVHsAHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_bVITEXNiEfCTGutOISnrsw" position="-896.0,-81.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bVITEnNiEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="BillMicroService.uml#_Xp5-gHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bVITE3NiEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="BillMicroService.uml#_Xp_eEHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bVITFHNiEfCTGutOISnrsw" name="Patch">
+      <modelElement href="BillMicroService.uml#_bR28oHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_bVITFXNiEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_bVITFnNiEfCTGutOISnrsw" name="id">
+      <modelElement href="BillMicroService.uml#_X0-mEHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVITF3NiEfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="BillMicroService.uml#_X0_0MHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVITGHNiEfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="BillMicroService.uml#_X1BCUHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVITGXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVITGnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVITG3NiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVITHHNiEfCTGutOISnrsw" name="billItemId">
+      <modelElement href="BillMicroService.uml#_X1BpYHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVITHXNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X1C3gHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVITHnNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X1EssHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVITH3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVITIHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVITIXNiEfCTGutOISnrsw" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVITInNiEfCTGutOISnrsw" name="billId">
+      <modelElement href="BillMicroService.uml#_X1FTwHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVITI3NiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X1F60HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVITJHNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X1HwAHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVITJXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVITJnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVITJ3NiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVITKHNiEfCTGutOISnrsw" name="description">
+      <modelElement href="BillMicroService.uml#_X1IXEHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVITKXNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X1KMQHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVITKnNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X1LaYHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVITK3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVITLHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVITLXNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVITLnNiEfCTGutOISnrsw" name="quantity">
+      <modelElement href="BillMicroService.uml#_X1MBcHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVITL3NiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X1MogHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVITMHNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X1N2oHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVITMXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVITMnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVITM3NiEfCTGutOISnrsw" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVITNHNiEfCTGutOISnrsw" name="unitPrice">
+      <modelElement href="BillMicroService.uml#_X1OdsHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVITNXNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X1PEwHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVITNnNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X1Q58HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVITN3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVITOHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVITOXNiEfCTGutOISnrsw" name="Double">
+        <modelElement href="BillMicroService.uml#_XzgmcXNiEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVITOnNiEfCTGutOISnrsw" name="serviceDate">
+      <modelElement href="BillMicroService.uml#_X1SIEHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVITO3NiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X1SvIHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVITPHNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X1T9QXNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVITPXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVITPnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVITP3NiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVITQHNiEfCTGutOISnrsw" name="notes">
+      <modelElement href="BillMicroService.uml#_X1UkUHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVITQXNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X1VLYHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVITQnNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X1WZgHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVITQ3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVITRHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVITRXNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVITRnNiEfCTGutOISnrsw" name="createdAt">
+      <modelElement href="BillMicroService.uml#_X1WZg3NiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVITR3NiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X1XAkHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVITSHNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X1YOsHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVITSXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVITSnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVITS3NiEfCTGutOISnrsw" name="Instant">
+        <modelElement href="BillMicroService.uml#_Xx-8cHNiEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVITTHNiEfCTGutOISnrsw" name="updatedAt">
+      <modelElement href="BillMicroService.uml#_X1Y1wHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVITTXNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X1Y1wXNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVITTnNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X1Zc0XNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVITT3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVITUHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVITUXNiEfCTGutOISnrsw" name="Instant">
+        <modelElement href="BillMicroService.uml#_Xx-8cHNiEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVITUnNiEfCTGutOISnrsw" name="appointmentId">
+      <modelElement href="BillMicroService.uml#_X1aq8HNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVITU3NiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X1b5EHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVITVHNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X1dHMHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVITVXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVITVnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVITV3NiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bVITWHNiEfCTGutOISnrsw" name="BillItem">
+      <modelElement href="BillMicroService.uml#_Xp9B0HNiEfCTGutOISnrsw"/>
+      <keywords xmi:id="_bVITWXNiEfCTGutOISnrsw" keyword="create"/>
+      <visibility xmi:id="_bVITWnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVITW3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bVITXHNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xp-P8HNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bVITXXNiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bUn8wHNiEfCTGutOISnrsw" name="FileUploadResponse">
+    <modelElement href="BillMicroService.uml#_XoH10XNiEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_bUn8wXNiEfCTGutOISnrsw" position="-689.0,-198.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_bUn8wnNiEfCTGutOISnrsw" keyword="sameFile"/>
+    <stereotypes xmi:id="_bUn8w3NiEfCTGutOISnrsw" name="StyledElement">
+      <modelElement href="BillMicroService.uml#_XoIc4nNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_bUn8xHNiEfCTGutOISnrsw" label="~"/>
+    <attributes xmi:id="_bUn8xXNiEfCTGutOISnrsw" name="message">
+      <modelElement href="BillMicroService.uml#_Xz_uoHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bUn8xnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUn8x3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bUn8yHNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bUn8yXNiEfCTGutOISnrsw" name="fileName">
+      <modelElement href="BillMicroService.uml#_X0A8wHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bUn8ynNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUn8y3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bUn8zHNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bUn8zXNiEfCTGutOISnrsw" name="filePath">
+      <modelElement href="BillMicroService.uml#_X0Bj0HNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bUn8znNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUn8z3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bUn80HNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bUn80XNiEfCTGutOISnrsw" name="fileUrl">
+      <modelElement href="BillMicroService.uml#_X0CK4HNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bUn80nNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUn803NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bUn81HNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bUn81XNiEfCTGutOISnrsw" name="FileUploadResponse">
+      <modelElement href="BillMicroService.uml#_XoKSEHNiEfCTGutOISnrsw"/>
+      <keywords xmi:id="_bUn81nNiEfCTGutOISnrsw" keyword="create"/>
+      <visibility xmi:id="_bUn813NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUn82HNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUn82XNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XoK5I3NiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUn82nNiEfCTGutOISnrsw" name="FileUploadResponse">
+          <modelElement href="BillMicroService.uml#_XoH10XNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUn823NiEfCTGutOISnrsw" name="message">
+        <modelElement href="BillMicroService.uml#_XoKSEXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUn83HNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUn83XNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bUn83nNiEfCTGutOISnrsw" name="fileName">
+        <modelElement href="BillMicroService.uml#_XoKSEnNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUn833NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUn84HNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bUn84XNiEfCTGutOISnrsw" name="filePath">
+        <modelElement href="BillMicroService.uml#_XoKSE3NiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUn84nNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUn843NiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bUn85HNiEfCTGutOISnrsw" name="fileUrl">
+        <modelElement href="BillMicroService.uml#_XoK5IHNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUn85XNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUn85nNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bVb1EHNiEfCTGutOISnrsw" name="Bill" associationsOut="_bVSrIHNiEfCTGutOISnrsw _bVSrIXNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_bVccIHNiEfCTGutOISnrsw" position="-30.0,-249.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bVccIXNiEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="BillMicroService.uml#_XpiLEHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bVccInNiEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="BillMicroService.uml#_XpnDkHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bVccI3NiEfCTGutOISnrsw" name="Patch">
+      <modelElement href="BillMicroService.uml#_bRwO8HNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_bVccJHNiEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_bVccJXNiEfCTGutOISnrsw" name="id">
+      <modelElement href="BillMicroService.uml#_X0GcUHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccJnNiEfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="BillMicroService.uml#_X0KGsHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVccJ3NiEfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="BillMicroService.uml#_X0LU0HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccKHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVccKXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccKnNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVccK3NiEfCTGutOISnrsw" name="billId">
+      <modelElement href="BillMicroService.uml#_X0L74HNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccLHNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X0Mi8HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVccLXNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X0OYIHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccLnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVccL3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccMHNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVccMXNiEfCTGutOISnrsw" name="patientId">
+      <modelElement href="BillMicroService.uml#_X0PmQHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccMnNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X0PmQXNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVccM3NiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X0QNUnNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccNHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVccNXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccNnNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVccN3NiEfCTGutOISnrsw" name="billDate">
+      <modelElement href="BillMicroService.uml#_X0Q0YXNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccOHNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X0RbcHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVccOXNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X0SCgHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccOnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVccO3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccPHNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVccPXNiEfCTGutOISnrsw" name="totalAmount">
+      <modelElement href="BillMicroService.uml#_X0SCg3NiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccPnNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X0SpkHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVccP3NiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X0TQoHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccQHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVccQXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccQnNiEfCTGutOISnrsw" name="Double">
+        <modelElement href="BillMicroService.uml#_XzgmcXNiEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVccQ3NiEfCTGutOISnrsw" name="amountPaid">
+      <modelElement href="BillMicroService.uml#_X0T3sHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccRHNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X0UewHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVccRXNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X0Vs4HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccRnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVccR3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccSHNiEfCTGutOISnrsw" name="Double">
+        <modelElement href="BillMicroService.uml#_XzgmcXNiEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVccSXNiEfCTGutOISnrsw" name="balanceDue">
+      <modelElement href="BillMicroService.uml#_X0WT8HNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccSnNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X0W7AHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccS3NiEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_bVccTHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccTXNiEfCTGutOISnrsw" name="Double">
+        <modelElement href="BillMicroService.uml#_XzgmcXNiEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVccTnNiEfCTGutOISnrsw" name="paymentMethod">
+      <modelElement href="BillMicroService.uml#_X0W7A3NiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccT3NiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X0XiEHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVccUHNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X0YwMHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccUXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVccUnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccU3NiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVccVHNiEfCTGutOISnrsw" name="status">
+      <modelElement href="BillMicroService.uml#_X0YwM3NiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccVXNiEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="BillMicroService.uml#_X0YwNHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccVnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVccV3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccWHNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVccWXNiEfCTGutOISnrsw" name="billType">
+      <modelElement href="BillMicroService.uml#_X0YwNXNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccWnNiEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="BillMicroService.uml#_X0ZXQHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccW3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVccXHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccXXNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVccXnNiEfCTGutOISnrsw" name="paymentMode">
+      <modelElement href="BillMicroService.uml#_X0ZXQXNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccX3NiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X0Z-UHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccYHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVccYXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccYnNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVccY3NiEfCTGutOISnrsw" name="transactionId">
+      <modelElement href="BillMicroService.uml#_X0bMcHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccZHNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X0bMcXNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVccZXNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X0dBoHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccZnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVccZ3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccaHNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVccaXNiEfCTGutOISnrsw" name="issuedByUserId">
+      <modelElement href="BillMicroService.uml#_X0dosHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccanNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X0e20HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVcca3NiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X0gE8HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccbHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVccbXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccbnNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVccb3NiEfCTGutOISnrsw" name="billDocumentUrl">
+      <modelElement href="BillMicroService.uml#_X0gsAXNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVcccHNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X0h6IHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVcccXNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X0ihMXNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVcccnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVccc3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccdHNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVccdXNiEfCTGutOISnrsw" name="createdAt">
+      <modelElement href="BillMicroService.uml#_X0jvUHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccdnNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X0jvUXNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVccd3NiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X0k9cHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVcceHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVcceXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccenNiEfCTGutOISnrsw" name="Instant">
+        <modelElement href="BillMicroService.uml#_Xx-8cHNiEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVcce3NiEfCTGutOISnrsw" name="updatedAt">
+      <modelElement href="BillMicroService.uml#_X0k9c3NiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccfHNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X0lkgHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVccfXNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X0mLkHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccfnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVccf3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccgHNiEfCTGutOISnrsw" name="Instant">
+        <modelElement href="BillMicroService.uml#_Xx-8cHNiEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVccgXNiEfCTGutOISnrsw" name="bills">
+      <modelElement href="BillMicroService.uml#_X0mLk3NiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccgnNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X0myoHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVccg3NiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X0nZsnNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVcchHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVcchXNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_bVcchnNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bVcch3NiEfCTGutOISnrsw" name="appointmentId">
+      <modelElement href="BillMicroService.uml#_X03RUHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVcciHNiEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="BillMicroService.uml#_X034YHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bVcciXNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_X05tkHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccinNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVcci3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bVccjHNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bVccjXNiEfCTGutOISnrsw" name="getBalanceDue">
+      <modelElement href="BillMicroService.uml#_Xpl1cHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVccjnNiEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="BillMicroService.uml#_XpmcgHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVccj3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVcckHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bVcckXNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XzkQ0HNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bVccknNiEfCTGutOISnrsw" name="Double">
+          <modelElement href="BillMicroService.uml#_XzgmcXNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bVcck3NiEfCTGutOISnrsw" name="setBalanceDue">
+      <modelElement href="BillMicroService.uml#_Xzk34HNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bVcclHNiEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="BillMicroService.uml#_Xzk34nNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bVcclXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bVcclnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bVccl3NiEfCTGutOISnrsw" name="balanceDue">
+        <modelElement href="BillMicroService.uml#_Xzk34XNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bVdDMHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bVdDMXNiEfCTGutOISnrsw" name="Double">
+          <modelElement href="BillMicroService.uml#_XzgmcXNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bUy76XNiEfCTGutOISnrsw" name="BillItemController" associationsOut="_bUy74HNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_XpE4EHNiEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_bUy76nNiEfCTGutOISnrsw" position="-133.0,-457.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bUy763NiEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="BillMicroService.uml#_XpGtQHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bUy77HNiEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="BillMicroService.uml#_XpZoMHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_bUy77XNiEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_bUy77nNiEfCTGutOISnrsw" name="service">
+      <modelElement href="BillMicroService.uml#_X0FOMHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bUy773NiEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_bUy78HNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bUy78XNiEfCTGutOISnrsw" name="BillItemService">
+        <modelElement href="BillMicroService.uml#_XqZtwHNiEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bUy78nNiEfCTGutOISnrsw" name="getAll">
+      <modelElement href="BillMicroService.uml#_XpH7YHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUy783NiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XpJJgHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUy79HNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUy79XNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bUy79nNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XpIicHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUy793NiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bUy7-HNiEfCTGutOISnrsw" name="getBy_Id">
+      <modelElement href="BillMicroService.uml#_XpKXoHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUy7-XNiEfCTGutOISnrsw" name="Generics">
+        <modelElement href="BillMicroService.uml#_XpMM0HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bUy7-nNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XpPQIHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUy7-3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUy7_HNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUy7_XNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XzdjIHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUy7_nNiEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="BillMicroService.uml#_XxkswHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUy7_3NiEfCTGutOISnrsw" name="_id">
+        <modelElement href="BillMicroService.uml#_XpKXoXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUy8AHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUy8AXNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bUy8AnNiEfCTGutOISnrsw" name="getByBillId">
+      <modelElement href="BillMicroService.uml#_XpP3MHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUy8A3NiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XpSTcHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUy8BHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUy8BXNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bUy8BnNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XpQeQXNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUy8B3NiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUy8CHNiEfCTGutOISnrsw" name="billId">
+        <modelElement href="BillMicroService.uml#_XpQeQHNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUy8CXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUy8CnNiEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bUy8C3NiEfCTGutOISnrsw" name="delete">
+      <modelElement href="BillMicroService.uml#_XpThkHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUy8DHNiEfCTGutOISnrsw" name="Generics">
+        <modelElement href="BillMicroService.uml#_XpV90HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bUy8DXNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XpYaEHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUy8DnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUy8D3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUy8EHNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XzeKMXNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUy8EXNiEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="BillMicroService.uml#_XxkswHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUy8EnNiEfCTGutOISnrsw" name="_id">
+        <modelElement href="BillMicroService.uml#_XpUIoHNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUy8E3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUy8FHNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bUy8FXNiEfCTGutOISnrsw" name="BillItemController">
+      <modelElement href="BillMicroService.uml#_Xx3nsHNiEfCTGutOISnrsw"/>
+      <keywords xmi:id="_bUy8FnNiEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_bUy8F3NiEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="BillMicroService.uml#_Xx4OwHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUy8GHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUy8GXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUy8GnNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xx3ntHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUy8G3NiEfCTGutOISnrsw" name="BillItemController">
+          <modelElement href="BillMicroService.uml#_XpE4EHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUy8HHNiEfCTGutOISnrsw" name="service">
+        <modelElement href="BillMicroService.uml#_Xx3nsXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUy8HXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUy8HnNiEfCTGutOISnrsw" name="BillItemService">
+          <modelElement href="BillMicroService.uml#_XqZtwHNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bUy8H3NiEfCTGutOISnrsw" name="create">
+      <modelElement href="BillMicroService.uml#_Xx410HNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUy8IHNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_Xx5c4nNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUy8IXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUy8InNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUy8I3NiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xx410nNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUy8JHNiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUy8JXNiEfCTGutOISnrsw" name="item">
+        <modelElement href="BillMicroService.uml#_Xx410XNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUy8JnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUy8J3NiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bUy8KHNiEfCTGutOISnrsw" name="update">
+      <modelElement href="BillMicroService.uml#_Xx6D8HNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUy8KXNiEfCTGutOISnrsw" name="Generics">
+        <modelElement href="BillMicroService.uml#_Xx6rAHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bUy8KnNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_Xx8gMXNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUy8K3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUy8LHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUy8LXNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XzeKMHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUy8LnNiEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="BillMicroService.uml#_XxkswHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUy8L3NiEfCTGutOISnrsw" name="_id">
+        <modelElement href="BillMicroService.uml#_Xx6D8XNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUy8MHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUy8MXNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bUy8MnNiEfCTGutOISnrsw" name="item">
+        <modelElement href="BillMicroService.uml#_Xx6D8nNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUy8M3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUy8NHNiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bSXS8HNiEfCTGutOISnrsw" name="BillMicroServiceApplication">
+    <modelElement href="BillMicroService.uml#_XnoGkHNiEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_bSX6AHNiEfCTGutOISnrsw" position="324.0,376.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bSX6AXNiEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="BillMicroService.uml#_Xnu0QHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bSX6AnNiEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="BillMicroService.uml#_Xn8PoHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_bSX6A3NiEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_bSX6BHNiEfCTGutOISnrsw" name="main" staticOperation="true">
+      <modelElement href="BillMicroService.uml#_Xn1h8HNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bSX6BXNiEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="BillMicroService.uml#_Xn4lQHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bSX6BnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bSX6B3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bSX6CHNiEfCTGutOISnrsw" name="args">
+        <modelElement href="BillMicroService.uml#_Xn2JAHNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bSX6CXNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_bSX6CnNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bT6yIHNiEfCTGutOISnrsw" name="WebConfig">
+    <modelElement href="BillMicroService.uml#_XoC9UHNiEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_bT7ZMHNiEfCTGutOISnrsw" position="297.0,180.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bT7ZMXNiEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="BillMicroService.uml#_XoDkYHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bT7ZMnNiEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="BillMicroService.uml#_XoEygHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_bT7ZM3NiEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_bT7ZNHNiEfCTGutOISnrsw" name="addCorsMappings">
+      <modelElement href="BillMicroService.uml#_XzTLEHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bT7ZNXNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XzUZMHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bT7ZNnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bT7ZN3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bT7ZOHNiEfCTGutOISnrsw" name="registry">
+        <modelElement href="BillMicroService.uml#_XzTLEXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bT7ZOXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bT7ZOnNiEfCTGutOISnrsw" name="CorsRegistry">
+          <modelElement href="BillMicroService.uml#_Xxbi0HNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bXEMwHNiEfCTGutOISnrsw" name="BillItemServiceImpl" associationsOut="_bXAiYHNiEfCTGutOISnrsw" generalizations="_bXBwgHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_XqnwMHNiEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_bXEMwXNiEfCTGutOISnrsw" position="686.0,130.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bXEMwnNiEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="BillMicroService.uml#_XqoXQHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bXEMw3NiEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="BillMicroService.uml#_XqvsAHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_bXEMxHNiEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_bXEMxXNiEfCTGutOISnrsw" name="repo">
+      <modelElement href="BillMicroService.uml#_X1gxkHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bXEMxnNiEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_bXEMx3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bXEMyHNiEfCTGutOISnrsw" name="BillItemRepository">
+        <modelElement href="BillMicroService.uml#_XqM5cHNiEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bXEMyXNiEfCTGutOISnrsw" name="findAll">
+      <modelElement href="BillMicroService.uml#_Xqo-UHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bXEMynNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XqplYHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bXEMy3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bXEMzHNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bXEMzXNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xqo-UXNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bXEMznNiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bXEMz3NiEfCTGutOISnrsw" name="findById">
+      <modelElement href="BillMicroService.uml#_XqqMcHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bXEM0HNiEfCTGutOISnrsw" name="Generics">
+        <modelElement href="BillMicroService.uml#_XqqzgHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bXEM0XNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XqrakHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bXEM0nNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bXEM03NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bXEM1HNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xz3LwHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bXEM1XNiEfCTGutOISnrsw" name="Optional">
+          <modelElement href="BillMicroService.uml#_XxjeoHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bXEM1nNiEfCTGutOISnrsw" name="id">
+        <modelElement href="BillMicroService.uml#_XqqMcXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bXEM13NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bXEM2HNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bXEM2XNiEfCTGutOISnrsw" name="findByBillItemId">
+      <modelElement href="BillMicroService.uml#_XqsBoHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bXEM2nNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XqsosHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bXEM23NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bXEM3HNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bXEM3XNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xy6JgXNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bXEM3nNiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bXEM33NiEfCTGutOISnrsw" name="billItemId">
+        <modelElement href="BillMicroService.uml#_XqsBoXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bXEM4HNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bXEM4XNiEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bXEM4nNiEfCTGutOISnrsw" name="findByBillId">
+      <modelElement href="BillMicroService.uml#_XqtPwHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bXEM43NiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_Xqud4HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bXEM5HNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bXEM5XNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bXEM5nNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XqtPwnNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bXEM53NiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bXEM6HNiEfCTGutOISnrsw" name="billId">
+        <modelElement href="BillMicroService.uml#_XqtPwXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bXEM6XNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bXEM6nNiEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bXEM63NiEfCTGutOISnrsw" name="deleteById">
+      <modelElement href="BillMicroService.uml#_Xqud4nNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bXEM7HNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XqvE8XNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bXEM7XNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bXEM7nNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bXEM73NiEfCTGutOISnrsw" name="id">
+        <modelElement href="BillMicroService.uml#_XqvE8HNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bXEM8HNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bXEM8XNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bXEM8nNiEfCTGutOISnrsw" name="BillItemServiceImpl">
+      <modelElement href="BillMicroService.uml#_Xy3GMHNiEfCTGutOISnrsw"/>
+      <keywords xmi:id="_bXEM83NiEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_bXEM9HNiEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="BillMicroService.uml#_Xy4UUHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bXEM9XNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bXEM9nNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bXEM93NiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xy3tQnNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bXEM-HNiEfCTGutOISnrsw" name="BillItemServiceImpl">
+          <modelElement href="BillMicroService.uml#_XqnwMHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bXEM-XNiEfCTGutOISnrsw" name="repo">
+        <modelElement href="BillMicroService.uml#_Xy3GMXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bXEM-nNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bXEM-3NiEfCTGutOISnrsw" name="BillItemRepository">
+          <modelElement href="BillMicroService.uml#_XqM5cHNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bXEM_HNiEfCTGutOISnrsw" name="save">
+      <modelElement href="BillMicroService.uml#_Xy4UUXNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bXEM_XNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_Xy5icHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bXEM_nNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bXEM_3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bXENAHNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xy47YHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bXENAXNiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bXENAnNiEfCTGutOISnrsw" name="item">
+        <modelElement href="BillMicroService.uml#_Xy4UUnNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bXENA3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bXENBHNiEfCTGutOISnrsw" name="BillItem">
+          <modelElement href="BillMicroService.uml#_Xp3iQHNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bUNtGHNiEfCTGutOISnrsw" name="BillController" associationsOut="_bUNGAHNiEfCTGutOISnrsw">
+    <modelElement href="BillMicroService.uml#_XoGnsHNiEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_bUNtGXNiEfCTGutOISnrsw" position="543.0,348.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bUNtGnNiEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="BillMicroService.uml#_XoH10HNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bUNtG3NiEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="BillMicroService.uml#_XoxWEHNiEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_bUNtHHNiEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_bUNtHXNiEfCTGutOISnrsw" name="service">
+      <modelElement href="BillMicroService.uml#_X0Cx8HNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bUNtHnNiEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_bUNtH3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bUNtIHNiEfCTGutOISnrsw" name="BillService">
+        <modelElement href="BillMicroService.uml#_Xqf0YHNiEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bUNtIXNiEfCTGutOISnrsw" defaultValue="&quot;uploads/bill_documents/&quot;" name="uploadDir">
+      <modelElement href="BillMicroService.uml#_X0DZAHNiEfCTGutOISnrsw"/>
+      <visibility xmi:id="_bUNtInNiEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_bUNtI3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_bUNtJHNiEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bUNtJXNiEfCTGutOISnrsw" name="getAll">
+      <modelElement href="BillMicroService.uml#_XoNVYHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUNtJnNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XoPxoHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUNtJ3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUNtKHNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bUNtKXNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XoNVYXNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUNtKnNiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bUNtK3NiEfCTGutOISnrsw" name="getByMongoId">
+      <modelElement href="BillMicroService.uml#_XoRm0HNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUNtLHNiEfCTGutOISnrsw" name="Generics">
+        <modelElement href="BillMicroService.uml#_XoUDEHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bUNtLXNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XoVRMHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUNtLnNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUNtL3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUNtMHNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XzWOYHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUNtMXNiEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="BillMicroService.uml#_XxkswHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUNtMnNiEfCTGutOISnrsw" name="id">
+        <modelElement href="BillMicroService.uml#_XoRm0XNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUNtM3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUNtNHNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bUNtNXNiEfCTGutOISnrsw" name="getById">
+      <modelElement href="BillMicroService.uml#_XoXGYHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUNtNnNiEfCTGutOISnrsw" name="Generics">
+        <modelElement href="BillMicroService.uml#_XoZioHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bUNtN3NiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XobX0HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUNtOHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUNtOXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUNtOnNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XzW1cHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUNtO3NiEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="BillMicroService.uml#_XxkswHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUNtPHNiEfCTGutOISnrsw" name="id">
+        <modelElement href="BillMicroService.uml#_XoXGYXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUNtPXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUNtPnNiEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bUNtP3NiEfCTGutOISnrsw" name="getByPatientId">
+      <modelElement href="BillMicroService.uml#_Xocl8HNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUNtQHNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XofCMHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUNtQXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUNtQnNiEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bUNtQ3NiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XodNAHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUNtRHNiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUNtRXNiEfCTGutOISnrsw" name="patientId">
+        <modelElement href="BillMicroService.uml#_Xocl8XNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUNtRnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUNtR3NiEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bUNtSHNiEfCTGutOISnrsw" name="delete">
+      <modelElement href="BillMicroService.uml#_XoiFgHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUNtSXNiEfCTGutOISnrsw" name="Generics">
+        <modelElement href="BillMicroService.uml#_XokhwHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bUNtSnNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XomW8HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUNtS3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUNtTHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUNtTXNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XzXcgHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUNtTnNiEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="BillMicroService.uml#_XxkswHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUNtT3NiEfCTGutOISnrsw" name="id">
+        <modelElement href="BillMicroService.uml#_XoiFgXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUNtUHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUNtUXNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bUNtUnNiEfCTGutOISnrsw" name="getBillsByAppointmentId">
+      <modelElement href="BillMicroService.uml#_XooMIHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUNtU3NiEfCTGutOISnrsw" name="Generics">
+        <modelElement href="BillMicroService.uml#_XoqoYHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bUNtVHNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XorPcXNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUNtVXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUNtVnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUNtV3NiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XzXcgXNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUNtWHNiEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="BillMicroService.uml#_XxkswHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUNtWXNiEfCTGutOISnrsw" name="appointmentId">
+        <modelElement href="BillMicroService.uml#_XooMIXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUNtWnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUNtW3NiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bUNtXHNiEfCTGutOISnrsw" name="getBillsByAppointmentIdAndBillType">
+      <modelElement href="BillMicroService.uml#_Xor2gHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUNtXXNiEfCTGutOISnrsw" name="Generics">
+        <modelElement href="BillMicroService.uml#_XotEoHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bUNtXnNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_Xou50HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUNtX3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUNtYHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUNtYXNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XzXcgnNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUNtYnNiEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="BillMicroService.uml#_XxkswHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUNtY3NiEfCTGutOISnrsw" name="appointmentId">
+        <modelElement href="BillMicroService.uml#_Xor2gXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUNtZHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUNtZXNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bUNtZnNiEfCTGutOISnrsw" name="billType">
+        <modelElement href="BillMicroService.uml#_Xor2gnNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUNtZ3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUNtaHNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bUNtaXNiEfCTGutOISnrsw" name="BillController">
+      <modelElement href="BillMicroService.uml#_Xxt2sHNiEfCTGutOISnrsw"/>
+      <keywords xmi:id="_bUNtanNiEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_bUNta3NiEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="BillMicroService.uml#_XxudwHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUNtbHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUNtbXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUNtbnNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_Xxt2tHNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUNtb3NiEfCTGutOISnrsw" name="BillController">
+          <modelElement href="BillMicroService.uml#_XoGnsHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUNtcHNiEfCTGutOISnrsw" name="service">
+        <modelElement href="BillMicroService.uml#_Xxt2sXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUNtcXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUNtcnNiEfCTGutOISnrsw" name="BillService">
+          <modelElement href="BillMicroService.uml#_Xqf0YHNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bUNtc3NiEfCTGutOISnrsw" name="create">
+      <modelElement href="BillMicroService.uml#_XxudwXNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUNtdHNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_Xxvr4nNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUNtdXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUNtdnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUNtd3NiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XxvE0HNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUNteHNiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUNteXNiEfCTGutOISnrsw" name="bill">
+        <modelElement href="BillMicroService.uml#_XxudwnNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUNtenNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUNte3NiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bUNtfHNiEfCTGutOISnrsw" name="update">
+      <modelElement href="BillMicroService.uml#_XxwS8HNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUNtfXNiEfCTGutOISnrsw" name="Generics">
+        <modelElement href="BillMicroService.uml#_Xxw6AHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bUNtfnNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XxyvMHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUNtf3NiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUNtgHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUNtgXNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XzW1cXNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUNtgnNiEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="BillMicroService.uml#_XxkswHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUNtg3NiEfCTGutOISnrsw" name="id">
+        <modelElement href="BillMicroService.uml#_XxwS8XNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUNthHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUNthXNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bUNthnNiEfCTGutOISnrsw" name="bill">
+        <modelElement href="BillMicroService.uml#_XxwS8nNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUNth3NiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUNtiHNiEfCTGutOISnrsw" name="Bill">
+          <modelElement href="BillMicroService.uml#_Xpg88HNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bUNtiXNiEfCTGutOISnrsw" name="updateBills">
+      <modelElement href="BillMicroService.uml#_XzYqoHNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUNtinNiEfCTGutOISnrsw" name="Generics">
+        <modelElement href="BillMicroService.uml#_XzZRsHNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bUNti3NiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_XzZ4w3NiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUNtjHNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUNtjXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUNtjnNiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XzZRsXNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUNtj3NiEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="BillMicroService.uml#_XxkswHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUNtkHNiEfCTGutOISnrsw" name="id">
+        <modelElement href="BillMicroService.uml#_XzYqoXNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUNtkXNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUNtknNiEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bUNtk3NiEfCTGutOISnrsw" name="updates">
+        <modelElement href="BillMicroService.uml#_XzYqonNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUNtlHNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUNtlXNiEfCTGutOISnrsw" name="Map">
+          <modelElement href="BillMicroService.uml#_Xxi3kXNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bUNtlnNiEfCTGutOISnrsw" name="uploadBillDocument">
+      <modelElement href="BillMicroService.uml#_Xzaf0XNiEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_bUNtl3NiEfCTGutOISnrsw" name="Generics">
+        <modelElement href="BillMicroService.uml#_XzbG4HNiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bUNtmHNiEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="BillMicroService.uml#_Xzbt83NiEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_bUNtmXNiEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_bUNtmnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bUNtm3NiEfCTGutOISnrsw">
+        <modelElement href="BillMicroService.uml#_XzbG4XNiEfCTGutOISnrsw"/>
+        <type xmi:id="_bUNtnHNiEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="BillMicroService.uml#_XxkswHNiEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bUNtnXNiEfCTGutOISnrsw" name="file">
+        <modelElement href="BillMicroService.uml#_Xzaf0nNiEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_bUNtnnNiEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_bUNtn3NiEfCTGutOISnrsw" name="MultipartFile">
+          <modelElement href="BillMicroService.uml#_XxsokXNiEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

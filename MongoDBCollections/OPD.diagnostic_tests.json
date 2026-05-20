@@ -1,0 +1,530 @@
+[{
+  "_id": {
+    "$oid": "6883928164d9b4574f963fd7"
+  },
+  "id": 1,
+  "medical_record_id": "688393a664d9b4574f963ffc",
+  "test_name": "Electrocardiogram (ECG)",
+  "test_type": "Cardiac",
+  "ordered_by_doctor_id": "1",
+  "order_date": {
+    "$date": "2025-07-01T00:00:00.000Z"
+  },
+  "status": "Completed",
+  "results": "Normal Sinus Rhythm, no significant ST-T changes.",
+  "result_notes": "Consistent with stable angina.",
+  "performed_by_user_id": 3,
+  "uploaded_at": {
+    "$date": "2025-07-01T10:50:00.000Z"
+  },
+  "report_document_url": "https://example.com/lab_reports/ecg_report_1.pdf",
+  "created_at": {
+    "$date": "2025-07-01T10:50:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-01T10:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6883928164d9b4574f963fd8"
+  },
+  "id": 2,
+  "medical_record_id": "688393a664d9b4574f963ffc",
+  "test_name": "Complete Blood Count (CBC)",
+  "test_type": "Blood",
+  "ordered_by_doctor_id": "2",
+  "order_date": {
+    "$date": "2025-07-05T00:00:00.000Z"
+  },
+  "status": "Completed",
+  "results": "WBC: 12.5 (High), Lymphocytes: 40, Neutrophils: 55",
+  "result_notes": "Indicates viral infection.",
+  "performed_by_user_id": 3,
+  "uploaded_at": {
+    "$date": "2025-07-05T14:20:00.000Z"
+  },
+  "report_document_url": "https://example.com/lab_reports/cbc_report_2.pdf",
+  "created_at": {
+    "$date": "2025-07-05T14:20:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-05T14:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6883928164d9b4574f963fd9"
+  },
+  "id": 3,
+  "medical_record_id": "688393a664d9b4574f963ffc",
+  "test_name": "Skin Swab Culture",
+  "test_type": "Microbiology",
+  "ordered_by_doctor_id": "3",
+  "order_date": {
+    "$date": "2025-07-10T00:00:00.000Z"
+  },
+  "status": "Completed",
+  "results": "No bacterial growth identified.",
+  "result_notes": "Confirms non-bacterial rash.",
+  "performed_by_user_id": 3,
+  "uploaded_at": {
+    "$date": "2025-07-10T11:20:00.000Z"
+  },
+  "report_document_url": "https://example.com/lab_reports/skin_swab_report_3.pdf",
+  "created_at": {
+    "$date": "2025-07-10T11:20:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-10T11:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6883928164d9b4574f963fda"
+  },
+  "id": 4,
+  "medical_record_id": "4",
+  "test_name": "Knee X-Ray",
+  "test_type": "Radiology",
+  "ordered_by_doctor_id": "4",
+  "order_date": {
+    "$date": "2025-07-15T00:00:00.000Z"
+  },
+  "status": "Completed",
+  "results": "No fracture or dislocation seen. Soft tissue swelling noted.",
+  "result_notes": "Consistent with ligamentous injury.",
+  "performed_by_user_id": {
+    "$date": "1970-01-01T00:00:00.003Z"
+  },
+  "uploaded_at": "2025-07-15T10:10:00Z",
+  "report_document_url": "https://example.com/lab_reports/knee_xray_report_4.pdf",
+  "created_at": {
+    "$date": "2025-07-15T10:10:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-15T10:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6883928164d9b4574f963fdb"
+  },
+  "id": 5,
+  "medical_record_id": "5",
+  "test_name": "Urine Analysis",
+  "test_type": "Lab",
+  "ordered_by_doctor_id": "5",
+  "order_date": {
+    "$date": "2025-07-20T00:00:00.000Z"
+  },
+  "status": "Completed",
+  "results": "Normal. No abnormal findings.",
+  "result_notes": "Routine check-up test.",
+  "performed_by_user_id": 3,
+  "uploaded_at": {
+    "$date": "2025-07-20T16:25:00.000Z"
+  },
+  "report_document_url": "https://example.com/lab_reports/urine_report_5.pdf",
+  "created_at": {
+    "$date": "2025-07-20T16:25:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-20T16:25:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688874c5482541df230775e8"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffc",
+  "test_name": "Xray",
+  "test_type": "",
+  "ordered_by_doctor_id": "1",
+  "order_date": {
+    "$date": "2025-07-28T18:30:00.000Z"
+  },
+  "status": "Completed",
+  "results": "frewr",
+  "result_notes": "vrevr",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "report_document_url": "",
+  "updated_at": {
+    "$date": "2025-08-09T13:49:55.969Z"
+  },
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+},
+{
+  "_id": {
+    "$oid": "6890b7eabcf65af251c47f70"
+  },
+  "medical_record_id": "688e0e7a482541df230775e9",
+  "test_name": "Xray",
+  "ordered_by_doctor_id": "6881f77864d9b4574f963f41",
+  "order_date": {
+    "$date": "2025-08-03T18:30:00.000Z"
+  },
+  "status": "Pending",
+  "results": "",
+  "result_notes": "",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "report_document_url": "",
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+},
+{
+  "_id": {
+    "$oid": "6890b8b5bcf65af251c47f71"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffd",
+  "test_name": "Xray",
+  "ordered_by_doctor_id": "6881f77864d9b4574f963f41",
+  "order_date": {
+    "$date": "2025-08-03T18:30:00.000Z"
+  },
+  "status": "Pending",
+  "results": "",
+  "result_notes": "",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "report_document_url": "",
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+},
+{
+  "_id": {
+    "$oid": "6890b8e2bcf65af251c47f72"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffd",
+  "test_name": "ECG",
+  "ordered_by_doctor_id": "6881f77864d9b4574f963f41",
+  "order_date": {
+    "$date": "2025-08-03T18:30:00.000Z"
+  },
+  "status": "Pending",
+  "results": ";np",
+  "result_notes": "n lo",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "report_document_url": "",
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+},
+{
+  "_id": {
+    "$oid": "6890baf3bcf65af251c47f75"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffd",
+  "test_name": "ECG",
+  "test_type": "",
+  "ordered_by_doctor_id": "undefined",
+  "order_date": {
+    "$date": "2025-08-04T13:51:47.039Z"
+  },
+  "status": "COMPLETED",
+  "results": "",
+  "result_notes": "",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "uploaded_at": {
+    "$date": "2025-08-04T13:51:47.039Z"
+  },
+  "report_document_url": "http://your-storage-service/files/bill_68827cfc64d9b4574f963f52_1754245102108.pdf",
+  "created_at": {
+    "$date": "2025-08-04T13:51:47.039Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-04T13:51:47.039Z"
+  },
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+},
+{
+  "_id": {
+    "$oid": "6890bcacbcf65af251c47f77"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffd",
+  "test_name": "Xray",
+  "test_type": "",
+  "ordered_by_doctor_id": "undefined",
+  "order_date": {
+    "$date": "2025-08-04T13:59:08.366Z"
+  },
+  "status": "COMPLETED",
+  "results": "",
+  "result_notes": "",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "uploaded_at": {
+    "$date": "2025-08-04T13:59:08.366Z"
+  },
+  "report_document_url": "http://localhost:2006/api/diagnostic-tests/documents/1754315948355_bill_68827cfc64d9b4574f963f52_1754245882374.pdf",
+  "created_at": {
+    "$date": "2025-08-04T13:59:08.366Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-04T13:59:08.366Z"
+  },
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+},
+{
+  "_id": {
+    "$oid": "6891e1377be7903795367c08"
+  },
+  "medical_record_id": "6891d9dfbcf65af251c47f7c",
+  "test_name": "Xray",
+  "test_type": "swcqewnc",
+  "ordered_by_doctor_id": "undefined",
+  "order_date": {
+    "$date": "2025-08-05T10:47:19.015Z"
+  },
+  "status": "COMPLETED",
+  "results": "",
+  "result_notes": "",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "uploaded_at": {
+    "$date": "2025-08-05T10:47:19.015Z"
+  },
+  "report_document_url": "http://localhost:2006/api/diagnostic-tests/documents/1754390838967_bill_appointment_688b01daf90eb11248632392_(1).pdf",
+  "created_at": {
+    "$date": "2025-08-05T10:47:19.015Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-05T10:47:19.015Z"
+  },
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+},
+{
+  "_id": {
+    "$oid": "689305d2fe671b70c63f2bc0"
+  },
+  "medical_record_id": "68930367fe671b70c63f2bbd",
+  "test_name": "Xray",
+  "test_type": "Xray",
+  "ordered_by_doctor_id": "undefined",
+  "order_date": {
+    "$date": "2025-08-06T07:35:46.185Z"
+  },
+  "status": "COMPLETED",
+  "results": "nothjing",
+  "result_notes": "",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "uploaded_at": {
+    "$date": "2025-08-06T07:35:46.185Z"
+  },
+  "report_document_url": "http://localhost:2006/api/diagnostic-tests/documents/1754465746161_bill_appointment_6893036719d35f4ac02fc60c_(1).pdf",
+  "created_at": {
+    "$date": "2025-08-06T07:35:46.185Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-06T07:35:46.185Z"
+  },
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+},
+{
+  "_id": {
+    "$oid": "68930a09fe671b70c63f2bc4"
+  },
+  "medical_record_id": "68930927fe671b70c63f2bc1",
+  "test_name": "Xray",
+  "test_type": "Xray",
+  "ordered_by_doctor_id": "undefined",
+  "order_date": {
+    "$date": "2025-08-06T07:53:45.333Z"
+  },
+  "status": "COMPLETED",
+  "results": "Nothing Serious",
+  "result_notes": "Completed",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "uploaded_at": {
+    "$date": "2025-08-06T07:53:45.333Z"
+  },
+  "report_document_url": "http://localhost:2006/api/diagnostic-tests/documents/1754466825327_bill_appointment_6893092719d35f4ac02fc60d.pdf",
+  "created_at": {
+    "$date": "2025-08-06T07:53:45.333Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-06T07:53:45.333Z"
+  },
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+},
+{
+  "_id": {
+    "$oid": "68932b7dfe671b70c63f2bc8"
+  },
+  "medical_record_id": "689328d8fe671b70c63f2bc5",
+  "test_name": "ECG",
+  "test_type": "ecg",
+  "ordered_by_doctor_id": "undefined",
+  "order_date": {
+    "$date": "2025-08-06T10:16:29.488Z"
+  },
+  "status": "COMPLETED",
+  "results": "",
+  "result_notes": "",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "uploaded_at": {
+    "$date": "2025-08-06T10:16:29.488Z"
+  },
+  "report_document_url": "http://localhost:2006/api/diagnostic-tests/documents/1754475389483_bill_68827cfc64d9b4574f963f52_1754245882374.pdf",
+  "created_at": {
+    "$date": "2025-08-06T10:16:29.488Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-06T10:16:29.488Z"
+  },
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+},
+{
+  "_id": {
+    "$oid": "68944803fe671b70c63f2bcf"
+  },
+  "medical_record_id": "68944640fe671b70c63f2bcc",
+  "test_name": "ECG",
+  "test_type": "ecg",
+  "ordered_by_doctor_id": "undefined",
+  "order_date": {
+    "$date": "2025-08-07T06:30:27.254Z"
+  },
+  "status": "COMPLETED",
+  "results": "Nothing ",
+  "result_notes": "",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "uploaded_at": {
+    "$date": "2025-08-07T06:30:27.254Z"
+  },
+  "report_document_url": "http://localhost:2006/api/diagnostic-tests/documents/1754548227243_bill_appointment_6894464019d35f4ac02fc612.pdf",
+  "created_at": {
+    "$date": "2025-08-07T06:30:27.254Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-07T06:30:27.254Z"
+  },
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+},
+{
+  "_id": {
+    "$oid": "68976284095b6f512e3cb149"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffc",
+  "test_name": "ECG",
+  "test_type": "ecg",
+  "ordered_by_doctor_id": "undefined",
+  "order_date": {
+    "$date": "2025-08-09T15:00:20.611Z"
+  },
+  "status": "COMPLETED",
+  "results": "",
+  "result_notes": "",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "uploaded_at": {
+    "$date": "2025-08-09T15:00:20.611Z"
+  },
+  "report_document_url": "http://localhost:2006/api/diagnostic-tests/documents/1754751620546_41mB5QxbgUL.webp",
+  "created_at": {
+    "$date": "2025-08-09T15:00:20.611Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-09T15:00:20.611Z"
+  },
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+},
+{
+  "_id": {
+    "$oid": "68a0828dea04f7fc278020cc"
+  },
+  "medical_record_id": "68a07f8dea04f7fc278020c9",
+  "test_name": "nnm",
+  "test_type": "kl",
+  "ordered_by_doctor_id": "undefined",
+  "order_date": {
+    "$date": "2025-08-16T13:07:25.313Z"
+  },
+  "status": "Completed",
+  "results": "n ",
+  "result_notes": "kj",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "uploaded_at": {
+    "$date": "2025-08-16T13:07:25.313Z"
+  },
+  "created_at": {
+    "$date": "2025-08-16T13:07:25.313Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-16T13:07:25.313Z"
+  },
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+},
+{
+  "_id": {
+    "$oid": "68a1630cea04f7fc278020ce"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffc",
+  "test_name": "asdfyu",
+  "test_type": "CBC",
+  "ordered_by_doctor_id": "undefined",
+  "order_date": {
+    "$date": "2025-08-17T05:05:16.483Z"
+  },
+  "status": "Completed",
+  "results": "",
+  "result_notes": "",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "uploaded_at": {
+    "$date": "2025-08-17T05:05:16.483Z"
+  },
+  "report_document_url": "http://localhost:2006/api/diagnostic-tests/documents/1755407116429_bill_appointment_6893036719d35f4ac02fc60c.pdf",
+  "created_at": {
+    "$date": "2025-08-17T05:05:16.483Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-17T05:05:16.483Z"
+  },
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+},
+{
+  "_id": {
+    "$oid": "68a17e29ea04f7fc278020d5"
+  },
+  "medical_record_id": "68a17964ea04f7fc278020d2",
+  "test_name": "CBC",
+  "test_type": "Complete Blood Count",
+  "ordered_by_doctor_id": "undefined",
+  "order_date": {
+    "$date": "2025-08-17T07:00:57.796Z"
+  },
+  "status": "Completed",
+  "results": "normal",
+  "result_notes": "completed",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "uploaded_at": {
+    "$date": "2025-08-17T07:00:57.796Z"
+  },
+  "report_document_url": "http://localhost:2006/api/diagnostic-tests/documents/1755414057725_bill_Alice_6883933864d9b4574f963fee.pdf",
+  "created_at": {
+    "$date": "2025-08-17T07:00:57.796Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-17T07:00:57.796Z"
+  },
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+},
+{
+  "_id": {
+    "$oid": "68a17e40ea04f7fc278020d6"
+  },
+  "medical_record_id": "68a17964ea04f7fc278020d2",
+  "test_name": "ECG",
+  "test_type": "",
+  "ordered_by_doctor_id": "undefined",
+  "order_date": {
+    "$date": "2025-08-17T07:01:20.923Z"
+  },
+  "status": "Completed",
+  "results": "ok",
+  "result_notes": "Completed",
+  "performed_by_user_id": "6881f77864d9b4574f963f42",
+  "uploaded_at": {
+    "$date": "2025-08-17T07:01:20.923Z"
+  },
+  "report_document_url": "http://localhost:2006/api/diagnostic-tests/documents/1755414080803_bill_Alice_6883933864d9b4574f963fee.pdf",
+  "created_at": {
+    "$date": "2025-08-17T07:01:20.923Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-17T07:01:20.923Z"
+  },
+  "_class": "training.iqgateway.entities.DiagnosticTest"
+}]

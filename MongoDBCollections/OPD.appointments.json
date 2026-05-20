@@ -1,0 +1,502 @@
+[{
+  "_id": {
+    "$oid": "6883933864d9b4574f963fee"
+  },
+  "id": {
+    "$numberLong": "1"
+  },
+  "patient_id": "68827cfc64d9b4574f963f56",
+  "doctor_id": "6883742864d9b4574f963fbb",
+  "appointment_date": {
+    "$date": "2025-08-05T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "1970-08-06T12:00:00.000Z"
+  },
+  "reason_for_visit": "Follow-up on cardiac health",
+  "status": "Completed",
+  "booked_by_user_id": "9",
+  "notes": "Patient prefers morning slots.",
+  "consultation_start_time": {
+    "$date": "1970-01-01T00:00:00.000Z"
+  },
+  "consultation_end_time": {
+    "$date": "1970-01-01T00:00:00.000Z"
+  },
+  "room_number": "C101",
+  "created_at": {
+    "$date": "2025-07-23T18:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-23T18:00:00.000Z"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffc",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "6883933864d9b4574f963fef"
+  },
+  "id": 2,
+  "patient_id": "688335e811a2739c2576f3db",
+  "doctor_id": "6881f77864d9b4574f963f41",
+  "appointment_date": {
+    "$date": "2025-07-29T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "reason_for_visit": "Child's routine check-up",
+  "status": "Scheduled",
+  "booked_by_user_id": "9",
+  "notes": "Needs immunization.",
+  "consultation_start_time": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "consultation_end_time": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "room_number": "P205",
+  "created_at": {
+    "$date": "2025-07-23T18:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-23T18:00:00.000Z"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffc"
+},
+{
+  "_id": {
+    "$oid": "6883933864d9b4574f963ff0"
+  },
+  "id": 3,
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6881f77864d9b4574f963f41",
+  "appointment_date": {
+    "$date": "2025-07-29T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "reason_for_visit": "New rash consultation",
+  "status": "Scheduled",
+  "booked_by_user_id": "9",
+  "notes": "Referred by Dr. Singh.",
+  "consultation_start_time": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "consultation_end_time": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "room_number": "D302",
+  "created_at": {
+    "$date": "2025-07-23T18:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-23T18:00:00.000Z"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffc"
+},
+{
+  "_id": {
+    "$oid": "6883933864d9b4574f963ff1"
+  },
+  "id": 4,
+  "patient_id": "68827cfc64d9b4574f963f56",
+  "doctor_id": "6881f77864d9b4574f963f41",
+  "appointment_date": {
+    "$date": "2025-07-29T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "reason_for_visit": "Post-injury knee review",
+  "status": "Scheduled",
+  "booked_by_user_id": "9",
+  "notes": "Bring previous X-rays.",
+  "consultation_start_time": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "consultation_end_time": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "room_number": "O401",
+  "created_at": {
+    "$date": "2025-07-23T18:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-23T18:00:00.000Z"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffc"
+},
+{
+  "_id": {
+    "$oid": "6883933864d9b4574f963ff2"
+  },
+  "id": 5,
+  "patient_id": "68827cfc64d9b4574f963f56",
+  "doctor_id": "6881f77864d9b4574f963f41",
+  "appointment_date": {
+    "$date": "2025-08-05T00:00:00.000Z"
+  },
+  "appointment_time": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "reason_for_visit": "General health check-up",
+  "status": "Scheduled",
+  "booked_by_user_id": "9",
+  "notes": "First time visitor.",
+  "consultation_start_time": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "consultation_end_time": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "room_number": "G501",
+  "created_at": {
+    "$date": "2025-07-23T18:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-23T18:00:00.000Z"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffc"
+},
+{
+  "_id": {
+    "$oid": "688aff7ef90eb1124863238f"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "appointment_date": {
+    "$date": "2025-08-03T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "2025-08-04T11:15:00.000Z"
+  },
+  "reason_for_visit": "Fever",
+  "status": "Cancelled",
+  "booked_by_user_id": "6881f77864d9b4574f963f41",
+  "room_number": "201",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "688afffaf90eb11248632390"
+  },
+  "patient_id": "68827cfc64d9b4574f963f56",
+  "doctor_id": "6881f77864d9b4574f963f41",
+  "appointment_date": {
+    "$date": "2025-07-31T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "2025-08-04T10:00:00.000Z"
+  },
+  "reason_for_visit": "Nerves Weakness",
+  "status": "Completed",
+  "booked_by_user_id": "6881f77864d9b4574f963f41",
+  "room_number": "201",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "688b0015f90eb11248632391"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "appointment_date": {
+    "$date": "2025-08-03T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "2025-08-04T09:00:00.000Z"
+  },
+  "reason_for_visit": "Fever",
+  "status": "Completed",
+  "booked_by_user_id": "6881f77864d9b4574f963f41",
+  "room_number": "201",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "688b0271f90eb11248632393"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "appointment_date": {
+    "$date": "2025-08-03T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "2025-08-04T09:15:00.000Z"
+  },
+  "reason_for_visit": "vdeqr",
+  "status": "Cancelled",
+  "booked_by_user_id": "6881f77864d9b4574f963f41",
+  "room_number": "201",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "688e029919d12cb36b769259"
+  },
+  "patient_id": "68827cfc64d9b4574f963f56",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "appointment_date": {
+    "$date": "2025-08-03T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "2025-08-04T11:00:00.000Z"
+  },
+  "reason_for_visit": "viral fever",
+  "status": "Cancelled",
+  "booked_by_user_id": "6881f77864d9b4574f963f44",
+  "room_number": "201",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "688e097a19d12cb36b76925a"
+  },
+  "patient_id": "68827cfc64d9b4574f963f56",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "appointment_date": {
+    "$date": "2025-08-03T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "2025-08-04T09:30:00.000Z"
+  },
+  "reason_for_visit": "kiviviv",
+  "status": "Cancelled",
+  "booked_by_user_id": "6881f77864d9b4574f963f44",
+  "room_number": "201",
+  "medical_record_id": "688393a664d9b4574f963ffd",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "688e0cfc19d12cb36b76925b"
+  },
+  "patient_id": "68827cfc64d9b4574f963f56",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "appointment_date": {
+    "$date": "2025-08-03T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "2025-08-04T14:45:00.000Z"
+  },
+  "reason_for_visit": "qefqe",
+  "status": "Cancelled",
+  "booked_by_user_id": "6881f77864d9b4574f963f44",
+  "room_number": "201",
+  "medical_record_id": "688393a664d9b4574f963ffd",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "688e0e7a19d12cb36b76925c"
+  },
+  "patient_id": "68827cfc64d9b4574f963f56",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "appointment_date": {
+    "$date": "2025-08-03T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "2025-08-04T15:00:00.000Z"
+  },
+  "reason_for_visit": "fever",
+  "status": "Completed",
+  "booked_by_user_id": "6881f77864d9b4574f963f44",
+  "room_number": "201",
+  "medical_record_id": "688e0e7a482541df230775e9",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "688e4a4a19d12cb36b76925d"
+  },
+  "patient_id": "68827cfc64d9b4574f963f56",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "appointment_date": {
+    "$date": "2025-08-04T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "2025-08-04T12:15:00.000Z"
+  },
+  "reason_for_visit": "kjbergb,",
+  "status": "Cancelled",
+  "booked_by_user_id": "6881f77864d9b4574f963f44",
+  "room_number": "201",
+  "medical_record_id": "688e4a4a482541df230775ea",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "68918ab819d35f4ac02fc603"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "appointment_date": {
+    "$date": "2025-08-07T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "2025-08-08T10:00:00.000Z"
+  },
+  "reason_for_visit": "dyu",
+  "status": "Cancelled",
+  "booked_by_user_id": "6881f77864d9b4574f963f44",
+  "room_number": "643",
+  "medical_record_id": "68918ab8bcf65af251c47f78",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "68918bcf19d35f4ac02fc604"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "appointment_date": {
+    "$date": "2025-08-07T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "2025-08-08T10:15:00.000Z"
+  },
+  "reason_for_visit": "dfghj",
+  "status": "Cancelled",
+  "booked_by_user_id": "6881f77864d9b4574f963f44",
+  "room_number": "34",
+  "medical_record_id": "68918bcfbcf65af251c47f79",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "6891b92819d35f4ac02fc605"
+  },
+  "patient_id": "68827cfc64d9b4574f963f54",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "appointment_date": {
+    "$date": "2025-08-10T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "2025-08-11T09:00:00.000Z"
+  },
+  "reason_for_visit": "Fever",
+  "status": "Scheduled",
+  "booked_by_user_id": "6881f77864d9b4574f963f44",
+  "room_number": "301",
+  "medical_record_id": "6891b928bcf65af251c47f7a",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "68a16d7215d85801acbfaf90"
+  },
+  "patient_id": "68a07e4e6b3c1f6e542a2525",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "appointment_date": {
+    "$date": "2025-08-16T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "1970-01-01T09:00:00.000Z"
+  },
+  "reason_for_visit": "Fever",
+  "status": "Scheduled",
+  "booked_by_user_id": "6881f77864d9b4574f963f48",
+  "notes": "Fever",
+  "room_number": "201",
+  "medical_record_id": "68a16d72ea04f7fc278020d0",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "68a1796415d85801acbfaf91"
+  },
+  "patient_id": "68a178fb6b3c1f6e542a2527",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "appointment_date": {
+    "$date": "2025-08-16T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "1970-01-01T09:15:00.000Z"
+  },
+  "reason_for_visit": "Leg Injury",
+  "status": "Completed",
+  "booked_by_user_id": "6881f77864d9b4574f963f48",
+  "notes": "Leg Injury",
+  "room_number": "301",
+  "medical_record_id": "68a17964ea04f7fc278020d2",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "68a17efe15d85801acbfaf92"
+  },
+  "patient_id": "68a178fb6b3c1f6e542a2527",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "appointment_date": {
+    "$date": "2025-08-19T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "1970-01-01T09:00:00.000Z"
+  },
+  "reason_for_visit": "fever",
+  "status": "Cancelled",
+  "booked_by_user_id": "6881f77864d9b4574f963f48",
+  "notes": "fever",
+  "room_number": "301",
+  "medical_record_id": "68a17efdea04f7fc278020d8",
+  "_class": "training.iqgateway.entities.Appointment"
+},
+{
+  "_id": {
+    "$oid": "68a313e115d85801acbfaf94"
+  },
+  "patient_id": "688335e811a2739c2576f3db",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "appointment_date": {
+    "$date": "2025-08-21T18:30:00.000Z"
+  },
+  "appointment_time": {
+    "$date": "1970-01-01T10:00:00.000Z"
+  },
+  "reason_for_visit": "cverv",
+  "status": "Scheduled",
+  "booked_by_user_id": "6881f77864d9b4574f963f48",
+  "notes": "cverv",
+  "room_number": "201",
+  "medical_record_id": "68a313e1ea04f7fc278020da",
+  "_class": "training.iqgateway.entities.Appointment"
+}]

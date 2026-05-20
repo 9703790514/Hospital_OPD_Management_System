@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_ukEY4HN9EfCTGutOISnrsw" name="OTPMicroService1">
+    <eAnnotations xmi:id="_u09UkHN9EfCTGutOISnrsw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_u097oHN9EfCTGutOISnrsw" source="codegen">
+        <details xmi:id="_u097oXN9EfCTGutOISnrsw" key="codegenDirectory" value="/OTPMicroService1/src/main/java"/>
+        <details xmi:id="_vyJ8oHN9EfCTGutOISnrsw" key="AssociatedSourceCode" value="/OTPMicroService1/src/main/java/training/iqgateway/OtpMicroService1Application.java;1365839575/1;/OTPMicroService1/src/main/java/training/iqgateway/config/TwilioConfig.java;1668024179/1;/OTPMicroService1/src/main/java/training/iqgateway/config/WebConfig.java;848837467/1;/OTPMicroService1/src/main/java/training/iqgateway/controller/OtpController.java;3619456304/1;/OTPMicroService1/src/main/java/training/iqgateway/entities/UserOtp.java;3299293878/1;/OTPMicroService1/src/main/java/training/iqgateway/repositories/UserOtpRepository.java;1539566294/1;/OTPMicroService1/src/main/java/training/iqgateway/service/OtpService.java;2564783484/1;/OTPMicroService1/src/main/java/training/iqgateway/service/SmsSenderService.java;1276001353/1;/OTPMicroService1/src/main/java/training/iqgateway/service/SmsService.java;6754874/1;/OTPMicroService1/src/main/java/training/iqgateway/serviceImpl/DummySmsServiceImpl.java;824417403/1;/OTPMicroService1/src/main/java/training/iqgateway/serviceImpl/OtpServiceImpl.java;4016250765/1;/OTPMicroService1/src/test/java/training/iqgateway/OtpMicroService1ApplicationTests.java;2307588538/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_u7y8YXN9EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_u7y8YnN9EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_u7y8Y3N9EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_u7y8ZHN9EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_u7y8ZXN9EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_u7y8ZnN9EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_u7y8Z3N9EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_u7y8aHN9EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_u7zjcHN9EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_u7Qw4HN9EfCTGutOISnrsw" name="training">
+      <packagedElement xmi:type="uml:Package" xmi:id="_u7SmEHN9EfCTGutOISnrsw" name="iqgateway">
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7UbQHN9EfCTGutOISnrsw" name="config">
+          <packagedElement xmi:type="uml:Class" xmi:id="_u70KgHN9EfCTGutOISnrsw" name="TwilioConfig">
+            <ownedAttribute xmi:id="_u_GvEHN9EfCTGutOISnrsw" name="accountSid" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_u_GvFHN9EfCTGutOISnrsw" name="authToken" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u_RHIHN9EfCTGutOISnrsw" name="initTwilio" specification="_u70KgnN9EfCTGutOISnrsw">
+              <language>java</language>
+              <body>Twilio.init(accountSid, authToken);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_u70KgnN9EfCTGutOISnrsw" name="initTwilio" method="_u_RHIHN9EfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_u71YoHN9EfCTGutOISnrsw" name="WebConfig">
+            <interfaceRealization xmi:id="_u-6h0HN9EfCTGutOISnrsw" client="_u71YoHN9EfCTGutOISnrsw" supplier="_u-m_0XN9EfCTGutOISnrsw" contract="_u-m_0XN9EfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u_RHIXN9EfCTGutOISnrsw" name="addCorsMappings" specification="_u-7I4HN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u_RHInN9EfCTGutOISnrsw" name="registry" type="_u-mYwHN9EfCTGutOISnrsw"/>
+              <language>java</language>
+              <body>registry.addMapping(&quot;/**&quot;)&#xD;
+   .allowedOrigins(&quot;http://localhost:5173&quot;)&#xD;
+   .allowedMethods(&quot;GET&quot;, &quot;POST&quot;, &quot;PUT&quot;, &quot;DELETE&quot;, &quot;OPTIONS&quot;)&#xD;
+   .allowedHeaders(&quot;*&quot;);&#xD;
+  </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_u-7I4HN9EfCTGutOISnrsw" name="addCorsMappings" method="_u_RHIXN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u-7I4XN9EfCTGutOISnrsw" name="registry" type="_u-mYwHN9EfCTGutOISnrsw"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7WQcnN9EfCTGutOISnrsw" name="service">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_u8C0AHN9EfCTGutOISnrsw" name="OtpService">
+            <ownedOperation xmi:id="_u8DbEHN9EfCTGutOISnrsw" name="generateAndSendOtp" raisedException="_u_E54nN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u8DbEXN9EfCTGutOISnrsw" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8DbEnN9EfCTGutOISnrsw" name="phone">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_u8DbE3N9EfCTGutOISnrsw" name="verifyOtp">
+              <ownedParameter xmi:id="_u8ECIHN9EfCTGutOISnrsw" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8ECIXN9EfCTGutOISnrsw" name="phone">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8ECInN9EfCTGutOISnrsw" name="otp">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8ECI3N9EfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_u8EpMHN9EfCTGutOISnrsw" name="SmsSenderService">
+            <ownedAttribute xmi:id="_u_NcwHN9EfCTGutOISnrsw" name="fromPhoneNumber" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u_SVQnN9EfCTGutOISnrsw" name="sendSms" specification="_u8FQQHN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u_S8UHN9EfCTGutOISnrsw" name="toPhoneNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u_S8UXN9EfCTGutOISnrsw" name="messageBody">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u_S8UnN9EfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>try {&#xD;
+         Message message = Message.creator(&#xD;
+                 new PhoneNumber(toPhoneNumber),&#xD;
+                 new PhoneNumber(fromPhoneNumber),&#xD;
+                 messageBody)&#xD;
+             .create();&#xD;
+ &#xD;
+         System.out.println(&quot;SMS sent, SID: &quot; + message.getSid());&#xD;
+         return true;  // success&#xD;
+     } catch (Exception e) {&#xD;
+         System.err.println(&quot;Failed to send SMS: &quot; + e.getMessage());&#xD;
+         return false; // failure&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_u8FQQHN9EfCTGutOISnrsw" name="sendSms" method="_u_SVQnN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u8FQQXN9EfCTGutOISnrsw" name="toPhoneNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8FQQnN9EfCTGutOISnrsw" name="messageBody">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8FQQ3N9EfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_u8F3UHN9EfCTGutOISnrsw" name="SmsService">
+            <ownedOperation xmi:id="_u8GeYHN9EfCTGutOISnrsw" name="sendSms">
+              <ownedParameter xmi:id="_u8GeYXN9EfCTGutOISnrsw" name="phoneNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8GeYnN9EfCTGutOISnrsw" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8GeY3N9EfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7XekHN9EfCTGutOISnrsw" name="controller">
+          <packagedElement xmi:type="uml:Class" xmi:id="_u73N0HN9EfCTGutOISnrsw" name="OtpController">
+            <ownedAttribute xmi:id="_u_GvGHN9EfCTGutOISnrsw" name="otpService" visibility="private" type="_u8C0AHN9EfCTGutOISnrsw" association="_u_ZC8HN9EfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u_RHI3N9EfCTGutOISnrsw" name="sendOtp" specification="_u-8XAHN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u_RHJHN9EfCTGutOISnrsw" name="request" type="_u-oN8HN9EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_u_RHJXN9EfCTGutOISnrsw" type="_u-pcEXN9EfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>String userId = request.get(&quot;userId&quot;);&#xD;
+     String phone = request.get(&quot;phone&quot;);&#xD;
+&#xD;
+     if (userId == null || phone == null || phone.isBlank()) {&#xD;
+         return ResponseEntity.badRequest().body(&quot;userId and phone are required&quot;);&#xD;
+     }&#xD;
+     try {&#xD;
+         otpService.generateAndSendOtp(userId, phone);&#xD;
+         return ResponseEntity.ok(&quot;OTP sent successfully&quot;);&#xD;
+     } catch (Exception e) {&#xD;
+         return ResponseEntity.status(500).body(&quot;Failed to send OTP&quot;);&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u_RHJnN9EfCTGutOISnrsw" name="verifyOtp" specification="_u--MMHN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u_RHJ3N9EfCTGutOISnrsw" name="request" type="_u-oN8HN9EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_u_RHKHN9EfCTGutOISnrsw" type="_u-pcEXN9EfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>String userId = request.get(&quot;userId&quot;);&#xD;
+     String phone = request.get(&quot;phone&quot;);&#xD;
+     String otp = request.get(&quot;otp&quot;);&#xD;
+&#xD;
+     if (userId == null || phone == null || otp == null ) {&#xD;
+         return ResponseEntity.badRequest().body(&quot;userId, phone, and otp are required&quot;);&#xD;
+     }&#xD;
+&#xD;
+     boolean valid = otpService.verifyOtp(userId, phone, otp);&#xD;
+     if (valid) {&#xD;
+         return ResponseEntity.ok(&quot;OTP verified&quot;);&#xD;
+     } else {&#xD;
+         return ResponseEntity.status(2401).body(&quot;Invalid or expired OTP&quot;);&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_u-8XAHN9EfCTGutOISnrsw" name="sendOtp" method="_u_RHI3N9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u-8XAXN9EfCTGutOISnrsw" name="request" type="_u-oN8HN9EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_u-8-EXN9EfCTGutOISnrsw" type="_u-pcEXN9EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_u--MMHN9EfCTGutOISnrsw" name="verifyOtp" method="_u_RHJnN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u--MMXN9EfCTGutOISnrsw" name="request" type="_u-oN8HN9EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_u--zQXN9EfCTGutOISnrsw" type="_u-pcEXN9EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_u_ZC8HN9EfCTGutOISnrsw" name="" memberEnd="_u_ZC8XN9EfCTGutOISnrsw _u_GvGHN9EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_u_ZC8XN9EfCTGutOISnrsw" name="" type="_u73N0HN9EfCTGutOISnrsw" association="_u_ZC8HN9EfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7cXEHN9EfCTGutOISnrsw" name="entities">
+          <packagedElement xmi:type="uml:Class" xmi:id="_u75DAHN9EfCTGutOISnrsw" name="UserOtp">
+            <ownedAttribute xmi:id="_u_HWInN9EfCTGutOISnrsw" name="id" type="_u-qqMHN9EfCTGutOISnrsw" association="_u_gXsHN9EfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_u_IkQXN9EfCTGutOISnrsw" name="userId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_u_JLUXN9EfCTGutOISnrsw" name="phone">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_u_JLU3N9EfCTGutOISnrsw" name="otp">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_u_JLVXN9EfCTGutOISnrsw" name="createdAt" type="_u-u7oHN9EfCTGutOISnrsw" association="_u_l3QXN9EfCTGutOISnrsw">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_u_KZcHN9EfCTGutOISnrsw" value="Instant.now()"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_u_LnkHN9EfCTGutOISnrsw" name="expiresAt" type="_u-u7oHN9EfCTGutOISnrsw" association="_u_rW0XN9EfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u_RuN3N9EfCTGutOISnrsw" name="UserOtp" specification="_u_BPgHN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u_RuOHN9EfCTGutOISnrsw" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u_RuOXN9EfCTGutOISnrsw" name="phone">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u_RuOnN9EfCTGutOISnrsw" name="otp">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u_RuO3N9EfCTGutOISnrsw" name="expiresAt" type="_u-u7oHN9EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_u_RuPHN9EfCTGutOISnrsw" type="_u75DAHN9EfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>this.userId = userId;&#xD;
+     this.phone = phone;&#xD;
+     this.otp = otp;&#xD;
+     this.expiresAt = expiresAt;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u_SVQHN9EfCTGutOISnrsw" name="get_id_asString" specification="_u76RIXN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u_SVQXN9EfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return id != null ? id.toHexString() : null;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_u76RIXN9EfCTGutOISnrsw" name="get_id_asString" method="_u_SVQHN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u764MHN9EfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_u_BPgHN9EfCTGutOISnrsw" name="UserOtp" method="_u_RuN3N9EfCTGutOISnrsw">
+              <eAnnotations xmi:id="_u_B2kHN9EfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_u_B2kXN9EfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_u_BPgXN9EfCTGutOISnrsw" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u_BPgnN9EfCTGutOISnrsw" name="phone">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u_BPg3N9EfCTGutOISnrsw" name="otp">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u_BPhHN9EfCTGutOISnrsw" name="expiresAt" type="_u-u7oHN9EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_u_B2knN9EfCTGutOISnrsw" type="_u75DAHN9EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_u_gXsHN9EfCTGutOISnrsw" name="" memberEnd="_u_gXsXN9EfCTGutOISnrsw _u_HWInN9EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_u_gXsXN9EfCTGutOISnrsw" name="" type="_u75DAHN9EfCTGutOISnrsw" association="_u_gXsHN9EfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_u_l3QXN9EfCTGutOISnrsw" name="" memberEnd="_u_l3QnN9EfCTGutOISnrsw _u_JLVXN9EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_u_l3QnN9EfCTGutOISnrsw" name="" type="_u75DAHN9EfCTGutOISnrsw" association="_u_l3QXN9EfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_u_rW0XN9EfCTGutOISnrsw" name="" memberEnd="_u_rW0nN9EfCTGutOISnrsw _u_LnkHN9EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_u_rW0nN9EfCTGutOISnrsw" name="" type="_u75DAHN9EfCTGutOISnrsw" association="_u_rW0XN9EfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7ezUXN9EfCTGutOISnrsw" name="repositories">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_u7_JoHN9EfCTGutOISnrsw" name="UserOtpRepository">
+            <generalization xmi:id="_u_DrwHN9EfCTGutOISnrsw" general="_u-zNEXN9EfCTGutOISnrsw"/>
+            <ownedOperation xmi:id="_u8AXwHN9EfCTGutOISnrsw" name="findByUserIdAndPhoneAndOtp">
+              <ownedParameter xmi:id="_u8AXwXN9EfCTGutOISnrsw" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8AXwnN9EfCTGutOISnrsw" name="phone">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8AXw3N9EfCTGutOISnrsw" name="otp">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u_E54HN9EfCTGutOISnrsw" type="_u-ymAHN9EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_u8Bl4HN9EfCTGutOISnrsw" name="deleteByUserIdAndPhone">
+              <ownedParameter xmi:id="_u8Bl4XN9EfCTGutOISnrsw" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8Bl4nN9EfCTGutOISnrsw" name="phone">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7idsHN9EfCTGutOISnrsw" name="serviceImpl">
+          <packagedElement xmi:type="uml:Class" xmi:id="_u8GeZHN9EfCTGutOISnrsw" name="DummySmsServiceImpl">
+            <ownedAttribute xmi:id="_u_OD03N9EfCTGutOISnrsw" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_u-1pUHN9EfCTGutOISnrsw" isReadOnly="true" association="_u_vBMXN9EfCTGutOISnrsw">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_u_OD1HN9EfCTGutOISnrsw" value="LoggerFactory.getLogger(DummySmsServiceImpl.class)"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_u-1pVHN9EfCTGutOISnrsw" client="_u8GeZHN9EfCTGutOISnrsw" supplier="_u8F3UHN9EfCTGutOISnrsw" contract="_u8F3UHN9EfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u_S8U3N9EfCTGutOISnrsw" name="sendSms" specification="_u8HsgHN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u_S8VHN9EfCTGutOISnrsw" name="phoneNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u_S8VXN9EfCTGutOISnrsw" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u_S8VnN9EfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>logger.info(&quot;Sending SMS to {}: {}&quot;, phoneNumber, message);&#xD;
+     return true; // simulate success&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_u8HsgHN9EfCTGutOISnrsw" name="sendSms" method="_u_S8U3N9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u8HsgXN9EfCTGutOISnrsw" name="phoneNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8HsgnN9EfCTGutOISnrsw" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8Hsg3N9EfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_u8JhsHN9EfCTGutOISnrsw" name="OtpServiceImpl">
+            <ownedAttribute xmi:id="_u_Oq4XN9EfCTGutOISnrsw" name="OTP_EXPIRY_MINUTES" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_u_Oq4nN9EfCTGutOISnrsw" value="5"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_u_Oq5HN9EfCTGutOISnrsw" name="userOtpRepository" visibility="private" type="_u7_JoHN9EfCTGutOISnrsw" association="_u_yrkXN9EfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_u_PR8nN9EfCTGutOISnrsw" name="smsSenderService" visibility="private" type="_u8EpMHN9EfCTGutOISnrsw" association="_u_4yMXN9EfCTGutOISnrsw"/>
+            <interfaceRealization xmi:id="_u-23cXN9EfCTGutOISnrsw" client="_u8JhsHN9EfCTGutOISnrsw" supplier="_u8C0AHN9EfCTGutOISnrsw" contract="_u8C0AHN9EfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u_S8V3N9EfCTGutOISnrsw" name="generateOtp" specification="_u8Kv0HN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u_S8WHN9EfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>int otp = (int) (Math.random() * 9000) + 1000;&#xD;
+     return String.valueOf(otp);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u_TjYHN9EfCTGutOISnrsw" name="generateAndSendOtp" specification="_u8LW4XN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u_TjYXN9EfCTGutOISnrsw" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u_TjYnN9EfCTGutOISnrsw" name="phone">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>String otp = generateOtp();&#xD;
+&#xD;
+     Instant now = Instant.now();&#xD;
+     Instant expiry = now.plus(OTP_EXPIRY_MINUTES, ChronoUnit.MINUTES);&#xD;
+&#xD;
+     // Remove any existing OTP for the user and phone&#xD;
+     userOtpRepository.deleteByUserIdAndPhone(userId, phone);&#xD;
+&#xD;
+     // Save new OTP with expiry&#xD;
+     UserOtp userOtp = new UserOtp(userId, phone, otp, expiry);&#xD;
+     userOtpRepository.save(userOtp);&#xD;
+&#xD;
+     // Construct SMS message&#xD;
+     String message = &quot;Your OTP code is: &quot; + otp + &quot;. It is valid for &quot; + OTP_EXPIRY_MINUTES + &quot; minutes.&quot;;&#xD;
+&#xD;
+     // Send SMS and check result (assumes sendSms returns boolean)&#xD;
+     boolean smsSent = smsSenderService.sendSms(phone, message);&#xD;
+     if (!smsSent) {&#xD;
+         // Optionally remove OTP record on failure to send SMS&#xD;
+         userOtpRepository.delete(userOtp);&#xD;
+         throw new Exception(&quot;Failed to send OTP SMS&quot;);&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u_TjY3N9EfCTGutOISnrsw" name="verifyOtp" specification="_u8MlAHN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u_TjZHN9EfCTGutOISnrsw" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u_TjZXN9EfCTGutOISnrsw" name="phone">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u_TjZnN9EfCTGutOISnrsw" name="otp">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u_TjZ3N9EfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Optional&lt;UserOtp> userOtpOpt = userOtpRepository.findByUserIdAndPhoneAndOtp(userId, phone, otp);&#xD;
+     if (userOtpOpt.isEmpty()) {&#xD;
+         return false; // No match found&#xD;
+     }&#xD;
+&#xD;
+     UserOtp userOtp = userOtpOpt.get();&#xD;
+&#xD;
+     // Check if OTP expired&#xD;
+     if (userOtp.getExpiresAt().isBefore(Instant.now())) {&#xD;
+         // OTP expired - delete from DB&#xD;
+         userOtpRepository.delete(userOtp);&#xD;
+         return false;&#xD;
+     }&#xD;
+&#xD;
+     // OTP is valid, remove it to prevent reuse&#xD;
+     userOtpRepository.delete(userOtp);&#xD;
+     return true;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_u8Kv0HN9EfCTGutOISnrsw" name="generateOtp" visibility="private" method="_u_S8V3N9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u8Kv0XN9EfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_u8LW4XN9EfCTGutOISnrsw" name="generateAndSendOtp" method="_u_TjYHN9EfCTGutOISnrsw" raisedException="_u_E54nN9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u8LW4nN9EfCTGutOISnrsw" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8LW43N9EfCTGutOISnrsw" name="phone">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_u8MlAHN9EfCTGutOISnrsw" name="verifyOtp" method="_u_TjY3N9EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_u8MlAXN9EfCTGutOISnrsw" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8MlAnN9EfCTGutOISnrsw" name="phone">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8MlA3N9EfCTGutOISnrsw" name="otp">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_u8MlBHN9EfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_u_vBMXN9EfCTGutOISnrsw" name="" memberEnd="_u_vBMnN9EfCTGutOISnrsw _u_OD03N9EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_u_vBMnN9EfCTGutOISnrsw" name="" type="_u8GeZHN9EfCTGutOISnrsw" association="_u_vBMXN9EfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_u_yrkXN9EfCTGutOISnrsw" name="" memberEnd="_u_yrknN9EfCTGutOISnrsw _u_Oq5HN9EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_u_yrknN9EfCTGutOISnrsw" name="" type="_u8JhsHN9EfCTGutOISnrsw" association="_u_yrkXN9EfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_u_4yMXN9EfCTGutOISnrsw" name="" memberEnd="_u_4yMnN9EfCTGutOISnrsw _u_PR8nN9EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_u_4yMnN9EfCTGutOISnrsw" name="" type="_u8JhsHN9EfCTGutOISnrsw" association="_u_4yMXN9EfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_u7xuQHN9EfCTGutOISnrsw" name="OtpMicroService1Application">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u_QgEHN9EfCTGutOISnrsw" name="main" specification="_u7zjcXN9EfCTGutOISnrsw">
+            <ownedParameter xmi:id="_u_QgEXN9EfCTGutOISnrsw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u_QgEnN9EfCTGutOISnrsw" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>SpringApplication.run(OtpMicroService1Application.class, args);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_u7zjcXN9EfCTGutOISnrsw" name="main" isStatic="true" method="_u_QgEHN9EfCTGutOISnrsw">
+            <ownedParameter xmi:id="_u7zjcnN9EfCTGutOISnrsw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u7zjdHN9EfCTGutOISnrsw" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_u8PBQHN9EfCTGutOISnrsw" name="OtpMicroService1ApplicationTests" visibility="package">
+          <eAnnotations xmi:id="_u8PBQXN9EfCTGutOISnrsw" source="http://ns.yatta.de/umllab">
+            <contents xmi:type="ecore:EAnnotation" xmi:id="_u8PBQnN9EfCTGutOISnrsw" source="codegen">
+              <details xmi:id="_u8PBQ3N9EfCTGutOISnrsw" key="codegenDirectory" value="/OTPMicroService1/src/test/java"/>
+            </contents>
+          </eAnnotations>
+          <ownedOperation xmi:id="_u8PoUXN9EfCTGutOISnrsw" name="contextLoads" visibility="package"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_u7RX8HN9EfCTGutOISnrsw" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_u7RX8XN9EfCTGutOISnrsw" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7RX8nN9EfCTGutOISnrsw" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_u7RX83N9EfCTGutOISnrsw" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_u-jVcHN9EfCTGutOISnrsw" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_u7mIE3N9EfCTGutOISnrsw" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_u7mIFHN9EfCTGutOISnrsw" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_u-4FkXN9EfCTGutOISnrsw" name="SpringBootTest"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_u-iuYHN9EfCTGutOISnrsw" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7TNI3N9EfCTGutOISnrsw" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_u7TNJHN9EfCTGutOISnrsw" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_u7TNJXN9EfCTGutOISnrsw" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_u-kjkXN9EfCTGutOISnrsw" name="Value"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_u-o1AXN9EfCTGutOISnrsw" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7TNJnN9EfCTGutOISnrsw" name="context">
+          <packagedElement xmi:type="uml:Package" xmi:id="_u7T0MHN9EfCTGutOISnrsw" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_u-lKoXN9EfCTGutOISnrsw" name="Configuration"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7VCUHN9EfCTGutOISnrsw" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_u7VCUXN9EfCTGutOISnrsw" name="servlet">
+            <packagedElement xmi:type="uml:Package" xmi:id="_u7VCUnN9EfCTGutOISnrsw" name="config">
+              <packagedElement xmi:type="uml:Package" xmi:id="_u7VCU3N9EfCTGutOISnrsw" name="annotation">
+                <packagedElement xmi:type="uml:Class" xmi:id="_u-mYwHN9EfCTGutOISnrsw" name="CorsRegistry"/>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_u-m_0XN9EfCTGutOISnrsw" name="WebMvcConfigurer"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_u7WQcHN9EfCTGutOISnrsw" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_u7WQcXN9EfCTGutOISnrsw" name="annotation"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7VpYnN9EfCTGutOISnrsw" name="http">
+          <packagedElement xmi:type="uml:Class" xmi:id="_u-pcEXN9EfCTGutOISnrsw" name="ResponseEntity"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7YssXN9EfCTGutOISnrsw" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_u7YssnN9EfCTGutOISnrsw" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_u-rRQXN9EfCTGutOISnrsw" name="CreatedDate"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_u-r4UXN9EfCTGutOISnrsw" name="Id"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_u7Yss3N9EfCTGutOISnrsw" name="mongodb">
+            <packagedElement xmi:type="uml:Package" xmi:id="_u7YstHN9EfCTGutOISnrsw" name="core">
+              <packagedElement xmi:type="uml:Package" xmi:id="_u7YstXN9EfCTGutOISnrsw" name="index">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_u-r4U3N9EfCTGutOISnrsw" name="Indexed"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_u7YstnN9EfCTGutOISnrsw" name="mapping">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_u-sfYXN9EfCTGutOISnrsw" name="Document"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_u7eMQHN9EfCTGutOISnrsw" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_u-zNEXN9EfCTGutOISnrsw" name="MongoRepository"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7ezUHN9EfCTGutOISnrsw" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_u-z0IXN9EfCTGutOISnrsw" name="Repository"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_u-1CQXN9EfCTGutOISnrsw" name="Service"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_u7YFoHN9EfCTGutOISnrsw" name="bson">
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7YssHN9EfCTGutOISnrsw" name="types">
+          <packagedElement xmi:type="uml:Class" xmi:id="_u-qqMHN9EfCTGutOISnrsw" name="ObjectId"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_u7h2oHN9EfCTGutOISnrsw" name="slf4j">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_u-1pUHN9EfCTGutOISnrsw" name="Logger"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_u-1pUnN9EfCTGutOISnrsw" name="LoggerFactory"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_u7mIEHN9EfCTGutOISnrsw" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7mIEXN9EfCTGutOISnrsw" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_u7mIEnN9EfCTGutOISnrsw" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_u-3egHN9EfCTGutOISnrsw" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_u7SmEXN9EfCTGutOISnrsw" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_u7TNIHN9EfCTGutOISnrsw" name="twilio">
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7gBcHN9EfCTGutOISnrsw" name="rest">
+          <packagedElement xmi:type="uml:Package" xmi:id="_u7gogHN9EfCTGutOISnrsw" name="api">
+            <packagedElement xmi:type="uml:Package" xmi:id="_u7gogXN9EfCTGutOISnrsw" name="v2010">
+              <packagedElement xmi:type="uml:Package" xmi:id="_u7gognN9EfCTGutOISnrsw" name="account">
+                <packagedElement xmi:type="uml:Class" xmi:id="_u-0bMHN9EfCTGutOISnrsw" name="Message"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7gog3N9EfCTGutOISnrsw" name="type">
+          <packagedElement xmi:type="uml:Class" xmi:id="_u-0bMnN9EfCTGutOISnrsw" name="PhoneNumber"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_u-j8gHN9EfCTGutOISnrsw" name="Twilio"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_u7Yst3N9EfCTGutOISnrsw" name="fasterxml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7YsuHN9EfCTGutOISnrsw" name="jackson">
+          <packagedElement xmi:type="uml:Package" xmi:id="_u7YsuXN9EfCTGutOISnrsw" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_u-tGcXN9EfCTGutOISnrsw" name="JsonProperty"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_u7TNIXN9EfCTGutOISnrsw" name="jakarta">
+      <packagedElement xmi:type="uml:Package" xmi:id="_u7TNInN9EfCTGutOISnrsw" name="annotation">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_u-j8gnN9EfCTGutOISnrsw" name="PostConstruct"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_u7VpYHN9EfCTGutOISnrsw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_u7VpYXN9EfCTGutOISnrsw" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_u-oN8HN9EfCTGutOISnrsw" name="Map"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_u-ymAHN9EfCTGutOISnrsw" name="Optional"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_u7ZTwXN9EfCTGutOISnrsw" name="time">
+        <packagedElement xmi:type="uml:Package" xmi:id="_u7jr0HN9EfCTGutOISnrsw" name="temporal">
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_u-2QYHN9EfCTGutOISnrsw" name="ChronoUnit"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_u-u7oHN9EfCTGutOISnrsw" name="Instant"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_u_E54XN9EfCTGutOISnrsw" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_u_E54nN9EfCTGutOISnrsw" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_u7ZTwHN9EfCTGutOISnrsw" name="lombok">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_u-ttgXN9EfCTGutOISnrsw" name="Data"/>
+    </packagedElement>
+    <profileApplication xmi:id="_u1YLUHN9EfCTGutOISnrsw">
+      <eAnnotations xmi:id="_u1YLUXN9EfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_u_HWI3N9EfCTGutOISnrsw">
+      <eAnnotations xmi:id="_u_HWJHN9EfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_u1YLUnN9EfCTGutOISnrsw" base_Package="_ukEY4HN9EfCTGutOISnrsw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_u7y8YHN9EfCTGutOISnrsw" base_Element="_u7xuQHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_u7zjc3N9EfCTGutOISnrsw" base_Element="_u7zjcXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_u7zjdXN9EfCTGutOISnrsw" base_Element="_u7xuQHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u7zjdnN9EfCTGutOISnrsw" name="SpringBootApplication"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_u70KgXN9EfCTGutOISnrsw" base_Element="_u70KgHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_u70xkHN9EfCTGutOISnrsw" base_Element="_u70KgnN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u70xkXN9EfCTGutOISnrsw" name="PostConstruct"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_u70xknN9EfCTGutOISnrsw" base_Element="_u70KgHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u70xk3N9EfCTGutOISnrsw" name="Configuration"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_u71_sHN9EfCTGutOISnrsw" base_Element="_u71YoHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_u71_sXN9EfCTGutOISnrsw" base_Element="_u71YoHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u71_snN9EfCTGutOISnrsw" name="Configuration"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_u7304HN9EfCTGutOISnrsw" base_Element="_u73N0HN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_u74b8HN9EfCTGutOISnrsw" base_Element="_u73N0HN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u74b8XN9EfCTGutOISnrsw" name="CrossOrigin">
+      <annotationParameters xmi:id="_u74b8nN9EfCTGutOISnrsw" name="origins" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_u_UxgnN9EfCTGutOISnrsw" value="&quot;http://localhost:5173&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_u74b83N9EfCTGutOISnrsw" name="RestController"/>
+    <annotations xmi:id="_u74b9HN9EfCTGutOISnrsw" name="RequestMapping">
+      <annotationParameters xmi:id="_u74b9XN9EfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_u_Uxg3N9EfCTGutOISnrsw" value="&quot;/otp&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_u76RIHN9EfCTGutOISnrsw" base_Element="_u75DAHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_u764MXN9EfCTGutOISnrsw" base_Element="_u76RIXN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u764MnN9EfCTGutOISnrsw" name="JsonProperty">
+      <annotationParameters xmi:id="_u764M3N9EfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_u_VYk3N9EfCTGutOISnrsw" value="&quot;id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_u78GUHN9EfCTGutOISnrsw" base_Element="_u75DAHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u78GUXN9EfCTGutOISnrsw" name="Data"/>
+    <annotations xmi:id="_u78GUnN9EfCTGutOISnrsw" name="Document">
+      <annotationParameters xmi:id="_u78GU3N9EfCTGutOISnrsw" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_u_VYkHN9EfCTGutOISnrsw" value="&quot;otps&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_u7_wsHN9EfCTGutOISnrsw" base_Element="_u7_JoHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_u8A-0HN9EfCTGutOISnrsw" genericsValue="UserOtp" base_Element="_u8AXwHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_u8A-0XN9EfCTGutOISnrsw" base_Element="_u8AXwHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_u8Bl43N9EfCTGutOISnrsw" base_Element="_u8Bl4HN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_u8CM8HN9EfCTGutOISnrsw" base_Element="_u7_JoHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u8CM8XN9EfCTGutOISnrsw" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_u8EpMXN9EfCTGutOISnrsw" base_Element="_u8EpMHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_u8FQRHN9EfCTGutOISnrsw" base_Element="_u8FQQHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_u8FQRXN9EfCTGutOISnrsw" base_Element="_u8EpMHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u8FQRnN9EfCTGutOISnrsw" name="Service"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_u8HFcHN9EfCTGutOISnrsw" base_Element="_u8GeZHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_u8ITkHN9EfCTGutOISnrsw" base_Element="_u8HsgHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u8ITkXN9EfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_u8ITknN9EfCTGutOISnrsw" base_Element="_u8GeZHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u8ITk3N9EfCTGutOISnrsw" name="Service"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_u8KIwHN9EfCTGutOISnrsw" base_Element="_u8JhsHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_u8LW4HN9EfCTGutOISnrsw" base_Element="_u8Kv0HN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_u8L98HN9EfCTGutOISnrsw" base_Element="_u8LW4XN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u8L98XN9EfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_u8NMEHN9EfCTGutOISnrsw" base_Element="_u8MlAHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u8NMEXN9EfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_u8NMEnN9EfCTGutOISnrsw" base_Element="_u8JhsHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u8NME3N9EfCTGutOISnrsw" name="Service"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_u8PoUHN9EfCTGutOISnrsw" base_Element="_u8PBQHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_u8PoUnN9EfCTGutOISnrsw" base_Element="_u8PoUXN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u8PoU3N9EfCTGutOISnrsw" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_u8PoVHN9EfCTGutOISnrsw" base_Element="_u8PBQHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u8PoVXN9EfCTGutOISnrsw" name="SpringBootTest"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_u-iuYXN9EfCTGutOISnrsw" base_Element="_u-iuYHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-jVcXN9EfCTGutOISnrsw" base_Element="_u-jVcHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-j8gXN9EfCTGutOISnrsw" base_Element="_u-j8gHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-kjkHN9EfCTGutOISnrsw" base_Element="_u-j8gnN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-lKoHN9EfCTGutOISnrsw" base_Element="_u-kjkXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-lxsHN9EfCTGutOISnrsw" base_Element="_u-lKoXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-m_0HN9EfCTGutOISnrsw" base_Element="_u-mYwHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-nm4HN9EfCTGutOISnrsw" base_Element="_u-m_0XN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-o1AHN9EfCTGutOISnrsw" base_Element="_u-oN8HN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-pcEHN9EfCTGutOISnrsw" base_Element="_u-o1AXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-pcEnN9EfCTGutOISnrsw" base_Element="_u-pcEXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-rRQHN9EfCTGutOISnrsw" base_Element="_u-qqMHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-r4UHN9EfCTGutOISnrsw" base_Element="_u-rRQXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-r4UnN9EfCTGutOISnrsw" base_Element="_u-r4UXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-sfYHN9EfCTGutOISnrsw" base_Element="_u-r4U3N9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-tGcHN9EfCTGutOISnrsw" base_Element="_u-sfYXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-ttgHN9EfCTGutOISnrsw" base_Element="_u-tGcXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-uUkHN9EfCTGutOISnrsw" base_Element="_u-ttgXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-u7oXN9EfCTGutOISnrsw" base_Element="_u-u7oHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-zNEHN9EfCTGutOISnrsw" base_Element="_u-ymAHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-z0IHN9EfCTGutOISnrsw" base_Element="_u-zNEXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-z0InN9EfCTGutOISnrsw" base_Element="_u-z0IXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-0bMXN9EfCTGutOISnrsw" base_Element="_u-0bMHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-1CQHN9EfCTGutOISnrsw" base_Element="_u-0bMnN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-1CQnN9EfCTGutOISnrsw" base_Element="_u-1CQXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-1pUXN9EfCTGutOISnrsw" base_Element="_u-1pUHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-1pU3N9EfCTGutOISnrsw" base_Element="_u-1pUnN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-23cHN9EfCTGutOISnrsw" base_Element="_u-2QYHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-4FkHN9EfCTGutOISnrsw" base_Element="_u-3egHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u-4soHN9EfCTGutOISnrsw" base_Element="_u-4FkXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_u-7v8HN9EfCTGutOISnrsw" base_Element="_u-7I4HN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u-7v8XN9EfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_u-8-EHN9EfCTGutOISnrsw" genericsValue="?" base_Element="_u-8XAHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_u-9lIHN9EfCTGutOISnrsw" genericsValue="String, String" base_Element="_u-8XAXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_u-9lIXN9EfCTGutOISnrsw" base_Element="_u-8XAXN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u-9lInN9EfCTGutOISnrsw" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_u-9lI3N9EfCTGutOISnrsw" base_Element="_u-8XAHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u-9lJHN9EfCTGutOISnrsw" name="PostMapping">
+      <annotationParameters xmi:id="_u-9lJXN9EfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_u_UxhHN9EfCTGutOISnrsw" value="&quot;/send&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_u--zQHN9EfCTGutOISnrsw" genericsValue="?" base_Element="_u--MMHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_u-_aUHN9EfCTGutOISnrsw" genericsValue="String, String" base_Element="_u--MMXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_u-_aUXN9EfCTGutOISnrsw" base_Element="_u--MMXN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u-_aUnN9EfCTGutOISnrsw" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_u-_aU3N9EfCTGutOISnrsw" base_Element="_u--MMHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u-_aVHN9EfCTGutOISnrsw" name="PostMapping">
+      <annotationParameters xmi:id="_u-_aVXN9EfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_u_UxhXN9EfCTGutOISnrsw" value="&quot;/verify&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_u_B2k3N9EfCTGutOISnrsw" base_Element="_u_BPgHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_u_ES0HN9EfCTGutOISnrsw" genericsValue="UserOtp, ObjectId" base_Element="_u_DrwHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u_Fg8HN9EfCTGutOISnrsw" base_Element="_u_E54nN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_u_GvEXN9EfCTGutOISnrsw" base_Element="_u_GvEHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u_GvEnN9EfCTGutOISnrsw" name="Value">
+      <annotationParameters xmi:id="_u_GvE3N9EfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_u_UxgHN9EfCTGutOISnrsw" value="&quot;${twilio.account-sid}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_u_GvFXN9EfCTGutOISnrsw" base_Element="_u_GvFHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u_GvFnN9EfCTGutOISnrsw" name="Value">
+      <annotationParameters xmi:id="_u_GvF3N9EfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_u_UxgXN9EfCTGutOISnrsw" value="&quot;${twilio.auth-token}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_u_HWIHN9EfCTGutOISnrsw" base_Element="_u_GvGHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u_HWIXN9EfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <Persistency:PrimaryKey xmi:id="_u_H9MHN9EfCTGutOISnrsw" base_Property="_u_HWInN9EfCTGutOISnrsw"/>
+  <Persistency:JPA1StyledElement xmi:id="_u_IkQHN9EfCTGutOISnrsw" base_Element="_u_HWInN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_u_JLUHN9EfCTGutOISnrsw" base_Element="_u_IkQXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_u_JLUnN9EfCTGutOISnrsw" base_Element="_u_JLUXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_u_JLVHN9EfCTGutOISnrsw" base_Element="_u_JLU3N9EfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_u_LAgHN9EfCTGutOISnrsw" base_Element="_u_JLVXN9EfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_u_LAgXN9EfCTGutOISnrsw" name="getCreatedAt" method="_u_RHKXN9EfCTGutOISnrsw">
+      <ownedParameter xmi:id="_u_LAhHN9EfCTGutOISnrsw" type="_u-u7oHN9EfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_u_LAgnN9EfCTGutOISnrsw" name="setCreatedAt" method="_u_RuMXN9EfCTGutOISnrsw">
+      <ownedParameter xmi:id="_u_LAg3N9EfCTGutOISnrsw" name="createdAt" type="_u-u7oHN9EfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_u_LAhXN9EfCTGutOISnrsw" base_Element="_u_JLVXN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u_LAhnN9EfCTGutOISnrsw" name="CreatedDate"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_u_LnkXN9EfCTGutOISnrsw" base_Element="_u_LnkHN9EfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_u_MOoHN9EfCTGutOISnrsw" name="getExpiresAt" method="_u_RuM3N9EfCTGutOISnrsw">
+      <ownedParameter xmi:id="_u_MOo3N9EfCTGutOISnrsw" type="_u-u7oHN9EfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_u_MOoXN9EfCTGutOISnrsw" name="setExpiresAt" method="_u_RuNXN9EfCTGutOISnrsw">
+      <ownedParameter xmi:id="_u_MOonN9EfCTGutOISnrsw" name="expiresAt" type="_u-u7oHN9EfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_u_MOpHN9EfCTGutOISnrsw" base_Element="_u_LnkHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u_M1sHN9EfCTGutOISnrsw" name="Indexed">
+      <annotationParameters xmi:id="_u_M1sXN9EfCTGutOISnrsw" name="name" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_u_VYkXN9EfCTGutOISnrsw" value="&quot;expire_at_idx&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_u_M1snN9EfCTGutOISnrsw" name="expireAfterSeconds" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_u_VYknN9EfCTGutOISnrsw" value="300"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_u_OD0HN9EfCTGutOISnrsw" base_Element="_u_NcwHN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u_OD0XN9EfCTGutOISnrsw" name="Value">
+      <annotationParameters xmi:id="_u_OD0nN9EfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_u_V_oHN9EfCTGutOISnrsw" value="&quot;${twilio.phone-number}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_u_Oq4HN9EfCTGutOISnrsw" base_Element="_u_OD03N9EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_u_Oq43N9EfCTGutOISnrsw" base_Element="_u_Oq4XN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_u_PR8HN9EfCTGutOISnrsw" base_Element="_u_Oq5HN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u_PR8XN9EfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_u_P5AHN9EfCTGutOISnrsw" base_Element="_u_PR8nN9EfCTGutOISnrsw">
+    <annotations xmi:id="_u_P5AXN9EfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <uml:OpaqueBehavior xmi:id="_u_RHKXN9EfCTGutOISnrsw" name="getCreatedAt" specification="_u_LAgXN9EfCTGutOISnrsw">
+    <ownedParameter xmi:id="_u_RuMHN9EfCTGutOISnrsw" type="_u-u7oHN9EfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return createdAt;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_u_RuMXN9EfCTGutOISnrsw" name="setCreatedAt" specification="_u_LAgnN9EfCTGutOISnrsw">
+    <ownedParameter xmi:id="_u_RuMnN9EfCTGutOISnrsw" name="createdAt" type="_u-u7oHN9EfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.createdAt = createdAt;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_u_RuM3N9EfCTGutOISnrsw" name="getExpiresAt" specification="_u_MOoHN9EfCTGutOISnrsw">
+    <ownedParameter xmi:id="_u_RuNHN9EfCTGutOISnrsw" type="_u-u7oHN9EfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return expiresAt;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_u_RuNXN9EfCTGutOISnrsw" name="setExpiresAt" specification="_u_MOoXN9EfCTGutOISnrsw">
+    <ownedParameter xmi:id="_u_RuNnN9EfCTGutOISnrsw" name="expiresAt" type="_u-u7oHN9EfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.expiresAt = expiresAt;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_u_fwoHN9EfCTGutOISnrsw" base_Element="_u_ZC8HN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u_l3QHN9EfCTGutOISnrsw" base_Element="_u_gXsHN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u_rW0HN9EfCTGutOISnrsw" base_Element="_u_l3QXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u_vBMHN9EfCTGutOISnrsw" base_Element="_u_rW0XN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u_yrkHN9EfCTGutOISnrsw" base_Element="_u_vBMXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u_4yMHN9EfCTGutOISnrsw" base_Element="_u_yrkXN9EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_u__f4HN9EfCTGutOISnrsw" base_Element="_u_4yMXN9EfCTGutOISnrsw"/>
+</xmi:XMI>

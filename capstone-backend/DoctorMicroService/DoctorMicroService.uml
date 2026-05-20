@@ -1,0 +1,2036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_WtdRcHNvEfCTGutOISnrsw" name="DoctorMicroService">
+    <eAnnotations xmi:id="_W_WSsHNvEfCTGutOISnrsw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_W_WSsXNvEfCTGutOISnrsw" source="codegen">
+        <details xmi:id="_W_W5wHNvEfCTGutOISnrsw" key="codegenDirectory" value="/DoctorMicroService/src/main/java"/>
+        <details xmi:id="_ZpSwcHNvEfCTGutOISnrsw" key="AssociatedSourceCode" value="/DoctorMicroService/src/main/java/training/iqgateway/DoctorMicroServiceApplication.java;3271576448/1;/DoctorMicroService/src/main/java/training/iqgateway/controller/DoctorAvailabilityController.java;2808474638/1;/DoctorMicroService/src/main/java/training/iqgateway/controller/DoctorController.java;1114874031/1;/DoctorMicroService/src/main/java/training/iqgateway/entities/Doctor.java;1594487959/1;/DoctorMicroService/src/main/java/training/iqgateway/entities/DoctorAvailability.java;2240292726/1;/DoctorMicroService/src/main/java/training/iqgateway/repository/DoctorAvailabilityRepository.java;3601171609/1;/DoctorMicroService/src/main/java/training/iqgateway/repository/DoctorRepository.java;813817747/1;/DoctorMicroService/src/main/java/training/iqgateway/service/DoctorAvailabilityService.java;3034612625/1;/DoctorMicroService/src/main/java/training/iqgateway/service/DoctorService.java;2671576015/1;/DoctorMicroService/src/main/java/training/iqgateway/serviceimpl/DoctorAvailabilityServiceImpl.java;1938332292/1;/DoctorMicroService/src/main/java/training/iqgateway/serviceimpl/DoctorServiceImpl.java;1538337767/1;/DoctorMicroService/src/test/java/training/iqgateway/DoctorMicroServiceApplicationTests.java;168248768/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_XXqFAHNvEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_XXqFAXNvEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_XXqFAnNvEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_XXqFA3NvEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_XXqFBHNvEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_XXqFBXNvEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_XXqFBnNvEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_XXqFB3NvEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_XXqsEHNvEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_XVp54HNvEfCTGutOISnrsw" name="training">
+      <packagedElement xmi:type="uml:Package" xmi:id="_XVuLUHNvEfCTGutOISnrsw" name="iqgateway">
+        <packagedElement xmi:type="uml:Package" xmi:id="_XVx1sHNvEfCTGutOISnrsw" name="entities">
+          <packagedElement xmi:type="uml:Package" xmi:id="_XW_WoXNvEfCTGutOISnrsw" name="DoctorAvailability">
+            <packagedElement xmi:type="uml:Class" xmi:id="_XfqKcXNvEfCTGutOISnrsw" name="DailySlot"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_XYGJ4HNvEfCTGutOISnrsw" name="Doctor">
+            <ownedAttribute xmi:id="_XgmloHNvEfCTGutOISnrsw" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_XgqQAXNvEfCTGutOISnrsw" name="customId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_XgssQHNvEfCTGutOISnrsw" name="firstName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_Xgt6YHNvEfCTGutOISnrsw" name="lastName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_XgvIgHNvEfCTGutOISnrsw" name="specialization">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_XgvIgnNvEfCTGutOISnrsw" name="contactNumber">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_XgwWpHNvEfCTGutOISnrsw" name="email">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_XgxkwXNvEfCTGutOISnrsw" name="licenseNumber">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_Xgyy43NvEfCTGutOISnrsw" name="consultationFee" type="_Xf8eUXNvEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_Xg0BBHNvEfCTGutOISnrsw" name="createdAt" type="_XewykXNvEfCTGutOISnrsw" association="_Xhjn4XNvEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_Xg1PIHNvEfCTGutOISnrsw" name="updatedAt" type="_XewykXNvEfCTGutOISnrsw" association="_Xhn5UXNvEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_Xg12M3NvEfCTGutOISnrsw" name="experience">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_Xg12NXNvEfCTGutOISnrsw" name="education">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhCqgXNvEfCTGutOISnrsw" name="Doctor" specification="_Xf-6kHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhCqgnNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhCqg3NvEfCTGutOISnrsw" name="customId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhCqhHNvEfCTGutOISnrsw" name="firstName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhCqhXNvEfCTGutOISnrsw" name="lastName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhCqhnNvEfCTGutOISnrsw" name="specialization">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhCqh3NvEfCTGutOISnrsw" name="contactNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhCqiHNvEfCTGutOISnrsw" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhCqiXNvEfCTGutOISnrsw" name="licenseNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhCqinNvEfCTGutOISnrsw" name="consultationFee" type="_Xf8eUXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhCqi3NvEfCTGutOISnrsw" name="createdAt" type="_XewykXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhCqjHNvEfCTGutOISnrsw" name="updatedAt" type="_XewykXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhCqjXNvEfCTGutOISnrsw" name="experience">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhCqjnNvEfCTGutOISnrsw" name="education">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhCqj3NvEfCTGutOISnrsw" type="_XYGJ4HNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>this.id = id;&#xD;
+     this.customId = customId;&#xD;
+     this.firstName = firstName;&#xD;
+     this.lastName = lastName;&#xD;
+     this.specialization = specialization;&#xD;
+     this.contactNumber = contactNumber;&#xD;
+     this.email = email;&#xD;
+     this.licenseNumber = licenseNumber;&#xD;
+     this.consultationFee = consultationFee;&#xD;
+     this.createdAt = createdAt;&#xD;
+     this.updatedAt = updatedAt;&#xD;
+     this.experience = experience;&#xD;
+     this.education = education;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhDRkHNvEfCTGutOISnrsw" name="equals" specification="_XgBW0HNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhDRkXNvEfCTGutOISnrsw" name="o" type="_XgAIsXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhDRknNvEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>if (this == o) return true;&#xD;
+     if (o == null || getClass() != o.getClass()) return false;&#xD;
+&#xD;
+     Doctor doctor = (Doctor) o;&#xD;
+&#xD;
+     return Objects.equals(id, doctor.id) &amp;&amp;&#xD;
+            Objects.equals(customId, doctor.customId);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhDRk3NvEfCTGutOISnrsw" name="hashCode" specification="_XYKbUHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhDRlHNvEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return Objects.hash(id, customId);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhDRlXNvEfCTGutOISnrsw" name="toString" specification="_XYLpcXNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhDRlnNvEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return &quot;Doctor{&quot; +&#xD;
+            &quot;id='&quot; + id + '\'' +&#xD;
+            &quot;, customId='&quot; + customId + '\'' +&#xD;
+            &quot;, firstName='&quot; + firstName + '\'' +&#xD;
+            &quot;, lastName='&quot; + lastName + '\'' +&#xD;
+            &quot;, specialization='&quot; + specialization + '\'' +&#xD;
+            &quot;, contactNumber='&quot; + contactNumber + '\'' +&#xD;
+            &quot;, email='&quot; + email + '\'' +&#xD;
+            &quot;, licenseNumber='&quot; + licenseNumber + '\'' +&#xD;
+            &quot;, consultationFee=&quot; + consultationFee +&#xD;
+            &quot;, createdAt=&quot; + createdAt +&#xD;
+            &quot;, updatedAt=&quot; + updatedAt +&#xD;
+            &quot;, experience=&quot; + experience +&#xD;
+            &quot;, education='&quot; + education + '\'' +&#xD;
+            '}';&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_XYHYAHNvEfCTGutOISnrsw" name="Doctor">
+              <eAnnotations xmi:id="_XYImIHNvEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_XYImIXNvEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_XYImInNvEfCTGutOISnrsw" type="_XYGJ4HNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XYKbUHNvEfCTGutOISnrsw" name="hashCode" method="_XhDRk3NvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XYLCYHNvEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XYLpcXNvEfCTGutOISnrsw" name="toString" method="_XhDRlXNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XYLpcnNvEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Xf-6kHNvEfCTGutOISnrsw" name="Doctor" method="_XhCqgXNvEfCTGutOISnrsw">
+              <eAnnotations xmi:id="_Xf_hrXNvEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_Xf_hrnNvEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_Xf_hoHNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf_hoXNvEfCTGutOISnrsw" name="customId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf_honNvEfCTGutOISnrsw" name="firstName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf_ho3NvEfCTGutOISnrsw" name="lastName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf_hpHNvEfCTGutOISnrsw" name="specialization">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf_hpXNvEfCTGutOISnrsw" name="contactNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf_hpnNvEfCTGutOISnrsw" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf_hp3NvEfCTGutOISnrsw" name="licenseNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf_hqHNvEfCTGutOISnrsw" name="consultationFee" type="_Xf8eUXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xf_hqXNvEfCTGutOISnrsw" name="createdAt" type="_XewykXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xf_hqnNvEfCTGutOISnrsw" name="updatedAt" type="_XewykXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xf_hq3NvEfCTGutOISnrsw" name="experience">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf_hrHNvEfCTGutOISnrsw" name="education">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf_hr3NvEfCTGutOISnrsw" type="_XYGJ4HNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XgBW0HNvEfCTGutOISnrsw" name="equals" method="_XhDRkHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XgBW0XNvEfCTGutOISnrsw" name="o" type="_XgAIsXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XgB94HNvEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_XYTlQHNvEfCTGutOISnrsw" name="DoctorAvailability">
+            <ownedAttribute xmi:id="_Xg2dQHNvEfCTGutOISnrsw" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_Xg3EUXNvEfCTGutOISnrsw" name="doctorId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_Xg3EU3NvEfCTGutOISnrsw" name="dailySlots" type="_XYWokHNvEfCTGutOISnrsw" isOrdered="true" association="_Xhsx0XNvEfCTGutOISnrsw">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Xg3EVHNvEfCTGutOISnrsw" value="*"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_Xg3EVnNvEfCTGutOISnrsw" name="leaveDates" type="_XewykXNvEfCTGutOISnrsw" isOrdered="true" association="_XhyRYHNvEfCTGutOISnrsw">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Xg3EV3NvEfCTGutOISnrsw" value="*"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_Xg3rYHNvEfCTGutOISnrsw" name="createdAt" type="_XewykXNvEfCTGutOISnrsw" association="_Xh4_EXNvEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_Xg4ScHNvEfCTGutOISnrsw" name="updatedAt" type="_XewykXNvEfCTGutOISnrsw" association="_Xh_FsHNvEfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhFt0HNvEfCTGutOISnrsw" name="DoctorAvailability" specification="_XgIrkHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhFt0XNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhFt0nNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhFt03NvEfCTGutOISnrsw" name="dailySlots" type="_XeynwnNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhFt1HNvEfCTGutOISnrsw" name="leaveDates" type="_XeynwnNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhFt1XNvEfCTGutOISnrsw" name="createdAt" type="_XewykXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhFt1nNvEfCTGutOISnrsw" name="updatedAt" type="_XewykXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhFt13NvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>this.id = id;&#xD;
+     this.doctorId = doctorId;&#xD;
+     this.dailySlots = dailySlots;&#xD;
+     this.leaveDates = leaveDates;&#xD;
+     this.createdAt = createdAt;&#xD;
+     this.updatedAt = updatedAt;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_XYWBgHNvEfCTGutOISnrsw" name="DoctorAvailability">
+              <eAnnotations xmi:id="_XYWBgXNvEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_XYWBgnNvEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_XYWBg3NvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XgIrkHNvEfCTGutOISnrsw" name="DoctorAvailability" method="_XhFt0HNvEfCTGutOISnrsw">
+              <eAnnotations xmi:id="_XgJSoHNvEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_XgJSoXNvEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_XgIrkXNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgIrknNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgIrk3NvEfCTGutOISnrsw" name="dailySlots" type="_XeynwnNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XgIrlHNvEfCTGutOISnrsw" name="leaveDates" type="_XeynwnNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XgIrlXNvEfCTGutOISnrsw" name="createdAt" type="_XewykXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XgIrlnNvEfCTGutOISnrsw" name="updatedAt" type="_XewykXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XgJSonNvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_XYWokHNvEfCTGutOISnrsw" name="DailySlot">
+              <eAnnotations xmi:id="_XYWokXNvEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_XYXPoHNvEfCTGutOISnrsw" key="static"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_XhOQsXNvEfCTGutOISnrsw">
+                <body>Inner class to represent a daily slot structure for a doctor's availability.&#xD;
+     * This includes regular working slots and specific break slots within the day.</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_Xg45gnNvEfCTGutOISnrsw" name="day">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_Xg45g3NvEfCTGutOISnrsw" name="slots" type="_XYYdwHNvEfCTGutOISnrsw" isOrdered="true" association="_XiDXIHNvEfCTGutOISnrsw">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Xg45hHNvEfCTGutOISnrsw" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_Xg45hXNvEfCTGutOISnrsw" name="breakSlots" type="_XYYdwHNvEfCTGutOISnrsw" isOrdered="true" association="_XiHBgXNvEfCTGutOISnrsw">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Xg45hnNvEfCTGutOISnrsw" value="*"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhFt2HNvEfCTGutOISnrsw" name="DailySlot" specification="_XgLu4HNvEfCTGutOISnrsw">
+                <ownedParameter xmi:id="_XhFt2XNvEfCTGutOISnrsw" name="day">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_XhFt2nNvEfCTGutOISnrsw" name="slots" type="_XeynwnNvEfCTGutOISnrsw"/>
+                <ownedParameter xmi:id="_XhFt23NvEfCTGutOISnrsw" name="breakSlots" type="_XeynwnNvEfCTGutOISnrsw"/>
+                <ownedParameter xmi:id="_XhFt3HNvEfCTGutOISnrsw" type="_XYWokHNvEfCTGutOISnrsw" direction="return"/>
+                <language>java</language>
+                <body>this.day = day;&#xD;
+         this.slots = slots;&#xD;
+         this.breakSlots = breakSlots;&#xD;
+     </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_XYXPonNvEfCTGutOISnrsw" name="DailySlot">
+                <eAnnotations xmi:id="_XYXPo3NvEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_XYXPpHNvEfCTGutOISnrsw" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_XYXPpnNvEfCTGutOISnrsw" type="_XYWokHNvEfCTGutOISnrsw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_XgLu4HNvEfCTGutOISnrsw" name="DailySlot" method="_XhFt2HNvEfCTGutOISnrsw">
+                <eAnnotations xmi:id="_XgMV8HNvEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_XgMV8XNvEfCTGutOISnrsw" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_XgLu4XNvEfCTGutOISnrsw" name="day">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_XgLu4nNvEfCTGutOISnrsw" name="slots" type="_XeynwnNvEfCTGutOISnrsw"/>
+                <ownedParameter xmi:id="_XgLu43NvEfCTGutOISnrsw" name="breakSlots" type="_XeynwnNvEfCTGutOISnrsw"/>
+                <ownedParameter xmi:id="_XgMV8nNvEfCTGutOISnrsw" type="_XYWokHNvEfCTGutOISnrsw" direction="return"/>
+              </ownedOperation>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_XYYdwHNvEfCTGutOISnrsw" name="TimeRange">
+              <eAnnotations xmi:id="_XYYdwXNvEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_XYYdwnNvEfCTGutOISnrsw" key="static"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_XhO3wHNvEfCTGutOISnrsw">
+                <body>Inner class to represent a time range with a start and end time.&#xD;
+     * Uses Instant to store time, which is suitable for MongoDB's ISODate.</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_Xg5gkHNvEfCTGutOISnrsw" name="startTime" type="_XewykXNvEfCTGutOISnrsw" association="_XhPe0HNvEfCTGutOISnrsw"/>
+              <ownedAttribute xmi:id="_Xg5gkXNvEfCTGutOISnrsw" name="endTime" type="_XewykXNvEfCTGutOISnrsw" association="_XhPe0nNvEfCTGutOISnrsw"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhGU4HNvEfCTGutOISnrsw" name="TimeRange" specification="_XgOyMHNvEfCTGutOISnrsw">
+                <ownedParameter xmi:id="_XhGU4XNvEfCTGutOISnrsw" name="startTime" type="_XewykXNvEfCTGutOISnrsw"/>
+                <ownedParameter xmi:id="_XhGU4nNvEfCTGutOISnrsw" name="endTime" type="_XewykXNvEfCTGutOISnrsw"/>
+                <ownedParameter xmi:id="_XhGU43NvEfCTGutOISnrsw" type="_XYYdwHNvEfCTGutOISnrsw" direction="return"/>
+                <language>java</language>
+                <body>this.startTime = startTime;&#xD;
+         this.endTime = endTime;&#xD;
+     </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_XYZE0HNvEfCTGutOISnrsw" name="TimeRange">
+                <eAnnotations xmi:id="_XYZE0XNvEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_XYZE0nNvEfCTGutOISnrsw" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_XYZE1HNvEfCTGutOISnrsw" type="_XYYdwHNvEfCTGutOISnrsw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_XgOyMHNvEfCTGutOISnrsw" name="TimeRange" method="_XhGU4HNvEfCTGutOISnrsw">
+                <eAnnotations xmi:id="_XgOyM3NvEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_XgOyNHNvEfCTGutOISnrsw" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_XgOyMXNvEfCTGutOISnrsw" name="startTime" type="_XewykXNvEfCTGutOISnrsw"/>
+                <ownedParameter xmi:id="_XgOyMnNvEfCTGutOISnrsw" name="endTime" type="_XewykXNvEfCTGutOISnrsw"/>
+                <ownedParameter xmi:id="_XgPZQHNvEfCTGutOISnrsw" type="_XYYdwHNvEfCTGutOISnrsw" direction="return"/>
+              </ownedOperation>
+            </nestedClassifier>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_XhPe0HNvEfCTGutOISnrsw" name="" memberEnd="_Xg5gkHNvEfCTGutOISnrsw _XhPe0XNvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_XhPe0XNvEfCTGutOISnrsw" name="" type="_XYYdwHNvEfCTGutOISnrsw" association="_XhPe0HNvEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_XhPe0nNvEfCTGutOISnrsw" name="" memberEnd="_Xg5gkXNvEfCTGutOISnrsw _XhPe03NvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_XhPe03NvEfCTGutOISnrsw" name="" type="_XYYdwHNvEfCTGutOISnrsw" association="_XhPe0nNvEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Xhjn4XNvEfCTGutOISnrsw" name="" memberEnd="_Xhjn4nNvEfCTGutOISnrsw _Xg0BBHNvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_Xhjn4nNvEfCTGutOISnrsw" name="" type="_XYGJ4HNvEfCTGutOISnrsw" association="_Xhjn4XNvEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Xhn5UXNvEfCTGutOISnrsw" name="" memberEnd="_Xhn5UnNvEfCTGutOISnrsw _Xg1PIHNvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_Xhn5UnNvEfCTGutOISnrsw" name="" type="_XYGJ4HNvEfCTGutOISnrsw" association="_Xhn5UXNvEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Xhsx0XNvEfCTGutOISnrsw" name="" memberEnd="_Xhsx0nNvEfCTGutOISnrsw _Xg3EU3NvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_Xhsx0nNvEfCTGutOISnrsw" name="" type="_XYTlQHNvEfCTGutOISnrsw" association="_Xhsx0XNvEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_XhyRYHNvEfCTGutOISnrsw" name="" memberEnd="_XhyRYXNvEfCTGutOISnrsw _Xg3EVnNvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_XhyRYXNvEfCTGutOISnrsw" name="" type="_XYTlQHNvEfCTGutOISnrsw" association="_XhyRYHNvEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Xh4_EXNvEfCTGutOISnrsw" name="" memberEnd="_Xh4_EnNvEfCTGutOISnrsw _Xg3rYHNvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_Xh4_EnNvEfCTGutOISnrsw" name="" type="_XYTlQHNvEfCTGutOISnrsw" association="_Xh4_EXNvEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Xh_FsHNvEfCTGutOISnrsw" name="" memberEnd="_Xh_FsXNvEfCTGutOISnrsw _Xg4ScHNvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_Xh_FsXNvEfCTGutOISnrsw" name="" type="_XYTlQHNvEfCTGutOISnrsw" association="_Xh_FsHNvEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_XiDXIHNvEfCTGutOISnrsw" name="" memberEnd="_XiDXIXNvEfCTGutOISnrsw _Xg45g3NvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_XiDXIXNvEfCTGutOISnrsw" name="" type="_XYWokHNvEfCTGutOISnrsw" association="_XiDXIHNvEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_XiHBgXNvEfCTGutOISnrsw" name="" memberEnd="_XiHBgnNvEfCTGutOISnrsw _Xg45hXNvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_XiHBgnNvEfCTGutOISnrsw" name="" type="_XYWokHNvEfCTGutOISnrsw" association="_XiHBgXNvEfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_XVycwHNvEfCTGutOISnrsw" name="service">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_XYoVYHNvEfCTGutOISnrsw" name="DoctorAvailabilityService">
+            <ownedOperation xmi:id="_XYpjgHNvEfCTGutOISnrsw" name="getAvailabilityById">
+              <ownedParameter xmi:id="_XYpjgXNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgWG8XNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XYqKkXNvEfCTGutOISnrsw" name="getAvailabilityByDoctorId">
+              <ownedParameter xmi:id="_XYqxoHNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgWuAHNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XYrYsHNvEfCTGutOISnrsw" name="deleteAvailability">
+              <ownedParameter xmi:id="_XYrYsXNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XYrYsnNvEfCTGutOISnrsw" name="getAvailabilityByDoctorIdAndDay">
+              <ownedParameter xmi:id="_XYrYs3NvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XYrYtHNvEfCTGutOISnrsw" name="day">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgWuAXNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Xfl5AHNvEfCTGutOISnrsw" name="createAvailability">
+              <ownedParameter xmi:id="_Xfl5AXNvEfCTGutOISnrsw" name="doctorAvailability" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xfl5AnNvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Xfl5A3NvEfCTGutOISnrsw" name="updateAvailability">
+              <ownedParameter xmi:id="_Xfl5BHNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XfmgEHNvEfCTGutOISnrsw" name="doctorAvailabilityDetails" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XfmgEXNvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XfmgEnNvEfCTGutOISnrsw" name="upsertAvailabilityByDoctorId">
+              <ownedParameter xmi:id="_XfmgE3NvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XfmgFHNvEfCTGutOISnrsw" name="doctorAvailabilityDetails" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XfmgFXNvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_XYtN4HNvEfCTGutOISnrsw" name="DoctorService">
+            <ownedAttribute xmi:id="_XYucAXNvEfCTGutOISnrsw" name="allDoctors" visibility="package" type="_XYGJ4HNvEfCTGutOISnrsw" isOrdered="true" association="_XhQF4nNvEfCTGutOISnrsw">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XYvDEHNvEfCTGutOISnrsw" value="*"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_XYt08HNvEfCTGutOISnrsw" name="getDoctorById">
+              <ownedParameter xmi:id="_XYt08XNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgWuAnNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XYvDEXNvEfCTGutOISnrsw" name="deleteDoctor">
+              <ownedParameter xmi:id="_XYvDEnNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XYvDE3NvEfCTGutOISnrsw" name="getDoctorAvailability">
+              <ownedParameter xmi:id="_XYvDFHNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgXVEHNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XYvqIXNvEfCTGutOISnrsw" name="getDoctorAvailabilityForDay">
+              <ownedParameter xmi:id="_XYvqInNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XYvqI3NvEfCTGutOISnrsw" name="day">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgXVEXNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XYwRMXNvEfCTGutOISnrsw" name="deleteDoctorAvailability">
+              <ownedParameter xmi:id="_XYwRMnNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XYwRM3NvEfCTGutOISnrsw" name="getDoctorByCustomId">
+              <ownedParameter xmi:id="_XYwRNHNvEfCTGutOISnrsw" name="customId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgYjMHNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XfnHIHNvEfCTGutOISnrsw" name="saveDoctor">
+              <ownedParameter xmi:id="_XfnHIXNvEfCTGutOISnrsw" name="doctor" type="_XYGJ4HNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XfnuMHNvEfCTGutOISnrsw" type="_XYGJ4HNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XfnuMXNvEfCTGutOISnrsw" name="updateDoctor">
+              <ownedParameter xmi:id="_XfnuMnNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XfnuM3NvEfCTGutOISnrsw" name="doctor" type="_XYGJ4HNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XfnuNHNvEfCTGutOISnrsw" type="_XYGJ4HNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XfoVQHNvEfCTGutOISnrsw" name="saveOrUpdateDoctorAvailability">
+              <ownedParameter xmi:id="_XfoVQXNvEfCTGutOISnrsw" name="doctorAvailability" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XfoVQnNvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XgX8IHNvEfCTGutOISnrsw" name="isDoctorAvailableOnDate">
+              <ownedParameter xmi:id="_XgX8IXNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgX8InNvEfCTGutOISnrsw" name="date" type="_XewykXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XgX8I3NvEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_XhQF4nNvEfCTGutOISnrsw" name="" memberEnd="_XYucAXNvEfCTGutOISnrsw _XhQF43NvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_XhQF43NvEfCTGutOISnrsw" name="" type="_XYtN4HNvEfCTGutOISnrsw" association="_XhQF4nNvEfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_XV8NwHNvEfCTGutOISnrsw" name="controller">
+          <packagedElement xmi:type="uml:Class" xmi:id="_XXtIUnNvEfCTGutOISnrsw" name="DoctorAvailabilityController">
+            <ownedAttribute xmi:id="_XgiUMHNvEfCTGutOISnrsw" name="doctorAvailabilityService" visibility="private" type="_XYoVYHNvEfCTGutOISnrsw" association="_XhUXUHNvEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_XgjiUXNvEfCTGutOISnrsw" name="doctorService" visibility="private" type="_XYtN4HNvEfCTGutOISnrsw" association="_XhZP0XNvEfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xg-ZEHNvEfCTGutOISnrsw" name="getAvailabilityById" specification="_XXvkkHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xg-ZEXNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xg-ZEnNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return doctorAvailabilityService.getAvailabilityById(id)&#xD;
+             .map(ResponseEntity::ok)&#xD;
+             .orElse(ResponseEntity.notFound().build());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xg-ZE3NvEfCTGutOISnrsw" name="getAvailabilityByDoctorId" specification="_XXyA0HNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xg-ZFHNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xg-ZFXNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return doctorAvailabilityService.getAvailabilityByDoctorId(doctorId)&#xD;
+             .map(ResponseEntity::ok)&#xD;
+             .orElse(ResponseEntity.notFound().build());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xg-ZFnNvEfCTGutOISnrsw" name="createAvailability" specification="_Xe-1AHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xg-ZF3NvEfCTGutOISnrsw" name="doctorAvailability" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xg-ZGHNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>DoctorAvailability createdAvailability = doctorAvailabilityService.createAvailability(doctorAvailability);&#xD;
+     return ResponseEntity.status(HttpStatus.CREATED).body(createdAvailability);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xg-ZGXNvEfCTGutOISnrsw" name="updateAvailability" specification="_XfBRQHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xg-ZGnNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xg-ZG3NvEfCTGutOISnrsw" name="doctorAvailabilityDetails" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xg-ZHHNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         DoctorAvailability updatedAvailability = doctorAvailabilityService.updateAvailability(id, doctorAvailabilityDetails);&#xD;
+         return ResponseEntity.ok(updatedAvailability);&#xD;
+     } catch (RuntimeException e) { // Catch the exception from service if not found&#xD;
+         return ResponseEntity.notFound().build();&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xg_AIHNvEfCTGutOISnrsw" name="upsertAvailabilityByDoctorId" specification="_XfEUknNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xg_AIXNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xg_AInNvEfCTGutOISnrsw" name="doctorAvailabilityDetails" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xg_AI3NvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>DoctorAvailability upsertedAvailability = doctorAvailabilityService.upsertAvailabilityByDoctorId(doctorId, doctorAvailabilityDetails);&#xD;
+     return ResponseEntity.ok(upsertedAvailability);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xg_AJHNvEfCTGutOISnrsw" name="deleteAvailability" specification="_XX1rMHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xg_AJXNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xg_AJnNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>doctorAvailabilityService.deleteAvailability(id);&#xD;
+     return ResponseEntity.noContent().build();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xg_AJ3NvEfCTGutOISnrsw" name="getAvailabilityByDoctorIdAndDay" specification="_XX4Hc3NvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xg_AKHNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xg_AKXNvEfCTGutOISnrsw" name="day">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xg_AKnNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return doctorAvailabilityService.getAvailabilityByDoctorIdAndDay(doctorId, day)&#xD;
+             .map(ResponseEntity::ok)&#xD;
+             .orElse(ResponseEntity.notFound().build());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xg_AK3NvEfCTGutOISnrsw" name="isDoctorAvailableOnDate" specification="_Xf4M4HNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xg_ALHNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xg_ALXNvEfCTGutOISnrsw" name="date" type="_XewykXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xg_ALnNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>boolean available = doctorService.isDoctorAvailableOnDate(doctorId, date); // Changed to doctorService&#xD;
+     return ResponseEntity.ok(available);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_XXvkkHNvEfCTGutOISnrsw" name="getAvailabilityById" method="_Xg-ZEHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XXvkkXNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf1woHNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XXyA0HNvEfCTGutOISnrsw" name="getAvailabilityByDoctorId" method="_Xg-ZE3NvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XXyA0XNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf2XsHNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XX1rMHNvEfCTGutOISnrsw" name="deleteAvailability" method="_Xg_AJHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XX1rMXNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf3l0HNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XX4Hc3NvEfCTGutOISnrsw" name="getAvailabilityByDoctorIdAndDay" method="_Xg_AJ3NvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XX4HdHNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XX4HdXNvEfCTGutOISnrsw" name="day">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf3l0XNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Xe-1AHNvEfCTGutOISnrsw" name="createAvailability" method="_Xg-ZFnNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xe-1AXNvEfCTGutOISnrsw" name="doctorAvailability" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xf2XsXNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XfBRQHNvEfCTGutOISnrsw" name="updateAvailability" method="_Xg-ZGXNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XfBRQXNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XfBRQnNvEfCTGutOISnrsw" name="doctorAvailabilityDetails" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xf2XsnNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XfEUknNvEfCTGutOISnrsw" name="upsertAvailabilityByDoctorId" method="_Xg_AIHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XfE7oHNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XfE7oXNvEfCTGutOISnrsw" name="doctorAvailabilityDetails" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xf2-wHNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Xf4M4HNvEfCTGutOISnrsw" name="isDoctorAvailableOnDate" method="_Xg_AK3NvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xf4M4XNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf4M4nNvEfCTGutOISnrsw" name="date" type="_XewykXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xf4z8XNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_XX_cMHNvEfCTGutOISnrsw" name="DoctorController">
+            <ownedAttribute xmi:id="_XglXgHNvEfCTGutOISnrsw" name="doctorService" visibility="private" type="_XYtN4HNvEfCTGutOISnrsw" association="_XhfWcXNvEfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xg_AL3NvEfCTGutOISnrsw" name="getAllDoctors" specification="_XYADQHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xg_AMHNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>List&lt;Doctor> doctors = doctorService.getAllDoctors();&#xD;
+     return ResponseEntity.ok(doctors);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xg_nMHNvEfCTGutOISnrsw" name="getDoctorByCustomId" specification="_XYCfgHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xg_nMXNvEfCTGutOISnrsw" name="customId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xg_nMnNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>Optional&lt;Doctor> doctorOpt = doctorService.getDoctorByCustomId(customId);&#xD;
+     return doctorOpt.map(ResponseEntity::ok)&#xD;
+             .orElse(ResponseEntity.notFound().build());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xg_nM3NvEfCTGutOISnrsw" name="getDoctorById" specification="_XYDGlXNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xg_nNHNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xg_nNXNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return doctorService.getDoctorById(id)&#xD;
+             .map(ResponseEntity::ok)&#xD;
+             .orElse(ResponseEntity.notFound().build());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_XYADQHNvEfCTGutOISnrsw" name="getAllDoctors" method="_Xg_AL3NvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xf6pIHNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XYCfgHNvEfCTGutOISnrsw" name="getDoctorByCustomId" method="_Xg_nMHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XYCfgXNvEfCTGutOISnrsw" name="customId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf6pIXNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XYDGlXNvEfCTGutOISnrsw" name="getDoctorById" method="_Xg_nM3NvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XYDGlnNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xf7QMHNvEfCTGutOISnrsw" type="_Xe1rEXNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_XhUXUHNvEfCTGutOISnrsw" name="" memberEnd="_XhUXUXNvEfCTGutOISnrsw _XgiUMHNvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_XhUXUXNvEfCTGutOISnrsw" name="" type="_XXtIUnNvEfCTGutOISnrsw" association="_XhUXUHNvEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_XhZP0XNvEfCTGutOISnrsw" name="" memberEnd="_XhZ24HNvEfCTGutOISnrsw _XgjiUXNvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_XhZ24HNvEfCTGutOISnrsw" name="" type="_XXtIUnNvEfCTGutOISnrsw" association="_XhZP0XNvEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_XhfWcXNvEfCTGutOISnrsw" name="" memberEnd="_XhfWcnNvEfCTGutOISnrsw _XglXgHNvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_XhfWcnNvEfCTGutOISnrsw" name="" type="_XX_cMHNvEfCTGutOISnrsw" association="_XhfWcXNvEfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_XW5QAHNvEfCTGutOISnrsw" name="repository">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_XYdWQHNvEfCTGutOISnrsw" name="DoctorAvailabilityRepository">
+            <generalization xmi:id="_XgR1gHNvEfCTGutOISnrsw" general="_XfiOoHNvEfCTGutOISnrsw"/>
+            <ownedOperation xmi:id="_XYekYXNvEfCTGutOISnrsw" name="findByDoctorId" visibility="package">
+              <ownedComment xmi:id="_XhPe1HNvEfCTGutOISnrsw">
+                <body>Finds a DoctorAvailability document by the doctor's ID.&#xD;
+     *&#xD;
+     * @param doctorId The ID of the doctor.&#xD;
+     * @return An Optional containing the DoctorAvailability if found, or empty if not.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_XYekYnNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgTDoHNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XYgZkHNvEfCTGutOISnrsw" name="findByDoctorIdAndDailySlots_Day" visibility="package">
+              <ownedParameter xmi:id="_XYgZkXNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XYgZknNvEfCTGutOISnrsw" name="day">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgU40HNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XYi10HNvEfCTGutOISnrsw" name="findByDailySlots_Day">
+              <ownedComment xmi:id="_XhQF4XNvEfCTGutOISnrsw">
+                <body>Finds all DoctorAvailability documents that include a specific day of the week in their daily slots.&#xD;
+     * This can be useful for finding all doctors who work on a particular day.&#xD;
+     *&#xD;
+     * @param day The day of the week (e.g., &quot;MONDAY&quot;, &quot;TUESDAY&quot;).&#xD;
+     * @return A list of DoctorAvailability documents.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_XYi10XNvEfCTGutOISnrsw" name="day">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XYi10nNvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XYi103NvEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XgTDoXNvEfCTGutOISnrsw" name="findByLeaveDatesNotContaining">
+              <ownedComment xmi:id="_XhPe1XNvEfCTGutOISnrsw">
+                <body>Finds all DoctorAvailability documents where the given date is NOT present in the doctor's leave dates.&#xD;
+     * This can be used to find doctors who are available on a specific date.&#xD;
+     *&#xD;
+     * @param date The Instant representing the date to check against leave dates.&#xD;
+     * @return A list of DoctorAvailability documents.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_XgTqsHNvEfCTGutOISnrsw" name="date" type="_XewykXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XgTqsXNvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XgTqsnNvEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_XYl5IHNvEfCTGutOISnrsw" name="DoctorRepository">
+            <generalization xmi:id="_XgU40XNvEfCTGutOISnrsw" general="_XfiOoHNvEfCTGutOISnrsw"/>
+            <ownedOperation xmi:id="_XYmgMXNvEfCTGutOISnrsw" name="findByCustomId">
+              <ownedParameter xmi:id="_XYnHQHNvEfCTGutOISnrsw" name="customId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgWG8HNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_XXBy4HNvEfCTGutOISnrsw" name="serviceimpl">
+          <packagedElement xmi:type="uml:Class" xmi:id="_XYyGYHNvEfCTGutOISnrsw" name="DoctorAvailabilityServiceImpl">
+            <ownedAttribute xmi:id="_Xg6usHNvEfCTGutOISnrsw" name="doctorAvailabilityRepository" visibility="private" type="_XYdWQHNvEfCTGutOISnrsw" association="_XiKr4XNvEfCTGutOISnrsw"/>
+            <interfaceRealization xmi:id="_XfqxgHNvEfCTGutOISnrsw" client="_XYyGYHNvEfCTGutOISnrsw" supplier="_XYoVYHNvEfCTGutOISnrsw" contract="_XYoVYHNvEfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhG78HNvEfCTGutOISnrsw" name="getAvailabilityById" specification="_XYzUgHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhG78XNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhG78nNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return doctorAvailabilityRepository.findById(id);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhG783NvEfCTGutOISnrsw" name="getAvailabilityByDoctorId" specification="_XY1JsXNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhG79HNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhG79XNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return doctorAvailabilityRepository.findByDoctorId(doctorId);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhHjAHNvEfCTGutOISnrsw" name="createAvailability" specification="_XfqxgXNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhHjAXNvEfCTGutOISnrsw" name="doctorAvailability" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhHjAnNvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return doctorAvailabilityRepository.save(doctorAvailability);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhHjA3NvEfCTGutOISnrsw" name="updateAvailability" specification="_XfrYknNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhHjBHNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhHjBXNvEfCTGutOISnrsw" name="doctorAvailabilityDetails" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhHjBnNvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return doctorAvailabilityRepository.findById(id)&#xD;
+             .map(existingAvailability -> {&#xD;
+                 // Update fields from doctorAvailabilityDetails&#xD;
+                 existingAvailability.setDailySlots(doctorAvailabilityDetails.getDailySlots());&#xD;
+                 existingAvailability.setLeaveDates(doctorAvailabilityDetails.getLeaveDates());&#xD;
+                 // updatedAt will be automatically updated by @EnableMongoAuditing&#xD;
+                 return doctorAvailabilityRepository.save(existingAvailability);&#xD;
+             })&#xD;
+             .orElseThrow(() -> new RuntimeException(&quot;DoctorAvailability not found with id &quot; + id));&#xD;
+             // In a real app, you'd use a custom NotFoundException&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhHjB3NvEfCTGutOISnrsw" name="deleteAvailability" specification="_XY4NAHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhHjCHNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>doctorAvailabilityRepository.deleteById(id);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhHjCXNvEfCTGutOISnrsw" name="upsertAvailabilityByDoctorId" specification="_XfrYmHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhHjCnNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhHjC3NvEfCTGutOISnrsw" name="doctorAvailabilityDetails" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhHjDHNvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return doctorAvailabilityRepository.findByDoctorId(doctorId)&#xD;
+             .map(existingAvailability -> {&#xD;
+                 // If found, update the existing record&#xD;
+                 existingAvailability.setDailySlots(doctorAvailabilityDetails.getDailySlots());&#xD;
+                 existingAvailability.setLeaveDates(doctorAvailabilityDetails.getLeaveDates());&#xD;
+                 existingAvailability.setUpdatedAt(Instant.now()); // Manual update for clarity, though @LastModifiedDate handles it&#xD;
+                 return doctorAvailabilityRepository.save(existingAvailability);&#xD;
+             })&#xD;
+             .orElseGet(() -> {&#xD;
+                 // If not found, create a new record&#xD;
+                 doctorAvailabilityDetails.setDoctorId(doctorId); // Ensure doctorId is set for new creation&#xD;
+                 // createdAt and updatedAt will be automatically set&#xD;
+                 return doctorAvailabilityRepository.save(doctorAvailabilityDetails);&#xD;
+             });&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhIKEHNvEfCTGutOISnrsw" name="getAvailabilityByDoctorIdAndDay" specification="_XY5bIHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhIKEXNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhIKEnNvEfCTGutOISnrsw" name="day">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhIKE3NvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>Optional&lt;DoctorAvailability> doctorAvailabilityOpt = doctorAvailabilityRepository.findByDoctorId(doctorId);&#xD;
+&#xD;
+     if (doctorAvailabilityOpt.isPresent()) {&#xD;
+         DoctorAvailability doctorAvailability = doctorAvailabilityOpt.get();&#xD;
+         // Filter the dailySlots list to find the one matching the requested day (case-insensitive)&#xD;
+         Optional&lt;DailySlot> dailySlotForDay = doctorAvailability.getDailySlots().stream()&#xD;
+                 .filter(slot -> slot.getDay().equalsIgnoreCase(day))&#xD;
+                 .findFirst();&#xD;
+&#xD;
+         if (dailySlotForDay.isPresent()) {&#xD;
+             // If a matching daily slot is found, create a new DoctorAvailability object&#xD;
+             // containing only that specific daily slot and the doctor's ID.&#xD;
+             // This is done to match the return type of Optional&lt;DoctorAvailability>.&#xD;
+             DoctorAvailability filteredAvailability = new DoctorAvailability();&#xD;
+             filteredAvailability.setId(doctorAvailability.getId()); // Keep the original document ID&#xD;
+             filteredAvailability.setDoctorId(doctorAvailability.getDoctorId());&#xD;
+             filteredAvailability.setDailySlots(List.of(dailySlotForDay.get())); // Set only the found daily slot&#xD;
+             filteredAvailability.setLeaveDates(doctorAvailability.getLeaveDates()); // Include leave dates&#xD;
+             filteredAvailability.setCreatedAt(doctorAvailability.getCreatedAt());&#xD;
+             filteredAvailability.setUpdatedAt(doctorAvailability.getUpdatedAt());&#xD;
+             return Optional.of(filteredAvailability);&#xD;
+         }&#xD;
+     }&#xD;
+     // If the doctor's availability record is not found, or the specific day's slot is not found,&#xD;
+     // return an empty Optional.&#xD;
+     return Optional.empty();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_XYzUgHNvEfCTGutOISnrsw" name="getAvailabilityById" method="_XhG78HNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XYzUgXNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgZKQHNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XY1JsXNvEfCTGutOISnrsw" name="getAvailabilityByDoctorId" method="_XhG783NvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XY1JsnNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgZxUHNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XY4NAHNvEfCTGutOISnrsw" name="deleteAvailability" method="_XhHjB3NvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XY4NAXNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XY5bIHNvEfCTGutOISnrsw" name="getAvailabilityByDoctorIdAndDay" method="_XhIKEHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XY6CMHNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XY6CMXNvEfCTGutOISnrsw" name="day">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgZxUXNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XfqxgXNvEfCTGutOISnrsw" name="createAvailability" method="_XhHjAHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XfqxgnNvEfCTGutOISnrsw" name="doctorAvailability" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xfqxg3NvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XfrYknNvEfCTGutOISnrsw" name="updateAvailability" method="_XhHjA3NvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XfrYk3NvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XfrYlHNvEfCTGutOISnrsw" name="doctorAvailabilityDetails" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XfrYlXNvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XfrYmHNvEfCTGutOISnrsw" name="upsertAvailabilityByDoctorId" method="_XhHjCXNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XfrYmXNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XfrYmnNvEfCTGutOISnrsw" name="doctorAvailabilityDetails" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xfr_oHNvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_XZAI0HNvEfCTGutOISnrsw" name="DoctorServiceImpl">
+            <ownedAttribute xmi:id="_Xg7VwXNvEfCTGutOISnrsw" name="doctorRepository" visibility="private" isLeaf="true" type="_XYl5IHNvEfCTGutOISnrsw" isReadOnly="true" association="_XiPkYXNvEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_Xg7VwnNvEfCTGutOISnrsw" name="doctorAvailabilityRepository" visibility="private" isLeaf="true" type="_XYdWQHNvEfCTGutOISnrsw" isReadOnly="true" association="_XiTOwXNvEfCTGutOISnrsw"/>
+            <interfaceRealization xmi:id="_XfsmsHNvEfCTGutOISnrsw" client="_XZAI0HNvEfCTGutOISnrsw" supplier="_XYtN4HNvEfCTGutOISnrsw" contract="_XYtN4HNvEfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhIKFHNvEfCTGutOISnrsw" name="DoctorServiceImpl" specification="_XfsmsXNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhIKFXNvEfCTGutOISnrsw" name="doctorRepository" type="_XYl5IHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhIKFnNvEfCTGutOISnrsw" name="doctorAvailabilityRepository" type="_XYdWQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhIKF3NvEfCTGutOISnrsw" type="_XZAI0HNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>this.doctorRepository = doctorRepository;&#xD;
+     this.doctorAvailabilityRepository = doctorAvailabilityRepository;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhIxIHNvEfCTGutOISnrsw" name="saveDoctor" specification="_Xft00HNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhIxIXNvEfCTGutOISnrsw" name="doctor" type="_XYGJ4HNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhIxInNvEfCTGutOISnrsw" type="_XYGJ4HNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>Instant now = Instant.now();&#xD;
+     doctor.setCreatedAt(now);&#xD;
+     doctor.setUpdatedAt(now);&#xD;
+     // If customId is not set, you might want to generate one here&#xD;
+     // or ensure it's provided by the client.&#xD;
+     // if (doctor.getCustomId() == null || doctor.getCustomId().isEmpty()) {&#xD;
+     //     doctor.setCustomId(UUID.randomUUID().toString()); // Example: generate a UUID&#xD;
+     // }&#xD;
+     return doctorRepository.save(doctor);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhIxI3NvEfCTGutOISnrsw" name="getDoctorById" specification="_XZBW8HNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhIxJHNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhIxJXNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return doctorRepository.findById(id); // Finds by MongoDB's _id&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhIxJnNvEfCTGutOISnrsw" name="getAllDoctors" specification="_XZB-A3NvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhIxJ3NvEfCTGutOISnrsw" type="_XYGJ4HNvEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XhIxKHNvEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return doctorRepository.findAll();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhJYMHNvEfCTGutOISnrsw" name="updateDoctor" specification="_Xft01XNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhJYMXNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhJYMnNvEfCTGutOISnrsw" name="doctor" type="_XYGJ4HNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhJYM3NvEfCTGutOISnrsw" type="_XYGJ4HNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>Optional&lt;Doctor> existingOpt = doctorRepository.findById(id);&#xD;
+     if (existingOpt.isPresent()) {&#xD;
+         Doctor existing = existingOpt.get();&#xD;
+         existing.setFirstName(doctor.getFirstName());&#xD;
+         existing.setLastName(doctor.getLastName());&#xD;
+         existing.setSpecialization(doctor.getSpecialization());&#xD;
+         existing.setContactNumber(doctor.getContactNumber());&#xD;
+         existing.setEmail(doctor.getEmail());&#xD;
+         existing.setLicenseNumber(doctor.getLicenseNumber());&#xD;
+         existing.setConsultationFee(doctor.getConsultationFee());&#xD;
+         existing.setUpdatedAt(Instant.now());&#xD;
+         // Ensure customId is not accidentally overwritten if you want it to be immutable&#xD;
+         // existing.setCustomId(doctor.getCustomId()); // Only if you allow updating customId&#xD;
+         return doctorRepository.save(existing);&#xD;
+     }&#xD;
+     throw new RuntimeException(&quot;Doctor not found with id: &quot; + id);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhJYNHNvEfCTGutOISnrsw" name="deleteDoctor" specification="_XZDMInNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhJYNXNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>doctorRepository.deleteById(id);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhJYNnNvEfCTGutOISnrsw" name="getDoctorAvailability" specification="_XZDzMnNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhJYN3NvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhJYOHNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return doctorAvailabilityRepository.findByDoctorId(doctorId);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhJYOXNvEfCTGutOISnrsw" name="getDoctorAvailabilityForDay" specification="_XZEaQ3NvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhJYOnNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhJYO3NvEfCTGutOISnrsw" name="day">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhJYPHNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>Optional&lt;DoctorAvailability> doctorAvailabilityOpt = doctorAvailabilityRepository.findByDoctorId(doctorId);&#xD;
+&#xD;
+     if (doctorAvailabilityOpt.isPresent()) {&#xD;
+         DoctorAvailability doctorAvailability = doctorAvailabilityOpt.get();&#xD;
+         Optional&lt;DailySlot> dailySlotForDay = doctorAvailability.getDailySlots().stream()&#xD;
+                 .filter(slot -> slot.getDay().equalsIgnoreCase(day))&#xD;
+                 .findFirst();&#xD;
+&#xD;
+         if (dailySlotForDay.isPresent()) {&#xD;
+             DoctorAvailability filteredAvailability = new DoctorAvailability();&#xD;
+             filteredAvailability.setId(doctorAvailability.getId());&#xD;
+             filteredAvailability.setDoctorId(doctorAvailability.getDoctorId());&#xD;
+             filteredAvailability.setDailySlots(List.of(dailySlotForDay.get()));&#xD;
+             filteredAvailability.setLeaveDates(doctorAvailability.getLeaveDates());&#xD;
+             filteredAvailability.setCreatedAt(doctorAvailability.getCreatedAt());&#xD;
+             filteredAvailability.setUpdatedAt(doctorAvailability.getUpdatedAt());&#xD;
+             return Optional.of(filteredAvailability);&#xD;
+         }&#xD;
+     }&#xD;
+     return Optional.empty();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhJ_QHNvEfCTGutOISnrsw" name="isDoctorAvailableOnDate" specification="_XgbmgHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhJ_QXNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhJ_QnNvEfCTGutOISnrsw" name="date" type="_XewykXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhJ_Q3NvEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Optional&lt;DoctorAvailability> doctorAvailabilityOpt = doctorAvailabilityRepository.findByDoctorId(doctorId);&#xD;
+&#xD;
+     if (doctorAvailabilityOpt.isPresent()) {&#xD;
+         DoctorAvailability doctorAvailability = doctorAvailabilityOpt.get();&#xD;
+         return !doctorAvailability.getLeaveDates().contains(date);&#xD;
+     }&#xD;
+     return false;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhJ_RHNvEfCTGutOISnrsw" name="saveOrUpdateDoctorAvailability" specification="_XfvC8HNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhJ_RXNvEfCTGutOISnrsw" name="doctorAvailability" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XhJ_RnNvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>Instant now = Instant.now();&#xD;
+     Optional&lt;DoctorAvailability> existingAvailabilityOpt = doctorAvailabilityRepository.findByDoctorId(doctorAvailability.getDoctorId());&#xD;
+&#xD;
+     if (existingAvailabilityOpt.isPresent()) {&#xD;
+         DoctorAvailability existing = existingAvailabilityOpt.get();&#xD;
+         existing.setDailySlots(doctorAvailability.getDailySlots());&#xD;
+         existing.setLeaveDates(doctorAvailability.getLeaveDates());&#xD;
+         existing.setUpdatedAt(now);&#xD;
+         return doctorAvailabilityRepository.save(existing);&#xD;
+     } else {&#xD;
+         doctorAvailability.setCreatedAt(now);&#xD;
+         doctorAvailability.setUpdatedAt(now);&#xD;
+         return doctorAvailabilityRepository.save(doctorAvailability);&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhJ_R3NvEfCTGutOISnrsw" name="deleteDoctorAvailability" specification="_XZFoYHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhJ_SHNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Optional&lt;DoctorAvailability> doctorAvailabilityOpt = doctorAvailabilityRepository.findByDoctorId(doctorId);&#xD;
+     doctorAvailabilityOpt.ifPresent(doctorAvailabilityRepository::delete);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XhKmUHNvEfCTGutOISnrsw" name="getDoctorByCustomId" specification="_XZFoZHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XhKmUXNvEfCTGutOISnrsw" name="customId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XhKmUnNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return doctorRepository.findByCustomId(customId);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_XZBW8HNvEfCTGutOISnrsw" name="getDoctorById" method="_XhIxI3NvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XZBW8XNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgaYYHNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XZB-A3NvEfCTGutOISnrsw" name="getAllDoctors" method="_XhIxJnNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XZClEHNvEfCTGutOISnrsw" type="_XYGJ4HNvEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XZClEXNvEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XZDMInNvEfCTGutOISnrsw" name="deleteDoctor" method="_XhJYNHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XZDMI3NvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XZDzMnNvEfCTGutOISnrsw" name="getDoctorAvailability" method="_XhJYNnNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XZDzM3NvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xga_cHNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XZEaQ3NvEfCTGutOISnrsw" name="getDoctorAvailabilityForDay" method="_XhJYOXNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XZEaRHNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XZEaRXNvEfCTGutOISnrsw" name="day">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xga_cXNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XZFoYHNvEfCTGutOISnrsw" name="deleteDoctorAvailability" method="_XhJ_R3NvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XZFoYXNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XZFoZHNvEfCTGutOISnrsw" name="getDoctorByCustomId" method="_XhKmUHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XZFoZXNvEfCTGutOISnrsw" name="customId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgdbsHNvEfCTGutOISnrsw" type="_XezO0XNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XfsmsXNvEfCTGutOISnrsw" name="DoctorServiceImpl" method="_XhIKFHNvEfCTGutOISnrsw">
+              <eAnnotations xmi:id="_XftNwnNvEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_XftNw3NvEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_XftNwHNvEfCTGutOISnrsw" name="doctorRepository" type="_XYl5IHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XftNwXNvEfCTGutOISnrsw" name="doctorAvailabilityRepository" type="_XYdWQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XftNxHNvEfCTGutOISnrsw" type="_XZAI0HNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Xft00HNvEfCTGutOISnrsw" name="saveDoctor" method="_XhIxIHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xft00XNvEfCTGutOISnrsw" name="doctor" type="_XYGJ4HNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xft00nNvEfCTGutOISnrsw" type="_XYGJ4HNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Xft01XNvEfCTGutOISnrsw" name="updateDoctor" method="_XhJYMHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_Xft01nNvEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Xft013NvEfCTGutOISnrsw" name="doctor" type="_XYGJ4HNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_Xft02HNvEfCTGutOISnrsw" type="_XYGJ4HNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XfvC8HNvEfCTGutOISnrsw" name="saveOrUpdateDoctorAvailability" method="_XhJ_RHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XfvC8XNvEfCTGutOISnrsw" name="doctorAvailability" type="_XYTlQHNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XfvC8nNvEfCTGutOISnrsw" type="_XYTlQHNvEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XgbmgHNvEfCTGutOISnrsw" name="isDoctorAvailableOnDate" method="_XhJ_QHNvEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_XgbmgXNvEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XgbmgnNvEfCTGutOISnrsw" name="date" type="_XewykXNvEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_XgcNkHNvEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_XiKr4XNvEfCTGutOISnrsw" name="" memberEnd="_XiKr4nNvEfCTGutOISnrsw _Xg6usHNvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_XiKr4nNvEfCTGutOISnrsw" name="" type="_XYyGYHNvEfCTGutOISnrsw" association="_XiKr4XNvEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_XiPkYXNvEfCTGutOISnrsw" name="" memberEnd="_XiPkYnNvEfCTGutOISnrsw _Xg7VwXNvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_XiPkYnNvEfCTGutOISnrsw" name="" type="_XZAI0HNvEfCTGutOISnrsw" association="_XiPkYXNvEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_XiTOwXNvEfCTGutOISnrsw" name="" memberEnd="_XiTOwnNvEfCTGutOISnrsw _Xg7VwnNvEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_XiTOwnNvEfCTGutOISnrsw" name="" type="_XZAI0HNvEfCTGutOISnrsw" association="_XiTOwXNvEfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XXnowHNvEfCTGutOISnrsw" name="DoctorMicroServiceApplication">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xg9K8HNvEfCTGutOISnrsw" name="main" specification="_XXqsEXNvEfCTGutOISnrsw">
+            <ownedParameter xmi:id="_Xg9K8XNvEfCTGutOISnrsw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Xg9K8nNvEfCTGutOISnrsw" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>SpringApplication.run(DoctorMicroServiceApplication.class, args);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_XXqsEXNvEfCTGutOISnrsw" name="main" isStatic="true" method="_Xg9K8HNvEfCTGutOISnrsw">
+            <ownedParameter xmi:id="_XXrTIHNvEfCTGutOISnrsw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XXshQHNvEfCTGutOISnrsw" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XZLvAHNvEfCTGutOISnrsw" name="DoctorMicroServiceApplicationTests" visibility="package">
+          <eAnnotations xmi:id="_XZLvAXNvEfCTGutOISnrsw" source="http://ns.yatta.de/umllab">
+            <contents xmi:type="ecore:EAnnotation" xmi:id="_XZLvAnNvEfCTGutOISnrsw" source="codegen">
+              <details xmi:id="_XZLvA3NvEfCTGutOISnrsw" key="codegenDirectory" value="/DoctorMicroService/src/test/java"/>
+            </contents>
+          </eAnnotations>
+          <ownedOperation xmi:id="_XZMWEXNvEfCTGutOISnrsw" name="contextLoads" visibility="package"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_XVrvEHNvEfCTGutOISnrsw" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_XVrvEXNvEfCTGutOISnrsw" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_XVsWIHNvEfCTGutOISnrsw" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_XVs9MHNvEfCTGutOISnrsw" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_XewLgXNvEfCTGutOISnrsw" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_XXKVwHNvEfCTGutOISnrsw" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_XXKVwXNvEfCTGutOISnrsw" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Xfw4IXNvEfCTGutOISnrsw" name="SpringBootTest"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Xeu9YHNvEfCTGutOISnrsw" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_XVwnk3NvEfCTGutOISnrsw" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_XVwnlHNvEfCTGutOISnrsw" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_XVwnlXNvEfCTGutOISnrsw" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Xez14XNvEfCTGutOISnrsw" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_XVwnlnNvEfCTGutOISnrsw" name="format">
+          <packagedElement xmi:type="uml:Package" xmi:id="_XVwnl3NvEfCTGutOISnrsw" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_Xe0c8HNvEfCTGutOISnrsw" name="DateTimeFormat"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_XVwnmHNvEfCTGutOISnrsw" name="http">
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_Xe1EAHNvEfCTGutOISnrsw" name="HttpStatus"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Xe1rEXNvEfCTGutOISnrsw" name="ResponseEntity"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_XVxOoHNvEfCTGutOISnrsw" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_XVxOoXNvEfCTGutOISnrsw" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_XVxOonNvEfCTGutOISnrsw" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Xe2SIXNvEfCTGutOISnrsw" name="CrossOrigin"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Xe3gQXNvEfCTGutOISnrsw" name="DeleteMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Xe4uYHNvEfCTGutOISnrsw" name="GetMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Xe5VcXNvEfCTGutOISnrsw" name="PatchMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Xe58gXNvEfCTGutOISnrsw" name="PathVariable"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Xe6jkHNvEfCTGutOISnrsw" name="PostMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Xe6jknNvEfCTGutOISnrsw" name="PutMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Xe6jlHNvEfCTGutOISnrsw" name="RequestBody"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Xe7KoXNvEfCTGutOISnrsw" name="RequestMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Xe7xsXNvEfCTGutOISnrsw" name="RequestParam"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Xe8_0XNvEfCTGutOISnrsw" name="RestController"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_XWK3QHNvEfCTGutOISnrsw" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_XWLeUHNvEfCTGutOISnrsw" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_XfMQYXNvEfCTGutOISnrsw" name="Id"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_XfX2kHNvEfCTGutOISnrsw" name="CreatedDate"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_XfZEsXNvEfCTGutOISnrsw" name="LastModifiedDate"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_XWLeUXNvEfCTGutOISnrsw" name="mongodb">
+            <packagedElement xmi:type="uml:Package" xmi:id="_XWLeUnNvEfCTGutOISnrsw" name="core">
+              <packagedElement xmi:type="uml:Package" xmi:id="_XWMFYHNvEfCTGutOISnrsw" name="mapping">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_XfM3cXNvEfCTGutOISnrsw" name="Document"/>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_XfNegXNvEfCTGutOISnrsw" name="Field"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_XW3a0HNvEfCTGutOISnrsw" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_XfiOoHNvEfCTGutOISnrsw" name="MongoRepository"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Xfi1sXNvEfCTGutOISnrsw" name="Query"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_XW4B4HNvEfCTGutOISnrsw" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Xfi1s3NvEfCTGutOISnrsw" name="Repository"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_XfpjYnNvEfCTGutOISnrsw" name="Service"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_XXJusHNvEfCTGutOISnrsw" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_XXJusXNvEfCTGutOISnrsw" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_XXJusnNvEfCTGutOISnrsw" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_XfwREHNvEfCTGutOISnrsw" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_XVwnkHNvEfCTGutOISnrsw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_XVwnkXNvEfCTGutOISnrsw" name="time">
+        <packagedElement xmi:type="uml:Class" xmi:id="_XewykXNvEfCTGutOISnrsw" name="Instant"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XeynwHNvEfCTGutOISnrsw" name="LocalDate"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_XVwnknNvEfCTGutOISnrsw" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_XW_WoHNvEfCTGutOISnrsw" name="stream">
+          <packagedElement xmi:type="uml:Class" xmi:id="_XfpjYHNvEfCTGutOISnrsw" name="Collectors"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_XeynwnNvEfCTGutOISnrsw" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XezO0XNvEfCTGutOISnrsw" name="Optional"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XfLCQHNvEfCTGutOISnrsw" name="Objects"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Xf8eUHNvEfCTGutOISnrsw" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Xf8eUXNvEfCTGutOISnrsw" name="Double"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XgAIsXNvEfCTGutOISnrsw" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_XCGrwHNvEfCTGutOISnrsw">
+      <eAnnotations xmi:id="_XCGrwXNvEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_XgnMsHNvEfCTGutOISnrsw">
+      <eAnnotations xmi:id="_XgnMsXNvEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_XCH54HNvEfCTGutOISnrsw" base_Package="_WtdRcHNvEfCTGutOISnrsw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XXpd8HNvEfCTGutOISnrsw" base_Element="_XXnowHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_XXr6MHNvEfCTGutOISnrsw" base_Element="_XXqsEXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XXtIUHNvEfCTGutOISnrsw" base_Element="_XXnowHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XXtIUXNvEfCTGutOISnrsw" name="SpringBootApplication"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XXu9gHNvEfCTGutOISnrsw" base_Element="_XXtIUnNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XXwysHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XXvkkHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XXxZwHNvEfCTGutOISnrsw" base_Element="_XXvkkXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XXxZwXNvEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XXxZwnNvEfCTGutOISnrsw" base_Element="_XXvkkHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XXxZw3NvEfCTGutOISnrsw" name="GetMapping">
+      <annotationParameters xmi:id="_XXxZxHNvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhMbgXNvEfCTGutOISnrsw" value="&quot;/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XXyn4HNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XXyA0HNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XXz2AHNvEfCTGutOISnrsw" base_Element="_XXyA0XNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XXz2AXNvEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XXz2AnNvEfCTGutOISnrsw" base_Element="_XXyA0HNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XXz2A3NvEfCTGutOISnrsw" name="GetMapping">
+      <annotationParameters xmi:id="_XXz2BHNvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhMbgnNvEfCTGutOISnrsw" value="&quot;/byDoctorId/{doctorId}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XX2SQHNvEfCTGutOISnrsw" genericsValue="Void" base_Element="_XX1rMHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XX25UHNvEfCTGutOISnrsw" base_Element="_XX1rMXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XX25UXNvEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XX4HcHNvEfCTGutOISnrsw" base_Element="_XX1rMHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XX4HcXNvEfCTGutOISnrsw" name="DeleteMapping">
+      <annotationParameters xmi:id="_XX4HcnNvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhMbhXNvEfCTGutOISnrsw" value="&quot;/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XX4ugHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XX4Hc3NvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XX58oHNvEfCTGutOISnrsw" base_Element="_XX4HdHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XX58oXNvEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XX58onNvEfCTGutOISnrsw" base_Element="_XX4HdXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XX58o3NvEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XX6jsHNvEfCTGutOISnrsw" base_Element="_XX4Hc3NvEfCTGutOISnrsw">
+    <annotations xmi:id="_XX6jsXNvEfCTGutOISnrsw" name="GetMapping">
+      <annotationParameters xmi:id="_XX6jsnNvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhMbhnNvEfCTGutOISnrsw" value="&quot;/byDoctorId/{doctorId}/dailySlot/{day}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XX7KwHNvEfCTGutOISnrsw" base_Element="_XXtIUnNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XX7x0HNvEfCTGutOISnrsw" name="RestController"/>
+    <annotations xmi:id="_XX7x0XNvEfCTGutOISnrsw" name="RequestMapping">
+      <annotationParameters xmi:id="_XX7x0nNvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhL0cHNvEfCTGutOISnrsw" value="&quot;/api/doctor-availabilities&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_XX7x03NvEfCTGutOISnrsw" name="CrossOrigin">
+      <annotationParameters xmi:id="_XX7x1HNvEfCTGutOISnrsw" name="origins" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhMbgHNvEfCTGutOISnrsw" value="&quot;http://localhost:5173&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XX_cMXNvEfCTGutOISnrsw" base_Element="_XX_cMHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XYAqUHNvEfCTGutOISnrsw" genericsValue="List&lt;Doctor>" base_Element="_XYADQHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XYB4cHNvEfCTGutOISnrsw" base_Element="_XYADQHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XYB4cXNvEfCTGutOISnrsw" name="GetMapping">
+      <annotationParameters xmi:id="_XYB4cnNvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhMbi3NvEfCTGutOISnrsw" value="&quot;/all&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XYCfgnNvEfCTGutOISnrsw" genericsValue="Doctor" base_Element="_XYCfgHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XYDGkHNvEfCTGutOISnrsw" base_Element="_XYCfgXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XYDGkXNvEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XYDGknNvEfCTGutOISnrsw" base_Element="_XYCfgHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XYDGk3NvEfCTGutOISnrsw" name="GetMapping">
+      <annotationParameters xmi:id="_XYDGlHNvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhMbjHNvEfCTGutOISnrsw" value="&quot;/customId/{customId}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XYEUsHNvEfCTGutOISnrsw" genericsValue="Doctor" base_Element="_XYDGlXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XYE7wHNvEfCTGutOISnrsw" base_Element="_XYDGlnNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XYE7wXNvEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XYE7wnNvEfCTGutOISnrsw" base_Element="_XYDGlXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XYE7w3NvEfCTGutOISnrsw" name="GetMapping">
+      <annotationParameters xmi:id="_XYE7xHNvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhNCkHNvEfCTGutOISnrsw" value="&quot;/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XYE7xXNvEfCTGutOISnrsw" base_Element="_XX_cMHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XYE7xnNvEfCTGutOISnrsw" name="RestController"/>
+    <annotations xmi:id="_XYE7x3NvEfCTGutOISnrsw" name="RequestMapping">
+      <annotationParameters xmi:id="_XYFi0HNvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhMbiXNvEfCTGutOISnrsw" value="&quot;/api/doctors&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_XYFi0XNvEfCTGutOISnrsw" name="CrossOrigin">
+      <annotationParameters xmi:id="_XYFi0nNvEfCTGutOISnrsw" name="origins" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhMbinNvEfCTGutOISnrsw" value="&quot;http://localhost:5173&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XYGJ4XNvEfCTGutOISnrsw" base_Element="_XYGJ4HNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XYLCYXNvEfCTGutOISnrsw" base_Element="_XYKbUHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XYLpcHNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XYMQgHNvEfCTGutOISnrsw" base_Element="_XYLpcXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XYMQgXNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XYM3kHNvEfCTGutOISnrsw" base_Element="_XYGJ4HNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XYM3kXNvEfCTGutOISnrsw" name="Document">
+      <annotationParameters xmi:id="_XYM3knNvEfCTGutOISnrsw" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhNCkXNvEfCTGutOISnrsw" value="&quot;doctors&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XYUMUHNvEfCTGutOISnrsw" base_Element="_XYTlQHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_XYXPoXNvEfCTGutOISnrsw" base_Element="_XYWokHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XYXPpXNvEfCTGutOISnrsw" base_Element="_XYXPonNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_XYYdw3NvEfCTGutOISnrsw" base_Element="_XYYdwHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XYZE03NvEfCTGutOISnrsw" base_Element="_XYZE0HNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XYZr4HNvEfCTGutOISnrsw" base_Element="_XYTlQHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XYZr4XNvEfCTGutOISnrsw" name="Document">
+      <annotationParameters xmi:id="_XYZr4nNvEfCTGutOISnrsw" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhOQsHNvEfCTGutOISnrsw" value="&quot;doctor_availabilities&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XYekYHNvEfCTGutOISnrsw" base_Element="_XYdWQHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XYfygHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XYekYXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_XYfygXNvEfCTGutOISnrsw" base_Element="_XYekYXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XYhAoHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XYgZkHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XYhAoXNvEfCTGutOISnrsw" base_Element="_XYgZkHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XYiOwHNvEfCTGutOISnrsw" name="Query">
+      <annotationParameters xmi:id="_XYiOwXNvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhQF4HNvEfCTGutOISnrsw" value="&quot;{ 'doctorId' : ?0, 'dailySlots.day' : ?1 }&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_XYjc4HNvEfCTGutOISnrsw" base_Element="_XYi10HNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XYkD8HNvEfCTGutOISnrsw" base_Element="_XYdWQHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XYkD8XNvEfCTGutOISnrsw" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XYmgMHNvEfCTGutOISnrsw" base_Element="_XYl5IHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XYnHQXNvEfCTGutOISnrsw" genericsValue="Doctor" base_Element="_XYmgMXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_XYnuUHNvEfCTGutOISnrsw" base_Element="_XYmgMXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XYnuUXNvEfCTGutOISnrsw" base_Element="_XYl5IHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XYnuUnNvEfCTGutOISnrsw" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XYqKkHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XYpjgHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XYqxoXNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XYqKkXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XYr_wHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XYrYsnNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XYucAHNvEfCTGutOISnrsw" genericsValue="Doctor" base_Element="_XYt08HNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XYvqIHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XYvDE3NvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XYwRMHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XYvqIXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XYw4QHNvEfCTGutOISnrsw" genericsValue="Doctor" base_Element="_XYwRM3NvEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XYytcHNvEfCTGutOISnrsw" base_Element="_XYyGYHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XYz7kHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XYzUgHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XY0ioHNvEfCTGutOISnrsw" base_Element="_XYzUgHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XY1JsHNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XY2X0HNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XY1JsXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XY2-4HNvEfCTGutOISnrsw" base_Element="_XY1JsXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XY3l8HNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XY40EHNvEfCTGutOISnrsw" base_Element="_XY4NAHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XY40EXNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XY6pQHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XY5bIHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XY73YHNvEfCTGutOISnrsw" base_Element="_XY5bIHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XY73YXNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XY8ecHNvEfCTGutOISnrsw" base_Element="_XYyGYHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XY8ecXNvEfCTGutOISnrsw" name="Service"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XZAv4HNvEfCTGutOISnrsw" base_Element="_XZAI0HNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XZB-AHNvEfCTGutOISnrsw" genericsValue="Doctor" base_Element="_XZBW8HNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XZB-AXNvEfCTGutOISnrsw" base_Element="_XZBW8HNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XZB-AnNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XZDMIHNvEfCTGutOISnrsw" base_Element="_XZB-A3NvEfCTGutOISnrsw">
+    <annotations xmi:id="_XZDMIXNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XZDzMHNvEfCTGutOISnrsw" base_Element="_XZDMInNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XZDzMXNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XZEaQHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XZDzMnNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XZEaQXNvEfCTGutOISnrsw" base_Element="_XZDzMnNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XZEaQnNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XZFBUHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XZEaQ3NvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XZFBUXNvEfCTGutOISnrsw" base_Element="_XZEaQ3NvEfCTGutOISnrsw">
+    <annotations xmi:id="_XZFBUnNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XZFoYnNvEfCTGutOISnrsw" base_Element="_XZFoYHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XZFoY3NvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XZGPcHNvEfCTGutOISnrsw" genericsValue="Doctor" base_Element="_XZFoZHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XZGPcXNvEfCTGutOISnrsw" base_Element="_XZFoZHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XZGPcnNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XZG2gHNvEfCTGutOISnrsw" base_Element="_XZAI0HNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XZG2gXNvEfCTGutOISnrsw" name="Service"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XZMWEHNvEfCTGutOISnrsw" base_Element="_XZLvAHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XZMWEnNvEfCTGutOISnrsw" base_Element="_XZMWEXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XZMWE3NvEfCTGutOISnrsw" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XZM9IHNvEfCTGutOISnrsw" base_Element="_XZLvAHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XZM9IXNvEfCTGutOISnrsw" name="SpringBootTest"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_XewLgHNvEfCTGutOISnrsw" base_Element="_Xeu9YHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XewykHNvEfCTGutOISnrsw" base_Element="_XewLgXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XeyAsHNvEfCTGutOISnrsw" base_Element="_XewykXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XeynwXNvEfCTGutOISnrsw" base_Element="_XeynwHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XezO0HNvEfCTGutOISnrsw" base_Element="_XeynwnNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xez14HNvEfCTGutOISnrsw" base_Element="_XezO0XNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xez14nNvEfCTGutOISnrsw" base_Element="_Xez14XNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xe0c8XNvEfCTGutOISnrsw" base_Element="_Xe0c8HNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xe1rEHNvEfCTGutOISnrsw" base_Element="_Xe1EAHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xe2SIHNvEfCTGutOISnrsw" base_Element="_Xe1rEXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xe3gQHNvEfCTGutOISnrsw" base_Element="_Xe2SIXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xe4HUHNvEfCTGutOISnrsw" base_Element="_Xe3gQXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xe5VcHNvEfCTGutOISnrsw" base_Element="_Xe4uYHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xe58gHNvEfCTGutOISnrsw" base_Element="_Xe5VcXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xe58gnNvEfCTGutOISnrsw" base_Element="_Xe58gXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xe6jkXNvEfCTGutOISnrsw" base_Element="_Xe6jkHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xe6jk3NvEfCTGutOISnrsw" base_Element="_Xe6jknNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xe7KoHNvEfCTGutOISnrsw" base_Element="_Xe6jlHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xe7xsHNvEfCTGutOISnrsw" base_Element="_Xe7KoXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xe8_0HNvEfCTGutOISnrsw" base_Element="_Xe7xsXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xe9m4HNvEfCTGutOISnrsw" base_Element="_Xe8_0XNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_Xe_cEHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_Xe-1AHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XfADIHNvEfCTGutOISnrsw" base_Element="_Xe-1AXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XfADIXNvEfCTGutOISnrsw" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XfADInNvEfCTGutOISnrsw" base_Element="_Xe-1AHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XfAqMHNvEfCTGutOISnrsw" name="PostMapping"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XfB4UHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XfBRQHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XfCfYHNvEfCTGutOISnrsw" base_Element="_XfBRQXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XfDGcHNvEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XfDGcXNvEfCTGutOISnrsw" base_Element="_XfBRQnNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XfDGcnNvEfCTGutOISnrsw" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XfDtgHNvEfCTGutOISnrsw" base_Element="_XfBRQHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XfEUkHNvEfCTGutOISnrsw" name="PutMapping">
+      <annotationParameters xmi:id="_XfEUkXNvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhMbg3NvEfCTGutOISnrsw" value="&quot;/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XfFisHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability" base_Element="_XfEUknNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XfGJwHNvEfCTGutOISnrsw" base_Element="_XfE7oHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XfGJwXNvEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XfGJwnNvEfCTGutOISnrsw" base_Element="_XfE7oXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XfGJw3NvEfCTGutOISnrsw" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XfGw0HNvEfCTGutOISnrsw" base_Element="_XfEUknNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XfGw0XNvEfCTGutOISnrsw" name="PatchMapping">
+      <annotationParameters xmi:id="_XfGw0nNvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhMbhHNvEfCTGutOISnrsw" value="&quot;/byDoctorId/{doctorId}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_XfMQYHNvEfCTGutOISnrsw" base_Element="_XfLCQHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XfM3cHNvEfCTGutOISnrsw" base_Element="_XfMQYXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XfNegHNvEfCTGutOISnrsw" base_Element="_XfM3cXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XfOsoHNvEfCTGutOISnrsw" base_Element="_XfNegXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XfZEsHNvEfCTGutOISnrsw" base_Element="_XfX2kHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XfZrwHNvEfCTGutOISnrsw" base_Element="_XfZEsXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xfi1sHNvEfCTGutOISnrsw" base_Element="_XfiOoHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xfi1snNvEfCTGutOISnrsw" base_Element="_Xfi1sXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XfkD0HNvEfCTGutOISnrsw" base_Element="_Xfi1s3NvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XfpjYXNvEfCTGutOISnrsw" base_Element="_XfpjYHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XfqKcHNvEfCTGutOISnrsw" base_Element="_XfpjYnNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XfqKcnNvEfCTGutOISnrsw" base_Element="_XfqKcXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XfrYkHNvEfCTGutOISnrsw" base_Element="_XfqxgXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XfrYkXNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XfrYlnNvEfCTGutOISnrsw" base_Element="_XfrYknNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XfrYl3NvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Xfr_oXNvEfCTGutOISnrsw" base_Element="_XfrYmHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_Xfr_onNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XftNxXNvEfCTGutOISnrsw" base_Element="_XfsmsXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XftNxnNvEfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Xft003NvEfCTGutOISnrsw" base_Element="_Xft00HNvEfCTGutOISnrsw">
+    <annotations xmi:id="_Xft01HNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Xft02XNvEfCTGutOISnrsw" base_Element="_Xft01XNvEfCTGutOISnrsw">
+    <annotations xmi:id="_Xft02nNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XfvC83NvEfCTGutOISnrsw" base_Element="_XfvC8HNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XfvC9HNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_Xfw4IHNvEfCTGutOISnrsw" base_Element="_XfwREHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xfw4InNvEfCTGutOISnrsw" base_Element="_Xfw4IXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_Xf4z8HNvEfCTGutOISnrsw" genericsValue="Boolean" base_Element="_Xf4M4HNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_Xf5bAHNvEfCTGutOISnrsw" base_Element="_Xf4M4XNvEfCTGutOISnrsw">
+    <annotations xmi:id="_Xf5bAXNvEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Xf5bAnNvEfCTGutOISnrsw" base_Element="_Xf4M4nNvEfCTGutOISnrsw">
+    <annotations xmi:id="_Xf5bA3NvEfCTGutOISnrsw" name="RequestParam"/>
+    <annotations xmi:id="_Xf5bBHNvEfCTGutOISnrsw" name="DateTimeFormat">
+      <annotationParameters xmi:id="_Xf5bBXNvEfCTGutOISnrsw" name="iso" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhMbiHNvEfCTGutOISnrsw" value="DateTimeFormat.ISO.DATE_TIME"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Xf6CEHNvEfCTGutOISnrsw" base_Element="_Xf4M4HNvEfCTGutOISnrsw">
+    <annotations xmi:id="_Xf6CEXNvEfCTGutOISnrsw" name="GetMapping">
+      <annotationParameters xmi:id="_Xf6CEnNvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhMbh3NvEfCTGutOISnrsw" value="&quot;/byDoctorId/{doctorId}/isAvailableOnDate&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_Xf9FYHNvEfCTGutOISnrsw" base_Element="_Xf8eUXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_XgAIsHNvEfCTGutOISnrsw" base_Element="_Xf-6kHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XgAvwHNvEfCTGutOISnrsw" base_Element="_XgAIsXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_XgB94XNvEfCTGutOISnrsw" base_Element="_XgBW0HNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XgCk8HNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_XgJSo3NvEfCTGutOISnrsw" base_Element="_XgIrkHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XgKgwHNvEfCTGutOISnrsw" genericsValue="DailySlot" base_Element="_XgIrk3NvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XgLH0HNvEfCTGutOISnrsw" genericsValue="Instant" base_Element="_XgIrlHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XgM9AHNvEfCTGutOISnrsw" genericsValue="TimeRange" base_Element="_XgLu4nNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XgNkEHNvEfCTGutOISnrsw" genericsValue="TimeRange" base_Element="_XgLu43NvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XgSckHNvEfCTGutOISnrsw" genericsValue="DoctorAvailability, String" base_Element="_XgR1gHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_XgURwHNvEfCTGutOISnrsw" base_Element="_XgTDoXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_XgVf4HNvEfCTGutOISnrsw" genericsValue="Doctor, String" base_Element="_XgU40XNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_Xgc0oHNvEfCTGutOISnrsw" base_Element="_XgbmgHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_Xgc0oXNvEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Xgi7QHNvEfCTGutOISnrsw" base_Element="_XgiUMHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XgjiUHNvEfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_XgkJYHNvEfCTGutOISnrsw" base_Element="_XgjiUXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XgkJYXNvEfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Xgl-kHNvEfCTGutOISnrsw" base_Element="_XglXgHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_Xgl-kXNvEfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <Persistency:PrimaryKey xmi:id="_Xgpo8HNvEfCTGutOISnrsw" base_Property="_XgmloHNvEfCTGutOISnrsw"/>
+  <Persistency:JPA1StyledElement xmi:id="_XgqQAHNvEfCTGutOISnrsw" base_Element="_XgmloHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Xgq3EHNvEfCTGutOISnrsw" base_Element="_XgqQAXNvEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Xgq3EXNvEfCTGutOISnrsw" name="getCustomId" method="_Xg_nNnNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_XgsFMHNvEfCTGutOISnrsw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Xgq3EnNvEfCTGutOISnrsw" name="setCustomId" method="_XhAOQXNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_Xgq3E3NvEfCTGutOISnrsw" name="customId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_XgsFMXNvEfCTGutOISnrsw" base_Element="_XgqQAXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XgsFMnNvEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="_XgsFM3NvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhNCknNvEfCTGutOISnrsw" value="&quot;user_id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XgssQXNvEfCTGutOISnrsw" base_Element="_XgssQHNvEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_XgssQnNvEfCTGutOISnrsw" name="getFirstName" method="_XhAOQ3NvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_XgtTUHNvEfCTGutOISnrsw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_XgssQ3NvEfCTGutOISnrsw" name="setFirstName" method="_XhA1UXNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_XgssRHNvEfCTGutOISnrsw" name="firstName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_XgtTUXNvEfCTGutOISnrsw" base_Element="_XgssQHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XgtTUnNvEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="_XgtTU3NvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhNCk3NvEfCTGutOISnrsw" value="&quot;first_name&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Xgt6YXNvEfCTGutOISnrsw" base_Element="_Xgt6YHNvEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Xgt6YnNvEfCTGutOISnrsw" name="getLastName" method="_XhA1U3NvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_XguhcHNvEfCTGutOISnrsw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Xgt6Y3NvEfCTGutOISnrsw" name="setLastName" method="_XhA1VXNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_Xgt6ZHNvEfCTGutOISnrsw" name="lastName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_XguhcXNvEfCTGutOISnrsw" base_Element="_Xgt6YHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XguhcnNvEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="_Xguhc3NvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhNClHNvEfCTGutOISnrsw" value="&quot;last_name&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_XgvIgXNvEfCTGutOISnrsw" base_Element="_XgvIgHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XgvvkHNvEfCTGutOISnrsw" base_Element="_XgvIgnNvEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_XgvvkXNvEfCTGutOISnrsw" name="getContactNumber" method="_XhBcYHNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_XgwWoHNvEfCTGutOISnrsw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_XgvvknNvEfCTGutOISnrsw" name="setContactNumber" method="_XhBcYnNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_Xgvvk3NvEfCTGutOISnrsw" name="contactNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_XgwWoXNvEfCTGutOISnrsw" base_Element="_XgvIgnNvEfCTGutOISnrsw">
+    <annotations xmi:id="_XgwWonNvEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="_XgwWo3NvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhNClXNvEfCTGutOISnrsw" value="&quot;contact_number&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_XgxkwHNvEfCTGutOISnrsw" base_Element="_XgwWpHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XgyL0HNvEfCTGutOISnrsw" base_Element="_XgxkwXNvEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_XgyL0XNvEfCTGutOISnrsw" name="getLicenseNumber" method="_XhBcZHNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_XgyL1HNvEfCTGutOISnrsw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_XgyL0nNvEfCTGutOISnrsw" name="setLicenseNumber" method="_XhBcZnNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_XgyL03NvEfCTGutOISnrsw" name="licenseNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_Xgyy4HNvEfCTGutOISnrsw" base_Element="_XgxkwXNvEfCTGutOISnrsw">
+    <annotations xmi:id="_Xgyy4XNvEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="_Xgyy4nNvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhNClnNvEfCTGutOISnrsw" value="&quot;license_number&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XgzZ8HNvEfCTGutOISnrsw" base_Element="_Xgyy43NvEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_XgzZ8XNvEfCTGutOISnrsw" name="getConsultationFee" method="_XhCDcHNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_Xg0BAHNvEfCTGutOISnrsw" type="_Xf8eUXNvEfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_XgzZ8nNvEfCTGutOISnrsw" name="setConsultationFee" method="_XhCDcnNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_XgzZ83NvEfCTGutOISnrsw" name="consultationFee" type="_Xf8eUXNvEfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_Xg0BAXNvEfCTGutOISnrsw" base_Element="_Xgyy43NvEfCTGutOISnrsw">
+    <annotations xmi:id="_Xg0BAnNvEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="_Xg0BA3NvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhNCl3NvEfCTGutOISnrsw" value="&quot;consultation_fee&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Xg0oEHNvEfCTGutOISnrsw" base_Element="_Xg0BBHNvEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Xg0oEXNvEfCTGutOISnrsw" name="getCreatedAt" method="_XhCDdHNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_Xg0oFHNvEfCTGutOISnrsw" type="_XewykXNvEfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Xg0oEnNvEfCTGutOISnrsw" name="setCreatedAt" method="_XhCDdnNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_Xg0oE3NvEfCTGutOISnrsw" name="createdAt" type="_XewykXNvEfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_Xg0oFXNvEfCTGutOISnrsw" base_Element="_Xg0BBHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_Xg0oFnNvEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="_Xg0oF3NvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhNCmHNvEfCTGutOISnrsw" value="&quot;created_at&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Xg1PIXNvEfCTGutOISnrsw" base_Element="_Xg1PIHNvEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Xg1PInNvEfCTGutOISnrsw" name="getUpdatedAt" method="_XhCDeHNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_Xg1PJXNvEfCTGutOISnrsw" type="_XewykXNvEfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Xg1PI3NvEfCTGutOISnrsw" name="setUpdatedAt" method="_XhCDenNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_Xg1PJHNvEfCTGutOISnrsw" name="updatedAt" type="_XewykXNvEfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_Xg12MHNvEfCTGutOISnrsw" base_Element="_Xg1PIHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_Xg12MXNvEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="_Xg12MnNvEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XhNCmXNvEfCTGutOISnrsw" value="&quot;updated_at&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_Xg12NHNvEfCTGutOISnrsw" base_Element="_Xg12M3NvEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_Xg12NnNvEfCTGutOISnrsw" base_Element="_Xg12NXNvEfCTGutOISnrsw"/>
+  <Persistency:PrimaryKey xmi:id="_Xg2dQXNvEfCTGutOISnrsw" base_Property="_Xg2dQHNvEfCTGutOISnrsw"/>
+  <Persistency:JPA1StyledElement xmi:id="_Xg3EUHNvEfCTGutOISnrsw" base_Element="_Xg2dQHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_Xg3EUnNvEfCTGutOISnrsw" base_Element="_Xg3EUXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_Xg3EVXNvEfCTGutOISnrsw" base_Element="_Xg3EU3NvEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_Xg3EWHNvEfCTGutOISnrsw" base_Element="_Xg3EVnNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Xg3rYXNvEfCTGutOISnrsw" base_Element="_Xg3rYHNvEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Xg3rYnNvEfCTGutOISnrsw" name="getCreatedAt" method="_XhEfsHNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_Xg3rZXNvEfCTGutOISnrsw" type="_XewykXNvEfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Xg3rY3NvEfCTGutOISnrsw" name="setCreatedAt" method="_XhFGwHNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_Xg3rZHNvEfCTGutOISnrsw" name="createdAt" type="_XewykXNvEfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_Xg3rZnNvEfCTGutOISnrsw" base_Element="_Xg3rYHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_Xg3rZ3NvEfCTGutOISnrsw" name="CreatedDate"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Xg4ScXNvEfCTGutOISnrsw" base_Element="_Xg4ScHNvEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Xg4ScnNvEfCTGutOISnrsw" name="getUpdatedAt" method="_XhFGwnNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_Xg4SdXNvEfCTGutOISnrsw" type="_XewykXNvEfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Xg4Sc3NvEfCTGutOISnrsw" name="setUpdatedAt" method="_XhFGxHNvEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_Xg4SdHNvEfCTGutOISnrsw" name="updatedAt" type="_XewykXNvEfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_Xg45gHNvEfCTGutOISnrsw" base_Element="_Xg4ScHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_Xg45gXNvEfCTGutOISnrsw" name="LastModifiedDate"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Xg6usXNvEfCTGutOISnrsw" base_Element="_Xg6usHNvEfCTGutOISnrsw">
+    <annotations xmi:id="_Xg7VwHNvEfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <uml:OpaqueBehavior xmi:id="_Xg_nNnNvEfCTGutOISnrsw" name="getCustomId" specification="_Xgq3EXNvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhAOQHNvEfCTGutOISnrsw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return customId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhAOQXNvEfCTGutOISnrsw" name="setCustomId" specification="_Xgq3EnNvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhAOQnNvEfCTGutOISnrsw" name="customId">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.customId = customId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhAOQ3NvEfCTGutOISnrsw" name="getFirstName" specification="_XgssQnNvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhA1UHNvEfCTGutOISnrsw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return firstName;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhA1UXNvEfCTGutOISnrsw" name="setFirstName" specification="_XgssQ3NvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhA1UnNvEfCTGutOISnrsw" name="firstName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.firstName = firstName;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhA1U3NvEfCTGutOISnrsw" name="getLastName" specification="_Xgt6YnNvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhA1VHNvEfCTGutOISnrsw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return lastName;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhA1VXNvEfCTGutOISnrsw" name="setLastName" specification="_Xgt6Y3NvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhA1VnNvEfCTGutOISnrsw" name="lastName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.lastName = lastName;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhBcYHNvEfCTGutOISnrsw" name="getContactNumber" specification="_XgvvkXNvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhBcYXNvEfCTGutOISnrsw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return contactNumber;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhBcYnNvEfCTGutOISnrsw" name="setContactNumber" specification="_XgvvknNvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhBcY3NvEfCTGutOISnrsw" name="contactNumber">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.contactNumber = contactNumber;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhBcZHNvEfCTGutOISnrsw" name="getLicenseNumber" specification="_XgyL0XNvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhBcZXNvEfCTGutOISnrsw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return licenseNumber;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhBcZnNvEfCTGutOISnrsw" name="setLicenseNumber" specification="_XgyL0nNvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhBcZ3NvEfCTGutOISnrsw" name="licenseNumber">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.licenseNumber = licenseNumber;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhCDcHNvEfCTGutOISnrsw" name="getConsultationFee" specification="_XgzZ8XNvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhCDcXNvEfCTGutOISnrsw" type="_Xf8eUXNvEfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return consultationFee;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhCDcnNvEfCTGutOISnrsw" name="setConsultationFee" specification="_XgzZ8nNvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhCDc3NvEfCTGutOISnrsw" name="consultationFee" type="_Xf8eUXNvEfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.consultationFee = consultationFee;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhCDdHNvEfCTGutOISnrsw" name="getCreatedAt" specification="_Xg0oEXNvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhCDdXNvEfCTGutOISnrsw" type="_XewykXNvEfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return createdAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhCDdnNvEfCTGutOISnrsw" name="setCreatedAt" specification="_Xg0oEnNvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhCDd3NvEfCTGutOISnrsw" name="createdAt" type="_XewykXNvEfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.createdAt = createdAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhCDeHNvEfCTGutOISnrsw" name="getUpdatedAt" specification="_Xg1PInNvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhCDeXNvEfCTGutOISnrsw" type="_XewykXNvEfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return updatedAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhCDenNvEfCTGutOISnrsw" name="setUpdatedAt" specification="_Xg1PI3NvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhCqgHNvEfCTGutOISnrsw" name="updatedAt" type="_XewykXNvEfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.updatedAt = updatedAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhEfsHNvEfCTGutOISnrsw" name="getCreatedAt" specification="_Xg3rYnNvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhEfsXNvEfCTGutOISnrsw" type="_XewykXNvEfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return createdAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhFGwHNvEfCTGutOISnrsw" name="setCreatedAt" specification="_Xg3rY3NvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhFGwXNvEfCTGutOISnrsw" name="createdAt" type="_XewykXNvEfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.createdAt = createdAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhFGwnNvEfCTGutOISnrsw" name="getUpdatedAt" specification="_Xg4ScnNvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhFGw3NvEfCTGutOISnrsw" type="_XewykXNvEfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return updatedAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XhFGxHNvEfCTGutOISnrsw" name="setUpdatedAt" specification="_Xg4Sc3NvEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_XhFGxXNvEfCTGutOISnrsw" name="updatedAt" type="_XewykXNvEfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.updatedAt = updatedAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_XhZP0HNvEfCTGutOISnrsw" base_Element="_XhUXUHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XhfWcHNvEfCTGutOISnrsw" base_Element="_XhZP0XNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xhjn4HNvEfCTGutOISnrsw" base_Element="_XhfWcXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xhn5UHNvEfCTGutOISnrsw" base_Element="_Xhjn4XNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xhsx0HNvEfCTGutOISnrsw" base_Element="_Xhn5UXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XhxDQHNvEfCTGutOISnrsw" base_Element="_Xhsx0XNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xh4_EHNvEfCTGutOISnrsw" base_Element="_XhyRYHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_Xh93kHNvEfCTGutOISnrsw" base_Element="_Xh4_EXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XiCwEHNvEfCTGutOISnrsw" base_Element="_Xh_FsHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XiHBgHNvEfCTGutOISnrsw" base_Element="_XiDXIHNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XiKr4HNvEfCTGutOISnrsw" base_Element="_XiHBgXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XiPkYHNvEfCTGutOISnrsw" base_Element="_XiKr4XNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XiTOwHNvEfCTGutOISnrsw" base_Element="_XiPkYXNvEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_XiWSEHNvEfCTGutOISnrsw" base_Element="_XiTOwXNvEfCTGutOISnrsw"/>
+</xmi:XMI>

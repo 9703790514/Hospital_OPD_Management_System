@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_iplaUHNxEfCTGutOISnrsw" name="LoginService">
+    <eAnnotations xmi:id="_jEemkHNxEfCTGutOISnrsw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_jEfNoHNxEfCTGutOISnrsw" source="codegen">
+        <details xmi:id="_jEfNoXNxEfCTGutOISnrsw" key="codegenDirectory" value="/LoginService/src/main/java"/>
+        <details xmi:id="_kXVVkHNxEfCTGutOISnrsw" key="AssociatedSourceCode" value="/LoginService/src/main/java/training/iqgateway/LoginServiceApplication.java;2136745710/1;/LoginService/src/main/java/training/iqgateway/controller/AuthController.java;3567707942/1;/LoginService/src/main/java/training/iqgateway/entities/LoginRequest.java;3155850875/1;/LoginService/src/main/java/training/iqgateway/entities/LoginResponse.java;4113338869/1;/LoginService/src/main/java/training/iqgateway/entities/Role.java;1152074442/1;/LoginService/src/main/java/training/iqgateway/entities/User.java;1267294491/1;/LoginService/src/main/java/training/iqgateway/repository/RoleRepository.java;3376738736/1;/LoginService/src/main/java/training/iqgateway/repository/UserRepository.java;1017624106/1;/LoginService/src/main/java/training/iqgateway/service/AuthService.java;633773313/1;/LoginService/src/main/java/training/iqgateway/serviceimpl/AuthServiceImpl.java;3293312582/1;/LoginService/src/test/java/training/iqgateway/LoginServiceApplicationTests.java;3508516159/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_jVSpwHNxEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_jVSpwXNxEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_jVSpwnNxEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_jVSpw3NxEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_jVSpxHNxEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_jVSpxXNxEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_jVSpxnNxEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_jVSpx3NxEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_jVTQ0HNxEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_jUKBUHNxEfCTGutOISnrsw" name="training">
+      <packagedElement xmi:type="uml:Package" xmi:id="_jUNEoHNxEfCTGutOISnrsw" name="iqgateway">
+        <packagedElement xmi:type="uml:Package" xmi:id="_jUOSxHNxEfCTGutOISnrsw" name="entities">
+          <packagedElement xmi:type="uml:Class" xmi:id="_jVYwYHNxEfCTGutOISnrsw" name="LoginRequest">
+            <ownedAttribute xmi:id="_jbVnYHNxEfCTGutOISnrsw" name="email">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbVnYXNxEfCTGutOISnrsw" name="password">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jbzhcHNxEfCTGutOISnrsw" name="LoginRequest" specification="_jVbzsHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jbzhcXNxEfCTGutOISnrsw" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jbzhcnNxEfCTGutOISnrsw" name="password">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jbzhc3NxEfCTGutOISnrsw" type="_jVYwYHNxEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>this.email = email;&#xD;
+     this.password = password;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jbzhdHNxEfCTGutOISnrsw" name="toString" specification="_jVcawHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jbzhdXNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return &quot;LoginRequest{&quot; +&#xD;
+            &quot;email='&quot; + email + '\'' +&#xD;
+            &quot;, password='[PROTECTED]'&quot; +&#xD;
+            '}';&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jbzhdnNxEfCTGutOISnrsw" name="equals" specification="_ja7XsXNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jbzhd3NxEfCTGutOISnrsw" name="o" type="_ja6woXNxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jbzheHNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>if (this == o) return true;&#xD;
+     if (!(o instanceof LoginRequest)) return false;&#xD;
+     LoginRequest that = (LoginRequest) o;&#xD;
+     return Objects.equals(email, that.email) &amp;&amp;&#xD;
+            Objects.equals(password, that.password);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jbzheXNxEfCTGutOISnrsw" name="hashCode" specification="_jVdo4XNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jbzhenNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return Objects.hash(email, password);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_jVZXcHNxEfCTGutOISnrsw" name="LoginRequest">
+              <eAnnotations xmi:id="_jValkHNxEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_jValkXNxEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_jVbMoXNxEfCTGutOISnrsw" type="_jVYwYHNxEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_jVbzsHNxEfCTGutOISnrsw" name="LoginRequest" method="_jbzhcHNxEfCTGutOISnrsw">
+              <eAnnotations xmi:id="_jVbzs3NxEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_jVbztHNxEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_jVbzsXNxEfCTGutOISnrsw" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jVbzsnNxEfCTGutOISnrsw" name="password">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jVbztXNxEfCTGutOISnrsw" type="_jVYwYHNxEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_jVcawHNxEfCTGutOISnrsw" name="toString" method="_jbzhdHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jVcawXNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_jVdo4XNxEfCTGutOISnrsw" name="hashCode" method="_jbzheXNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jVeP8HNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_ja7XsXNxEfCTGutOISnrsw" name="equals" method="_jbzhdnNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_ja7XsnNxEfCTGutOISnrsw" name="o" type="_ja6woXNxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_ja7-wHNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jVe3AHNxEfCTGutOISnrsw" name="LoginResponse">
+            <ownedAttribute xmi:id="_jbVnYnNxEfCTGutOISnrsw" name="userId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbWOcHNxEfCTGutOISnrsw" name="username">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbWOcXNxEfCTGutOISnrsw" name="email">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbWOcnNxEfCTGutOISnrsw" name="role">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbWOc3NxEfCTGutOISnrsw" name="dashboardUrl">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbW1gHNxEfCTGutOISnrsw" name="token">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbW1gXNxEfCTGutOISnrsw" name="profilePic">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jbW1gnNxEfCTGutOISnrsw" value="*"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_ja9z8HNxEfCTGutOISnrsw" client="_jVe3AHNxEfCTGutOISnrsw" supplier="_jaZzQHNxEfCTGutOISnrsw" contract="_jaZzQHNxEfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jb0IgHNxEfCTGutOISnrsw" name="LoginResponse" specification="_jVhTQHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jb0IgXNxEfCTGutOISnrsw" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb0IgnNxEfCTGutOISnrsw" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb0Ig3NxEfCTGutOISnrsw" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb0IhHNxEfCTGutOISnrsw" name="role">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb0IhXNxEfCTGutOISnrsw" name="dashboardUrl">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb0IhnNxEfCTGutOISnrsw" name="token">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb0Ih3NxEfCTGutOISnrsw" name="profilePic">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jb0IiHNxEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb0IiXNxEfCTGutOISnrsw" type="_jVe3AHNxEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>this.userId = userId;&#xD;
+     this.username = username;&#xD;
+     this.email = email;&#xD;
+     this.role = role;&#xD;
+     this.dashboardUrl = dashboardUrl;&#xD;
+     this.token = token;&#xD;
+     this.profilePic = profilePic;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jb0IinNxEfCTGutOISnrsw" name="toString" specification="_jVihYXNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jb0Ii3NxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return &quot;LoginResponse{&quot; +&#xD;
+            &quot;userId='&quot; + userId + '\'' +&#xD;
+            &quot;, username='&quot; + username + '\'' +&#xD;
+            &quot;, email='&quot; + email + '\'' +&#xD;
+            &quot;, role='&quot; + role + '\'' +&#xD;
+            &quot;, dashboardUrl='&quot; + dashboardUrl + '\'' +&#xD;
+            &quot;, token='[PROTECTED]'&quot; +&#xD;
+            &quot;, profilePic='&quot; + Arrays.toString(profilePic) + '\'' +&#xD;
+            '}';&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jb0IjHNxEfCTGutOISnrsw" name="equals" specification="_ja_CEHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jb0IjXNxEfCTGutOISnrsw" name="o" type="_ja6woXNxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jb0IjnNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>if (this == o) return true;&#xD;
+     if (!(o instanceof LoginResponse)) return false;&#xD;
+     LoginResponse that = (LoginResponse) o;&#xD;
+     return Objects.equals(userId, that.userId) &amp;&amp;&#xD;
+            Objects.equals(username, that.username) &amp;&amp;&#xD;
+            Objects.equals(email, that.email) &amp;&amp;&#xD;
+            Objects.equals(role, that.role) &amp;&amp;&#xD;
+            Objects.equals(dashboardUrl, that.dashboardUrl) &amp;&amp;&#xD;
+            Objects.equals(token, that.token) &amp;&amp;&#xD;
+            Arrays.equals(profilePic, that.profilePic);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jb0Ij3NxEfCTGutOISnrsw" name="hashCode" specification="_jVk9oHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jb0IkHNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return Objects.hash(userId, username, email, role, dashboardUrl, token, Arrays.hashCode(profilePic));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_jVgFIHNxEfCTGutOISnrsw" name="LoginResponse">
+              <eAnnotations xmi:id="_jVgFIXNxEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_jVgFInNxEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_jVgsMHNxEfCTGutOISnrsw" type="_jVe3AHNxEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_jVhTQHNxEfCTGutOISnrsw" name="LoginResponse" method="_jb0IgHNxEfCTGutOISnrsw">
+              <eAnnotations xmi:id="_jVh6UHNxEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_jVh6UXNxEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_jVhTQXNxEfCTGutOISnrsw" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jVhTQnNxEfCTGutOISnrsw" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jVhTQ3NxEfCTGutOISnrsw" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jVhTRHNxEfCTGutOISnrsw" name="role">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jVhTRXNxEfCTGutOISnrsw" name="dashboardUrl">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jVhTRnNxEfCTGutOISnrsw" name="token">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jVhTR3NxEfCTGutOISnrsw" name="profilePic">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jVihYHNxEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jVh6UnNxEfCTGutOISnrsw" type="_jVe3AHNxEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_jVihYXNxEfCTGutOISnrsw" name="toString" method="_jb0IinNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jVjIcHNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_jVk9oHNxEfCTGutOISnrsw" name="hashCode" method="_jb0Ij3NxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jVk9oXNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_ja_CEHNxEfCTGutOISnrsw" name="equals" method="_jb0IjHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_ja_CEXNxEfCTGutOISnrsw" name="o" type="_ja6woXNxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_ja_pIHNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jVooAHNxEfCTGutOISnrsw" name="Role">
+            <ownedAttribute xmi:id="_jbYDoHNxEfCTGutOISnrsw" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbZ40XNxEfCTGutOISnrsw" name="customRoleId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbbG8XNxEfCTGutOISnrsw" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbbG83NxEfCTGutOISnrsw" name="description">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbbuAXNxEfCTGutOISnrsw" name="createdAt" type="_jaddo3NxEfCTGutOISnrsw" association="_jb4Z8HNxEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_jbcVEHNxEfCTGutOISnrsw" name="updatedAt" type="_jaddo3NxEfCTGutOISnrsw" association="_jb4Z8nNxEfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jb0vk3NxEfCTGutOISnrsw" name="Role" specification="_jbDTgHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jb0vlHNxEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb0vlXNxEfCTGutOISnrsw" name="customRoleId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb0vlnNxEfCTGutOISnrsw" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb0vl3NxEfCTGutOISnrsw" name="description">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb0vmHNxEfCTGutOISnrsw" name="createdAt" type="_jaddo3NxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jb0vmXNxEfCTGutOISnrsw" name="updatedAt" type="_jaddo3NxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jb0vmnNxEfCTGutOISnrsw" type="_jVooAHNxEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>this.id = id;&#xD;
+     this.customRoleId = customRoleId;&#xD;
+     this.name = name;&#xD;
+     this.description = description;&#xD;
+     this.createdAt = createdAt;&#xD;
+     this.updatedAt = updatedAt;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jb0vm3NxEfCTGutOISnrsw" name="toString" specification="_jVsSYHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jb0vnHNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return &quot;Role{&quot; +&#xD;
+             &quot;id='&quot; + id + '\'' +&#xD;
+             &quot;, customRoleId=&quot; + customRoleId +&#xD;
+             &quot;, name='&quot; + name + '\'' +&#xD;
+             &quot;, description='&quot; + description + '\'' +&#xD;
+             &quot;, createdAt=&quot; + createdAt +&#xD;
+             &quot;, updatedAt=&quot; + updatedAt +&#xD;
+             '}';&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jb0vnXNxEfCTGutOISnrsw" name="equals" specification="_jbFIsHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jb0vnnNxEfCTGutOISnrsw" name="o" type="_ja6woXNxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jb0vn3NxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>if (this == o) return true;&#xD;
+     if (!(o instanceof Role)) return false;&#xD;
+     Role role = (Role) o;&#xD;
+     return Objects.equals(id, role.id)&#xD;
+             &amp;&amp; Objects.equals(customRoleId, role.customRoleId)&#xD;
+             &amp;&amp; Objects.equals(name, role.name)&#xD;
+             &amp;&amp; Objects.equals(description, role.description)&#xD;
+             &amp;&amp; Objects.equals(createdAt, role.createdAt)&#xD;
+             &amp;&amp; Objects.equals(updatedAt, role.updatedAt);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jb0voHNxEfCTGutOISnrsw" name="hashCode" specification="_jVtggnNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jb0voXNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return Objects.hash(id, customRoleId, name, description, createdAt, updatedAt);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_jVrEQHNxEfCTGutOISnrsw" name="Role">
+              <eAnnotations xmi:id="_jVrEQXNxEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_jVrEQnNxEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_jVrrUHNxEfCTGutOISnrsw" type="_jVooAHNxEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_jVsSYHNxEfCTGutOISnrsw" name="toString" method="_jb0vm3NxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jVs5cHNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_jVtggnNxEfCTGutOISnrsw" name="hashCode" method="_jb0voHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jVuHkHNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_jbDTgHNxEfCTGutOISnrsw" name="Role" method="_jb0vk3NxEfCTGutOISnrsw">
+              <eAnnotations xmi:id="_jbD6k3NxEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_jbD6lHNxEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_jbDTgXNxEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jbDTgnNxEfCTGutOISnrsw" name="customRoleId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jbDTg3NxEfCTGutOISnrsw" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jbD6kHNxEfCTGutOISnrsw" name="description">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jbD6kXNxEfCTGutOISnrsw" name="createdAt" type="_jaddo3NxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jbD6knNxEfCTGutOISnrsw" name="updatedAt" type="_jaddo3NxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jbD6lXNxEfCTGutOISnrsw" type="_jVooAHNxEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_jbFIsHNxEfCTGutOISnrsw" name="equals" method="_jb0vnXNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jbFIsXNxEfCTGutOISnrsw" name="o" type="_ja6woXNxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jbFIsnNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jVzAEHNxEfCTGutOISnrsw" name="User">
+            <ownedAttribute xmi:id="_jbdjMHNxEfCTGutOISnrsw" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbexUXNxEfCTGutOISnrsw" name="username">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbf_cHNxEfCTGutOISnrsw" name="password">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbh0oHNxEfCTGutOISnrsw" name="email">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbh0onNxEfCTGutOISnrsw" name="phoneNumber">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbjp0HNxEfCTGutOISnrsw" name="roleId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jblfAnNxEfCTGutOISnrsw" name="image">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jblfA3NxEfCTGutOISnrsw" value="*"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_jbmGEnNxEfCTGutOISnrsw" name="lastLogin" type="_jaddo3NxEfCTGutOISnrsw" association="_jcGcYXNxEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_jbpwcnNxEfCTGutOISnrsw" name="createdAt" type="_jaddo3NxEfCTGutOISnrsw" association="_jcMjAXNxEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_jbsMsHNxEfCTGutOISnrsw" name="updatedAt" type="_jaddo3NxEfCTGutOISnrsw" association="_jcUe0XNxEfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jb1WtHNxEfCTGutOISnrsw" name="User" specification="_jbJaIHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jb1WtXNxEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb1WtnNxEfCTGutOISnrsw" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb1Wt3NxEfCTGutOISnrsw" name="password">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb1WuHNxEfCTGutOISnrsw" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb1WuXNxEfCTGutOISnrsw" name="phoneNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb1WunNxEfCTGutOISnrsw" name="roleId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb1Wu3NxEfCTGutOISnrsw" name="image">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jb1WvHNxEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jb1WvXNxEfCTGutOISnrsw" name="lastLogin" type="_jaddo3NxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jb1WvnNxEfCTGutOISnrsw" name="createdAt" type="_jaddo3NxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jb1Wv3NxEfCTGutOISnrsw" name="updatedAt" type="_jaddo3NxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jb1WwHNxEfCTGutOISnrsw" type="_jVzAEHNxEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>this.id = id;&#xD;
+     this.username = username;&#xD;
+     this.password = password;&#xD;
+     this.email = email;&#xD;
+     this.phoneNumber = phoneNumber;&#xD;
+     this.roleId = roleId;&#xD;
+     this.image = image;&#xD;
+     this.lastLogin = lastLogin;&#xD;
+     this.createdAt = createdAt;&#xD;
+     this.updatedAt = updatedAt;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jb19sHNxEfCTGutOISnrsw" name="toString" specification="_jV1cUHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jb19sXNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return &quot;User{&quot; +&#xD;
+             &quot;id='&quot; + id + '\'' +&#xD;
+             &quot;, username='&quot; + username + '\'' +&#xD;
+             &quot;, password='[PROTECTED]'&quot; +&#xD;
+             &quot;, email='&quot; + email + '\'' +&#xD;
+             &quot;, phoneNumber='&quot; + phoneNumber + '\'' +&#xD;
+             &quot;, roleId=&quot; + roleId +&#xD;
+             &quot;, image='&quot; + Arrays.toString(image) + '\'' + // Use Arrays.toString() for correct printing&#xD;
+             &quot;, lastLogin=&quot; + lastLogin +&#xD;
+             &quot;, createdAt=&quot; + createdAt +&#xD;
+             &quot;, updatedAt=&quot; + updatedAt +&#xD;
+             '}';&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jb19snNxEfCTGutOISnrsw" name="equals" specification="_jbL2YHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jb19s3NxEfCTGutOISnrsw" name="o" type="_ja6woXNxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jb19tHNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>if (this == o) return true;&#xD;
+     if (!(o instanceof User)) return false;&#xD;
+     User user = (User) o;&#xD;
+     return Objects.equals(id, user.id)&#xD;
+             &amp;&amp; Objects.equals(username, user.username)&#xD;
+             &amp;&amp; Objects.equals(password, user.password)&#xD;
+             &amp;&amp; Objects.equals(email, user.email)&#xD;
+             &amp;&amp; Objects.equals(phoneNumber, user.phoneNumber)&#xD;
+             &amp;&amp; Objects.equals(roleId, user.roleId)&#xD;
+             &amp;&amp; Arrays.equals(image, user.image) // Use Arrays.equals() for correct comparison&#xD;
+             &amp;&amp; Objects.equals(lastLogin, user.lastLogin)&#xD;
+             &amp;&amp; Objects.equals(createdAt, user.createdAt)&#xD;
+             &amp;&amp; Objects.equals(updatedAt, user.updatedAt);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jb19tXNxEfCTGutOISnrsw" name="hashCode" specification="_jV2DYHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jb19tnNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return Objects.hash(id, username, password, email, phoneNumber, roleId, Arrays.hashCode(image), lastLogin, createdAt, updatedAt);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_jV0OMHNxEfCTGutOISnrsw" name="User">
+              <eAnnotations xmi:id="_jV01QHNxEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_jV01QXNxEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_jV01QnNxEfCTGutOISnrsw" type="_jVzAEHNxEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_jV1cUHNxEfCTGutOISnrsw" name="toString" method="_jb19sHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jV1cUXNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_jV2DYHNxEfCTGutOISnrsw" name="hashCode" method="_jb19tXNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jV2DYXNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_jbJaIHNxEfCTGutOISnrsw" name="User" method="_jb1WtHNxEfCTGutOISnrsw">
+              <eAnnotations xmi:id="_jbKoQHNxEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_jbKoQXNxEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_jbKBMHNxEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jbKBMXNxEfCTGutOISnrsw" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jbKBMnNxEfCTGutOISnrsw" name="password">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jbKBM3NxEfCTGutOISnrsw" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jbKBNHNxEfCTGutOISnrsw" name="phoneNumber">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jbKBNXNxEfCTGutOISnrsw" name="roleId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jbKBNnNxEfCTGutOISnrsw" name="image">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jbLPUHNxEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jbKBN3NxEfCTGutOISnrsw" name="lastLogin" type="_jaddo3NxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jbKBOHNxEfCTGutOISnrsw" name="createdAt" type="_jaddo3NxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jbKBOXNxEfCTGutOISnrsw" name="updatedAt" type="_jaddo3NxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jbKoQnNxEfCTGutOISnrsw" type="_jVzAEHNxEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_jbL2YHNxEfCTGutOISnrsw" name="equals" method="_jb19snNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jbL2YXNxEfCTGutOISnrsw" name="o" type="_ja6woXNxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jbL2YnNxEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_jb4Z8HNxEfCTGutOISnrsw" name="" memberEnd="_jbbuAXNxEfCTGutOISnrsw _jb4Z8XNxEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_jb4Z8XNxEfCTGutOISnrsw" name="" type="_jVooAHNxEfCTGutOISnrsw" association="_jb4Z8HNxEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_jb4Z8nNxEfCTGutOISnrsw" name="" memberEnd="_jbcVEHNxEfCTGutOISnrsw _jb4Z83NxEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_jb4Z83NxEfCTGutOISnrsw" name="" type="_jVooAHNxEfCTGutOISnrsw" association="_jb4Z8nNxEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_jcGcYXNxEfCTGutOISnrsw" name="" memberEnd="_jcGcYnNxEfCTGutOISnrsw _jbmGEnNxEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_jcGcYnNxEfCTGutOISnrsw" name="" type="_jVzAEHNxEfCTGutOISnrsw" association="_jcGcYXNxEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_jcMjAXNxEfCTGutOISnrsw" name="" memberEnd="_jcMjAnNxEfCTGutOISnrsw _jbpwcnNxEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_jcMjAnNxEfCTGutOISnrsw" name="" type="_jVzAEHNxEfCTGutOISnrsw" association="_jcMjAXNxEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_jcUe0XNxEfCTGutOISnrsw" name="" memberEnd="_jcUe0nNxEfCTGutOISnrsw _jbsMsHNxEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_jcUe0nNxEfCTGutOISnrsw" name="" type="_jVzAEHNxEfCTGutOISnrsw" association="_jcUe0XNxEfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_jUO50HNxEfCTGutOISnrsw" name="service">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_jWBCgHNxEfCTGutOISnrsw" name="AuthService">
+            <ownedOperation xmi:id="_jargEHNxEfCTGutOISnrsw" name="authenticateUser">
+              <ownedParameter xmi:id="_jargEXNxEfCTGutOISnrsw" name="loginRequest" type="_jVYwYHNxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jargEnNxEfCTGutOISnrsw" type="_jVe3AHNxEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_jUQvAHNxEfCTGutOISnrsw" name="controller">
+          <packagedElement xmi:type="uml:Class" xmi:id="_jVVGAHNxEfCTGutOISnrsw" name="AuthController">
+            <ownedAttribute xmi:id="_jbTyMHNxEfCTGutOISnrsw" name="authService" visibility="private" type="_jWBCgHNxEfCTGutOISnrsw" association="_jb-gkHNxEfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jby6Y3NxEfCTGutOISnrsw" name="login" specification="_jaWv8HNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jby6ZHNxEfCTGutOISnrsw" name="loginRequest" type="_jVYwYHNxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jby6ZXNxEfCTGutOISnrsw" type="_jaU6wXNxEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>if (loginRequest.getEmail() == null || loginRequest.getEmail().isEmpty() ||&#xD;
+         loginRequest.getPassword() == null || loginRequest.getPassword().isEmpty()) {&#xD;
+         return ResponseEntity.badRequest().body(&quot;Email and password are required.&quot;);&#xD;
+     }&#xD;
+&#xD;
+     try {&#xD;
+         LoginResponse response = authService.authenticateUser(loginRequest);&#xD;
+         return ResponseEntity.ok(response);&#xD;
+     } catch (RuntimeException e) {&#xD;
+         return ResponseEntity.status(401).body(e.getMessage());&#xD;
+     } catch (Exception e) {&#xD;
+         return ResponseEntity.status(500).body(&quot;An unexpected error occurred: &quot; + e.getMessage());&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_jaWv8HNxEfCTGutOISnrsw" name="login" method="_jby6Y3NxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jaWv8XNxEfCTGutOISnrsw" name="loginRequest" type="_jVYwYHNxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_ja5igHNxEfCTGutOISnrsw" type="_jaU6wXNxEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_jb-gkHNxEfCTGutOISnrsw" name="" memberEnd="_jb-gkXNxEfCTGutOISnrsw _jbTyMHNxEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_jb-gkXNxEfCTGutOISnrsw" name="" type="_jVVGAHNxEfCTGutOISnrsw" association="_jb-gkHNxEfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_jUyTcHNxEfCTGutOISnrsw" name="repository">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_jV8xEHNxEfCTGutOISnrsw" name="RoleRepository">
+            <generalization xmi:id="_jbPgwHNxEfCTGutOISnrsw" general="_jan1sXNxEfCTGutOISnrsw"/>
+            <ownedOperation xmi:id="_jV9YIXNxEfCTGutOISnrsw" name="findByCustomRoleId">
+              <ownedParameter xmi:id="_jV9YInNxEfCTGutOISnrsw" name="customRoleId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jbQH0XNxEfCTGutOISnrsw" type="_janOoHNxEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_jV-mQnNxEfCTGutOISnrsw" name="UserRepository">
+            <generalization xmi:id="_jbQH0nNxEfCTGutOISnrsw" general="_jan1sXNxEfCTGutOISnrsw"/>
+            <ownedOperation xmi:id="_jV_NUXNxEfCTGutOISnrsw" name="findByEmail">
+              <ownedParameter xmi:id="_jV_NUnNxEfCTGutOISnrsw" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_jbRV8XNxEfCTGutOISnrsw" type="_janOoHNxEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_jU190HNxEfCTGutOISnrsw" name="serviceimpl">
+          <packagedElement xmi:type="uml:Class" xmi:id="_jWBpkHNxEfCTGutOISnrsw" name="AuthServiceImpl">
+            <ownedAttribute xmi:id="_jbvQAHNxEfCTGutOISnrsw" name="userRepository" visibility="private" type="_jV-mQnNxEfCTGutOISnrsw" association="_jcbMgXNxEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_jbv3EnNxEfCTGutOISnrsw" name="roleRepository" visibility="private" type="_jV8xEHNxEfCTGutOISnrsw" association="_jch6MXNxEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_jbv3FXNxEfCTGutOISnrsw" name="DASHBOARD_URLS" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <qualifier xmi:id="_jbweInNxEfCTGutOISnrsw">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </qualifier>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_jbweIHNxEfCTGutOISnrsw" value="new HashMap&lt;>()"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_javKcHNxEfCTGutOISnrsw" client="_jWBpkHNxEfCTGutOISnrsw" supplier="_jWBCgHNxEfCTGutOISnrsw" contract="_jWBCgHNxEfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jb2kwHNxEfCTGutOISnrsw" name="_initializer1" specification="_jWC3sHNxEfCTGutOISnrsw">
+              <language>java</language>
+              <body>DASHBOARD_URLS.put(&quot;Patient&quot;, &quot;/patient/dashboard&quot;);&#xD;
+	        DASHBOARD_URLS.put(&quot;Doctor&quot;, &quot;/doctor/dashboard&quot;);&#xD;
+	        DASHBOARD_URLS.put(&quot;FrontDesk&quot;, &quot;/frontdesk/dashboard&quot;);&#xD;
+	        DASHBOARD_URLS.put(&quot;BillingDesk&quot;, &quot;/billing/dashboard&quot;);&#xD;
+	        DASHBOARD_URLS.put(&quot;LabTechnician&quot;, &quot;/lab/dashboard&quot;);&#xD;
+	        DASHBOARD_URLS.put(&quot;Nurse&quot;, &quot;/nurse/dashboard&quot;);&#xD;
+	        DASHBOARD_URLS.put(&quot;Admin&quot;, &quot;/admin/dashboard&quot;);&#xD;
+	        DASHBOARD_URLS.put(&quot;Default&quot;, &quot;/unauthorized&quot;);&#xD;
+	    </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jb2kwXNxEfCTGutOISnrsw" name="authenticateUser" specification="_jawYkHNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jb2kwnNxEfCTGutOISnrsw" name="loginRequest" type="_jVYwYHNxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jb2kw3NxEfCTGutOISnrsw" type="_jVe3AHNxEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>Optional&lt;User> userOptional = userRepository.findByEmail(loginRequest.getEmail());&#xD;
+&#xD;
+	        if (userOptional.isEmpty()) {&#xD;
+	            throw new RuntimeException(&quot;Invalid credentials: User not found.&quot;);&#xD;
+	        }&#xD;
+&#xD;
+	        User user = userOptional.get();&#xD;
+&#xD;
+	        if (!loginRequest.getPassword().equals(user.getPassword())) {&#xD;
+	            throw new RuntimeException(&quot;Invalid credentials: Incorrect password.&quot;);&#xD;
+	        }&#xD;
+&#xD;
+	        // Assuming roleId is Integer or Long; if Integer, remove trim check&#xD;
+	        if (user.getRoleId() == null) {&#xD;
+	            throw new RuntimeException(&quot;User's role ID is missing or invalid for user: &quot; + user.getEmail());&#xD;
+	        }&#xD;
+&#xD;
+	        System.out.println(&quot;User roleId (custom integer): &quot; + user.getRoleId());&#xD;
+&#xD;
+	        Optional&lt;Role> roleOptional = roleRepository.findByCustomRoleId(user.getRoleId());&#xD;
+	        if (roleOptional.isEmpty()) {&#xD;
+	            throw new RuntimeException(&quot;User role not found for role ID: &quot; + user.getRoleId() + &quot; associated with user: &quot; + user.getEmail());&#xD;
+	        }&#xD;
+&#xD;
+	        Role role = roleOptional.get();&#xD;
+&#xD;
+	        String dashboardUrl = DASHBOARD_URLS.getOrDefault(role.getName(), DASHBOARD_URLS.get(&quot;Default&quot;));&#xD;
+&#xD;
+	        user.setLastLogin(Instant.now());&#xD;
+	        user.setUpdatedAt(Instant.now());&#xD;
+	        userRepository.save(user);&#xD;
+&#xD;
+	        String authToken = &quot;mock-jwt-token-for-&quot; + user.getId();&#xD;
+&#xD;
+	        // Pass the profilePic field from user entity, which is a byte array&#xD;
+	        return new LoginResponse(&#xD;
+	                user.getId(),&#xD;
+	                user.getUsername(),&#xD;
+	                user.getEmail(),&#xD;
+	                role.getName(),&#xD;
+	                dashboardUrl,&#xD;
+	                authToken,&#xD;
+	                user.getImage() &#xD;
+	        );&#xD;
+	    </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_jWC3sHNxEfCTGutOISnrsw" name="_initializer1" isStatic="true" method="_jb2kwHNxEfCTGutOISnrsw">
+              <eAnnotations xmi:id="_jWC3sXNxEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_jWC3snNxEfCTGutOISnrsw" key="init"/>
+              </eAnnotations>
+            </ownedOperation>
+            <ownedOperation xmi:id="_jawYkHNxEfCTGutOISnrsw" name="authenticateUser" method="_jb2kwXNxEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_jawYkXNxEfCTGutOISnrsw" name="loginRequest" type="_jVYwYHNxEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_jawYknNxEfCTGutOISnrsw" type="_jVe3AHNxEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_jcbMgXNxEfCTGutOISnrsw" name="" memberEnd="_jcbMgnNxEfCTGutOISnrsw _jbvQAHNxEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_jcbMgnNxEfCTGutOISnrsw" name="" type="_jWBpkHNxEfCTGutOISnrsw" association="_jcbMgXNxEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_jch6MXNxEfCTGutOISnrsw" name="" memberEnd="_jch6MnNxEfCTGutOISnrsw _jbv3EnNxEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_jch6MnNxEfCTGutOISnrsw" name="" type="_jWBpkHNxEfCTGutOISnrsw" association="_jch6MXNxEfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jVPmcHNxEfCTGutOISnrsw" name="LoginServiceApplication">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jby6YHNxEfCTGutOISnrsw" name="main" specification="_jVTQ0XNxEfCTGutOISnrsw">
+            <ownedParameter xmi:id="_jby6YXNxEfCTGutOISnrsw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jby6YnNxEfCTGutOISnrsw" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>SpringApplication.run(LoginServiceApplication.class, args);
+ </body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_jVTQ0XNxEfCTGutOISnrsw" name="main" isStatic="true" method="_jby6YHNxEfCTGutOISnrsw">
+            <ownedParameter xmi:id="_jVTQ0nNxEfCTGutOISnrsw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jVT34XNxEfCTGutOISnrsw" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jWF7AHNxEfCTGutOISnrsw" name="LoginServiceApplicationTests" visibility="package">
+          <eAnnotations xmi:id="_jWF7AXNxEfCTGutOISnrsw" source="http://ns.yatta.de/umllab">
+            <contents xmi:type="ecore:EAnnotation" xmi:id="_jWF7AnNxEfCTGutOISnrsw" source="codegen">
+              <details xmi:id="_jWGiEHNxEfCTGutOISnrsw" key="codegenDirectory" value="/LoginService/src/test/java"/>
+            </contents>
+          </eAnnotations>
+          <ownedOperation xmi:id="_jWHJIHNxEfCTGutOISnrsw" name="contextLoads" visibility="package"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_jULPcHNxEfCTGutOISnrsw" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_jULPcXNxEfCTGutOISnrsw" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_jULPcnNxEfCTGutOISnrsw" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_jUL2gHNxEfCTGutOISnrsw" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_jaTFkHNxEfCTGutOISnrsw" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_jU3zAnNxEfCTGutOISnrsw" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_jU3zA3NxEfCTGutOISnrsw" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_jazb4HNxEfCTGutOISnrsw" name="SpringBootTest"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jaRQYHNxEfCTGutOISnrsw" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_jUNEoXNxEfCTGutOISnrsw" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_jUNrsHNxEfCTGutOISnrsw" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_jUNrsXNxEfCTGutOISnrsw" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_jaUTsHNxEfCTGutOISnrsw" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_jUOSwHNxEfCTGutOISnrsw" name="http">
+          <packagedElement xmi:type="uml:Class" xmi:id="_jaU6wXNxEfCTGutOISnrsw" name="ResponseEntity"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_jUOSwXNxEfCTGutOISnrsw" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_jUOSwnNxEfCTGutOISnrsw" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_jUOSw3NxEfCTGutOISnrsw" name="annotation"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_jUbuIHNxEfCTGutOISnrsw" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_jUbuIXNxEfCTGutOISnrsw" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_jacPgHNxEfCTGutOISnrsw" name="Id"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_jUbuInNxEfCTGutOISnrsw" name="mongodb">
+            <packagedElement xmi:type="uml:Package" xmi:id="_jUbuI3NxEfCTGutOISnrsw" name="core">
+              <packagedElement xmi:type="uml:Package" xmi:id="_jUbuJHNxEfCTGutOISnrsw" name="mapping">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_jac2kXNxEfCTGutOISnrsw" name="Document"/>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_jaddoXNxEfCTGutOISnrsw" name="Field"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_jUxFUHNxEfCTGutOISnrsw" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_jan1sXNxEfCTGutOISnrsw" name="MongoRepository"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_jUxsYHNxEfCTGutOISnrsw" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_japD0HNxEfCTGutOISnrsw" name="Repository"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_jat8UXNxEfCTGutOISnrsw" name="Service"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_jU3L8HNxEfCTGutOISnrsw" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_jU3zAHNxEfCTGutOISnrsw" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_jU3zAXNxEfCTGutOISnrsw" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_jayNwHNxEfCTGutOISnrsw" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_jUR9IHNxEfCTGutOISnrsw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_jUR9IXNxEfCTGutOISnrsw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_jaZMMHNxEfCTGutOISnrsw" name="Objects"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jaZzQnNxEfCTGutOISnrsw" name="Arrays"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_janOoHNxEfCTGutOISnrsw" name="Optional"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jasuMHNxEfCTGutOISnrsw" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jatVQXNxEfCTGutOISnrsw" name="Map"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_jUWOkHNxEfCTGutOISnrsw" name="io">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jaZzQHNxEfCTGutOISnrsw" name="Serializable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_jUbuJXNxEfCTGutOISnrsw" name="time">
+        <packagedElement xmi:type="uml:Class" xmi:id="_jaddo3NxEfCTGutOISnrsw" name="Instant"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ja6woHNxEfCTGutOISnrsw" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ja6woXNxEfCTGutOISnrsw" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_jFdeAHNxEfCTGutOISnrsw">
+      <eAnnotations xmi:id="_jFeFEHNxEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_jbYDoXNxEfCTGutOISnrsw">
+      <eAnnotations xmi:id="_jbYDonNxEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_jFeFEXNxEfCTGutOISnrsw" base_Package="_iplaUHNxEfCTGutOISnrsw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jVRboHNxEfCTGutOISnrsw" base_Element="_jVPmcHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_jVT34HNxEfCTGutOISnrsw" base_Element="_jVTQ0XNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jVUe8HNxEfCTGutOISnrsw" base_Element="_jVPmcHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jVUe8XNxEfCTGutOISnrsw" name="SpringBootApplication"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jVVtEHNxEfCTGutOISnrsw" base_Element="_jVVGAHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jVW7MHNxEfCTGutOISnrsw" base_Element="_jVVGAHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jVW7MXNxEfCTGutOISnrsw" name="RestController"/>
+    <annotations xmi:id="_jVW7MnNxEfCTGutOISnrsw" name="RequestMapping">
+      <annotationParameters xmi:id="_jVXiQHNxEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jb3L0HNxEfCTGutOISnrsw" value="&quot;/api/auth&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_jVXiQXNxEfCTGutOISnrsw" name="CrossOrigin">
+      <annotationParameters xmi:id="_jVXiQnNxEfCTGutOISnrsw" name="origins" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jb3y4HNxEfCTGutOISnrsw" value="&quot;http://localhost:5173&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jVbMoHNxEfCTGutOISnrsw" base_Element="_jVZXcHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jVcawnNxEfCTGutOISnrsw" base_Element="_jVcawHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jVdB0HNxEfCTGutOISnrsw" base_Element="_jVcawHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jVdo4HNxEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jVeP8XNxEfCTGutOISnrsw" base_Element="_jVdo4XNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jVeP8nNxEfCTGutOISnrsw" base_Element="_jVdo4XNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jVeP83NxEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jVgFI3NxEfCTGutOISnrsw" base_Element="_jVgFIHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jVjvgHNxEfCTGutOISnrsw" base_Element="_jVihYXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jVkWkHNxEfCTGutOISnrsw" base_Element="_jVihYXNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jVkWkXNxEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jVk9onNxEfCTGutOISnrsw" base_Element="_jVk9oHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jVmLwHNxEfCTGutOISnrsw" base_Element="_jVk9oHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jVmLwXNxEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jVp2IHNxEfCTGutOISnrsw" base_Element="_jVooAHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jVtggHNxEfCTGutOISnrsw" base_Element="_jVsSYHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jVtggXNxEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_jVuuoHNxEfCTGutOISnrsw" base_Element="_jVtggnNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jVvVsHNxEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_jVvVsXNxEfCTGutOISnrsw" base_Element="_jVooAHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jVvVsnNxEfCTGutOISnrsw" name="Document">
+      <annotationParameters xmi:id="_jVv8wHNxEfCTGutOISnrsw" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jb3y4nNxEfCTGutOISnrsw" value="&quot;roles&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jVzAEXNxEfCTGutOISnrsw" base_Element="_jVzAEHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jV1cUnNxEfCTGutOISnrsw" base_Element="_jV1cUHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jV1cU3NxEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_jV2qcHNxEfCTGutOISnrsw" base_Element="_jV2DYHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jV2qcXNxEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_jV2qcnNxEfCTGutOISnrsw" base_Element="_jVzAEHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jV3RgHNxEfCTGutOISnrsw" name="Document">
+      <annotationParameters xmi:id="_jV3RgXNxEfCTGutOISnrsw" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jb4Z9HNxEfCTGutOISnrsw" value="&quot;users&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jV9YIHNxEfCTGutOISnrsw" base_Element="_jV8xEHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_jV9_MHNxEfCTGutOISnrsw" genericsValue="Role" base_Element="_jV9YIXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_jV9_MXNxEfCTGutOISnrsw" base_Element="_jV9YIXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jV-mQHNxEfCTGutOISnrsw" base_Element="_jV8xEHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jV-mQXNxEfCTGutOISnrsw" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jV_NUHNxEfCTGutOISnrsw" base_Element="_jV-mQnNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_jV_0YHNxEfCTGutOISnrsw" genericsValue="User" base_Element="_jV_NUXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_jV_0YXNxEfCTGutOISnrsw" base_Element="_jV_NUXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jWAbcHNxEfCTGutOISnrsw" base_Element="_jV-mQnNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jWAbcXNxEfCTGutOISnrsw" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jWCQoHNxEfCTGutOISnrsw" base_Element="_jWBpkHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jWEF0HNxEfCTGutOISnrsw" base_Element="_jWBpkHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jWEF0XNxEfCTGutOISnrsw" name="Service"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jWGiEXNxEfCTGutOISnrsw" base_Element="_jWF7AHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jWHwMHNxEfCTGutOISnrsw" base_Element="_jWHJIHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jWIXQHNxEfCTGutOISnrsw" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_jWIXQXNxEfCTGutOISnrsw" base_Element="_jWF7AHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jWIXQnNxEfCTGutOISnrsw" name="SpringBootTest"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_jaSegHNxEfCTGutOISnrsw" base_Element="_jaRQYHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jaTsoHNxEfCTGutOISnrsw" base_Element="_jaTFkHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jaU6wHNxEfCTGutOISnrsw" base_Element="_jaUTsHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jaVh0HNxEfCTGutOISnrsw" base_Element="_jaU6wXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_jaXXAHNxEfCTGutOISnrsw" genericsValue="?" base_Element="_jaWv8HNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jaX-EHNxEfCTGutOISnrsw" base_Element="_jaWv8XNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jaX-EXNxEfCTGutOISnrsw" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_jaYlIHNxEfCTGutOISnrsw" base_Element="_jaWv8HNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jaYlIXNxEfCTGutOISnrsw" name="PostMapping">
+      <annotationParameters xmi:id="_jaYlInNxEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jb3y4XNxEfCTGutOISnrsw" value="&quot;/login&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_jaZMMXNxEfCTGutOISnrsw" base_Element="_jaZMMHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jaZzQXNxEfCTGutOISnrsw" base_Element="_jaZzQHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jaaaUHNxEfCTGutOISnrsw" base_Element="_jaZzQnNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jac2kHNxEfCTGutOISnrsw" base_Element="_jacPgHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jaddoHNxEfCTGutOISnrsw" base_Element="_jac2kXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jaddonNxEfCTGutOISnrsw" base_Element="_jaddoXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jaeEsHNxEfCTGutOISnrsw" base_Element="_jaddo3NxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jan1sHNxEfCTGutOISnrsw" base_Element="_janOoHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jaocwHNxEfCTGutOISnrsw" base_Element="_jan1sXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_japq4HNxEfCTGutOISnrsw" base_Element="_japD0HNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jatVQHNxEfCTGutOISnrsw" base_Element="_jasuMHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jat8UHNxEfCTGutOISnrsw" base_Element="_jatVQXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jaujYHNxEfCTGutOISnrsw" base_Element="_jat8UXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jaw_oHNxEfCTGutOISnrsw" base_Element="_jawYkHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jaw_oXNxEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_jay00HNxEfCTGutOISnrsw" base_Element="_jayNwHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_ja0C8HNxEfCTGutOISnrsw" base_Element="_jazb4HNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_ja7XsHNxEfCTGutOISnrsw" base_Element="_ja6woXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ja7-wXNxEfCTGutOISnrsw" base_Element="_ja7XsXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_ja8l0HNxEfCTGutOISnrsw" base_Element="_ja7XsXNxEfCTGutOISnrsw">
+    <annotations xmi:id="_ja9M4HNxEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jbAQMHNxEfCTGutOISnrsw" base_Element="_ja_CEHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jbAQMXNxEfCTGutOISnrsw" base_Element="_ja_CEHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jbA3QHNxEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_jbEhoHNxEfCTGutOISnrsw" base_Element="_jbDTgHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jbFvwHNxEfCTGutOISnrsw" base_Element="_jbFIsHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jbFvwXNxEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_jbKoQ3NxEfCTGutOISnrsw" base_Element="_jbJaIHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jbMdcHNxEfCTGutOISnrsw" base_Element="_jbL2YHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jbMdcXNxEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_jbQH0HNxEfCTGutOISnrsw" genericsValue="Role, String" base_Element="_jbPgwHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_jbRV8HNxEfCTGutOISnrsw" genericsValue="User, String" base_Element="_jbQH0nNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_jbVAUHNxEfCTGutOISnrsw" base_Element="_jbTyMHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jbVAUXNxEfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_jbW1g3NxEfCTGutOISnrsw" base_Element="_jbW1gXNxEfCTGutOISnrsw"/>
+  <Persistency:PrimaryKey xmi:id="_jbZRwHNxEfCTGutOISnrsw" base_Property="_jbYDoHNxEfCTGutOISnrsw"/>
+  <Persistency:JPA1StyledElement xmi:id="_jbZ40HNxEfCTGutOISnrsw" base_Element="_jbYDoHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jbaf4HNxEfCTGutOISnrsw" base_Element="_jbZ40XNxEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_jbaf4XNxEfCTGutOISnrsw" name="getCustomRoleId" method="_jb0IkXNxEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_jbaf5HNxEfCTGutOISnrsw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_jbaf4nNxEfCTGutOISnrsw" name="setCustomRoleId" method="_jb0vkXNxEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_jbaf43NxEfCTGutOISnrsw" name="customRoleId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_jbaf5XNxEfCTGutOISnrsw" base_Element="_jbZ40XNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jbaf5nNxEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="_jbbG8HNxEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jb3y43NxEfCTGutOISnrsw" value="&quot;id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_jbbG8nNxEfCTGutOISnrsw" base_Element="_jbbG8XNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_jbbuAHNxEfCTGutOISnrsw" base_Element="_jbbG83NxEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_jbbuAnNxEfCTGutOISnrsw" base_Element="_jbbuAXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_jbcVEXNxEfCTGutOISnrsw" base_Element="_jbcVEHNxEfCTGutOISnrsw"/>
+  <Persistency:PrimaryKey xmi:id="_jbeKQHNxEfCTGutOISnrsw" base_Property="_jbdjMHNxEfCTGutOISnrsw"/>
+  <Persistency:JPA1StyledElement xmi:id="_jbexUHNxEfCTGutOISnrsw" base_Element="_jbdjMHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_jbfYYHNxEfCTGutOISnrsw" base_Element="_jbexUXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jbf_cXNxEfCTGutOISnrsw" base_Element="_jbf_cHNxEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_jbgmgHNxEfCTGutOISnrsw" name="getPassword" method="_jb0vonNxEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_jbgmg3NxEfCTGutOISnrsw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_jbgmgXNxEfCTGutOISnrsw" name="setPassword" method="_jb0vpHNxEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_jbgmgnNxEfCTGutOISnrsw" name="password">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_jbhNkHNxEfCTGutOISnrsw" base_Element="_jbf_cHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jbhNkXNxEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="_jbhNknNxEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jb5BAHNxEfCTGutOISnrsw" value="&quot;password_hash&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_jbh0oXNxEfCTGutOISnrsw" base_Element="_jbh0oHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jbibsHNxEfCTGutOISnrsw" base_Element="_jbh0onNxEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_jbibsXNxEfCTGutOISnrsw" name="getPhoneNumber" method="_jb1WoHNxEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_jbjCwHNxEfCTGutOISnrsw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_jbibsnNxEfCTGutOISnrsw" name="setPhoneNumber" method="_jb1WonNxEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_jbibs3NxEfCTGutOISnrsw" name="phoneNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_jbjCwXNxEfCTGutOISnrsw" base_Element="_jbh0onNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jbjCwnNxEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="_jbjCw3NxEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jb5BAXNxEfCTGutOISnrsw" value="&quot;phone_number&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jbkQ4HNxEfCTGutOISnrsw" base_Element="_jbjp0HNxEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_jbkQ4XNxEfCTGutOISnrsw" name="getRoleId" method="_jb1WpHNxEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_jbk38HNxEfCTGutOISnrsw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_jbkQ4nNxEfCTGutOISnrsw" name="setRoleId" method="_jb1WpnNxEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_jbkQ43NxEfCTGutOISnrsw" name="roleId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_jbk38XNxEfCTGutOISnrsw" base_Element="_jbjp0HNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jblfAHNxEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="_jblfAXNxEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jb5BAnNxEfCTGutOISnrsw" value="&quot;role_id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_jbmGEHNxEfCTGutOISnrsw" base_Element="_jblfAnNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_jbmGEXNxEfCTGutOISnrsw" base_Element="_jblfAnNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jbnUMHNxEfCTGutOISnrsw" base_Element="_jbmGEnNxEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_jbn7QHNxEfCTGutOISnrsw" name="getLastLogin" method="_jb1WqHNxEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_jbpJYHNxEfCTGutOISnrsw" type="_jaddo3NxEfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_jbn7QXNxEfCTGutOISnrsw" name="setLastLogin" method="_jb1WqnNxEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_jbn7QnNxEfCTGutOISnrsw" name="lastLogin" type="_jaddo3NxEfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_jbpJYXNxEfCTGutOISnrsw" base_Element="_jbmGEnNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jbpwcHNxEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="_jbpwcXNxEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jb5BA3NxEfCTGutOISnrsw" value="&quot;last_login&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jbqXgHNxEfCTGutOISnrsw" base_Element="_jbpwcnNxEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_jbq-kHNxEfCTGutOISnrsw" name="getCreatedAt" method="_jb1WrHNxEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_jbrloHNxEfCTGutOISnrsw" type="_jaddo3NxEfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_jbq-kXNxEfCTGutOISnrsw" name="setCreatedAt" method="_jb1WrnNxEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_jbq-knNxEfCTGutOISnrsw" name="createdAt" type="_jaddo3NxEfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_jbrloXNxEfCTGutOISnrsw" base_Element="_jbpwcnNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jbrlonNxEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="_jbrlo3NxEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jb5BBHNxEfCTGutOISnrsw" value="&quot;created_at&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jbszwHNxEfCTGutOISnrsw" base_Element="_jbsMsHNxEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_jbszwXNxEfCTGutOISnrsw" name="getUpdatedAt" method="_jb1WsHNxEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_jbszxHNxEfCTGutOISnrsw" type="_jaddo3NxEfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_jbszwnNxEfCTGutOISnrsw" name="setUpdatedAt" method="_jb1WsnNxEfCTGutOISnrsw">
+      <ownedParameter xmi:id="_jbszw3NxEfCTGutOISnrsw" name="updatedAt" type="_jaddo3NxEfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_jbszxXNxEfCTGutOISnrsw" base_Element="_jbsMsHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jbszxnNxEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="_jbszx3NxEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jb5oEHNxEfCTGutOISnrsw" value="&quot;updated_at&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_jbv3EHNxEfCTGutOISnrsw" base_Element="_jbvQAHNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jbv3EXNxEfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_jbv3E3NxEfCTGutOISnrsw" base_Element="_jbv3EnNxEfCTGutOISnrsw">
+    <annotations xmi:id="_jbv3FHNxEfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_jbweIXNxEfCTGutOISnrsw" base_Element="_jbv3FXNxEfCTGutOISnrsw"/>
+  <uml:OpaqueBehavior xmi:id="_jb0IkXNxEfCTGutOISnrsw" name="getCustomRoleId" specification="_jbaf4XNxEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_jb0vkHNxEfCTGutOISnrsw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return customRoleId; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jb0vkXNxEfCTGutOISnrsw" name="setCustomRoleId" specification="_jbaf4nNxEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_jb0vknNxEfCTGutOISnrsw" name="customRoleId">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.customRoleId = customRoleId; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jb0vonNxEfCTGutOISnrsw" name="getPassword" specification="_jbgmgHNxEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_jb0vo3NxEfCTGutOISnrsw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return password; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jb0vpHNxEfCTGutOISnrsw" name="setPassword" specification="_jbgmgXNxEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_jb0vpXNxEfCTGutOISnrsw" name="password">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.password = password; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jb1WoHNxEfCTGutOISnrsw" name="getPhoneNumber" specification="_jbibsXNxEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_jb1WoXNxEfCTGutOISnrsw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return phoneNumber; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jb1WonNxEfCTGutOISnrsw" name="setPhoneNumber" specification="_jbibsnNxEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_jb1Wo3NxEfCTGutOISnrsw" name="phoneNumber">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.phoneNumber = phoneNumber; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jb1WpHNxEfCTGutOISnrsw" name="getRoleId" specification="_jbkQ4XNxEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_jb1WpXNxEfCTGutOISnrsw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return roleId; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jb1WpnNxEfCTGutOISnrsw" name="setRoleId" specification="_jbkQ4nNxEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_jb1Wp3NxEfCTGutOISnrsw" name="roleId">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.roleId = roleId; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jb1WqHNxEfCTGutOISnrsw" name="getLastLogin" specification="_jbn7QHNxEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_jb1WqXNxEfCTGutOISnrsw" type="_jaddo3NxEfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return lastLogin; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jb1WqnNxEfCTGutOISnrsw" name="setLastLogin" specification="_jbn7QXNxEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_jb1Wq3NxEfCTGutOISnrsw" name="lastLogin" type="_jaddo3NxEfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.lastLogin = lastLogin; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jb1WrHNxEfCTGutOISnrsw" name="getCreatedAt" specification="_jbq-kHNxEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_jb1WrXNxEfCTGutOISnrsw" type="_jaddo3NxEfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return createdAt; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jb1WrnNxEfCTGutOISnrsw" name="setCreatedAt" specification="_jbq-kXNxEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_jb1Wr3NxEfCTGutOISnrsw" name="createdAt" type="_jaddo3NxEfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.createdAt = createdAt; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jb1WsHNxEfCTGutOISnrsw" name="getUpdatedAt" specification="_jbszwXNxEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_jb1WsXNxEfCTGutOISnrsw" type="_jaddo3NxEfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return updatedAt; </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jb1WsnNxEfCTGutOISnrsw" name="setUpdatedAt" specification="_jbszwnNxEfCTGutOISnrsw">
+    <ownedParameter xmi:id="_jb1Ws3NxEfCTGutOISnrsw" name="updatedAt" type="_jaddo3NxEfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.updatedAt = updatedAt; </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_jcGcYHNxEfCTGutOISnrsw" base_Element="_jb-gkHNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jcMjAHNxEfCTGutOISnrsw" base_Element="_jcGcYXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jcUe0HNxEfCTGutOISnrsw" base_Element="_jcMjAXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jcbMgHNxEfCTGutOISnrsw" base_Element="_jcUe0XNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jch6MHNxEfCTGutOISnrsw" base_Element="_jcbMgXNxEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_jcnZwHNxEfCTGutOISnrsw" base_Element="_jch6MXNxEfCTGutOISnrsw"/>
+</xmi:XMI>

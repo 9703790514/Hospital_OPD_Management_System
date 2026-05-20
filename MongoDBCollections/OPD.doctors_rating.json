@@ -1,0 +1,448 @@
+[{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964031"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "doctor_rating": 4.3,
+  "description": "Very attentive and knowledgeable.",
+  "time": {
+    "$date": "2025-07-26T08:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964032"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fba",
+  "doctor_rating": 3.7,
+  "description": "Friendly but rushed appointment.",
+  "time": {
+    "$date": "2025-07-26T07:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964033"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fbb",
+  "doctor_rating": 5,
+  "description": "Exceptional care and professionalism.",
+  "time": {
+    "$date": "2025-07-26T06:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964034"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "doctor_rating": 2.9,
+  "description": "Waited too long to be seen.",
+  "time": {
+    "$date": "2025-07-26T05:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964035"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fba",
+  "doctor_rating": 4.7,
+  "description": "Helped me understand my condition well.",
+  "time": {
+    "$date": "2025-07-26T05:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964036"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fbb",
+  "doctor_rating": 3.4,
+  "description": "Average experience, could improve communication.",
+  "time": {
+    "$date": "2025-07-26T04:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964037"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "doctor_rating": 4.9,
+  "description": "Highly recommended for pediatric care.",
+  "time": {
+    "$date": "2025-07-26T03:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964038"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fba",
+  "doctor_rating": 2.6,
+  "description": "Doctor seemed distracted during visit.",
+  "time": {
+    "$date": "2025-07-26T02:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964039"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fbb",
+  "doctor_rating": 4,
+  "description": "Good bedside manner and explanation.",
+  "time": {
+    "$date": "2025-07-26T02:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f96403a"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "doctor_rating": 3.3,
+  "description": "Not very thorough during checkup.",
+  "time": {
+    "$date": "2025-07-26T01:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f96403b"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fba",
+  "doctor_rating": 4.8,
+  "description": "Excellent diagnosis and follow-up plan.",
+  "time": {
+    "$date": "2025-07-25T23:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f96403c"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fbb",
+  "doctor_rating": 3.1,
+  "description": "Long wait time, but doctor was kind.",
+  "time": {
+    "$date": "2025-07-25T23:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f96403d"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "doctor_rating": 4.4,
+  "description": "Clear explanations and helpful staff.",
+  "time": {
+    "$date": "2025-07-25T22:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f96403e"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fba",
+  "doctor_rating": 2.7,
+  "description": "Feeling slightly rushed during appointment.",
+  "time": {
+    "$date": "2025-07-25T21:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f96403f"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fbb",
+  "doctor_rating": 5,
+  "description": "Outstanding care and attentiveness.",
+  "time": {
+    "$date": "2025-07-25T20:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964040"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "doctor_rating": 3.9,
+  "description": "Good but not exceptional experience.",
+  "time": {
+    "$date": "2025-07-25T20:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964041"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fba",
+  "doctor_rating": 4.5,
+  "description": "Professional and empathetic care.",
+  "time": {
+    "$date": "2025-07-25T19:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964042"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fbb",
+  "doctor_rating": 2.8,
+  "description": "Could improve on listening skills.",
+  "time": {
+    "$date": "2025-07-25T18:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964043"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "doctor_rating": 4.6,
+  "description": "Satisfactory treatment and friendly staff.",
+  "time": {
+    "$date": "2025-07-25T17:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964044"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fba",
+  "doctor_rating": 3.6,
+  "description": "Good overall but room for improvement.",
+  "time": {
+    "$date": "2025-07-25T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964045"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fbb",
+  "doctor_rating": 4.1,
+  "description": "Helpful and understanding.",
+  "time": {
+    "$date": "2025-07-25T16:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964046"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "doctor_rating": 2.9,
+  "description": "Appointment delayed without notice.",
+  "time": {
+    "$date": "2025-07-25T15:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964047"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fba",
+  "doctor_rating": 4.7,
+  "description": "Very clear and patient explanations.",
+  "time": {
+    "$date": "2025-07-25T14:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964048"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fbb",
+  "doctor_rating": 3.3,
+  "description": "Satisfactory but can be improved.",
+  "time": {
+    "$date": "2025-07-25T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964049"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "doctor_rating": 4.9,
+  "description": "Exemplary care and professionalism.",
+  "time": {
+    "$date": "2025-07-25T13:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f96404a"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fba",
+  "doctor_rating": 2.7,
+  "description": "Could be more attentive.",
+  "time": {
+    "$date": "2025-07-25T12:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f96404b"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fbb",
+  "doctor_rating": 4.2,
+  "description": "Kind and thorough.",
+  "time": {
+    "$date": "2025-07-25T11:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f96404c"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "doctor_rating": 3,
+  "description": "Average experience, nothing special.",
+  "time": {
+    "$date": "2025-07-25T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f96404d"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fba",
+  "doctor_rating": 4.5,
+  "description": "Very professional and polite.",
+  "time": {
+    "$date": "2025-07-25T10:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f96404e"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fbb",
+  "doctor_rating": 2.5,
+  "description": "Not very satisfied with explanation.",
+  "time": {
+    "$date": "2025-07-25T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f96404f"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "doctor_rating": 4.6,
+  "description": "Helpful, explains thoroughly.",
+  "time": {
+    "$date": "2025-07-25T08:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964050"
+  },
+  "patient_id": "68827cfc64d9b4574f963f53",
+  "doctor_id": "6883742864d9b4574f963fba",
+  "doctor_rating": 3.8,
+  "description": "Good, but a bit rushed.",
+  "time": {
+    "$date": "2025-07-25T08:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688477fd64d9b4574f964051"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "doctor_id": "6883742864d9b4574f963fbb",
+  "doctor_rating": 5,
+  "description": "Outstanding in every way.",
+  "time": {
+    "$date": "2025-07-25T07:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68906c9659021972af3f8a2c"
+  },
+  "patient_id": "68827cfc64d9b4574f963f56",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "doctor_rating": 4,
+  "description": "OK",
+  "time": {
+    "$date": "2025-08-04T08:17:26.585Z"
+  },
+  "_class": "training.iqgateway.entities.DoctorRating"
+},
+{
+  "_id": {
+    "$oid": "68934b3f14a5926a28076588"
+  },
+  "patient_id": "6891d96dbeeb29d2e096f10a",
+  "doctor_id": "689240695fe008848afda9d9",
+  "doctor_rating": 5,
+  "description": "ok453@#",
+  "time": {
+    "$date": "2025-08-06T12:31:59.579Z"
+  },
+  "_class": "training.iqgateway.entities.DoctorRating"
+},
+{
+  "_id": {
+    "$oid": "6894456b14a5926a28076589"
+  },
+  "patient_id": "6891d96dbeeb29d2e096f10a",
+  "doctor_id": "6883742864d9b4574f963fb9",
+  "doctor_rating": 2.5,
+  "description": "Good",
+  "time": {
+    "$date": "2025-08-07T06:19:23.397Z"
+  },
+  "_class": "training.iqgateway.entities.DoctorRating"
+},
+{
+  "_id": {
+    "$oid": "68a082f6877d3d5e5e369e36"
+  },
+  "patient_id": "68a07e4e6b3c1f6e542a2525",
+  "doctor_id": "6883742864d9b4574f963fba",
+  "doctor_rating": 4,
+  "description": "ok",
+  "time": {
+    "$date": "2025-08-16T13:09:10.702Z"
+  },
+  "_class": "training.iqgateway.entities.DoctorRating"
+}]

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_z3n10HOAEfCTGutOISnrsw">
+  <modelElement href="SpringBootEmailNotificationApplication.uml#_0KThQHOAEfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0aMXYHOAEfCTGutOISnrsw" sourceAnchor="459.0,0.0" targetAnchor="166.0,183.0" target="_0aQo2XOAEfCTGutOISnrsw" source="_0aMXaXOAEfCTGutOISnrsw">
+    <modelElement href="SpringBootEmailNotificationApplication.uml#_0NOSYHOAEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_0aMXYXOAEfCTGutOISnrsw" name="Reference">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NOSYnOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0aMXYnOAEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_0lXFknOAEfCTGutOISnrsw" position="-82.0,-9.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0aMXY3OAEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NOSYXOAEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_0lXFkXOAEfCTGutOISnrsw" position="41.0,-2.5"/>
+      <visibility xmi:id="_0aMXZHOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aMXZXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0aMXZnOAEfCTGutOISnrsw" aggregationKind="NONE" name="emailService" navigable="true">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NKoAHOAEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_0lXFk3OAEfCTGutOISnrsw" position="-20.0,8.5"/>
+      <visibility xmi:id="_0aMXZ3OAEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_0aMXaHOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_0aQBwXOAEfCTGutOISnrsw" targetItem="_0aQo8XOAEfCTGutOISnrsw" sourceItem="_0aQBwHOAEfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_0aQBw3OAEfCTGutOISnrsw" targetItem="_0aQo-HOAEfCTGutOISnrsw" sourceItem="_0aQBwnOAEfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0aQo0HOAEfCTGutOISnrsw" source="_0aQo2XOAEfCTGutOISnrsw">
+    <modelElement href="SpringBootEmailNotificationApplication.uml#_0NOSY3OAEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_0aQo0XOAEfCTGutOISnrsw" name="Reference">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NO5cHOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0aQo0nOAEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_0aQo03OAEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NOSZHOAEfCTGutOISnrsw"/>
+      <visibility xmi:id="_0aQo1HOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aQo1XOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0aQo1nOAEfCTGutOISnrsw" aggregationKind="NONE" name="mailSender" navigable="true">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NLPFXOAEfCTGutOISnrsw"/>
+      <visibility xmi:id="_0aQo13OAEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_0aQo2HOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_0aQBwHOAEfCTGutOISnrsw" sourceConnectionVisual="_0aQBwXOAEfCTGutOISnrsw" text="Sends a simple email.&#xD;&#xA;     * @param emailRequest The request containing recipient, subject, and body." item="_0aQo8XOAEfCTGutOISnrsw">
+    <modelElement href="SpringBootEmailNotificationApplication.uml#_0NNET3OAEfCTGutOISnrsw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_0aQBwnOAEfCTGutOISnrsw" sourceConnectionVisual="_0aQBw3OAEfCTGutOISnrsw" text="Sends a password reset email with a dynamic reset link.&#xD;&#xA;     * @param emailRequest The request containing recipient, subject, and the reset link." item="_0aQo-HOAEfCTGutOISnrsw">
+    <modelElement href="SpringBootEmailNotificationApplication.uml#_0NNEUHOAEfCTGutOISnrsw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0aKiMHOAEfCTGutOISnrsw" name="SpringBootEmailNotificationApplication">
+    <modelElement href="SpringBootEmailNotificationApplication.uml#_0KrUsHOAEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_0aKiMXOAEfCTGutOISnrsw" position="544.0,144.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0aKiMnOAEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0Ktw8HOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0aKiM3OAEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0Kw0QHOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_0aKiNHOAEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_0aKiNXOAEfCTGutOISnrsw" name="main" staticOperation="true">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0KwNMHOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_0aKiNnOAEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0KwNMnOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_0aKiN3OAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aKiOHOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0aKiOXOAEfCTGutOISnrsw" name="args">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0KwNMXOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_0aKiOnOAEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_0aKiO3OAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0aQo2XOAEfCTGutOISnrsw" name="EmailService" associationsIn="_0aMXYHOAEfCTGutOISnrsw" associationsOut="_0aQo0HOAEfCTGutOISnrsw">
+    <modelElement href="SpringBootEmailNotificationApplication.uml#_0K_dwHOAEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_0aQo2nOAEfCTGutOISnrsw" position="844.0,77.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0aQo23OAEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0LAE0HOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0aQo3HOAEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0LB6AHOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_0aQo3XOAEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_0aQo3nOAEfCTGutOISnrsw" name="mailSender">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NLPFXOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_0aQo33OAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NL2IHOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_0aQo4HOAEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_0aQo4XOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_0aQo4nOAEfCTGutOISnrsw" name="JavaMailSender">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NDTQXOAEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0aQo43OAEfCTGutOISnrsw" name="mailPassword">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NL2InOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_0aQo5HOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NL2I3OAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_0aQo5XOAEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_0aQo5nOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_0aQo53OAEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0aQo6HOAEfCTGutOISnrsw" name="fromAddress">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NL2JnOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_0aQo6XOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NL2J3OAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_0aQo6nOAEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_0aQo63OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_0aQo7HOAEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0aQo7XOAEfCTGutOISnrsw" name="printPassword">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0LAr4HOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_0aQo7nOAEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0LAr4XOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_0aQo73OAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aQo8HOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0aQo8XOAEfCTGutOISnrsw" comments="_0aQBwHOAEfCTGutOISnrsw" targetConnectionVisual="_0aQBwXOAEfCTGutOISnrsw" name="sendSimpleEmail">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NFIcHOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_0aQo8nOAEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NFIcnOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_0aQo83OAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aQo9HOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0aQo9XOAEfCTGutOISnrsw" name="emailRequest">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NFIcXOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_0aQo9nOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_0aQo93OAEfCTGutOISnrsw" name="EmailRequest">
+          <modelElement href="SpringBootEmailNotificationApplication.uml#_0K3h8HOAEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0aQo-HOAEfCTGutOISnrsw" comments="_0aQBwnOAEfCTGutOISnrsw" targetConnectionVisual="_0aQBw3OAEfCTGutOISnrsw" name="sendPasswordResetEmail">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NFIc3OAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_0aQo-XOAEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NFvgHOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_0aQo-nOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aQo-3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0aQo_HOAEfCTGutOISnrsw" name="emailRequest">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NFIdHOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_0aQo_XOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_0aQo_nOAEfCTGutOISnrsw" name="EmailRequest">
+          <modelElement href="SpringBootEmailNotificationApplication.uml#_0K3h8HOAEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0aMXaXOAEfCTGutOISnrsw" name="NotificationController" associationsOut="_0aMXYHOAEfCTGutOISnrsw">
+    <modelElement href="SpringBootEmailNotificationApplication.uml#_0KxbUHOAEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_0aMXanOAEfCTGutOISnrsw" position="551.0,276.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0aMXa3OAEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0KypcHOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0aMXbHOAEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0Kz3kHOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_0aMXbXOAEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_0aMXbnOAEfCTGutOISnrsw" name="emailService">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NKoAHOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_0aMXb3OAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NKoAXOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_0aMXcHOAEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_0aMXcXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_0aMXcnOAEfCTGutOISnrsw" name="EmailService">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0K_dwHOAEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0aMXc3OAEfCTGutOISnrsw" name="sendEmail">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0M8lkXOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_0aMXdHOAEfCTGutOISnrsw" name="Generics">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0M9MoXOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0aMXdXOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0M-awnOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_0aMXdnOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aMXd3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0aMXeHOAEfCTGutOISnrsw">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NHksHOAEfCTGutOISnrsw"/>
+        <type xmi:id="_0aMXeXOAEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="SpringBootEmailNotificationApplication.uml#_0M6JUXOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0aMXenOAEfCTGutOISnrsw" name="emailRequest">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0M9MoHOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_0aMXe3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_0aMXfHOAEfCTGutOISnrsw" name="EmailRequest">
+          <modelElement href="SpringBootEmailNotificationApplication.uml#_0K3h8HOAEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0aMXfXOAEfCTGutOISnrsw" name="sendForgotPasswordEmail">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0M_B0HOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_0aMXfnOAEfCTGutOISnrsw" name="Generics">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0M_o4HOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0aMXf3OAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NA3AHOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_0aMXgHOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aMXgXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0aMXgnOAEfCTGutOISnrsw">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NILwHOAEfCTGutOISnrsw"/>
+        <type xmi:id="_0aMXg3OAEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="SpringBootEmailNotificationApplication.uml#_0M6JUXOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0aMXhHOAEfCTGutOISnrsw" name="emailRequest">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0M_B0XOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_0aMXhXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_0aMXhnOAEfCTGutOISnrsw" name="EmailRequest">
+          <modelElement href="SpringBootEmailNotificationApplication.uml#_0K3h8HOAEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0aNlgHOAEfCTGutOISnrsw" name="EmailRequest">
+    <modelElement href="SpringBootEmailNotificationApplication.uml#_0K3h8HOAEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_0aNlgXOAEfCTGutOISnrsw" position="5.0,105.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0aNlgnOAEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_0aNlg3OAEfCTGutOISnrsw" name="to">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NLPEXOAEfCTGutOISnrsw"/>
+      <visibility xmi:id="_0aNlhHOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aNlhXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_0aNlhnOAEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0aNlh3OAEfCTGutOISnrsw" name="subject">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NLPEnOAEfCTGutOISnrsw"/>
+      <visibility xmi:id="_0aNliHOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aNliXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_0aNlinOAEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0aNli3OAEfCTGutOISnrsw" name="body">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NLPE3OAEfCTGutOISnrsw"/>
+      <visibility xmi:id="_0aNljHOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aNljXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_0aNljnOAEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0aNlj3OAEfCTGutOISnrsw" name="resetLink">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NLPFHOAEfCTGutOISnrsw"/>
+      <visibility xmi:id="_0aNlkHOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aNlkXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_0aNlknOAEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0aNlk3OAEfCTGutOISnrsw" name="EmailRequest">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0K5XIHOAEfCTGutOISnrsw"/>
+      <keywords xmi:id="_0aNllHOAEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_0aNllXOAEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0K5-MHOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_0aNllnOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aNll3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0aNlmHOAEfCTGutOISnrsw">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0K5-MXOAEfCTGutOISnrsw"/>
+        <type xmi:id="_0aNlmXOAEfCTGutOISnrsw" name="EmailRequest">
+          <modelElement href="SpringBootEmailNotificationApplication.uml#_0K3h8HOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0aNlmnOAEfCTGutOISnrsw" name="EmailRequest">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0K6lQHOAEfCTGutOISnrsw"/>
+      <keywords xmi:id="_0aNlm3OAEfCTGutOISnrsw" keyword="create"/>
+      <visibility xmi:id="_0aNlnHOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aNlnXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0aNlnnOAEfCTGutOISnrsw">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0K7MUnOAEfCTGutOISnrsw"/>
+        <type xmi:id="_0aNln3OAEfCTGutOISnrsw" name="EmailRequest">
+          <modelElement href="SpringBootEmailNotificationApplication.uml#_0K3h8HOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0aNloHOAEfCTGutOISnrsw" name="to">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0K6lQXOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_0aNloXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_0aNlonOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0aNlo3OAEfCTGutOISnrsw" name="subject">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0K6lQnOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_0aNlpHOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_0aNlpXOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0aNlpnOAEfCTGutOISnrsw" name="body">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0K6lQ3OAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_0aNlp3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_0aNlqHOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0aNlqXOAEfCTGutOISnrsw" name="resetLink">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0K6lRHOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_0aNlqnOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_0aNlq3OAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0aNlrHOAEfCTGutOISnrsw" name="toString">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0K7MU3OAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_0aNlrXOAEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0K7zYXOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0aNlrnOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0K8acHOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_0aNlr3OAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aNlsHOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0aNlsXOAEfCTGutOISnrsw">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0K7zYHOAEfCTGutOISnrsw"/>
+        <type xmi:id="_0aNlsnOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0aNls3OAEfCTGutOISnrsw" name="hashCode">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0K9BgHOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_0aNltHOAEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0K9okHOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0aNltXOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0K9okXOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_0aNltnOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aNlt3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0aNluHOAEfCTGutOISnrsw">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0K9BgXOAEfCTGutOISnrsw"/>
+        <type xmi:id="_0aNluXOAEfCTGutOISnrsw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0aNlunOAEfCTGutOISnrsw" name="equals">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0NJZ4XOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_0aNlu3OAEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NJZ5HOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0aNlvHOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NKA8HOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_0aNlvXOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_0aNlvnOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0aNlv3OAEfCTGutOISnrsw">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NJZ43OAEfCTGutOISnrsw"/>
+        <type xmi:id="_0aNlwHOAEfCTGutOISnrsw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0aNlwXOAEfCTGutOISnrsw" name="o">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0NJZ4nOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_0aNlwnOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_0aNlw3OAEfCTGutOISnrsw" name="Object">
+          <modelElement href="SpringBootEmailNotificationApplication.uml#_0NIy0nOAEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0aLJQHOAEfCTGutOISnrsw" name="TestController">
+    <modelElement href="SpringBootEmailNotificationApplication.uml#_0K264HOAEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_0aLJQXOAEfCTGutOISnrsw" position="557.0,233.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0aLJQnOAEfCTGutOISnrsw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0aR28HOAEfCTGutOISnrsw" name="SpringBootEmailNotificationApplicationTests">
+    <modelElement href="SpringBootEmailNotificationApplication.uml#_0LDvMHOAEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_0aR28XOAEfCTGutOISnrsw" position="570.0,383.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0aR28nOAEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0LEWQ3OAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0aR283OAEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0LFkYXOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_0aR29HOAEfCTGutOISnrsw" label="~"/>
+    <operations xmi:id="_0aR29XOAEfCTGutOISnrsw" name="contextLoads">
+      <modelElement href="SpringBootEmailNotificationApplication.uml#_0LE9UHOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_0aR29nOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="SpringBootEmailNotificationApplication.uml#_0LE9UXOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_0aR293OAEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_0aR2-HOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

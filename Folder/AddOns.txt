@@ -1,0 +1,48 @@
+1.  Open Case Study Requirement Document
+
+2.  Open SRS Containing [ Updated Use Case Diagram and DB Diagram ]
+
+3.  Check the Changes Mentioned have They Met During Previous Meet
+
+4.   Analyze the Code Creation
+
+5.   Show Progress in Project Management [ Planner ]
+
+6. Swagger 
+
+7. git
+
+8. Junit
+
+
+
+
+
+
+Good Evening Sir,
+Please find below the project description for developing a Outpatient Schedule Tracking Web Application.
+“Sarvotham’s Spine Care” is one of the growing hospitals in Bengaluru. They are getting more popular due to their services and witnessing growth in OUT patients day to day. They have an effective people support system, however all transactions are maintained in a manual register. They want to build a digital solution that allows the hospital to manage and track every out patient’s schedule. It will enhance the productivity of the hospital and allow the attending physicians and nurses to better manage the patients. 
+
+Functional Requirements 
+1. Front Desk Kiosk: 
+➢ Able to align out patient with specific doctor 
+➢ Track the status of patient 
+➢ Redirect the request to specific support staff 
+2. Support Staff (Nurse / Attender / Lab Technician )
+➢ Update the health issues of patient online 
+➢ Collects the diagnostic reports and update patient profile 
+➢ Doctor treatment fees and any additional cost to be provided 
+3. Patient 
+➢ Should able to register 
+➢ View his treatment records 
+➢ Able to access his bills and lab reports 
+4. Billing Desk 
+➢ Verifies the treatment type 
+➢ Provide bills based on all treatments 
+➢ Process billing with / without cash based on claims 
+
+NOTES:
+Forgot password (email)
+Static data in landing page (contact)
+Work on UI
+Add Role (Doctor)

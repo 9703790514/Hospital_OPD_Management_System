@@ -1,0 +1,2405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Wxv7kHNvEfCTGutOISnrsw">
+  <modelElement href="DoctorMicroService.uml#_XVuLUHNvEfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Zuv4MHNvEfCTGutOISnrsw" sourceAnchor="0.0,58.0" targetAnchor="206.0,256.0" target="_Zv4goHNvEfCTGutOISnrsw" source="_Zuv4OXNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XhfWcXNvEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_iCv5Q3NwEfCTGutOISnrsw" sourceX="-144" sourceY="-12" targetX="1" targetY="298"/>
+    <stereotypes xmi:id="_Zuv4MXNvEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorMicroService.uml#_Xhjn4HNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Zuv4MnNvEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Z_oM0HNvEfCTGutOISnrsw" position="1.0,-60.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Zuv4M3NvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_XhfWcnNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_nlynNvEfCTGutOISnrsw" position="-29.0,2.0"/>
+      <visibility xmi:id="_Zuv4NHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zuv4NXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Zuv4NnNvEfCTGutOISnrsw" aggregationKind="NONE" name="doctorService" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_XglXgHNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_oM0XNvEfCTGutOISnrsw" position="-79.0,38.0"/>
+      <visibility xmi:id="_Zuv4N3NvEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Zuv4OHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Zuy7gHNvEfCTGutOISnrsw" sourceAnchor="14.0,0.0" targetAnchor="238.0,256.0" target="_Zv4goHNvEfCTGutOISnrsw" source="_Zu3M8HNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XhZP0XNvEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_Zuzik3NvEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorMicroService.uml#_XhfWcHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZuzikHNvEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Z_oM03NvEfCTGutOISnrsw" position="-38.0,-5.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ZuzikXNvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_XhZ24HNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_oM0nNvEfCTGutOISnrsw" position="2.0,-33.0"/>
+      <visibility xmi:id="_Zu0wsXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zu0wsHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZuziknNvEfCTGutOISnrsw" aggregationKind="NONE" name="doctorService" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_XgjiUXNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_oz4HNvEfCTGutOISnrsw" position="-128.0,-17.0"/>
+      <visibility xmi:id="_Zu1XwXNvEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Zu1XwHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Zu2l4HNvEfCTGutOISnrsw" sourceAnchor="478.0,0.0" targetAnchor="217.0,244.0" target="_ZvzoIHNvEfCTGutOISnrsw" source="_Zu3M8HNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XhUXUHNvEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_Zu2l4XNvEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorMicroService.uml#_XhZP0HNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Zu2l4nNvEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Z_oz4nNvEfCTGutOISnrsw" position="-82.0,-10.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Zu2l43NvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_XhUXUXNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_oz4XNvEfCTGutOISnrsw" position="-17.0,-33.0"/>
+      <visibility xmi:id="_Zu2l5HNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zu2l5XNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Zu2l5nNvEfCTGutOISnrsw" aggregationKind="NONE" name="doctorAvailabilityService" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_XgiUMHNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_oz43NvEfCTGutOISnrsw" position="2.0,-17.0"/>
+      <visibility xmi:id="_Zu2l53NvEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Zu2l6HNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZvAW4HNvEfCTGutOISnrsw" source="_ZvEoWXNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XhyRYHNvEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_ZvCME3NvEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorMicroService.uml#_Xh4_EHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZvCMEHNvEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_ZvCMEXNvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_XhyRYXNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvCzIXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvCzIHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZvCMEnNvEfCTGutOISnrsw" aggregationKind="NONE" name="leaveDates" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_Xg3EVnNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvCzI3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvCzInNvEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZvA98HNvEfCTGutOISnrsw" source="_ZvEoWXNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_Xh4_EXNvEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_ZvCMF3NvEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorMicroService.uml#_Xh93kHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZvCMFHNvEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_ZvCMFXNvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_Xh4_EnNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvCzJnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvCzJXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZvCMFnNvEfCTGutOISnrsw" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_Xg3rYHNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvCzKHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvCzJ3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZvA98XNvEfCTGutOISnrsw" source="_ZvEoWXNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_Xh_FsHNvEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_ZvCMG3NvEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorMicroService.uml#_XiCwEHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZvCMGHNvEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_ZvCMGXNvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_Xh_FsXNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvCzLHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvCzK3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZvCMGnNvEfCTGutOISnrsw" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_Xg4ScHNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvCzLnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvCzLXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZvEoUHNvEfCTGutOISnrsw" sourceAnchor="406.0,204.0" targetAnchor="0.0,60.0" target="_ZvL9InNvEfCTGutOISnrsw" source="_ZvEoWXNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_Xhsx0XNvEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_iCwgVXNwEfCTGutOISnrsw" sourceY="69" targetX="-1304" targetY="-7"/>
+    <stereotypes xmi:id="_ZvEoUXNvEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorMicroService.uml#_XhxDQHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZvEoUnNvEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Z_pa8HNvEfCTGutOISnrsw" position="633.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ZvEoU3NvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_Xhsx0nNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_oz5HNvEfCTGutOISnrsw" position="40.0,29.0"/>
+      <visibility xmi:id="_ZvEoVHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvEoVXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZvEoVnNvEfCTGutOISnrsw" aggregationKind="NONE" name="dailySlots" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_Xg3EU3NvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_pa8XNvEfCTGutOISnrsw" position="-145.0,-51.00000000000006"/>
+      <visibility xmi:id="_ZvEoV3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvEoWHNvEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ZvKH4HNvEfCTGutOISnrsw" targetItem="_ZvL9InNvEfCTGutOISnrsw" sourceItem="_ZvI5wHNvEfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZvL9EHNvEfCTGutOISnrsw" sourceAnchor="172.0,0.0" targetAnchor="196.0,145.0" target="_ZvSDsHNvEfCTGutOISnrsw" source="_ZvL9InNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XiDXIHNvEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_ZvL9EXNvEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorMicroService.uml#_XiHBgHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZvL9EnNvEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Z_pa83NvEfCTGutOISnrsw" position="-43.0,-10.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ZvL9E3NvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_XiDXIXNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_pa8nNvEfCTGutOISnrsw" position="-17.0,-83.0"/>
+      <visibility xmi:id="_ZvL9FHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvL9FXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZvL9FnNvEfCTGutOISnrsw" aggregationKind="NONE" name="slots" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_Xg45g3NvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_pa9HNvEfCTGutOISnrsw" position="-42.0,33.0"/>
+      <visibility xmi:id="_ZvL9F3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvL9GHNvEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZvL9GXNvEfCTGutOISnrsw" sourceAnchor="200.0,0.0" targetAnchor="224.0,145.0" target="_ZvSDsHNvEfCTGutOISnrsw" source="_ZvL9InNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XiHBgXNvEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_ZvL9GnNvEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorMicroService.uml#_XiKr4HNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZvL9G3NvEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Z_qCAXNvEfCTGutOISnrsw" position="2.0,-10.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ZvL9HHNvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_XiHBgnNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_qCAHNvEfCTGutOISnrsw" position="2.0,-83.0"/>
+      <visibility xmi:id="_ZvL9HXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvL9HnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZvL9H3NvEfCTGutOISnrsw" aggregationKind="NONE" name="breakSlots" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_Xg45hXNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_qCAnNvEfCTGutOISnrsw" position="2.0,33.0"/>
+      <visibility xmi:id="_ZvL9IHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvL9IXNvEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ZvQOgXNvEfCTGutOISnrsw" targetItem="_ZvSDsHNvEfCTGutOISnrsw" sourceItem="_ZvQOgHNvEfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZvQOgnNvEfCTGutOISnrsw" target="_ZvSDsHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XhPe0HNvEfCTGutOISnrsw"/>
+    <nameVisual xmi:id="_ZvQ1kXNvEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_ZvRcoHNvEfCTGutOISnrsw" aggregationKind="NONE" name="startTime" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_Xg5gkHNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvRcpnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvRcpXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZvRcoXNvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_XhPe0XNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvRcqHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvRcp3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZvQ1kHNvEfCTGutOISnrsw" target="_ZvSDsHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XhPe0nNvEfCTGutOISnrsw"/>
+    <nameVisual xmi:id="_ZvRconNvEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_ZvRco3NvEfCTGutOISnrsw" aggregationKind="NONE" name="endTime" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_Xg5gkXNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvRcqnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvRcqXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZvRcpHNvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_XhPe03NvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvRcrHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvRcq3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZvVHAHNvEfCTGutOISnrsw" sourceAnchor="634.0,216.0" targetAnchor="234.0,0.0" target="_Zv4goHNvEfCTGutOISnrsw" source="_ZvgGIHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XhQF4nNvEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_iCwgVnNwEfCTGutOISnrsw" sourceX="15" targetX="715" targetY="999"/>
+    <bendpoints xmi:id="_iCwgV3NwEfCTGutOISnrsw" sourceX="15" sourceY="-1019" targetX="715" targetY="-20"/>
+    <bendpoints xmi:id="_iCwgWHNwEfCTGutOISnrsw" sourceX="-700" sourceY="-1019" targetY="-20"/>
+    <nameVisual xmi:id="_ZvYKUHNvEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Z_qpEHNvEfCTGutOISnrsw" position="-674.0000000000001,0.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ZvYxYHNvEfCTGutOISnrsw" aggregationKind="NONE" name="allDoctors" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_XYucAXNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_qCA3NvEfCTGutOISnrsw" position="16.999999999999986,-171.43749999999997"/>
+      <visibility xmi:id="_Zvb0sHNvEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_ZvbNoHNvEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZvYxYXNvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_XhQF43NvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_qpEXNvEfCTGutOISnrsw" position="88.25,-71.0"/>
+      <visibility xmi:id="_Zvb0snNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zvb0sXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZvVuEHNvEfCTGutOISnrsw" source="_ZvgGIHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_Xhjn4XNvEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_ZvYxZXNvEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorMicroService.uml#_Xhn5UHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZvYxYnNvEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_ZvYxY3NvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_Xhjn4nNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvcbwXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvcbwHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZvYxZHNvEfCTGutOISnrsw" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_Xg0BBHNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zvcbw3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvcbwnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZvVuEXNvEfCTGutOISnrsw" source="_ZvgGIHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_Xhn5UXNvEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_ZvZYc3NvEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorMicroService.uml#_Xhsx0HNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZvZYcHNvEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_ZvZYcXNvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_Xhn5UnNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvdC0nNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvdC0XNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZvZYcnNvEfCTGutOISnrsw" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_Xg1PIHNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvdC1HNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvdC03NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ZvuIkHNvEfCTGutOISnrsw" targetItem="_ZvvWtXNvEfCTGutOISnrsw" sourceItem="_ZvthgHNvEfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ZvuIknNvEfCTGutOISnrsw" targetItem="_ZvvWzHNvEfCTGutOISnrsw" sourceItem="_ZvuIkXNvEfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ZvuvoXNvEfCTGutOISnrsw" targetItem="_ZvvW1XNvEfCTGutOISnrsw" sourceItem="_ZvuvoHNvEfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Zv8LAHNvEfCTGutOISnrsw" sourceAnchor="0.0,95.0" targetAnchor="36.0,155.0" target="_ZvvWsHNvEfCTGutOISnrsw" source="_ZwC4sHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XiKr4XNvEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_iCv5QHNwEfCTGutOISnrsw" sourceX="-25" targetY="240"/>
+    <stereotypes xmi:id="_Zv9ZInNvEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorMicroService.uml#_XiPkYHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Zv8yEHNvEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Z_qpE3NvEfCTGutOISnrsw" position="2.0,-123.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Zv9ZIHNvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_XiKr4nNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_qpEnNvEfCTGutOISnrsw" position="-24.0,-90.0"/>
+      <visibility xmi:id="_Zv_1YXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zv_1YHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Zv9ZIXNvEfCTGutOISnrsw" aggregationKind="NONE" name="doctorAvailabilityRepository" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_Xg6usHNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_qpFHNvEfCTGutOISnrsw" position="-205.0,1.0"/>
+      <visibility xmi:id="_Zv_1Y3NvEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Zv_1YnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Zv8LAXNvEfCTGutOISnrsw" sourceAnchor="334.0,196.0" targetAnchor="413.0,244.0" dashed="true" superClass="_ZvzoIHNvEfCTGutOISnrsw" subClass="_ZwC4sHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XfqxgHNvEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_iCv5QXNwEfCTGutOISnrsw" sourceX="1" sourceY="139" targetX="-1055" targetY="374"/>
+    <bendpoints xmi:id="_iCv5QnNwEfCTGutOISnrsw" sourceX="1056" sourceY="139" targetY="374"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZwJmYHNvEfCTGutOISnrsw" sourceAnchor="0.0,148.0" targetAnchor="9.0,95.0" target="_ZvrFQHNvEfCTGutOISnrsw" source="_ZwQUEHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XiPkYXNvEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_iCv5RHNwEfCTGutOISnrsw" sourceX="-19" sourceY="-8" targetX="1" targetY="666"/>
+    <stereotypes xmi:id="_ZwMCo3NvEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorMicroService.uml#_XiTOwHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZwMCoHNvEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Z_rQIXNvEfCTGutOISnrsw" position="2.0,-347.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ZwMCoXNvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_XiPkYnNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_rQIHNvEfCTGutOISnrsw" position="-17.0,-90.0"/>
+      <visibility xmi:id="_ZwOe4XNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwOe4HNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZwMConNvEfCTGutOISnrsw" aggregationKind="NONE" name="doctorRepository" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_Xg7VwXNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_rQInNvEfCTGutOISnrsw" position="-109.0,45.0"/>
+      <visibility xmi:id="_ZwOe43NvEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_ZwOe4nNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZwKNcHNvEfCTGutOISnrsw" sourceAnchor="812.0,148.0" targetAnchor="240.0,0.0" target="_ZvvWsHNvEfCTGutOISnrsw" source="_ZwQUEHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XiTOwXNvEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_iCwgUHNwEfCTGutOISnrsw" sourceX="837" targetX="1433" targetY="940"/>
+    <bendpoints xmi:id="_iCwgUXNwEfCTGutOISnrsw" sourceX="858" sourceY="-986" targetX="1454" targetY="-46"/>
+    <bendpoints xmi:id="_iCwgUnNwEfCTGutOISnrsw" sourceX="-596" sourceY="-986" targetY="-46"/>
+    <stereotypes xmi:id="_ZwMps3NvEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorMicroService.uml#_XiWSEHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZwMpsHNvEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Z_seQHNvEfCTGutOISnrsw" position="-1439.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ZwMpsXNvEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorMicroService.uml#_XiTOwnNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_rQI3NvEfCTGutOISnrsw" position="1.0,-90.0"/>
+      <visibility xmi:id="_ZwOe5XNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwOe5HNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZwMpsnNvEfCTGutOISnrsw" aggregationKind="NONE" name="doctorAvailabilityRepository" navigable="true">
+      <modelElement href="DoctorMicroService.uml#_Xg7VwnNvEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z_seQXNvEfCTGutOISnrsw" position="165.0,-97.0"/>
+      <visibility xmi:id="_ZwPF8XNvEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_ZwPF8HNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZwK0gHNvEfCTGutOISnrsw" sourceAnchor="404.0,0.0" targetAnchor="206.0,256.0" dashed="true" superClass="_Zv4goHNvEfCTGutOISnrsw" subClass="_ZwQUEHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XfsmsHNvEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_iCwgU3NwEfCTGutOISnrsw" sourceY="-233" targetX="-332" targetY="297"/>
+    <bendpoints xmi:id="_iCwgVHNwEfCTGutOISnrsw" sourceX="333" sourceY="-241" targetX="1" targetY="289"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ZvI5wHNvEfCTGutOISnrsw" sourceConnectionVisual="_ZvKH4HNvEfCTGutOISnrsw" text="Inner class to represent a daily slot structure for a doctor's availability.&#xD;&#xA;     * This includes regular working slots and specific break slots within the day." item="_ZvL9InNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XhOQsXNvEfCTGutOISnrsw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ZvQOgHNvEfCTGutOISnrsw" sourceConnectionVisual="_ZvQOgXNvEfCTGutOISnrsw" text="Inner class to represent a time range with a start and end time.&#xD;&#xA;     * Uses Instant to store time, which is suitable for MongoDB's ISODate." item="_ZvSDsHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XhO3wHNvEfCTGutOISnrsw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ZvthgHNvEfCTGutOISnrsw" sourceConnectionVisual="_ZvuIkHNvEfCTGutOISnrsw" text="Finds a DoctorAvailability document by the doctor's ID.&#xD;&#xA;     *&#xD;&#xA;     * @param doctorId The ID of the doctor.&#xD;&#xA;     * @return An Optional containing the DoctorAvailability if found, or empty if not." item="_ZvvWtXNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XhPe1HNvEfCTGutOISnrsw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ZvuIkXNvEfCTGutOISnrsw" sourceConnectionVisual="_ZvuIknNvEfCTGutOISnrsw" text="Finds all DoctorAvailability documents that include a specific day of the week in their daily slots.&#xD;&#xA;     * This can be useful for finding all doctors who work on a particular day.&#xD;&#xA;     *&#xD;&#xA;     * @param day The day of the week (e.g., &quot;MONDAY&quot;, &quot;TUESDAY&quot;).&#xD;&#xA;     * @return A list of DoctorAvailability documents." item="_ZvvWzHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XhQF4XNvEfCTGutOISnrsw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ZvuvoHNvEfCTGutOISnrsw" sourceConnectionVisual="_ZvuvoXNvEfCTGutOISnrsw" text="Finds all DoctorAvailability documents where the given date is NOT present in the doctor's leave dates.&#xD;&#xA;     * This can be used to find doctors who are available on a specific date.&#xD;&#xA;     *&#xD;&#xA;     * @param date The Instant representing the date to check against leave dates.&#xD;&#xA;     * @return A list of DoctorAvailability documents." item="_ZvvW1XNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XhPe1XNvEfCTGutOISnrsw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZwC4sHNvEfCTGutOISnrsw" name="DoctorAvailabilityServiceImpl" associationsOut="_Zv8LAHNvEfCTGutOISnrsw" generalizations="_Zv8LAXNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XYyGYHNvEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZwC4sXNvEfCTGutOISnrsw" position="-1418.0,-767.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ZwC4snNvEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="DoctorMicroService.uml#_XYytcHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ZwC4s3NvEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="DoctorMicroService.uml#_XY8ecHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_ZwC4tHNvEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_ZwC4tXNvEfCTGutOISnrsw" name="doctorAvailabilityRepository">
+      <modelElement href="DoctorMicroService.uml#_Xg6usHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwC4tnNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_Xg6usXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwC4t3NvEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_ZwC4uHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZwC4uXNvEfCTGutOISnrsw" name="DoctorAvailabilityRepository">
+        <modelElement href="DoctorMicroService.uml#_XYdWQHNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZwC4unNvEfCTGutOISnrsw" name="getAvailabilityById">
+      <modelElement href="DoctorMicroService.uml#_XYzUgHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwC4u3NvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XYz7kHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZwC4vHNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XY0ioHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwC4vXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwC4vnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZwC4v3NvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgZKQHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwC4wHNvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZwC4wXNvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_XYzUgXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwC4wnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwC4w3NvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwC4xHNvEfCTGutOISnrsw" name="getAvailabilityByDoctorId">
+      <modelElement href="DoctorMicroService.uml#_XY1JsXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwC4xXNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XY2X0HNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZwC4xnNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XY2-4HNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwC4x3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwC4yHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZwC4yXNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgZxUHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwC4ynNvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZwC4y3NvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XY1JsnNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwC4zHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwC4zXNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwC4znNvEfCTGutOISnrsw" name="deleteAvailability">
+      <modelElement href="DoctorMicroService.uml#_XY4NAHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwC4z3NvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XY40EHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwC40HNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwC40XNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZwC40nNvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_XY4NAXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwC403NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwC41HNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwC41XNvEfCTGutOISnrsw" name="getAvailabilityByDoctorIdAndDay">
+      <modelElement href="DoctorMicroService.uml#_XY5bIHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwC41nNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XY6pQHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZwC413NvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XY73YHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwC42HNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwC42XNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZwC42nNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgZxUXNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwC423NvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZwC43HNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XY6CMHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwC43XNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwC43nNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZwC433NvEfCTGutOISnrsw" name="day">
+        <modelElement href="DoctorMicroService.uml#_XY6CMXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwC44HNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwC44XNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwC44nNvEfCTGutOISnrsw" name="createAvailability">
+      <modelElement href="DoctorMicroService.uml#_XfqxgXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwC443NvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XfrYkHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwC45HNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwC45XNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZwC45nNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xfqxg3NvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwC453NvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZwC46HNvEfCTGutOISnrsw" name="doctorAvailability">
+        <modelElement href="DoctorMicroService.uml#_XfqxgnNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwC46XNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwC46nNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwC463NvEfCTGutOISnrsw" name="updateAvailability">
+      <modelElement href="DoctorMicroService.uml#_XfrYknNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwC47HNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XfrYlnNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwC47XNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwC47nNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZwC473NvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XfrYlXNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwC48HNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZwC48XNvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_XfrYk3NvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwC48nNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwC483NvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZwC49HNvEfCTGutOISnrsw" name="doctorAvailabilityDetails">
+        <modelElement href="DoctorMicroService.uml#_XfrYlHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwC49XNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwC49nNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwC493NvEfCTGutOISnrsw" name="upsertAvailabilityByDoctorId">
+      <modelElement href="DoctorMicroService.uml#_XfrYmHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwC4-HNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_Xfr_oXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwC4-XNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwC4-nNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZwC4-3NvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xfr_oHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwC4_HNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZwC4_XNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XfrYmXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwC4_nNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwC4_3NvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZwC5AHNvEfCTGutOISnrsw" name="doctorAvailabilityDetails">
+        <modelElement href="DoctorMicroService.uml#_XfrYmnNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwC5AXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwC5AnNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Zu3M8HNvEfCTGutOISnrsw" name="DoctorAvailabilityController" associationsOut="_Zuy7gHNvEfCTGutOISnrsw _Zu2l4HNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XXtIUnNvEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Zu3M8XNvEfCTGutOISnrsw" position="-702.0,-790.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Zu3M8nNvEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="DoctorMicroService.uml#_XXu9gHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Zu3M83NvEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="DoctorMicroService.uml#_XX7KwHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_Zu3M9HNvEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_Zu3M9XNvEfCTGutOISnrsw" name="doctorAvailabilityService">
+      <modelElement href="DoctorMicroService.uml#_XgiUMHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zu3M9nNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_Xgi7QHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zu3M93NvEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Zu3M-HNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zu3M-XNvEfCTGutOISnrsw" name="DoctorAvailabilityService">
+        <modelElement href="DoctorMicroService.uml#_XYoVYHNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zu3M-nNvEfCTGutOISnrsw" name="doctorService">
+      <modelElement href="DoctorMicroService.uml#_XgjiUXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zu3M-3NvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XgkJYHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zu3M_HNvEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Zu3M_XNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zu3M_nNvEfCTGutOISnrsw" name="DoctorService">
+        <modelElement href="DoctorMicroService.uml#_XYtN4HNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Zu3M_3NvEfCTGutOISnrsw" name="getAvailabilityById">
+      <modelElement href="DoctorMicroService.uml#_XXvkkHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zu3NAHNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XXwysHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zu3NAXNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XXxZwnNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zu3NAnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zu3NA3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zu3NBHNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xf1woHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zu3NBXNvEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="DoctorMicroService.uml#_Xe1rEXNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zu3NBnNvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_XXvkkXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zu3NB3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zu3NCHNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zu3NCXNvEfCTGutOISnrsw" name="getAvailabilityByDoctorId">
+      <modelElement href="DoctorMicroService.uml#_XXyA0HNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zu3NCnNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XXyn4HNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zu3NC3NvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XXz2AnNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zu3NDHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zu3NDXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zu3NDnNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xf2XsHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zu3ND3NvEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="DoctorMicroService.uml#_Xe1rEXNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zu3NEHNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XXyA0XNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zu3NEXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zu3NEnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zu3NE3NvEfCTGutOISnrsw" name="deleteAvailability">
+      <modelElement href="DoctorMicroService.uml#_XX1rMHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zu3NFHNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XX2SQHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zu3NFXNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XX4HcHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zu3NFnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zu3NF3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zu3NGHNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xf3l0HNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zu3NGXNvEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="DoctorMicroService.uml#_Xe1rEXNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zu3NGnNvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_XX1rMXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zu3NG3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zu3NHHNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zu3NHXNvEfCTGutOISnrsw" name="getAvailabilityByDoctorIdAndDay">
+      <modelElement href="DoctorMicroService.uml#_XX4Hc3NvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zu3NHnNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XX4ugHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zu3NH3NvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XX6jsHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zu3NIHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zu3NIXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zu3NInNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xf3l0XNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zu3NI3NvEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="DoctorMicroService.uml#_Xe1rEXNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zu3NJHNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XX4HdHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zu3NJXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zu3NJnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zu3NJ3NvEfCTGutOISnrsw" name="day">
+        <modelElement href="DoctorMicroService.uml#_XX4HdXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zu3NKHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zu3NKXNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zu3NKnNvEfCTGutOISnrsw" name="createAvailability">
+      <modelElement href="DoctorMicroService.uml#_Xe-1AHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zu3NK3NvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_Xe_cEHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zu3NLHNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XfADInNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zu3NLXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zu3NLnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zu3NL3NvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xf2XsXNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zu3NMHNvEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="DoctorMicroService.uml#_Xe1rEXNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zu3NMXNvEfCTGutOISnrsw" name="doctorAvailability">
+        <modelElement href="DoctorMicroService.uml#_Xe-1AXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zu3NMnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zu3NM3NvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zu3NNHNvEfCTGutOISnrsw" name="updateAvailability">
+      <modelElement href="DoctorMicroService.uml#_XfBRQHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zu3NNXNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XfB4UHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zu3NNnNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XfDtgHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zu3NN3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zu3NOHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zu3NOXNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xf2XsnNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zu3NOnNvEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="DoctorMicroService.uml#_Xe1rEXNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zu3NO3NvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_XfBRQXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zu3NPHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zu3NPXNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zu3NPnNvEfCTGutOISnrsw" name="doctorAvailabilityDetails">
+        <modelElement href="DoctorMicroService.uml#_XfBRQnNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zu3NP3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zu3NQHNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zu3NQXNvEfCTGutOISnrsw" name="upsertAvailabilityByDoctorId">
+      <modelElement href="DoctorMicroService.uml#_XfEUknNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zu3NQnNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XfFisHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zu3NQ3NvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XfGw0HNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zu3NRHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zu3NRXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zu3NRnNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xf2-wHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zu3NR3NvEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="DoctorMicroService.uml#_Xe1rEXNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zu3NSHNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XfE7oHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zu3NSXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zu3NSnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zu3NS3NvEfCTGutOISnrsw" name="doctorAvailabilityDetails">
+        <modelElement href="DoctorMicroService.uml#_XfE7oXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zu3NTHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zu3NTXNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zu3NTnNvEfCTGutOISnrsw" name="isDoctorAvailableOnDate">
+      <modelElement href="DoctorMicroService.uml#_Xf4M4HNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zu3NT3NvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_Xf4z8HNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zu3NUHNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_Xf6CEHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zu3NUXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zu3NUnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zu3NU3NvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xf4z8XNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zu3NVHNvEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="DoctorMicroService.uml#_Xe1rEXNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zu3NVXNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_Xf4M4XNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zu3NVnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zu3NV3NvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zu3NWHNvEfCTGutOISnrsw" name="date">
+        <modelElement href="DoctorMicroService.uml#_Xf4M4nNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zu3NWXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zu3NWnNvEfCTGutOISnrsw" name="Instant">
+          <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Zuv4OXNvEfCTGutOISnrsw" name="DoctorController" associationsOut="_Zuv4MHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XX_cMHNvEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Zuv4OnNvEfCTGutOISnrsw" position="-574.0,-554.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Zuv4O3NvEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="DoctorMicroService.uml#_XX_cMXNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Zuv4PHNvEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="DoctorMicroService.uml#_XYE7xXNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_Zuv4PXNvEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_Zuv4PnNvEfCTGutOISnrsw" name="doctorService">
+      <modelElement href="DoctorMicroService.uml#_XglXgHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zuv4P3NvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_Xgl-kHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zuv4QHNvEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Zuv4QXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zuv4QnNvEfCTGutOISnrsw" name="DoctorService">
+        <modelElement href="DoctorMicroService.uml#_XYtN4HNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Zuv4Q3NvEfCTGutOISnrsw" name="getAllDoctors">
+      <modelElement href="DoctorMicroService.uml#_XYADQHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zuv4RHNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XYAqUHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zuv4RXNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XYB4cHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zuv4RnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zuv4R3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zuv4SHNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xf6pIHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zuv4SXNvEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="DoctorMicroService.uml#_Xe1rEXNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Zuv4SnNvEfCTGutOISnrsw" name="getDoctorByCustomId">
+      <modelElement href="DoctorMicroService.uml#_XYCfgHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zuv4S3NvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XYCfgnNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zuv4THNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XYDGknNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zuv4TXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zuv4TnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zuv4T3NvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xf6pIXNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zuv4UHNvEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="DoctorMicroService.uml#_Xe1rEXNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zuv4UXNvEfCTGutOISnrsw" name="customId">
+        <modelElement href="DoctorMicroService.uml#_XYCfgXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zuv4UnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zuv4U3NvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zuv4VHNvEfCTGutOISnrsw" name="getDoctorById">
+      <modelElement href="DoctorMicroService.uml#_XYDGlXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zuv4VXNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XYEUsHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zuv4VnNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XYE7wnNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zuv4V3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zuv4WHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zuv4WXNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xf7QMHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zuv4WnNvEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="DoctorMicroService.uml#_Xe1rEXNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zuv4W3NvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_XYDGlnNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zuv4XHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zuv4XXNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZvL9InNvEfCTGutOISnrsw" comments="_ZvI5wHNvEfCTGutOISnrsw" targetConnectionVisual="_ZvKH4HNvEfCTGutOISnrsw" name="DailySlot" associationsIn="_ZvEoUHNvEfCTGutOISnrsw" associationsOut="_ZvL9EHNvEfCTGutOISnrsw _ZvL9GXNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XYWokHNvEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZvL9I3NvEfCTGutOISnrsw" position="252.0,264.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_ZvL9JHNvEfCTGutOISnrsw" keyword="static"/>
+    <stereotypes xmi:id="_ZvL9JXNvEfCTGutOISnrsw" name="StyledElement">
+      <modelElement href="DoctorMicroService.uml#_XYXPoXNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_ZvL9JnNvEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_ZvL9J3NvEfCTGutOISnrsw" name="day">
+      <modelElement href="DoctorMicroService.uml#_Xg45gnNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvL9KHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvL9KXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvL9KnNvEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvL9K3NvEfCTGutOISnrsw" name="slots">
+      <modelElement href="DoctorMicroService.uml#_Xg45g3NvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvL9LHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvL9LXNvEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ZvL9LnNvEfCTGutOISnrsw" name="TimeRange">
+        <modelElement href="DoctorMicroService.uml#_XYYdwHNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvL9L3NvEfCTGutOISnrsw" name="breakSlots">
+      <modelElement href="DoctorMicroService.uml#_Xg45hXNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvL9MHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvL9MXNvEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ZvL9MnNvEfCTGutOISnrsw" name="TimeRange">
+        <modelElement href="DoctorMicroService.uml#_XYYdwHNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZvL9M3NvEfCTGutOISnrsw" name="DailySlot">
+      <modelElement href="DoctorMicroService.uml#_XYXPonNvEfCTGutOISnrsw"/>
+      <keywords xmi:id="_ZvL9NHNvEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_ZvL9NXNvEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="DoctorMicroService.uml#_XYXPpXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvL9NnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvL9N3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvL9OHNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XYXPpnNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvL9OXNvEfCTGutOISnrsw" name="DailySlot">
+          <modelElement href="DoctorMicroService.uml#_XYWokHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZvL9OnNvEfCTGutOISnrsw" name="DailySlot">
+      <modelElement href="DoctorMicroService.uml#_XgLu4HNvEfCTGutOISnrsw"/>
+      <keywords xmi:id="_ZvL9O3NvEfCTGutOISnrsw" keyword="create"/>
+      <visibility xmi:id="_ZvL9PHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvL9PXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvL9PnNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgMV8nNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvL9P3NvEfCTGutOISnrsw" name="DailySlot">
+          <modelElement href="DoctorMicroService.uml#_XYWokHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZvL9QHNvEfCTGutOISnrsw" name="day">
+        <modelElement href="DoctorMicroService.uml#_XgLu4XNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvL9QXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvL9QnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvL9Q3NvEfCTGutOISnrsw" name="slots">
+        <modelElement href="DoctorMicroService.uml#_XgLu4nNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvL9RHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvL9RXNvEfCTGutOISnrsw" name="List">
+          <modelElement href="DoctorMicroService.uml#_XeynwnNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvL9RnNvEfCTGutOISnrsw" name="breakSlots">
+        <modelElement href="DoctorMicroService.uml#_XgLu43NvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvL9R3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvL9SHNvEfCTGutOISnrsw" name="List">
+          <modelElement href="DoctorMicroService.uml#_XeynwnNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZvSDsHNvEfCTGutOISnrsw" comments="_ZvQOgHNvEfCTGutOISnrsw" targetConnectionVisual="_ZvQOgXNvEfCTGutOISnrsw" name="TimeRange" associationsIn="_ZvL9EHNvEfCTGutOISnrsw _ZvL9GXNvEfCTGutOISnrsw _ZvQOgnNvEfCTGutOISnrsw _ZvQ1kHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XYYdwHNvEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZvSDsXNvEfCTGutOISnrsw" position="228.0,-93.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_ZvSDsnNvEfCTGutOISnrsw" keyword="static"/>
+    <stereotypes xmi:id="_ZvSDs3NvEfCTGutOISnrsw" name="StyledElement">
+      <modelElement href="DoctorMicroService.uml#_XYYdw3NvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_ZvSDtHNvEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_ZvSDtXNvEfCTGutOISnrsw" name="startTime">
+      <modelElement href="DoctorMicroService.uml#_Xg5gkHNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvSDtnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvSDt3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvSDuHNvEfCTGutOISnrsw" name="Instant">
+        <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvSDuXNvEfCTGutOISnrsw" name="endTime">
+      <modelElement href="DoctorMicroService.uml#_Xg5gkXNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvSDunNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvSDu3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvSDvHNvEfCTGutOISnrsw" name="Instant">
+        <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZvSDvXNvEfCTGutOISnrsw" name="TimeRange">
+      <modelElement href="DoctorMicroService.uml#_XYZE0HNvEfCTGutOISnrsw"/>
+      <keywords xmi:id="_ZvSDvnNvEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_ZvSDv3NvEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="DoctorMicroService.uml#_XYZE03NvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvSDwHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvSDwXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvSDwnNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XYZE1HNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvSDw3NvEfCTGutOISnrsw" name="TimeRange">
+          <modelElement href="DoctorMicroService.uml#_XYYdwHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZvSDxHNvEfCTGutOISnrsw" name="TimeRange">
+      <modelElement href="DoctorMicroService.uml#_XgOyMHNvEfCTGutOISnrsw"/>
+      <keywords xmi:id="_ZvSDxXNvEfCTGutOISnrsw" keyword="create"/>
+      <visibility xmi:id="_ZvSDxnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvSDx3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvSDyHNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgPZQHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvSDyXNvEfCTGutOISnrsw" name="TimeRange">
+          <modelElement href="DoctorMicroService.uml#_XYYdwHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZvSDynNvEfCTGutOISnrsw" name="startTime">
+        <modelElement href="DoctorMicroService.uml#_XgOyMXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvSDy3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvSDzHNvEfCTGutOISnrsw" name="Instant">
+          <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvSDzXNvEfCTGutOISnrsw" name="endTime">
+        <modelElement href="DoctorMicroService.uml#_XgOyMnNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvSDznNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvSDz3NvEfCTGutOISnrsw" name="Instant">
+          <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ZvvWsHNvEfCTGutOISnrsw" name="DoctorAvailabilityRepository" associationsIn="_Zv8LAHNvEfCTGutOISnrsw _ZwKNcHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XYdWQHNvEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZvvWsXNvEfCTGutOISnrsw" position="-1480.0,-1067.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ZvvWsnNvEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="DoctorMicroService.uml#_XYekYHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ZvvWs3NvEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="DoctorMicroService.uml#_XYkD8HNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_ZvvWtHNvEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_ZvvWtXNvEfCTGutOISnrsw" comments="_ZvthgHNvEfCTGutOISnrsw" targetConnectionVisual="_ZvuIkHNvEfCTGutOISnrsw" name="findByDoctorId">
+      <modelElement href="DoctorMicroService.uml#_XYekYXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvvWtnNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XYfygHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZvvWt3NvEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorMicroService.uml#_XYfygXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvvWuHNvEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_ZvvWuXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvvWunNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgTDoHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvvWu3NvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZvvWvHNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XYekYnNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvvWvXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvvWvnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZvvWv3NvEfCTGutOISnrsw" name="findByDoctorIdAndDailySlots_Day">
+      <modelElement href="DoctorMicroService.uml#_XYgZkHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvvWwHNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XYhAoHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZvvWwXNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XYhAoXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvvWwnNvEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_ZvvWw3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvvWxHNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgU40HNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvvWxXNvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZvvWxnNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XYgZkXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvvWx3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvvWyHNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvvWyXNvEfCTGutOISnrsw" name="day">
+        <modelElement href="DoctorMicroService.uml#_XYgZknNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvvWynNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvvWy3NvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZvvWzHNvEfCTGutOISnrsw" comments="_ZvuIkXNvEfCTGutOISnrsw" targetConnectionVisual="_ZvuIknNvEfCTGutOISnrsw" name="findByDailySlots_Day">
+      <modelElement href="DoctorMicroService.uml#_XYi10HNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvvWzXNvEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorMicroService.uml#_XYjc4HNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvvWznNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvvWz3NvEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_ZvvW0HNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XYi10nNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvvW0XNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZvvW0nNvEfCTGutOISnrsw" name="day">
+        <modelElement href="DoctorMicroService.uml#_XYi10XNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvvW03NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvvW1HNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZvvW1XNvEfCTGutOISnrsw" comments="_ZvuvoHNvEfCTGutOISnrsw" targetConnectionVisual="_ZvuvoXNvEfCTGutOISnrsw" name="findByLeaveDatesNotContaining">
+      <modelElement href="DoctorMicroService.uml#_XgTDoXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvvW1nNvEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorMicroService.uml#_XgURwHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvvW13NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvvW2HNvEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_ZvvW2XNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgTqsXNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvvW2nNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZvvW23NvEfCTGutOISnrsw" name="date">
+        <modelElement href="DoctorMicroService.uml#_XgTqsHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvvW3HNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvvW3XNvEfCTGutOISnrsw" name="Instant">
+          <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ZvrFQHNvEfCTGutOISnrsw" name="DoctorRepository" associationsIn="_ZwJmYHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XYl5IHNvEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZvrFQXNvEfCTGutOISnrsw" position="-1485.0,-897.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ZvrFQnNvEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="DoctorMicroService.uml#_XYmgMHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ZvrFQ3NvEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="DoctorMicroService.uml#_XYnuUXNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_ZvrFRHNvEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_ZvrFRXNvEfCTGutOISnrsw" name="findByCustomId">
+      <modelElement href="DoctorMicroService.uml#_XYmgMXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvrFRnNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XYnHQXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZvrFR3NvEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorMicroService.uml#_XYnuUHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvrFSHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvrFSXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvrFSnNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgWG8HNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvrFS3NvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZvrFTHNvEfCTGutOISnrsw" name="customId">
+        <modelElement href="DoctorMicroService.uml#_XYnHQHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvrFTXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvrFTnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZupxkHNvEfCTGutOISnrsw" name="DoctorMicroServiceApplication">
+    <modelElement href="DoctorMicroService.uml#_XXnowHNvEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZupxkXNvEfCTGutOISnrsw" position="-1133.0,-887.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ZupxknNvEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="DoctorMicroService.uml#_XXpd8HNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Zupxk3NvEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="DoctorMicroService.uml#_XXtIUHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_ZupxlHNvEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_ZupxlXNvEfCTGutOISnrsw" name="main" staticOperation="true">
+      <modelElement href="DoctorMicroService.uml#_XXqsEXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZuqYoHNvEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorMicroService.uml#_XXr6MHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZuqYoXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZuqYonNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZuqYo3NvEfCTGutOISnrsw" name="args">
+        <modelElement href="DoctorMicroService.uml#_XXrTIHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZuqYpHNvEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ZuqYpXNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Zv4goHNvEfCTGutOISnrsw" name="DoctorService" associationsIn="_ZvVHAHNvEfCTGutOISnrsw _Zuy7gHNvEfCTGutOISnrsw _Zuv4MHNvEfCTGutOISnrsw" subclassedBy="_ZwK0gHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XYtN4HNvEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Zv4goXNvEfCTGutOISnrsw" position="-926.0,-1062.0" size="468.0,256.0"/>
+    <visibility xmi:id="_Zv4gonNvEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_Zv4go3NvEfCTGutOISnrsw" name="allDoctors">
+      <modelElement href="DoctorMicroService.uml#_XYucAXNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zv4gpHNvEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_Zv4gpXNvEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_Zv4gpnNvEfCTGutOISnrsw" name="Doctor">
+        <modelElement href="DoctorMicroService.uml#_XYGJ4HNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Zv4gp3NvEfCTGutOISnrsw" name="getDoctorById">
+      <modelElement href="DoctorMicroService.uml#_XYt08HNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zv4gqHNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XYucAHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zv4gqXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zv4gqnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zv4gq3NvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgWuAnNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zv4grHNvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zv4grXNvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_XYt08XNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zv4grnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zv4gr3NvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zv4gsHNvEfCTGutOISnrsw" name="deleteDoctor">
+      <modelElement href="DoctorMicroService.uml#_XYvDEXNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zv4gsXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zv4gsnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Zv4gs3NvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_XYvDEnNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zv4gtHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zv4gtXNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zv4gtnNvEfCTGutOISnrsw" name="getDoctorAvailability">
+      <modelElement href="DoctorMicroService.uml#_XYvDE3NvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zv4gt3NvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XYvqIHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zv4guHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zv4guXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zv4gunNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgXVEHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zv4gu3NvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zv4gvHNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XYvDFHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zv4gvXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zv4gvnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zv4gv3NvEfCTGutOISnrsw" name="getDoctorAvailabilityForDay">
+      <modelElement href="DoctorMicroService.uml#_XYvqIXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zv4gwHNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XYwRMHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zv4gwXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zv4gwnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zv4gw3NvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgXVEXNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zv4gxHNvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zv4gxXNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XYvqInNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zv4gxnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zv4gx3NvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zv4gyHNvEfCTGutOISnrsw" name="day">
+        <modelElement href="DoctorMicroService.uml#_XYvqI3NvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zv4gyXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zv4gynNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zv4gy3NvEfCTGutOISnrsw" name="deleteDoctorAvailability">
+      <modelElement href="DoctorMicroService.uml#_XYwRMXNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zv4gzHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zv4gzXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Zv4gznNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XYwRMnNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zv4gz3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zv4g0HNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zv4g0XNvEfCTGutOISnrsw" name="getDoctorByCustomId">
+      <modelElement href="DoctorMicroService.uml#_XYwRM3NvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zv4g0nNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XYw4QHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zv4g03NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zv4g1HNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zv4g1XNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgYjMHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zv4g1nNvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zv4g13NvEfCTGutOISnrsw" name="customId">
+        <modelElement href="DoctorMicroService.uml#_XYwRNHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zv4g2HNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zv4g2XNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zv4g2nNvEfCTGutOISnrsw" name="saveDoctor">
+      <modelElement href="DoctorMicroService.uml#_XfnHIHNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zv4g23NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zv4g3HNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zv4g3XNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XfnuMHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zv4g3nNvEfCTGutOISnrsw" name="Doctor">
+          <modelElement href="DoctorMicroService.uml#_XYGJ4HNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zv4g33NvEfCTGutOISnrsw" name="doctor">
+        <modelElement href="DoctorMicroService.uml#_XfnHIXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zv4g4HNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zv4g4XNvEfCTGutOISnrsw" name="Doctor">
+          <modelElement href="DoctorMicroService.uml#_XYGJ4HNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zv4g4nNvEfCTGutOISnrsw" name="updateDoctor">
+      <modelElement href="DoctorMicroService.uml#_XfnuMXNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zv4g43NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zv4g5HNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zv4g5XNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XfnuNHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zv4g5nNvEfCTGutOISnrsw" name="Doctor">
+          <modelElement href="DoctorMicroService.uml#_XYGJ4HNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zv4g53NvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_XfnuMnNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zv4g6HNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zv4g6XNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zv4g6nNvEfCTGutOISnrsw" name="doctor">
+        <modelElement href="DoctorMicroService.uml#_XfnuM3NvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zv4g63NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zv4g7HNvEfCTGutOISnrsw" name="Doctor">
+          <modelElement href="DoctorMicroService.uml#_XYGJ4HNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zv4g7XNvEfCTGutOISnrsw" name="saveOrUpdateDoctorAvailability">
+      <modelElement href="DoctorMicroService.uml#_XfoVQHNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zv4g7nNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zv4g73NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zv4g8HNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XfoVQnNvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zv4g8XNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zv4g8nNvEfCTGutOISnrsw" name="doctorAvailability">
+        <modelElement href="DoctorMicroService.uml#_XfoVQXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zv4g83NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zv4g9HNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zv4g9XNvEfCTGutOISnrsw" name="isDoctorAvailableOnDate">
+      <modelElement href="DoctorMicroService.uml#_XgX8IHNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zv4g9nNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zv4g93NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zv4g-HNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgX8I3NvEfCTGutOISnrsw"/>
+        <type xmi:id="_Zv4g-XNvEfCTGutOISnrsw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zv4g-nNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XgX8IXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zv4g-3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zv4g_HNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zv4g_XNvEfCTGutOISnrsw" name="date">
+        <modelElement href="DoctorMicroService.uml#_XgX8InNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zv4g_nNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zv4g_3NvEfCTGutOISnrsw" name="Instant">
+          <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ZvzoIHNvEfCTGutOISnrsw" name="DoctorAvailabilityService" associationsIn="_Zu2l4HNvEfCTGutOISnrsw" subclassedBy="_Zv8LAXNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XYoVYHNvEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZvzoIXNvEfCTGutOISnrsw" position="-441.0,-1050.0" size="440.0,244.0"/>
+    <visibility xmi:id="_ZvzoInNvEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_ZvzoI3NvEfCTGutOISnrsw" name="getAvailabilityById">
+      <modelElement href="DoctorMicroService.uml#_XYpjgHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvzoJHNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XYqKkHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvzoJXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvzoJnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvzoJ3NvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgWG8XNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvzoKHNvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZvzoKXNvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_XYpjgXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvzoKnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvzoK3NvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZvzoLHNvEfCTGutOISnrsw" name="getAvailabilityByDoctorId">
+      <modelElement href="DoctorMicroService.uml#_XYqKkXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvzoLXNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XYqxoXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvzoLnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvzoL3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvzoMHNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgWuAHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvzoMXNvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZvzoMnNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XYqxoHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvzoM3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvzoNHNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZvzoNXNvEfCTGutOISnrsw" name="deleteAvailability">
+      <modelElement href="DoctorMicroService.uml#_XYrYsHNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvzoNnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvzoN3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZvzoOHNvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_XYrYsXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvzoOXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvzoOnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZvzoO3NvEfCTGutOISnrsw" name="getAvailabilityByDoctorIdAndDay">
+      <modelElement href="DoctorMicroService.uml#_XYrYsnNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvzoPHNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XYr_wHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvzoPXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvzoPnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvzoP3NvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgWuAXNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvzoQHNvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZvzoQXNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XYrYs3NvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvzoQnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvzoQ3NvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvzoRHNvEfCTGutOISnrsw" name="day">
+        <modelElement href="DoctorMicroService.uml#_XYrYtHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvzoRXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvzoRnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZvzoR3NvEfCTGutOISnrsw" name="createAvailability">
+      <modelElement href="DoctorMicroService.uml#_Xfl5AHNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvzoSHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvzoSXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvzoSnNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xfl5AnNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvzoS3NvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZvzoTHNvEfCTGutOISnrsw" name="doctorAvailability">
+        <modelElement href="DoctorMicroService.uml#_Xfl5AXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvzoTXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvzoTnNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZvzoT3NvEfCTGutOISnrsw" name="updateAvailability">
+      <modelElement href="DoctorMicroService.uml#_Xfl5A3NvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvzoUHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvzoUXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvzoUnNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XfmgEXNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvzoU3NvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZvzoVHNvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_Xfl5BHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvzoVXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvzoVnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvzoV3NvEfCTGutOISnrsw" name="doctorAvailabilityDetails">
+        <modelElement href="DoctorMicroService.uml#_XfmgEHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvzoWHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvzoWXNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZvzoWnNvEfCTGutOISnrsw" name="upsertAvailabilityByDoctorId">
+      <modelElement href="DoctorMicroService.uml#_XfmgEnNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZvzoW3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvzoXHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvzoXXNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XfmgFXNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvzoXnNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zv0PMHNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XfmgE3NvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zv0PMXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zv0PMnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zv0PM3NvEfCTGutOISnrsw" name="doctorAvailabilityDetails">
+        <modelElement href="DoctorMicroService.uml#_XfmgFHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zv0PNHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zv0PNXNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZwQUEHNvEfCTGutOISnrsw" name="DoctorServiceImpl" associationsOut="_ZwJmYHNvEfCTGutOISnrsw _ZwKNcHNvEfCTGutOISnrsw" generalizations="_ZwK0gHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XZAI0HNvEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZwQUEXNvEfCTGutOISnrsw" position="-1456.0,-276.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ZwQUEnNvEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="DoctorMicroService.uml#_XZAv4HNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ZwQUE3NvEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="DoctorMicroService.uml#_XZG2gHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_ZwQUFHNvEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_ZwQUFXNvEfCTGutOISnrsw" name="doctorRepository">
+      <modelElement href="DoctorMicroService.uml#_Xg7VwXNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZwQUFnNvEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_ZwQUF3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZwQUGHNvEfCTGutOISnrsw" name="DoctorRepository">
+        <modelElement href="DoctorMicroService.uml#_XYl5IHNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZwQUGXNvEfCTGutOISnrsw" name="doctorAvailabilityRepository">
+      <modelElement href="DoctorMicroService.uml#_Xg7VwnNvEfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZwQUGnNvEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_ZwQUG3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZwQUHHNvEfCTGutOISnrsw" name="DoctorAvailabilityRepository">
+        <modelElement href="DoctorMicroService.uml#_XYdWQHNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZwQUHXNvEfCTGutOISnrsw" name="getDoctorById">
+      <modelElement href="DoctorMicroService.uml#_XZBW8HNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwQUHnNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XZB-AHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZwQUH3NvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XZB-AXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwQUIHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwQUIXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZwQUInNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgaYYHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwQUI3NvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZwQUJHNvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_XZBW8XNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwQUJXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwQUJnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwQUJ3NvEfCTGutOISnrsw" name="getAllDoctors">
+      <modelElement href="DoctorMicroService.uml#_XZB-A3NvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwQUKHNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XZDMIHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwQUKXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwQUKnNvEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_ZwQUK3NvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XZClEHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwQULHNvEfCTGutOISnrsw" name="Doctor">
+          <modelElement href="DoctorMicroService.uml#_XYGJ4HNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZwQULXNvEfCTGutOISnrsw" name="deleteDoctor">
+      <modelElement href="DoctorMicroService.uml#_XZDMInNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwQULnNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XZDzMHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwQUL3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwQUMHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZwQUMXNvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_XZDMI3NvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwQUMnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwQUM3NvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwQUNHNvEfCTGutOISnrsw" name="getDoctorAvailability">
+      <modelElement href="DoctorMicroService.uml#_XZDzMnNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwQUNXNvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XZEaQHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZwQUNnNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XZEaQXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwQUN3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwQUOHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZwQUOXNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xga_cHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwQUOnNvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZwQUO3NvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XZDzM3NvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwQUPHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwQUPXNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwQUPnNvEfCTGutOISnrsw" name="getDoctorAvailabilityForDay">
+      <modelElement href="DoctorMicroService.uml#_XZEaQ3NvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwQUP3NvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XZFBUHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZwQUQHNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XZFBUXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwQUQXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwQUQnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZwQUQ3NvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xga_cXNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwQURHNvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZwQURXNvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XZEaRHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwQURnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwQUR3NvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZwQUSHNvEfCTGutOISnrsw" name="day">
+        <modelElement href="DoctorMicroService.uml#_XZEaRXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwQUSXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwQUSnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwQUS3NvEfCTGutOISnrsw" name="deleteDoctorAvailability">
+      <modelElement href="DoctorMicroService.uml#_XZFoYHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwQUTHNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XZFoYnNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwQUTXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwQUTnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZwQUT3NvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XZFoYXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwQUUHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwQUUXNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwQUUnNvEfCTGutOISnrsw" name="getDoctorByCustomId">
+      <modelElement href="DoctorMicroService.uml#_XZFoZHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwQUU3NvEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorMicroService.uml#_XZGPcHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZwQUVHNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XZGPcXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwQUVXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwQUVnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZwQUV3NvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgdbsHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwQUWHNvEfCTGutOISnrsw" name="Optional">
+          <modelElement href="DoctorMicroService.uml#_XezO0XNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZwQUWXNvEfCTGutOISnrsw" name="customId">
+        <modelElement href="DoctorMicroService.uml#_XZFoZXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwQUWnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwQUW3NvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwQUXHNvEfCTGutOISnrsw" name="DoctorServiceImpl">
+      <modelElement href="DoctorMicroService.uml#_XfsmsXNvEfCTGutOISnrsw"/>
+      <keywords xmi:id="_ZwQUXXNvEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_ZwQUXnNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XftNxXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwQUX3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwQUYHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZwQUYXNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XftNxHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwQUYnNvEfCTGutOISnrsw" name="DoctorServiceImpl">
+          <modelElement href="DoctorMicroService.uml#_XZAI0HNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZwQUY3NvEfCTGutOISnrsw" name="doctorRepository">
+        <modelElement href="DoctorMicroService.uml#_XftNwHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwQUZHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwQUZXNvEfCTGutOISnrsw" name="DoctorRepository">
+          <modelElement href="DoctorMicroService.uml#_XYl5IHNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZwQUZnNvEfCTGutOISnrsw" name="doctorAvailabilityRepository">
+        <modelElement href="DoctorMicroService.uml#_XftNwXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwQUZ3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwQUaHNvEfCTGutOISnrsw" name="DoctorAvailabilityRepository">
+          <modelElement href="DoctorMicroService.uml#_XYdWQHNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwQUaXNvEfCTGutOISnrsw" name="saveDoctor">
+      <modelElement href="DoctorMicroService.uml#_Xft00HNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwQUanNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_Xft003NvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwQUa3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwQUbHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZwQUbXNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xft00nNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwQUbnNvEfCTGutOISnrsw" name="Doctor">
+          <modelElement href="DoctorMicroService.uml#_XYGJ4HNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZwQUb3NvEfCTGutOISnrsw" name="doctor">
+        <modelElement href="DoctorMicroService.uml#_Xft00XNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwQUcHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwQUcXNvEfCTGutOISnrsw" name="Doctor">
+          <modelElement href="DoctorMicroService.uml#_XYGJ4HNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwQUcnNvEfCTGutOISnrsw" name="updateDoctor">
+      <modelElement href="DoctorMicroService.uml#_Xft01XNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwQUc3NvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_Xft02XNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwQUdHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwQUdXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZwQUdnNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xft02HNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwQUd3NvEfCTGutOISnrsw" name="Doctor">
+          <modelElement href="DoctorMicroService.uml#_XYGJ4HNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZwQUeHNvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_Xft01nNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwQUeXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwQUenNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZwQUe3NvEfCTGutOISnrsw" name="doctor">
+        <modelElement href="DoctorMicroService.uml#_Xft013NvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwQUfHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwQUfXNvEfCTGutOISnrsw" name="Doctor">
+          <modelElement href="DoctorMicroService.uml#_XYGJ4HNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwQ7IHNvEfCTGutOISnrsw" name="saveOrUpdateDoctorAvailability">
+      <modelElement href="DoctorMicroService.uml#_XfvC8HNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwQ7IXNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XfvC83NvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwQ7InNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwQ7I3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZwQ7JHNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XfvC8nNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwQ7JXNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZwQ7JnNvEfCTGutOISnrsw" name="doctorAvailability">
+        <modelElement href="DoctorMicroService.uml#_XfvC8XNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwQ7J3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwQ7KHNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZwQ7KXNvEfCTGutOISnrsw" name="isDoctorAvailableOnDate">
+      <modelElement href="DoctorMicroService.uml#_XgbmgHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwQ7KnNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_Xgc0oHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwQ7K3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZwQ7LHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZwQ7LXNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgcNkHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZwQ7LnNvEfCTGutOISnrsw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZwQ7L3NvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XgbmgXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwQ7MHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwQ7MXNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZwQ7MnNvEfCTGutOISnrsw" name="date">
+        <modelElement href="DoctorMicroService.uml#_XgbmgnNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZwQ7M3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZwQ7NHNvEfCTGutOISnrsw" name="Instant">
+          <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZvEoWXNvEfCTGutOISnrsw" name="DoctorAvailability" associationsOut="_ZvAW4HNvEfCTGutOISnrsw _ZvA98HNvEfCTGutOISnrsw _ZvA98XNvEfCTGutOISnrsw _ZvEoUHNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZvEoWnNvEfCTGutOISnrsw" position="-1458.0,44.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ZvEoW3NvEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="DoctorMicroService.uml#_XYUMUHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ZvEoXHNvEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="DoctorMicroService.uml#_XYZr4HNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_ZvEoXXNvEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_ZvEoXnNvEfCTGutOISnrsw" name="id">
+      <modelElement href="DoctorMicroService.uml#_Xg2dQHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvEoX3NvEfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="DoctorMicroService.uml#_Xg2dQXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZvEoYHNvEfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="DoctorMicroService.uml#_Xg3EUHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvEoYXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvEoYnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvEoY3NvEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvEoZHNvEfCTGutOISnrsw" name="doctorId">
+      <modelElement href="DoctorMicroService.uml#_Xg3EUXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvEoZXNvEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorMicroService.uml#_Xg3EUnNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvEoZnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvEoZ3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvEoaHNvEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvEoaXNvEfCTGutOISnrsw" name="dailySlots">
+      <modelElement href="DoctorMicroService.uml#_Xg3EU3NvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvEoanNvEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorMicroService.uml#_Xg3EVXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvEoa3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvEobHNvEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ZvEobXNvEfCTGutOISnrsw" name="DailySlot">
+        <modelElement href="DoctorMicroService.uml#_XYWokHNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvEobnNvEfCTGutOISnrsw" name="leaveDates">
+      <modelElement href="DoctorMicroService.uml#_Xg3EVnNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvEob3NvEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorMicroService.uml#_Xg3EWHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvEocHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvEocXNvEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ZvEocnNvEfCTGutOISnrsw" name="Instant">
+        <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvEoc3NvEfCTGutOISnrsw" name="createdAt">
+      <modelElement href="DoctorMicroService.uml#_Xg3rYHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvEodHNvEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="DoctorMicroService.uml#_Xg3rYXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZvEodXNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_Xg3rZnNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvEodnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvEod3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvEoeHNvEfCTGutOISnrsw" name="Instant">
+        <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvEoeXNvEfCTGutOISnrsw" name="updatedAt">
+      <modelElement href="DoctorMicroService.uml#_Xg4ScHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvEoenNvEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="DoctorMicroService.uml#_Xg4ScXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZvEoe3NvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_Xg45gHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvEofHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvEofXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvEofnNvEfCTGutOISnrsw" name="Instant">
+        <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZvEof3NvEfCTGutOISnrsw" name="DoctorAvailability">
+      <modelElement href="DoctorMicroService.uml#_XYWBgHNvEfCTGutOISnrsw"/>
+      <keywords xmi:id="_ZvEogHNvEfCTGutOISnrsw" keyword="create"/>
+      <visibility xmi:id="_ZvEogXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvEognNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvEog3NvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XYWBg3NvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvEohHNvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZvEohXNvEfCTGutOISnrsw" name="DoctorAvailability">
+      <modelElement href="DoctorMicroService.uml#_XgIrkHNvEfCTGutOISnrsw"/>
+      <keywords xmi:id="_ZvEohnNvEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_ZvEoh3NvEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorMicroService.uml#_XgJSo3NvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvEoiHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvEoiXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvEoinNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgJSonNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvEoi3NvEfCTGutOISnrsw" name="DoctorAvailability">
+          <modelElement href="DoctorMicroService.uml#_XYTlQHNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZvEojHNvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_XgIrkXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvEojXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvEojnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvEoj3NvEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorMicroService.uml#_XgIrknNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvEokHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvEokXNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvEoknNvEfCTGutOISnrsw" name="dailySlots">
+        <modelElement href="DoctorMicroService.uml#_XgIrk3NvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvEok3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvEolHNvEfCTGutOISnrsw" name="List">
+          <modelElement href="DoctorMicroService.uml#_XeynwnNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvEolXNvEfCTGutOISnrsw" name="leaveDates">
+        <modelElement href="DoctorMicroService.uml#_XgIrlHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvEolnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvEol3NvEfCTGutOISnrsw" name="List">
+          <modelElement href="DoctorMicroService.uml#_XeynwnNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvEomHNvEfCTGutOISnrsw" name="createdAt">
+        <modelElement href="DoctorMicroService.uml#_XgIrlXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvEomXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvEomnNvEfCTGutOISnrsw" name="Instant">
+          <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvEom3NvEfCTGutOISnrsw" name="updatedAt">
+        <modelElement href="DoctorMicroService.uml#_XgIrlnNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvEonHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvEonXNvEfCTGutOISnrsw" name="Instant">
+          <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZwasIHNvEfCTGutOISnrsw" name="DoctorMicroServiceApplicationTests">
+    <modelElement href="DoctorMicroService.uml#_XZLvAHNvEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZwasIXNvEfCTGutOISnrsw" position="-643.0,173.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ZwasInNvEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="DoctorMicroService.uml#_XZMWEHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ZwasI3NvEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="DoctorMicroService.uml#_XZM9IHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_ZwasJHNvEfCTGutOISnrsw" label="~"/>
+    <operations xmi:id="_ZwasJXNvEfCTGutOISnrsw" name="contextLoads">
+      <modelElement href="DoctorMicroService.uml#_XZMWEXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZwasJnNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XZMWEnNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZwasJ3NvEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_ZwasKHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZvgGIHNvEfCTGutOISnrsw" name="Doctor" associationsOut="_ZvVHAHNvEfCTGutOISnrsw _ZvVuEHNvEfCTGutOISnrsw _ZvVuEXNvEfCTGutOISnrsw">
+    <modelElement href="DoctorMicroService.uml#_XYGJ4HNvEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZvgGIXNvEfCTGutOISnrsw" position="-626.0,-279.0" size="634.0,431.0"/>
+    <stereotypes xmi:id="_ZvgGInNvEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="DoctorMicroService.uml#_XYGJ4XNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ZvgGI3NvEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="DoctorMicroService.uml#_XYM3kHNvEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_ZvgGJHNvEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_ZvgGJXNvEfCTGutOISnrsw" name="id">
+      <modelElement href="DoctorMicroService.uml#_XgmloHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgGJnNvEfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="DoctorMicroService.uml#_Xgpo8HNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZvgGJ3NvEfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="DoctorMicroService.uml#_XgqQAHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvgGKHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgGKXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvgtMHNvEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvgtMXNvEfCTGutOISnrsw" name="customId">
+      <modelElement href="DoctorMicroService.uml#_XgqQAXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgtMnNvEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="DoctorMicroService.uml#_Xgq3EHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZvgtM3NvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XgsFMXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvgtNHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgtNXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvgtNnNvEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvgtN3NvEfCTGutOISnrsw" name="firstName">
+      <modelElement href="DoctorMicroService.uml#_XgssQHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgtOHNvEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="DoctorMicroService.uml#_XgssQXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZvgtOXNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XgtTUXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvgtOnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgtO3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvgtPHNvEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvgtPXNvEfCTGutOISnrsw" name="lastName">
+      <modelElement href="DoctorMicroService.uml#_Xgt6YHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgtPnNvEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="DoctorMicroService.uml#_Xgt6YXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZvgtP3NvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XguhcXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvgtQHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgtQXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvgtQnNvEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvgtQ3NvEfCTGutOISnrsw" name="specialization">
+      <modelElement href="DoctorMicroService.uml#_XgvIgHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgtRHNvEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorMicroService.uml#_XgvIgXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvgtRXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgtRnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvgtR3NvEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvgtSHNvEfCTGutOISnrsw" name="contactNumber">
+      <modelElement href="DoctorMicroService.uml#_XgvIgnNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgtSXNvEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="DoctorMicroService.uml#_XgvvkHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZvgtSnNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XgwWoXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvgtS3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgtTHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvgtTXNvEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvgtTnNvEfCTGutOISnrsw" name="email">
+      <modelElement href="DoctorMicroService.uml#_XgwWpHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgtT3NvEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorMicroService.uml#_XgxkwHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvgtUHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgtUXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvgtUnNvEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvgtU3NvEfCTGutOISnrsw" name="licenseNumber">
+      <modelElement href="DoctorMicroService.uml#_XgxkwXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgtVHNvEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="DoctorMicroService.uml#_XgyL0HNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZvgtVXNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_Xgyy4HNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvgtVnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgtV3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvgtWHNvEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvgtWXNvEfCTGutOISnrsw" name="consultationFee">
+      <modelElement href="DoctorMicroService.uml#_Xgyy43NvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgtWnNvEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="DoctorMicroService.uml#_XgzZ8HNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZvgtW3NvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_Xg0BAXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvgtXHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgtXXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvgtXnNvEfCTGutOISnrsw" name="Double">
+        <modelElement href="DoctorMicroService.uml#_Xf8eUXNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvgtX3NvEfCTGutOISnrsw" name="createdAt">
+      <modelElement href="DoctorMicroService.uml#_Xg0BBHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgtYHNvEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="DoctorMicroService.uml#_Xg0oEHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZvgtYXNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_Xg0oFXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvgtYnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgtY3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvgtZHNvEfCTGutOISnrsw" name="Instant">
+        <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvgtZXNvEfCTGutOISnrsw" name="updatedAt">
+      <modelElement href="DoctorMicroService.uml#_Xg1PIHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgtZnNvEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="DoctorMicroService.uml#_Xg1PIXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZvgtZ3NvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_Xg12MHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvgtaHNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgtaXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvgtanNvEfCTGutOISnrsw" name="Instant">
+        <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zvgta3NvEfCTGutOISnrsw" name="experience">
+      <modelElement href="DoctorMicroService.uml#_Xg12M3NvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgtbHNvEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorMicroService.uml#_Xg12NHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvgtbXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgtbnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zvgtb3NvEfCTGutOISnrsw" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZvgtcHNvEfCTGutOISnrsw" name="education">
+      <modelElement href="DoctorMicroService.uml#_Xg12NXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgtcXNvEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorMicroService.uml#_Xg12NnNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvgtcnNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zvgtc3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZvgtdHNvEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZvgtdXNvEfCTGutOISnrsw" name="Doctor">
+      <modelElement href="DoctorMicroService.uml#_XYHYAHNvEfCTGutOISnrsw"/>
+      <keywords xmi:id="_ZvgtdnNvEfCTGutOISnrsw" keyword="create"/>
+      <visibility xmi:id="_Zvgtd3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgteHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvgteXNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XYImInNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvgtenNvEfCTGutOISnrsw" name="Doctor">
+          <modelElement href="DoctorMicroService.uml#_XYGJ4HNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Zvgte3NvEfCTGutOISnrsw" name="hashCode">
+      <modelElement href="DoctorMicroService.uml#_XYKbUHNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgtfHNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XYLCYXNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvgtfXNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgtfnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zvgtf3NvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XYLCYHNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvgtgHNvEfCTGutOISnrsw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZvgtgXNvEfCTGutOISnrsw" name="toString">
+      <modelElement href="DoctorMicroService.uml#_XYLpcXNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgtgnNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XYMQgHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zvgtg3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgthHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvgthXNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XYLpcnNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvgthnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Zvgth3NvEfCTGutOISnrsw" name="Doctor">
+      <modelElement href="DoctorMicroService.uml#_Xf-6kHNvEfCTGutOISnrsw"/>
+      <keywords xmi:id="_ZvgtiHNvEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_ZvgtiXNvEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorMicroService.uml#_XgAIsHNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZvgtinNvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zvgti3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvgtjHNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_Xf_hr3NvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvgtjXNvEfCTGutOISnrsw" name="Doctor">
+          <modelElement href="DoctorMicroService.uml#_XYGJ4HNvEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZvgtjnNvEfCTGutOISnrsw" name="id">
+        <modelElement href="DoctorMicroService.uml#_Xf_hoHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zvgtj3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvgtkHNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvgtkXNvEfCTGutOISnrsw" name="customId">
+        <modelElement href="DoctorMicroService.uml#_Xf_hoXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvgtknNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zvgtk3NvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvgtlHNvEfCTGutOISnrsw" name="firstName">
+        <modelElement href="DoctorMicroService.uml#_Xf_honNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvgtlXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvgtlnNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zvgtl3NvEfCTGutOISnrsw" name="lastName">
+        <modelElement href="DoctorMicroService.uml#_Xf_ho3NvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvgtmHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvgtmXNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvgtmnNvEfCTGutOISnrsw" name="specialization">
+        <modelElement href="DoctorMicroService.uml#_Xf_hpHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zvgtm3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvgtnHNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvgtnXNvEfCTGutOISnrsw" name="contactNumber">
+        <modelElement href="DoctorMicroService.uml#_Xf_hpXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvgtnnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zvgtn3NvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvgtoHNvEfCTGutOISnrsw" name="email">
+        <modelElement href="DoctorMicroService.uml#_Xf_hpnNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvgtoXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvgtonNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zvgto3NvEfCTGutOISnrsw" name="licenseNumber">
+        <modelElement href="DoctorMicroService.uml#_Xf_hp3NvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvgtpHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvgtpXNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvgtpnNvEfCTGutOISnrsw" name="consultationFee">
+        <modelElement href="DoctorMicroService.uml#_Xf_hqHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zvgtp3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvgtqHNvEfCTGutOISnrsw" name="Double">
+          <modelElement href="DoctorMicroService.uml#_Xf8eUXNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvgtqXNvEfCTGutOISnrsw" name="createdAt">
+        <modelElement href="DoctorMicroService.uml#_Xf_hqXNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvgtqnNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zvgtq3NvEfCTGutOISnrsw" name="Instant">
+          <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvgtrHNvEfCTGutOISnrsw" name="updatedAt">
+        <modelElement href="DoctorMicroService.uml#_Xf_hqnNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvgtrXNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvgtrnNvEfCTGutOISnrsw" name="Instant">
+          <modelElement href="DoctorMicroService.uml#_XewykXNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zvgtr3NvEfCTGutOISnrsw" name="experience">
+        <modelElement href="DoctorMicroService.uml#_Xf_hq3NvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvgtsHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvgtsXNvEfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZvgtsnNvEfCTGutOISnrsw" name="education">
+        <modelElement href="DoctorMicroService.uml#_Xf_hrHNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zvgts3NvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvgttHNvEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZvgttXNvEfCTGutOISnrsw" name="equals">
+      <modelElement href="DoctorMicroService.uml#_XgBW0HNvEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZvgttnNvEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorMicroService.uml#_XgB94XNvEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zvgtt3NvEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZvgtuHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZvgtuXNvEfCTGutOISnrsw">
+        <modelElement href="DoctorMicroService.uml#_XgB94HNvEfCTGutOISnrsw"/>
+        <type xmi:id="_ZvgtunNvEfCTGutOISnrsw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zvgtu3NvEfCTGutOISnrsw" name="o">
+        <modelElement href="DoctorMicroService.uml#_XgBW0XNvEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZvgtvHNvEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZvgtvXNvEfCTGutOISnrsw" name="Object">
+          <modelElement href="DoctorMicroService.uml#_XgAIsXNvEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

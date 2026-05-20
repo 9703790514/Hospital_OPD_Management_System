@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+  --primary-color: #0056b3;
+  --secondary-color: #28a745;
+  --text-color: #333;
+  --light-gray: #f7f9fc;
+  --medium-gray: #e9ecef;
+  --border-color: #dee2e6;
+  --card-bg: #fff;
+  --font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--light-gray);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.billing-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background-color: var(--primary-color);
+  border-radius: 2px;
+}
+
+.details-card {
+  background-color: var(--light-gray);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-left: 5px solid var(--primary-color);
+}
+
+.details-card h3 {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.details-card p {
+  margin: 5px 0;
+  font-size: 0.95em;
+}
+
+.details-card strong {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: var(--border-color);
+  margin: 40px 0;
+}
+
+/* Search and Suggestions */
+.search-form {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.search-form label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.search-form input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.search-form input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.2);
+}
+
+.suggestions-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.suggestions-list li {
+  padding: 12px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.2s ease;
+}
+
+.suggestions-list li:last-child {
+  border-bottom: none;
+}
+
+.suggestions-list li:hover {
+  background-color: var(--light-gray);
+  color: var(--primary-color);
+}
+
+/* Bill Items Table */
+.bill-items-list h2 {
+  font-size: 1.8em;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.bill-items-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.bill-items-table th,
+.bill-items-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.bill-items-table th {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+}
+
+.bill-items-table tbody tr:hover {
+  background-color: var(--light-gray);
+}
+
+.bill-items-table td input[type="number"] {
+  width: 60px;
+  padding: 6px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.bill-items-table .remove-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.bill-items-table .remove-btn:hover {
+  background-color: #c82333;
+}
+
+.bill-items-table tfoot td {
+  font-weight: 700;
+  font-size: 1.2em;
+  border-top: 2px solid var(--primary-color);
+  text-align: right;
+  padding-top: 20px;
+}
+
+.bill-items-table tfoot td:first-child {
+  text-align: left;
+}
+
+/* Buttons */
+.generate-pdf-btn,
+.upload-bill-btn {
+  padding: 12px 25px;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.generate-pdf-btn {
+  background-color: var(--primary-color);
+}
+
+.generate-pdf-btn:hover {
+  background-color: #004494;
+  transform: translateY(-2px);
+}
+
+.upload-bill-btn {
+  background-color: var(--secondary-color);
+}
+
+.upload-bill-btn:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+/* Bill Details Form */
+.bill-details-form {
+  margin-top: 40px;
+  padding: 30px;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  background-color: var(--light-gray);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.bill-details-form h2 {
+  font-size: 1.8em;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 25px;
+  color: var(--primary-color);
+}
+
+.bill-details-form form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.bill-details-form label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.bill-details-form input[type="number"],
+.bill-details-form input[type="text"],
+.bill-details-form select,
+.bill-details-form input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--card-bg);
+  transition: all 0.3s ease;
+}
+
+.bill-details-form input[type="number"]:focus,
+.bill-details-form input[type="text"]:focus,
+.bill-details-form select:focus,
+.bill-details-form input[type="file"]:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.2);
+}
+
+.bill-details-form input[readonly] {
+  background-color: var(--medium-gray);
+}
+
+.bill-details-form button {
+  padding: 12px 25px;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  grid-column: span 2;
+  margin-top: 15px;
+}
+
+.bill-details-form button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+/* PDF Modal */
+.pdf-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.pdf-modal-content {
+  background: var(--card-bg);
+  border-radius: 12px;
+  width: 90%;
+  max-width: 800px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.pdf-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--light-gray);
+}
+
+.pdf-modal-header h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: var(--primary-color);
+}
+
+.pdf-modal-close {
+  background: none;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  color: #888;
+  line-height: 1;
+}
+
+.pdf-modal-body {
+  flex-grow: 1;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.pdf-modal-body iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.pdf-modal-footer {
+  padding: 20px 30px;
+  border-top: 1px solid var(--border-color);
+  text-align: right;
+  background-color: var(--light-gray);
+}
+
+.download-pdf-btn {
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-pdf-btn:hover {
+  background-color: #218838;
+}
+
+/* PDF Content Styling (for the hidden ref) */
+.pdf-header {
+  padding-bottom: 15px;
+  border-bottom: 2px solid var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.pdf-header h1 {
+  font-size: 24pt;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.pdf-header p {
+  font-size: 10pt;
+  margin: 2pt 0;
+  color: #555;
+}
+
+.pdf-bill-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11pt;
+  background-color: #e6f3ff;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.pdf-patient-info {
+  font-size: 11pt;
+  padding: 10px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.pdf-charges-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pdf-charges-table th, .pdf-charges-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 10pt;
+}
+
+.pdf-charges-table thead th {
+  background-color: #f0f8ff;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.pdf-charges-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.pdf-charges-table tfoot tr td:first-child {
+  font-weight: 700;
+  color: var(--primary-color);
+  background-color: #e6f3ff;
+}
+
+.pdf-charges-table tfoot tr td {
+  font-weight: 700;
+  background-color: #e6f3ff;
+}
+
+.pdf-payment-summary {
+  font-size: 11pt;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.pdf-footer {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #ccc;
+  font-size: 10pt;
+  color: #777;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .billing-container {
+    padding: 20px;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+  }
+  
+  .bill-details-form form {
+    grid-template-columns: 1fr;
+  }
+  
+  .bill-details-form button {
+    grid-column: span 1;
+  }
+  
+  .pdf-modal-content {
+    width: 95%;
+    height: 95%;
+  }
+  
+  .bill-items-table th,
+  .bill-items-table td {
+    padding: 10px;
+  }
+  
+  .details-card {
+    padding: 15px;
+  }
+}

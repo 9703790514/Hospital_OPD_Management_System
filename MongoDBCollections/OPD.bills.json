@@ -1,0 +1,736 @@
+[{
+  "_id": {
+    "$oid": "6883936364d9b4574f963ff5"
+  },
+  "id": "1",
+  "patient_id": "68827cfc64d9b4574f963f56",
+  "bill_date": "2025-07-01",
+  "total_amount": 1200,
+  "amount_paid": 1200,
+  "balance_due": 0,
+  "payment_method": "Credit Card",
+  "transaction_id": "TRANS12345",
+  "issued_by_user_id": "4",
+  "bill_document_url": "https://example.com/bills/bill_1.pdf",
+  "created_at": "2025-07-01T11:00:00Z",
+  "updated_at": "2025-07-01T11:00:00Z",
+  "bill_items": [
+    "688392c264d9b4574f963fde",
+    "688392c264d9b4574f963fdf"
+  ],
+  "appointment_id": "6883933864d9b4574f963ff1"
+},
+{
+  "_id": {
+    "$oid": "6883936364d9b4574f963ff6"
+  },
+  "id": "2",
+  "patient_id": 2,
+  "bill_date": "2025-07-05",
+  "total_amount": 950,
+  "amount_paid": 500,
+  "balance_due": 450,
+  "payment_method": "Cash",
+  "transaction_id": "CASH54321",
+  "issued_by_user_id": "4",
+  "bill_document_url": "https://example.com/bills/bill_2.pdf",
+  "created_at": "2025-07-05T14:30:00Z",
+  "updated_at": "2025-07-05T14:30:00Z",
+  "appointment_id": "6883933864d9b4574f963ff1"
+},
+{
+  "_id": {
+    "$oid": "6883936364d9b4574f963ff7"
+  },
+  "id": "3",
+  "patient_id": "3",
+  "bill_date": "2025-07-10",
+  "total_amount": 1500,
+  "amount_paid": 1500,
+  "balance_due": 0,
+  "payment_method": "UPI",
+  "transaction_id": "UPI789012",
+  "issued_by_user_id": "4",
+  "bill_document_url": "https://example.com/bills/bill_3.pdf",
+  "created_at": "2025-07-10T11:30:00Z",
+  "updated_at": "2025-07-10T11:30:00Z",
+  "appointment_id": "6883933864d9b4574f963fee"
+},
+{
+  "_id": {
+    "$oid": "6883936364d9b4574f963ff8"
+  },
+  "id": "4",
+  "patient_id": "4",
+  "bill_date": "2025-07-15",
+  "total_amount": 2500,
+  "amount_paid": 2500,
+  "balance_due": 0,
+  "payment_method": "Debit Card",
+  "transaction_id": "DEBIT34567",
+  "issued_by_user_id": "4",
+  "bill_document_url": "https://example.com/bills/bill_4.pdf",
+  "created_at": "2025-07-15T10:00:00Z",
+  "updated_at": "2025-07-15T10:00:00Z",
+  "appointment_id": "6883933864d9b4574f963ff1"
+},
+{
+  "_id": {
+    "$oid": "6883936364d9b4574f963ff9"
+  },
+  "id": "5",
+  "patient_id": "5",
+  "bill_date": "2025-07-20",
+  "total_amount": 650,
+  "amount_paid": 650,
+  "balance_due": 0,
+  "payment_method": "Net Banking",
+  "transaction_id": "NETBANK8901",
+  "issued_by_user_id": "4",
+  "bill_document_url": "https://example.com/bills/bill_5.pdf",
+  "created_at": "2025-07-20T16:30:00Z",
+  "updated_at": "2025-07-20T16:30:00Z",
+  "appointment_id": "6883933864d9b4574f963ff1"
+},
+{
+  "_id": {
+    "$oid": "6888c0ef06ffc8ce2fa8826d"
+  },
+  "patient_id": "6881f77864d9b4574f963f40",
+  "bill_date": "2025-07-29",
+  "total_amount": 1500,
+  "amount_paid": 0,
+  "balance_due": 1500,
+  "payment_method": "Debit Card",
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/a4d510cf-d2b8-4730-9dac-a83c1af43ca6.pdf",
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6888d25f06ffc8ce2fa8826f"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "bill_date": "2025-07-29",
+  "total_amount": 1798.5,
+  "amount_paid": 0,
+  "balance_due": 1798.5,
+  "payment_method": "Credit Card",
+  "transaction_id": "wqdx",
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/f0fcc0fe-38ba-42f2-8a53-fc1c36da3331.pdf",
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6889a96c06ffc8ce2fa88272"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "bill_date": "2025-07-30",
+  "total_amount": 3597,
+  "amount_paid": 0,
+  "balance_due": 3597,
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/d1e989da-f759-4232-80df-b67d4581f1ff.pdf",
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6889acd106ffc8ce2fa88276"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "bill_date": "2025-07-30",
+  "total_amount": 1035.5,
+  "amount_paid": 0,
+  "balance_due": 1035.5,
+  "payment_method": "Net Banking",
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/ca926c5e-511c-4a63-9452-b66ed12b25e4.pdf",
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6889bba122f1a7b734cf94e0"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "bill_date": "2025-07-30",
+  "total_amount": 1635,
+  "amount_paid": 0,
+  "balance_due": 1635,
+  "transaction_id": "regfaeg",
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/6557e762-68c1-482f-99ff-8160db28d3bc.pdf",
+  "bill_items": [
+    "6889bba122f1a7b734cf94e1"
+  ],
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6889bc2722f1a7b734cf94e2"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "bill_date": "2025-07-30",
+  "total_amount": 436,
+  "amount_paid": 0,
+  "balance_due": 436,
+  "payment_method": "Debit Card",
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/81f0ac5d-535a-4337-be8f-ce1bd4a82a2e.pdf",
+  "bill_items": [
+    "6889bc2722f1a7b734cf94e3"
+  ],
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6889bd2222f1a7b734cf94e5"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "bill_date": "2025-07-30",
+  "total_amount": 654,
+  "amount_paid": 30,
+  "balance_due": 624,
+  "payment_method": "Net Banking",
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/414015c6-e611-4b7c-83b0-2e0e92ac32b5.pdf",
+  "bill_items": [
+    "6889bd2222f1a7b734cf94e6",
+    "6889bd2222f1a7b734cf94e7"
+  ],
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6889bdee22f1a7b734cf94e9"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "bill_date": "2025-07-30",
+  "total_amount": 218,
+  "amount_paid": 0,
+  "balance_due": 218,
+  "payment_method": "Debit Card",
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/53618858-e716-488e-b972-15ff1a8b37a6.pdf",
+  "bill_items": [],
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "688faf0e22f1a7b734cf9529"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "bill_date": "2025-08-03",
+  "total_amount": 2500,
+  "amount_paid": 0,
+  "balance_due": 2500,
+  "payment_method": "UPI",
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/a0880d3d-6ddc-4816-9b4e-5f3f3362f1f5.pdf",
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "688fb01422f1a7b734cf952b"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "bill_date": "2025-08-03",
+  "total_amount": 1500,
+  "amount_paid": 0,
+  "balance_due": 1500,
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/957f6bf4-27c2-41dd-a115-96189b6bb6b2.pdf",
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "688fb0ca22f1a7b734cf952c"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "bill_date": "2025-08-03",
+  "total_amount": 200,
+  "amount_paid": 0,
+  "balance_due": 200,
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/55d28062-3f29-4ba1-a18a-819e731a7d7c.pdf",
+  "appointment_id": "6883933864d9b4574f963ff1",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6891033254acbcbbbbd161f9"
+  },
+  "patient_id": "68827cfc64d9b4574f963f56",
+  "bill_date": "2025-08-04",
+  "total_amount": 800,
+  "amount_paid": 800,
+  "balance_due": 0,
+  "payment_method": "Credit Card",
+  "status": "Pending",
+  "billType": "Consultation",
+  "transaction_id": "TRANS-612508",
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/2712222d-803c-4367-aca7-cd7206536f3e.pdf",
+  "bill_items": [
+    "Consultation",
+    "Additional Charges"
+  ],
+  "appointment_id": "688e4a4a19d12cb36b76925d",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6891039554acbcbbbbd161fa"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "bill_date": "2025-08-04",
+  "total_amount": 900,
+  "amount_paid": 900,
+  "balance_due": 0,
+  "payment_method": "Credit Card",
+  "status": "Pending",
+  "billType": "Consultation",
+  "transaction_id": "TRANS-160867",
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/c2be5267-51c4-4a88-b0f7-dd8f76baded0.pdf",
+  "bill_items": [
+    "Consultation",
+    "Additional Charges"
+  ],
+  "appointment_id": "688b01daf90eb11248632392",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6891e19854acbcbbbbd16204"
+  },
+  "patient_id": "6891d96dbeeb29d2e096f10a",
+  "bill_date": "2025-08-05",
+  "total_amount": 900,
+  "amount_paid": 900,
+  "balance_due": 0,
+  "payment_method": "Credit Card",
+  "status": "Pending",
+  "billType": "Consultation",
+  "transaction_id": "TRANS-566084",
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/4a5b0878-33a4-426e-b530-e4c1ffbd06c2.pdf",
+  "bill_items": [
+    "Consultation",
+    "Additional Charges"
+  ],
+  "appointment_id": "6891d9df19d35f4ac02fc606",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6892051454acbcbbbbd16205"
+  },
+  "patient_id": "6891d96dbeeb29d2e096f10a",
+  "bill_date": "2025-08-05",
+  "total_amount": 900,
+  "amount_paid": 900,
+  "balance_due": 0,
+  "payment_method": "Credit Card",
+  "status": "Pending",
+  "billType": "Consultation",
+  "transaction_id": "TRANS-935387",
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/b341df51-296a-4862-a96b-06210c9f9677.pdf",
+  "bill_items": [
+    "Consultation",
+    "Additional Charges"
+  ],
+  "appointment_id": "689204bd19d35f4ac02fc60b",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "68926dea54acbcbbbbd16206"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "bill_date": "2025-08-05",
+  "total_amount": 1416,
+  "amount_paid": 1416,
+  "balance_due": 0,
+  "payment_method": "",
+  "transaction_id": "TRANS-2djvDYKQdf",
+  "issued_by_user_id": "4",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/fcf77562-edb6-40e5-8a43-110a608d6a7d.pdf",
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6892711463bbad70b66e13a9"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "bill_date": "2025-08-05",
+  "total_amount": 2301,
+  "amount_paid": 123,
+  "balance_due": 2178,
+  "payment_method": "Credit Card",
+  "transaction_id": "TRANS-2NUQCE3xER",
+  "issued_by_user_id": "4",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/cabdad6d-cb46-4694-86a1-471b1aecf0ff.pdf",
+  "created_at": {
+    "$date": "2025-08-05T20:52:13.281Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-05T20:52:13.281Z"
+  },
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6892db1363bbad70b66e13aa"
+  },
+  "patient_id": "68827cfc64d9b4574f963f52",
+  "bill_date": "2025-08-06",
+  "total_amount": 1829,
+  "amount_paid": 0,
+  "balance_due": 1829,
+  "payment_method": "Cash",
+  "transaction_id": "TRANS-V9e0uMbl57",
+  "issued_by_user_id": "4",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/6e0bb152-9c28-4176-87c3-dc666f28ec5a.pdf",
+  "created_at": {
+    "$date": "2025-08-06T04:33:21.725Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-06T04:33:21.725Z"
+  },
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6893055463bbad70b66e13ab"
+  },
+  "patient_id": "6891d96dbeeb29d2e096f10a",
+  "bill_date": "2025-08-06",
+  "total_amount": 944,
+  "amount_paid": 800,
+  "balance_due": 0,
+  "payment_method": "Credit Card",
+  "status": "Pending",
+  "billType": "Consultation",
+  "transaction_id": "TRANS-841037",
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/f404e61c-df9e-4b2e-b396-cc3bd50899fb.pdf",
+  "appointment_id": "6893036719d35f4ac02fc60c",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6893068063bbad70b66e13ac"
+  },
+  "patient_id": "6891d96dbeeb29d2e096f10a",
+  "bill_date": "2025-08-06",
+  "total_amount": 236,
+  "amount_paid": 0,
+  "balance_due": 236,
+  "payment_method": "",
+  "transaction_id": "TRANS-flg0WJcSsc",
+  "issued_by_user_id": "4",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/330bcf51-c62d-451e-85f1-e7d3c4157a59.pdf",
+  "created_at": {
+    "$date": "2025-08-06T07:38:39.098Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-06T07:38:39.098Z"
+  },
+  "appointment_id": "6893036719d35f4ac02fc60c",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "689307e163bbad70b66e13ad"
+  },
+  "patient_id": "6891d96dbeeb29d2e096f10a",
+  "bill_date": "2025-08-06",
+  "total_amount": 0,
+  "amount_paid": 0,
+  "balance_due": 0,
+  "payment_method": "",
+  "transaction_id": "TRANS-ydKT3uiNoR",
+  "issued_by_user_id": "4",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/97cb9439-cfcb-4ce7-b865-918f992578c7.pdf",
+  "created_at": {
+    "$date": "2025-08-06T07:44:30.206Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-06T07:44:30.206Z"
+  },
+  "appointment_id": "6893036719d35f4ac02fc60c",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6893096e63bbad70b66e13ae"
+  },
+  "patient_id": "6891d96dbeeb29d2e096f10a",
+  "bill_date": "2025-08-06",
+  "total_amount": 944,
+  "amount_paid": 944,
+  "balance_due": 0,
+  "payment_method": "Credit Card",
+  "status": "Pending",
+  "billType": "Consultation",
+  "transaction_id": "TRANS-289626",
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/f20e5700-0405-4674-acd5-d9bf434f0ee6.pdf",
+  "appointment_id": "6893092719d35f4ac02fc60d",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "68930a6563bbad70b66e13af"
+  },
+  "patient_id": "6891d96dbeeb29d2e096f10a",
+  "bill_date": "2025-08-06",
+  "total_amount": 472,
+  "amount_paid": 472,
+  "balance_due": 0,
+  "payment_method": "Cash",
+  "transaction_id": "TRANS-iN8hZE9OiX",
+  "issued_by_user_id": "4",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/d4c79f3f-6f69-4223-8347-2ff463e1a6b8.pdf",
+  "created_at": {
+    "$date": "2025-08-06T07:55:16.399Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-06T07:55:16.399Z"
+  },
+  "appointment_id": "6893092719d35f4ac02fc60d",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "689329b663bbad70b66e13b0"
+  },
+  "patient_id": "6891d96dbeeb29d2e096f10a",
+  "bill_date": "2025-08-06",
+  "total_amount": 944,
+  "amount_paid": 944,
+  "balance_due": 0,
+  "payment_method": "Cash",
+  "status": "Pending",
+  "billType": "Consultation",
+  "transaction_id": "TRANS-262854",
+  "issued_by_user_id": "mockUser123",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/88dd4a66-eee6-40e1-9b50-289e05b532e7.pdf",
+  "appointment_id": "689328d819d35f4ac02fc60e",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "68932ae963bbad70b66e13b1"
+  },
+  "patient_id": "6891d96dbeeb29d2e096f10a",
+  "bill_date": "2025-08-06",
+  "total_amount": 472,
+  "amount_paid": 472,
+  "balance_due": 0,
+  "payment_method": "Cash",
+  "transaction_id": "TRANS-tKUKCxqwgk",
+  "issued_by_user_id": "4",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/4f11d350-f278-42cb-8354-d4f838776127.pdf",
+  "created_at": {
+    "$date": "2025-08-06T10:13:58.947Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-06T10:13:58.947Z"
+  },
+  "appointment_id": "689328d819d35f4ac02fc60e",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6894468a63bbad70b66e13b2"
+  },
+  "patient_id": "6891d96dbeeb29d2e096f10a",
+  "bill_date": "2025-08-07",
+  "total_amount": 885,
+  "amount_paid": 885,
+  "balance_due": 0,
+  "payment_method": "Cash",
+  "status": "Pending",
+  "billType": "Consultation",
+  "transaction_id": "TRANS-356207",
+  "issued_by_user_id": "84525",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/b785fbdd-53b0-468f-bfac-dbee58aff5e2.pdf",
+  "appointment_id": "6894464019d35f4ac02fc612",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "6894475163bbad70b66e13b3"
+  },
+  "patient_id": "6891d96dbeeb29d2e096f10a",
+  "bill_date": "2025-08-07",
+  "total_amount": 472,
+  "amount_paid": 472,
+  "balance_due": 0,
+  "payment_method": "Cash",
+  "transaction_id": "TRANS-3YyeYGZvwJ",
+  "issued_by_user_id": "4",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/09005c59-bfc1-408d-946f-8111098c38b8.pdf",
+  "created_at": {
+    "$date": "2025-08-07T06:27:27.789Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-07T06:27:27.789Z"
+  },
+  "appointment_id": "6894464019d35f4ac02fc612",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "689c55c26e262c4e48f1b6ee"
+  },
+  "patient_id": "68827cfc64d9b4574f963f56",
+  "bill_date": "2025-08-13",
+  "total_amount": 1062,
+  "amount_paid": 900,
+  "balance_due": 162,
+  "payment_method": "Credit Card",
+  "status": "Pending",
+  "billType": "Consultation",
+  "transaction_id": "TRANS-596529",
+  "issued_by_user_id": "84525",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/3f7ceada-f13c-415a-839b-0987b56d70bd.pdf",
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "689d766e6e262c4e48f1b6ef"
+  },
+  "patient_id": "6891d96dbeeb29d2e096f10a",
+  "bill_date": "2025-08-14",
+  "total_amount": 920.4,
+  "amount_paid": 920.4,
+  "balance_due": 0,
+  "payment_method": "Credit Card",
+  "status": "Pending",
+  "billType": "Consultation",
+  "transaction_id": "TRANS-971202",
+  "issued_by_user_id": "84525",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/df36b2ea-2507-4747-b659-be86c1d9c481.pdf",
+  "appointment_id": "689d75dd583b3b5a815559b8",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "689d77266e262c4e48f1b6f0"
+  },
+  "patient_id": "68827cfc64d9b4574f963f56",
+  "bill_date": "2025-08-14",
+  "total_amount": 824.8199999999999,
+  "amount_paid": 824,
+  "balance_due": 0.8199999999999363,
+  "payment_method": "Cash",
+  "transaction_id": "TRANS-5qdHvK4VoM",
+  "issued_by_user_id": "4",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/371680f8-68d1-417b-a8d1-3254534b4c02.pdf",
+  "created_at": {
+    "$date": "2025-08-14T05:41:56.849Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-14T05:41:56.849Z"
+  },
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "68a08013d31418f376e452d7"
+  },
+  "patient_id": "68a07e4e6b3c1f6e542a2525",
+  "bill_date": "2025-08-16",
+  "total_amount": 920.4,
+  "amount_paid": 920.4,
+  "balance_due": 0,
+  "payment_method": "Credit Card",
+  "status": "Pending",
+  "billType": "Consultation",
+  "transaction_id": "TRANS-220944",
+  "issued_by_user_id": "84525",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/c22349e2-3178-4724-835f-333b4b27c36f.pdf",
+  "appointment_id": "68a07f8d15d85801acbfaf8e",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "68a0818ed31418f376e452d8"
+  },
+  "patient_id": "68a07e4e6b3c1f6e542a2525",
+  "bill_date": "2025-08-16",
+  "total_amount": 472,
+  "amount_paid": 472,
+  "balance_due": 0,
+  "payment_method": "Cash",
+  "transaction_id": "TRANS-O2AvnCwRWB",
+  "issued_by_user_id": "4",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/98b85ad5-dd96-41c0-ae0b-e081a6fc0d48.pdf",
+  "created_at": {
+    "$date": "2025-08-16T13:03:08.181Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-16T13:03:08.181Z"
+  },
+  "appointment_id": "68a07f8d15d85801acbfaf8e",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "68a17a48d31418f376e452d9"
+  },
+  "patient_id": "68a178fb6b3c1f6e542a2527",
+  "bill_date": "2025-08-17",
+  "total_amount": 944,
+  "amount_paid": 944,
+  "balance_due": 0,
+  "payment_method": "Credit Card",
+  "status": "Pending",
+  "billType": "Consultation",
+  "transaction_id": "TRANS-278169",
+  "issued_by_user_id": "84525",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/74628145-89b1-450e-967e-afca2c8751c1.pdf",
+  "appointment_id": "68a1796415d85801acbfaf91",
+  "_class": "training.iqgateway.entities.Bill"
+},
+{
+  "_id": {
+    "$oid": "68a17cb0d31418f376e452da"
+  },
+  "patient_id": "68a178fb6b3c1f6e542a2527",
+  "bill_date": "2025-08-17",
+  "total_amount": 824.8199999999999,
+  "amount_paid": 824,
+  "balance_due": 0.8199999999999363,
+  "payment_method": "Cash",
+  "transaction_id": "TRANS-eRBpiwLHQR",
+  "issued_by_user_id": "4",
+  "bill_document_url": "http://localhost:2009/uploads/bill_documents/9c87b5e3-1bf1-4668-92b7-cd482a1809c3.pdf",
+  "created_at": {
+    "$date": "2025-08-17T06:54:38.263Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-17T06:54:38.263Z"
+  },
+  "appointment_id": "68a1796415d85801acbfaf91",
+  "_class": "training.iqgateway.entities.Bill"
+}]

@@ -1,0 +1,414 @@
+[{
+  "_id": {
+    "$oid": "688393a664d9b4574f963ffc"
+  },
+  "id": 1,
+  "patient_id": "6881f77864d9b4574f963f40",
+  "doctor_id": 1,
+  "record_date": {
+    "$date": "2025-07-01T00:00:00.000Z"
+  },
+  "chief_complaint": "Chest pain, mild fatigue",
+  "diagnosis": "Angina Pectoris",
+  "treatment_plan": "Medication (Nitroglycerin), lifestyle changes, follow-up.",
+  "notes": "Patient advised to reduce stress.",
+  "created_at": {
+    "$date": "2025-07-01T10:30:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-01T10:30:00.000Z"
+  },
+  "created_by_user_id": 2
+},
+{
+  "_id": {
+    "$oid": "688393a664d9b4574f963ffd"
+  },
+  "id": 2,
+  "patient_id": "68827cfc64d9b4574f963f56",
+  "doctor_id": 2,
+  "record_date": {
+    "$date": "2025-07-05T00:00:00.000Z"
+  },
+  "chief_complaint": "Fever and cough in child",
+  "diagnosis": "Viral Bronchitis",
+  "treatment_plan": "Rest, fluids, symptomatic relief.",
+  "notes": "Advised parents on fever management.",
+  "created_at": {
+    "$date": "2025-07-05T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-05T14:00:00.000Z"
+  },
+  "created_by_user_id": 10
+},
+{
+  "_id": {
+    "$oid": "688393a664d9b4574f963ffe"
+  },
+  "id": 3,
+  "patient_id": "6881f77864d9b4574f963f40",
+  "doctor_id": 3,
+  "record_date": {
+    "$date": "2025-07-10T00:00:00.000Z"
+  },
+  "chief_complaint": "Skin rash on arms",
+  "diagnosis": "Eczema",
+  "treatment_plan": "Topical corticosteroids, moisturizers.",
+  "notes": "Identified contact irritants.",
+  "created_at": {
+    "$date": "2025-07-10T11:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-10T11:00:00.000Z"
+  },
+  "created_by_user_id": 11
+},
+{
+  "_id": {
+    "$oid": "688393a664d9b4574f963fff"
+  },
+  "id": 4,
+  "patient_id": "6881f77864d9b4574f963f40",
+  "doctor_id": 4,
+  "record_date": {
+    "$date": "2025-07-15T00:00:00.000Z"
+  },
+  "chief_complaint": "Knee pain after sports",
+  "diagnosis": "ACL Sprain (Grade I)",
+  "treatment_plan": "RICE protocol, physiotherapy referral.",
+  "notes": "Patient advised gentle movement.",
+  "created_at": {
+    "$date": "2025-07-15T09:45:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-15T09:45:00.000Z"
+  },
+  "created_by_user_id": 12
+},
+{
+  "_id": {
+    "$oid": "688393a664d9b4574f964000"
+  },
+  "id": 5,
+  "patient_id": "6881f77864d9b4574f963f40",
+  "doctor_id": 5,
+  "record_date": {
+    "$date": "2025-07-20T00:00:00.000Z"
+  },
+  "chief_complaint": "Routine check-up, general wellness",
+  "diagnosis": "Healthy",
+  "treatment_plan": "Continue current lifestyle.",
+  "notes": "Normal vitals, no concerns.",
+  "created_at": {
+    "$date": "2025-07-20T16:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-20T16:00:00.000Z"
+  },
+  "created_by_user_id": 13
+},
+{
+  "_id": {
+    "$oid": "689202297be7903795367c0a"
+  },
+  "diagnosis": "Degenerative disc disease",
+  "notes": "Patient appears to be in good health.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689202e57be7903795367c0b"
+  },
+  "diagnosis": "Healthy",
+  "notes": "Patient reports no pain.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689203217be7903795367c0c"
+  },
+  "diagnosis": "Routine Check-up",
+  "notes": "Normal vitals, no concerns.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689204bd7be7903795367c0d"
+  },
+  "diagnosis": "Degenerative disc disease",
+  "notes": "Patient reports no pain.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "68930367fe671b70c63f2bbd"
+  },
+  "diagnosis": "Healthy",
+  "notes": "Discussed prevention methods.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "68930927fe671b70c63f2bc1"
+  },
+  "diagnosis": "Routine Check-up",
+  "notes": "Normal vitals, no concerns.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689328d8fe671b70c63f2bc5"
+  },
+  "diagnosis": "Mild Strain",
+  "notes": "Patient reports no pain.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "6894180bfe671b70c63f2bca"
+  },
+  "diagnosis": "Mild Strain",
+  "notes": "Patient reports no pain.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "68944640fe671b70c63f2bcc"
+  },
+  "diagnosis": "Degenerative disc disease",
+  "notes": "Normal vitals, no concerns.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "68944922fe671b70c63f2bd0"
+  },
+  "diagnosis": "Routine Check-up",
+  "notes": "Patient reports no pain.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689ae398095b6f512e3cb14c"
+  },
+  "diagnosis": "Mild Strain",
+  "notes": "Normal vitals, no concerns.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689ae544095b6f512e3cb14d"
+  },
+  "diagnosis": "Healthy",
+  "notes": "Patient appears to be in good health.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689ae75b9892864f2b9d8bfd"
+  },
+  "diagnosis": "Inflammation",
+  "notes": "Patient appears to be in good health.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689ae7889892864f2b9d8bfe"
+  },
+  "diagnosis": "Mild Strain",
+  "notes": "Discussed prevention methods.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689aeab99892864f2b9d8bff"
+  },
+  "diagnosis": "Mild Strain",
+  "notes": "Discussed prevention methods.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689aec0e9892864f2b9d8c00"
+  },
+  "diagnosis": "Degenerative disc disease",
+  "notes": "Patient reports no pain.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689aec2f9892864f2b9d8c01"
+  },
+  "diagnosis": "Healthy",
+  "notes": "Discussed prevention methods.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689aecc59892864f2b9d8c02"
+  },
+  "diagnosis": "Degenerative disc disease",
+  "notes": "Normal vitals, no concerns.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689c7b0d9892864f2b9d8c03"
+  },
+  "diagnosis": "Inflammation",
+  "notes": "Normal vitals, no concerns.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689c7d389892864f2b9d8c04"
+  },
+  "diagnosis": "Routine Check-up",
+  "notes": "Normal vitals, no concerns.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689c7e819892864f2b9d8c05"
+  },
+  "diagnosis": "Degenerative disc disease",
+  "notes": "Discussed prevention methods.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689c7ee49892864f2b9d8c06"
+  },
+  "diagnosis": "Mild Strain",
+  "notes": "Normal vitals, no concerns.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689c7fea9892864f2b9d8c07"
+  },
+  "diagnosis": "Mild Strain",
+  "notes": "Patient reports no pain.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689c7ff69892864f2b9d8c08"
+  },
+  "diagnosis": "Inflammation",
+  "notes": "Normal vitals, no concerns.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689c803a9892864f2b9d8c09"
+  },
+  "diagnosis": "Inflammation",
+  "notes": "Discussed prevention methods.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689c804a9892864f2b9d8c0a"
+  },
+  "diagnosis": "Degenerative disc disease",
+  "notes": "Discussed prevention methods.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689c805c9892864f2b9d8c0b"
+  },
+  "diagnosis": "Mild Strain",
+  "notes": "Normal vitals, no concerns.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689c814d9892864f2b9d8c0c"
+  },
+  "diagnosis": "Inflammation",
+  "notes": "Discussed prevention methods.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689c86029892864f2b9d8c0d"
+  },
+  "diagnosis": "Healthy",
+  "notes": "Patient reports no pain.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689d75dc9892864f2b9d8c0e"
+  },
+  "diagnosis": "Degenerative disc disease",
+  "notes": "Discussed prevention methods.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "689ed5019892864f2b9d8c0f"
+  },
+  "diagnosis": "Healthy",
+  "notes": "Patient appears to be in good health.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "68a07f8dea04f7fc278020c9"
+  },
+  "diagnosis": "Degenerative disc disease",
+  "notes": "Patient appears to be in good health.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "68a08355ea04f7fc278020cd"
+  },
+  "diagnosis": "Routine Check-up",
+  "notes": "Patient appears to be in good health.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "68a16d72ea04f7fc278020d0"
+  },
+  "diagnosis": "Degenerative disc disease",
+  "notes": "Discussed prevention methods.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "68a17964ea04f7fc278020d2"
+  },
+  "diagnosis": "Degenerative disc disease",
+  "notes": "Patient reports no pain.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "68a17efdea04f7fc278020d8"
+  },
+  "diagnosis": "Healthy",
+  "notes": "Normal vitals, no concerns.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "68a312e4ea04f7fc278020d9"
+  },
+  "diagnosis": "Routine Check-up",
+  "notes": "Patient appears to be in good health.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+},
+{
+  "_id": {
+    "$oid": "68a313e1ea04f7fc278020da"
+  },
+  "diagnosis": "Degenerative disc disease",
+  "notes": "Patient reports no pain.",
+  "_class": "training.iqgateway.entities.MedicalRecord"
+}]

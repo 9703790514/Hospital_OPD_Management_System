@@ -1,0 +1,578 @@
+[{
+  "_id": {
+    "$oid": "6883930364d9b4574f963fe7"
+  },
+  "id": 1,
+  "medical_record_id": "688393a664d9b4574f963ffd",
+  "medication_name": "Nitroglycerin",
+  "dosage": "0.4mg",
+  "frequency": "As needed for chest pain",
+  "route": "Sublingual",
+  "start_date": {
+    "$date": "2025-07-01T00:00:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-09-01T00:00:00.000Z"
+  },
+  "notes": "Educate patient on proper use.",
+  "prescribed_by_doctor_id": 1,
+  "created_at": {
+    "$date": "2025-07-01T10:45:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-01T10:45:00.000Z"
+  },
+  "medication_type": "Test",
+  "prescription_type": "Medicine"
+},
+{
+  "_id": {
+    "$oid": "6883930364d9b4574f963fe8"
+  },
+  "id": 2,
+  "medical_record_id": "688393a664d9b4574f963ffd",
+  "medication_name": "Amoxicillin Syrup",
+  "dosage": "250mg/5ml",
+  "frequency": "Twice daily",
+  "route": "Oral",
+  "start_date": {
+    "$date": "2025-07-05T00:00:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-07-12T00:00:00.000Z"
+  },
+  "notes": "Complete the full course.",
+  "prescribed_by_doctor_id": 2,
+  "created_at": {
+    "$date": "2025-07-05T14:15:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-05T14:15:00.000Z"
+  },
+  "prescription_type": "Medicine"
+},
+{
+  "_id": {
+    "$oid": "6883930364d9b4574f963fe9"
+  },
+  "id": 3,
+  "medical_record_id": "688393a664d9b4574f963ffd",
+  "medication_name": "Betamethasone Valerate Cream",
+  "dosage": "Apply thinly",
+  "frequency": "Twice daily",
+  "route": "Topical",
+  "start_date": {
+    "$date": "2025-07-10T00:00:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-08-10T00:00:00.000Z"
+  },
+  "notes": "For eczema flare-ups.",
+  "prescribed_by_doctor_id": 3,
+  "created_at": {
+    "$date": "2025-07-10T11:15:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-10T11:15:00.000Z"
+  },
+  "prescription_type": "Medicine"
+},
+{
+  "_id": {
+    "$oid": "6883930364d9b4574f963fea"
+  },
+  "id": 4,
+  "medical_record_id": "688393a664d9b4574f963ffd",
+  "medication_name": "Ibuprofen",
+  "dosage": "400mg",
+  "frequency": "Thrice daily",
+  "route": "Oral",
+  "start_date": {
+    "$date": "2025-07-15T00:00:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-07-22T00:00:00.000Z"
+  },
+  "notes": "Take with food.",
+  "prescribed_by_doctor_id": 4,
+  "created_at": {
+    "$date": "2025-07-15T10:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-15T10:00:00.000Z"
+  },
+  "prescription_type": "Medicine"
+},
+{
+  "_id": {
+    "$oid": "6883930364d9b4574f963feb"
+  },
+  "id": 5,
+  "medical_record_id": "688393a664d9b4574f963ffc",
+  "medication_name": "Multivitamin",
+  "dosage": "One tablet",
+  "frequency": "Once daily",
+  "route": "Oral",
+  "start_date": {
+    "$date": "2025-07-20T00:00:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  },
+  "notes": "General wellness.",
+  "prescribed_by_doctor_id": 5,
+  "created_at": {
+    "$date": "2025-07-20T16:15:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-20T16:15:00.000Z"
+  },
+  "prescription_type": "Medicine"
+},
+{
+  "_id": {
+    "$oid": "6890b5babcf65af251c47f6f"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffd",
+  "medication_name": "ECG",
+  "dosage": "k ;lk",
+  "frequency": "htertnb",
+  "route": "tgb",
+  "start_date": {
+    "$date": "2025-08-03T18:30:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-08-03T18:30:00.000Z"
+  },
+  "notes": "",
+  "prescribed_by_doctor_id": "doctor-123",
+  "_class": "training.iqgateway.entities.Prescription",
+  "prescription_type": "Medicine"
+},
+{
+  "_id": {
+    "$oid": "6891d82bbcf65af251c47f7b"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffc",
+  "medication_name": "Dolo ",
+  "dosage": "650",
+  "frequency": "3",
+  "route": "Morining Afternoon Night",
+  "start_date": {
+    "$date": "2025-08-04T18:30:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-08-11T18:30:00.000Z"
+  },
+  "notes": "Weekly 3 times",
+  "prescribed_by_doctor_id": "doctor-123",
+  "_class": "training.iqgateway.entities.Prescription",
+  "prescription_type": "Medicine"
+},
+{
+  "_id": {
+    "$oid": "6891deb9bcf65af251c47f7d"
+  },
+  "medical_record_id": "6891d9dfbcf65af251c47f7c",
+  "medication_name": "Dolo ",
+  "dosage": "650",
+  "frequency": "3",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-04T18:30:00.000Z"
+  },
+  "notes": "Daily",
+  "prescribed_by_doctor_id": "doctor-123",
+  "_class": "training.iqgateway.entities.Prescription",
+  "prescription_type": "Medicine"
+},
+{
+  "_id": {
+    "$oid": "6892f3f1fe671b70c63f2bb7"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffc",
+  "medication_name": "",
+  "dosage": "",
+  "frequency": "",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-05T18:30:00.000Z"
+  },
+  "notes": "s",
+  "prescribed_by_doctor_id": "doctor-123",
+  "_class": "training.iqgateway.entities.Prescription",
+  "prescription_type": "Test"
+},
+{
+  "_id": {
+    "$oid": "6892f411fe671b70c63f2bb8"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffc",
+  "medication_name": "sacxa34de",
+  "dosage": "2",
+  "frequency": "3",
+  "route": "3",
+  "start_date": {
+    "$date": "2025-08-05T18:30:00.000Z"
+  },
+  "notes": "e",
+  "prescribed_by_doctor_id": "doctor-123",
+  "_class": "training.iqgateway.entities.Prescription",
+  "prescription_type": "Medicine"
+},
+{
+  "_id": {
+    "$oid": "6892f6fbfe671b70c63f2bba"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffc",
+  "medication_name": "fhhjerty",
+  "dosage": "",
+  "frequency": "",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-05T18:30:00.000Z"
+  },
+  "notes": "s",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Test",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "6892fbf1fe671b70c63f2bbb"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffc",
+  "medication_name": "Dolo ",
+  "dosage": "650",
+  "frequency": "3",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-05T18:30:00.000Z"
+  },
+  "notes": "",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Medicine",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "6892fc01fe671b70c63f2bbc"
+  },
+  "medical_record_id": "688393a664d9b4574f963ffc",
+  "medication_name": "xray",
+  "dosage": "",
+  "frequency": "",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-05T18:30:00.000Z"
+  },
+  "notes": "ACSACS",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Test",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "68930583fe671b70c63f2bbe"
+  },
+  "medical_record_id": "68930367fe671b70c63f2bbd",
+  "medication_name": "Dolo ",
+  "dosage": "650",
+  "frequency": "3",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-05T18:30:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-08-06T18:30:00.000Z"
+  },
+  "notes": "vtghyvh",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Medicine",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "68930590fe671b70c63f2bbf"
+  },
+  "medical_record_id": "68930367fe671b70c63f2bbd",
+  "medication_name": "xray",
+  "dosage": "",
+  "frequency": "",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-05T18:30:00.000Z"
+  },
+  "notes": "azcxs",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Test",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "689309bcfe671b70c63f2bc2"
+  },
+  "medical_record_id": "68930927fe671b70c63f2bc1",
+  "medication_name": "Dolo",
+  "dosage": "650",
+  "frequency": "3 times",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-05T18:30:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-08-21T18:30:00.000Z"
+  },
+  "notes": "",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Medicine",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "689309cdfe671b70c63f2bc3"
+  },
+  "medical_record_id": "68930927fe671b70c63f2bc1",
+  "medication_name": "Xray",
+  "dosage": "",
+  "frequency": "",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-05T18:30:00.000Z"
+  },
+  "notes": "Noting",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Test",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "68932a21fe671b70c63f2bc6"
+  },
+  "medical_record_id": "689328d8fe671b70c63f2bc5",
+  "medication_name": "Dolo ",
+  "dosage": "650",
+  "frequency": "3",
+  "route": "Morining Afternoon Night",
+  "start_date": {
+    "$date": "2025-08-05T18:30:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-08-13T18:30:00.000Z"
+  },
+  "notes": "",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Medicine",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "68932a39fe671b70c63f2bc7"
+  },
+  "medical_record_id": "689328d8fe671b70c63f2bc5",
+  "medication_name": "ECG",
+  "dosage": "",
+  "frequency": "",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-05T18:30:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-08-05T18:30:00.000Z"
+  },
+  "notes": "nothing",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Test",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "689446f9fe671b70c63f2bcd"
+  },
+  "medical_record_id": "68944640fe671b70c63f2bcc",
+  "medication_name": "Dolo ",
+  "dosage": "650",
+  "frequency": "3",
+  "route": "Morining Afternoon Night",
+  "start_date": {
+    "$date": "2025-08-06T18:30:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-08-08T18:30:00.000Z"
+  },
+  "notes": "",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Medicine",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "6894471dfe671b70c63f2bce"
+  },
+  "medical_record_id": "68944640fe671b70c63f2bcc",
+  "medication_name": "ECG",
+  "dosage": "",
+  "frequency": "",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-06T18:30:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-08-07T18:30:00.000Z"
+  },
+  "notes": "",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Test",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "689fff789892864f2b9d8c12"
+  },
+  "medical_record_id": "689ed5019892864f2b9d8c0f",
+  "medication_name": "Xray",
+  "dosage": "",
+  "frequency": "",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-15T18:30:00.000Z"
+  },
+  "notes": "dew",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Test",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "689fff859892864f2b9d8c13"
+  },
+  "medical_record_id": "689ed5019892864f2b9d8c0f",
+  "medication_name": "fd",
+  "dosage": "das",
+  "frequency": "advs",
+  "route": "davs",
+  "start_date": {
+    "$date": "2025-08-15T18:30:00.000Z"
+  },
+  "notes": "dsa",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Medicine",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "68a08130ea04f7fc278020ca"
+  },
+  "medical_record_id": "68a07f8dea04f7fc278020c9",
+  "medication_name": "Dolo",
+  "dosage": "650",
+  "frequency": "2",
+  "route": "moringn afternoon",
+  "start_date": {
+    "$date": "2025-08-15T18:30:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-08-24T18:30:00.000Z"
+  },
+  "notes": "Fasting important ",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Medicine",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "68a08140ea04f7fc278020cb"
+  },
+  "medical_record_id": "68a07f8dea04f7fc278020c9",
+  "medication_name": "ECG",
+  "dosage": "",
+  "frequency": "",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-15T18:30:00.000Z"
+  },
+  "notes": "Immediate",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Test",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "68a1707dea04f7fc278020d1"
+  },
+  "medical_record_id": "68a16d72ea04f7fc278020d0",
+  "medication_name": "CBC",
+  "dosage": "",
+  "frequency": "",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-16T18:30:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-08-16T18:30:00.000Z"
+  },
+  "notes": "Immediate",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Test",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "68a17bb9ea04f7fc278020d3"
+  },
+  "medical_record_id": "68a17964ea04f7fc278020d2",
+  "medication_name": "CBC",
+  "dosage": "",
+  "frequency": "",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-16T18:30:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-08-16T18:30:00.000Z"
+  },
+  "notes": "Immediate",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Test",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "68a17bc4ea04f7fc278020d4"
+  },
+  "medical_record_id": "68a17964ea04f7fc278020d2",
+  "medication_name": "ECG",
+  "dosage": "",
+  "frequency": "",
+  "route": "",
+  "start_date": {
+    "$date": "2025-08-16T18:30:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-08-17T18:30:00.000Z"
+  },
+  "notes": "",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Test",
+  "_class": "training.iqgateway.entities.Prescription"
+},
+{
+  "_id": {
+    "$oid": "68a17e6cea04f7fc278020d7"
+  },
+  "medical_record_id": "68a17964ea04f7fc278020d2",
+  "medication_name": "Dolo",
+  "dosage": "650",
+  "frequency": "3",
+  "route": "moringn afternoon",
+  "start_date": {
+    "$date": "2025-08-16T18:30:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-08-19T18:30:00.000Z"
+  },
+  "notes": "nothing",
+  "prescribed_by_doctor_id": "doctor-123",
+  "prescription_type": "Medicine",
+  "_class": "training.iqgateway.entities.Prescription"
+}]

@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_D6tewHNcEfC0VqedU-LfKg" name="AppointmentMicroService">
+    <eAnnotations xmi:id="_Ejxp4HNcEfC0VqedU-LfKg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_EjyQ8HNcEfC0VqedU-LfKg" source="codegen">
+        <details xmi:id="_Ejy4AHNcEfC0VqedU-LfKg" key="codegenDirectory" value="/AppointmentMicroService/src/main/java"/>
+        <details xmi:id="_MUE9cHNcEfC0VqedU-LfKg" key="AssociatedSourceCode" value="/AppointmentMicroService/src/main/java/training/iqgateway/AppointmentMicroServiceApplication.java;2229005235/1;/AppointmentMicroService/src/main/java/training/iqgateway/controller/AppointmentController.java;3169636626/1;/AppointmentMicroService/src/main/java/training/iqgateway/entities/Appointment.java;2994793593/1;/AppointmentMicroService/src/main/java/training/iqgateway/entities/DailySlotDTO.java;2415331079/1;/AppointmentMicroService/src/main/java/training/iqgateway/entities/ScheduleUpdatePayload.java;277147158/1;/AppointmentMicroService/src/main/java/training/iqgateway/entities/TimeRangeDTO.java;1751813132/1;/AppointmentMicroService/src/main/java/training/iqgateway/repository/AppointmentRepository.java;1912015020/1;/AppointmentMicroService/src/main/java/training/iqgateway/service/AppointmentService.java;220382109/1;/AppointmentMicroService/src/main/java/training/iqgateway/serviceimpl/AppointmentServiceImpl.java;1518257860/1;/AppointmentMicroService/src/test/java/training/iqgateway/AppointmentMicroServiceApplicationTests.java;1280533758/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_FHroMHNcEfC0VqedU-LfKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_FHsPQHNcEfC0VqedU-LfKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_FHsPQXNcEfC0VqedU-LfKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_FHsPQnNcEfC0VqedU-LfKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_FHs2UHNcEfC0VqedU-LfKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_FHs2UXNcEfC0VqedU-LfKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_FHtdYHNcEfC0VqedU-LfKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_FHtdYXNcEfC0VqedU-LfKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_FHuEcHNcEfC0VqedU-LfKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_FDymsHNcEfC0VqedU-LfKg" name="training">
+      <packagedElement xmi:type="uml:Package" xmi:id="_FEETgHNcEfC0VqedU-LfKg" name="iqgateway">
+        <packagedElement xmi:type="uml:Package" xmi:id="_FENdcHNcEfC0VqedU-LfKg" name="entities">
+          <packagedElement xmi:type="uml:Class" xmi:id="_FJaGgHNcEfC0VqedU-LfKg" name="Appointment">
+            <ownedAttribute xmi:id="_FZAowHNcEfC0VqedU-LfKg" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_FZNdEHNcEfC0VqedU-LfKg" name="customId" type="_FYXIgHNcEfC0VqedU-LfKg"/>
+            <ownedAttribute xmi:id="_FZTjsHNcEfC0VqedU-LfKg" name="patientId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_FZYcMHNcEfC0VqedU-LfKg" name="doctorId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_FZcGkHNcEfC0VqedU-LfKg" name="appointmentDate" type="_FVtdIXNcEfC0VqedU-LfKg" association="_FccXQHNcEfC0VqedU-LfKg"/>
+            <ownedAttribute xmi:id="_FZgYAHNcEfC0VqedU-LfKg" name="appointmentTime" type="_FVsPAHNcEfC0VqedU-LfKg" association="_Fcv5QHNcEfC0VqedU-LfKg"/>
+            <ownedAttribute xmi:id="_FZlQgHNcEfC0VqedU-LfKg" name="reasonForVisit">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_FZqwEHNcEfC0VqedU-LfKg" name="status">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_FZr-MHNcEfC0VqedU-LfKg" name="bookedByUserId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_FZvokHNcEfC0VqedU-LfKg" name="notes">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_FZw2sXNcEfC0VqedU-LfKg" name="consultationStartTime" type="_FVsPAHNcEfC0VqedU-LfKg" association="_FdAX8HNcEfC0VqedU-LfKg"/>
+            <ownedAttribute xmi:id="_FZ1vMHNcEfC0VqedU-LfKg" name="consultationEndTime" type="_FVsPAHNcEfC0VqedU-LfKg" association="_FdOaYHNcEfC0VqedU-LfKg"/>
+            <ownedAttribute xmi:id="_FZ6AoHNcEfC0VqedU-LfKg" name="roomNumber">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_FZ-5IHNcEfC0VqedU-LfKg" name="createdAt" type="_FVsPAHNcEfC0VqedU-LfKg" association="_Fddq8HNcEfC0VqedU-LfKg"/>
+            <ownedAttribute xmi:id="_FaB8cnNcEfC0VqedU-LfKg" name="updatedAt" type="_FVsPAHNcEfC0VqedU-LfKg" association="_Fds7gHNcEfC0VqedU-LfKg"/>
+            <ownedAttribute xmi:id="_FaE_wnNcEfC0VqedU-LfKg" name="medicalRecordId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_FJwEwHNcEfC0VqedU-LfKg" name="Appointment">
+              <eAnnotations xmi:id="_FJyhAHNcEfC0VqedU-LfKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_FJzvIHNcEfC0VqedU-LfKg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_FJ0WMHNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_FKdPYHNcEfC0VqedU-LfKg" name="DailySlotDTO">
+            <ownedAttribute xmi:id="_FaMUgHNcEfC0VqedU-LfKg" name="day">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_FaNioHNcEfC0VqedU-LfKg" name="slots" type="_FKz0sHNcEfC0VqedU-LfKg" isOrdered="true" association="_Fd698HNcEfC0VqedU-LfKg">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FaNioXNcEfC0VqedU-LfKg" value="*"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_FaOwwHNcEfC0VqedU-LfKg" name="breakSlots" type="_FKz0sHNcEfC0VqedU-LfKg" isOrdered="true" association="_FeGkIXNcEfC0VqedU-LfKg">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FaP-4HNcEfC0VqedU-LfKg" value="*"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_FKg5wHNcEfC0VqedU-LfKg" name="DailySlotDTO">
+              <eAnnotations xmi:id="_FKhg0HNcEfC0VqedU-LfKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_FKiH4HNcEfC0VqedU-LfKg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_FKj9EXNcEfC0VqedU-LfKg" type="_FKdPYHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_FKo1kHNcEfC0VqedU-LfKg" name="ScheduleUpdatePayload">
+            <ownedAttribute xmi:id="_FaQl8HNcEfC0VqedU-LfKg" name="doctorId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_FaR0EHNcEfC0VqedU-LfKg" name="leaveDates" type="_FVsPAHNcEfC0VqedU-LfKg" isOrdered="true" association="_FeTYcHNcEfC0VqedU-LfKg">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FaSbIHNcEfC0VqedU-LfKg" value="*"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_FaUQUHNcEfC0VqedU-LfKg" name="dailySlots" type="_FKdPYHNcEfC0VqedU-LfKg" isOrdered="true" association="_FeeXkXNcEfC0VqedU-LfKg">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FaUQUXNcEfC0VqedU-LfKg" value="*"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_FKsf8HNcEfC0VqedU-LfKg" name="ScheduleUpdatePayload">
+              <eAnnotations xmi:id="_FKtuEHNcEfC0VqedU-LfKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_FKtuEXNcEfC0VqedU-LfKg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_FKu8MXNcEfC0VqedU-LfKg" type="_FKo1kHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_FKz0sHNcEfC0VqedU-LfKg" name="TimeRangeDTO">
+            <ownedAttribute xmi:id="_FaVecHNcEfC0VqedU-LfKg" name="startTime" type="_FVsPAHNcEfC0VqedU-LfKg" association="_Fbn34HNcEfC0VqedU-LfKg"/>
+            <ownedAttribute xmi:id="_FaWskHNcEfC0VqedU-LfKg" name="endTime" type="_FVsPAHNcEfC0VqedU-LfKg" association="_FbpGAHNcEfC0VqedU-LfKg"/>
+            <ownedOperation xmi:id="_FK2Q8HNcEfC0VqedU-LfKg" name="TimeRangeDTO">
+              <eAnnotations xmi:id="_FK24AHNcEfC0VqedU-LfKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_FK24AXNcEfC0VqedU-LfKg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_FK4tMHNcEfC0VqedU-LfKg" type="_FKz0sHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Fbn34HNcEfC0VqedU-LfKg" name="" memberEnd="_FaVecHNcEfC0VqedU-LfKg _Fboe8HNcEfC0VqedU-LfKg">
+            <ownedEnd xmi:id="_Fboe8HNcEfC0VqedU-LfKg" name="" type="_FKz0sHNcEfC0VqedU-LfKg" association="_Fbn34HNcEfC0VqedU-LfKg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_FbpGAHNcEfC0VqedU-LfKg" name="" memberEnd="_FaWskHNcEfC0VqedU-LfKg _FbpGAXNcEfC0VqedU-LfKg">
+            <ownedEnd xmi:id="_FbpGAXNcEfC0VqedU-LfKg" name="" type="_FKz0sHNcEfC0VqedU-LfKg" association="_FbpGAHNcEfC0VqedU-LfKg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_FccXQHNcEfC0VqedU-LfKg" name="" memberEnd="_FccXQXNcEfC0VqedU-LfKg _FZcGkHNcEfC0VqedU-LfKg">
+            <ownedEnd xmi:id="_FccXQXNcEfC0VqedU-LfKg" name="" type="_FJaGgHNcEfC0VqedU-LfKg" association="_FccXQHNcEfC0VqedU-LfKg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Fcv5QHNcEfC0VqedU-LfKg" name="" memberEnd="_Fcv5QXNcEfC0VqedU-LfKg _FZgYAHNcEfC0VqedU-LfKg">
+            <ownedEnd xmi:id="_Fcv5QXNcEfC0VqedU-LfKg" name="" type="_FJaGgHNcEfC0VqedU-LfKg" association="_Fcv5QHNcEfC0VqedU-LfKg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_FdAX8HNcEfC0VqedU-LfKg" name="" memberEnd="_FdAX8XNcEfC0VqedU-LfKg _FZw2sXNcEfC0VqedU-LfKg">
+            <ownedEnd xmi:id="_FdAX8XNcEfC0VqedU-LfKg" name="" type="_FJaGgHNcEfC0VqedU-LfKg" association="_FdAX8HNcEfC0VqedU-LfKg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_FdOaYHNcEfC0VqedU-LfKg" name="" memberEnd="_FdOaYXNcEfC0VqedU-LfKg _FZ1vMHNcEfC0VqedU-LfKg">
+            <ownedEnd xmi:id="_FdOaYXNcEfC0VqedU-LfKg" name="" type="_FJaGgHNcEfC0VqedU-LfKg" association="_FdOaYHNcEfC0VqedU-LfKg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Fddq8HNcEfC0VqedU-LfKg" name="" memberEnd="_Fddq8XNcEfC0VqedU-LfKg _FZ-5IHNcEfC0VqedU-LfKg">
+            <ownedEnd xmi:id="_Fddq8XNcEfC0VqedU-LfKg" name="" type="_FJaGgHNcEfC0VqedU-LfKg" association="_Fddq8HNcEfC0VqedU-LfKg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Fds7gHNcEfC0VqedU-LfKg" name="" memberEnd="_Fds7gXNcEfC0VqedU-LfKg _FaB8cnNcEfC0VqedU-LfKg">
+            <ownedEnd xmi:id="_Fds7gXNcEfC0VqedU-LfKg" name="" type="_FJaGgHNcEfC0VqedU-LfKg" association="_Fds7gHNcEfC0VqedU-LfKg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Fd698HNcEfC0VqedU-LfKg" name="" memberEnd="_Fd698XNcEfC0VqedU-LfKg _FaNioHNcEfC0VqedU-LfKg">
+            <ownedEnd xmi:id="_Fd698XNcEfC0VqedU-LfKg" name="" type="_FKdPYHNcEfC0VqedU-LfKg" association="_Fd698HNcEfC0VqedU-LfKg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_FeGkIXNcEfC0VqedU-LfKg" name="" memberEnd="_FeGkInNcEfC0VqedU-LfKg _FaOwwHNcEfC0VqedU-LfKg">
+            <ownedEnd xmi:id="_FeGkInNcEfC0VqedU-LfKg" name="" type="_FKdPYHNcEfC0VqedU-LfKg" association="_FeGkIXNcEfC0VqedU-LfKg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_FeTYcHNcEfC0VqedU-LfKg" name="" memberEnd="_FeTYcXNcEfC0VqedU-LfKg _FaR0EHNcEfC0VqedU-LfKg">
+            <ownedEnd xmi:id="_FeTYcXNcEfC0VqedU-LfKg" name="" type="_FKo1kHNcEfC0VqedU-LfKg" association="_FeTYcHNcEfC0VqedU-LfKg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_FeeXkXNcEfC0VqedU-LfKg" name="" memberEnd="_FeeXknNcEfC0VqedU-LfKg _FaUQUHNcEfC0VqedU-LfKg">
+            <ownedEnd xmi:id="_FeeXknNcEfC0VqedU-LfKg" name="" type="_FKo1kHNcEfC0VqedU-LfKg" association="_FeeXkXNcEfC0VqedU-LfKg"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_FEOrkHNcEfC0VqedU-LfKg" name="service">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_FLIk0HNcEfC0VqedU-LfKg" name="AppointmentService">
+            <ownedAttribute xmi:id="_FLfKIHNcEfC0VqedU-LfKg" name="allAppointments" visibility="package" type="_FJaGgHNcEfC0VqedU-LfKg" isOrdered="true" association="_FbqUIHNcEfC0VqedU-LfKg">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FLfxMHNcEfC0VqedU-LfKg" value="*"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_FLSV0HNcEfC0VqedU-LfKg" name="getAppointmentById">
+              <ownedParameter xmi:id="_FLSV0XNcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FYtt0HNcEfC0VqedU-LfKg" type="_FVzjwHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FLWAMHNcEfC0VqedU-LfKg" name="getAppointmentsByPatientId">
+              <ownedParameter xmi:id="_FLWnQHNcEfC0VqedU-LfKg" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FLWnQXNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FLXOUHNcEfC0VqedU-LfKg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FLZDgHNcEfC0VqedU-LfKg" name="getAppointmentsByDoctorId" visibility="package">
+              <ownedParameter xmi:id="_FLZqkHNcEfC0VqedU-LfKg" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FLaRoHNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FLaRoXNcEfC0VqedU-LfKg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FLcG0HNcEfC0VqedU-LfKg" name="updateAppointmentStatus">
+              <ownedParameter xmi:id="_FLcG0XNcEfC0VqedU-LfKg" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FLcG0nNcEfC0VqedU-LfKg" name="newStatus">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FXBEsXNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FLd8AHNcEfC0VqedU-LfKg" name="deleteAppointmentById">
+              <ownedParameter xmi:id="_FLd8AXNcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FW-ocHNcEfC0VqedU-LfKg" name="createAppointment">
+              <ownedParameter xmi:id="_FW_PgHNcEfC0VqedU-LfKg" name="appointment" type="_FJaGgHNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FW_PgXNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FXAdoHNcEfC0VqedU-LfKg" name="updateAppointment">
+              <ownedParameter xmi:id="_FXAdoXNcEfC0VqedU-LfKg" name="appointment" type="_FJaGgHNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FXBEsHNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FYuU4HNcEfC0VqedU-LfKg" name="getAppointmentsByDoctorAndDate">
+              <ownedParameter xmi:id="_FYu78HNcEfC0VqedU-LfKg" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FYu78XNcEfC0VqedU-LfKg" name="date" type="_FVtdIXNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FYvjAHNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FYvjAXNcEfC0VqedU-LfKg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FYwxIHNcEfC0VqedU-LfKg" name="cancelAppointmentsByDoctorAndDate">
+              <ownedParameter xmi:id="_FYxYMHNcEfC0VqedU-LfKg" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FYxYMXNcEfC0VqedU-LfKg" name="leaveDate" type="_FVtdIXNcEfC0VqedU-LfKg"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_FbqUIHNcEfC0VqedU-LfKg" name="" memberEnd="_FLfKIHNcEfC0VqedU-LfKg _FbqUIXNcEfC0VqedU-LfKg">
+            <ownedEnd xmi:id="_FbqUIXNcEfC0VqedU-LfKg" name="" type="_FLIk0HNcEfC0VqedU-LfKg" association="_FbqUIHNcEfC0VqedU-LfKg"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_FEz6YHNcEfC0VqedU-LfKg" name="controller">
+          <packagedElement xmi:type="uml:Class" xmi:id="_FIAYUHNcEfC0VqedU-LfKg" name="AppointmentController">
+            <ownedAttribute xmi:id="_FY9lcHNcEfC0VqedU-LfKg" name="appointmentService" visibility="private" isLeaf="true" type="_FLIk0HNcEfC0VqedU-LfKg" isReadOnly="true" association="_FcCuoHNcEfC0VqedU-LfKg"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Fa9JgHNcEfC0VqedU-LfKg" name="AppointmentController" specification="_FWHs0HNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_Fa9JgXNcEfC0VqedU-LfKg" name="appointmentService" type="_FLIk0HNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_Fa9JgnNcEfC0VqedU-LfKg" type="_FIAYUHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>this.appointmentService = appointmentService;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Fa9wkHNcEfC0VqedU-LfKg" name="getAllAppointments" specification="_FIHGAHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_Fa9wkXNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>List&lt;Appointment> appointments = appointmentService.getAllAppointments();&#xD;
+     return ResponseEntity.ok(appointments);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Fa-XoHNcEfC0VqedU-LfKg" name="handleScheduleChange" specification="_FWMlUHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_Fa-XoXNcEfC0VqedU-LfKg" name="payload" type="_FKo1kHNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_Fa-XonNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         String doctorId = payload.getDoctorId();&#xD;
+         List&lt;Instant> leaveDates = payload.getLeaveDates();&#xD;
+&#xD;
+         if (leaveDates != null &amp;&amp; !leaveDates.isEmpty()) {&#xD;
+             for (Instant leaveDateInstant : leaveDates) {&#xD;
+                 LocalDate leaveDate = leaveDateInstant.atZone(java.time.ZoneId.of(&quot;UTC&quot;)).toLocalDate();&#xD;
+                 appointmentService.cancelAppointmentsByDoctorAndDate(doctorId, leaveDate);&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         return ResponseEntity.ok(&quot;Appointments updated based on schedule changes.&quot;);&#xD;
+     } catch (Exception e) {&#xD;
+         System.err.println(&quot;Error updating appointments on schedule change: &quot; + e.getMessage());&#xD;
+         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)&#xD;
+                              .body(&quot;Error updating appointments: &quot; + e.getMessage());&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Fa--sHNcEfC0VqedU-LfKg" name="updateAppointmentStatus" specification="_FIPB0HNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_Fa--sXNcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Fa--snNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>appointmentService.updateAppointmentStatus(id, &quot;Completed&quot;);&#xD;
+     return ResponseEntity.ok().body(&quot;Appointment status updated successfully.&quot;);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Fa--s3NcEfC0VqedU-LfKg" name="createAppointment" specification="_FWQ2wHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_Fa--tHNcEfC0VqedU-LfKg" name="appointment" type="_FJaGgHNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_Fa--tXNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>Appointment createdAppointment = appointmentService.createAppointment(appointment);&#xD;
+     return new ResponseEntity&lt;>(createdAppointment, HttpStatus.CREATED);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Fa--tnNcEfC0VqedU-LfKg" name="getAppointmentById" specification="_FIYy0HNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_Fa--t3NcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Fa--uHNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>Optional&lt;Appointment> appointment = appointmentService.getAppointmentById(id);&#xD;
+     return appointment.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Fa_lwHNcEfC0VqedU-LfKg" name="getAppointmentsByPatient" specification="_FIfggHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_Fa_lwXNcEfC0VqedU-LfKg" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Fa_lwnNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>List&lt;Appointment> appointments = appointmentService.getAppointmentsByPatientId(patientId);&#xD;
+     // It's generally better to return an empty list with 200 OK than 204 No Content for lists&#xD;
+     return ResponseEntity.ok(appointments);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbAM0HNcEfC0VqedU-LfKg" name="getAppointmentsByDoctor" specification="_FIoDYHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbAM0XNcEfC0VqedU-LfKg" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FbAM0nNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>List&lt;Appointment> appointments = appointmentService.getAppointmentsByDoctorId(doctorId);&#xD;
+     // It's generally better to return an empty list with 200 OK than 204 No Content for lists&#xD;
+     return ResponseEntity.ok(appointments);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbAz4HNcEfC0VqedU-LfKg" name="getAppointmentsByDoctorAndDate" specification="_FIvYIHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbAz4XNcEfC0VqedU-LfKg" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FbAz4nNcEfC0VqedU-LfKg" name="date">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FbAz43NcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         LocalDate appointmentDate = LocalDate.parse(date); // Parses YYYY-MM-DD&#xD;
+         List&lt;Appointment> appointments = appointmentService.getAppointmentsByDoctorAndDate(doctorId, appointmentDate);&#xD;
+         // --- FIX APPLIED HERE ---&#xD;
+         // Always return ResponseEntity.ok(appointments)&#xD;
+         // If 'appointments' is empty, Spring will serialize it to '[]' (empty JSON array)&#xD;
+         // which the frontend can correctly parse.&#xD;
+         return ResponseEntity.ok(appointments);&#xD;
+     } catch (DateTimeParseException e) {&#xD;
+         System.err.println(&quot;Error parsing date: &quot; + date + &quot; - &quot; + e.getMessage());&#xD;
+         return ResponseEntity.badRequest().body(null); // Invalid date format&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbBa8HNcEfC0VqedU-LfKg" name="updateAppointment" specification="_FWUhIHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbBa8XNcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FbBa8nNcEfC0VqedU-LfKg" name="updatedAppointment" type="_FJaGgHNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FbBa83NcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>Optional&lt;Appointment> existing = appointmentService.getAppointmentById(id);&#xD;
+     if (!existing.isPresent()) {&#xD;
+         return ResponseEntity.notFound().build();&#xD;
+     }&#xD;
+     updatedAppointment.setId(id);&#xD;
+     Appointment savedAppointment = appointmentService.updateAppointment(updatedAppointment);&#xD;
+     return ResponseEntity.ok(savedAppointment);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbCCAHNcEfC0VqedU-LfKg" name="updateAppointmentStatus" specification="_FXrMAHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbCCAXNcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FbCCAnNcEfC0VqedU-LfKg" name="statusUpdate" type="_FVxukXNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FbCCA3NcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>String newStatus = statusUpdate.get(&quot;status&quot;);&#xD;
+     if (newStatus == null || newStatus.isEmpty()) {&#xD;
+         return ResponseEntity.badRequest().body(null);&#xD;
+     }&#xD;
+     Appointment updated = appointmentService.updateAppointmentStatus(id, newStatus);&#xD;
+     if (updated != null) {&#xD;
+         return ResponseEntity.ok(updated);&#xD;
+     }&#xD;
+     return ResponseEntity.notFound().build();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbCpEHNcEfC0VqedU-LfKg" name="deleteAppointment" specification="_FI6-UHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbCpEXNcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FbCpEnNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>appointmentService.deleteAppointmentById(id);&#xD;
+     return ResponseEntity.noContent().build();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_FIHGAHNcEfC0VqedU-LfKg" name="getAllAppointments" method="_Fa9wkHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FXnhoHNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FIPB0HNcEfC0VqedU-LfKg" name="updateAppointmentStatus" method="_Fa--sHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FIPo4HNcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FXpW0HNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FIYy0HNcEfC0VqedU-LfKg" name="getAppointmentById" method="_Fa--tnNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FIYy0XNcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FXpW0nNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FIfggHNcEfC0VqedU-LfKg" name="getAppointmentsByPatient" method="_Fa_lwHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FIgHkHNcEfC0VqedU-LfKg" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FXp94HNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FIoDYHNcEfC0VqedU-LfKg" name="getAppointmentsByDoctor" method="_FbAM0HNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FIoDYXNcEfC0VqedU-LfKg" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FXp94XNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FIvYIHNcEfC0VqedU-LfKg" name="getAppointmentsByDoctorAndDate" method="_FbAz4HNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FIvYIXNcEfC0VqedU-LfKg" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FIv_MHNcEfC0VqedU-LfKg" name="date">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FXp94nNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FI6-UHNcEfC0VqedU-LfKg" name="deleteAppointment" method="_FbCpEHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FI7lYHNcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FYS3EHNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FWHs0HNcEfC0VqedU-LfKg" name="AppointmentController" method="_Fa9JgHNcEfC0VqedU-LfKg">
+              <eAnnotations xmi:id="_FWIT4XNcEfC0VqedU-LfKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_FWI68HNcEfC0VqedU-LfKg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_FWIT4HNcEfC0VqedU-LfKg" name="appointmentService" type="_FLIk0HNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FWJiAHNcEfC0VqedU-LfKg" type="_FIAYUHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FWMlUHNcEfC0VqedU-LfKg" name="handleScheduleChange" method="_Fa-XoHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FWNMYHNcEfC0VqedU-LfKg" name="payload" type="_FKo1kHNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FXoIsHNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FWQ2wHNcEfC0VqedU-LfKg" name="createAppointment" method="_Fa--s3NcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FWQ2wXNcEfC0VqedU-LfKg" name="appointment" type="_FJaGgHNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FXpW0XNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FWUhIHNcEfC0VqedU-LfKg" name="updateAppointment" method="_FbBa8HNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FWUhIXNcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FWUhInNcEfC0VqedU-LfKg" name="updatedAppointment" type="_FJaGgHNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FXp943NcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FXrMAHNcEfC0VqedU-LfKg" name="updateAppointmentStatus" method="_FbCCAHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FXrMAXNcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FXrMAnNcEfC0VqedU-LfKg" name="statusUpdate" type="_FVxukXNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FXtBMHNcEfC0VqedU-LfKg" type="_FV31MHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_FcCuoHNcEfC0VqedU-LfKg" name="" memberEnd="_FcCuoXNcEfC0VqedU-LfKg _FY9lcHNcEfC0VqedU-LfKg">
+            <ownedEnd xmi:id="_FcCuoXNcEfC0VqedU-LfKg" name="" type="_FIAYUHNcEfC0VqedU-LfKg" association="_FcCuoHNcEfC0VqedU-LfKg"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_FGNokHNcEfC0VqedU-LfKg" name="repository">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_FK7wgHNcEfC0VqedU-LfKg" name="AppointmentRepository">
+            <generalization xmi:id="_FYo1UHNcEfC0VqedU-LfKg" general="_FW5v8HNcEfC0VqedU-LfKg"/>
+            <ownedOperation xmi:id="_FK-z0HNcEfC0VqedU-LfKg" name="findByPatientId">
+              <ownedParameter xmi:id="_FK-z0XNcEfC0VqedU-LfKg" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FK_a4HNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FK_a4XNcEfC0VqedU-LfKg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FLBQEHNcEfC0VqedU-LfKg" name="findByDoctorId">
+              <ownedParameter xmi:id="_FLBQEXNcEfC0VqedU-LfKg" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FLB3IHNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FLB3IXNcEfC0VqedU-LfKg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FYrRkHNcEfC0VqedU-LfKg" name="findByDoctorIdAndAppointmentDate" visibility="package">
+              <ownedParameter xmi:id="_FYrRkXNcEfC0VqedU-LfKg" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FYrRknNcEfC0VqedU-LfKg" name="appointmentDate" type="_FVtdIXNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FYrRk3NcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FYr4oHNcEfC0VqedU-LfKg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_FGk08HNcEfC0VqedU-LfKg" name="serviceimpl">
+          <packagedElement xmi:type="uml:Class" xmi:id="_FLme4HNcEfC0VqedU-LfKg" name="AppointmentServiceImpl">
+            <ownedAttribute xmi:id="_FaX6sHNcEfC0VqedU-LfKg" name="appointmentRepository" visibility="private" isLeaf="true" type="_FK7wgHNcEfC0VqedU-LfKg" isReadOnly="true" association="_FepWsHNcEfC0VqedU-LfKg"/>
+            <interfaceRealization xmi:id="_FXN5AHNcEfC0VqedU-LfKg" client="_FLme4HNcEfC0VqedU-LfKg" supplier="_FLIk0HNcEfC0VqedU-LfKg" contract="_FLIk0HNcEfC0VqedU-LfKg"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbQrgHNcEfC0VqedU-LfKg" name="AppointmentServiceImpl" specification="_FXPuMHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbQrgXNcEfC0VqedU-LfKg" name="appointmentRepository" type="_FK7wgHNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FbQrgnNcEfC0VqedU-LfKg" type="_FLme4HNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>this.appointmentRepository = appointmentRepository;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbR5oHNcEfC0VqedU-LfKg" name="createAppointment" specification="_FXTYknNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbR5oXNcEfC0VqedU-LfKg" name="appointment" type="_FJaGgHNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FbR5onNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>return appointmentRepository.save(appointment);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbR5o3NcEfC0VqedU-LfKg" name="getAppointmentById" specification="_FLrXYHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbR5pHNcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FbR5pXNcEfC0VqedU-LfKg" type="_FVzjwHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>return appointmentRepository.findById(id);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbTHwHNcEfC0VqedU-LfKg" name="getAppointmentsByPatientId" specification="_FLysIHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbTHwXNcEfC0VqedU-LfKg" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FbTHwnNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FbTHw3NcEfC0VqedU-LfKg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return appointmentRepository.findByPatientId(patientId);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbUV4HNcEfC0VqedU-LfKg" name="getAppointmentsByDoctorId" specification="_FL4LsHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbUV4XNcEfC0VqedU-LfKg" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FbUV4nNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FbUV43NcEfC0VqedU-LfKg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return appointmentRepository.findByDoctorId(doctorId);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbU88HNcEfC0VqedU-LfKg" name="getAppointmentsByDoctorAndDate" specification="_FYz0cHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbU88XNcEfC0VqedU-LfKg" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FbU88nNcEfC0VqedU-LfKg" name="date" type="_FVtdIXNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FbU883NcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FbU89HNcEfC0VqedU-LfKg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return appointmentRepository.findByDoctorIdAndAppointmentDate(doctorId, date);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbU89XNcEfC0VqedU-LfKg" name="updateAppointment" specification="_FXV00HNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbU89nNcEfC0VqedU-LfKg" name="appointment" type="_FJaGgHNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FbU893NcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>return appointmentRepository.save(appointment);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbVkAHNcEfC0VqedU-LfKg" name="updateAppointmentStatus" specification="_FL8dIHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbVkAXNcEfC0VqedU-LfKg" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FbVkAnNcEfC0VqedU-LfKg" name="newStatus">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FbVkA3NcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" direction="return"/>
+              <language>java</language>
+              <body>Optional&lt;Appointment> optionalAppointment = appointmentRepository.findById(appointmentId);&#xD;
+     if (optionalAppointment.isPresent()) {&#xD;
+         Appointment existingAppointment = optionalAppointment.get();&#xD;
+         existingAppointment.setStatus(newStatus);&#xD;
+         // Optionally, update 'updatedAt' timestamp here&#xD;
+         return appointmentRepository.save(existingAppointment);&#xD;
+     }&#xD;
+     return null; // Appointment not found&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbWLEHNcEfC0VqedU-LfKg" name="deleteAppointmentById" specification="_FMAukHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbWLEXNcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>appointmentRepository.deleteById(id);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbWLEnNcEfC0VqedU-LfKg" name="getAllAppointments" specification="_FMCjwnNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbWLE3NcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FbWLFHNcEfC0VqedU-LfKg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return appointmentRepository.findAll();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FbWyIHNcEfC0VqedU-LfKg" name="cancelAppointmentsByDoctorAndDate" specification="_FY23wHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FbWyIXNcEfC0VqedU-LfKg" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FbWyInNcEfC0VqedU-LfKg" name="leaveDate" type="_FVtdIXNcEfC0VqedU-LfKg"/>
+              <language>java</language>
+              <body>List&lt;Appointment> appointmentsToCancel = appointmentRepository.findByDoctorIdAndAppointmentDate(doctorId, leaveDate);&#xD;
+&#xD;
+	        // 2. Iterate through the found appointments and update their status.&#xD;
+	        for (Appointment appointment : appointmentsToCancel) {&#xD;
+	            // Only update appointments that are not already cancelled or completed.&#xD;
+	            if (!&quot;Cancelled&quot;.equalsIgnoreCase(appointment.getStatus()) &amp;&amp; !&quot;Completed&quot;.equalsIgnoreCase(appointment.getStatus())) {&#xD;
+	                appointment.setStatus(&quot;Cancelled&quot;);&#xD;
+	                // 3. Save the updated appointment back to the database.&#xD;
+	                appointmentRepository.save(appointment);&#xD;
+	            }&#xD;
+	        }&#xD;
+	        System.out.println(&quot;Cancelled &quot; + appointmentsToCancel.size() + &quot; appointments for doctor &quot; + doctorId + &quot; on &quot; + leaveDate);&#xD;
+	    </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_FLrXYHNcEfC0VqedU-LfKg" name="getAppointmentById" method="_FbR5o3NcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FLr-cHNcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FYzNYHNcEfC0VqedU-LfKg" type="_FVzjwHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FLysIHNcEfC0VqedU-LfKg" name="getAppointmentsByPatientId" method="_FbTHwHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FLzTMHNcEfC0VqedU-LfKg" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FLz6QHNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FLz6QXNcEfC0VqedU-LfKg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FL4LsHNcEfC0VqedU-LfKg" name="getAppointmentsByDoctorId" method="_FbUV4HNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FL4ywHNcEfC0VqedU-LfKg" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FL5Z0HNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FL5Z0XNcEfC0VqedU-LfKg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FL8dIHNcEfC0VqedU-LfKg" name="updateAppointmentStatus" method="_FbVkAHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FL8dIXNcEfC0VqedU-LfKg" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FL9EMHNcEfC0VqedU-LfKg" name="newStatus">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FXYREHNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FMAukHNcEfC0VqedU-LfKg" name="deleteAppointmentById" method="_FbWLEHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FMAukXNcEfC0VqedU-LfKg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FMCjwnNcEfC0VqedU-LfKg" name="getAllAppointments" method="_FbWLEnNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FMDx4HNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FMDx4XNcEfC0VqedU-LfKg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FXPuMHNcEfC0VqedU-LfKg" name="AppointmentServiceImpl" method="_FbQrgHNcEfC0VqedU-LfKg">
+              <eAnnotations xmi:id="_FXQVQHNcEfC0VqedU-LfKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_FXQ8UHNcEfC0VqedU-LfKg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_FXPuMXNcEfC0VqedU-LfKg" name="appointmentRepository" type="_FK7wgHNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FXQ8UXNcEfC0VqedU-LfKg" type="_FLme4HNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FXTYknNcEfC0VqedU-LfKg" name="createAppointment" method="_FbR5oHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FXTYk3NcEfC0VqedU-LfKg" name="appointment" type="_FJaGgHNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FXT_oHNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FXV00HNcEfC0VqedU-LfKg" name="updateAppointment" method="_FbU89XNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FXWb4HNcEfC0VqedU-LfKg" name="appointment" type="_FJaGgHNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FXXC8HNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FYz0cHNcEfC0VqedU-LfKg" name="getAppointmentsByDoctorAndDate" method="_FbU88HNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FYz0cXNcEfC0VqedU-LfKg" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FYz0cnNcEfC0VqedU-LfKg" name="date" type="_FVtdIXNcEfC0VqedU-LfKg"/>
+              <ownedParameter xmi:id="_FY1CkHNcEfC0VqedU-LfKg" type="_FJaGgHNcEfC0VqedU-LfKg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FY1CkXNcEfC0VqedU-LfKg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_FY23wHNcEfC0VqedU-LfKg" name="cancelAppointmentsByDoctorAndDate" method="_FbWyIHNcEfC0VqedU-LfKg">
+              <ownedParameter xmi:id="_FY23wXNcEfC0VqedU-LfKg" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_FY23wnNcEfC0VqedU-LfKg" name="leaveDate" type="_FVtdIXNcEfC0VqedU-LfKg"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_FepWsHNcEfC0VqedU-LfKg" name="" memberEnd="_FepWsXNcEfC0VqedU-LfKg _FaX6sHNcEfC0VqedU-LfKg">
+            <ownedEnd xmi:id="_FepWsXNcEfC0VqedU-LfKg" name="" type="_FLme4HNcEfC0VqedU-LfKg" association="_FepWsHNcEfC0VqedU-LfKg"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FHfa8HNcEfC0VqedU-LfKg" name="AppointmentMicroServiceApplication">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FaxjUHNcEfC0VqedU-LfKg" name="main" specification="_FHv5oHNcEfC0VqedU-LfKg">
+            <ownedParameter xmi:id="_FaxjUXNcEfC0VqedU-LfKg" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FaxjUnNcEfC0VqedU-LfKg" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>SpringApplication.run(AppointmentMicroServiceApplication.class, args);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_FHv5oHNcEfC0VqedU-LfKg" name="main" isStatic="true" method="_FaxjUHNcEfC0VqedU-LfKg">
+            <ownedParameter xmi:id="_FHv5oXNcEfC0VqedU-LfKg" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FHy88HNcEfC0VqedU-LfKg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FMTpgHNcEfC0VqedU-LfKg" name="AppointmentMicroServiceApplicationTests" visibility="package">
+          <eAnnotations xmi:id="_FMUQkHNcEfC0VqedU-LfKg" source="http://ns.yatta.de/umllab">
+            <contents xmi:type="ecore:EAnnotation" xmi:id="_FMU3oHNcEfC0VqedU-LfKg" source="codegen">
+              <details xmi:id="_FMU3oXNcEfC0VqedU-LfKg" key="codegenDirectory" value="/AppointmentMicroService/src/test/java"/>
+            </contents>
+          </eAnnotations>
+          <ownedOperation xmi:id="_FMWFwXNcEfC0VqedU-LfKg" name="contextLoads" visibility="package"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_FD5UYHNcEfC0VqedU-LfKg" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_FD6igHNcEfC0VqedU-LfKg" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_FD6igXNcEfC0VqedU-LfKg" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_FD7JkHNcEfC0VqedU-LfKg" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_FVpLsHNcEfC0VqedU-LfKg" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_FGswwHNcEfC0VqedU-LfKg" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_FGswwXNcEfC0VqedU-LfKg" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_FXcigXNcEfC0VqedU-LfKg" name="SpringBootTest"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_FVk6QHNcEfC0VqedU-LfKg" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_FEJMAHNcEfC0VqedU-LfKg" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_FEJzEHNcEfC0VqedU-LfKg" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_FEJzEXNcEfC0VqedU-LfKg" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_FV0x4XNcEfC0VqedU-LfKg" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_FEKaIHNcEfC0VqedU-LfKg" name="http">
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_FV2nEHNcEfC0VqedU-LfKg" name="HttpStatus"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_FV31MHNcEfC0VqedU-LfKg" name="ResponseEntity"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_FELBMHNcEfC0VqedU-LfKg" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_FELBMXNcEfC0VqedU-LfKg" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_FELoQHNcEfC0VqedU-LfKg" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_FV5DUXNcEfC0VqedU-LfKg" name="CrossOrigin"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_FV6RcXNcEfC0VqedU-LfKg" name="DeleteMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_FV7fkXNcEfC0VqedU-LfKg" name="GetMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_FV9UwXNcEfC0VqedU-LfKg" name="PatchMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_FV_J8HNcEfC0VqedU-LfKg" name="PathVariable"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_FWAYEHNcEfC0VqedU-LfKg" name="PostMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_FWBmMXNcEfC0VqedU-LfKg" name="PutMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_FWC0UXNcEfC0VqedU-LfKg" name="RequestBody"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_FWECcXNcEfC0VqedU-LfKg" name="RequestMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_FWFQkXNcEfC0VqedU-LfKg" name="RestController"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_FFGOQHNcEfC0VqedU-LfKg" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_FFGOQXNcEfC0VqedU-LfKg" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_FWeSIHNcEfC0VqedU-LfKg" name="Id"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_FFHcYHNcEfC0VqedU-LfKg" name="mongodb">
+            <packagedElement xmi:type="uml:Package" xmi:id="_FFHcYXNcEfC0VqedU-LfKg" name="core">
+              <packagedElement xmi:type="uml:Package" xmi:id="_FFIDcHNcEfC0VqedU-LfKg" name="mapping">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_FWfgQXNcEfC0VqedU-LfKg" name="Document"/>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_FWguYHNcEfC0VqedU-LfKg" name="Field"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_FGHh8HNcEfC0VqedU-LfKg" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_FW5v8HNcEfC0VqedU-LfKg" name="MongoRepository"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_FGIJAHNcEfC0VqedU-LfKg" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_FW7lIHNcEfC0VqedU-LfKg" name="Repository"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_FXEIAHNcEfC0VqedU-LfKg" name="Service"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_FGrioHNcEfC0VqedU-LfKg" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_FGrioXNcEfC0VqedU-LfKg" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_FGsJsHNcEfC0VqedU-LfKg" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_FXbUYHNcEfC0VqedU-LfKg" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_FEHW0HNcEfC0VqedU-LfKg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_FEHW0XNcEfC0VqedU-LfKg" name="time">
+        <packagedElement xmi:type="uml:Package" xmi:id="_FEH94HNcEfC0VqedU-LfKg" name="format">
+          <packagedElement xmi:type="uml:Class" xmi:id="_FVvSUXNcEfC0VqedU-LfKg" name="DateTimeParseException"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FVsPAHNcEfC0VqedU-LfKg" name="Instant"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FVtdIXNcEfC0VqedU-LfKg" name="LocalDate"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FWh8gHNcEfC0VqedU-LfKg" name="LocalTime"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_FEIk8HNcEfC0VqedU-LfKg" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_FVwgcXNcEfC0VqedU-LfKg" name="List"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_FVxukXNcEfC0VqedU-LfKg" name="Map"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FVzjwHNcEfC0VqedU-LfKg" name="Optional"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_FYWhcHNcEfC0VqedU-LfKg" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_FYXIgHNcEfC0VqedU-LfKg" name="Long"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_Ej1UQHNcEfC0VqedU-LfKg">
+      <eAnnotations xmi:id="_Ej4-oHNcEfC0VqedU-LfKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_FZBP0HNcEfC0VqedU-LfKg">
+      <eAnnotations xmi:id="_FZGvYHNcEfC0VqedU-LfKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_EkCvoHNcEfC0VqedU-LfKg" base_Package="_D6tewHNcEfC0VqedU-LfKg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FHpL8HNcEfC0VqedU-LfKg" base_Element="_FHfa8HNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:StyledElement xmi:id="_FHyV4HNcEfC0VqedU-LfKg" base_Element="_FHv5oHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FH2AQHNcEfC0VqedU-LfKg" base_Element="_FHfa8HNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FH_xQHNcEfC0VqedU-LfKg" name="SpringBootApplication"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FIECsHNcEfC0VqedU-LfKg" base_Element="_FIAYUHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Generics xmi:id="_FIKJUHNcEfC0VqedU-LfKg" genericsValue="List&lt;Appointment>" base_Element="_FIHGAHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FINMoHNcEfC0VqedU-LfKg" base_Element="_FIHGAHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FINzsHNcEfC0VqedU-LfKg" name="GetMapping"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_FISFIHNcEfC0VqedU-LfKg" genericsValue="?" base_Element="_FIPB0HNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FISsMHNcEfC0VqedU-LfKg" base_Element="_FIPo4HNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FITTQHNcEfC0VqedU-LfKg" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FIVvgHNcEfC0VqedU-LfKg" base_Element="_FIPB0HNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FIWWkHNcEfC0VqedU-LfKg" name="PatchMapping">
+      <annotationParameters xmi:id="_FIW9oHNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_FbbDkHNcEfC0VqedU-LfKg" value="&quot;/{id}/status&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_FIbPEHNcEfC0VqedU-LfKg" genericsValue="Appointment" base_Element="_FIYy0HNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FIcdMHNcEfC0VqedU-LfKg" base_Element="_FIYy0XNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FIcdMXNcEfC0VqedU-LfKg" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FIeSYHNcEfC0VqedU-LfKg" base_Element="_FIYy0HNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FIeSYXNcEfC0VqedU-LfKg" name="GetMapping">
+      <annotationParameters xmi:id="_FIeSYnNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_FbbqoHNcEfC0VqedU-LfKg" value="&quot;/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_FIij0HNcEfC0VqedU-LfKg" genericsValue="List&lt;Appointment>" base_Element="_FIfggHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FIlAEHNcEfC0VqedU-LfKg" base_Element="_FIgHkHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FIlAEXNcEfC0VqedU-LfKg" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FImOMHNcEfC0VqedU-LfKg" base_Element="_FIfggHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FImOMXNcEfC0VqedU-LfKg" name="GetMapping">
+      <annotationParameters xmi:id="_FIm1QHNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_FbbqoXNcEfC0VqedU-LfKg" value="&quot;/patient/{patientId}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_FIqfoHNcEfC0VqedU-LfKg" genericsValue="List&lt;Appointment>" base_Element="_FIoDYHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FIrGsHNcEfC0VqedU-LfKg" base_Element="_FIoDYXNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FIrGsXNcEfC0VqedU-LfKg" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FIsU0HNcEfC0VqedU-LfKg" base_Element="_FIoDYHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FIs74HNcEfC0VqedU-LfKg" name="GetMapping">
+      <annotationParameters xmi:id="_FIti8HNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_FbbqonNcEfC0VqedU-LfKg" value="&quot;/doctor/{doctorId}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_FIybcHNcEfC0VqedU-LfKg" genericsValue="List&lt;Appointment>" base_Element="_FIvYIHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FIzpkHNcEfC0VqedU-LfKg" base_Element="_FIvYIXNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FI0QoHNcEfC0VqedU-LfKg" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FI03sHNcEfC0VqedU-LfKg" base_Element="_FIv_MHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FI03sXNcEfC0VqedU-LfKg" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FI2s4HNcEfC0VqedU-LfKg" base_Element="_FIvYIHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FI2s4XNcEfC0VqedU-LfKg" name="GetMapping">
+      <annotationParameters xmi:id="_FI2s4nNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Fbbqo3NcEfC0VqedU-LfKg" value="&quot;/doctor/{doctorId}/date/{date}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_FI9akHNcEfC0VqedU-LfKg" genericsValue="Void" base_Element="_FI6-UHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FI_PwHNcEfC0VqedU-LfKg" base_Element="_FI7lYHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FI_20HNcEfC0VqedU-LfKg" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FJAd4HNcEfC0VqedU-LfKg" base_Element="_FI6-UHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FJAd4XNcEfC0VqedU-LfKg" name="DeleteMapping">
+      <annotationParameters xmi:id="_FJAd4nNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_FbcRsnNcEfC0VqedU-LfKg" value="&quot;/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FJC6IHNcEfC0VqedU-LfKg" base_Element="_FIAYUHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FJDhMHNcEfC0VqedU-LfKg" name="RestController"/>
+    <annotations xmi:id="_FJDhMXNcEfC0VqedU-LfKg" name="RequestMapping">
+      <annotationParameters xmi:id="_FJDhMnNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_FbZ1cHNcEfC0VqedU-LfKg" value="&quot;/api/appointments&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_FJDhM3NcEfC0VqedU-LfKg" name="CrossOrigin">
+      <annotationParameters xmi:id="_FJEvUHNcEfC0VqedU-LfKg" name="origins" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_FbZ1cXNcEfC0VqedU-LfKg" value="&quot;http://localhost:5173&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FJjQcHNcEfC0VqedU-LfKg" base_Element="_FJaGgHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FJ2LYHNcEfC0VqedU-LfKg" base_Element="_FJaGgHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FJ2ycHNcEfC0VqedU-LfKg" name="Document">
+      <annotationParameters xmi:id="_FJ2ycXNcEfC0VqedU-LfKg" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_RpMWEHNeEfC0VqedU-LfKg" value="&quot;appointments&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FKj9EHNcEfC0VqedU-LfKg" base_Element="_FKg5wHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FKu8MHNcEfC0VqedU-LfKg" base_Element="_FKsf8HNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FK4GIHNcEfC0VqedU-LfKg" base_Element="_FK2Q8HNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FK9lsHNcEfC0VqedU-LfKg" base_Element="_FK7wgHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:StyledElement xmi:id="_FLApAHNcEfC0VqedU-LfKg" base_Element="_FK-z0HNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:StyledElement xmi:id="_FLDFQHNcEfC0VqedU-LfKg" base_Element="_FLBQEHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FLFhgHNcEfC0VqedU-LfKg" base_Element="_FK7wgHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FLFhgXNcEfC0VqedU-LfKg" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_FLUyEHNcEfC0VqedU-LfKg" genericsValue="Appointment" base_Element="_FLSV0HNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FLo7IHNcEfC0VqedU-LfKg" base_Element="_FLme4HNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Generics xmi:id="_FLvo0HNcEfC0VqedU-LfKg" genericsValue="Appointment" base_Element="_FLrXYHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FLyFEHNcEfC0VqedU-LfKg" base_Element="_FLrXYHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FLyFEXNcEfC0VqedU-LfKg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FL2WgHNcEfC0VqedU-LfKg" base_Element="_FLysIHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FL29kHNcEfC0VqedU-LfKg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FL6n8HNcEfC0VqedU-LfKg" base_Element="_FL4LsHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FL6n8XNcEfC0VqedU-LfKg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FL_gcHNcEfC0VqedU-LfKg" base_Element="_FL8dIHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FL_gcXNcEfC0VqedU-LfKg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FMCjwHNcEfC0VqedU-LfKg" base_Element="_FMAukHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FMCjwXNcEfC0VqedU-LfKg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FMFnEHNcEfC0VqedU-LfKg" base_Element="_FMCjwnNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FMFnEXNcEfC0VqedU-LfKg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FMHcQHNcEfC0VqedU-LfKg" base_Element="_FLme4HNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FMHcQXNcEfC0VqedU-LfKg" name="Service"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FMWFwHNcEfC0VqedU-LfKg" base_Element="_FMTpgHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FMXT4HNcEfC0VqedU-LfKg" base_Element="_FMWFwXNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FMYiAHNcEfC0VqedU-LfKg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FMZJEHNcEfC0VqedU-LfKg" base_Element="_FMTpgHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FMZwIHNcEfC0VqedU-LfKg" name="SpringBootTest"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_FVnWgHNcEfC0VqedU-LfKg" base_Element="_FVk6QHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FVrA4HNcEfC0VqedU-LfKg" base_Element="_FVpLsHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FVtdIHNcEfC0VqedU-LfKg" base_Element="_FVsPAHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FVvSUHNcEfC0VqedU-LfKg" base_Element="_FVtdIXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FVwgcHNcEfC0VqedU-LfKg" base_Element="_FVvSUXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FVxukHNcEfC0VqedU-LfKg" base_Element="_FVwgcXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FVy8sHNcEfC0VqedU-LfKg" base_Element="_FVxukXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FV0x4HNcEfC0VqedU-LfKg" base_Element="_FVzjwHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FV2AAHNcEfC0VqedU-LfKg" base_Element="_FV0x4XNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FV3OIHNcEfC0VqedU-LfKg" base_Element="_FV2nEHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FV5DUHNcEfC0VqedU-LfKg" base_Element="_FV31MHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FV6RcHNcEfC0VqedU-LfKg" base_Element="_FV5DUXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FV7fkHNcEfC0VqedU-LfKg" base_Element="_FV6RcXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FV9UwHNcEfC0VqedU-LfKg" base_Element="_FV7fkXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FV970HNcEfC0VqedU-LfKg" base_Element="_FV9UwXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FV_xAHNcEfC0VqedU-LfKg" base_Element="_FV_J8HNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FWBmMHNcEfC0VqedU-LfKg" base_Element="_FWAYEHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FWC0UHNcEfC0VqedU-LfKg" base_Element="_FWBmMXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FWECcHNcEfC0VqedU-LfKg" base_Element="_FWC0UXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FWFQkHNcEfC0VqedU-LfKg" base_Element="_FWECcXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FWGesHNcEfC0VqedU-LfKg" base_Element="_FWFQkXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FWKwIHNcEfC0VqedU-LfKg" base_Element="_FWHs0HNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FWL-QHNcEfC0VqedU-LfKg" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_FWNzcHNcEfC0VqedU-LfKg" genericsValue="?" base_Element="_FWMlUHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FWPooHNcEfC0VqedU-LfKg" base_Element="_FWNMYHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FWPooXNcEfC0VqedU-LfKg" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FWQPsHNcEfC0VqedU-LfKg" base_Element="_FWMlUHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FWQPsXNcEfC0VqedU-LfKg" name="PostMapping">
+      <annotationParameters xmi:id="_FWQPsnNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_FbZ1cnNcEfC0VqedU-LfKg" value="&quot;/update-on-schedule-change&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_FWSE4HNcEfC0VqedU-LfKg" genericsValue="Appointment" base_Element="_FWQ2wHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FWSr8HNcEfC0VqedU-LfKg" base_Element="_FWQ2wXNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FWSr8XNcEfC0VqedU-LfKg" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FWTTAHNcEfC0VqedU-LfKg" base_Element="_FWQ2wHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FWT6EHNcEfC0VqedU-LfKg" name="PostMapping"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_FWWWUHNcEfC0VqedU-LfKg" genericsValue="Appointment" base_Element="_FWUhIHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FWXkcHNcEfC0VqedU-LfKg" base_Element="_FWUhIXNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FWXkcXNcEfC0VqedU-LfKg" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FWXkcnNcEfC0VqedU-LfKg" base_Element="_FWUhInNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FWXkc3NcEfC0VqedU-LfKg" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FWZZoHNcEfC0VqedU-LfKg" base_Element="_FWUhIHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FWZZoXNcEfC0VqedU-LfKg" name="PutMapping">
+      <annotationParameters xmi:id="_FWZZonNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_FbcRsHNcEfC0VqedU-LfKg" value="&quot;/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_FWfgQHNcEfC0VqedU-LfKg" base_Element="_FWeSIHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FWgHUHNcEfC0VqedU-LfKg" base_Element="_FWfgQXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FWhVcHNcEfC0VqedU-LfKg" base_Element="_FWguYHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FWijkHNcEfC0VqedU-LfKg" base_Element="_FWh8gHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FW6-EHNcEfC0VqedU-LfKg" base_Element="_FW5v8HNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FW8MMHNcEfC0VqedU-LfKg" base_Element="_FW7lIHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FXFWIHNcEfC0VqedU-LfKg" base_Element="_FXEIAHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FXTYkHNcEfC0VqedU-LfKg" base_Element="_FXPuMHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FXTYkXNcEfC0VqedU-LfKg" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FXVNwHNcEfC0VqedU-LfKg" base_Element="_FXTYknNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FXVNwXNcEfC0VqedU-LfKg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FXXqAHNcEfC0VqedU-LfKg" base_Element="_FXV00HNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FXXqAXNcEfC0VqedU-LfKg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_FXcigHNcEfC0VqedU-LfKg" base_Element="_FXbUYHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FXeXsHNcEfC0VqedU-LfKg" base_Element="_FXcigXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Generics xmi:id="_FXsaIHNcEfC0VqedU-LfKg" genericsValue="Appointment" base_Element="_FXrMAHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FXtBMXNcEfC0VqedU-LfKg" base_Element="_FXrMAXNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FXuPUHNcEfC0VqedU-LfKg" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_FXu2YHNcEfC0VqedU-LfKg" genericsValue="String, String" base_Element="_FXrMAnNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FXwEgHNcEfC0VqedU-LfKg" base_Element="_FXrMAnNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FXwEgXNcEfC0VqedU-LfKg" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FYQa0HNcEfC0VqedU-LfKg" base_Element="_FXrMAHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FYRB4HNcEfC0VqedU-LfKg" name="PutMapping">
+      <annotationParameters xmi:id="_FYRo8HNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_FbcRsXNcEfC0VqedU-LfKg" value="&quot;/{id}/status&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_FYYWoHNcEfC0VqedU-LfKg" base_Element="_FYXIgHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Generics xmi:id="_FYqqgHNcEfC0VqedU-LfKg" genericsValue="Appointment, String" base_Element="_FYo1UHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:StyledElement xmi:id="_FYsfsHNcEfC0VqedU-LfKg" base_Element="_FYrRkHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Annotations xmi:id="_FY1poHNcEfC0VqedU-LfKg" base_Element="_FYz0cHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FY2QsHNcEfC0VqedU-LfKg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_FY4F4HNcEfC0VqedU-LfKg" base_Element="_FY23wHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FY4F4XNcEfC0VqedU-LfKg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <Persistency:PrimaryKey xmi:id="_FZKZwHNcEfC0VqedU-LfKg" base_Property="_FZAowHNcEfC0VqedU-LfKg"/>
+  <Persistency:JPA1StyledElement xmi:id="_FZM2AHNcEfC0VqedU-LfKg" base_Element="_FZAowHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FZPSQHNcEfC0VqedU-LfKg" base_Element="_FZNdEHNcEfC0VqedU-LfKg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZP5UHNcEfC0VqedU-LfKg" name="getCustomId" method="_FbD3MHNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZRHcHNcEfC0VqedU-LfKg" type="_FYXIgHNcEfC0VqedU-LfKg" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZP5UXNcEfC0VqedU-LfKg" name="setCustomId" method="_FbEeQXNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZQgYHNcEfC0VqedU-LfKg" name="customId" type="_FYXIgHNcEfC0VqedU-LfKg"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_FZSVkHNcEfC0VqedU-LfKg" base_Element="_FZNdEHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FZSVkXNcEfC0VqedU-LfKg" name="Field">
+      <annotationParameters xmi:id="_FZS8oHNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_RpM9IHNeEfC0VqedU-LfKg" value="&quot;id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FZUKwHNcEfC0VqedU-LfKg" base_Element="_FZTjsHNcEfC0VqedU-LfKg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZUx0HNcEfC0VqedU-LfKg" name="getPatientId" method="_FbFFUHNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZXOEHNcEfC0VqedU-LfKg" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZVY4HNcEfC0VqedU-LfKg" name="setPatientId" method="_FbFFUnNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZVY4XNcEfC0VqedU-LfKg" name="patientId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_FZX1IHNcEfC0VqedU-LfKg" base_Element="_FZTjsHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FZX1IXNcEfC0VqedU-LfKg" name="Field">
+      <annotationParameters xmi:id="_FZX1InNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_RpNkMHNeEfC0VqedU-LfKg" value="&quot;patient_id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FZZqUHNcEfC0VqedU-LfKg" base_Element="_FZYcMHNcEfC0VqedU-LfKg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZZqUXNcEfC0VqedU-LfKg" name="getDoctorId" method="_FbFsYXNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZa4cHNcEfC0VqedU-LfKg" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZaRYHNcEfC0VqedU-LfKg" name="setDoctorId" method="_FbG6gHNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZaRYXNcEfC0VqedU-LfKg" name="doctorId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_FZbfgHNcEfC0VqedU-LfKg" base_Element="_FZYcMHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FZbfgXNcEfC0VqedU-LfKg" name="Field">
+      <annotationParameters xmi:id="_FZbfgnNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_RpNkMXNeEfC0VqedU-LfKg" value="&quot;doctor_id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FZctoHNcEfC0VqedU-LfKg" base_Element="_FZcGkHNcEfC0VqedU-LfKg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZctoXNcEfC0VqedU-LfKg" name="getAppointmentDate" method="_FbG6gnNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZd7wHNcEfC0VqedU-LfKg" type="_FVtdIXNcEfC0VqedU-LfKg" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZdUsHNcEfC0VqedU-LfKg" name="setAppointmentDate" method="_FbIIoHNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZdUsXNcEfC0VqedU-LfKg" name="appointmentDate" type="_FVtdIXNcEfC0VqedU-LfKg"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_FZei0HNcEfC0VqedU-LfKg" base_Element="_FZcGkHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FZfJ4HNcEfC0VqedU-LfKg" name="Field">
+      <annotationParameters xmi:id="_FZfJ4XNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_RpOLQHNeEfC0VqedU-LfKg" value="&quot;appointment_date&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FZiNMHNcEfC0VqedU-LfKg" base_Element="_FZgYAHNcEfC0VqedU-LfKg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZiNMXNcEfC0VqedU-LfKg" name="getAppointmentTime" method="_FbIIonNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZkCYHNcEfC0VqedU-LfKg" type="_FVsPAHNcEfC0VqedU-LfKg" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZi0QHNcEfC0VqedU-LfKg" name="setAppointmentTime" method="_FbIvsXNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZi0QXNcEfC0VqedU-LfKg" name="appointmentTime" type="_FVsPAHNcEfC0VqedU-LfKg"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_FZkCYXNcEfC0VqedU-LfKg" base_Element="_FZgYAHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FZkpcHNcEfC0VqedU-LfKg" name="Field">
+      <annotationParameters xmi:id="_FZkpcXNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_RpOyUHNeEfC0VqedU-LfKg" value="&quot;appointment_time&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FZmeoHNcEfC0VqedU-LfKg" base_Element="_FZlQgHNcEfC0VqedU-LfKg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZmeoXNcEfC0VqedU-LfKg" name="getReasonForVisit" method="_FbJWwHNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZoT0HNcEfC0VqedU-LfKg" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZnswHNcEfC0VqedU-LfKg" name="setReasonForVisit" method="_FbJWwnNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZnswXNcEfC0VqedU-LfKg" name="reasonForVisit">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_FZph8HNcEfC0VqedU-LfKg" base_Element="_FZlQgHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FZph8XNcEfC0VqedU-LfKg" name="Field">
+      <annotationParameters xmi:id="_FZqJAHNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_RpOyUXNeEfC0VqedU-LfKg" value="&quot;reason_for_visit&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_FZrXIHNcEfC0VqedU-LfKg" base_Element="_FZqwEHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FZtMUHNcEfC0VqedU-LfKg" base_Element="_FZr-MHNcEfC0VqedU-LfKg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZtMUXNcEfC0VqedU-LfKg" name="getBookedByUserId" method="_FbJ90XNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZuacHNcEfC0VqedU-LfKg" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZtzYHNcEfC0VqedU-LfKg" name="setBookedByUserId" method="_FbKk4HNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZtzYXNcEfC0VqedU-LfKg" name="bookedByUserId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_FZvBgHNcEfC0VqedU-LfKg" base_Element="_FZr-MHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FZvBgXNcEfC0VqedU-LfKg" name="Field">
+      <annotationParameters xmi:id="_FZvBgnNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_RpPZYHNeEfC0VqedU-LfKg" value="&quot;booked_by_user_id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_FZw2sHNcEfC0VqedU-LfKg" base_Element="_FZvokHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FZyE0HNcEfC0VqedU-LfKg" base_Element="_FZw2sXNcEfC0VqedU-LfKg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZyr4HNcEfC0VqedU-LfKg" name="getConsultationStartTime" method="_FbKk4nNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZzS8HNcEfC0VqedU-LfKg" type="_FVsPAHNcEfC0VqedU-LfKg" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZyr4XNcEfC0VqedU-LfKg" name="setConsultationStartTime" method="_FbLL8XNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZyr4nNcEfC0VqedU-LfKg" name="consultationStartTime" type="_FVsPAHNcEfC0VqedU-LfKg"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_FZ0hEHNcEfC0VqedU-LfKg" base_Element="_FZw2sXNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FZ0hEXNcEfC0VqedU-LfKg" name="Field">
+      <annotationParameters xmi:id="_FZ1IIHNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_RpPZYXNeEfC0VqedU-LfKg" value="&quot;consultation_start_time&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FZ29UHNcEfC0VqedU-LfKg" base_Element="_FZ1vMHNcEfC0VqedU-LfKg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZ3kYHNcEfC0VqedU-LfKg" name="getConsultationEndTime" method="_FbLzAXNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZ4ygHNcEfC0VqedU-LfKg" type="_FVsPAHNcEfC0VqedU-LfKg" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZ4LcHNcEfC0VqedU-LfKg" name="setConsultationEndTime" method="_FbLzA3NcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZ4LcXNcEfC0VqedU-LfKg" name="consultationEndTime" type="_FVsPAHNcEfC0VqedU-LfKg"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_FZ5ZkHNcEfC0VqedU-LfKg" base_Element="_FZ1vMHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FZ5ZkXNcEfC0VqedU-LfKg" name="Field">
+      <annotationParameters xmi:id="_FZ5ZknNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_RpQAcHNeEfC0VqedU-LfKg" value="&quot;consultation_end_time&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FZ7OwHNcEfC0VqedU-LfKg" base_Element="_FZ6AoHNcEfC0VqedU-LfKg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZ7OwXNcEfC0VqedU-LfKg" name="getRoomNumber" method="_FbLzBXNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZ9rAHNcEfC0VqedU-LfKg" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FZ710HNcEfC0VqedU-LfKg" name="setRoomNumber" method="_FbNBIHNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FZ710XNcEfC0VqedU-LfKg" name="roomNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_FZ9rAXNcEfC0VqedU-LfKg" base_Element="_FZ6AoHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FZ-SEHNcEfC0VqedU-LfKg" name="Field">
+      <annotationParameters xmi:id="_FZ-SEXNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_RpQAcXNeEfC0VqedU-LfKg" value="&quot;room_number&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FaAHQHNcEfC0VqedU-LfKg" base_Element="_FZ-5IHNcEfC0VqedU-LfKg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FaAHQXNcEfC0VqedU-LfKg" name="getCreatedAt" method="_FbNBInNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FaBVYHNcEfC0VqedU-LfKg" type="_FVsPAHNcEfC0VqedU-LfKg" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FaAuUHNcEfC0VqedU-LfKg" name="setCreatedAt" method="_FbNBJHNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FaAuUXNcEfC0VqedU-LfKg" name="createdAt" type="_FVsPAHNcEfC0VqedU-LfKg"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_FaBVYXNcEfC0VqedU-LfKg" base_Element="_FZ-5IHNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FaB8cHNcEfC0VqedU-LfKg" name="Field">
+      <annotationParameters xmi:id="_FaB8cXNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_RpQAcnNeEfC0VqedU-LfKg" value="&quot;created_at&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FaDKkHNcEfC0VqedU-LfKg" base_Element="_FaB8cnNcEfC0VqedU-LfKg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FaDKkXNcEfC0VqedU-LfKg" name="getUpdatedAt" method="_FbNoMHNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FaEYsHNcEfC0VqedU-LfKg" type="_FVsPAHNcEfC0VqedU-LfKg" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FaDKknNcEfC0VqedU-LfKg" name="setUpdatedAt" method="_FbOPQHNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FaDxoHNcEfC0VqedU-LfKg" name="updatedAt" type="_FVsPAHNcEfC0VqedU-LfKg"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_FaEYsXNcEfC0VqedU-LfKg" base_Element="_FaB8cnNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FaE_wHNcEfC0VqedU-LfKg" name="Field">
+      <annotationParameters xmi:id="_FaE_wXNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_RpQngHNeEfC0VqedU-LfKg" value="&quot;updated_at&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FaGN4HNcEfC0VqedU-LfKg" base_Element="_FaE_wnNcEfC0VqedU-LfKg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FaG08HNcEfC0VqedU-LfKg" name="getMedicalRecordId" method="_FbOPQnNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FaHcAHNcEfC0VqedU-LfKg" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_FaG08XNcEfC0VqedU-LfKg" name="setMedicalRecordId" method="_FbO2UXNcEfC0VqedU-LfKg">
+      <ownedParameter xmi:id="_FaG08nNcEfC0VqedU-LfKg" name="medicalRecordId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_FaIqIHNcEfC0VqedU-LfKg" base_Element="_FaE_wnNcEfC0VqedU-LfKg">
+    <annotations xmi:id="_FaIqIXNcEfC0VqedU-LfKg" name="Field">
+      <annotationParameters xmi:id="_FaJRMHNcEfC0VqedU-LfKg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_RpQngXNeEfC0VqedU-LfKg" value="&quot;medical_record_id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <uml:OpaqueBehavior xmi:id="_FbD3MHNcEfC0VqedU-LfKg" name="getCustomId" specification="_FZP5UHNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbEeQHNcEfC0VqedU-LfKg" type="_FYXIgHNcEfC0VqedU-LfKg" direction="return">
+      <name xsi:nil="true"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return customId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbEeQXNcEfC0VqedU-LfKg" name="setCustomId" specification="_FZP5UXNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbEeQnNcEfC0VqedU-LfKg" name="customId" type="_FYXIgHNcEfC0VqedU-LfKg"/>
+    <language>java</language>
+    <body>this.customId = customId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbFFUHNcEfC0VqedU-LfKg" name="getPatientId" specification="_FZUx0HNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbFFUXNcEfC0VqedU-LfKg" direction="return">
+      <name xsi:nil="true"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return patientId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbFFUnNcEfC0VqedU-LfKg" name="setPatientId" specification="_FZVY4HNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbFsYHNcEfC0VqedU-LfKg" name="patientId">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.patientId = patientId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbFsYXNcEfC0VqedU-LfKg" name="getDoctorId" specification="_FZZqUXNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbGTcHNcEfC0VqedU-LfKg" direction="return">
+      <name xsi:nil="true"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return doctorId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbG6gHNcEfC0VqedU-LfKg" name="setDoctorId" specification="_FZaRYHNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbG6gXNcEfC0VqedU-LfKg" name="doctorId">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.doctorId = doctorId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbG6gnNcEfC0VqedU-LfKg" name="getAppointmentDate" specification="_FZctoXNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbHhkHNcEfC0VqedU-LfKg" type="_FVtdIXNcEfC0VqedU-LfKg" direction="return">
+      <name xsi:nil="true"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return appointmentDate;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbIIoHNcEfC0VqedU-LfKg" name="setAppointmentDate" specification="_FZdUsHNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbIIoXNcEfC0VqedU-LfKg" name="appointmentDate" type="_FVtdIXNcEfC0VqedU-LfKg"/>
+    <language>java</language>
+    <body>this.appointmentDate = appointmentDate;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbIIonNcEfC0VqedU-LfKg" name="getAppointmentTime" specification="_FZiNMXNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbIvsHNcEfC0VqedU-LfKg" type="_FVsPAHNcEfC0VqedU-LfKg" direction="return">
+      <name xsi:nil="true"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return appointmentTime;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbIvsXNcEfC0VqedU-LfKg" name="setAppointmentTime" specification="_FZi0QHNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbIvsnNcEfC0VqedU-LfKg" name="appointmentTime" type="_FVsPAHNcEfC0VqedU-LfKg"/>
+    <language>java</language>
+    <body>this.appointmentTime = appointmentTime;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbJWwHNcEfC0VqedU-LfKg" name="getReasonForVisit" specification="_FZmeoXNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbJWwXNcEfC0VqedU-LfKg" direction="return">
+      <name xsi:nil="true"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return reasonForVisit;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbJWwnNcEfC0VqedU-LfKg" name="setReasonForVisit" specification="_FZnswHNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbJ90HNcEfC0VqedU-LfKg" name="reasonForVisit">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.reasonForVisit = reasonForVisit;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbJ90XNcEfC0VqedU-LfKg" name="getBookedByUserId" specification="_FZtMUXNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbJ90nNcEfC0VqedU-LfKg" direction="return">
+      <name xsi:nil="true"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return bookedByUserId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbKk4HNcEfC0VqedU-LfKg" name="setBookedByUserId" specification="_FZtzYHNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbKk4XNcEfC0VqedU-LfKg" name="bookedByUserId">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.bookedByUserId = bookedByUserId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbKk4nNcEfC0VqedU-LfKg" name="getConsultationStartTime" specification="_FZyr4HNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbLL8HNcEfC0VqedU-LfKg" type="_FVsPAHNcEfC0VqedU-LfKg" direction="return">
+      <name xsi:nil="true"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return consultationStartTime;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbLL8XNcEfC0VqedU-LfKg" name="setConsultationStartTime" specification="_FZyr4XNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbLzAHNcEfC0VqedU-LfKg" name="consultationStartTime" type="_FVsPAHNcEfC0VqedU-LfKg"/>
+    <language>java</language>
+    <body>this.consultationStartTime = consultationStartTime;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbLzAXNcEfC0VqedU-LfKg" name="getConsultationEndTime" specification="_FZ3kYHNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbLzAnNcEfC0VqedU-LfKg" type="_FVsPAHNcEfC0VqedU-LfKg" direction="return">
+      <name xsi:nil="true"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return consultationEndTime;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbLzA3NcEfC0VqedU-LfKg" name="setConsultationEndTime" specification="_FZ4LcHNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbLzBHNcEfC0VqedU-LfKg" name="consultationEndTime" type="_FVsPAHNcEfC0VqedU-LfKg"/>
+    <language>java</language>
+    <body>this.consultationEndTime = consultationEndTime;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbLzBXNcEfC0VqedU-LfKg" name="getRoomNumber" specification="_FZ7OwXNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbLzBnNcEfC0VqedU-LfKg" direction="return">
+      <name xsi:nil="true"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return roomNumber;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbNBIHNcEfC0VqedU-LfKg" name="setRoomNumber" specification="_FZ710HNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbNBIXNcEfC0VqedU-LfKg" name="roomNumber">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.roomNumber = roomNumber;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbNBInNcEfC0VqedU-LfKg" name="getCreatedAt" specification="_FaAHQXNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbNBI3NcEfC0VqedU-LfKg" type="_FVsPAHNcEfC0VqedU-LfKg" direction="return">
+      <name xsi:nil="true"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return createdAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbNBJHNcEfC0VqedU-LfKg" name="setCreatedAt" specification="_FaAuUHNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbNBJXNcEfC0VqedU-LfKg" name="createdAt" type="_FVsPAHNcEfC0VqedU-LfKg"/>
+    <language>java</language>
+    <body>this.createdAt = createdAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbNoMHNcEfC0VqedU-LfKg" name="getUpdatedAt" specification="_FaDKkXNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbNoMXNcEfC0VqedU-LfKg" type="_FVsPAHNcEfC0VqedU-LfKg" direction="return">
+      <name xsi:nil="true"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return updatedAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbOPQHNcEfC0VqedU-LfKg" name="setUpdatedAt" specification="_FaDKknNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbOPQXNcEfC0VqedU-LfKg" name="updatedAt" type="_FVsPAHNcEfC0VqedU-LfKg"/>
+    <language>java</language>
+    <body>this.updatedAt = updatedAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbOPQnNcEfC0VqedU-LfKg" name="getMedicalRecordId" specification="_FaG08HNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbO2UHNcEfC0VqedU-LfKg" direction="return">
+      <name xsi:nil="true"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return medicalRecordId;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_FbO2UXNcEfC0VqedU-LfKg" name="setMedicalRecordId" specification="_FaG08XNcEfC0VqedU-LfKg">
+    <ownedParameter xmi:id="_FbO2UnNcEfC0VqedU-LfKg" name="medicalRecordId">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.medicalRecordId = medicalRecordId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_FcbJIHNcEfC0VqedU-LfKg" base_Element="_FcCuoHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FcvSMHNcEfC0VqedU-LfKg" base_Element="_FccXQHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_Fc_w4HNcEfC0VqedU-LfKg" base_Element="_Fcv5QHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FdNzUHNcEfC0VqedU-LfKg" base_Element="_FdAX8HNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FddD4HNcEfC0VqedU-LfKg" base_Element="_FdOaYHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FdsUcHNcEfC0VqedU-LfKg" base_Element="_Fddq8HNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_Fd5v0HNcEfC0VqedU-LfKg" base_Element="_Fds7gHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FeGkIHNcEfC0VqedU-LfKg" base_Element="_Fd698HNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FeSxYHNcEfC0VqedU-LfKg" base_Element="_FeGkIXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FeeXkHNcEfC0VqedU-LfKg" base_Element="_FeTYcHNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_FeovoHNcEfC0VqedU-LfKg" base_Element="_FeeXkXNcEfC0VqedU-LfKg"/>
+  <UMLLabProfile:Reference xmi:id="_Fe084HNcEfC0VqedU-LfKg" base_Element="_FepWsHNcEfC0VqedU-LfKg"/>
+</xmi:XMI>

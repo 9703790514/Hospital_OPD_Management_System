@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_mN3YYHN8EfCTGutOISnrsw" name="NurseCheckUpsMicroService_1">
+    <eAnnotations xmi:id="_mpinwHN8EfCTGutOISnrsw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_mpinwXN8EfCTGutOISnrsw" source="codegen">
+        <details xmi:id="_mpinwnN8EfCTGutOISnrsw" key="codegenDirectory" value="/NurseCheckUpsMicroService-1/src/main/java"/>
+        <details xmi:id="_oO2_wHN8EfCTGutOISnrsw" key="AssociatedSourceCode" value="/NurseCheckUpsMicroService-1/src/main/java/training/iqgateway/NurseCheckUpsMicroService1Application.java;3568626498/1;/NurseCheckUpsMicroService-1/src/main/java/training/iqgateway/contoller/NurseCheckupController.java;779696909/1;/NurseCheckUpsMicroService-1/src/main/java/training/iqgateway/entities/NurseCheckup.java;1315815825/1;/NurseCheckUpsMicroService-1/src/main/java/training/iqgateway/repository/NurseCheckupRepository.java;3332886833/1;/NurseCheckUpsMicroService-1/src/main/java/training/iqgateway/service/NurseCheckupService.java;3968483109/1;/NurseCheckUpsMicroService-1/src/main/java/training/iqgateway/serviceimpl/NurseCheckupServiceImpl.java;345269431/1;/NurseCheckUpsMicroService-1/src/test/java/training/iqgateway/NurseCheckUpsMicroService1ApplicationTests.java;2473397688/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_nTkcMXN8EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_nTlDQHN8EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_nTlDQXN8EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_nTlDQnN8EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_nTlDQ3N8EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_nTlDRHN8EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_nTlDRXN8EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_nTlDRnN8EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_nTlDR3N8EfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nTUkkHN8EfCTGutOISnrsw" name="training">
+      <packagedElement xmi:type="uml:Package" xmi:id="_nTVLpHN8EfCTGutOISnrsw" name="iqgateway">
+        <packagedElement xmi:type="uml:Package" xmi:id="_nTVyuXN8EfCTGutOISnrsw" name="entities">
+          <packagedElement xmi:type="uml:Class" xmi:id="_nTtmIHN8EfCTGutOISnrsw" name="NurseCheckup">
+            <ownedAttribute xmi:id="_nVnDknN8EfCTGutOISnrsw" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_nVoRsXN8EfCTGutOISnrsw" name="appointmentId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_nVoRs3N8EfCTGutOISnrsw" name="patientId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_nVoRtXN8EfCTGutOISnrsw" name="date" type="_nVcEe3N8EfCTGutOISnrsw" association="_nVr8FHN8EfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_nVoRt3N8EfCTGutOISnrsw" name="vitals" type="_nTu0QHN8EfCTGutOISnrsw" association="_nVsjIHN8EfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_nVo4wHN8EfCTGutOISnrsw" name="notes">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_nVo4wnN8EfCTGutOISnrsw" name="nurseId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_nTu0QHN8EfCTGutOISnrsw" name="Vitals">
+              <eAnnotations xmi:id="_nTu0QXN8EfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_nTu0QnN8EfCTGutOISnrsw" key="static"/>
+              </eAnnotations>
+              <ownedAttribute xmi:id="_nVo4xHN8EfCTGutOISnrsw" name="bloodPressure" type="_nTvbUHN8EfCTGutOISnrsw" association="_nVsjInN8EfCTGutOISnrsw"/>
+              <ownedAttribute xmi:id="_nVo4xXN8EfCTGutOISnrsw" name="bloodSugar" type="_nTvbU3N8EfCTGutOISnrsw" association="_nVsjJHN8EfCTGutOISnrsw"/>
+              <ownedAttribute xmi:id="_nVo4xnN8EfCTGutOISnrsw" name="pulseRate">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_nVo4x3N8EfCTGutOISnrsw" name="respiratoryRate">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_nVo4yHN8EfCTGutOISnrsw" name="temperature" type="_nTwCYHN8EfCTGutOISnrsw" association="_nVtKMXN8EfCTGutOISnrsw"/>
+              <ownedAttribute xmi:id="_nVo4yXN8EfCTGutOISnrsw" name="oxygenSaturation" type="_nTwCY3N8EfCTGutOISnrsw" association="_nVtKM3N8EfCTGutOISnrsw"/>
+              <ownedAttribute xmi:id="_nVo4ynN8EfCTGutOISnrsw" name="weightKg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_nVo4y3N8EfCTGutOISnrsw" name="heightCm">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedAttribute>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_nTvbUHN8EfCTGutOISnrsw" name="BloodPressure">
+                <eAnnotations xmi:id="_nTvbUXN8EfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_nTvbUnN8EfCTGutOISnrsw" key="static"/>
+                </eAnnotations>
+                <ownedAttribute xmi:id="_nVo4zHN8EfCTGutOISnrsw" name="systolic">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_nVo4zXN8EfCTGutOISnrsw" name="diastolic">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_nVo4znN8EfCTGutOISnrsw" name="unit">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_nTvbU3N8EfCTGutOISnrsw" name="BloodSugar">
+                <eAnnotations xmi:id="_nTvbVHN8EfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_nTvbVXN8EfCTGutOISnrsw" key="static"/>
+                </eAnnotations>
+                <ownedAttribute xmi:id="_nVo4z3N8EfCTGutOISnrsw" name="value">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_nVqG4HN8EfCTGutOISnrsw" name="unit">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_nTwCYHN8EfCTGutOISnrsw" name="Temperature">
+                <eAnnotations xmi:id="_nTwCYXN8EfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_nTwCYnN8EfCTGutOISnrsw" key="static"/>
+                </eAnnotations>
+                <ownedAttribute xmi:id="_nVqG4XN8EfCTGutOISnrsw" name="value">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_nVqG4nN8EfCTGutOISnrsw" name="unit">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_nTwCY3N8EfCTGutOISnrsw" name="OxygenSaturation">
+                <eAnnotations xmi:id="_nTwCZHN8EfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_nTwCZXN8EfCTGutOISnrsw" key="static"/>
+                </eAnnotations>
+                <ownedAttribute xmi:id="_nVqG43N8EfCTGutOISnrsw" name="value">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_nVqG5HN8EfCTGutOISnrsw" name="unit">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+              </nestedClassifier>
+            </nestedClassifier>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_nVr8FHN8EfCTGutOISnrsw" name="" memberEnd="_nVoRtXN8EfCTGutOISnrsw _nVr8FXN8EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_nVr8FXN8EfCTGutOISnrsw" name="" type="_nTtmIHN8EfCTGutOISnrsw" association="_nVr8FHN8EfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_nVsjIHN8EfCTGutOISnrsw" name="" memberEnd="_nVoRt3N8EfCTGutOISnrsw _nVsjIXN8EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_nVsjIXN8EfCTGutOISnrsw" name="" type="_nTtmIHN8EfCTGutOISnrsw" association="_nVsjIHN8EfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_nVsjInN8EfCTGutOISnrsw" name="" memberEnd="_nVo4xHN8EfCTGutOISnrsw _nVsjI3N8EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_nVsjI3N8EfCTGutOISnrsw" name="" type="_nTu0QHN8EfCTGutOISnrsw" association="_nVsjInN8EfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_nVsjJHN8EfCTGutOISnrsw" name="" memberEnd="_nVo4xXN8EfCTGutOISnrsw _nVtKMHN8EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_nVtKMHN8EfCTGutOISnrsw" name="" type="_nTu0QHN8EfCTGutOISnrsw" association="_nVsjJHN8EfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_nVtKMXN8EfCTGutOISnrsw" name="" memberEnd="_nVo4yHN8EfCTGutOISnrsw _nVtKMnN8EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_nVtKMnN8EfCTGutOISnrsw" name="" type="_nTu0QHN8EfCTGutOISnrsw" association="_nVtKMXN8EfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_nVtKM3N8EfCTGutOISnrsw" name="" memberEnd="_nVo4yXN8EfCTGutOISnrsw _nVtKNHN8EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_nVtKNHN8EfCTGutOISnrsw" name="" type="_nTu0QHN8EfCTGutOISnrsw" association="_nVtKM3N8EfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_nTVyunN8EfCTGutOISnrsw" name="service">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_nT7BgHN8EfCTGutOISnrsw" name="NurseCheckupService">
+            <ownedAttribute xmi:id="_nT-r4nN8EfCTGutOISnrsw" name="allCheckups" visibility="package" type="_nTtmIHN8EfCTGutOISnrsw" isOrdered="true" association="_nVtxQHN8EfCTGutOISnrsw">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nT-r43N8EfCTGutOISnrsw" value="*"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_nT8PoHN8EfCTGutOISnrsw" name="getCheckupById">
+              <ownedParameter xmi:id="_nT8PoXN8EfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVlOYHN8EfCTGutOISnrsw" type="_nVfHw3N8EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_nT-r4HN8EfCTGutOISnrsw" name="deleteCheckup">
+              <ownedParameter xmi:id="_nT-r4XN8EfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_nT_S8HN8EfCTGutOISnrsw" name="getCheckupByAppointmentId">
+              <ownedParameter xmi:id="_nT_S8XN8EfCTGutOISnrsw" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVlOYXN8EfCTGutOISnrsw" type="_nVfHw3N8EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_nVfHxXN8EfCTGutOISnrsw" name="createCheckup">
+              <ownedParameter xmi:id="_nVfHxnN8EfCTGutOISnrsw" name="checkup" type="_nTtmIHN8EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_nVfHx3N8EfCTGutOISnrsw" type="_nTtmIHN8EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_nVfHyHN8EfCTGutOISnrsw" name="updateCheckup">
+              <ownedParameter xmi:id="_nVfHyXN8EfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVfHynN8EfCTGutOISnrsw" name="checkup" type="_nTtmIHN8EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_nVfHy3N8EfCTGutOISnrsw" type="_nTtmIHN8EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_nVtxQHN8EfCTGutOISnrsw" name="" memberEnd="_nT-r4nN8EfCTGutOISnrsw _nVtxQXN8EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_nVtxQXN8EfCTGutOISnrsw" name="" type="_nT7BgHN8EfCTGutOISnrsw" association="_nVtxQHN8EfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_nTWZwHN8EfCTGutOISnrsw" name="contoller">
+          <packagedElement xmi:type="uml:Class" xmi:id="_nTlqUXN8EfCTGutOISnrsw" name="NurseCheckupController">
+            <ownedAttribute xmi:id="_nVmcgHN8EfCTGutOISnrsw" name="service" visibility="private" type="_nT7BgHN8EfCTGutOISnrsw" association="_nVvmcHN8EfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nVqt9XN8EfCTGutOISnrsw" name="createCheckup" specification="_nVa2UnN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVqt9nN8EfCTGutOISnrsw" name="checkup" type="_nTtmIHN8EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_nVqt93N8EfCTGutOISnrsw" type="_nVXzAnN8EfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>NurseCheckup created = service.createCheckup(checkup);&#xD;
+     return ResponseEntity.ok(created);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nVqt-HN8EfCTGutOISnrsw" name="getCheckupById" specification="_nTlqU3N8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVqt-XN8EfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVqt-nN8EfCTGutOISnrsw" type="_nVXzAnN8EfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return service.getCheckupById(id)&#xD;
+             .map(ResponseEntity::ok)&#xD;
+             .orElse(ResponseEntity.notFound().build());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nVqt-3N8EfCTGutOISnrsw" name="getByAppointmentId" specification="_nTm4c3N8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVqt_HN8EfCTGutOISnrsw" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVqt_XN8EfCTGutOISnrsw" type="_nVXzAnN8EfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return service.getCheckupByAppointmentId(appointmentId)&#xD;
+             .map(ResponseEntity::ok)&#xD;
+             .orElse(ResponseEntity.notFound().build());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nVrVAHN8EfCTGutOISnrsw" name="getAllCheckups" specification="_nTqi03N8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVrVAXN8EfCTGutOISnrsw" type="_nVXzAnN8EfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return ResponseEntity.ok(service.getAllCheckups());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nVrVAnN8EfCTGutOISnrsw" name="updateCheckup" specification="_nVbdZXN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVrVA3N8EfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVrVBHN8EfCTGutOISnrsw" name="checkup" type="_nTtmIHN8EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_nVrVBXN8EfCTGutOISnrsw" type="_nVXzAnN8EfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         NurseCheckup updated = service.updateCheckup(id, checkup);&#xD;
+         return ResponseEntity.ok(updated);&#xD;
+     } catch (RuntimeException e) {&#xD;
+         return ResponseEntity.notFound().build();&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nVrVBnN8EfCTGutOISnrsw" name="deleteCheckup" specification="_nTrJ4HN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVrVB3N8EfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVrVCHN8EfCTGutOISnrsw" type="_nVXzAnN8EfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>service.deleteCheckup(id);&#xD;
+     return ResponseEntity.noContent().build();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_nTlqU3N8EfCTGutOISnrsw" name="getCheckupById" method="_nVqt-HN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nTlqVHN8EfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVhkAXN8EfCTGutOISnrsw" type="_nVXzAnN8EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_nTm4c3N8EfCTGutOISnrsw" name="getByAppointmentId" method="_nVqt-3N8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nTm4dHN8EfCTGutOISnrsw" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVhkAnN8EfCTGutOISnrsw" type="_nVXzAnN8EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_nTqi03N8EfCTGutOISnrsw" name="getAllCheckups" method="_nVrVAHN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVhkA3N8EfCTGutOISnrsw" type="_nVXzAnN8EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_nTrJ4HN8EfCTGutOISnrsw" name="deleteCheckup" method="_nVrVBnN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nTrJ4XN8EfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVhkBXN8EfCTGutOISnrsw" type="_nVXzAnN8EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_nVa2UnN8EfCTGutOISnrsw" name="createCheckup" method="_nVqt9XN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVa2U3N8EfCTGutOISnrsw" name="checkup" type="_nTtmIHN8EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_nVhkAHN8EfCTGutOISnrsw" type="_nVXzAnN8EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_nVbdZXN8EfCTGutOISnrsw" name="updateCheckup" method="_nVrVAnN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVbdZnN8EfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVbdZ3N8EfCTGutOISnrsw" name="checkup" type="_nTtmIHN8EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_nVhkBHN8EfCTGutOISnrsw" type="_nVXzAnN8EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_nVvmcHN8EfCTGutOISnrsw" name="" memberEnd="_nVvmcXN8EfCTGutOISnrsw _nVmcgHN8EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_nVvmcXN8EfCTGutOISnrsw" name="" type="_nTlqUXN8EfCTGutOISnrsw" association="_nVvmcHN8EfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_nTb5UnN8EfCTGutOISnrsw" name="repository">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_nT5MUHN8EfCTGutOISnrsw" name="NurseCheckupRepository">
+            <generalization xmi:id="_nVkAQHN8EfCTGutOISnrsw" general="_nVegsHN8EfCTGutOISnrsw"/>
+            <ownedOperation xmi:id="_nT5zYXN8EfCTGutOISnrsw" name="findByAppointmentId">
+              <ownedParameter xmi:id="_nT6acHN8EfCTGutOISnrsw" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVfHwnN8EfCTGutOISnrsw" type="_nTtmIHN8EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_nTdugHN8EfCTGutOISnrsw" name="serviceimpl">
+          <packagedElement xmi:type="uml:Class" xmi:id="_nT_6AHN8EfCTGutOISnrsw" name="NurseCheckupServiceImpl">
+            <ownedAttribute xmi:id="_nVqG5XN8EfCTGutOISnrsw" name="repository" visibility="private" type="_nT5MUHN8EfCTGutOISnrsw" association="_nVxboXN8EfCTGutOISnrsw"/>
+            <interfaceRealization xmi:id="_nVfu0nN8EfCTGutOISnrsw" client="_nT_6AHN8EfCTGutOISnrsw" supplier="_nT7BgHN8EfCTGutOISnrsw" contract="_nT7BgHN8EfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nVrVCXN8EfCTGutOISnrsw" name="createCheckup" specification="_nVfu03N8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVrVCnN8EfCTGutOISnrsw" name="checkup" type="_nTtmIHN8EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_nVrVC3N8EfCTGutOISnrsw" type="_nTtmIHN8EfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return repository.save(checkup);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nVrVDHN8EfCTGutOISnrsw" name="getCheckupById" specification="_nUAhEXN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVrVDXN8EfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVrVDnN8EfCTGutOISnrsw" type="_nVfHw3N8EfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return repository.findById(id);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nVrVD3N8EfCTGutOISnrsw" name="updateCheckup" specification="_nVgV4HN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVrVEHN8EfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVrVEXN8EfCTGutOISnrsw" name="checkup" type="_nTtmIHN8EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_nVrVEnN8EfCTGutOISnrsw" type="_nTtmIHN8EfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return repository.findById(id)&#xD;
+             .map(existing -> {&#xD;
+                 checkup.setId(existing.getId());&#xD;
+                 return repository.save(checkup);&#xD;
+             })&#xD;
+             .orElseThrow(() -> new RuntimeException(&quot;Checkup not found with id: &quot; + id));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nVrVE3N8EfCTGutOISnrsw" name="deleteCheckup" specification="_nUBvMXN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVrVFHN8EfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>repository.deleteById(id);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nVrVFXN8EfCTGutOISnrsw" name="getAllCheckups" specification="_nUBvNXN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVrVFnN8EfCTGutOISnrsw" type="_nTtmIHN8EfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nVrVF3N8EfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return repository.findAll();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nVrVGHN8EfCTGutOISnrsw" name="getCheckupByAppointmentId" specification="_nUCWQnN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVrVGXN8EfCTGutOISnrsw" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVrVGnN8EfCTGutOISnrsw" type="_nVfHw3N8EfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return Optional.ofNullable(repository.findByAppointmentId(appointmentId));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_nUAhEXN8EfCTGutOISnrsw" name="getCheckupById" method="_nVrVDHN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nUAhEnN8EfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVl1cHN8EfCTGutOISnrsw" type="_nVfHw3N8EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_nUBvMXN8EfCTGutOISnrsw" name="deleteCheckup" method="_nVrVE3N8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nUBvMnN8EfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_nUBvNXN8EfCTGutOISnrsw" name="getAllCheckups" method="_nVrVFXN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nUBvNnN8EfCTGutOISnrsw" type="_nTtmIHN8EfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nUBvN3N8EfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_nUCWQnN8EfCTGutOISnrsw" name="getCheckupByAppointmentId" method="_nVrVGHN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nUCWQ3N8EfCTGutOISnrsw" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVl1cXN8EfCTGutOISnrsw" type="_nVfHw3N8EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_nVfu03N8EfCTGutOISnrsw" name="createCheckup" method="_nVrVCXN8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVfu1HN8EfCTGutOISnrsw" name="checkup" type="_nTtmIHN8EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_nVfu1XN8EfCTGutOISnrsw" type="_nTtmIHN8EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_nVgV4HN8EfCTGutOISnrsw" name="updateCheckup" method="_nVrVD3N8EfCTGutOISnrsw">
+              <ownedParameter xmi:id="_nVgV4XN8EfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_nVgV4nN8EfCTGutOISnrsw" name="checkup" type="_nTtmIHN8EfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_nVgV43N8EfCTGutOISnrsw" type="_nTtmIHN8EfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_nVxboXN8EfCTGutOISnrsw" name="" memberEnd="_nVxbonN8EfCTGutOISnrsw _nVqG5XN8EfCTGutOISnrsw">
+            <ownedEnd xmi:id="_nVxbonN8EfCTGutOISnrsw" name="" type="_nT_6AHN8EfCTGutOISnrsw" association="_nVxboXN8EfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_nTj1IHN8EfCTGutOISnrsw" name="NurseCheckUpsMicroService1Application">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nVqt8nN8EfCTGutOISnrsw" name="main" specification="_nTlDSHN8EfCTGutOISnrsw">
+            <ownedParameter xmi:id="_nVqt83N8EfCTGutOISnrsw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nVqt9HN8EfCTGutOISnrsw" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>SpringApplication.run(NurseCheckUpsMicroService1Application.class, args);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_nTlDSHN8EfCTGutOISnrsw" name="main" isStatic="true" method="_nVqt8nN8EfCTGutOISnrsw">
+            <ownedParameter xmi:id="_nTlDSXN8EfCTGutOISnrsw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nTlDS3N8EfCTGutOISnrsw" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_nUDkYHN8EfCTGutOISnrsw" name="NurseCheckUpsMicroService1ApplicationTests" visibility="package">
+          <eAnnotations xmi:id="_nUDkYXN8EfCTGutOISnrsw" source="http://ns.yatta.de/umllab">
+            <contents xmi:type="ecore:EAnnotation" xmi:id="_nUDkYnN8EfCTGutOISnrsw" source="codegen">
+              <details xmi:id="_nUDkY3N8EfCTGutOISnrsw" key="codegenDirectory" value="/NurseCheckUpsMicroService-1/src/test/java"/>
+            </contents>
+          </eAnnotations>
+          <ownedOperation xmi:id="_nUELcXN8EfCTGutOISnrsw" name="contextLoads" visibility="package"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nTVLoHN8EfCTGutOISnrsw" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_nTVLoXN8EfCTGutOISnrsw" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_nTVLonN8EfCTGutOISnrsw" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_nTVLo3N8EfCTGutOISnrsw" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_nVXL8XN8EfCTGutOISnrsw" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_nTe8o3N8EfCTGutOISnrsw" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_nTe8pHN8EfCTGutOISnrsw" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_nVgV6HN8EfCTGutOISnrsw" name="SpringBootTest"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_nVWk4HN8EfCTGutOISnrsw" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_nTVysnN8EfCTGutOISnrsw" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_nTVys3N8EfCTGutOISnrsw" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_nTVytHN8EfCTGutOISnrsw" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_nVXzAHN8EfCTGutOISnrsw" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_nTVytXN8EfCTGutOISnrsw" name="http">
+          <packagedElement xmi:type="uml:Class" xmi:id="_nVXzAnN8EfCTGutOISnrsw" name="ResponseEntity"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_nTVytnN8EfCTGutOISnrsw" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_nTVyt3N8EfCTGutOISnrsw" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_nTVyuHN8EfCTGutOISnrsw" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_nVXzBHN8EfCTGutOISnrsw" name="CrossOrigin"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_nVYaEHN8EfCTGutOISnrsw" name="DeleteMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_nVZoMXN8EfCTGutOISnrsw" name="GetMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_nVZoM3N8EfCTGutOISnrsw" name="PathVariable"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_nVZoNXN8EfCTGutOISnrsw" name="PostMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_nVaPQXN8EfCTGutOISnrsw" name="PutMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_nVaPQ3N8EfCTGutOISnrsw" name="RequestBody"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_nVaPRXN8EfCTGutOISnrsw" name="RequestMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_nVa2UHN8EfCTGutOISnrsw" name="RestController"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_nTXA0HN8EfCTGutOISnrsw" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_nTXA0XN8EfCTGutOISnrsw" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_nVcEd3N8EfCTGutOISnrsw" name="Id"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_nTXA0nN8EfCTGutOISnrsw" name="mongodb">
+            <packagedElement xmi:type="uml:Package" xmi:id="_nTXA03N8EfCTGutOISnrsw" name="core">
+              <packagedElement xmi:type="uml:Package" xmi:id="_nTXA1HN8EfCTGutOISnrsw" name="mapping">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_nVcEeXN8EfCTGutOISnrsw" name="Document"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_nTb5UHN8EfCTGutOISnrsw" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_nVegsHN8EfCTGutOISnrsw" name="MongoRepository"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_nTb5UXN8EfCTGutOISnrsw" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_nVfHwHN8EfCTGutOISnrsw" name="Repository"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_nVfu0HN8EfCTGutOISnrsw" name="Service"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_nTe8oHN8EfCTGutOISnrsw" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_nTe8oXN8EfCTGutOISnrsw" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_nTe8onN8EfCTGutOISnrsw" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_nVgV5nN8EfCTGutOISnrsw" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nTVysHN8EfCTGutOISnrsw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_nTVysXN8EfCTGutOISnrsw" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_nVXL83N8EfCTGutOISnrsw" name="List"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_nVcEe3N8EfCTGutOISnrsw" name="Date"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_nVfHw3N8EfCTGutOISnrsw" name="Optional"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_mrvnMHN8EfCTGutOISnrsw">
+      <eAnnotations xmi:id="_mrvnMXN8EfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nVnDk3N8EfCTGutOISnrsw">
+      <eAnnotations xmi:id="_nVnqoHN8EfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_mrwOQHN8EfCTGutOISnrsw" base_Package="_mN3YYHN8EfCTGutOISnrsw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nTkcMHN8EfCTGutOISnrsw" base_Element="_nTj1IHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_nTlDSnN8EfCTGutOISnrsw" base_Element="_nTlDSHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_nTlDTHN8EfCTGutOISnrsw" base_Element="_nTj1IHN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nTlqUHN8EfCTGutOISnrsw" name="SpringBootApplication"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nTlqUnN8EfCTGutOISnrsw" base_Element="_nTlqUXN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_nTmRYHN8EfCTGutOISnrsw" genericsValue="NurseCheckup" base_Element="_nTlqU3N8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_nTmRYXN8EfCTGutOISnrsw" base_Element="_nTlqVHN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nTmRYnN8EfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_nTm4cHN8EfCTGutOISnrsw" base_Element="_nTlqU3N8EfCTGutOISnrsw">
+    <annotations xmi:id="_nTm4cXN8EfCTGutOISnrsw" name="GetMapping">
+      <annotationParameters xmi:id="_nTm4cnN8EfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nVrVHXN8EfCTGutOISnrsw" value="&quot;/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_nToGkHN8EfCTGutOISnrsw" genericsValue="NurseCheckup" base_Element="_nTm4c3N8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_nTp7wHN8EfCTGutOISnrsw" base_Element="_nTm4dHN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nTp7wXN8EfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_nTqi0HN8EfCTGutOISnrsw" base_Element="_nTm4c3N8EfCTGutOISnrsw">
+    <annotations xmi:id="_nTqi0XN8EfCTGutOISnrsw" name="GetMapping">
+      <annotationParameters xmi:id="_nTqi0nN8EfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nVr8EHN8EfCTGutOISnrsw" value="&quot;/appointment/{appointmentId}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_nTqi1HN8EfCTGutOISnrsw" genericsValue="List&lt;NurseCheckup>" base_Element="_nTqi03N8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_nTqi1XN8EfCTGutOISnrsw" base_Element="_nTqi03N8EfCTGutOISnrsw">
+    <annotations xmi:id="_nTqi1nN8EfCTGutOISnrsw" name="GetMapping"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_nTrJ4nN8EfCTGutOISnrsw" genericsValue="Void" base_Element="_nTrJ4HN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_nTrw8HN8EfCTGutOISnrsw" base_Element="_nTrJ4XN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nTrw8XN8EfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_nTrw8nN8EfCTGutOISnrsw" base_Element="_nTrJ4HN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nTrw83N8EfCTGutOISnrsw" name="DeleteMapping">
+      <annotationParameters xmi:id="_nTrw9HN8EfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nVr8EnN8EfCTGutOISnrsw" value="&quot;/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_nTsYAHN8EfCTGutOISnrsw" base_Element="_nTlqUXN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nTsYAXN8EfCTGutOISnrsw" name="RestController"/>
+    <annotations xmi:id="_nTsYAnN8EfCTGutOISnrsw" name="RequestMapping">
+      <annotationParameters xmi:id="_nTsYA3N8EfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nVrVG3N8EfCTGutOISnrsw" value="&quot;/api/nurse-checkups&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_nTsYBHN8EfCTGutOISnrsw" name="CrossOrigin">
+      <annotationParameters xmi:id="_nTsYBXN8EfCTGutOISnrsw" name="origins" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nVrVHHN8EfCTGutOISnrsw" value="&quot;http://localhost:5173&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nTtmIXN8EfCTGutOISnrsw" base_Element="_nTtmIHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_nTu0Q3N8EfCTGutOISnrsw" base_Element="_nTu0QHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_nTyeoHN8EfCTGutOISnrsw" base_Element="_nTtmIHN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nTyeoXN8EfCTGutOISnrsw" name="Document">
+      <annotationParameters xmi:id="_nTzFsHN8EfCTGutOISnrsw" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nVr8E3N8EfCTGutOISnrsw" value="&quot;nurse_checkups&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nT5zYHN8EfCTGutOISnrsw" base_Element="_nT5MUHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_nT6acXN8EfCTGutOISnrsw" base_Element="_nT5zYXN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_nT6acnN8EfCTGutOISnrsw" base_Element="_nT5MUHN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nT6ac3N8EfCTGutOISnrsw" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_nT9dwHN8EfCTGutOISnrsw" genericsValue="NurseCheckup" base_Element="_nT8PoHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_nT_S8nN8EfCTGutOISnrsw" genericsValue="NurseCheckup" base_Element="_nT_S8HN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nUAhEHN8EfCTGutOISnrsw" base_Element="_nT_6AHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_nUBIIHN8EfCTGutOISnrsw" genericsValue="NurseCheckup" base_Element="_nUAhEXN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_nUBIIXN8EfCTGutOISnrsw" base_Element="_nUAhEXN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nUBvMHN8EfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_nUBvM3N8EfCTGutOISnrsw" base_Element="_nUBvMXN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nUBvNHN8EfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_nUCWQHN8EfCTGutOISnrsw" base_Element="_nUBvNXN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nUCWQXN8EfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_nUCWRHN8EfCTGutOISnrsw" genericsValue="NurseCheckup" base_Element="_nUCWQnN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_nUCWRXN8EfCTGutOISnrsw" base_Element="_nUCWQnN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nUCWRnN8EfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_nUCWR3N8EfCTGutOISnrsw" base_Element="_nT_6AHN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nUCWSHN8EfCTGutOISnrsw" name="Service"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nUELcHN8EfCTGutOISnrsw" base_Element="_nUDkYHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_nUELcnN8EfCTGutOISnrsw" base_Element="_nUELcXN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nUELc3N8EfCTGutOISnrsw" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_nUELdHN8EfCTGutOISnrsw" base_Element="_nUDkYHN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nUELdXN8EfCTGutOISnrsw" name="SpringBootTest"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_nVXL8HN8EfCTGutOISnrsw" base_Element="_nVWk4HN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVXL8nN8EfCTGutOISnrsw" base_Element="_nVXL8XN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVXL9HN8EfCTGutOISnrsw" base_Element="_nVXL83N8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVXzAXN8EfCTGutOISnrsw" base_Element="_nVXzAHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVXzA3N8EfCTGutOISnrsw" base_Element="_nVXzAnN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVXzBXN8EfCTGutOISnrsw" base_Element="_nVXzBHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVZoMHN8EfCTGutOISnrsw" base_Element="_nVYaEHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVZoMnN8EfCTGutOISnrsw" base_Element="_nVZoMXN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVZoNHN8EfCTGutOISnrsw" base_Element="_nVZoM3N8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVaPQHN8EfCTGutOISnrsw" base_Element="_nVZoNXN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVaPQnN8EfCTGutOISnrsw" base_Element="_nVaPQXN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVaPRHN8EfCTGutOISnrsw" base_Element="_nVaPQ3N8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVaPRnN8EfCTGutOISnrsw" base_Element="_nVaPRXN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVa2UXN8EfCTGutOISnrsw" base_Element="_nVa2UHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_nVbdYHN8EfCTGutOISnrsw" genericsValue="NurseCheckup" base_Element="_nVa2UnN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_nVbdYXN8EfCTGutOISnrsw" base_Element="_nVa2U3N8EfCTGutOISnrsw">
+    <annotations xmi:id="_nVbdYnN8EfCTGutOISnrsw" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_nVbdY3N8EfCTGutOISnrsw" base_Element="_nVa2UnN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nVbdZHN8EfCTGutOISnrsw" name="PostMapping"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_nVbdaHN8EfCTGutOISnrsw" genericsValue="NurseCheckup" base_Element="_nVbdZXN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_nVcEcHN8EfCTGutOISnrsw" base_Element="_nVbdZnN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nVcEcXN8EfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_nVcEcnN8EfCTGutOISnrsw" base_Element="_nVbdZ3N8EfCTGutOISnrsw">
+    <annotations xmi:id="_nVcEc3N8EfCTGutOISnrsw" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_nVcEdHN8EfCTGutOISnrsw" base_Element="_nVbdZXN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nVcEdXN8EfCTGutOISnrsw" name="PutMapping">
+      <annotationParameters xmi:id="_nVcEdnN8EfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nVr8EXN8EfCTGutOISnrsw" value="&quot;/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_nVcEeHN8EfCTGutOISnrsw" base_Element="_nVcEd3N8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVcEenN8EfCTGutOISnrsw" base_Element="_nVcEeXN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVcEfHN8EfCTGutOISnrsw" base_Element="_nVcEe3N8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVegsXN8EfCTGutOISnrsw" base_Element="_nVegsHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVfHwXN8EfCTGutOISnrsw" base_Element="_nVfHwHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVfHxHN8EfCTGutOISnrsw" base_Element="_nVfHw3N8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVfu0XN8EfCTGutOISnrsw" base_Element="_nVfu0HN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_nVfu1nN8EfCTGutOISnrsw" base_Element="_nVfu03N8EfCTGutOISnrsw">
+    <annotations xmi:id="_nVfu13N8EfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_nVgV5HN8EfCTGutOISnrsw" base_Element="_nVgV4HN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nVgV5XN8EfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_nVgV53N8EfCTGutOISnrsw" base_Element="_nVgV5nN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVgV6XN8EfCTGutOISnrsw" base_Element="_nVgV6HN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_nVknUHN8EfCTGutOISnrsw" genericsValue="NurseCheckup, String" base_Element="_nVkAQHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_nVnDkHN8EfCTGutOISnrsw" base_Element="_nVmcgHN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nVnDkXN8EfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <Persistency:PrimaryKey xmi:id="_nVnqoXN8EfCTGutOISnrsw" base_Property="_nVnDknN8EfCTGutOISnrsw"/>
+  <Persistency:JPA1StyledElement xmi:id="_nVoRsHN8EfCTGutOISnrsw" base_Element="_nVnDknN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_nVoRsnN8EfCTGutOISnrsw" base_Element="_nVoRsXN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_nVoRtHN8EfCTGutOISnrsw" base_Element="_nVoRs3N8EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_nVoRtnN8EfCTGutOISnrsw" base_Element="_nVoRtXN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_nVoRuHN8EfCTGutOISnrsw" base_Element="_nVoRt3N8EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_nVo4wXN8EfCTGutOISnrsw" base_Element="_nVo4wHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_nVo4w3N8EfCTGutOISnrsw" base_Element="_nVo4wnN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_nVqt8HN8EfCTGutOISnrsw" base_Element="_nVqG5XN8EfCTGutOISnrsw">
+    <annotations xmi:id="_nVqt8XN8EfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_nVxboHN8EfCTGutOISnrsw" base_Element="_nVvmcHN8EfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_nVzQ0HN8EfCTGutOISnrsw" base_Element="_nVxboXN8EfCTGutOISnrsw"/>
+</xmi:XMI>

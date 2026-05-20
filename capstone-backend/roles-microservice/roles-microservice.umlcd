@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_O1g1EHOAEfCTGutOISnrsw">
+  <modelElement href="roles-microservice.uml#_PAOQQHOAEfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Pvr-UHOAEfCTGutOISnrsw" sourceAnchor="357.0,84.0" targetAnchor="145.0,157.0" target="_PvwPwHOAEfCTGutOISnrsw" source="_Pvr-WXOAEfCTGutOISnrsw">
+    <modelElement href="roles-microservice.uml#_PDkfMHOAEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_fkGSQHOAEfCTGutOISnrsw" sourceX="147" sourceY="-1" targetY="99"/>
+    <stereotypes xmi:id="_Pvr-UXOAEfCTGutOISnrsw" name="Reference">
+      <modelElement href="roles-microservice.uml#_PDmUYHOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Pvr-UnOAEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Q71oYnOAEfCTGutOISnrsw" position="-82.0,-20.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Pvr-U3OAEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="roles-microservice.uml#_PDkfMXOAEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Q71oYXOAEfCTGutOISnrsw" position="14.0,2.0"/>
+      <visibility xmi:id="_Pvr-VHOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Pvr-VXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Pvr-VnOAEfCTGutOISnrsw" aggregationKind="NONE" name="roleService" navigable="true">
+      <modelElement href="roles-microservice.uml#_PDiC8HOAEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Q71oY3OAEfCTGutOISnrsw" position="-73.0,15.0"/>
+      <visibility xmi:id="_Pvr-V3OAEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Pvr-WHOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PvtMcHOAEfCTGutOISnrsw" sourceAnchor="310.0,76.0" targetAnchor="0.0,77.0" target="_PvwPwHOAEfCTGutOISnrsw" source="_PvuaknOAEfCTGutOISnrsw">
+    <modelElement href="roles-microservice.uml#_PDj4MHOAEfCTGutOISnrsw"/>
+    <nameVisual xmi:id="_PvtMcXOAEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Q71oZXOAEfCTGutOISnrsw" position="-17.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PvtMcnOAEfCTGutOISnrsw" aggregationKind="NONE" name="allRoles" navigable="true">
+      <modelElement href="roles-microservice.uml#_PAZPZ3OAEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Q71oZHOAEfCTGutOISnrsw" position="-1.0,-51.0"/>
+      <visibility xmi:id="_PvtMdXOAEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_PvtMdHOAEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PvtMc3OAEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="roles-microservice.uml#_PDj4MXOAEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Q71oZnOAEfCTGutOISnrsw" position="-25.0,2.0"/>
+      <visibility xmi:id="_PvuakXOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvuakHOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Pvxd4HOAEfCTGutOISnrsw" sourceAnchor="305.0,88.0" targetAnchor="145.0,76.0" target="_PvvBoHOAEfCTGutOISnrsw" source="_PvyE-XOAEfCTGutOISnrsw">
+    <modelElement href="roles-microservice.uml#_PDmUYXOAEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_fkGSQXOAEfCTGutOISnrsw" sourceX="148" targetY="75"/>
+    <stereotypes xmi:id="_PvyE83OAEfCTGutOISnrsw" name="Reference">
+      <modelElement href="roles-microservice.uml#_PDoJkHOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PvyE8HOAEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Q72PcXOAEfCTGutOISnrsw" position="2.0,-33.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PvyE8XOAEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="roles-microservice.uml#_PDmUYnOAEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Q72PcHOAEfCTGutOISnrsw" position="14.099999999999909,2.0"/>
+      <visibility xmi:id="_PvyE9XOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvyE9HOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PvyE8nOAEfCTGutOISnrsw" aggregationKind="NONE" name="roleRepository" navigable="true">
+      <modelElement href="roles-microservice.uml#_PDjRFnOAEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Q72PcnOAEfCTGutOISnrsw" position="-133.0,25.0"/>
+      <visibility xmi:id="_PvyE93OAEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_PvyE9nOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Pvxd4XOAEfCTGutOISnrsw" sourceAnchor="146.0,0.0" targetAnchor="151.0,157.0" dashed="true" superClass="_PvwPwHOAEfCTGutOISnrsw" subClass="_PvyE-XOAEfCTGutOISnrsw">
+    <modelElement href="roles-microservice.uml#_PDe_oXOAEfCTGutOISnrsw"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PvuaknOAEfCTGutOISnrsw" name="Role" associationsOut="_PvtMcHOAEfCTGutOISnrsw">
+    <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Pvuak3OAEfCTGutOISnrsw" position="754.0,140.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PvualHOAEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="roles-microservice.uml#_PAYBQXOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PvualXOAEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="roles-microservice.uml#_PAYBTXOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_PvualnOAEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_Pvual3OAEfCTGutOISnrsw" name="id">
+      <modelElement href="roles-microservice.uml#_PDiC83OAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_PvuamHOAEfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="roles-microservice.uml#_PDjREHOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PvuamXOAEfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="roles-microservice.uml#_PDjREXOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_PvuamnOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Pvuam3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_PvuanHOAEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PvuanXOAEfCTGutOISnrsw" name="name">
+      <modelElement href="roles-microservice.uml#_PDjREnOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_PvuannOAEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="roles-microservice.uml#_PDjRE3OAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Pvuan3OAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvuaoHOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_PvuaoXOAEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PvuaonOAEfCTGutOISnrsw" name="description">
+      <modelElement href="roles-microservice.uml#_PDjRFHOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Pvuao3OAEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="roles-microservice.uml#_PDjRFXOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_PvuapHOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvuapXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_PvuapnOAEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Pvuap3OAEfCTGutOISnrsw" name="Role">
+      <modelElement href="roles-microservice.uml#_PAYBQnOAEfCTGutOISnrsw"/>
+      <keywords xmi:id="_PvuaqHOAEfCTGutOISnrsw" keyword="create"/>
+      <visibility xmi:id="_PvuaqXOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvuaqnOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Pvuaq3OAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PAYBRXOAEfCTGutOISnrsw"/>
+        <type xmi:id="_PvuarHOAEfCTGutOISnrsw" name="Role">
+          <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PvuarXOAEfCTGutOISnrsw" name="Role">
+      <modelElement href="roles-microservice.uml#_PAYBRnOAEfCTGutOISnrsw"/>
+      <keywords xmi:id="_PvuarnOAEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_Pvuar3OAEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="roles-microservice.uml#_PAYBTHOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_PvuasHOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvuasXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PvuasnOAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PAYBS3OAEfCTGutOISnrsw"/>
+        <type xmi:id="_Pvuas3OAEfCTGutOISnrsw" name="Role">
+          <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PvuatHOAEfCTGutOISnrsw" name="name">
+        <modelElement href="roles-microservice.uml#_PAYBR3OAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvuatXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_PvuatnOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Pvuat3OAEfCTGutOISnrsw" name="description">
+        <modelElement href="roles-microservice.uml#_PAYBSHOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvuauHOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_PvuauXOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_PvwPwHOAEfCTGutOISnrsw" name="RoleService" associationsIn="_PvtMcHOAEfCTGutOISnrsw _Pvr-UHOAEfCTGutOISnrsw" subclassedBy="_Pvxd4XOAEfCTGutOISnrsw">
+    <modelElement href="roles-microservice.uml#_PAZPYHOAEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_PvwPwXOAEfCTGutOISnrsw" position="1115.0,139.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PvwPwnOAEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_PvwPw3OAEfCTGutOISnrsw" name="allRoles">
+      <modelElement href="roles-microservice.uml#_PAZPZ3OAEfCTGutOISnrsw"/>
+      <visibility xmi:id="_PvwPxHOAEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_PvwPxXOAEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_PvwPxnOAEfCTGutOISnrsw" name="Role">
+        <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PvwPx3OAEfCTGutOISnrsw" name="getRoleById">
+      <modelElement href="roles-microservice.uml#_PAZPYXOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_PvwPyHOAEfCTGutOISnrsw" name="Generics">
+        <modelElement href="roles-microservice.uml#_PAZPY3OAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_PvwPyXOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvwPynOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PvwPy3OAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PDhb43OAEfCTGutOISnrsw"/>
+        <type xmi:id="_PvwPzHOAEfCTGutOISnrsw" name="Optional">
+          <modelElement href="roles-microservice.uml#_PDdxhHOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PvwPzXOAEfCTGutOISnrsw" name="id">
+        <modelElement href="roles-microservice.uml#_PAZPYnOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvwPznOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_PvwPz3OAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PvwP0HOAEfCTGutOISnrsw" name="getRoleByName">
+      <modelElement href="roles-microservice.uml#_PAZPZHOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_PvwP0XOAEfCTGutOISnrsw" name="Generics">
+        <modelElement href="roles-microservice.uml#_PAZPZnOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_PvwP0nOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvwP03OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PvwP1HOAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PDhb5HOAEfCTGutOISnrsw"/>
+        <type xmi:id="_PvwP1XOAEfCTGutOISnrsw" name="Optional">
+          <modelElement href="roles-microservice.uml#_PDdxhHOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PvwP1nOAEfCTGutOISnrsw" name="name">
+        <modelElement href="roles-microservice.uml#_PAZPZXOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvwP13OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_PvwP2HOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PvwP2XOAEfCTGutOISnrsw" name="deleteRole">
+      <modelElement href="roles-microservice.uml#_PAZ2cXOAEfCTGutOISnrsw"/>
+      <visibility xmi:id="_PvwP2nOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvwP23OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PvwP3HOAEfCTGutOISnrsw" name="id">
+        <modelElement href="roles-microservice.uml#_PAZ2cnOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvwP3XOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_PvwP3nOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PvwP33OAEfCTGutOISnrsw" name="createRole">
+      <modelElement href="roles-microservice.uml#_PDeYk3OAEfCTGutOISnrsw"/>
+      <visibility xmi:id="_PvwP4HOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvwP4XOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PvwP4nOAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PDeYlXOAEfCTGutOISnrsw"/>
+        <type xmi:id="_PvwP43OAEfCTGutOISnrsw" name="Role">
+          <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PvwP5HOAEfCTGutOISnrsw" name="role">
+        <modelElement href="roles-microservice.uml#_PDeYlHOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvwP5XOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_PvwP5nOAEfCTGutOISnrsw" name="Role">
+          <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PvwP53OAEfCTGutOISnrsw" name="updateRole">
+      <modelElement href="roles-microservice.uml#_PDeYlnOAEfCTGutOISnrsw"/>
+      <visibility xmi:id="_PvwP6HOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvwP6XOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PvwP6nOAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PDeYmXOAEfCTGutOISnrsw"/>
+        <type xmi:id="_PvwP63OAEfCTGutOISnrsw" name="Role">
+          <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PvwP7HOAEfCTGutOISnrsw" name="id">
+        <modelElement href="roles-microservice.uml#_PDeYl3OAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvwP7XOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_PvwP7nOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PvwP73OAEfCTGutOISnrsw" name="role">
+        <modelElement href="roles-microservice.uml#_PDeYmHOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvwP8HOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_PvwP8XOAEfCTGutOISnrsw" name="Role">
+          <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PvrXQHOAEfCTGutOISnrsw" name="RolesMicroserviceApplication">
+    <modelElement href="roles-microservice.uml#_PAU98HOAEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_PvrXQXOAEfCTGutOISnrsw" position="540.0,157.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PvrXQnOAEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="roles-microservice.uml#_PAU98XOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PvrXQ3OAEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="roles-microservice.uml#_PAVlDXOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_PvrXRHOAEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_PvrXRXOAEfCTGutOISnrsw" name="main" staticOperation="true">
+      <modelElement href="roles-microservice.uml#_PAVlCXOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_PvrXRnOAEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="roles-microservice.uml#_PAVlC3OAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_PvrXR3OAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvrXSHOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PvrXSXOAEfCTGutOISnrsw" name="args">
+        <modelElement href="roles-microservice.uml#_PAVlCnOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvrXSnOAEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_PvrXS3OAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Pvz6IHOAEfCTGutOISnrsw" name="RolesMicroserviceApplicationTests">
+    <modelElement href="roles-microservice.uml#_PAbroHOAEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Pvz6IXOAEfCTGutOISnrsw" position="534.0,252.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Pvz6InOAEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="roles-microservice.uml#_PAbrpHOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Pvz6I3OAEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="roles-microservice.uml#_PAbrqHOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_Pvz6JHOAEfCTGutOISnrsw" label="~"/>
+    <operations xmi:id="_Pvz6JXOAEfCTGutOISnrsw" name="contextLoads">
+      <modelElement href="roles-microservice.uml#_PAbrpXOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Pvz6JnOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="roles-microservice.uml#_PAbrpnOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Pvz6J3OAEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_Pvz6KHOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Pvr-WXOAEfCTGutOISnrsw" name="RoleController" associationsOut="_Pvr-UHOAEfCTGutOISnrsw">
+    <modelElement href="roles-microservice.uml#_PAWMEHOAEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Pvr-WnOAEfCTGutOISnrsw" position="756.0,312.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Pvr-W3OAEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="roles-microservice.uml#_PAWMEXOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Pvr-XHOAEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="roles-microservice.uml#_PAXaNnOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_Pvr-XXOAEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_Pvr-XnOAEfCTGutOISnrsw" name="roleService">
+      <modelElement href="roles-microservice.uml#_PDiC8HOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Pvr-X3OAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="roles-microservice.uml#_PDiC8XOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Pvr-YHOAEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Pvr-YXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Pvr-YnOAEfCTGutOISnrsw" name="RoleService">
+        <modelElement href="roles-microservice.uml#_PAZPYHOAEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Pvr-Y3OAEfCTGutOISnrsw" name="getRoleById">
+      <modelElement href="roles-microservice.uml#_PAWMEnOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Pvr-ZHOAEfCTGutOISnrsw" name="Generics">
+        <modelElement href="roles-microservice.uml#_PAWMFHOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pvr-ZXOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="roles-microservice.uml#_PAWMF3OAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Pvr-ZnOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Pvr-Z3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Pvr-aHOAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PDg00XOAEfCTGutOISnrsw"/>
+        <type xmi:id="_Pvr-aXOAEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="roles-microservice.uml#_PDbVR3OAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Pvr-anOAEfCTGutOISnrsw" name="id">
+        <modelElement href="roles-microservice.uml#_PAWME3OAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Pvr-a3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Pvr-bHOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Pvr-bXOAEfCTGutOISnrsw" name="getRoleByName">
+      <modelElement href="roles-microservice.uml#_PAWzIHOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Pvr-bnOAEfCTGutOISnrsw" name="Generics">
+        <modelElement href="roles-microservice.uml#_PAWzInOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pvr-b3OAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="roles-microservice.uml#_PAWzJXOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Pvr-cHOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Pvr-cXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Pvr-cnOAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PDg00nOAEfCTGutOISnrsw"/>
+        <type xmi:id="_Pvr-c3OAEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="roles-microservice.uml#_PDbVR3OAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Pvr-dHOAEfCTGutOISnrsw" name="name">
+        <modelElement href="roles-microservice.uml#_PAWzIXOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Pvr-dXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Pvr-dnOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Pvr-d3OAEfCTGutOISnrsw" name="getAllRoles">
+      <modelElement href="roles-microservice.uml#_PAWzKHOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Pvr-eHOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="roles-microservice.uml#_PAWzK3OAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Pvr-eXOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Pvr-enOAEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Pvr-e3OAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PAWzKXOAEfCTGutOISnrsw"/>
+        <type xmi:id="_Pvr-fHOAEfCTGutOISnrsw" name="Role">
+          <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Pvr-fXOAEfCTGutOISnrsw" name="deleteRole">
+      <modelElement href="roles-microservice.uml#_PAWzLXOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Pvr-fnOAEfCTGutOISnrsw" name="Generics">
+        <modelElement href="roles-microservice.uml#_PAXaMHOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pvr-f3OAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="roles-microservice.uml#_PAXaM3OAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Pvr-gHOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Pvr-gXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Pvr-gnOAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PDg01HOAEfCTGutOISnrsw"/>
+        <type xmi:id="_Pvr-g3OAEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="roles-microservice.uml#_PDbVR3OAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Pvr-hHOAEfCTGutOISnrsw" name="id">
+        <modelElement href="roles-microservice.uml#_PAWzLnOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Pvr-hXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Pvr-hnOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Pvr-h3OAEfCTGutOISnrsw" name="createRole">
+      <modelElement href="roles-microservice.uml#_PDcjaXOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Pvr-iHOAEfCTGutOISnrsw" name="Generics">
+        <modelElement href="roles-microservice.uml#_PDdKcHOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pvr-iXOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="roles-microservice.uml#_PDdKc3OAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Pvr-inOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Pvr-i3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Pvr-jHOAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PDg00HOAEfCTGutOISnrsw"/>
+        <type xmi:id="_Pvr-jXOAEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="roles-microservice.uml#_PDbVR3OAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Pvr-jnOAEfCTGutOISnrsw" name="role">
+        <modelElement href="roles-microservice.uml#_PDcjanOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Pvr-j3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Pvr-kHOAEfCTGutOISnrsw" name="Role">
+          <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Pvr-kXOAEfCTGutOISnrsw" name="updateRole">
+      <modelElement href="roles-microservice.uml#_PDdKdXOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Pvr-knOAEfCTGutOISnrsw" name="Generics">
+        <modelElement href="roles-microservice.uml#_PDdKeHOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Pvr-k3OAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="roles-microservice.uml#_PDdKfXOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Pvr-lHOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Pvr-lXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Pvr-lnOAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PDg003OAEfCTGutOISnrsw"/>
+        <type xmi:id="_Pvr-l3OAEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="roles-microservice.uml#_PDbVR3OAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Pvr-mHOAEfCTGutOISnrsw" name="id">
+        <modelElement href="roles-microservice.uml#_PDdKdnOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Pvr-mXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Pvr-mnOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Pvr-m3OAEfCTGutOISnrsw" name="role">
+        <modelElement href="roles-microservice.uml#_PDdKd3OAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Pvr-nHOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Pvr-nXOAEfCTGutOISnrsw" name="Role">
+          <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PvyE-XOAEfCTGutOISnrsw" name="RoleServiceImpl" associationsOut="_Pvxd4HOAEfCTGutOISnrsw" generalizations="_Pvxd4XOAEfCTGutOISnrsw">
+    <modelElement href="roles-microservice.uml#_PAZ2c3OAEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_PvyE-nOAEfCTGutOISnrsw" position="1120.0,310.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PvyE-3OAEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="roles-microservice.uml#_PAZ2dHOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PvyE_HOAEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="roles-microservice.uml#_PAbEnHOAEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_PvyE_XOAEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_PvyE_nOAEfCTGutOISnrsw" name="roleRepository">
+      <modelElement href="roles-microservice.uml#_PDjRFnOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_PvyE_3OAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="roles-microservice.uml#_PDjRF3OAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_PvyFAHOAEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_PvyFAXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_PvyFAnOAEfCTGutOISnrsw" name="RoleRepository">
+        <modelElement href="roles-microservice.uml#_PAYoUnOAEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PvyFA3OAEfCTGutOISnrsw" name="getRoleById">
+      <modelElement href="roles-microservice.uml#_PAZ2dXOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_PvyFBHOAEfCTGutOISnrsw" name="Generics">
+        <modelElement href="roles-microservice.uml#_PAZ2d3OAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PvyFBXOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="roles-microservice.uml#_PAZ2eHOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_PvyFBnOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvyFB3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PvyFCHOAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PDhb5XOAEfCTGutOISnrsw"/>
+        <type xmi:id="_PvyFCXOAEfCTGutOISnrsw" name="Optional">
+          <modelElement href="roles-microservice.uml#_PDdxhHOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PvyFCnOAEfCTGutOISnrsw" name="id">
+        <modelElement href="roles-microservice.uml#_PAZ2dnOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvyFC3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_PvyFDHOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PvyFDXOAEfCTGutOISnrsw" name="getRoleByName">
+      <modelElement href="roles-microservice.uml#_PAZ2enOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_PvyFDnOAEfCTGutOISnrsw" name="Generics">
+        <modelElement href="roles-microservice.uml#_PAbEkHOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PvyFD3OAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="roles-microservice.uml#_PAbEkXOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_PvyFEHOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvyFEXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PvyFEnOAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PDhb5nOAEfCTGutOISnrsw"/>
+        <type xmi:id="_PvyFE3OAEfCTGutOISnrsw" name="Optional">
+          <modelElement href="roles-microservice.uml#_PDdxhHOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PvyFFHOAEfCTGutOISnrsw" name="name">
+        <modelElement href="roles-microservice.uml#_PAZ2e3OAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvyFFXOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_PvyFFnOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PvyFF3OAEfCTGutOISnrsw" name="getAllRoles">
+      <modelElement href="roles-microservice.uml#_PAbEk3OAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_PvyFGHOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="roles-microservice.uml#_PAbElnOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_PvyFGXOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvyFGnOAEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_PvyFG3OAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PAbElHOAEfCTGutOISnrsw"/>
+        <type xmi:id="_PvyFHHOAEfCTGutOISnrsw" name="Role">
+          <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PvyFHXOAEfCTGutOISnrsw" name="deleteRole">
+      <modelElement href="roles-microservice.uml#_PAbEmHOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_PvyFHnOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="roles-microservice.uml#_PAbEmnOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_PvyFH3OAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvyFIHOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PvyFIXOAEfCTGutOISnrsw" name="id">
+        <modelElement href="roles-microservice.uml#_PAbEmXOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvyFInOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_PvyFI3OAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PvyFJHOAEfCTGutOISnrsw" name="createRole">
+      <modelElement href="roles-microservice.uml#_PDe_onOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_PvyFJXOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="roles-microservice.uml#_PDe_pXOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_PvyFJnOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvyFJ3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PvyFKHOAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PDe_pHOAEfCTGutOISnrsw"/>
+        <type xmi:id="_PvyFKXOAEfCTGutOISnrsw" name="Role">
+          <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PvyFKnOAEfCTGutOISnrsw" name="role">
+        <modelElement href="roles-microservice.uml#_PDe_o3OAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvyFK3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_PvyFLHOAEfCTGutOISnrsw" name="Role">
+          <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PvyFLXOAEfCTGutOISnrsw" name="updateRole">
+      <modelElement href="roles-microservice.uml#_PDfmsHOAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_PvyFLnOAEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="roles-microservice.uml#_PDfmtHOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_PvyFL3OAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvyFMHOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PvyFMXOAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PDfms3OAEfCTGutOISnrsw"/>
+        <type xmi:id="_PvyFMnOAEfCTGutOISnrsw" name="Role">
+          <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PvyFM3OAEfCTGutOISnrsw" name="id">
+        <modelElement href="roles-microservice.uml#_PDfmsXOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvyFNHOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_PvyFNXOAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PvyFNnOAEfCTGutOISnrsw" name="role">
+        <modelElement href="roles-microservice.uml#_PDfmsnOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvyFN3OAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_PvyFOHOAEfCTGutOISnrsw" name="Role">
+          <modelElement href="roles-microservice.uml#_PAYBQHOAEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_PvvBoHOAEfCTGutOISnrsw" name="RoleRepository" associationsIn="_Pvxd4HOAEfCTGutOISnrsw">
+    <modelElement href="roles-microservice.uml#_PAYoUnOAEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_PvvBoXOAEfCTGutOISnrsw" position="1428.0,247.0" size="290.0,76.0"/>
+    <visibility xmi:id="_PvvBonOAEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_PvvBo3OAEfCTGutOISnrsw" name="findByName">
+      <modelElement href="roles-microservice.uml#_PAYoU3OAEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_PvvBpHOAEfCTGutOISnrsw" name="Generics">
+        <modelElement href="roles-microservice.uml#_PAYoVXOAEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_PvvBpXOAEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_PvvBpnOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PvvBp3OAEfCTGutOISnrsw">
+        <modelElement href="roles-microservice.uml#_PDhb4nOAEfCTGutOISnrsw"/>
+        <type xmi:id="_PvvBqHOAEfCTGutOISnrsw" name="Optional">
+          <modelElement href="roles-microservice.uml#_PDdxhHOAEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PvvBqXOAEfCTGutOISnrsw" name="name">
+        <modelElement href="roles-microservice.uml#_PAYoVHOAEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_PvvBqnOAEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_PvvBq3OAEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

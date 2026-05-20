@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_YzzfoHN_EfCTGutOISnrsw">
+  <modelElement href="RegistrationService.uml#_Y-YX8HN_EfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Zl3OsHN_EfCTGutOISnrsw" source="_Zl3OwnN_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_ZAIrcHN_EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_Zl3OsXN_EfCTGutOISnrsw" name="Reference">
+      <modelElement href="RegistrationService.uml#_ZAKgoHN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Zl3OsnN_EfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_Zl3Os3N_EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="RegistrationService.uml#_ZAIrcXN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl3OtHN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl3OtXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Zl3OtnN_EfCTGutOISnrsw" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="RegistrationService.uml#_Y_73IHN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl3Ot3N_EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Zl3OuHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Zl3OuXN_EfCTGutOISnrsw" sourceAnchor="223.0,103.0" targetAnchor="338.0,38.0" target="_ZmC04HN_EfCTGutOISnrsw" source="_Zl3OwnN_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_ZAKgoXN_EfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_FGz7IHOAEfCTGutOISnrsw" sourceX="1" sourceY="14" targetX="-483" targetY="564"/>
+    <bendpoints xmi:id="_FGz7IXOAEfCTGutOISnrsw" sourceX="896" sourceY="14" targetX="412" targetY="564"/>
+    <bendpoints xmi:id="_FGz7InOAEfCTGutOISnrsw" sourceX="896" sourceY="-550" targetX="412"/>
+    <stereotypes xmi:id="_Zl3OunN_EfCTGutOISnrsw" name="Reference">
+      <modelElement href="RegistrationService.uml#_ZAMV0HN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Zl3Ou3N_EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Z9MwoHN_EfCTGutOISnrsw" position="-42.0,-59.99999999999994"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Zl3OvHN_EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="RegistrationService.uml#_ZAKgonN_EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z9MJlXN_EfCTGutOISnrsw" position="220.0,17.0"/>
+      <visibility xmi:id="_Zl3OvXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl3OvnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Zl3Ov3N_EfCTGutOISnrsw" aggregationKind="NONE" name="patientRegistrationService" navigable="true">
+      <modelElement href="RegistrationService.uml#_Y_73I3N_EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z9MwoXN_EfCTGutOISnrsw" position="88.0,-50.999999999999886"/>
+      <visibility xmi:id="_Zl3OwHN_EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Zl3OwXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Zl65EHN_EfCTGutOISnrsw" source="_Zl65K3N_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_ZAPZIXN_EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_Zl65EXN_EfCTGutOISnrsw" name="Reference">
+      <modelElement href="RegistrationService.uml#_ZAQnQHN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Zl65EnN_EfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_Zl65E3N_EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="RegistrationService.uml#_ZAPZInN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl65FHN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65FXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Zl65FnN_EfCTGutOISnrsw" aggregationKind="NONE" name="lastLogin" navigable="true">
+      <modelElement href="RegistrationService.uml#_ZADzDHN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl65F3N_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65GHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Zl65GXN_EfCTGutOISnrsw" source="_Zl65K3N_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_ZAROUHN_EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_Zl65GnN_EfCTGutOISnrsw" name="Reference">
+      <modelElement href="RegistrationService.uml#_ZASccHN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Zl65G3N_EfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_Zl65HHN_EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="RegistrationService.uml#_ZAROUXN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl65HXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65HnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Zl65H3N_EfCTGutOISnrsw" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="RegistrationService.uml#_ZADzFXN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl65IHN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65IXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Zl65InN_EfCTGutOISnrsw" source="_Zl65K3N_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_ZASccXN_EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_Zl65I3N_EfCTGutOISnrsw" name="Reference">
+      <modelElement href="RegistrationService.uml#_ZAURoHN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Zl65JHN_EfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_Zl65JXN_EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="RegistrationService.uml#_ZASccnN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl65JnN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65J3N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Zl65KHN_EfCTGutOISnrsw" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="RegistrationService.uml#_ZADzHnN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl65KXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65KnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Zl9VUHN_EfCTGutOISnrsw" source="_Zl98dHN_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_ZAMV0XN_EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_Zl98Y3N_EfCTGutOISnrsw" name="Reference">
+      <modelElement href="RegistrationService.uml#_ZANj8HN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Zl98YHN_EfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_Zl98YXN_EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="RegistrationService.uml#_ZAMV0nN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl98aXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98aHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Zl98YnN_EfCTGutOISnrsw" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="RegistrationService.uml#_ZAB9yHN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl98a3N_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98anN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Zl9VUXN_EfCTGutOISnrsw" source="_Zl98dHN_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_ZANj8XN_EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_Zl98Z3N_EfCTGutOISnrsw" name="Reference">
+      <modelElement href="RegistrationService.uml#_ZAPZIHN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Zl98ZHN_EfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_Zl98ZXN_EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="RegistrationService.uml#_ZANj8nN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl98b3N_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98bnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Zl98ZnN_EfCTGutOISnrsw" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="RegistrationService.uml#_ZAB90XN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl98cXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98cHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZmC06XN_EfCTGutOISnrsw" sourceAnchor="359.0,52.0" targetAnchor="346.0,58.0" target="_ZmA_sHN_EfCTGutOISnrsw" source="_ZmEDAHN_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_ZAURoXN_EfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_FGz7I3OAEfCTGutOISnrsw" sourceX="164" targetX="683" targetY="130"/>
+    <bendpoints xmi:id="_FGz7JHOAEfCTGutOISnrsw" sourceX="164" sourceY="-454" targetX="683" targetY="-324"/>
+    <bendpoints xmi:id="_FGz7JXOAEfCTGutOISnrsw" sourceX="-497" sourceY="-454" targetX="22" targetY="-324"/>
+    <bendpoints xmi:id="_FG0iMHOAEfCTGutOISnrsw" sourceX="-497" sourceY="-130" targetX="22"/>
+    <stereotypes xmi:id="_ZmDb9HN_EfCTGutOISnrsw" name="Reference">
+      <modelElement href="RegistrationService.uml#_ZAVfwHN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZmDb8XN_EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Z9Mwo3N_EfCTGutOISnrsw" position="27.0,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ZmDb8nN_EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="RegistrationService.uml#_ZAURonN_EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z9MwonN_EfCTGutOISnrsw" position="22.0,1.5"/>
+      <visibility xmi:id="_ZmDb-nN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZmDb-XN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZmDb83N_EfCTGutOISnrsw" aggregationKind="NONE" name="userRepository" navigable="true">
+      <modelElement href="RegistrationService.uml#_ZAEaC3N_EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z9MwpHN_EfCTGutOISnrsw" position="-69.0,-84.42857142857156"/>
+      <visibility xmi:id="_ZmDb_HN_EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_ZmDb-3N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZmC06nN_EfCTGutOISnrsw" sourceAnchor="180.0,103.0" targetAnchor="57.0,67.0" target="_ZmCN0HN_EfCTGutOISnrsw" source="_ZmEDAHN_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_ZAVfwXN_EfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_FG0iMXOAEfCTGutOISnrsw" sourceY="38" targetX="745" targetY="125"/>
+    <bendpoints xmi:id="_FG0iMnOAEfCTGutOISnrsw" sourceX="-745" sourceY="38" targetY="125"/>
+    <stereotypes xmi:id="_ZmDb-HN_EfCTGutOISnrsw" name="Reference">
+      <modelElement href="RegistrationService.uml#_ZAXU8HN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZmDb9XN_EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_Z9MwpnN_EfCTGutOISnrsw" position="14.136363636363512,2.000000000000057"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ZmDb9nN_EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="RegistrationService.uml#_ZAVfwnN_EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z9MwpXN_EfCTGutOISnrsw" position="-148.86363636363637,40.0"/>
+      <visibility xmi:id="_ZmDb_3N_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZmDb_nN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZmDb93N_EfCTGutOISnrsw" aggregationKind="NONE" name="patientRepository" navigable="true">
+      <modelElement href="RegistrationService.uml#_ZAEaDnN_EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_Z9Mwp3N_EfCTGutOISnrsw" position="-110.5,25.666666666666288"/>
+      <visibility xmi:id="_ZmDcAXN_EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_ZmDcAHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZmDb8HN_EfCTGutOISnrsw" sourceAnchor="210.0,103.0" targetAnchor="337.0,8.0" dashed="true" superClass="_ZmC04HN_EfCTGutOISnrsw" subClass="_ZmEDAHN_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_Y_1wh3N_EfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_FG0iM3OAEfCTGutOISnrsw" sourceY="68" targetX="2" targetY="654"/>
+    <bendpoints xmi:id="_FG0iNHOAEfCTGutOISnrsw" sourceX="441" sourceY="68" targetX="443" targetY="654"/>
+    <bendpoints xmi:id="_FG0iNXOAEfCTGutOISnrsw" sourceX="441" sourceY="-586" targetX="443"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Zl98dHN_EfCTGutOISnrsw" name="Patient" associationsOut="_Zl9VUHN_EfCTGutOISnrsw _Zl9VUXN_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_Y-zOtHN_EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Zl98dXN_EfCTGutOISnrsw" position="-1937.0,-865.0" size="529.0,423.0"/>
+    <stereotypes xmi:id="_Zl98dnN_EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="RegistrationService.uml#_Y-z1wHN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Zl98d3N_EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="RegistrationService.uml#_Y-1D6XN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_Zl98eHN_EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_Zl98eXN_EfCTGutOISnrsw" name="id">
+      <modelElement href="RegistrationService.uml#_Y_9FQHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl98enN_EfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="RegistrationService.uml#_Y_9FQ3N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl98e3N_EfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="RegistrationService.uml#_Y_9FRHN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl98fHN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98fXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl98fnN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl98f3N_EfCTGutOISnrsw" name="userId">
+      <modelElement href="RegistrationService.uml#_Y_9FRXN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl98gHN_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_Y_9sUHN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl98gXN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_Y_-TYXN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl98gnN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98g3N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl98hHN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl98hXN_EfCTGutOISnrsw" name="firstName">
+      <modelElement href="RegistrationService.uml#_Y_-TZHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl98hnN_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_Y_-TZXN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl98h3N_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_Y_-TanN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl98iHN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98iXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl98inN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl98i3N_EfCTGutOISnrsw" name="lastName">
+      <modelElement href="RegistrationService.uml#_Y_-6cHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl98jHN_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_Y_-6cXN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl98jXN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_Y_-6dnN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl98jnN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98j3N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl98kHN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl98kXN_EfCTGutOISnrsw" name="dateOfBirth">
+      <modelElement href="RegistrationService.uml#_ZAAIkHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl98knN_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_ZAAIkXN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl98k3N_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_ZAAIlnN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl98lHN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98lXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl98lnN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl98l3N_EfCTGutOISnrsw" name="gender">
+      <modelElement href="RegistrationService.uml#_ZAAvoHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl98mHN_EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="RegistrationService.uml#_ZAAvoXN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl98mXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98mnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl98m3N_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl98nHN_EfCTGutOISnrsw" name="contactNumber">
+      <modelElement href="RegistrationService.uml#_ZAAvonN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl98nXN_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_ZAAvo3N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl98nnN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_ZAAvqHN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl98n3N_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98oHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl98oXN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl98onN_EfCTGutOISnrsw" name="address">
+      <modelElement href="RegistrationService.uml#_ZAAvq3N_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl98o3N_EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="RegistrationService.uml#_ZABWsHN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl98pHN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98pXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl98pnN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl98p3N_EfCTGutOISnrsw" name="bloodGroup">
+      <modelElement href="RegistrationService.uml#_ZABWsXN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl98qHN_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_ZABWsnN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl98qXN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_ZABWt3N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl98qnN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98q3N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl98rHN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl98rXN_EfCTGutOISnrsw" name="allergies">
+      <modelElement href="RegistrationService.uml#_ZABWunN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl98rnN_EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="RegistrationService.uml#_ZABWu3N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl98r3N_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98sHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl98sXN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl98snN_EfCTGutOISnrsw" name="currentMedications">
+      <modelElement href="RegistrationService.uml#_ZABWvHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl98s3N_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_ZAB9wHN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl98tHN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_ZAB9xXN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl98tXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98tnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl98t3N_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl98uHN_EfCTGutOISnrsw" name="createdAt">
+      <modelElement href="RegistrationService.uml#_ZAB9yHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl98uXN_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_ZAB9yXN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl98unN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_ZAB9znN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl98u3N_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98vHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl98vXN_EfCTGutOISnrsw" name="Instant">
+        <modelElement href="RegistrationService.uml#_Y_w4A3N_EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl98vnN_EfCTGutOISnrsw" name="updatedAt">
+      <modelElement href="RegistrationService.uml#_ZAB90XN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl98v3N_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_ZAB90nN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl98wHN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_ZACk0HN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl98wXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl98wnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl98w3N_EfCTGutOISnrsw" name="Instant">
+        <modelElement href="RegistrationService.uml#_Y_w4A3N_EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Zl-jcHN_EfCTGutOISnrsw" name="Patient">
+      <modelElement href="RegistrationService.uml#_Y-0c0HN_EfCTGutOISnrsw"/>
+      <keywords xmi:id="_Zl-jcXN_EfCTGutOISnrsw" keyword="create"/>
+      <visibility xmi:id="_Zl-jcnN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl-jc3N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zl-jdHN_EfCTGutOISnrsw">
+        <modelElement href="RegistrationService.uml#_Y-0c03N_EfCTGutOISnrsw"/>
+        <type xmi:id="_Zl-jdXN_EfCTGutOISnrsw" name="Patient">
+          <modelElement href="RegistrationService.uml#_Y-zOtHN_EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Zl-jdnN_EfCTGutOISnrsw" name="Patient">
+      <modelElement href="RegistrationService.uml#_Y-0c1HN_EfCTGutOISnrsw"/>
+      <keywords xmi:id="_Zl-jd3N_EfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_Zl-jeHN_EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="RegistrationService.uml#_Y-1D4HN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl-jeXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl-jenN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zl-je3N_EfCTGutOISnrsw">
+        <modelElement href="RegistrationService.uml#_Y-0c4XN_EfCTGutOISnrsw"/>
+        <type xmi:id="_Zl-jfHN_EfCTGutOISnrsw" name="Patient">
+          <modelElement href="RegistrationService.uml#_Y-zOtHN_EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zl-jfXN_EfCTGutOISnrsw" name="userId">
+        <modelElement href="RegistrationService.uml#_Y-0c1XN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl-jfnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl-jf3N_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zl-jgHN_EfCTGutOISnrsw" name="firstName">
+        <modelElement href="RegistrationService.uml#_Y-0c1nN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl-jgXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl-jgnN_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zl-jg3N_EfCTGutOISnrsw" name="lastName">
+        <modelElement href="RegistrationService.uml#_Y-0c13N_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl-jhHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl-jhXN_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zl-jhnN_EfCTGutOISnrsw" name="dateOfBirth">
+        <modelElement href="RegistrationService.uml#_Y-0c2HN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl-jh3N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl-jiHN_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zl-jiXN_EfCTGutOISnrsw" name="gender">
+        <modelElement href="RegistrationService.uml#_Y-0c2XN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl-jinN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl-ji3N_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zl-jjHN_EfCTGutOISnrsw" name="contactNumber">
+        <modelElement href="RegistrationService.uml#_Y-0c2nN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl-jjXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl-jjnN_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zl-jj3N_EfCTGutOISnrsw" name="address">
+        <modelElement href="RegistrationService.uml#_Y-0c23N_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl-jkHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl-jkXN_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zl-jknN_EfCTGutOISnrsw" name="bloodGroup">
+        <modelElement href="RegistrationService.uml#_Y-0c3HN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl-jk3N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl-jlHN_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zl-jlXN_EfCTGutOISnrsw" name="allergies">
+        <modelElement href="RegistrationService.uml#_Y-0c3XN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl-jlnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl-jl3N_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zl-jmHN_EfCTGutOISnrsw" name="currentMedications">
+        <modelElement href="RegistrationService.uml#_Y-0c3nN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl-jmXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl-jmnN_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zl-jm3N_EfCTGutOISnrsw" name="toString">
+      <modelElement href="RegistrationService.uml#_Y-1D4XN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl-jnHN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_Y-1D43N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl-jnXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl-jnnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zl-jn3N_EfCTGutOISnrsw">
+        <modelElement href="RegistrationService.uml#_Y-1D4nN_EfCTGutOISnrsw"/>
+        <type xmi:id="_Zl-joHN_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Zl-joXN_EfCTGutOISnrsw" name="hashCode">
+      <modelElement href="RegistrationService.uml#_Y-1D5XN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl-jonN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_Y-1D53N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl-jo3N_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl-jpHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zl-jpXN_EfCTGutOISnrsw">
+        <modelElement href="RegistrationService.uml#_Y-1D5nN_EfCTGutOISnrsw"/>
+        <type xmi:id="_Zl-jpnN_EfCTGutOISnrsw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Zl-jp3N_EfCTGutOISnrsw" name="equals">
+      <modelElement href="RegistrationService.uml#_Y_4Mw3N_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl-jqHN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_Y_4MxnN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl-jqXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl-jqnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zl-jq3N_EfCTGutOISnrsw">
+        <modelElement href="RegistrationService.uml#_Y_4MxXN_EfCTGutOISnrsw"/>
+        <type xmi:id="_Zl-jrHN_EfCTGutOISnrsw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zl-jrXN_EfCTGutOISnrsw" name="o">
+        <modelElement href="RegistrationService.uml#_Y_4MxHN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl-jrnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl-jr3N_EfCTGutOISnrsw" name="Object">
+          <modelElement href="RegistrationService.uml#_Y_4MwXN_EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ZmC04HN_EfCTGutOISnrsw" name="PatientRegistrationService" associationsIn="_Zl3OuXN_EfCTGutOISnrsw" subclassedBy="_ZmDb8HN_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_Y-6jcHN_EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZmC04XN_EfCTGutOISnrsw" position="-1014.0,-866.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZmC04nN_EfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_ZmC043N_EfCTGutOISnrsw" name="registerPatient">
+      <modelElement href="RegistrationService.uml#_Y_1wgXN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_ZmC05HN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZmC05XN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZmC05nN_EfCTGutOISnrsw" name="request">
+        <modelElement href="RegistrationService.uml#_Y_1wgnN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZmC053N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZmC06HN_EfCTGutOISnrsw" name="PatientRegistrationRequest">
+          <modelElement href="RegistrationService.uml#_Y-yAl3N_EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ZmA_sHN_EfCTGutOISnrsw" name="UserRepository" associationsIn="_ZmC06XN_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_Y-58YHN_EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZmA_sXN_EfCTGutOISnrsw" position="-1391.0,-511.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ZmA_snN_EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="RegistrationService.uml#_Y-58YXN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ZmA_s3N_EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="RegistrationService.uml#_Y-58a3N_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_ZmA_tHN_EfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_ZmA_tXN_EfCTGutOISnrsw" name="findByEmail">
+      <modelElement href="RegistrationService.uml#_Y-58YnN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZmA_tnN_EfCTGutOISnrsw" name="Generics">
+        <modelElement href="RegistrationService.uml#_Y-58ZHN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZmA_t3N_EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="RegistrationService.uml#_Y-58ZXN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZmA_uHN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZmA_uXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZmA_unN_EfCTGutOISnrsw">
+        <modelElement href="RegistrationService.uml#_Y_6pA3N_EfCTGutOISnrsw"/>
+        <type xmi:id="_ZmA_u3N_EfCTGutOISnrsw" name="Optional">
+          <modelElement href="RegistrationService.uml#_Y_1JdHN_EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZmA_vHN_EfCTGutOISnrsw" name="email">
+        <modelElement href="RegistrationService.uml#_Y-58Y3N_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZmA_vXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZmA_vnN_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZmA_v3N_EfCTGutOISnrsw" name="findTopByOrderByCustomUserIdDesc">
+      <modelElement href="RegistrationService.uml#_Y-58ZnN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZmA_wHN_EfCTGutOISnrsw" name="Generics">
+        <modelElement href="RegistrationService.uml#_Y-58Z3N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZmA_wXN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_Y-58aHN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZmA_wnN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZmA_w3N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZmA_xHN_EfCTGutOISnrsw">
+        <modelElement href="RegistrationService.uml#_Y_6pBHN_EfCTGutOISnrsw"/>
+        <type xmi:id="_ZmA_xXN_EfCTGutOISnrsw" name="Optional">
+          <modelElement href="RegistrationService.uml#_Y_1JdHN_EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Zl2AkHN_EfCTGutOISnrsw" name="RegistrationServiceApplication">
+    <modelElement href="RegistrationService.uml#_Y-wycHN_EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Zl2AkXN_EfCTGutOISnrsw" position="-1938.0,-428.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Zl2AknN_EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="RegistrationService.uml#_Y-wycXN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Zl2Ak3N_EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="RegistrationService.uml#_Y-xZjXN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_Zl2AlHN_EfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_Zl2AlXN_EfCTGutOISnrsw" name="main" staticOperation="true">
+      <modelElement href="RegistrationService.uml#_Y-xZiXN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl2AlnN_EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="RegistrationService.uml#_Y-xZi3N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl2Al3N_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl2AmHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Zl2AmXN_EfCTGutOISnrsw" name="args">
+        <modelElement href="RegistrationService.uml#_Y-xZinN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl2AmnN_EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Zl2Am3N_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Zl65K3N_EfCTGutOISnrsw" name="User" associationsOut="_Zl65EHN_EfCTGutOISnrsw _Zl65GXN_EfCTGutOISnrsw _Zl65InN_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_Y-25EHN_EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Zl65LHN_EfCTGutOISnrsw" position="-1012.0,-770.0" size="643.0,383.0"/>
+    <stereotypes xmi:id="_Zl65LXN_EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="RegistrationService.uml#_Y-25EXN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Zl65LnN_EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="RegistrationService.uml#_Y-4HOHN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_Zl65L3N_EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_Zl65MHN_EfCTGutOISnrsw" name="id">
+      <modelElement href="RegistrationService.uml#_ZACk03N_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl65MXN_EfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="RegistrationService.uml#_ZACk1HN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl65MnN_EfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="RegistrationService.uml#_ZADL4HN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl65M3N_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65NHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl65NXN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl65NnN_EfCTGutOISnrsw" name="customUserId">
+      <modelElement href="RegistrationService.uml#_ZADL4XN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl65N3N_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_ZADL4nN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl65OHN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_ZADL53N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl65OXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65OnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl65O3N_EfCTGutOISnrsw" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl65PHN_EfCTGutOISnrsw" name="username">
+      <modelElement href="RegistrationService.uml#_ZADL6nN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl65PXN_EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="RegistrationService.uml#_ZADL63N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl65PnN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65P3N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl65QHN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl65QXN_EfCTGutOISnrsw" name="password">
+      <modelElement href="RegistrationService.uml#_ZADL7HN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl65QnN_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_ZADL7XN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl65Q3N_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_ZADy8XN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl65RHN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65RXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl65RnN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl65R3N_EfCTGutOISnrsw" name="email">
+      <modelElement href="RegistrationService.uml#_ZADy9HN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl65SHN_EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="RegistrationService.uml#_ZADy9XN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl65SXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65SnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl65S3N_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl65THN_EfCTGutOISnrsw" name="phoneNumber">
+      <modelElement href="RegistrationService.uml#_ZADy9nN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl65TXN_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_ZADy93N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl65TnN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_ZADy_HN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl65T3N_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65UHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl65UXN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl65UnN_EfCTGutOISnrsw" name="roleId">
+      <modelElement href="RegistrationService.uml#_ZADy_3N_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl65U3N_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_ZADzAHN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl65VHN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_ZADzBXN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl65VXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65VnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl65V3N_EfCTGutOISnrsw" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl65WHN_EfCTGutOISnrsw" name="image">
+      <modelElement href="RegistrationService.uml#_ZADzCHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl65WXN_EfCTGutOISnrsw" name="Array">
+        <modelElement href="RegistrationService.uml#_ZADzCnN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl65WnN_EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="RegistrationService.uml#_ZADzC3N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl65W3N_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65XHN_EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_Zl65XXN_EfCTGutOISnrsw" name="byte">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl65XnN_EfCTGutOISnrsw" name="lastLogin">
+      <modelElement href="RegistrationService.uml#_ZADzDHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl65X3N_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_ZADzDXN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl65YHN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_ZADzEnN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl65YXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65YnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl65Y3N_EfCTGutOISnrsw" name="Instant">
+        <modelElement href="RegistrationService.uml#_Y_w4A3N_EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl65ZHN_EfCTGutOISnrsw" name="createdAt">
+      <modelElement href="RegistrationService.uml#_ZADzFXN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl65ZXN_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_ZADzFnN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl65ZnN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_ZADzG3N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl65Z3N_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65aHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl65aXN_EfCTGutOISnrsw" name="Instant">
+        <modelElement href="RegistrationService.uml#_Y_w4A3N_EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl65anN_EfCTGutOISnrsw" name="updatedAt">
+      <modelElement href="RegistrationService.uml#_ZADzHnN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl65a3N_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_ZAEaAHN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl65bHN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_ZAEaBXN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl65bXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65bnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl65b3N_EfCTGutOISnrsw" name="Instant">
+        <modelElement href="RegistrationService.uml#_Y_w4A3N_EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Zl65cHN_EfCTGutOISnrsw" name="User">
+      <modelElement href="RegistrationService.uml#_Y-3gIHN_EfCTGutOISnrsw"/>
+      <keywords xmi:id="_Zl65cXN_EfCTGutOISnrsw" keyword="create"/>
+      <visibility xmi:id="_Zl65cnN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65c3N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zl65dHN_EfCTGutOISnrsw">
+        <modelElement href="RegistrationService.uml#_Y-3gI3N_EfCTGutOISnrsw"/>
+        <type xmi:id="_Zl65dXN_EfCTGutOISnrsw" name="User">
+          <modelElement href="RegistrationService.uml#_Y-25EHN_EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Zl65dnN_EfCTGutOISnrsw" name="User">
+      <modelElement href="RegistrationService.uml#_Y-3gJHN_EfCTGutOISnrsw"/>
+      <keywords xmi:id="_Zl65d3N_EfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_Zl65eHN_EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="RegistrationService.uml#_Y-3gL3N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl65eXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65enN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zl65e3N_EfCTGutOISnrsw">
+        <modelElement href="RegistrationService.uml#_Y-3gLnN_EfCTGutOISnrsw"/>
+        <type xmi:id="_Zl65fHN_EfCTGutOISnrsw" name="User">
+          <modelElement href="RegistrationService.uml#_Y-25EHN_EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zl65fXN_EfCTGutOISnrsw" name="customUserId">
+        <modelElement href="RegistrationService.uml#_Y-3gJXN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl65fnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl65f3N_EfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zl65gHN_EfCTGutOISnrsw" name="username">
+        <modelElement href="RegistrationService.uml#_Y-3gJnN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl65gXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl65gnN_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zl65g3N_EfCTGutOISnrsw" name="password">
+        <modelElement href="RegistrationService.uml#_Y-3gJ3N_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl65hHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl65hXN_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zl65hnN_EfCTGutOISnrsw" name="email">
+        <modelElement href="RegistrationService.uml#_Y-3gKHN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl65h3N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl65iHN_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zl65iXN_EfCTGutOISnrsw" name="phoneNumber">
+        <modelElement href="RegistrationService.uml#_Y-3gKXN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl65inN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl65i3N_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zl65jHN_EfCTGutOISnrsw" name="roleId">
+        <modelElement href="RegistrationService.uml#_Y-3gKnN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl65jXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl65jnN_EfCTGutOISnrsw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Zl65j3N_EfCTGutOISnrsw" name="image">
+        <modelElement href="RegistrationService.uml#_Y-3gK3N_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl65kHN_EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Zl65kXN_EfCTGutOISnrsw" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Zl65knN_EfCTGutOISnrsw" name="toString">
+      <modelElement href="RegistrationService.uml#_Y-4HMHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl65k3N_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_Y-4HMnN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl65lHN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65lXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zl65lnN_EfCTGutOISnrsw">
+        <modelElement href="RegistrationService.uml#_Y-4HMXN_EfCTGutOISnrsw"/>
+        <type xmi:id="_Zl65l3N_EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Zl65mHN_EfCTGutOISnrsw" name="hashCode">
+      <modelElement href="RegistrationService.uml#_Y-4HNHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl65mXN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_Y-4HNnN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl65mnN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65m3N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zl65nHN_EfCTGutOISnrsw">
+        <modelElement href="RegistrationService.uml#_Y-4HNXN_EfCTGutOISnrsw"/>
+        <type xmi:id="_Zl65nXN_EfCTGutOISnrsw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Zl65nnN_EfCTGutOISnrsw" name="equals">
+      <modelElement href="RegistrationService.uml#_Y_5a4HN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl65n3N_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_Y_5a43N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl65oHN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl65oXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zl65onN_EfCTGutOISnrsw">
+        <modelElement href="RegistrationService.uml#_Y_5a4nN_EfCTGutOISnrsw"/>
+        <type xmi:id="_Zl65o3N_EfCTGutOISnrsw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zl65pHN_EfCTGutOISnrsw" name="o">
+        <modelElement href="RegistrationService.uml#_Y_5a4XN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl65pXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl65pnN_EfCTGutOISnrsw" name="Object">
+          <modelElement href="RegistrationService.uml#_Y_4MwXN_EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZmFRIHN_EfCTGutOISnrsw" name="RegistrationServiceApplicationTests">
+    <modelElement href="RegistrationService.uml#_Y-7KgHN_EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZmFRIXN_EfCTGutOISnrsw" position="-1740.0,-430.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ZmFRInN_EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="RegistrationService.uml#_Y-7xk3N_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ZmFRI3N_EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="RegistrationService.uml#_Y-7xl3N_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_ZmFRJHN_EfCTGutOISnrsw" label="~"/>
+    <operations xmi:id="_ZmFRJXN_EfCTGutOISnrsw" name="contextLoads">
+      <modelElement href="RegistrationService.uml#_Y-7xlHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZmFRJnN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_Y-7xlXN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZmFRJ3N_EfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_ZmFRKHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ZmCN0HN_EfCTGutOISnrsw" name="PatientRepository" associationsIn="_ZmC06nN_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_Y-5VUHN_EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZmCN0XN_EfCTGutOISnrsw" position="-1507.0,-426.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ZmCN0nN_EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="RegistrationService.uml#_Y-5VUXN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ZmCN03N_EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="RegistrationService.uml#_Y-5VUnN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_ZmCN1HN_EfCTGutOISnrsw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Zl3OwnN_EfCTGutOISnrsw" name="PatientRegistrationController" associationsOut="_Zl3OsHN_EfCTGutOISnrsw _Zl3OuXN_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_Y-xZj3N_EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Zl3Ow3N_EfCTGutOISnrsw" position="-1383.0,-381.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Zl3OxHN_EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="RegistrationService.uml#_Y-yAkHN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Zl3OxXN_EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="RegistrationService.uml#_Y-yAkXN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_Zl3OxnN_EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_Zl3Ox3N_EfCTGutOISnrsw" defaultValue="LoggerFactory.getLogger(PatientRegistrationController.class)" name="logger" staticAttribute="true">
+      <modelElement href="RegistrationService.uml#_Y_73IHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl3OyHN_EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="RegistrationService.uml#_Y_73InN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl3OyXN_EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Zl3OynN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl3Oy3N_EfCTGutOISnrsw" name="Logger">
+        <modelElement href="RegistrationService.uml#_Y_vC03N_EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl3OzHN_EfCTGutOISnrsw" name="patientRegistrationService">
+      <modelElement href="RegistrationService.uml#_Y_73I3N_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl3OzXN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_Y_73JHN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl3OznN_EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Zl3Oz3N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl3O0HN_EfCTGutOISnrsw" name="PatientRegistrationService">
+        <modelElement href="RegistrationService.uml#_Y-6jcHN_EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Zl3O0XN_EfCTGutOISnrsw" name="registerPatient">
+      <modelElement href="RegistrationService.uml#_Y_vp43N_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl3O0nN_EfCTGutOISnrsw" name="Generics">
+        <modelElement href="RegistrationService.uml#_Y_vp5XN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Zl3O03N_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_Y_vp6HN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl3O1HN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl3O1XN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zl3O1nN_EfCTGutOISnrsw">
+        <modelElement href="RegistrationService.uml#_Y_3lsHN_EfCTGutOISnrsw"/>
+        <type xmi:id="_Zl3O13N_EfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="RegistrationService.uml#_Y_vp4XN_EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Zl3O2HN_EfCTGutOISnrsw" name="request">
+        <modelElement href="RegistrationService.uml#_Y_vp5HN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Zl3O2XN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Zl3O2nN_EfCTGutOISnrsw" name="PatientRegistrationRequest">
+          <modelElement href="RegistrationService.uml#_Y-yAl3N_EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZmEDAHN_EfCTGutOISnrsw" name="PatientRegistrationServiceImpl" associationsOut="_ZmC06XN_EfCTGutOISnrsw _ZmC06nN_EfCTGutOISnrsw" generalizations="_ZmDb8HN_EfCTGutOISnrsw">
+    <modelElement href="RegistrationService.uml#_Y-6jcXN_EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_ZmEDAXN_EfCTGutOISnrsw" position="-885.0,-375.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ZmEDAnN_EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="RegistrationService.uml#_Y-6jcnN_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ZmEDA3N_EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="RegistrationService.uml#_Y-6jc3N_EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_ZmEDBHN_EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_ZmEDBXN_EfCTGutOISnrsw" defaultValue="1" name="PATIENT_ROLE_ID" staticAttribute="true">
+      <modelElement href="RegistrationService.uml#_ZAEaCHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZmEDBnN_EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="RegistrationService.uml#_ZAEaCnN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZmEDB3N_EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_ZmEDCHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZmEDCXN_EfCTGutOISnrsw" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZmEDCnN_EfCTGutOISnrsw" name="userRepository">
+      <modelElement href="RegistrationService.uml#_ZAEaC3N_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZmEDC3N_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_ZAEaDHN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZmEDDHN_EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_ZmEDDXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZmEDDnN_EfCTGutOISnrsw" name="UserRepository">
+        <modelElement href="RegistrationService.uml#_Y-58YHN_EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZmEDD3N_EfCTGutOISnrsw" name="patientRepository">
+      <modelElement href="RegistrationService.uml#_ZAEaDnN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZmEDEHN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_ZAEaD3N_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZmEDEXN_EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_ZmEDEnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZmEDE3N_EfCTGutOISnrsw" name="PatientRepository">
+        <modelElement href="RegistrationService.uml#_Y-5VUHN_EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZmEDFHN_EfCTGutOISnrsw" name="registerPatient">
+      <modelElement href="RegistrationService.uml#_Y_2XkHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_ZmEDFXN_EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="RegistrationService.uml#_Y_2XknN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZmEDFnN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_ZmEDF3N_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZmEDGHN_EfCTGutOISnrsw" name="request">
+        <modelElement href="RegistrationService.uml#_Y_2XkXN_EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_ZmEDGXN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZmEDGnN_EfCTGutOISnrsw" name="PatientRegistrationRequest">
+          <modelElement href="RegistrationService.uml#_Y-yAl3N_EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Zl4c0HN_EfCTGutOISnrsw" name="PatientRegistrationRequest">
+    <modelElement href="RegistrationService.uml#_Y-yAl3N_EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Zl4c0XN_EfCTGutOISnrsw" position="-1395.0,-862.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Zl4c0nN_EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_Zl4c03N_EfCTGutOISnrsw" name="username">
+      <modelElement href="RegistrationService.uml#_Y_8eMHN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl4c1HN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl4c1XN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl4c1nN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl4c13N_EfCTGutOISnrsw" name="password">
+      <modelElement href="RegistrationService.uml#_Y_8eMXN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl4c2HN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl4c2XN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl4c2nN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl4c23N_EfCTGutOISnrsw" name="email">
+      <modelElement href="RegistrationService.uml#_Y_8eMnN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl4c3HN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl4c3XN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl4c3nN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl4c33N_EfCTGutOISnrsw" name="phoneNumber">
+      <modelElement href="RegistrationService.uml#_Y_8eM3N_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl4c4HN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl4c4XN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl4c4nN_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl4c43N_EfCTGutOISnrsw" name="image">
+      <modelElement href="RegistrationService.uml#_Y_8eNHN_EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Zl4c5HN_EfCTGutOISnrsw" name="Array">
+        <modelElement href="RegistrationService.uml#_Y_8eNnN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl4c5XN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl4c5nN_EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_Zl4c53N_EfCTGutOISnrsw" name="byte">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl4c6HN_EfCTGutOISnrsw" name="firstName">
+      <modelElement href="RegistrationService.uml#_Y_8eN3N_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl4c6XN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl4c6nN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl4c63N_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl4c7HN_EfCTGutOISnrsw" name="lastName">
+      <modelElement href="RegistrationService.uml#_Y_8eOHN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl4c7XN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl4c7nN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl4c73N_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl4c8HN_EfCTGutOISnrsw" name="dateOfBirth">
+      <modelElement href="RegistrationService.uml#_Y_8eOXN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl4c8XN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl4c8nN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl4c83N_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl4c9HN_EfCTGutOISnrsw" name="gender">
+      <modelElement href="RegistrationService.uml#_Y_8eOnN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl4c9XN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl4c9nN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl4c93N_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl4c-HN_EfCTGutOISnrsw" name="contactNumber">
+      <modelElement href="RegistrationService.uml#_Y_8eO3N_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl4c-XN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl4c-nN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl4c-3N_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl4c_HN_EfCTGutOISnrsw" name="address">
+      <modelElement href="RegistrationService.uml#_Y_8ePHN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl4c_XN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl4c_nN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl4c_3N_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl4dAHN_EfCTGutOISnrsw" name="bloodGroup">
+      <modelElement href="RegistrationService.uml#_Y_8ePXN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl4dAXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl4dAnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl4dA3N_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl4dBHN_EfCTGutOISnrsw" name="allergies">
+      <modelElement href="RegistrationService.uml#_Y_8ePnN_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl4dBXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl4dBnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl4dB3N_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Zl4dCHN_EfCTGutOISnrsw" name="currentMedications">
+      <modelElement href="RegistrationService.uml#_Y_8eP3N_EfCTGutOISnrsw"/>
+      <visibility xmi:id="_Zl4dCXN_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl4dCnN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Zl4dC3N_EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Zl4dDHN_EfCTGutOISnrsw" name="PatientRegistrationRequest">
+      <modelElement href="RegistrationService.uml#_Y-yAmHN_EfCTGutOISnrsw"/>
+      <keywords xmi:id="_Zl4dDXN_EfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_Zl4dDnN_EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="RegistrationService.uml#_Y-zOsnN_EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Zl4dD3N_EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Zl4dEHN_EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Zl4dEXN_EfCTGutOISnrsw">
+        <modelElement href="RegistrationService.uml#_Y-zOs3N_EfCTGutOISnrsw"/>
+        <type xmi:id="_Zl4dEnN_EfCTGutOISnrsw" name="PatientRegistrationRequest">
+          <modelElement href="RegistrationService.uml#_Y-yAl3N_EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

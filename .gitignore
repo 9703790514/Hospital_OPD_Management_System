@@ -1,0 +1,70 @@
+# Environment Variables
+.env
+*.env
+!.env.example
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.cache/
+frontend/package-lock.json
+
+# Backend
+backend/*/target/
+backend/*/.mvn/
+backend/*/mvnw
+backend/*/mvnw.cmd
+backend/*/.settings/
+backend/*/.classpath
+backend/*/.project
+backend/*/.factorypath
+backend/.metadata/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Uploads
+**/uploads/
+**/upload/
+
+# Test Reports
+**/test-results/
+**/coverage/
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+Thumbs.db
+
+# Application Specific
+**/.git/
+Local Disk (D) - Shortcut.lnk

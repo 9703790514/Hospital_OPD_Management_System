@@ -1,0 +1,1531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_-qgrQHNtEfCTGutOISnrsw">
+  <modelElement href="AppointmentMicroService2.uml#__uepsHNtEfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AH5PQHNuEfCTGutOISnrsw" sourceAnchor="284.0,0.0" targetAnchor="272.0,236.0" target="_AI6i8HNuEfCTGutOISnrsw" source="_AH5PSXNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__74zkHNtEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_AH5PQXNuEfCTGutOISnrsw" name="Reference">
+      <modelElement href="AppointmentMicroService2.uml#__79FAHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AH5PQnNuEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_AZgjsHNuEfCTGutOISnrsw" position="2.0,-8.999999999999996"/>
+    </nameVisual>
+    <sourceRole xmi:id="_AH5PQ3NuEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="AppointmentMicroService2.uml#__74zkXNtEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_AZfVk3NuEfCTGutOISnrsw" position="41.0,-30.0"/>
+      <visibility xmi:id="_AH5PRHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AH5PRXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AH5PRnNuEfCTGutOISnrsw" aggregationKind="NONE" name="appointmentService" navigable="true">
+      <modelElement href="AppointmentMicroService2.uml#__66jMHNtEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_AZgjsXNuEfCTGutOISnrsw" position="-122.0,-19.000000000000014"/>
+      <visibility xmi:id="_AH5PR3NuEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_AH5PSHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIOmcHNuEfCTGutOISnrsw" sourceAnchor="237.0,15.0" targetAnchor="0.0,167.0" target="_AI6i8HNuEfCTGutOISnrsw" source="_AIco6XNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__7ys8XNtEfCTGutOISnrsw"/>
+    <nameVisual xmi:id="_AIS34HNuEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_AZhx0XNuEfCTGutOISnrsw" position="-9.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_AIS34XNuEfCTGutOISnrsw" aggregationKind="NONE" name="allAppointments" navigable="true">
+      <modelElement href="AppointmentMicroService2.uml#__x80cnNtEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_AZhx0HNuEfCTGutOISnrsw" position="-17.0,-21.0"/>
+      <visibility xmi:id="_AIUGAXNuEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_AIUGAHNuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIS34nNuEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="AppointmentMicroService2.uml#__7ys8nNtEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_AZhx0nNuEfCTGutOISnrsw" position="-27.0,2.0"/>
+      <visibility xmi:id="_AIUGA3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIUGAnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIV7MHNuEfCTGutOISnrsw" source="_AIco6XNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__79sEHNtEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_AIV7MXNuEfCTGutOISnrsw" name="Reference">
+      <modelElement href="AppointmentMicroService2.uml#__8CkkHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AIV7MnNuEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_AIV7M3NuEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="AppointmentMicroService2.uml#__79sEXNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIV7NHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIV7NXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIV7NnNuEfCTGutOISnrsw" aggregationKind="NONE" name="appointmentDate" navigable="true">
+      <modelElement href="AppointmentMicroService2.uml#__7E7RHNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIV7N3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIV7OHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIXJUHNuEfCTGutOISnrsw" source="_AIco6XNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__8CkkXNtEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_AIXJUXNuEfCTGutOISnrsw" name="Reference">
+      <modelElement href="AppointmentMicroService2.uml#__8JSQHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AIXJUnNuEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_AIXJU3NuEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="AppointmentMicroService2.uml#__8DLoHNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIXJVHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIXJVXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIXJVnNuEfCTGutOISnrsw" aggregationKind="NONE" name="appointmentTime" navigable="true">
+      <modelElement href="AppointmentMicroService2.uml#__7GJY3NtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIXJV3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIXJWHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIZlkHNuEfCTGutOISnrsw" source="_AIco6XNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__8JSQXNtEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_AIZlkXNuEfCTGutOISnrsw" name="Reference">
+      <modelElement href="AppointmentMicroService2.uml#__8P_8HNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AIZlknNuEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_AIZlk3NuEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="AppointmentMicroService2.uml#__8JSQnNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIZllHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIZllXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIZllnNuEfCTGutOISnrsw" aggregationKind="NONE" name="consultationStartTime" navigable="true">
+      <modelElement href="AppointmentMicroService2.uml#__7Lo8HNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIZll3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIZlmHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIazsHNuEfCTGutOISnrsw" source="_AIco6XNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__8QnAHNtEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_AIazsXNuEfCTGutOISnrsw" name="Reference">
+      <modelElement href="AppointmentMicroService2.uml#__8U4cHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AIazsnNuEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_AIazs3NuEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="AppointmentMicroService2.uml#__8QnAXNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIaztHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIaztXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIbawHNuEfCTGutOISnrsw" aggregationKind="NONE" name="consultationEndTime" navigable="true">
+      <modelElement href="AppointmentMicroService2.uml#__7NeI3NtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIbawXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIbawnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIcB0HNuEfCTGutOISnrsw" source="_AIco6XNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__8U4cXNtEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_AIcB0XNuEfCTGutOISnrsw" name="Reference">
+      <modelElement href="AppointmentMicroService2.uml#__8epcHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AIcB0nNuEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_AIcB03NuEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="AppointmentMicroService2.uml#__8U4cnNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIcB1HNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcB1XNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIcB1nNuEfCTGutOISnrsw" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="AppointmentMicroService2.uml#__7QhcHNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIcB13NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcB2HNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIco4HNuEfCTGutOISnrsw" source="_AIco6XNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__8epcXNtEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_AIco4XNuEfCTGutOISnrsw" name="Reference">
+      <modelElement href="AppointmentMicroService2.uml#__8nzYHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AIco4nNuEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_AIco43NuEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="AppointmentMicroService2.uml#__8epcnNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIco5HNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIco5XNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIco5nNuEfCTGutOISnrsw" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="AppointmentMicroService2.uml#__7SWoXNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIco53NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIco6HNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIiIcHNuEfCTGutOISnrsw" sourceAnchor="338.0,88.0" targetAnchor="0.0,27.0" target="_AIlL0nNuEfCTGutOISnrsw" source="_AIqrUHNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__9CDEXNtEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_AIj9oHNuEfCTGutOISnrsw" name="Reference">
+      <modelElement href="AppointmentMicroService2.uml#__9Kl8HNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AIivgHNuEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_AZmDQXNuEfCTGutOISnrsw" position="-15.0,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_AIjWkHNuEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="AppointmentMicroService2.uml#__9CDEnNtEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_AZmDQHNuEfCTGutOISnrsw" position="40.0,-90.0"/>
+      <visibility xmi:id="_AIj9onNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIj9oXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIjWkXNuEfCTGutOISnrsw" aggregationKind="NONE" name="dailySlots" navigable="true">
+      <modelElement href="AppointmentMicroService2.uml#__7a5gHNtEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_AZmqUHNuEfCTGutOISnrsw" position="-71.0,17.0"/>
+      <visibility xmi:id="_AIj9pHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIj9o3NuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIlLwHNuEfCTGutOISnrsw" sourceAnchor="106.0,0.0" targetAnchor="122.0,104.0" target="_AIwK7HNuEfCTGutOISnrsw" source="_AIlL0nNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__8oacHNtEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_AIlLwXNuEfCTGutOISnrsw" name="Reference">
+      <modelElement href="AppointmentMicroService2.uml#__8vvMHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AIlLwnNuEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_AZi_8XNuEfCTGutOISnrsw" position="-20.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_AIlLw3NuEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="AppointmentMicroService2.uml#__8oacXNtEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_AZi_8HNuEfCTGutOISnrsw" position="-55.5,-35.0"/>
+      <visibility xmi:id="_AIlLxHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIlLxXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIlLxnNuEfCTGutOISnrsw" aggregationKind="NONE" name="slots" navigable="true">
+      <modelElement href="AppointmentMicroService2.uml#__7YdQHNtEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_AZjnAHNuEfCTGutOISnrsw" position="41.5,-14.0"/>
+      <visibility xmi:id="_AIlLx3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIlLyHNuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIlLyXNuEfCTGutOISnrsw" sourceAnchor="136.0,0.0" targetAnchor="152.0,104.0" target="_AIwK7HNuEfCTGutOISnrsw" source="_AIlL0nNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__8wWQHNtEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_AIlLynNuEfCTGutOISnrsw" name="Reference">
+      <modelElement href="AppointmentMicroService2.uml#__845IHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AIlLy3NuEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_AZlcMHNuEfCTGutOISnrsw" position="-81.5,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_AIlLzHNuEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="AppointmentMicroService2.uml#__8wWQXNtEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_AZk1IHNuEfCTGutOISnrsw" position="-7.0,-35.0"/>
+      <visibility xmi:id="_AIlLzXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIlLznNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIlLz3NuEfCTGutOISnrsw" aggregationKind="NONE" name="breakSlots" navigable="true">
+      <modelElement href="AppointmentMicroService2.uml#__7YdQnNtEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_AZlcMXNuEfCTGutOISnrsw" position="46.5,6.0"/>
+      <visibility xmi:id="_AIlL0HNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIlL0XNuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIoPEHNuEfCTGutOISnrsw" source="_AIqrUHNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__85gMHNtEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_AIpdMHNuEfCTGutOISnrsw" name="Reference">
+      <modelElement href="AppointmentMicroService2.uml#__9CDEHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AIo2IHNuEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_AIo2IXNuEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="AppointmentMicroService2.uml#__85gMXNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIpdMnNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIpdMXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIo2InNuEfCTGutOISnrsw" aggregationKind="NONE" name="leaveDates" navigable="true">
+      <modelElement href="AppointmentMicroService2.uml#__7ZrYXNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIpdNHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIpdM3NuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIu8wHNuEfCTGutOISnrsw" target="_AIwK7HNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__7xe0HNtEfCTGutOISnrsw"/>
+    <nameVisual xmi:id="_AIvj0HNuEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_AIvj0XNuEfCTGutOISnrsw" aggregationKind="NONE" name="startTime" navigable="true">
+      <modelElement href="AppointmentMicroService2.uml#__7a5gnNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIwK5XNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIwK5HNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIwK4HNuEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="AppointmentMicroService2.uml#__7yF4HNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIwK53NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIwK5nNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIu8wXNuEfCTGutOISnrsw" target="_AIwK7HNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__7yF4XNtEfCTGutOISnrsw"/>
+    <nameVisual xmi:id="_AIwK4XNuEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_AIwK4nNuEfCTGutOISnrsw" aggregationKind="NONE" name="endTime" navigable="true">
+      <modelElement href="AppointmentMicroService2.uml#__7a5g3NtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIwK6XNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIwK6HNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIwK43NuEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="AppointmentMicroService2.uml#__7ys8HNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIwK63NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIwK6nNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AJDs4HNuEfCTGutOISnrsw" sourceAnchor="270.0,0.0" targetAnchor="310.0,135.0" target="_AIz1QHNuEfCTGutOISnrsw" source="_AJGwMHNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__9Kl8XNtEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_AJE7A3NuEfCTGutOISnrsw" name="Reference">
+      <modelElement href="AppointmentMicroService2.uml#__9UW8HNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AJE7AHNuEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_AZmqUnNuEfCTGutOISnrsw" position="-43.0,-35.99999999999997"/>
+    </nameVisual>
+    <sourceRole xmi:id="_AJE7AXNuEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="AppointmentMicroService2.uml#__9Kl8nNtEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_AZmqUXNuEfCTGutOISnrsw" position="-17.0,-92.0"/>
+      <visibility xmi:id="_AJGJIXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AJGJIHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AJE7AnNuEfCTGutOISnrsw" aggregationKind="NONE" name="appointmentRepository" navigable="true">
+      <modelElement href="AppointmentMicroService2.uml#__7bgkHNtEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_AZmqU3NuEfCTGutOISnrsw" position="-142.0,90.0"/>
+      <visibility xmi:id="_AJGJI3NuEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_AJGJInNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AJET8HNuEfCTGutOISnrsw" sourceAnchor="534.0,0.0" targetAnchor="0.0,167.0" dashed="true" superClass="_AI6i8HNuEfCTGutOISnrsw" subClass="_AJGwMHNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__6MxgHNtEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_fdDUQHNuEfCTGutOISnrsw" sourceY="-399" targetX="-56" targetY="-1"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AI6i8HNuEfCTGutOISnrsw" name="AppointmentService" associationsIn="_AIOmcHNuEfCTGutOISnrsw _AH5PQHNuEfCTGutOISnrsw" subclassedBy="_AJET8HNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__x5xIHNtEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_AI6i8XNuEfCTGutOISnrsw" position="-448.0,-227.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AI6i8nNuEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_AI6i83NuEfCTGutOISnrsw" name="allAppointments">
+      <modelElement href="AppointmentMicroService2.uml#__x80cnNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AI6i9HNuEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_AI6i9XNuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_AI6i9nNuEfCTGutOISnrsw" name="Appointment">
+        <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_AI6i93NuEfCTGutOISnrsw" name="getAppointmentById">
+      <modelElement href="AppointmentMicroService2.uml#__x6YMHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AI6i-HNuEfCTGutOISnrsw" name="Generics">
+        <modelElement href="AppointmentMicroService2.uml#__x6_QHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AI6i-XNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AI6i-nNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AI6i-3NuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6yAUHNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AI6i_HNuEfCTGutOISnrsw" name="Optional">
+          <modelElement href="AppointmentMicroService2.uml#__5iDIXNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AI6i_XNuEfCTGutOISnrsw" name="id">
+        <modelElement href="AppointmentMicroService2.uml#__x6YMXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AI6i_nNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AI6i_3NuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AI6jAHNuEfCTGutOISnrsw" name="getAppointmentsByPatientId">
+      <modelElement href="AppointmentMicroService2.uml#__x6_QXNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AI6jAXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AI6jAnNuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AI6jA3NuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__x7mUHNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AI6jBHNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AI6jBXNuEfCTGutOISnrsw" name="patientId">
+        <modelElement href="AppointmentMicroService2.uml#__x6_QnNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AI6jBnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AI6jB3NuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AI6jCHNuEfCTGutOISnrsw" name="getAppointmentsByDoctorId">
+      <modelElement href="AppointmentMicroService2.uml#__x7mUnNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AI6jCXNuEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_AI6jCnNuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AI6jC3NuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__x7mVHNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AI6jDHNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AI6jDXNuEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="AppointmentMicroService2.uml#__x7mU3NtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AI6jDnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AI6jD3NuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AI6jEHNuEfCTGutOISnrsw" name="updateAppointmentStatus">
+      <modelElement href="AppointmentMicroService2.uml#__x8NYHNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AI6jEXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AI6jEnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AI6jE3NuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6JuM3NtEfCTGutOISnrsw"/>
+        <type xmi:id="_AI6jFHNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AI6jFXNuEfCTGutOISnrsw" name="appointmentId">
+        <modelElement href="AppointmentMicroService2.uml#__x8NYXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AI6jFnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AI6jF3NuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AI6jGHNuEfCTGutOISnrsw" name="newStatus">
+        <modelElement href="AppointmentMicroService2.uml#__x8NYnNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AI6jGXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AI6jGnNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AI6jG3NuEfCTGutOISnrsw" name="deleteAppointmentById">
+      <modelElement href="AppointmentMicroService2.uml#__x80cHNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AI6jHHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AI6jHXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AI6jHnNuEfCTGutOISnrsw" name="id">
+        <modelElement href="AppointmentMicroService2.uml#__x80cXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AI6jH3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AI6jIHNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AI6jIXNuEfCTGutOISnrsw" name="createAppointment">
+      <modelElement href="AppointmentMicroService2.uml#__6IgEHNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AI6jInNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AI6jI3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AI6jJHNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6IgEnNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AI6jJXNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AI6jJnNuEfCTGutOISnrsw" name="appointment">
+        <modelElement href="AppointmentMicroService2.uml#__6IgEXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AI6jJ3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AI6jKHNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AI6jKXNuEfCTGutOISnrsw" name="updateAppointment">
+      <modelElement href="AppointmentMicroService2.uml#__6JuMHNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AI6jKnNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AI6jK3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AI6jLHNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6JuMnNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AI6jLXNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AI6jLnNuEfCTGutOISnrsw" name="appointment">
+        <modelElement href="AppointmentMicroService2.uml#__6JuMXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AI6jL3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AI6jMHNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AI6jMXNuEfCTGutOISnrsw" name="getAppointmentsByDoctorAndDate">
+      <modelElement href="AppointmentMicroService2.uml#__6ynYHNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AI6jMnNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AI6jM3NuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AI6jNHNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6zOcHNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AI6jNXNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AI6jNnNuEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="AppointmentMicroService2.uml#__6ynYXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AI6jN3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AI6jOHNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AI6jOXNuEfCTGutOISnrsw" name="date">
+        <modelElement href="AppointmentMicroService2.uml#__6ynYnNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AI6jOnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AI6jO3NuEfCTGutOISnrsw" name="LocalDate">
+          <modelElement href="AppointmentMicroService2.uml#__5gN8XNtEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AI6jPHNuEfCTGutOISnrsw" name="cancelAppointmentsByDoctorAndDate">
+      <modelElement href="AppointmentMicroService2.uml#__6z1gHNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AI6jPXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AI6jPnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AI6jP3NuEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="AppointmentMicroService2.uml#__6z1gXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AI6jQHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AI6jQXNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AI6jQnNuEfCTGutOISnrsw" name="leaveDate">
+        <modelElement href="AppointmentMicroService2.uml#__6z1gnNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AI6jQ3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AI6jRHNuEfCTGutOISnrsw" name="LocalDate">
+          <modelElement href="AppointmentMicroService2.uml#__5gN8XNtEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AIz1QHNuEfCTGutOISnrsw" name="AppointmentRepository" associationsIn="_AJDs4HNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__x1fsHNtEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_AIz1QXNuEfCTGutOISnrsw" position="-1078.0,-225.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AIz1QnNuEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="AppointmentMicroService2.uml#__x2GwHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AIz1Q3NuEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="AppointmentMicroService2.uml#__x4jAHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_AIz1RHNuEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_AIz1RXNuEfCTGutOISnrsw" name="findByPatientId">
+      <modelElement href="AppointmentMicroService2.uml#__x2t0HNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIz1RnNuEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__x3U4HNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIz1R3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIz1SHNuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AIz1SXNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__x2t0nNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AIz1SnNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AIz1S3NuEfCTGutOISnrsw" name="patientId">
+        <modelElement href="AppointmentMicroService2.uml#__x2t0XNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AIz1THNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AIz1TXNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AIz1TnNuEfCTGutOISnrsw" name="findByDoctorId">
+      <modelElement href="AppointmentMicroService2.uml#__x378HNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIz1T3NuEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__x379HNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIz1UHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIz1UXNuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AIz1UnNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__x378nNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AIz1U3NuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AIz1VHNuEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="AppointmentMicroService2.uml#__x378XNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AIz1VXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AIz1VnNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AIz1V3NuEfCTGutOISnrsw" name="findByDoctorIdAndAppointmentDate">
+      <modelElement href="AppointmentMicroService2.uml#__6wyMHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIz1WHNuEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__6xZQHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIz1WXNuEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_AIz1WnNuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AIz1W3NuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6wyM3NtEfCTGutOISnrsw"/>
+        <type xmi:id="_AIz1XHNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AIz1XXNuEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="AppointmentMicroService2.uml#__6wyMXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AIz1XnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AIz1X3NuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AIz1YHNuEfCTGutOISnrsw" name="appointmentDate">
+        <modelElement href="AppointmentMicroService2.uml#__6wyMnNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AIz1YXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AIz1YnNuEfCTGutOISnrsw" name="LocalDate">
+          <modelElement href="AppointmentMicroService2.uml#__5gN8XNtEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AHmUUHNuEfCTGutOISnrsw" name="AppointmentMicroServiceApplication">
+    <modelElement href="AppointmentMicroService2.uml#__wgqAHNtEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_AHmUUXNuEfCTGutOISnrsw" position="-370.0,326.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AHmUUnNuEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="AppointmentMicroService2.uml#__wifMHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AHmUU3NuEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="AppointmentMicroService2.uml#__wmwoHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_AHmUVHNuEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_AHmUVXNuEfCTGutOISnrsw" name="main" staticOperation="true">
+      <modelElement href="AppointmentMicroService2.uml#__wkUYXNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AHm7YHNuEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__wligHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AHm7YXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AHm7YnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AHm7Y3NuEfCTGutOISnrsw" name="args">
+        <modelElement href="AppointmentMicroService2.uml#__wk7cHNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AHm7ZHNuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_AHm7ZXNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AJWn0HNuEfCTGutOISnrsw" name="AppointmentMicroServiceApplicationTests">
+    <modelElement href="AppointmentMicroService2.uml#__yQ9gHNtEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_AJWn0XNuEfCTGutOISnrsw" position="-1052.0,-77.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AJWn0nNuEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="AppointmentMicroService2.uml#__ySLoHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AJWn03NuEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="AppointmentMicroService2.uml#__yV2AHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_AJWn1HNuEfCTGutOISnrsw" label="~"/>
+    <operations xmi:id="_AJWn1XNuEfCTGutOISnrsw" name="contextLoads">
+      <modelElement href="AppointmentMicroService2.uml#__ySysHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AJWn1nNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__yVO8HNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AJWn13NuEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_AJWn2HNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AIco6XNuEfCTGutOISnrsw" name="Appointment" associationsOut="_AIOmcHNuEfCTGutOISnrsw _AIV7MHNuEfCTGutOISnrsw _AIXJUHNuEfCTGutOISnrsw _AIZlkHNuEfCTGutOISnrsw _AIazsHNuEfCTGutOISnrsw _AIcB0HNuEfCTGutOISnrsw _AIco4HNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_AIco6nNuEfCTGutOISnrsw" position="-753.0,-75.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AIco63NuEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="AppointmentMicroService2.uml#__xL_cHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AIco7HNuEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="AppointmentMicroService2.uml#__xXloHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_AIco7XNuEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_AIco7nNuEfCTGutOISnrsw" name="id">
+      <modelElement href="AppointmentMicroService2.uml#__68YYHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIco73NuEfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="AppointmentMicroService2.uml#__68_cHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AIco8HNuEfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__6-NkHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIco8XNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIco8nNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIco83NuEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIco9HNuEfCTGutOISnrsw" name="customId">
+      <modelElement href="AppointmentMicroService2.uml#__6-NkXNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIco9XNuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__6-NknNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AIco9nNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__6_bsHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIco93NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIco-HNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIco-XNuEfCTGutOISnrsw" name="Long">
+        <modelElement href="AppointmentMicroService2.uml#__6ivwHNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIco-nNuEfCTGutOISnrsw" name="patientId">
+      <modelElement href="AppointmentMicroService2.uml#__7ACwHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIco-3NuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__7BQ4HNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AIco_HNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__7DGEHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIco_XNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIco_nNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIco_3NuEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIcpAHNuEfCTGutOISnrsw" name="doctorId">
+      <modelElement href="AppointmentMicroService2.uml#__7DtIHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIcpAXNuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__7EUMHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AIcpAnNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__7E7QXNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIcpA3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcpBHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIcpBXNuEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIcpBnNuEfCTGutOISnrsw" name="appointmentDate">
+      <modelElement href="AppointmentMicroService2.uml#__7E7RHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIcpB3NuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__7FiUHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AIcpCHNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__7GJYHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIcpCXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcpCnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIcpC3NuEfCTGutOISnrsw" name="LocalDate">
+        <modelElement href="AppointmentMicroService2.uml#__5gN8XNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIcpDHNuEfCTGutOISnrsw" name="appointmentTime">
+      <modelElement href="AppointmentMicroService2.uml#__7GJY3NtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIcpDXNuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__7GJZHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AIcpDnNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__7GwcXNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIcpD3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcpEHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIcpEXNuEfCTGutOISnrsw" name="Instant">
+        <modelElement href="AppointmentMicroService2.uml#__5fm4XNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIcpEnNuEfCTGutOISnrsw" name="reasonForVisit">
+      <modelElement href="AppointmentMicroService2.uml#__7GwdHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIcpE3NuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__7HXgHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AIcpFHNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__7HXhXNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIcpFXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcpFnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIcpF3NuEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIcpGHNuEfCTGutOISnrsw" name="status">
+      <modelElement href="AppointmentMicroService2.uml#__7H-kHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIcpGXNuEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__7H-kXNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIcpGnNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcpG3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIcpHHNuEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIcpHXNuEfCTGutOISnrsw" name="bookedByUserId">
+      <modelElement href="AppointmentMicroService2.uml#__7H-knNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIcpHnNuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__7IloHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AIcpH3NuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__7Ka0HNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIcpIHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcpIXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIcpInNuEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIcpI3NuEfCTGutOISnrsw" name="notes">
+      <modelElement href="AppointmentMicroService2.uml#__7LB4HNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIcpJHNuEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__7LB4XNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIcpJXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcpJnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIcpJ3NuEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIcpKHNuEfCTGutOISnrsw" name="consultationStartTime">
+      <modelElement href="AppointmentMicroService2.uml#__7Lo8HNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIcpKXNuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__7MQAHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AIcpKnNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__7NeIHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIcpK3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcpLHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIcpLXNuEfCTGutOISnrsw" name="Instant">
+        <modelElement href="AppointmentMicroService2.uml#__5fm4XNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIcpLnNuEfCTGutOISnrsw" name="consultationEndTime">
+      <modelElement href="AppointmentMicroService2.uml#__7NeI3NtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIcpL3NuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__7OFMHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AIcpMHNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__7OsQXNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIcpMXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcpMnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIcpM3NuEfCTGutOISnrsw" name="Instant">
+        <modelElement href="AppointmentMicroService2.uml#__5fm4XNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIcpNHNuEfCTGutOISnrsw" name="roomNumber">
+      <modelElement href="AppointmentMicroService2.uml#__7PTUHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIcpNXNuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__7PTUXNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AIcpNnNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__7P6YnNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIcpN3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcpOHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIcpOXNuEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIcpOnNuEfCTGutOISnrsw" name="createdAt">
+      <modelElement href="AppointmentMicroService2.uml#__7QhcHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIcpO3NuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__7QhcXNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AIcpPHNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__7RvkXNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIcpPXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcpPnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIcpP3NuEfCTGutOISnrsw" name="Instant">
+        <modelElement href="AppointmentMicroService2.uml#__5fm4XNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIcpQHNuEfCTGutOISnrsw" name="updatedAt">
+      <modelElement href="AppointmentMicroService2.uml#__7SWoXNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIcpQXNuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__7S9sHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AIcpQnNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__7UL0HNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIcpQ3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcpRHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIcpRXNuEfCTGutOISnrsw" name="Instant">
+        <modelElement href="AppointmentMicroService2.uml#__5fm4XNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIcpRnNuEfCTGutOISnrsw" name="medicalRecordId">
+      <modelElement href="AppointmentMicroService2.uml#__7Uy4HNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AIcpR3NuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__7Uy4XNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AIcpSHNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__7WBAXNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIcpSXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcpSnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIcpS3NuEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_AIcpTHNuEfCTGutOISnrsw" name="Appointment">
+      <modelElement href="AppointmentMicroService2.uml#__xVJYHNtEfCTGutOISnrsw"/>
+      <keywords xmi:id="_AIcpTXNuEfCTGutOISnrsw" keyword="create"/>
+      <visibility xmi:id="_AIcpTnNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIcpT3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AIcpUHNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__xVwcnNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AIcpUXNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AH5PSXNuEfCTGutOISnrsw" name="AppointmentController" associationsOut="_AH5PQHNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__wmwonNtEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_AH5PSnNuEfCTGutOISnrsw" position="-460.0,20.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AH5PS3NuEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="AppointmentMicroService2.uml#__wn-wHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AH5PTHNuEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="AppointmentMicroService2.uml#__w-kEHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_AH5PTXNuEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_AH5PTnNuEfCTGutOISnrsw" name="appointmentService">
+      <modelElement href="AppointmentMicroService2.uml#__66jMHNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AH5PT3NuEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_AH5PUHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AH5PUXNuEfCTGutOISnrsw" name="AppointmentService">
+        <modelElement href="AppointmentMicroService2.uml#__x5xIHNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_AH5PUnNuEfCTGutOISnrsw" name="getAllAppointments">
+      <modelElement href="AppointmentMicroService2.uml#__wpz8HNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AH52UHNuEfCTGutOISnrsw" name="Generics">
+        <modelElement href="AppointmentMicroService2.uml#__wqbAHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AH52UXNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__wrCEHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AH52UnNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AH52U3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AH52VHNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6WigHNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AH52VXNuEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="AppointmentMicroService2.uml#__5iqM3NtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AH52VnNuEfCTGutOISnrsw" name="updateAppointmentStatus">
+      <modelElement href="AppointmentMicroService2.uml#__wrCEnNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AH52V3NuEfCTGutOISnrsw" name="Generics">
+        <modelElement href="AppointmentMicroService2.uml#__wsQMHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AH52WHNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__wteUnNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AH52WXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AH52WnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AH52W3NuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6YXsHNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AH52XHNuEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="AppointmentMicroService2.uml#__5iqM3NtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AH52XXNuEfCTGutOISnrsw" name="id">
+        <modelElement href="AppointmentMicroService2.uml#__wrpIHNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AH52XnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AH52X3NuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AH52YHNuEfCTGutOISnrsw" name="getAppointmentById">
+      <modelElement href="AppointmentMicroService2.uml#__wuFYXNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AH52YXNuEfCTGutOISnrsw" name="Generics">
+        <modelElement href="AppointmentMicroService2.uml#__wvTgHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AH52YnNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__wxIsHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AH52Y3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AH52ZHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AH52ZXNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6Y-wXNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AH52ZnNuEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="AppointmentMicroService2.uml#__5iqM3NtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AH52Z3NuEfCTGutOISnrsw" name="id">
+        <modelElement href="AppointmentMicroService2.uml#__wuFYnNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AH52aHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AH52aXNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AH52anNuEfCTGutOISnrsw" name="getAppointmentsByPatient">
+      <modelElement href="AppointmentMicroService2.uml#__wyW0HNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AH52a3NuEfCTGutOISnrsw" name="Generics">
+        <modelElement href="AppointmentMicroService2.uml#__wy94XNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AH52bHNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__w0MAHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AH52bXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AH52bnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AH52b3NuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6Y-wnNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AH52cHNuEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="AppointmentMicroService2.uml#__5iqM3NtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AH52cXNuEfCTGutOISnrsw" name="patientId">
+        <modelElement href="AppointmentMicroService2.uml#__wy94HNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AH52cnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AH52c3NuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AH52dHNuEfCTGutOISnrsw" name="getAppointmentsByDoctor">
+      <modelElement href="AppointmentMicroService2.uml#__w2BMHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AH52dXNuEfCTGutOISnrsw" name="Generics">
+        <modelElement href="AppointmentMicroService2.uml#__w3PUHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AH52dnNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__w4dcHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AH52d3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AH52eHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AH52eXNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6Zl0HNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AH52enNuEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="AppointmentMicroService2.uml#__5iqM3NtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AH52e3NuEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="AppointmentMicroService2.uml#__w2BMXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AH52fHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AH52fXNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AH52fnNuEfCTGutOISnrsw" name="getAppointmentsByDoctorAndDate">
+      <modelElement href="AppointmentMicroService2.uml#__w5EgHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AH52f3NuEfCTGutOISnrsw" name="Generics">
+        <modelElement href="AppointmentMicroService2.uml#__w5rkHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AH52gHNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__w65sHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AH52gXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AH52gnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AH52g3NuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6aM4HNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AH52hHNuEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="AppointmentMicroService2.uml#__5iqM3NtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AH52hXNuEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="AppointmentMicroService2.uml#__w5EgXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AH52hnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AH52h3NuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AH52iHNuEfCTGutOISnrsw" name="date">
+        <modelElement href="AppointmentMicroService2.uml#__w5EgnNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AH52iXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AH52inNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AH52i3NuEfCTGutOISnrsw" name="deleteAppointment">
+      <modelElement href="AppointmentMicroService2.uml#__w8H0HNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AH52jHNuEfCTGutOISnrsw" name="Generics">
+        <modelElement href="AppointmentMicroService2.uml#__w8u4HNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AH52jXNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__w9V8nNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AH52jnNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AH52j3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AH52kHNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6fscHNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AH52kXNuEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="AppointmentMicroService2.uml#__5iqM3NtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AH52knNuEfCTGutOISnrsw" name="id">
+        <modelElement href="AppointmentMicroService2.uml#__w8H0XNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AH52k3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AH52lHNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AH52lXNuEfCTGutOISnrsw" name="AppointmentController">
+      <modelElement href="AppointmentMicroService2.uml#__5nisHNtEfCTGutOISnrsw"/>
+      <keywords xmi:id="_AH52lnNuEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_AH52l3NuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__5ow0HNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AH52mHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AH52mXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AH52mnNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__5oJw3NtEfCTGutOISnrsw"/>
+        <type xmi:id="_AH52m3NuEfCTGutOISnrsw" name="AppointmentController">
+          <modelElement href="AppointmentMicroService2.uml#__wmwonNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AH52nHNuEfCTGutOISnrsw" name="appointmentService">
+        <modelElement href="AppointmentMicroService2.uml#__5oJwHNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AH52nXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AH52nnNuEfCTGutOISnrsw" name="AppointmentService">
+          <modelElement href="AppointmentMicroService2.uml#__x5xIHNtEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AH52n3NuEfCTGutOISnrsw" name="handleScheduleChange">
+      <modelElement href="AppointmentMicroService2.uml#__5ow0nNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AH52oHNuEfCTGutOISnrsw" name="Generics">
+        <modelElement href="AppointmentMicroService2.uml#__5pX4HNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AH52oXNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__5pX43NtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AH52onNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AH52o3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AH52pHNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6XwoHNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AH52pXNuEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="AppointmentMicroService2.uml#__5iqM3NtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AH52pnNuEfCTGutOISnrsw" name="payload">
+        <modelElement href="AppointmentMicroService2.uml#__5ow03NtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AH52p3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AH52qHNuEfCTGutOISnrsw" name="ScheduleUpdatePayload">
+          <modelElement href="AppointmentMicroService2.uml#__xtj4HNtEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AH52qXNuEfCTGutOISnrsw" name="createAppointment">
+      <modelElement href="AppointmentMicroService2.uml#__5pX5nNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AH52qnNuEfCTGutOISnrsw" name="Generics">
+        <modelElement href="AppointmentMicroService2.uml#__5p-8HNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AH52q3NuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__5p-83NtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AH52rHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AH52rXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AH52rnNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6Y-wHNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AH52r3NuEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="AppointmentMicroService2.uml#__5iqM3NtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AH52sHNuEfCTGutOISnrsw" name="appointment">
+        <modelElement href="AppointmentMicroService2.uml#__5pX53NtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AH52sXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AH52snNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AH52s3NuEfCTGutOISnrsw" name="updateAppointment">
+      <modelElement href="AppointmentMicroService2.uml#__5qmAHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AH52tHNuEfCTGutOISnrsw" name="Generics">
+        <modelElement href="AppointmentMicroService2.uml#__5rNEHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AH52tXNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__5rNFXNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AH52tnNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AH52t3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AH52uHNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6aM4XNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AH52uXNuEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="AppointmentMicroService2.uml#__5iqM3NtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AH52unNuEfCTGutOISnrsw" name="id">
+        <modelElement href="AppointmentMicroService2.uml#__5qmAXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AH52u3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AH52vHNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AH52vXNuEfCTGutOISnrsw" name="updatedAppointment">
+        <modelElement href="AppointmentMicroService2.uml#__5qmAnNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AH52vnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AH52v3NuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AH52wHNuEfCTGutOISnrsw" name="updateAppointmentStatus">
+      <modelElement href="AppointmentMicroService2.uml#__6bbAHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AH52wXNuEfCTGutOISnrsw" name="Generics">
+        <modelElement href="AppointmentMicroService2.uml#__6cCEHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AH52wnNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__6fFYnNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AH52w3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AH52xHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AH52xXNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6dQMHNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AH52xnNuEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="AppointmentMicroService2.uml#__5iqM3NtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AH52x3NuEfCTGutOISnrsw" name="id">
+        <modelElement href="AppointmentMicroService2.uml#__6bbAXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AH52yHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AH52yXNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AH52ynNuEfCTGutOISnrsw" name="statusUpdate">
+        <modelElement href="AppointmentMicroService2.uml#__6bbAnNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AH52y3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AH52zHNuEfCTGutOISnrsw" name="Map">
+          <modelElement href="AppointmentMicroService2.uml#__5hcE3NtEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AJGwMHNuEfCTGutOISnrsw" name="AppointmentServiceImpl" associationsOut="_AJDs4HNuEfCTGutOISnrsw" generalizations="_AJET8HNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__yBs8HNtEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_AJGwMXNuEfCTGutOISnrsw" position="-1038.0,339.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AJGwMnNuEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="AppointmentMicroService2.uml#__yCUAHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AJGwM3NuEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="AppointmentMicroService2.uml#__yMsEHNtEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_AJGwNHNuEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_AJGwNXNuEfCTGutOISnrsw" name="appointmentRepository">
+      <modelElement href="AppointmentMicroService2.uml#__7bgkHNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AJGwNnNuEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_AJGwN3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AJGwOHNuEfCTGutOISnrsw" name="AppointmentRepository">
+        <modelElement href="AppointmentMicroService2.uml#__x1fsHNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_AJGwOXNuEfCTGutOISnrsw" name="getAppointmentById">
+      <modelElement href="AppointmentMicroService2.uml#__yC7EHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AJGwOnNuEfCTGutOISnrsw" name="Generics">
+        <modelElement href="AppointmentMicroService2.uml#__yEJMHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AJGwO3NuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__yEJMXNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AJGwPHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AJGwPXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJGwPnNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__60ckHNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AJGwP3NuEfCTGutOISnrsw" name="Optional">
+          <modelElement href="AppointmentMicroService2.uml#__5iDIXNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJGwQHNuEfCTGutOISnrsw" name="id">
+        <modelElement href="AppointmentMicroService2.uml#__yC7EXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AJGwQXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AJGwQnNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AJGwQ3NuEfCTGutOISnrsw" name="getAppointmentsByPatientId">
+      <modelElement href="AppointmentMicroService2.uml#__yEwQHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AJGwRHNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__yFXUnNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AJGwRXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AJGwRnNuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AJGwR3NuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__yFXUHNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AJGwSHNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJGwSXNuEfCTGutOISnrsw" name="patientId">
+        <modelElement href="AppointmentMicroService2.uml#__yEwQXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AJGwSnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AJGwS3NuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AJGwTHNuEfCTGutOISnrsw" name="getAppointmentsByDoctorId">
+      <modelElement href="AppointmentMicroService2.uml#__yF-YXNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AJGwTXNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__yGlcHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AJGwTnNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AJGwT3NuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AJGwUHNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__yF-Y3NtEfCTGutOISnrsw"/>
+        <type xmi:id="_AJGwUXNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJGwUnNuEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="AppointmentMicroService2.uml#__yF-YnNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AJGwU3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AJGwVHNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AJGwVXNuEfCTGutOISnrsw" name="updateAppointmentStatus">
+      <modelElement href="AppointmentMicroService2.uml#__yHMgHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AJGwVnNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__yHzkHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AJGwV3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AJGwWHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJGwWXNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6RC8nNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AJGwWnNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJGwW3NuEfCTGutOISnrsw" name="appointmentId">
+        <modelElement href="AppointmentMicroService2.uml#__yHMgXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AJGwXHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AJGwXXNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AJGwXnNuEfCTGutOISnrsw" name="newStatus">
+        <modelElement href="AppointmentMicroService2.uml#__yHMgnNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AJGwX3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AJGwYHNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AJGwYXNuEfCTGutOISnrsw" name="deleteAppointmentById">
+      <modelElement href="AppointmentMicroService2.uml#__yJBsHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AJGwYnNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__yKP0HNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AJGwY3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AJGwZHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AJGwZXNuEfCTGutOISnrsw" name="id">
+        <modelElement href="AppointmentMicroService2.uml#__yJBsXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AJGwZnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AJGwZ3NuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AJGwaHNuEfCTGutOISnrsw" name="getAllAppointments">
+      <modelElement href="AppointmentMicroService2.uml#__yKP0nNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AJGwaXNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__yMFAHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AJGwanNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AJGwa3NuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AJGwbHNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__yKP03NtEfCTGutOISnrsw"/>
+        <type xmi:id="_AJGwbXNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AJGwbnNuEfCTGutOISnrsw" name="AppointmentServiceImpl">
+      <modelElement href="AppointmentMicroService2.uml#__6MxgXNtEfCTGutOISnrsw"/>
+      <keywords xmi:id="_AJGwb3NuEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_AJGwcHNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__6NYk3NtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AJGwcXNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AJGwcnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJGwc3NuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6NYknNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AJGwdHNuEfCTGutOISnrsw" name="AppointmentServiceImpl">
+          <modelElement href="AppointmentMicroService2.uml#__yBs8HNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJGwdXNuEfCTGutOISnrsw" name="appointmentRepository">
+        <modelElement href="AppointmentMicroService2.uml#__6MxgnNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AJGwdnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AJGwd3NuEfCTGutOISnrsw" name="AppointmentRepository">
+          <modelElement href="AppointmentMicroService2.uml#__x1fsHNtEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AJGweHNuEfCTGutOISnrsw" name="createAppointment">
+      <modelElement href="AppointmentMicroService2.uml#__6N_oHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AJGweXNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__6OmsHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AJGwenNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AJGwe3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJGwfHNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6N_onNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AJGwfXNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJGwfnNuEfCTGutOISnrsw" name="appointment">
+        <modelElement href="AppointmentMicroService2.uml#__6N_oXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AJGwf3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AJGwgHNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AJGwgXNuEfCTGutOISnrsw" name="updateAppointment">
+      <modelElement href="AppointmentMicroService2.uml#__6P00HNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AJGwgnNuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__6RC8HNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AJGwg3NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AJGwhHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJGwhXNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__6P00nNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AJGwhnNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJGwh3NuEfCTGutOISnrsw" name="appointment">
+        <modelElement href="AppointmentMicroService2.uml#__6P00XNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AJGwiHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AJGwiXNuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AJGwinNuEfCTGutOISnrsw" name="getAppointmentsByDoctorAndDate">
+      <modelElement href="AppointmentMicroService2.uml#__60ckXNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AJGwi3NuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__61DoHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AJGwjHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AJGwjXNuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AJGwjnNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__60clHNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AJGwj3NuEfCTGutOISnrsw" name="Appointment">
+          <modelElement href="AppointmentMicroService2.uml#__xIVEHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJGwkHNuEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="AppointmentMicroService2.uml#__60cknNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AJGwkXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AJGwknNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AJGwk3NuEfCTGutOISnrsw" name="date">
+        <modelElement href="AppointmentMicroService2.uml#__60ck3NtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AJGwlHNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AJGwlXNuEfCTGutOISnrsw" name="LocalDate">
+          <modelElement href="AppointmentMicroService2.uml#__5gN8XNtEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AJGwlnNuEfCTGutOISnrsw" name="cancelAppointmentsByDoctorAndDate">
+      <modelElement href="AppointmentMicroService2.uml#__61qsHNtEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_AJGwl3NuEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="AppointmentMicroService2.uml#__6240HNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AJGwmHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AJGwmXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AJGwmnNuEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="AppointmentMicroService2.uml#__61qsXNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AJGwm3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AJGwnHNuEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AJGwnXNuEfCTGutOISnrsw" name="leaveDate">
+        <modelElement href="AppointmentMicroService2.uml#__62RwHNtEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_AJGwnnNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_AJGwn3NuEfCTGutOISnrsw" name="LocalDate">
+          <modelElement href="AppointmentMicroService2.uml#__5gN8XNtEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AIqrUHNuEfCTGutOISnrsw" name="ScheduleUpdatePayload" associationsOut="_AIiIcHNuEfCTGutOISnrsw _AIoPEHNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__xtj4HNtEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_AIqrUXNuEfCTGutOISnrsw" position="-390.0,412.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AIqrUnNuEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_AIqrU3NuEfCTGutOISnrsw" name="doctorId">
+      <modelElement href="AppointmentMicroService2.uml#__7ZrYHNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIqrVHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIqrVXNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIqrVnNuEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIqrV3NuEfCTGutOISnrsw" name="leaveDates">
+      <modelElement href="AppointmentMicroService2.uml#__7ZrYXNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIqrWHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIqrWXNuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_AIqrWnNuEfCTGutOISnrsw" name="Instant">
+        <modelElement href="AppointmentMicroService2.uml#__5fm4XNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIqrW3NuEfCTGutOISnrsw" name="dailySlots">
+      <modelElement href="AppointmentMicroService2.uml#__7a5gHNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIqrXHNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIqrXXNuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_AIqrXnNuEfCTGutOISnrsw" name="DailySlotDTO">
+        <modelElement href="AppointmentMicroService2.uml#__xrHoHNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_AIqrX3NuEfCTGutOISnrsw" name="ScheduleUpdatePayload">
+      <modelElement href="AppointmentMicroService2.uml#__xuyAHNtEfCTGutOISnrsw"/>
+      <keywords xmi:id="_AIqrYHNuEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_AIqrYXNuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__xwAIHNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIqrYnNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIqrY3NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AIqrZHNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__xwAIXNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AIqrZXNuEfCTGutOISnrsw" name="ScheduleUpdatePayload">
+          <modelElement href="AppointmentMicroService2.uml#__xtj4HNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AIlL0nNuEfCTGutOISnrsw" name="DailySlotDTO" associationsIn="_AIiIcHNuEfCTGutOISnrsw" associationsOut="_AIlLwHNuEfCTGutOISnrsw _AIlLyXNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__xrHoHNtEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_AIlL03NuEfCTGutOISnrsw" position="3.0,473.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AIlL1HNuEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_AIlL1XNuEfCTGutOISnrsw" name="day">
+      <modelElement href="AppointmentMicroService2.uml#__7X2MHNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIlL1nNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIlL13NuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIlL2HNuEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIlL2XNuEfCTGutOISnrsw" name="slots">
+      <modelElement href="AppointmentMicroService2.uml#__7YdQHNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIlL2nNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIlL23NuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_AIlL3HNuEfCTGutOISnrsw" name="TimeRangeDTO">
+        <modelElement href="AppointmentMicroService2.uml#__xx1UHNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIlL3XNuEfCTGutOISnrsw" name="breakSlots">
+      <modelElement href="AppointmentMicroService2.uml#__7YdQnNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIlL3nNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIlL33NuEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_AIlL4HNuEfCTGutOISnrsw" name="TimeRangeDTO">
+        <modelElement href="AppointmentMicroService2.uml#__xx1UHNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_AIlL4XNuEfCTGutOISnrsw" name="DailySlotDTO">
+      <modelElement href="AppointmentMicroService2.uml#__xrusHNtEfCTGutOISnrsw"/>
+      <keywords xmi:id="_AIlL4nNuEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_AIlL43NuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__xs80HNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIlL5HNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIlL5XNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AIlL5nNuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__xs80XNtEfCTGutOISnrsw"/>
+        <type xmi:id="_AIlL53NuEfCTGutOISnrsw" name="DailySlotDTO">
+          <modelElement href="AppointmentMicroService2.uml#__xrHoHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AIwK7HNuEfCTGutOISnrsw" name="TimeRangeDTO" associationsIn="_AIlLwHNuEfCTGutOISnrsw _AIlLyXNuEfCTGutOISnrsw _AIu8wHNuEfCTGutOISnrsw _AIu8wXNuEfCTGutOISnrsw">
+    <modelElement href="AppointmentMicroService2.uml#__xx1UHNtEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_AIwx8HNuEfCTGutOISnrsw" position="-13.0,348.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AIwx8XNuEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_AIwx8nNuEfCTGutOISnrsw" name="startTime">
+      <modelElement href="AppointmentMicroService2.uml#__7a5gnNtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIwx83NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIwx9HNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIwx9XNuEfCTGutOISnrsw" name="Instant">
+        <modelElement href="AppointmentMicroService2.uml#__5fm4XNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIwx9nNuEfCTGutOISnrsw" name="endTime">
+      <modelElement href="AppointmentMicroService2.uml#__7a5g3NtEfCTGutOISnrsw"/>
+      <visibility xmi:id="_AIwx93NuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIwx-HNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_AIwx-XNuEfCTGutOISnrsw" name="Instant">
+        <modelElement href="AppointmentMicroService2.uml#__5fm4XNtEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_AIwx-nNuEfCTGutOISnrsw" name="TimeRangeDTO">
+      <modelElement href="AppointmentMicroService2.uml#__xycYHNtEfCTGutOISnrsw"/>
+      <keywords xmi:id="_AIwx-3NuEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_AIwx_HNuEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="AppointmentMicroService2.uml#__xzDcnNtEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_AIwx_XNuEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_AIwx_nNuEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AIwx_3NuEfCTGutOISnrsw">
+        <modelElement href="AppointmentMicroService2.uml#__xzDc3NtEfCTGutOISnrsw"/>
+        <type xmi:id="_AIwyAHNuEfCTGutOISnrsw" name="TimeRangeDTO">
+          <modelElement href="AppointmentMicroService2.uml#__xx1UHNtEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

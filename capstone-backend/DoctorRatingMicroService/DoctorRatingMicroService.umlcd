@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_3SB6cHNwEfCTGutOISnrsw">
+  <modelElement href="DoctorRatingMicroService.uml#_33Z4YHNwEfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5RkJQHNwEfCTGutOISnrsw" sourceAnchor="242.0,156.0" targetAnchor="191.0,116.0" target="_5RyywHNwEfCTGutOISnrsw" source="_5RkwUHNwEfCTGutOISnrsw">
+    <modelElement href="DoctorRatingMicroService.uml#_3_pOYHNwEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_ULtbgHNxEfCTGutOISnrsw" sourceY="16" targetX="709" targetY="47"/>
+    <bendpoints xmi:id="_ULtbgXNxEfCTGutOISnrsw" sourceX="-709" sourceY="16" targetY="47"/>
+    <stereotypes xmi:id="_5RkJQXNwEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorRatingMicroService.uml#_3_3Q0HNwEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5RkJQnNwEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_5oWRlHNwEfCTGutOISnrsw" position="12.0,2.0000000000000426"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5RkJQ3NwEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorRatingMicroService.uml#_3_pOYXNwEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_5oWRk3NwEfCTGutOISnrsw" position="-143.0,17.999999999999993"/>
+      <visibility xmi:id="_5RkJRHNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RkJRXNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5RkJRnNwEfCTGutOISnrsw" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="DoctorRatingMicroService.uml#_3-mskHNwEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_5oWRlXNwEfCTGutOISnrsw" position="60.0,49.000000000000064"/>
+      <visibility xmi:id="_5RkJR3NwEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_5RkJSHNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5RnzoHNwEfCTGutOISnrsw" sourceAnchor="295.0,0.0" targetAnchor="0.0,58.0" target="_5RyywHNwEfCTGutOISnrsw" source="_5RreCHNwEfCTGutOISnrsw">
+    <modelElement href="DoctorRatingMicroService.uml#_3_VsYHNwEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_ULtbgnNxEfCTGutOISnrsw" sourceY="-58" targetX="858" targetY="-366"/>
+    <bendpoints xmi:id="_ULtbg3NxEfCTGutOISnrsw" sourceX="-873" sourceY="-58" targetX="-15" targetY="-366"/>
+    <bendpoints xmi:id="_ULtbhHNxEfCTGutOISnrsw" sourceX="-873" sourceY="308" targetX="-15"/>
+    <nameVisual xmi:id="_5RqP4HNwEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_5oW4oHNwEfCTGutOISnrsw" position="1.0,41.00000000000006"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5Rq28HNwEfCTGutOISnrsw" aggregationKind="NONE" name="allRatings" navigable="true">
+      <modelElement href="DoctorRatingMicroService.uml#_35m30HNwEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_5oWRlnNwEfCTGutOISnrsw" position="-107.0,-57.0"/>
+      <visibility xmi:id="_5Rq283NwEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_5Rq28nNwEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5Rq28XNwEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorRatingMicroService.uml#_3_WTcHNwEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_5oW4oXNwEfCTGutOISnrsw" position="-20.0,6.999999999999716"/>
+      <visibility xmi:id="_5Rq29XNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5Rq29HNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5RreAHNwEfCTGutOISnrsw" target="_5RreCHNwEfCTGutOISnrsw">
+    <modelElement href="DoctorRatingMicroService.uml#_3_UeQHNwEfCTGutOISnrsw"/>
+    <nameVisual xmi:id="_5RreAXNwEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_5RreAnNwEfCTGutOISnrsw" aggregationKind="NONE" name="time" navigable="true">
+      <modelElement href="DoctorRatingMicroService.uml#_3-4ZYXNwEfCTGutOISnrsw"/>
+      <visibility xmi:id="_5RreA3NwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RreBHNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5RreBXNwEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorRatingMicroService.uml#_3_VFUHNwEfCTGutOISnrsw"/>
+      <visibility xmi:id="_5RreBnNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RreB3NwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5R1PAHNwEfCTGutOISnrsw" sourceAnchor="213.0,0.0" targetAnchor="173.0,96.0" target="_5Rw9kHNwEfCTGutOISnrsw" source="_5R3ENHNwEfCTGutOISnrsw">
+    <modelElement href="DoctorRatingMicroService.uml#_3_3Q0XNwEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_5R2dIHNwEfCTGutOISnrsw" name="Reference">
+      <modelElement href="DoctorRatingMicroService.uml#_4AEFIHNwEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5R12EXNwEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_5oW4o3NwEfCTGutOISnrsw" position="-77.0,-10.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5R12EnNwEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="DoctorRatingMicroService.uml#_3_3Q0nNwEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_5oW4onNwEfCTGutOISnrsw" position="41.0,-33.0"/>
+      <visibility xmi:id="_5R3EMXNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5R3EMHNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5R12E3NwEfCTGutOISnrsw" aggregationKind="NONE" name="repository" navigable="true">
+      <modelElement href="DoctorRatingMicroService.uml#_3-61oHNwEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_5oXfsHNwEfCTGutOISnrsw" position="-35.0,-17.0"/>
+      <visibility xmi:id="_5R3EM3NwEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_5R3EMnNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_5R12EHNwEfCTGutOISnrsw" sourceAnchor="183.0,156.0" targetAnchor="191.0,0.0" dashed="true" superClass="_5RyywHNwEfCTGutOISnrsw" subClass="_5R3ENHNwEfCTGutOISnrsw">
+    <modelElement href="DoctorRatingMicroService.uml#_3-QuUHNwEfCTGutOISnrsw"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5R5gcHNwEfCTGutOISnrsw" name="DoctorRatingMicroServiceApplicationTests">
+    <modelElement href="DoctorRatingMicroService.uml#_353WgHNwEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_5R5gcXNwEfCTGutOISnrsw" position="-633.0,-130.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_5R5gcnNwEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="DoctorRatingMicroService.uml#_3539k3NwEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_5R5gc3NwEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="DoctorRatingMicroService.uml#_355LsXNwEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_5R5gdHNwEfCTGutOISnrsw" label="~"/>
+    <operations xmi:id="_5R5gdXNwEfCTGutOISnrsw" name="contextLoads">
+      <modelElement href="DoctorRatingMicroService.uml#_3539lHNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5R5gdnNwEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorRatingMicroService.uml#_354koHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5R5gd3NwEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_5R5geHNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_5RyywHNwEfCTGutOISnrsw" name="DoctorRatingService" associationsIn="_5RnzoHNwEfCTGutOISnrsw _5RkJQHNwEfCTGutOISnrsw" subclassedBy="_5R12EHNwEfCTGutOISnrsw">
+    <modelElement href="DoctorRatingMicroService.uml#_35jNcHNwEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_5RyywXNwEfCTGutOISnrsw" position="-1016.0,-202.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5RyywnNwEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_5Ryyw3NwEfCTGutOISnrsw" name="allRatings">
+      <modelElement href="DoctorRatingMicroService.uml#_35m30HNwEfCTGutOISnrsw"/>
+      <visibility xmi:id="_5RyyxHNwEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_5RyyxXNwEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_5RyyxnNwEfCTGutOISnrsw" name="DoctorRating">
+        <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5Ryyx3NwEfCTGutOISnrsw" name="getRatingsByDoctorId">
+      <modelElement href="DoctorRatingMicroService.uml#_35kbkHNwEfCTGutOISnrsw"/>
+      <visibility xmi:id="_5RyyyHNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RyyyXNwEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5RyyynNwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_35lCoHNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5Ryyy3NwEfCTGutOISnrsw" name="DoctorRating">
+          <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5RyyzHNwEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorRatingMicroService.uml#_35kbkXNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5RyyzXNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5RyyznNwEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5Ryyz3NwEfCTGutOISnrsw" name="getRatingsByPatientId">
+      <modelElement href="DoctorRatingMicroService.uml#_35lpsHNwEfCTGutOISnrsw"/>
+      <visibility xmi:id="_5Ryy0HNwEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_5Ryy0XNwEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5Ryy0nNwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_35mQwXNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5Ryy03NwEfCTGutOISnrsw" name="DoctorRating">
+          <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5Ryy1HNwEfCTGutOISnrsw" name="patientId">
+        <modelElement href="DoctorRatingMicroService.uml#_35mQwHNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5Ryy1XNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5Ryy1nNwEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5Ryy13NwEfCTGutOISnrsw" name="saveRating">
+      <modelElement href="DoctorRatingMicroService.uml#_3-OSEHNwEfCTGutOISnrsw"/>
+      <visibility xmi:id="_5Ryy2HNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5Ryy2XNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5Ryy2nNwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_3-O5IHNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5Ryy23NwEfCTGutOISnrsw" name="DoctorRating">
+          <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5Ryy3HNwEfCTGutOISnrsw" name="rating">
+        <modelElement href="DoctorRatingMicroService.uml#_3-OSEXNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5Ryy3XNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5Ryy3nNwEfCTGutOISnrsw" name="DoctorRating">
+          <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5Rf30HNwEfCTGutOISnrsw" name="DoctorRatingMicroServiceApplication">
+    <modelElement href="DoctorRatingMicroService.uml#_34vVIHNwEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_5Rf30XNwEfCTGutOISnrsw" position="-621.0,-212.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_5Rf30nNwEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="DoctorRatingMicroService.uml#_34xKUHNwEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_5Rf303NwEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="DoctorRatingMicroService.uml#_342C0HNwEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_5Rf31HNwEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_5Rf31XNwEfCTGutOISnrsw" name="main" staticOperation="true">
+      <modelElement href="DoctorRatingMicroService.uml#_34y_gXNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5Rf31nNwEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorRatingMicroService.uml#_340NoHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5Rf313NwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5Rf32HNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5Rf32XNwEfCTGutOISnrsw" name="args">
+        <modelElement href="DoctorRatingMicroService.uml#_34zmkHNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5Rf32nNwEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_5Rf323NwEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5R3ENHNwEfCTGutOISnrsw" name="DoctorRatingServiceImpl" associationsOut="_5R1PAHNwEfCTGutOISnrsw" generalizations="_5R12EHNwEfCTGutOISnrsw">
+    <modelElement href="DoctorRatingMicroService.uml#_35pUEHNwEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_5R3ENXNwEfCTGutOISnrsw" position="-1008.0,-383.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_5R3ENnNwEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="DoctorRatingMicroService.uml#_35p7IHNwEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_5R3EN3NwEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="DoctorRatingMicroService.uml#_35zFEHNwEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_5R3EOHNwEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_5R3EOXNwEfCTGutOISnrsw" name="repository">
+      <modelElement href="DoctorRatingMicroService.uml#_3-61oHNwEfCTGutOISnrsw"/>
+      <visibility xmi:id="_5R3EOnNwEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_5R3EO3NwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_5R3EPHNwEfCTGutOISnrsw" name="DoctorRatingRepository">
+        <modelElement href="DoctorRatingMicroService.uml#_35dt4HNwEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5R3EPXNwEfCTGutOISnrsw" name="getRatingsByDoctorId">
+      <modelElement href="DoctorRatingMicroService.uml#_35rwUHNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5R3EPnNwEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorRatingMicroService.uml#_35uMkHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5R3EP3NwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5R3EQHNwEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5R3EQXNwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_35sXYXNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5R3EQnNwEfCTGutOISnrsw" name="DoctorRating">
+          <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5R3EQ3NwEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorRatingMicroService.uml#_35sXYHNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5R3ERHNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5R3ERXNwEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5R3ERnNwEfCTGutOISnrsw" name="getRatingsByPatientId">
+      <modelElement href="DoctorRatingMicroService.uml#_35uzoHNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5R3ER3NwEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorRatingMicroService.uml#_35wo0HNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5R3ESHNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5R3ESXNwEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5R3ESnNwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_35vasHNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5R3ES3NwEfCTGutOISnrsw" name="DoctorRating">
+          <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5R3ETHNwEfCTGutOISnrsw" name="patientId">
+        <modelElement href="DoctorRatingMicroService.uml#_35uzoXNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5R3ETXNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5R3ETnNwEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5R3ET3NwEfCTGutOISnrsw" name="getAllRatings">
+      <modelElement href="DoctorRatingMicroService.uml#_35xP4HNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5R3EUHNwEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorRatingMicroService.uml#_35yeAHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5R3EUXNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5R3EUnNwEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5R3EU3NwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_35x28HNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5R3EVHNwEfCTGutOISnrsw" name="DoctorRating">
+          <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5R3EVXNwEfCTGutOISnrsw" name="DoctorRatingServiceImpl">
+      <modelElement href="DoctorRatingMicroService.uml#_3-RVYHNwEfCTGutOISnrsw"/>
+      <keywords xmi:id="_5R3EVnNwEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_5R3EV3NwEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorRatingMicroService.uml#_3-R8c3NwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5R3EWHNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5R3EWXNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5R3EWnNwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_3-R8cnNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5R3EW3NwEfCTGutOISnrsw" name="DoctorRatingServiceImpl">
+          <modelElement href="DoctorRatingMicroService.uml#_35pUEHNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5R3EXHNwEfCTGutOISnrsw" name="repository">
+        <modelElement href="DoctorRatingMicroService.uml#_3-RVYXNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5R3EXXNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5R3EXnNwEfCTGutOISnrsw" name="DoctorRatingRepository">
+          <modelElement href="DoctorRatingMicroService.uml#_35dt4HNwEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5R3EX3NwEfCTGutOISnrsw" name="saveRating">
+      <modelElement href="DoctorRatingMicroService.uml#_3-SjgHNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5R3EYHNwEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorRatingMicroService.uml#_3-TxoHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5R3EYXNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5R3EYnNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5R3EY3NwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_3-TKkHNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5R3EZHNwEfCTGutOISnrsw" name="DoctorRating">
+          <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5R3EZXNwEfCTGutOISnrsw" name="rating">
+        <modelElement href="DoctorRatingMicroService.uml#_3-SjgXNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5R3EZnNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5R3EZ3NwEfCTGutOISnrsw" name="DoctorRating">
+          <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_5Rw9kHNwEfCTGutOISnrsw" name="DoctorRatingRepository" associationsIn="_5R1PAHNwEfCTGutOISnrsw">
+    <modelElement href="DoctorRatingMicroService.uml#_35dt4HNwEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_5Rw9kXNwEfCTGutOISnrsw" position="-968.0,-495.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5Rw9knNwEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_5Rw9k3NwEfCTGutOISnrsw" name="findByDoctorId">
+      <modelElement href="DoctorRatingMicroService.uml#_35e8AHNwEfCTGutOISnrsw"/>
+      <visibility xmi:id="_5Rw9lHNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5Rw9lXNwEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5Rw9lnNwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_35gKIHNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5Rw9l3NwEfCTGutOISnrsw" name="DoctorRating">
+          <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5Rw9mHNwEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorRatingMicroService.uml#_35fjEHNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5Rw9mXNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5Rw9mnNwEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5Rw9m3NwEfCTGutOISnrsw" name="findByPatientId">
+      <modelElement href="DoctorRatingMicroService.uml#_35gxMHNwEfCTGutOISnrsw"/>
+      <visibility xmi:id="_5Rw9nHNwEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_5Rw9nXNwEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5Rw9nnNwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_35hYQXNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5Rw9n3NwEfCTGutOISnrsw" name="DoctorRating">
+          <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5Rw9oHNwEfCTGutOISnrsw" name="patientId">
+        <modelElement href="DoctorRatingMicroService.uml#_35hYQHNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5Rw9oXNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5Rw9onNwEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5RkwUHNwEfCTGutOISnrsw" name="DoctorRatingController" associationsOut="_5RkJQHNwEfCTGutOISnrsw">
+    <modelElement href="DoctorRatingMicroService.uml#_342p4HNwEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_5RkwUXNwEfCTGutOISnrsw" position="-358.0,-211.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_5RkwUnNwEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="DoctorRatingMicroService.uml#_3434AHNwEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_5RkwU3NwEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="DoctorRatingMicroService.uml#_35HIkHNwEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_5RkwVHNwEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_5RkwVXNwEfCTGutOISnrsw" name="service">
+      <modelElement href="DoctorRatingMicroService.uml#_3-mskHNwEfCTGutOISnrsw"/>
+      <visibility xmi:id="_5RkwVnNwEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_5RkwV3NwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_5RkwWHNwEfCTGutOISnrsw" name="DoctorRatingService">
+        <modelElement href="DoctorRatingMicroService.uml#_35jNcHNwEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5RkwWXNwEfCTGutOISnrsw" name="getByDoctor">
+      <modelElement href="DoctorRatingMicroService.uml#_3467UHNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5RkwWnNwEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorRatingMicroService.uml#_349XkHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5RkwW3NwEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorRatingMicroService.uml#_34_MwHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5RkwXHNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RkwXXNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5RkwXnNwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_3-cUgHNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5RkwX3NwEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="DoctorRatingMicroService.uml#_39vw8HNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5RkwYHNwEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorRatingMicroService.uml#_347iYHNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5RkwYXNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5RkwYnNwEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5RkwY3NwEfCTGutOISnrsw" name="getAll">
+      <modelElement href="DoctorRatingMicroService.uml#_34_z0HNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5RkwZHNwEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorRatingMicroService.uml#_35BB8HNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5RkwZXNwEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorRatingMicroService.uml#_35BpAHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5RkwZnNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RkwZ3NwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5RkwaHNwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_3-c7kHNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5RkwaXNwEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="DoctorRatingMicroService.uml#_39vw8HNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5RkwanNwEfCTGutOISnrsw" name="getByPatient">
+      <modelElement href="DoctorRatingMicroService.uml#_35CQEHNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5Rkwa3NwEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorRatingMicroService.uml#_35DeMHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5RkwbHNwEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorRatingMicroService.uml#_35FTYXNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5RkwbXNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RkwbnNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5Rkwb3NwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_3-dioHNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5RkwcHNwEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="DoctorRatingMicroService.uml#_39vw8HNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5RkwcXNwEfCTGutOISnrsw" name="patientId">
+        <modelElement href="DoctorRatingMicroService.uml#_35C3IHNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5RkwcnNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5Rkwc3NwEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5RkwdHNwEfCTGutOISnrsw" name="DoctorRatingController">
+      <modelElement href="DoctorRatingMicroService.uml#_394T0HNwEfCTGutOISnrsw"/>
+      <keywords xmi:id="_5RkwdXNwEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_5RkwdnNwEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorRatingMicroService.uml#_395h8XNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5Rkwd3NwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RkweHNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5RkweXNwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_395h8HNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5RkwenNwEfCTGutOISnrsw" name="DoctorRatingController">
+          <modelElement href="DoctorRatingMicroService.uml#_342p4HNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5Rkwe3NwEfCTGutOISnrsw" name="service">
+        <modelElement href="DoctorRatingMicroService.uml#_39464HNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5RkwfHNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5RkwfXNwEfCTGutOISnrsw" name="DoctorRatingService">
+          <modelElement href="DoctorRatingMicroService.uml#_35jNcHNwEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5RkwfnNwEfCTGutOISnrsw" name="createRating">
+      <modelElement href="DoctorRatingMicroService.uml#_396wEHNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5Rkwf3NwEfCTGutOISnrsw" name="Generics">
+        <modelElement href="DoctorRatingMicroService.uml#_397XIHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5RkwgHNwEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorRatingMicroService.uml#_399MUHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5RkwgXNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RkwgnNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5Rkwg3NwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_3-btcHNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5RkwhHNwEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="DoctorRatingMicroService.uml#_39vw8HNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5RkwhXNwEfCTGutOISnrsw" name="rating">
+        <modelElement href="DoctorRatingMicroService.uml#_396wEXNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5RkwhnNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5Rkwh3NwEfCTGutOISnrsw" name="DoctorRating">
+          <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5RreCHNwEfCTGutOISnrsw" name="DoctorRating" associationsIn="_5RreAHNwEfCTGutOISnrsw" associationsOut="_5RnzoHNwEfCTGutOISnrsw">
+    <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_5RreCXNwEfCTGutOISnrsw" position="-453.0,-452.0" size="590.0,223.0"/>
+    <stereotypes xmi:id="_5RreCnNwEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="DoctorRatingMicroService.uml#_35MoIHNwEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_5RreC3NwEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="DoctorRatingMicroService.uml#_35T84HNwEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_5RreDHNwEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_5RreDXNwEfCTGutOISnrsw" name="id">
+      <modelElement href="DoctorRatingMicroService.uml#_3-n6sHNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5RreDnNwEfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="DoctorRatingMicroService.uml#_3-qW8HNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5RreD3NwEfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="DoctorRatingMicroService.uml#_3-szMHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5RreEHNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RreEXNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_5RreEnNwEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5RreE3NwEfCTGutOISnrsw" name="patientId">
+      <modelElement href="DoctorRatingMicroService.uml#_3-taQHNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5RreFHNwEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="DoctorRatingMicroService.uml#_3-uoYHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5RreFXNwEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorRatingMicroService.uml#_3-wdkHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5RreFnNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RreF3NwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_5RreGHNwEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5RreGXNwEfCTGutOISnrsw" name="doctorId">
+      <modelElement href="DoctorRatingMicroService.uml#_3-xEoHNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5RreGnNwEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="DoctorRatingMicroService.uml#_3-xrsHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5RreG3NwEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorRatingMicroService.uml#_3-y50HNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5RreHHNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RreHXNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_5RreHnNwEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5RreH3NwEfCTGutOISnrsw" name="doctorRating">
+      <modelElement href="DoctorRatingMicroService.uml#_3-zg4HNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5RreIHNwEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="DoctorRatingMicroService.uml#_3-0H8HNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5RreIXNwEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="DoctorRatingMicroService.uml#_3-2kMHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5RreInNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RreI3NwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_5RreJHNwEfCTGutOISnrsw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5RreJXNwEfCTGutOISnrsw" name="description">
+      <modelElement href="DoctorRatingMicroService.uml#_3-3LQHNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5RreJnNwEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorRatingMicroService.uml#_3-4ZYHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5RreJ3NwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RssIHNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_5RssIXNwEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5RssInNwEfCTGutOISnrsw" name="time">
+      <modelElement href="DoctorRatingMicroService.uml#_3-4ZYXNwEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_5RssI3NwEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorRatingMicroService.uml#_3-5AcHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5RssJHNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RssJXNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_5RssJnNwEfCTGutOISnrsw" name="Instant">
+        <modelElement href="DoctorRatingMicroService.uml#_39_okHNwEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5RssJ3NwEfCTGutOISnrsw" name="DoctorRating">
+      <modelElement href="DoctorRatingMicroService.uml#_35Q5kHNwEfCTGutOISnrsw"/>
+      <keywords xmi:id="_5RssKHNwEfCTGutOISnrsw" keyword="create"/>
+      <visibility xmi:id="_5RssKXNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RssKnNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5RssK3NwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_35RgonNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5RssLHNwEfCTGutOISnrsw" name="DoctorRating">
+          <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5RssLXNwEfCTGutOISnrsw" name="DoctorRating">
+      <modelElement href="DoctorRatingMicroService.uml#_3-f-4HNwEfCTGutOISnrsw"/>
+      <keywords xmi:id="_5RssLnNwEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_5RssL3NwEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="DoctorRatingMicroService.uml#_3-h0EHNwEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_5RssMHNwEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_5RssMXNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5RssMnNwEfCTGutOISnrsw">
+        <modelElement href="DoctorRatingMicroService.uml#_3-hNBXNwEfCTGutOISnrsw"/>
+        <type xmi:id="_5RssM3NwEfCTGutOISnrsw" name="DoctorRating">
+          <modelElement href="DoctorRatingMicroService.uml#_35MBEHNwEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5RssNHNwEfCTGutOISnrsw" name="patientId">
+        <modelElement href="DoctorRatingMicroService.uml#_3-gl8HNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5RssNXNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5RssNnNwEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5RssN3NwEfCTGutOISnrsw" name="doctorId">
+        <modelElement href="DoctorRatingMicroService.uml#_3-gl8XNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5RssOHNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5RssOXNwEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5RssOnNwEfCTGutOISnrsw" name="doctorRating">
+        <modelElement href="DoctorRatingMicroService.uml#_3-hNAHNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5RssO3NwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5RssPHNwEfCTGutOISnrsw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5RssPXNwEfCTGutOISnrsw" name="description">
+        <modelElement href="DoctorRatingMicroService.uml#_3-hNAXNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5RssPnNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5RssP3NwEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5RssQHNwEfCTGutOISnrsw" name="time">
+        <modelElement href="DoctorRatingMicroService.uml#_3-hNAnNwEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_5RssQXNwEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_5RssQnNwEfCTGutOISnrsw" name="Instant">
+          <modelElement href="DoctorRatingMicroService.uml#_39_okHNwEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,665 @@
+[{
+  "_id": {
+    "$oid": "6890f0513ae9f11e4c956b03"
+  },
+  "appointmentId": "689ed501583b3b5a815559b9",
+  "patientId": "P001",
+  "date": {
+    "$date": "2025-08-01T09:00:00.000Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 118,
+      "diastolic": 76,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 90,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 70,
+    "respiratoryRate": 16,
+    "temperature": {
+      "value": 98.4,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 97,
+      "unit": "%"
+    },
+    "weightKg": 68,
+    "heightCm": 170
+  },
+  "notes": "Stable vitals",
+  "nurseId": "N100"
+},
+{
+  "_id": {
+    "$oid": "6890f0513ae9f11e4c956b04"
+  },
+  "appointmentId": "A1002",
+  "patientId": "P002",
+  "date": {
+    "$date": "2025-08-01T10:30:00.000Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 125,
+      "diastolic": 82,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 110,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 75,
+    "respiratoryRate": 18,
+    "temperature": {
+      "value": 98.8,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 96,
+      "unit": "%"
+    },
+    "weightKg": 75,
+    "heightCm": 168
+  },
+  "notes": "Slightly elevated blood sugar",
+  "nurseId": "N101"
+},
+{
+  "_id": {
+    "$oid": "6890f0513ae9f11e4c956b05"
+  },
+  "appointmentId": "A1003",
+  "patientId": "P003",
+  "date": {
+    "$date": "2025-08-01T11:00:00.000Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 140,
+      "diastolic": 90,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 130,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 80,
+    "respiratoryRate": 20,
+    "temperature": {
+      "value": 99.1,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 95,
+      "unit": "%"
+    },
+    "weightKg": 82,
+    "heightCm": 172
+  },
+  "notes": "High blood pressure, monitor patient",
+  "nurseId": "N102"
+},
+{
+  "_id": {
+    "$oid": "6890f0513ae9f11e4c956b06"
+  },
+  "appointmentId": "A1004",
+  "patientId": "P004",
+  "date": {
+    "$date": "2025-08-02T08:30:00.000Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 115,
+      "diastolic": 75,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 85,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 68,
+    "respiratoryRate": 16,
+    "temperature": {
+      "value": 98.3,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 98,
+      "unit": "%"
+    },
+    "weightKg": 65,
+    "heightCm": 165
+  },
+  "notes": "Normal check-up",
+  "nurseId": "N100"
+},
+{
+  "_id": {
+    "$oid": "6890f0513ae9f11e4c956b07"
+  },
+  "appointmentId": "A1005",
+  "patientId": "P005",
+  "date": {
+    "$date": "2025-08-02T09:15:00.000Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 120,
+      "diastolic": 80,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 95,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 72,
+    "respiratoryRate": 17,
+    "temperature": {
+      "value": 98.6,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 97,
+      "unit": "%"
+    },
+    "weightKg": 70,
+    "heightCm": 175
+  },
+  "notes": "Patient feeling well",
+  "nurseId": "N103"
+},
+{
+  "_id": {
+    "$oid": "6890f0513ae9f11e4c956b08"
+  },
+  "appointmentId": "A1006",
+  "patientId": "P006",
+  "date": {
+    "$date": "2025-08-02T10:00:00.000Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 130,
+      "diastolic": 85,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 120,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 78,
+    "respiratoryRate": 19,
+    "temperature": {
+      "value": 99,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 95,
+      "unit": "%"
+    },
+    "weightKg": 78,
+    "heightCm": 180
+  },
+  "notes": "Elevated BP and sugar, advised follow-up",
+  "nurseId": "N101"
+},
+{
+  "_id": {
+    "$oid": "6890f0513ae9f11e4c956b09"
+  },
+  "appointmentId": "A1007",
+  "patientId": "P007",
+  "date": {
+    "$date": "2025-08-03T08:45:00.000Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 110,
+      "diastolic": 70,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 88,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 65,
+    "respiratoryRate": 15,
+    "temperature": {
+      "value": 98.2,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 99,
+      "unit": "%"
+    },
+    "weightKg": 62,
+    "heightCm": 160
+  },
+  "notes": "Excellent health",
+  "nurseId": "N102"
+},
+{
+  "_id": {
+    "$oid": "6890f0513ae9f11e4c956b0a"
+  },
+  "appointmentId": "A1008",
+  "patientId": "P008",
+  "date": {
+    "$date": "2025-08-03T09:30:00.000Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 135,
+      "diastolic": 88,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 115,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 74,
+    "respiratoryRate": 18,
+    "temperature": {
+      "value": 98.7,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 96,
+      "unit": "%"
+    },
+    "weightKg": 73,
+    "heightCm": 172
+  },
+  "notes": "Slightly high BP, monitor diet",
+  "nurseId": "N103"
+},
+{
+  "_id": {
+    "$oid": "6890f0513ae9f11e4c956b0b"
+  },
+  "appointmentId": "A1009",
+  "patientId": "P009",
+  "date": {
+    "$date": "2025-08-03T10:15:00.000Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 125,
+      "diastolic": 80,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 100,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 70,
+    "respiratoryRate": 16,
+    "temperature": {
+      "value": 98.5,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 97,
+      "unit": "%"
+    },
+    "weightKg": 68,
+    "heightCm": 168
+  },
+  "notes": "Normal vitals",
+  "nurseId": "N100"
+},
+{
+  "_id": {
+    "$oid": "6890f0513ae9f11e4c956b0c"
+  },
+  "appointmentId": "A1010",
+  "patientId": "P010",
+  "date": {
+    "$date": "2025-08-04T08:00:00.000Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 145,
+      "diastolic": 92,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 140,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 82,
+    "respiratoryRate": 20,
+    "temperature": {
+      "value": 99.3,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 94,
+      "unit": "%"
+    },
+    "weightKg": 85,
+    "heightCm": 178
+  },
+  "notes": "High blood pressure and sugar, refer to doctor",
+  "nurseId": "N101"
+},
+{
+  "_id": {
+    "$oid": "6890fd61a6b657df6fa0b090"
+  },
+  "appointmentId": "6883933864d9b4574f963fee",
+  "patientId": "68827cfc64d9b4574f963f52",
+  "date": {
+    "$date": "2025-08-04T18:34:25.291Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 90,
+      "diastolic": 90,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 800,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 90,
+    "respiratoryRate": 89,
+    "temperature": {
+      "value": 9,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 98,
+      "unit": "%"
+    },
+    "weightKg": 90,
+    "heightCm": 890
+  },
+  "notes": "yjyuvjyuvf",
+  "_class": "training.iqgateway.entities.NurseCheckup"
+},
+{
+  "_id": {
+    "$oid": "6891e262a6b657df6fa0b091"
+  },
+  "appointmentId": "6891d9df19d35f4ac02fc606",
+  "patientId": "6891d96dbeeb29d2e096f10a",
+  "date": {
+    "$date": "2025-08-05T10:51:31.631Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 120,
+      "diastolic": 80,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 200,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 98,
+    "respiratoryRate": 19,
+    "temperature": {
+      "value": 98.5,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 97,
+      "unit": "%"
+    },
+    "weightKg": 60,
+    "heightCm": 160
+  },
+  "notes": "Nothing ",
+  "_class": "training.iqgateway.entities.NurseCheckup"
+},
+{
+  "_id": {
+    "$oid": "68930995a6b657df6fa0b092"
+  },
+  "appointmentId": "6893092719d35f4ac02fc60d",
+  "patientId": "6891d96dbeeb29d2e096f10a",
+  "date": {
+    "$date": "2025-08-06T07:51:42.202Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 0,
+      "diastolic": 0,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 0,
+      "unit": "mg/dL"
+    },
+    "pulseRate": -1,
+    "respiratoryRate": 0,
+    "temperature": {
+      "value": 0,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 0,
+      "unit": "%"
+    },
+    "weightKg": 0,
+    "heightCm": 0
+  },
+  "notes": "",
+  "_class": "training.iqgateway.entities.NurseCheckup"
+},
+{
+  "_id": {
+    "$oid": "689329f7a6b657df6fa0b093"
+  },
+  "appointmentId": "689328d819d35f4ac02fc60e",
+  "patientId": "6891d96dbeeb29d2e096f10a",
+  "date": {
+    "$date": "2025-08-06T10:09:36.771Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 0,
+      "diastolic": 0,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 0,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 0,
+    "respiratoryRate": 0,
+    "temperature": {
+      "value": 0,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 0,
+      "unit": "%"
+    },
+    "weightKg": 0,
+    "heightCm": 0
+  },
+  "notes": "",
+  "_class": "training.iqgateway.entities.NurseCheckup"
+},
+{
+  "_id": {
+    "$oid": "689446c3a6b657df6fa0b095"
+  },
+  "appointmentId": "6894464019d35f4ac02fc612",
+  "patientId": "6891d96dbeeb29d2e096f10a",
+  "date": {
+    "$date": "2025-08-07T06:24:56.919Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 0,
+      "diastolic": 0,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 0,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 0,
+    "respiratoryRate": 0,
+    "temperature": {
+      "value": 0,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 0,
+      "unit": "%"
+    },
+    "weightKg": 0,
+    "heightCm": 0
+  },
+  "notes": "",
+  "_class": "training.iqgateway.entities.NurseCheckup"
+},
+{
+  "_id": {
+    "$oid": "689d6872dcc118040d2f84fb"
+  },
+  "appointmentId": "689c8602583b3b5a815559b7",
+  "patientId": "6891d96dbeeb29d2e096f10a",
+  "date": {
+    "$date": "2025-08-14T04:37:53.552Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 68,
+      "diastolic": 99,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 7989,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 44,
+    "respiratoryRate": 68,
+    "temperature": {
+      "value": 688,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 687,
+      "unit": "%"
+    },
+    "weightKg": 456,
+    "heightCm": 5678
+  },
+  "notes": "ftctct",
+  "_class": "training.iqgateway.entities.NurseCheckup"
+},
+{
+  "_id": {
+    "$oid": "689d769fdcc118040d2f84fc"
+  },
+  "appointmentId": "689d75dd583b3b5a815559b8",
+  "patientId": "6891d96dbeeb29d2e096f10a",
+  "date": {
+    "$date": "2025-08-14T05:39:35.844Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 0,
+      "diastolic": 0,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 0,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 0,
+    "respiratoryRate": 0,
+    "temperature": {
+      "value": 0,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 0,
+      "unit": "%"
+    },
+    "weightKg": 0,
+    "heightCm": 0
+  },
+  "notes": "",
+  "_class": "training.iqgateway.entities.NurseCheckup"
+},
+{
+  "_id": {
+    "$oid": "68a080a40c467cdf0c268079"
+  },
+  "appointmentId": "68a07f8d15d85801acbfaf8e",
+  "patientId": "68a07e4e6b3c1f6e542a2525",
+  "date": {
+    "$date": "2025-08-16T12:58:19.622Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 80,
+      "diastolic": 80,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 160,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 96,
+    "respiratoryRate": 73,
+    "temperature": {
+      "value": 98.4,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 96,
+      "unit": "%"
+    },
+    "weightKg": 60,
+    "heightCm": 5.6
+  },
+  "notes": "All ok",
+  "_class": "training.iqgateway.entities.NurseCheckup"
+},
+{
+  "_id": {
+    "$oid": "68a17ad60c467cdf0c26807a"
+  },
+  "appointmentId": "68a1796415d85801acbfaf91",
+  "patientId": "68a178fb6b3c1f6e542a2527",
+  "date": {
+    "$date": "2025-08-17T06:46:04.274Z"
+  },
+  "vitals": {
+    "bloodPressure": {
+      "systolic": 120,
+      "diastolic": 80,
+      "unit": "mmHg"
+    },
+    "bloodSugar": {
+      "value": 150,
+      "unit": "mg/dL"
+    },
+    "pulseRate": 93,
+    "respiratoryRate": 28,
+    "temperature": {
+      "value": 98.4,
+      "unit": "F"
+    },
+    "oxygenSaturation": {
+      "value": 92,
+      "unit": "%"
+    },
+    "weightKg": 70,
+    "heightCm": 165
+  },
+  "notes": "",
+  "_class": "training.iqgateway.entities.NurseCheckup"
+}]

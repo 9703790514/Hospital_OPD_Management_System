@@ -1,0 +1,2512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_zlmaEHNyEfCTGutOISnrsw">
+  <modelElement href="MedicalRecordMicroService-1.uml#_0Bj9UHNyEfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1F36AHNyEfCTGutOISnrsw" sourceAnchor="457.0,17.0" targetAnchor="0.0,78.0" target="_1H2P8HNyEfCTGutOISnrsw" source="_1F36CXNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0NlnIHNyEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_1F36AXNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NrtwHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1F36AnNyEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_23sc8HNyEfCTGutOISnrsw" position="-13.0,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1F36A3NyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NlnIXNyEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_23r143NyEfCTGutOISnrsw" position="21.0,2.0"/>
+      <visibility xmi:id="_1F36BHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1F36BXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1F36BnNyEfCTGutOISnrsw" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MZ7YHNyEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_23tEAHNyEfCTGutOISnrsw" position="-51.0,-85.0"/>
+      <visibility xmi:id="_1F36B3NyEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_1F36CHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1GAc4HNyEfCTGutOISnrsw" sourceAnchor="1315.0,95.0" targetAnchor="181.0,0.0" target="_1H7vgHNyEfCTGutOISnrsw" source="_1GBrAHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0OzIEXNyEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_SLSUhHN0EfCTGutOISnrsw" sourceX="1722" targetX="4001" targetY="202"/>
+    <bendpoints xmi:id="_SLSUhXN0EfCTGutOISnrsw" sourceX="1722" sourceY="-336" targetX="4001" targetY="-134"/>
+    <bendpoints xmi:id="_SLSUhnN0EfCTGutOISnrsw" sourceX="-2279" sourceY="-336" targetY="-134"/>
+    <stereotypes xmi:id="_1GAc4XNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0O3ZgHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1GAc4nNyEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_23trEXNyEfCTGutOISnrsw" position="-2022.0,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1GBD8HNyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0OzIEnNyEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_23trEHNyEfCTGutOISnrsw" position="1.0,-90.0"/>
+      <visibility xmi:id="_1GBD8XNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GBD8nNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1GBD83NyEfCTGutOISnrsw" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NBmcHNyEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_23uSIHNyEfCTGutOISnrsw" position="41.0,-132.99999999999966"/>
+      <visibility xmi:id="_1GBD9HNyEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_1GBD9XNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1GBD9nNyEfCTGutOISnrsw" source="_1GBrAHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0O4AkHNyEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_1GBD93NyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0O85EHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1GBD-HNyEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_1GBD-XNyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0O4AkXNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1GBD-nNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GBD-3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1GBD_HNyEfCTGutOISnrsw" aggregationKind="NONE" name="fileStorageLocation" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NBmcXNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1GBD_XNyEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_1GBD_nNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1GN4QHNyEfCTGutOISnrsw" sourceAnchor="249.0,196.0" targetAnchor="390.0,76.0" target="_1H9ksHNyEfCTGutOISnrsw" source="_1GOfVnNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0OjQcHNyEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_SLRtcHN0EfCTGutOISnrsw" sourceX="1" sourceY="164" targetX="-2557" targetY="562"/>
+    <bendpoints xmi:id="_SLRtcXN0EfCTGutOISnrsw" sourceX="3762" sourceY="164" targetX="1204" targetY="562"/>
+    <bendpoints xmi:id="_SLRtcnN0EfCTGutOISnrsw" sourceX="3762" sourceY="-397" targetX="1204" targetY="1"/>
+    <stereotypes xmi:id="_1GN4QXNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0OmTwHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1GN4QnNyEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_23u5MXNyEfCTGutOISnrsw" position="-38.0,-291.9999999999998"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1GOfUHNyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0OjQcXNyEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_23u5MHNyEfCTGutOISnrsw" position="1.0,78.99999999999999"/>
+      <visibility xmi:id="_1GOfUXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GOfUnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1GOfU3NyEfCTGutOISnrsw" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NAYUHNyEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_23vgQHNyEfCTGutOISnrsw" position="1.0,41.00000000000023"/>
+      <visibility xmi:id="_1GOfVHNyEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_1GOfVXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1GjPcHNyEfCTGutOISnrsw" source="_1Gm50HNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0NsU0HNyEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_1GjPcXNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NxNUHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1GjPcnNyEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_1GjPc3NyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NsU0XNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1GjPdHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GjPdXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1GjPdnNyEfCTGutOISnrsw" aggregationKind="NONE" name="recordDate" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MgpEHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1GjPd3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GjPeHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1GkdkHNyEfCTGutOISnrsw" source="_1Gm50HNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0Nx0YHNyEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_1GkdkXNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0N2F0HNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1GkdknNyEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_1Gkdk3NyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Nx0YXNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1GkdlHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GkdlXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1GkdlnNyEfCTGutOISnrsw" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MjsZnNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1Gkdl3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GkdmHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1GmSwHNyEfCTGutOISnrsw" source="_1Gm50HNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0N2F0XNyEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_1GmSwXNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0N6XQHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1GmSwnNyEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_1GmSw3NyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0N2F0nNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1GmSxHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GmSxXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1GmSxnNyEfCTGutOISnrsw" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Mk6gXNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1GmSx3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GmSyHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1G7p8HNyEfCTGutOISnrsw" source="_1HJsYHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0N6XQXNyEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_1HAic3NyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0N_20HNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1HAicHNyEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_1HAicXNyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0N6XQnNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HC-sXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HC-sHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1HAicnNyEfCTGutOISnrsw" aggregationKind="NONE" name="startDate" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MpL-XNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HDlwHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HC-snNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1G7p8XNyEfCTGutOISnrsw" source="_1HJsYHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0N_20XNyEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_1HBwkHNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0OF9cHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1HAidHNyEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_1HAidXNyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0N_20nNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HEM0HNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HDlw3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1HBJgHNyEfCTGutOISnrsw" aggregationKind="NONE" name="endDate" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MpzCHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HEM0nNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HEM0XNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1G8RAHNyEfCTGutOISnrsw" source="_1HJsYHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0OF9cXNyEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_1HBwlHNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0ONSMHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1HBwkXNyEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_1HBwknNyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0OF9cnNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HEz4nNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HEz4XNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1HBwk3NyEfCTGutOISnrsw" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MsPQHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HFa8HNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HEz43NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1G84EHNyEfCTGutOISnrsw" source="_1HJsYHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0ONSMXNyEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_1HBwmHNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0OSxwHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1HBwlXNyEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_1HBwlnNyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0ONSMnNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HGCAHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HFa83NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1HBwl3NyEfCTGutOISnrsw" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MuEcHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HGCAnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HGCAXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1HY88HNyEfCTGutOISnrsw" source="_1Hhf0HNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0OTY0HNyEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_1HcnUnNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0OXqQHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1HcAQHNyEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_1HcnUHNyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0OTY0XNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HfDkXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HfDkHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1HcnUXNyEfCTGutOISnrsw" aggregationKind="NONE" name="orderDate" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M5Dk3NyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HfDk3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HfDknNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1HY88XNyEfCTGutOISnrsw" source="_1Hhf0HNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0OYRUHNyEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_1HcnVnNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0ObUoHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1HcnU3NyEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_1HcnVHNyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0OYRUXNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HfqonNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HfqoXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1HcnVXNyEfCTGutOISnrsw" aggregationKind="NONE" name="uploadedAt" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M8t9HNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HfqpHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Hfqo3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1HZkAHNyEfCTGutOISnrsw" source="_1Hhf0HNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0ObUoXNyEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_1HdOYnNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Oe_AHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1HcnV3NyEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_1HdOYHNyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0ObUonNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HfqqHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Hfqp3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1HdOYXNyEfCTGutOISnrsw" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M98FHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HfqqnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HfqqXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1HZkAXNyEfCTGutOISnrsw" source="_1Hhf0HNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0Oe_AXNyEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_1HdOZnNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0OipYHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1HdOY3NyEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_1HdOZHNyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Oe_AnNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HgRs3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HgRsnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1HdOZXNyEfCTGutOISnrsw" aggregationKind="NONE" name="updatedAt" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M-jI3NyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1HgRtXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HgRtHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1H-y0HNyEfCTGutOISnrsw" sourceAnchor="278.0,0.0" targetAnchor="353.0,46.0" target="_1Hr34HNyEfCTGutOISnrsw" source="_1IBPEHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0OrzUXNyEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_SLSUgHN0EfCTGutOISnrsw" sourceY="-123" targetX="-1523" targetY="-478"/>
+    <bendpoints xmi:id="_SLSUgXN0EfCTGutOISnrsw" sourceX="2379" sourceY="-123" targetX="856" targetY="-478"/>
+    <bendpoints xmi:id="_SLSUgnN0EfCTGutOISnrsw" sourceX="2379" sourceY="356" targetX="856" targetY="1"/>
+    <stereotypes xmi:id="_1IAA8XNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0OvdsHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1H_Z4XNyEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_23vgQnNyEfCTGutOISnrsw" position="-77.0,0.9999999999997726"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1H_Z4nNyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0OrzUnNyEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_23vgQXNyEfCTGutOISnrsw" position="-19.0,-148.0"/>
+      <visibility xmi:id="_1IAoAHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IAA8nNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1IAA8HNyEfCTGutOISnrsw" aggregationKind="NONE" name="repository" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NA_YHNyEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_23wHUHNyEfCTGutOISnrsw" position="99.0,1.0000000000001705"/>
+      <visibility xmi:id="_1IAoAnNyEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_1IAoAXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_1H_Z4HNyEfCTGutOISnrsw" sourceAnchor="559.0,18.0" targetAnchor="192.0,0.0" dashed="true" superClass="_1H9ksHNyEfCTGutOISnrsw" subClass="_1IBPEHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0LfVYHNyEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_SLSUg3N0EfCTGutOISnrsw" sourceX="1117" targetX="-2" targetY="-20"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1IDEQHNyEfCTGutOISnrsw" sourceAnchor="308.0,0.0" targetAnchor="217.0,0.0" target="_1HylkHNyEfCTGutOISnrsw" source="_1IESZHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0Om60HNyEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_SLSUh3N0EfCTGutOISnrsw" sourceY="-49" targetX="-2040" targetY="-164"/>
+    <bendpoints xmi:id="_SLSUiHN0EfCTGutOISnrsw" sourceX="2040" sourceY="-49" targetY="-164"/>
+    <stereotypes xmi:id="_1IDrVHNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0OrzUHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1IDrUXNyEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_23wuYHNyEfCTGutOISnrsw" position="73.27272727272702,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1IDrUnNyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Om60XNyEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_23wHUXNyEfCTGutOISnrsw" position="184.9545454545455,-100.0"/>
+      <visibility xmi:id="_1IESYXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IESYHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1IDrU3NyEfCTGutOISnrsw" aggregationKind="NONE" name="repository" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NAYUXNyEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_23wuYXNyEfCTGutOISnrsw" position="-69.5,-122.99999999999989"/>
+      <visibility xmi:id="_1IESY3NyEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_1IESYnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_1IDrUHNyEfCTGutOISnrsw" sourceAnchor="278.0,0.0" targetAnchor="149.0,0.0" dashed="true" superClass="_1H7vgHNyEfCTGutOISnrsw" subClass="_1IESZHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0LdgMXNyEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_SLSUiXN0EfCTGutOISnrsw" sourceY="-126" targetX="2608" targetY="-164"/>
+    <bendpoints xmi:id="_SLSUinN0EfCTGutOISnrsw" sourceX="-2608" sourceY="-127" targetY="-165"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1IGHkHNyEfCTGutOISnrsw" sourceAnchor="306.0,176.0" targetAnchor="188.0,95.0" target="_1HviQHNyEfCTGutOISnrsw" source="_1IH8wHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0OvdsXNyEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_SLSUi3N0EfCTGutOISnrsw" sourceY="47" targetX="-1604" targetY="195"/>
+    <bendpoints xmi:id="_SLSUjHN0EfCTGutOISnrsw" sourceX="1604" sourceY="47" targetY="195"/>
+    <stereotypes xmi:id="_1IGHlXNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0OzIEHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1IGHknNyEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_23xVcHNyEfCTGutOISnrsw" position="50.0,1.9999999999999147"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1IGHk3NyEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0OvdsnNyEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_23wuYnNyEfCTGutOISnrsw" position="145.0,49.000000000000014"/>
+      <visibility xmi:id="_1IGuoXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IGuoHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1IGHlHNyEfCTGutOISnrsw" aggregationKind="NONE" name="repository" navigable="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NA_YXNyEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_23xVcXNyEfCTGutOISnrsw" position="2.0,36.999999999999886"/>
+      <visibility xmi:id="_1IGuo3NyEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_1IGuonNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_1IGHkXNyEfCTGutOISnrsw" sourceAnchor="245.0,176.0" targetAnchor="196.0,0.0" dashed="true" superClass="_1H2P8HNyEfCTGutOISnrsw" subClass="_1IH8wHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0LgjgHNyEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_SLSUjXN0EfCTGutOISnrsw" sourceY="158" targetX="1380" targetY="533"/>
+    <bendpoints xmi:id="_SLSUjnN0EfCTGutOISnrsw" sourceX="-4714" sourceY="157" targetX="-3334" targetY="532"/>
+    <bendpoints xmi:id="_SLSUj3N0EfCTGutOISnrsw" sourceX="-4714" sourceY="-483" targetX="-3334" targetY="-108"/>
+    <bendpoints xmi:id="_SLSUkHN0EfCTGutOISnrsw" sourceX="-1380" sourceY="-483" targetY="-108"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1GFVYHNyEfCTGutOISnrsw" name="IOException">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0LhxoHNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1GFVYXNyEfCTGutOISnrsw" position="-113.0,52.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1GFVYnNyEfCTGutOISnrsw" name="Reference">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0LhxoXNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_1GFVY3NyEfCTGutOISnrsw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1Hhf0HNyEfCTGutOISnrsw" name="DiagnosticTest" associationsOut="_1HY88HNyEfCTGutOISnrsw _1HY88XNyEfCTGutOISnrsw _1HZkAHNyEfCTGutOISnrsw _1HZkAXNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0E_r0HNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1Hhf0XNyEfCTGutOISnrsw" position="-2545.0,-483.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1Hhf0nNyEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0FA58HNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1Hhf03NyEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0FIOsHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_1Hhf1HNyEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_1Hhf1XNyEfCTGutOISnrsw" name="id">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MyV4HNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Hhf1nNyEfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MyV4XNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Hhf13NyEfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MzkAHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Hhf2HNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Hhf2XNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Hhf2nNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Hhf23NyEfCTGutOISnrsw" name="medicalRecordId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MzkAXNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Hhf3HNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M0LEHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Hhf3XNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M0LFXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Hhf3nNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Hhf33NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Hhf4HNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Hhf4XNyEfCTGutOISnrsw" name="testName">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M1ZMHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Hhf4nNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M1ZMXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Hhf43NyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M2AQ3NyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Hhf5HNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Hhf5XNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Hhf5nNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Hhf53NyEfCTGutOISnrsw" name="testType">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M2nUHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Hhf6HNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M2nUXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Hhf6XNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M3OYXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Hhf6nNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Hhf63NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Hhf7HNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Hhf7XNyEfCTGutOISnrsw" name="orderedByDoctorId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M31cHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Hhf7nNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M31cXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Hhf73NyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M5DkHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Hhf8HNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Hhf8XNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Hhf8nNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Hhf83NyEfCTGutOISnrsw" name="orderDate">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M5Dk3NyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Hhf9HNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M5qoHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Hhf9XNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M6RsXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Hhf9nNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Hhf93NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Hhf-HNyEfCTGutOISnrsw" name="LocalDateTime">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LLMUXNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Hhf-XNyEfCTGutOISnrsw" name="status">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M64wHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Hhf-nNyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M64wXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Hhf-3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Hhf_HNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Hhf_XNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Hhf_nNyEfCTGutOISnrsw" name="results">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M64wnNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Hhf_3NyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M64w3NyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HhgAHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HhgAXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HhgAnNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HhgA3NyEfCTGutOISnrsw" name="resultNotes">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M64xHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HhgBHNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M7f0HNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1HhgBXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M8G4XNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HhgBnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HhgB3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HhgCHNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HhgCXNyEfCTGutOISnrsw" name="performedByUserId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M8G5HNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HhgCnNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M8G5XNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1HhgC3NyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M8t8XNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HhgDHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HhgDXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HhgDnNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HhgD3NyEfCTGutOISnrsw" name="uploadedAt">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M8t9HNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HhgEHNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M8t9XNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1HhgEXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M9VAXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HhgEnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HhgE3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HhgFHNyEfCTGutOISnrsw" name="LocalDateTime">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LLMUXNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HhgFXNyEfCTGutOISnrsw" name="reportDocumentUrl">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M9VBHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HhgFnNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M9VBXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1HhgF3NyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M98EXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HhgGHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HhgGXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HhgGnNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HhgG3NyEfCTGutOISnrsw" name="createdAt">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M98FHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HhgHHNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M98FXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1HhgHXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M-jIHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HhgHnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HhgH3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HhgIHNyEfCTGutOISnrsw" name="LocalDateTime">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LLMUXNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HhgIXNyEfCTGutOISnrsw" name="updatedAt">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0M-jI3NyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HhgInNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M_KMHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1HhgI3NyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0M_KNXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HhgJHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HhgJXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HhgJnNyEfCTGutOISnrsw" name="LocalDateTime">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LLMUXNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1HhgJ3NyEfCTGutOISnrsw" name="DiagnosticTest">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0FFLYHNyEfCTGutOISnrsw"/>
+      <keywords xmi:id="_1HhgKHNyEfCTGutOISnrsw" keyword="create"/>
+      <visibility xmi:id="_1HhgKXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HhgKnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1HhgK3NyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0FGZgHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1HhgLHNyEfCTGutOISnrsw" name="DiagnosticTest">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E_r0HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1HhgLXNyEfCTGutOISnrsw" name="DiagnosticTest">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MIOkHNyEfCTGutOISnrsw"/>
+      <keywords xmi:id="_1HhgLnNyEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_1HhgL3NyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MI1pHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HhgMHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HhgMXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1HhgMnNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MI1o3NyEfCTGutOISnrsw"/>
+        <type xmi:id="_1HhgM3NyEfCTGutOISnrsw" name="DiagnosticTest">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E_r0HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1HhgNHNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MIOkXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HhgNXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HhgNnNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1HhgN3NyEfCTGutOISnrsw" name="medicalRecordId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MIOknNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HhgOHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HhgOXNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1HhgOnNyEfCTGutOISnrsw" name="testName">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MIOk3NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HhgO3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HhgPHNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1HhgPXNyEfCTGutOISnrsw" name="testType">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MIOlHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HhgPnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HhgP3NyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1HhgQHNyEfCTGutOISnrsw" name="orderedByDoctorId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MIOlXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HhgQXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HhgQnNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1HhgQ3NyEfCTGutOISnrsw" name="orderDate">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MIOlnNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HhgRHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HhgRXNyEfCTGutOISnrsw" name="LocalDateTime">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LLMUXNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1HhgRnNyEfCTGutOISnrsw" name="status">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MIOl3NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HhgR3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HhgSHNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1HhgSXNyEfCTGutOISnrsw" name="results">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MIOmHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HhgSnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HhgS3NyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1HhgTHNyEfCTGutOISnrsw" name="resultNotes">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MIOmXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HhgTXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HhgTnNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1HhgT3NyEfCTGutOISnrsw" name="performedByUserId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MIOmnNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HhgUHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HhgUXNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1HhgUnNyEfCTGutOISnrsw" name="uploadedAt">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MIOm3NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HhgU3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HhgVHNyEfCTGutOISnrsw" name="LocalDateTime">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LLMUXNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1HhgVXNyEfCTGutOISnrsw" name="reportDocumentUrl">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MIOnHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HhgVnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HhgV3NyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1HhgWHNyEfCTGutOISnrsw" name="createdAt">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MIOnXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HhgWXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HhgWnNyEfCTGutOISnrsw" name="LocalDateTime">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LLMUXNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1HhgW3NyEfCTGutOISnrsw" name="updatedAt">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MI1oHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HhgXHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HhgXXNyEfCTGutOISnrsw" name="LocalDateTime">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LLMUXNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_1H7vgHNyEfCTGutOISnrsw" name="DiagnosticTestService" associationsIn="_1GAc4HNyEfCTGutOISnrsw" subclassedBy="_1IDrUHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0E4XEHNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1H7vgXNyEfCTGutOISnrsw" position="-573.0,-493.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1H7vgnNyEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_1H7vg3NyEfCTGutOISnrsw" name="findAll">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0E4-IHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1H7vhHNyEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_1H7vhXNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1H7vhnNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0E5lMHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1H7vh3NyEfCTGutOISnrsw" name="DiagnosticTest">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E_r0HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1H7viHNyEfCTGutOISnrsw" name="findById">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0E6MQHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1H7viXNyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0E6zUHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1H7vinNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1H7vi3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1H7vjHNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MGZYXNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1H7vjXNyEfCTGutOISnrsw" name="Optional">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LCpc3NyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1H7vjnNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0E6MQXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1H7vj3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1H7vkHNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1H7vkXNyEfCTGutOISnrsw" name="deleteById">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0E7aYHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1H7vknNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1H7vk3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1H7vlHNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0E7aYXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1H7vlXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1H7vlnNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1H7vl3NyEfCTGutOISnrsw" name="getTestsForRecord">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0E9PkHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1H7vmHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1H7vmXNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1H7vmnNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0E92oXNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1H7vm3NyEfCTGutOISnrsw" name="DiagnosticTest">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E_r0HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1H7vnHNyEfCTGutOISnrsw" name="recordId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0E92oHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1H7vnXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1H7vnnNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1H7vn3NyEfCTGutOISnrsw" name="save">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0LVkYHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1H7voHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1H7voXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1H7vonNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LVkYnNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1H7vo3NyEfCTGutOISnrsw" name="DiagnosticTest">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E_r0HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1H7vpHNyEfCTGutOISnrsw" name="test">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LVkYXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1H7vpXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1H7vpnNyEfCTGutOISnrsw" name="DiagnosticTest">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E_r0HNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1Gm50HNyEfCTGutOISnrsw" name="MedicalRecord" associationsOut="_1GjPcHNyEfCTGutOISnrsw _1GkdkHNyEfCTGutOISnrsw _1GmSwHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0EJXQHNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1Gm50XNyEfCTGutOISnrsw" position="-567.0,-309.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1Gm50nNyEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0EJ-UHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1Gm503NyEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0ENBoHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_1Gm51HNyEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_1Gm51XNyEfCTGutOISnrsw" name="id">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MaicHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Gm51nNyEfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0McXoHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Gm513NyEfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MdlwHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Gm52HNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Gm52XNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Gm52nNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Gm523NyEfCTGutOISnrsw" name="patientId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MdlwXNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Gm53HNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MdlwnNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Gm53XNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MeM0XNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Gm53nNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Gm533NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Gm54HNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Gm54XNyEfCTGutOISnrsw" name="doctorId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MeM1HNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Gm54nNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Mfa8HNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Gm543NyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Mfa9XNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Gm55HNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Gm55XNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Gm55nNyEfCTGutOISnrsw" name="Long">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0L5lEXNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Gm553NyEfCTGutOISnrsw" name="recordDate">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MgpEHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Gm56HNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MgpEXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Gm56XNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MhQInNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Gm56nNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Gm563NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Gm57HNyEfCTGutOISnrsw" name="LocalDateTime">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LLMUXNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Gm57XNyEfCTGutOISnrsw" name="chiefComplaint">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MhQJXNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Gm57nNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Mh3MHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Gm573NyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MieQXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Gm58HNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Gm58XNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Gm58nNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Gm583NyEfCTGutOISnrsw" name="diagnosis">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MieRHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Gm59HNyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MjFUHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Gm59XNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Gm59nNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Gm593NyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Gm5-HNyEfCTGutOISnrsw" name="treatmentPlan">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MjFUXNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Gm5-XNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MjFUnNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Gm5-nNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MjsYXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Gm5-3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Gm5_HNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Gm5_XNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Gm5_nNyEfCTGutOISnrsw" name="notes">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MjsZHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Gm5_3NyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MjsZXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Gm6AHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Gm6AXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Gm6AnNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Gm6A3NyEfCTGutOISnrsw" name="createdAt">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MjsZnNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Gm6BHNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MkTcHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Gm6BXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MkTdXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Gm6BnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Gm6B3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Gm6CHNyEfCTGutOISnrsw" name="LocalDateTime">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LLMUXNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Gm6CXNyEfCTGutOISnrsw" name="updatedAt">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Mk6gXNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Gm6CnNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MlhkHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Gm6C3NyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MlhlXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Gm6DHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Gm6DXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Gm6DnNyEfCTGutOISnrsw" name="LocalDateTime">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LLMUXNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Gm6D3NyEfCTGutOISnrsw" name="createdByUserId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MmIoHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Gm6EHNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MmIoXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Gm6EXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MmvsnNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Gm6EnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1Gm6E3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1Gm6FHNyEfCTGutOISnrsw" name="Long">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0L5lEXNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1HJsYHNyEfCTGutOISnrsw" name="Prescription" associationsOut="_1G7p8HNyEfCTGutOISnrsw _1G7p8XNyEfCTGutOISnrsw _1G8RAHNyEfCTGutOISnrsw _1G84EHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0EZ18HNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1HJsYXNyEfCTGutOISnrsw" position="-190.0,-493.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1HJsYnNyEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0EbrIHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1HJsY3NyEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0EgjoHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_1HJsZHNyEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_1HJsZXNyEfCTGutOISnrsw" name="id">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MnWwHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HJsZnNyEfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Mn90HNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1HJsZ3NyEfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Mn90XNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HJsaHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HJsaXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HJsanNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HJsa3NyEfCTGutOISnrsw" name="medicalRecordId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Mn90nNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HJsbHNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Mok4HNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1HJsbXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Mok5XNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HJsbnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HJsb3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HJscHNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HJscXNyEfCTGutOISnrsw" name="medicationName">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Mok6HNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HJscnNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Mok6XNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1HJsc3NyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MpL8HNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HJsdHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HJsdXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HJsdnNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HJsd3NyEfCTGutOISnrsw" name="dosage">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MpL83NyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HJseHNyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MpL9HNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HJseXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HJsenNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HJse3NyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HJsfHNyEfCTGutOISnrsw" name="frequency">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MpL9XNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HJsfXNyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MpL9nNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HJsfnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HJsf3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HJsgHNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HJsgXNyEfCTGutOISnrsw" name="route">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MpL93NyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HJsgnNyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MpL-HNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HJsg3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HJshHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HJshXNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HJshnNyEfCTGutOISnrsw" name="startDate">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MpL-XNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HJsh3NyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MpzAHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1HJsiHNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MpzBXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HJsiXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HJsinNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HJsi3NyEfCTGutOISnrsw" name="LocalDateTime">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LLMUXNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HJsjHNyEfCTGutOISnrsw" name="endDate">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MpzCHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HJsjXNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MqaEHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1HJsjnNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MqaFXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HJsj3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HJskHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HJskXNyEfCTGutOISnrsw" name="LocalDateTime">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LLMUXNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HJsknNyEfCTGutOISnrsw" name="notes">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MqaGHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HJsk3NyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MrBIHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HJslHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HJslXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HJslnNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HJsl3NyEfCTGutOISnrsw" name="prescribedByDoctorId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MrBIXNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HJsmHNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MrBInNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1HJsmXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MroMXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HJsmnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HJsm3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HJsnHNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HJsnXNyEfCTGutOISnrsw" name="createdAt">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MsPQHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HJsnnNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Ms2UHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1HJsn3NyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MtdYXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HJsoHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HJsoXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HJsonNyEfCTGutOISnrsw" name="LocalDateTime">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LLMUXNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HJso3NyEfCTGutOISnrsw" name="updatedAt">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MuEcHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HJspHNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MurgHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1HJspXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Mv5oHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HJspnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HJsp3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HJsqHNyEfCTGutOISnrsw" name="LocalDateTime">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LLMUXNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1HJsqXNyEfCTGutOISnrsw" name="prescriptionType">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Mv5o3NyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HJsqnNyEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MwgsHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1HJsq3NyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MwgtXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HJsrHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HJsrXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1HJsrnNyEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1F36CXNyEfCTGutOISnrsw" name="PrescriptionController" associationsOut="_1F36AHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0D9xEHNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1F36CnNyEfCTGutOISnrsw" position="51.0,-489.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1F36C3NyEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0D-YIHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1F36DHNyEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0EEexHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_1F36DXNyEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_1F36DnNyEfCTGutOISnrsw" name="service">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MZ7YHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1F36D3NyEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_1F36EHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1F36EXNyEfCTGutOISnrsw" name="PrescriptionService">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0D6GtHNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1F36EnNyEfCTGutOISnrsw" name="getAll">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0D_mQHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1F36E3NyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0EANUHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1F36FHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1F36FXNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1F36FnNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0D_mQXNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1F36F3NyEfCTGutOISnrsw" name="Prescription">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EZ18HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1F36GHNyEfCTGutOISnrsw" name="getById">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0EANUnNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1F36GXNyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0EBbcHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1F36GnNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0ECCgHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1F36G3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1F36HHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1F36HXNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0L2hwHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1F36HnNyEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LD3kHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1F36H3NyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0EANU3NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1F36IHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1F36IXNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1F36InNyEfCTGutOISnrsw" name="delete">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0ECCg3NyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1F36I3NyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0ECpkXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1F36JHNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0EDQonNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1F36JXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1F36JnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1F36J3NyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0L3I0XNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1F36KHNyEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LD3kHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1F36KXNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0ECpkHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1F36KnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1F36K3NyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1F36LHNyEfCTGutOISnrsw" name="getByMedicalId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0EDQpXNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1F36LXNyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0ED3sXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1F36LnNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0EEewXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1F36L3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1F36MHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1F36MXNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0L3v4HNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1F36MnNyEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LD3kHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1F36M3NyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0ED3sHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1F36NHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1F36NXNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1F36NnNyEfCTGutOISnrsw" name="PrescriptionController">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0LG64HNyEfCTGutOISnrsw"/>
+      <keywords xmi:id="_1F36N3NyEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_1F36OHNyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LG65XNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1F36OXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1F36OnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1F36O3NyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LG65HNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1F36PHNyEfCTGutOISnrsw" name="PrescriptionController">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0D9xEHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1F36PXNyEfCTGutOISnrsw" name="service">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LG64XNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1F36PnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1F36P3NyEfCTGutOISnrsw" name="PrescriptionService">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0D6GtHNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1F36QHNyEfCTGutOISnrsw" name="create">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0LG65nNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1F36QXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LHh8nNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1F36QnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1F36Q3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1F36RHNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LG66HNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1F36RXNyEfCTGutOISnrsw" name="Prescription">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EZ18HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1F36RnNyEfCTGutOISnrsw" name="prescription">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LG653NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1F36R3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1F36SHNyEfCTGutOISnrsw" name="Prescription">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EZ18HNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1F36SXNyEfCTGutOISnrsw" name="update">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0LHh9HNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1F36SnNyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LIJAHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1F36S3NyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LIwFHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1F36THNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1F36TXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1F36TnNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0L3I0HNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1F36T3NyEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LD3kHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1F36UHNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LHh9XNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1F36UXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1F36UnNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1F36U3NyEfCTGutOISnrsw" name="prescription">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LHh9nNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1F36VHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1F36VXNyEfCTGutOISnrsw" name="Prescription">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EZ18HNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1GOfVnNyEfCTGutOISnrsw" name="MedicalRecordController" associationsOut="_1GN4QHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0FUb8HNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1GOfV3NyEfCTGutOISnrsw" position="51.0,-250.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1GOfWHNyEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0FVqEHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1GOfWXNyEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0FieYHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_1GOfWnNyEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_1GOfW3NyEfCTGutOISnrsw" name="service">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NAYUHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1GOfXHNyEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_1GOfXXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1GOfXnNyEfCTGutOISnrsw" name="MedicalRecordService">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0EGT8HNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1GOfX3NyEfCTGutOISnrsw" name="getAll">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0FW4MHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1GOfYHNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0FYGUHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1GOfYXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GOfYnNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1GOfY3NyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0FXfQHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1GOfZHNyEfCTGutOISnrsw" name="MedicalRecord">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EJXQHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1GOfZXNyEfCTGutOISnrsw" name="getById">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0FYtYHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1GOfZnNyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0FaikHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1GOfZ3NyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0FbJoHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1GOfaHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GOfaXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1GOfanNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MKq0HNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1GOfa3NyEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LD3kHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1GOfbHNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0FZUcHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GOfbXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GOfbnNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1GOfb3NyEfCTGutOISnrsw" name="getByPatientId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0FcXwHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1GOfcHNyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Fc-0HNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1GOfcXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0FeM8HNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1GOfcnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GOfc3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1GOfdHNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MLR4HNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1GOfdXNyEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LD3kHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1GOfdnNyEfCTGutOISnrsw" name="patientId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0FcXwXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GOfd3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GOfeHNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1GOfeXNyEfCTGutOISnrsw" name="delete">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Fe0AHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1GOfenNyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0FgCIHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1GOfe3NyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0FhQQHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1GOffHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GOffXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1GOffnNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MLR4XNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1GOff3NyEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LD3kHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1GOfgHNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Fe0AXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GOfgXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GOfgnNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1GOfg3NyEfCTGutOISnrsw" name="MedicalRecordController">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Lac4HNyEfCTGutOISnrsw"/>
+      <keywords xmi:id="_1GOfhHNyEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_1GOfhXNyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LbD9HNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1GOfhnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GOfh3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1GOfiHNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LbD83NyEfCTGutOISnrsw"/>
+        <type xmi:id="_1GOfiXNyEfCTGutOISnrsw" name="MedicalRecordController">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0FUb8HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1GOfinNyEfCTGutOISnrsw" name="service">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LbD8HNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GOfi3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GOfjHNyEfCTGutOISnrsw" name="MedicalRecordService">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EGT8HNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1GOfjXNyEfCTGutOISnrsw" name="create">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0LbD9XNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1GOfjnNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LbrA3NyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1GOfj3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GOfkHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1GOfkXNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LbrAHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1GOfknNyEfCTGutOISnrsw" name="MedicalRecord">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EJXQHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1GOfk3NyEfCTGutOISnrsw" name="record">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LbD9nNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GOflHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GOflXNyEfCTGutOISnrsw" name="MedicalRecord">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EJXQHNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1GOflnNyEfCTGutOISnrsw" name="update">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0LbrBXNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1GOfl3NyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LbrCHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1GOfmHNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LcSFHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1GOfmXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GOfmnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1GOfm3NyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MKq0XNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1GOfnHNyEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LD3kHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1GOfnXNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LbrBnNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GOfnnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GOfn3NyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GOfoHNyEfCTGutOISnrsw" name="record">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LbrB3NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GOfoXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GOfonNyEfCTGutOISnrsw" name="MedicalRecord">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EJXQHNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1FzBgHNyEfCTGutOISnrsw" name="MedicalRecordMicroService1Application">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0Dyx8HNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1FzBgXNyEfCTGutOISnrsw" position="-328.0,-167.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1FzBgnNyEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0D0nIHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1FzBg3NyEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0D3qcHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_1FzBhHNyEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_1FzBhXNyEfCTGutOISnrsw" name="main" staticOperation="true">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0D2cVnNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1FzBhnNyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0D3DYXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1FzBh3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1FzBiHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1FzBiXNyEfCTGutOISnrsw" name="args">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0D3DYHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1FzBinNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_1FzBi3NyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_1H2P8HNyEfCTGutOISnrsw" name="PrescriptionService" associationsIn="_1F36AHNyEfCTGutOISnrsw" subclassedBy="_1IGHkXNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0D6GtHNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1H2P8XNyEfCTGutOISnrsw" position="576.0,-550.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1H2P8nNyEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_1H2P83NyEfCTGutOISnrsw" name="findAll">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0D6twHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1H2P9HNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1H2P9XNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1H2P9nNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0D7U0HNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1H2P93NyEfCTGutOISnrsw" name="Prescription">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EZ18HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1H2P-HNyEfCTGutOISnrsw" name="findById">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0D7U0nNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1H2P-XNyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0D774HNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1H2P-nNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1H2P-3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1H2P_HNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0L16sHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1H2P_XNyEfCTGutOISnrsw" name="Optional">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LCpc3NyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1H2P_nNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0D7U03NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1H2P_3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1H2QAHNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1H2QAXNyEfCTGutOISnrsw" name="deleteById">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0D8i8HNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1H2QAnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1H2QA3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1H23AHNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0D8i8XNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1H23AXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1H23AnNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1H23A3NyEfCTGutOISnrsw" name="getTestsForRecord">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0D8i8nNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1H23BHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1H23BXNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1H23BnNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0D9KAHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1H23B3NyEfCTGutOISnrsw" name="Prescription">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EZ18HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1H23CHNyEfCTGutOISnrsw" name="medicalRecordId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0D8i83NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1H23CXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1H23CnNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1H23C3NyEfCTGutOISnrsw" name="save">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0LDQgXNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1H23DHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1H23DXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1H23DnNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LDQg3NyEfCTGutOISnrsw"/>
+        <type xmi:id="_1H23D3NyEfCTGutOISnrsw" name="Prescription">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EZ18HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1H23EHNyEfCTGutOISnrsw" name="prescription">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LDQgnNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1H23EXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1H23EnNyEfCTGutOISnrsw" name="Prescription">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EZ18HNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1IBPEHNyEfCTGutOISnrsw" name="MedicalRecordServiceImpl" associationsOut="_1H-y0HNyEfCTGutOISnrsw" generalizations="_1H_Z4HNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0F3OgHNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1IBPEXNyEfCTGutOISnrsw" position="982.0,-566.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1IBPEnNyEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0F31kHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1IBPE3NyEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0GCNoHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_1IBPFHNyEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_1IBPFXNyEfCTGutOISnrsw" name="repository">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NA_YHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1IBPFnNyEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_1IBPF3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1IBPGHNyEfCTGutOISnrsw" name="MedicalRecordRepository">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0ExCUHNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1IBPGXNyEfCTGutOISnrsw" name="findAll">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0F5qwHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1IBPGnNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0F644HNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IBPG3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IBPHHNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1IBPHXNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0F6R0HNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1IBPHnNyEfCTGutOISnrsw" name="MedicalRecord">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EJXQHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1IBPH3NyEfCTGutOISnrsw" name="findById">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0F8HAHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1IBPIHNyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0F9VIHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1IBPIXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0F98MHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IBPInNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IBPI3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IBPJHNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0ML48HNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1IBPJXNyEfCTGutOISnrsw" name="Optional">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LCpc3NyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IBPJnNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0F8HAXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1IBPJ3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1IBPKHNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IBPKXNyEfCTGutOISnrsw" name="deleteById">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0F-jQHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1IBPKnNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0F_xYHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IBPK3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IBPLHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1IBPLXNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0F-jQXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1IBPLnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1IBPL3NyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IBPMHNyEfCTGutOISnrsw" name="getRecordsByPatientId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0GAYcXNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1IBPMXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GBmkHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IBPMnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IBPM3NyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1IBPNHNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GA_gHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1IBPNXNyEfCTGutOISnrsw" name="MedicalRecord">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EJXQHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IBPNnNyEfCTGutOISnrsw" name="patientId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GAYcnNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1IBPN3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1IBPOHNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IBPOXNyEfCTGutOISnrsw" name="MedicalRecordServiceImpl">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0LfVYXNyEfCTGutOISnrsw"/>
+      <keywords xmi:id="_1IBPOnNyEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_1IBPO3NyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LfVZnNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IBPPHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IBPPXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IBPPnNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LfVZXNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1IBPP3NyEfCTGutOISnrsw" name="MedicalRecordServiceImpl">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0F3OgHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IBPQHNyEfCTGutOISnrsw" name="repository">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LfVYnNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1IBPQXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1IBPQnNyEfCTGutOISnrsw" name="MedicalRecordRepository">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0ExCUHNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IBPQ3NyEfCTGutOISnrsw" name="save">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Lf8cHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1IBPRHNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Lf8c3NyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IBPRXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IBPRnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IBPR3NyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Lf8cnNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1IBPSHNyEfCTGutOISnrsw" name="MedicalRecord">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EJXQHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IBPSXNyEfCTGutOISnrsw" name="record">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Lf8cXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1IBPSnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1IBPS3NyEfCTGutOISnrsw" name="MedicalRecord">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EJXQHNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1GBrAHNyEfCTGutOISnrsw" name="DiagnosticTestController" associationsOut="_1GAc4HNyEfCTGutOISnrsw _1GBD9nNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0GIUQHNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1GBrAXNyEfCTGutOISnrsw" position="572.0,-387.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1GBrAnNyEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0GI7UHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1GBrA3NyEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0GNz0nNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_1GBrBHNyEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_1GBrBXNyEfCTGutOISnrsw" name="service">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NBmcHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1GBrBnNyEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_1GBrB3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1GBrCHNyEfCTGutOISnrsw" name="DiagnosticTestService">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0E4XEHNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1GBrCXNyEfCTGutOISnrsw" name="fileStorageLocation">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NBmcXNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1GBrCnNyEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_1GBrC3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1GBrDHNyEfCTGutOISnrsw" name="Path">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LiYsXNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1GBrDXNyEfCTGutOISnrsw" name="getAll">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0GI7UXNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1GBrDnNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GJiYXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1GBrD3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GBrEHNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1GBrEXNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GI7UnNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1GBrEnNyEfCTGutOISnrsw" name="DiagnosticTest">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E_r0HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1GBrE3NyEfCTGutOISnrsw" name="getById">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0GJiY3NyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1GBrFHNyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GKJcHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1GBrFXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GKJc3NyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1GBrFnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GBrF3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1GBrGHNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MQxcHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1GBrGXNyEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LD3kHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1GBrGnNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GJiZHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrG3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrHHNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1GBrHXNyEfCTGutOISnrsw" name="getByMedicalId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0GKwgHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1GBrHnNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GKwhnNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1GBrH3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GBrIHNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1GBrIXNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GKwgnNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1GBrInNyEfCTGutOISnrsw" name="DiagnosticTest">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E_r0HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1GBrI3NyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GKwgXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrJHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrJXNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1GBrJnNyEfCTGutOISnrsw" name="delete">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0GL-oHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1GBrJ3NyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GMlsHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1GBrKHNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GMls3NyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1GBrKXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GBrKnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1GBrK3NyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MVp8HNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1GBrLHNyEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LD3kHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1GBrLXNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GL-oXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrLnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrL3NyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1GBrMHNyEfCTGutOISnrsw" name="downloadFile">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0GMltnNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1GBrMXNyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GNMwHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1GBrMnNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GNMw3NyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1GBrM3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GBrNHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1GBrNXNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MVp8XNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1GBrNnNyEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LD3kHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1GBrN3NyEfCTGutOISnrsw" name="filename">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GMlt3NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrOHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrOXNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1GBrOnNyEfCTGutOISnrsw" name="DiagnosticTestController">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0LpGYXNyEfCTGutOISnrsw"/>
+      <keywords xmi:id="_1GBrO3NyEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_1GBrPHNyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LqUgHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1GBrPXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GBrPnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1GBrP3NyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Lptc3NyEfCTGutOISnrsw"/>
+        <type xmi:id="_1GBrQHNyEfCTGutOISnrsw" name="DiagnosticTestController">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0GIUQHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1GBrQXNyEfCTGutOISnrsw" name="service">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LptcHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrQnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrQ3NyEfCTGutOISnrsw" name="DiagnosticTestService">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E4XEHNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1GBrRHNyEfCTGutOISnrsw" name="create">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MQxcXNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1GBrRXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MSmp3NyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1GBrRnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GBrR3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1GBrSHNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MRYh3NyEfCTGutOISnrsw"/>
+        <type xmi:id="_1GBrSXNyEfCTGutOISnrsw" name="DiagnosticTest">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E_r0HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1GBrSnNyEfCTGutOISnrsw" name="testName">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MQxcnNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrS3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrTHNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBrTXNyEfCTGutOISnrsw" name="testType">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MRYgHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrTnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrT3NyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBrUHNyEfCTGutOISnrsw" name="orderedByDoctorId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MRYgXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrUXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrUnNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBrU3NyEfCTGutOISnrsw" name="results">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MRYgnNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrVHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrVXNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBrVnNyEfCTGutOISnrsw" name="resultNotes">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MRYg3NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrV3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrWHNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBrWXNyEfCTGutOISnrsw" name="performedByUserId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MRYhHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrWnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrW3NyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBrXHNyEfCTGutOISnrsw" name="medicalRecordId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MRYhXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrXXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrXnNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBrX3NyEfCTGutOISnrsw" name="document">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MRYhnNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrYHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrYXNyEfCTGutOISnrsw" name="MultipartFile">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LnRMHNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1GBrYnNyEfCTGutOISnrsw" name="update">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0MTNsHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1GBrY3NyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MT0wHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1GBrZHNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MVC63NyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1GBrZXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1GBrZnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1GBrZ3NyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MT0wXNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1GBraHNyEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LD3kHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1GBraXNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MTNsXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBranNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBra3NyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBrbHNyEfCTGutOISnrsw" name="testName">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MTNsnNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrbXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrbnNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBrb3NyEfCTGutOISnrsw" name="testType">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MTNs3NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrcHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrcXNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBrcnNyEfCTGutOISnrsw" name="orderedByDoctorId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MTNtHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrc3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrdHNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBrdXNyEfCTGutOISnrsw" name="results">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MTNtXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrdnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrd3NyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBreHNyEfCTGutOISnrsw" name="resultNotes">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MTNtnNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBreXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrenNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBre3NyEfCTGutOISnrsw" name="performedByUserId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MTNt3NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrfHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrfXNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBrfnNyEfCTGutOISnrsw" name="medicalRecordId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MTNuHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrf3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrgHNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBrgXNyEfCTGutOISnrsw" name="status">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MTNuXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrgnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrg3NyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1GBrhHNyEfCTGutOISnrsw" name="document">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MTNunNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1GBrhXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1GBrhnNyEfCTGutOISnrsw" name="MultipartFile">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LnRMHNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1IESZHNyEfCTGutOISnrsw" name="DiagnosticTestServiceImpl" associationsOut="_1IDEQHNyEfCTGutOISnrsw" generalizations="_1IDrUHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0FqaMHNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1IESZXNyEfCTGutOISnrsw" position="1906.0,-532.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1IESZnNyEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0FrBQHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1IESZ3NyEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0FzkInNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_1IESaHNyEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_1IESaXNyEfCTGutOISnrsw" name="repository">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NAYUXNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1IESanNyEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_1IESa3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1IESbHNyEfCTGutOISnrsw" name="DiagnosticTestRepository">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0EriwHNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1IESbXNyEfCTGutOISnrsw" name="findAll">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Fs2cHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1IESbnNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0FtdgHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IESb3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IEScHNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1IEScXNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Fs2cXNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1IEScnNyEfCTGutOISnrsw" name="DiagnosticTest">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E_r0HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1IESc3NyEfCTGutOISnrsw" name="findById">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0FuEkHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1IESdHNyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0FvSsHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1IESdXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Fv5wHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IESdnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IESd3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IESeHNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0MLR4nNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1IESeXNyEfCTGutOISnrsw" name="Optional">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LCpc3NyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IESenNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0FuEkXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1IESe3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1IESfHNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IESfXNyEfCTGutOISnrsw" name="deleteById">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Fwg0HNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1IESfnNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0FxH4HNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IESf3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IESgHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1IESgXNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Fwg0XNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1IESgnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1IESg3NyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IEShHNyEfCTGutOISnrsw" name="getTestsForRecord">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Fxu8XNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1IEShXNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0FzkIHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IEShnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IESh3NyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1IESiHNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Fxu83NyEfCTGutOISnrsw"/>
+        <type xmi:id="_1IESiXNyEfCTGutOISnrsw" name="DiagnosticTest">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E_r0HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IESinNyEfCTGutOISnrsw" name="recordId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Fxu8nNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1IESi3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1IESjHNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IESjXNyEfCTGutOISnrsw" name="DiagnosticTestServiceImpl">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0LeHQHNyEfCTGutOISnrsw"/>
+      <keywords xmi:id="_1IESjnNyEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_1IESj3NyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LeHRXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IESkHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IESkXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IESknNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LeHRHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1IESk3NyEfCTGutOISnrsw" name="DiagnosticTestServiceImpl">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0FqaMHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IESlHNyEfCTGutOISnrsw" name="repository">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LeHQXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1IESlXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1IESlnNyEfCTGutOISnrsw" name="DiagnosticTestRepository">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EriwHNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IESl3NyEfCTGutOISnrsw" name="save">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0LeHRnNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1IESmHNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LeuUXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IESmXNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IESmnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IESm3NyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LeuUHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1IESnHNyEfCTGutOISnrsw" name="DiagnosticTest">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E_r0HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IESnXNyEfCTGutOISnrsw" name="test">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LeHR3NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1IESnnNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1IESn3NyEfCTGutOISnrsw" name="DiagnosticTest">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E_r0HNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_1H9ksHNyEfCTGutOISnrsw" name="MedicalRecordService" associationsIn="_1GN4QHNyEfCTGutOISnrsw" subclassedBy="_1H_Z4HNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0EGT8HNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1H9ksXNyEfCTGutOISnrsw" position="2468.0,-528.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1H9ksnNyEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_1H9ks3NyEfCTGutOISnrsw" name="findAll">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0EG7AHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1H9ktHNyEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_1H9ktXNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1H9ktnNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0EG7AXNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1H9kt3NyEfCTGutOISnrsw" name="MedicalRecord">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EJXQHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1H9kuHNyEfCTGutOISnrsw" name="findById">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0EHiEHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1H9kuXNyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0EHiEnNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1H9kunNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1H9ku3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1H9kvHNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0L4-AHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1H9kvXNyEfCTGutOISnrsw" name="Optional">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LCpc3NyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1H9kvnNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0EHiEXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1H9kv3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1H9kwHNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1H9kwXNyEfCTGutOISnrsw" name="deleteById">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0EIJIHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1H9kwnNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1H9kw3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1H9kxHNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0EIJIXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1H9kxXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1H9kxnNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1H9kx3NyEfCTGutOISnrsw" name="getRecordsByPatientId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0EIJInNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1H9kyHNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1H9kyXNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1H9kynNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0EIwMHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1H9ky3NyEfCTGutOISnrsw" name="MedicalRecord">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EJXQHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1H9kzHNyEfCTGutOISnrsw" name="patientId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0EIJI3NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1H9kzXNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1H9kznNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1H9kz3NyEfCTGutOISnrsw" name="save">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0LJ-MHNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1H9k0HNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1H9k0XNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1H9k0nNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LKlQXNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1H9k03NyEfCTGutOISnrsw" name="MedicalRecord">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EJXQHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1H9k1HNyEfCTGutOISnrsw" name="record">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LKlQHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1H9k1XNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1H9k1nNyEfCTGutOISnrsw" name="MedicalRecord">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EJXQHNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1IH8wHNyEfCTGutOISnrsw" name="PrescriptionServiceImpl" associationsOut="_1IGHkHNyEfCTGutOISnrsw" generalizations="_1IGHkXNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0GEp4HNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1IH8wXNyEfCTGutOISnrsw" position="1907.0,-352.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1IH8wnNyEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0GFQ8HNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1IH8w3NyEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0GHtMHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_1IH8xHNyEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_1IH8xXNyEfCTGutOISnrsw" name="repository">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0NA_YXNyEfCTGutOISnrsw"/>
+      <visibility xmi:id="_1IH8xnNyEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_1IH8x3NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_1IH8yHNyEfCTGutOISnrsw" name="PrescriptionRepository">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0E1TwnNyEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1IH8yXNyEfCTGutOISnrsw" name="findAll">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0GFQ8XNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1IH8ynNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GF4AHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IH8y3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IH8zHNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1IH8zXNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GFQ8nNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1IH8znNyEfCTGutOISnrsw" name="Prescription">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EZ18HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1IH8z3NyEfCTGutOISnrsw" name="findById">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0GF4AnNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1IH80HNyEfCTGutOISnrsw" name="Generics">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GGfEHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1IH80XNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GGfEXNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IH80nNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IH803NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IH81HNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0ML48XNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1IH81XNyEfCTGutOISnrsw" name="Optional">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0LCpc3NyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IH81nNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GF4A3NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1IH813NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1IH82HNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IH82XNyEfCTGutOISnrsw" name="deleteById">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0GGfE3NyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1IH82nNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GHGIHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IH823NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IH83HNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1IH83XNyEfCTGutOISnrsw" name="id">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GGfFHNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1IH83nNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1IH833NyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IH84HNyEfCTGutOISnrsw" name="getTestsForRecord">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0GHGInNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1IH84XNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GHGJnNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IH84nNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IH843NyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1IH85HNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GHGJHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1IH85XNyEfCTGutOISnrsw" name="Prescription">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EZ18HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IH85nNyEfCTGutOISnrsw" name="recordId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0GHGI3NyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1IH853NyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1IH86HNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IH86XNyEfCTGutOISnrsw" name="PrescriptionServiceImpl">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0LgjgXNyEfCTGutOISnrsw"/>
+      <keywords xmi:id="_1IH86nNyEfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_1IH863NyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LgjhnNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IH87HNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IH87XNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IH87nNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LgjhXNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1IH873NyEfCTGutOISnrsw" name="PrescriptionServiceImpl">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0GEp4HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IH88HNyEfCTGutOISnrsw" name="repository">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LgjgnNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1IH88XNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1IH88nNyEfCTGutOISnrsw" name="PrescriptionRepository">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E1TwnNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IH883NyEfCTGutOISnrsw" name="save">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0LhKkHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1IH89HNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LhKk3NyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1IH89XNyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1IH89nNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IH893NyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LhKknNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1IH8-HNyEfCTGutOISnrsw" name="Prescription">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EZ18HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IH8-XNyEfCTGutOISnrsw" name="prescription">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0LhKkXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1IH8-nNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1IH8-3NyEfCTGutOISnrsw" name="Prescription">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EZ18HNyEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1ILAEHNyEfCTGutOISnrsw" name="MedicalRecordMicroService1ApplicationTests">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0D4RgXNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1ILAEXNyEfCTGutOISnrsw" position="2429.0,-344.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1ILAEnNyEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0D5foHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1ILAE3NyEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0D6GsnNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_1ILAFHNyEfCTGutOISnrsw" label="~"/>
+    <operations xmi:id="_1ILAFXNyEfCTGutOISnrsw" name="contextLoads">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0D5foXNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1ILAFnNyEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0D6GsHNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1ILAF3NyEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_1ILAGHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_1Hr34HNyEfCTGutOISnrsw" name="MedicalRecordRepository" associationsIn="_1H-y0HNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0ExCUHNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1Hr34XNyEfCTGutOISnrsw" position="2430.0,-258.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1Hr34nNyEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0EzekHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1Hr343NyEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0E1TwHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_1Hr35HNyEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_1Hr35XNyEfCTGutOISnrsw" name="findByPatientId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0E0FoHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1Hr35nNyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0E0ssnNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Hr353NyEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_1Hr36HNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1Hr36XNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0E0ssHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1Hr36nNyEfCTGutOISnrsw" name="MedicalRecord">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EJXQHNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1Hr363NyEfCTGutOISnrsw" name="patientId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0E0FoXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1Hr37HNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1Hr37XNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_1HviQHNyEfCTGutOISnrsw" name="PrescriptionRepository" associationsIn="_1IGHkHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0E1TwnNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1HviQXNyEfCTGutOISnrsw" position="3629.0,-419.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1HviQnNyEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0E2h4HNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1HviQ3NyEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0E3wAHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_1HviRHNyEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_1HviRXNyEfCTGutOISnrsw" name="findByMedicalRecordId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0E2h4XNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HviRnNyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0E3I8XNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1HviR3NyEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_1HviSHNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1HviSXNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0E2h43NyEfCTGutOISnrsw"/>
+        <type xmi:id="_1HviSnNyEfCTGutOISnrsw" name="Prescription">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0EZ18HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1HviS3NyEfCTGutOISnrsw" name="recordId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0E2h4nNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HviTHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HviTXNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_1HylkHNyEfCTGutOISnrsw" name="DiagnosticTestRepository" associationsIn="_1IDEQHNyEfCTGutOISnrsw">
+    <modelElement href="MedicalRecordMicroService-1.uml#_0EriwHNyEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_1HylkXNyEfCTGutOISnrsw" position="4037.0,-417.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1HylknNyEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0EtX8HNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1Hylk3NyEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Ev0MHNyEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_1HyllHNyEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_1HyllXNyEfCTGutOISnrsw" name="findByMedicalRecordId">
+      <modelElement href="MedicalRecordMicroService-1.uml#_0Et_AHNyEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_1HyllnNyEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0EumEnNyEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_1Hyll3NyEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_1HylmHNyEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1HylmXNyEfCTGutOISnrsw">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0EumEHNyEfCTGutOISnrsw"/>
+        <type xmi:id="_1HylmnNyEfCTGutOISnrsw" name="DiagnosticTest">
+          <modelElement href="MedicalRecordMicroService-1.uml#_0E_r0HNyEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1Hylm3NyEfCTGutOISnrsw" name="medicalRecordId">
+        <modelElement href="MedicalRecordMicroService-1.uml#_0Et_AXNyEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_1HylnHNyEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_1HylnXNyEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

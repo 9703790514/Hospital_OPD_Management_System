@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ur3C8HN9EfCTGutOISnrsw">
+  <modelElement href="OTPMicroService1.uml#_u7SmEHN9EfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_v6tbsHN9EfCTGutOISnrsw" sourceAnchor="271.0,0.0" targetAnchor="15.0,96.0" target="_v65B4HN9EfCTGutOISnrsw" source="_v6tbuXN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u_ZC8HN9EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_v6tbsXN9EfCTGutOISnrsw" name="Reference">
+      <modelElement href="OTPMicroService1.uml#_u_fwoHN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_v6tbsnN9EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_xn3hEnN9EfCTGutOISnrsw" position="41.0,-27.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_v6tbs3N9EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="OTPMicroService1.uml#_u_ZC8XN9EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_xn3hEXN9EfCTGutOISnrsw" position="-36.0,-75.0"/>
+      <visibility xmi:id="_v6tbtHN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6tbtXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_v6tbtnN9EfCTGutOISnrsw" aggregationKind="NONE" name="otpService" navigable="true">
+      <modelElement href="OTPMicroService1.uml#_u_GvGHN9EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_xn3hE3N9EfCTGutOISnrsw" position="-20.0,6.0"/>
+      <visibility xmi:id="_v6tbt3N9EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_v6tbuHN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_v6wfAHN9EfCTGutOISnrsw" source="_v6xGGXN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u_gXsHN9EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_v6wfAXN9EfCTGutOISnrsw" name="Reference">
+      <modelElement href="OTPMicroService1.uml#_u_l3QHN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_v6wfAnN9EfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_v6wfA3N9EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="OTPMicroService1.uml#_u_gXsXN9EfCTGutOISnrsw"/>
+      <visibility xmi:id="_v6wfBHN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6wfBXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_v6wfBnN9EfCTGutOISnrsw" aggregationKind="NONE" name="id" navigable="true">
+      <modelElement href="OTPMicroService1.uml#_u_HWInN9EfCTGutOISnrsw"/>
+      <visibility xmi:id="_v6wfB3N9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6wfCHN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_v6wfCXN9EfCTGutOISnrsw" source="_v6xGGXN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u_l3QXN9EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_v6wfCnN9EfCTGutOISnrsw" name="Reference">
+      <modelElement href="OTPMicroService1.uml#_u_rW0HN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_v6wfC3N9EfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_v6wfDHN9EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="OTPMicroService1.uml#_u_l3QnN9EfCTGutOISnrsw"/>
+      <visibility xmi:id="_v6wfDXN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6wfDnN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_v6wfD3N9EfCTGutOISnrsw" aggregationKind="NONE" name="createdAt" navigable="true">
+      <modelElement href="OTPMicroService1.uml#_u_JLVXN9EfCTGutOISnrsw"/>
+      <visibility xmi:id="_v6wfEHN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6wfEXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_v6xGEHN9EfCTGutOISnrsw" source="_v6xGGXN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u_rW0XN9EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_v6xGEXN9EfCTGutOISnrsw" name="Reference">
+      <modelElement href="OTPMicroService1.uml#_u_vBMHN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_v6xGEnN9EfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_v6xGE3N9EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="OTPMicroService1.uml#_u_rW0nN9EfCTGutOISnrsw"/>
+      <visibility xmi:id="_v6xGFHN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6xGFXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_v6xGFnN9EfCTGutOISnrsw" aggregationKind="NONE" name="expiresAt" navigable="true">
+      <modelElement href="OTPMicroService1.uml#_u_LnkHN9EfCTGutOISnrsw"/>
+      <visibility xmi:id="_v6xGF3N9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6xGGHN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_v67eIHN9EfCTGutOISnrsw" sourceAnchor="205.0,103.0" targetAnchor="194.0,76.0" dashed="true" superClass="_v66QAHN9EfCTGutOISnrsw" subClass="_v68FOXN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u-1pVHN9EfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_G27f0HN-EfCTGutOISnrsw" sourceY="229" targetX="-754" targetY="288"/>
+    <bendpoints xmi:id="_G27f0XN-EfCTGutOISnrsw" sourceX="754" sourceY="229" targetY="288"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_v68FMHN9EfCTGutOISnrsw" source="_v68FOXN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u_vBMXN9EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_v68FMXN9EfCTGutOISnrsw" name="Reference">
+      <modelElement href="OTPMicroService1.uml#_u_yrkHN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_v68FMnN9EfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_v68FM3N9EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="OTPMicroService1.uml#_u_vBMnN9EfCTGutOISnrsw"/>
+      <visibility xmi:id="_v68FNHN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v68FNXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_v68FNnN9EfCTGutOISnrsw" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="OTPMicroService1.uml#_u_OD03N9EfCTGutOISnrsw"/>
+      <visibility xmi:id="_v68FN3N9EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_v68FOHN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_v68sQHN9EfCTGutOISnrsw" sourceAnchor="241.0,0.0" targetAnchor="12.0,115.0" target="_v61-kHN9EfCTGutOISnrsw" source="_v6_IgHN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u_yrkXN9EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_v69TU3N9EfCTGutOISnrsw" name="Reference">
+      <modelElement href="OTPMicroService1.uml#_u_4yMHN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_v69TUHN9EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_xn4IIXN9EfCTGutOISnrsw" position="2.0,-10.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_v69TUXN9EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="OTPMicroService1.uml#_u_yrknN9EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_xn4IIHN9EfCTGutOISnrsw" position="-17.0,-33.0"/>
+      <visibility xmi:id="_v6-hcXN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6-hcHN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_v69TUnN9EfCTGutOISnrsw" aggregationKind="NONE" name="userOtpRepository" navigable="true">
+      <modelElement href="OTPMicroService1.uml#_u_Oq5HN9EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_xn4IInN9EfCTGutOISnrsw" position="41.0,-17.0"/>
+      <visibility xmi:id="_v6-hc3N9EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_v6-hcnN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_v68sQXN9EfCTGutOISnrsw" sourceAnchor="189.0,0.0" targetAnchor="412.0,104.0" target="_v63MsHN9EfCTGutOISnrsw" source="_v6_IgHN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u_4yMXN9EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_v69TV3N9EfCTGutOISnrsw" name="Reference">
+      <modelElement href="OTPMicroService1.uml#_u__f4HN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_v69TVHN9EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_xn4IJHN9EfCTGutOISnrsw" position="-38.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_v69TVXN9EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="OTPMicroService1.uml#_u_4yMnN9EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_xn4II3N9EfCTGutOISnrsw" position="17.0,-56.0"/>
+      <visibility xmi:id="_v6-hdnN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6-hdXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_v69TVnN9EfCTGutOISnrsw" aggregationKind="NONE" name="smsSenderService" navigable="true">
+      <modelElement href="OTPMicroService1.uml#_u_PR8nN9EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_xn4IJXN9EfCTGutOISnrsw" position="-151.0,-13.0"/>
+      <visibility xmi:id="_v6-heHN9EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_v6-hd3N9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_v68sQnN9EfCTGutOISnrsw" sourceAnchor="422.0,50.0" targetAnchor="0.0,47.0" dashed="true" superClass="_v65B4HN9EfCTGutOISnrsw" subClass="_v6_IgHN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u-23cXN9EfCTGutOISnrsw"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v7EoEHN9EfCTGutOISnrsw" name="OtpMicroService1ApplicationTests">
+    <modelElement href="OTPMicroService1.uml#_u8PBQHN9EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_v7EoEXN9EfCTGutOISnrsw" position="-4402.0,-276.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_v7EoEnN9EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="OTPMicroService1.uml#_u8PoUHN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_v7EoE3N9EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="OTPMicroService1.uml#_u8PoVHN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_v7EoFHN9EfCTGutOISnrsw" label="~"/>
+    <operations xmi:id="_v7EoFXN9EfCTGutOISnrsw" name="contextLoads">
+      <modelElement href="OTPMicroService1.uml#_u8PoUXN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v7EoFnN9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u8PoUnN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v7EoF3N9EfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_v7EoGHN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v63MsHN9EfCTGutOISnrsw" name="SmsSenderService" associationsIn="_v68sQXN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u8EpMHN9EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_v63MsXN9EfCTGutOISnrsw" position="-4400.0,-392.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_v63MsnN9EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="OTPMicroService1.uml#_u8EpMXN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_v63Ms3N9EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="OTPMicroService1.uml#_u8FQRXN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_v63MtHN9EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_v63MtXN9EfCTGutOISnrsw" name="fromPhoneNumber">
+      <modelElement href="OTPMicroService1.uml#_u_NcwHN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v63MtnN9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u_OD0HN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v63Mt3N9EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_v63MuHN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_v63MuXN9EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_v63MunN9EfCTGutOISnrsw" name="sendSms">
+      <modelElement href="OTPMicroService1.uml#_u8FQQHN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v63Mu3N9EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="OTPMicroService1.uml#_u8FQRHN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v63MvHN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v63MvXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v63MvnN9EfCTGutOISnrsw">
+        <modelElement href="OTPMicroService1.uml#_u8FQQ3N9EfCTGutOISnrsw"/>
+        <type xmi:id="_v63Mv3N9EfCTGutOISnrsw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v63MwHN9EfCTGutOISnrsw" name="toPhoneNumber">
+        <modelElement href="OTPMicroService1.uml#_u8FQQXN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v63MwXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v63MwnN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v63Mw3N9EfCTGutOISnrsw" name="messageBody">
+        <modelElement href="OTPMicroService1.uml#_u8FQQnN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v63MxHN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v63MxXN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_v61-kHN9EfCTGutOISnrsw" name="UserOtpRepository" associationsIn="_v68sQHN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u7_JoHN9EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_v61-kXN9EfCTGutOISnrsw" position="-3948.0,-397.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_v61-knN9EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="OTPMicroService1.uml#_u7_wsHN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_v61-k3N9EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="OTPMicroService1.uml#_u8CM8HN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_v61-lHN9EfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_v61-lXN9EfCTGutOISnrsw" name="findByUserIdAndPhoneAndOtp">
+      <modelElement href="OTPMicroService1.uml#_u8AXwHN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v61-lnN9EfCTGutOISnrsw" name="Generics">
+        <modelElement href="OTPMicroService1.uml#_u8A-0HN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v61-l3N9EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="OTPMicroService1.uml#_u8A-0XN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v61-mHN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v61-mXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v61-mnN9EfCTGutOISnrsw">
+        <modelElement href="OTPMicroService1.uml#_u_E54HN9EfCTGutOISnrsw"/>
+        <type xmi:id="_v61-m3N9EfCTGutOISnrsw" name="Optional">
+          <modelElement href="OTPMicroService1.uml#_u-ymAHN9EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v61-nHN9EfCTGutOISnrsw" name="userId">
+        <modelElement href="OTPMicroService1.uml#_u8AXwXN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v61-nXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v61-nnN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v61-n3N9EfCTGutOISnrsw" name="phone">
+        <modelElement href="OTPMicroService1.uml#_u8AXwnN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v61-oHN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v61-oXN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v61-onN9EfCTGutOISnrsw" name="otp">
+        <modelElement href="OTPMicroService1.uml#_u8AXw3N9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v61-o3N9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v61-pHN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_v61-pXN9EfCTGutOISnrsw" name="deleteByUserIdAndPhone">
+      <modelElement href="OTPMicroService1.uml#_u8Bl4HN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v61-pnN9EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="OTPMicroService1.uml#_u8Bl43N9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v61-p3N9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v61-qHN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_v61-qXN9EfCTGutOISnrsw" name="userId">
+        <modelElement href="OTPMicroService1.uml#_u8Bl4XN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v61-qnN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v61-q3N9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v61-rHN9EfCTGutOISnrsw" name="phone">
+        <modelElement href="OTPMicroService1.uml#_u8Bl4nN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v61-rXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v61-rnN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v6_IgHN9EfCTGutOISnrsw" name="OtpServiceImpl" associationsOut="_v68sQHN9EfCTGutOISnrsw _v68sQXN9EfCTGutOISnrsw" generalizations="_v68sQnN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u8JhsHN9EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_v6_IgXN9EfCTGutOISnrsw" position="-4177.0,-266.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_v6_IgnN9EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="OTPMicroService1.uml#_u8KIwHN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_v6_Ig3N9EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="OTPMicroService1.uml#_u8NMEnN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_v6_IhHN9EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_v6_IhXN9EfCTGutOISnrsw" defaultValue="5" name="OTP_EXPIRY_MINUTES" staticAttribute="true">
+      <modelElement href="OTPMicroService1.uml#_u_Oq4XN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6_IhnN9EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="OTPMicroService1.uml#_u_Oq43N9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6_Ih3N9EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_v6_IiHN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_v6_IiXN9EfCTGutOISnrsw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_v6_IinN9EfCTGutOISnrsw" name="userOtpRepository">
+      <modelElement href="OTPMicroService1.uml#_u_Oq5HN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6_Ii3N9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u_PR8HN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6_IjHN9EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_v6_IjXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_v6_IjnN9EfCTGutOISnrsw" name="UserOtpRepository">
+        <modelElement href="OTPMicroService1.uml#_u7_JoHN9EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_v6_Ij3N9EfCTGutOISnrsw" name="smsSenderService">
+      <modelElement href="OTPMicroService1.uml#_u_PR8nN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6_IkHN9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u_P5AHN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6_IkXN9EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_v6_IknN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_v6_Ik3N9EfCTGutOISnrsw" name="SmsSenderService">
+        <modelElement href="OTPMicroService1.uml#_u8EpMHN9EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_v6_IlHN9EfCTGutOISnrsw" name="generateOtp">
+      <modelElement href="OTPMicroService1.uml#_u8Kv0HN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6_IlXN9EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="OTPMicroService1.uml#_u8LW4HN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6_IlnN9EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_v6_Il3N9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v6_ImHN9EfCTGutOISnrsw">
+        <modelElement href="OTPMicroService1.uml#_u8Kv0XN9EfCTGutOISnrsw"/>
+        <type xmi:id="_v6_ImXN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v6_ImnN9EfCTGutOISnrsw" name="generateAndSendOtp">
+      <modelElement href="OTPMicroService1.uml#_u8LW4XN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6_Im3N9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u8L98HN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6_InHN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6_InXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_v6_InnN9EfCTGutOISnrsw" name="userId">
+        <modelElement href="OTPMicroService1.uml#_u8LW4nN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v6_In3N9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v6_IoHN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v6_IoXN9EfCTGutOISnrsw" name="phone">
+        <modelElement href="OTPMicroService1.uml#_u8LW43N9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v6_IonN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v6_Io3N9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_v6_IpHN9EfCTGutOISnrsw" name="verifyOtp">
+      <modelElement href="OTPMicroService1.uml#_u8MlAHN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6_IpXN9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u8NMEHN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6_IpnN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6_Ip3N9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v6_IqHN9EfCTGutOISnrsw">
+        <modelElement href="OTPMicroService1.uml#_u8MlBHN9EfCTGutOISnrsw"/>
+        <type xmi:id="_v6_IqXN9EfCTGutOISnrsw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v6_IqnN9EfCTGutOISnrsw" name="userId">
+        <modelElement href="OTPMicroService1.uml#_u8MlAXN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v6_Iq3N9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v6_IrHN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v6_IrXN9EfCTGutOISnrsw" name="phone">
+        <modelElement href="OTPMicroService1.uml#_u8MlAnN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v6_IrnN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v6_Ir3N9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v6_IsHN9EfCTGutOISnrsw" name="otp">
+        <modelElement href="OTPMicroService1.uml#_u8MlA3N9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v6_IsXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v6_IsnN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_v65B4HN9EfCTGutOISnrsw" name="OtpService" associationsIn="_v6tbsHN9EfCTGutOISnrsw" subclassedBy="_v68sQnN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u8C0AHN9EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_v65B4XN9EfCTGutOISnrsw" position="-3743.0,-263.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_v65B4nN9EfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_v65B43N9EfCTGutOISnrsw" name="generateAndSendOtp">
+      <modelElement href="OTPMicroService1.uml#_u8DbEHN9EfCTGutOISnrsw"/>
+      <visibility xmi:id="_v65B5HN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v65B5XN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_v65B5nN9EfCTGutOISnrsw" name="userId">
+        <modelElement href="OTPMicroService1.uml#_u8DbEXN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v65B53N9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v65B6HN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v65B6XN9EfCTGutOISnrsw" name="phone">
+        <modelElement href="OTPMicroService1.uml#_u8DbEnN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v65B6nN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v65B63N9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_v65B7HN9EfCTGutOISnrsw" name="verifyOtp">
+      <modelElement href="OTPMicroService1.uml#_u8DbE3N9EfCTGutOISnrsw"/>
+      <visibility xmi:id="_v65B7XN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v65B7nN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v65B73N9EfCTGutOISnrsw">
+        <modelElement href="OTPMicroService1.uml#_u8ECI3N9EfCTGutOISnrsw"/>
+        <type xmi:id="_v65B8HN9EfCTGutOISnrsw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v65B8XN9EfCTGutOISnrsw" name="userId">
+        <modelElement href="OTPMicroService1.uml#_u8ECIHN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v65B8nN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v65B83N9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v65B9HN9EfCTGutOISnrsw" name="phone">
+        <modelElement href="OTPMicroService1.uml#_u8ECIXN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v65B9XN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v65B9nN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v65B93N9EfCTGutOISnrsw" name="otp">
+        <modelElement href="OTPMicroService1.uml#_u8ECInN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v65B-HN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v65B-XN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v68FOXN9EfCTGutOISnrsw" name="DummySmsServiceImpl" associationsOut="_v68FMHN9EfCTGutOISnrsw" generalizations="_v67eIHN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u8GeZHN9EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_v68FOnN9EfCTGutOISnrsw" position="-4413.0,-114.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_v68FO3N9EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="OTPMicroService1.uml#_u8HFcHN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_v68FPHN9EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="OTPMicroService1.uml#_u8ITknN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_v68FPXN9EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_v68FPnN9EfCTGutOISnrsw" defaultValue="LoggerFactory.getLogger(DummySmsServiceImpl.class)" name="logger" staticAttribute="true">
+      <modelElement href="OTPMicroService1.uml#_u_OD03N9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v68FP3N9EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="OTPMicroService1.uml#_u_Oq4HN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v68FQHN9EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_v68FQXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_v68FQnN9EfCTGutOISnrsw" name="Logger">
+        <modelElement href="OTPMicroService1.uml#_u-1pUHN9EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_v68FQ3N9EfCTGutOISnrsw" name="sendSms">
+      <modelElement href="OTPMicroService1.uml#_u8HsgHN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v68FRHN9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u8ITkHN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v68FRXN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v68FRnN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v68FR3N9EfCTGutOISnrsw">
+        <modelElement href="OTPMicroService1.uml#_u8Hsg3N9EfCTGutOISnrsw"/>
+        <type xmi:id="_v68FSHN9EfCTGutOISnrsw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v68FSXN9EfCTGutOISnrsw" name="phoneNumber">
+        <modelElement href="OTPMicroService1.uml#_u8HsgXN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v68FSnN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v68FS3N9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v68FTHN9EfCTGutOISnrsw" name="message">
+        <modelElement href="OTPMicroService1.uml#_u8HsgnN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v68FTXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v68FTnN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_v66QAHN9EfCTGutOISnrsw" name="SmsService" subclassedBy="_v67eIHN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u8F3UHN9EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_v66QAXN9EfCTGutOISnrsw" position="-3648.0,-146.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_v66QAnN9EfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_v66QA3N9EfCTGutOISnrsw" name="sendSms">
+      <modelElement href="OTPMicroService1.uml#_u8GeYHN9EfCTGutOISnrsw"/>
+      <visibility xmi:id="_v66QBHN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v66QBXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v66QBnN9EfCTGutOISnrsw">
+        <modelElement href="OTPMicroService1.uml#_u8GeY3N9EfCTGutOISnrsw"/>
+        <type xmi:id="_v66QB3N9EfCTGutOISnrsw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v66QCHN9EfCTGutOISnrsw" name="phoneNumber">
+        <modelElement href="OTPMicroService1.uml#_u8GeYXN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v66QCXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v66QCnN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v66QC3N9EfCTGutOISnrsw" name="message">
+        <modelElement href="OTPMicroService1.uml#_u8GeYnN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v66QDHN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v66QDXN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v65o8HN9EfCTGutOISnrsw" name="Exception">
+    <modelElement href="OTPMicroService1.uml#_u_E54nN9EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_v65o8XN9EfCTGutOISnrsw" position="-3394.0,-339.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_v65o8nN9EfCTGutOISnrsw" name="Reference">
+      <modelElement href="OTPMicroService1.uml#_u_Fg8HN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_v65o83N9EfCTGutOISnrsw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v6muAHN9EfCTGutOISnrsw" name="WebConfig">
+    <modelElement href="OTPMicroService1.uml#_u71YoHN9EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_v6nVEHN9EfCTGutOISnrsw" position="-4159.0,5.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_v6nVEXN9EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="OTPMicroService1.uml#_u71_sHN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_v6nVEnN9EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="OTPMicroService1.uml#_u71_sXN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_v6nVE3N9EfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_v6nVFHN9EfCTGutOISnrsw" name="addCorsMappings">
+      <modelElement href="OTPMicroService1.uml#_u-7I4HN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6nVFXN9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u-7v8HN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6nVFnN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6nVF3N9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_v6nVGHN9EfCTGutOISnrsw" name="registry">
+        <modelElement href="OTPMicroService1.uml#_u-7I4XN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v6nVGXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v6nVGnN9EfCTGutOISnrsw" name="CorsRegistry">
+          <modelElement href="OTPMicroService1.uml#_u-mYwHN9EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v6k40HN9EfCTGutOISnrsw" name="OtpMicroService1Application">
+    <modelElement href="OTPMicroService1.uml#_u7xuQHN9EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_v6k40XN9EfCTGutOISnrsw" position="-4366.0,0.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_v6k40nN9EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="OTPMicroService1.uml#_u7y8YHN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_v6k403N9EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="OTPMicroService1.uml#_u7zjdXN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_v6k41HN9EfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_v6k41XN9EfCTGutOISnrsw" name="main" staticOperation="true">
+      <modelElement href="OTPMicroService1.uml#_u7zjcXN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6k41nN9EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="OTPMicroService1.uml#_u7zjc3N9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6k413N9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6k42HN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_v6k42XN9EfCTGutOISnrsw" name="args">
+        <modelElement href="OTPMicroService1.uml#_u7zjcnN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v6k42nN9EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_v6k423N9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v6qYYHN9EfCTGutOISnrsw" name="TwilioConfig">
+    <modelElement href="OTPMicroService1.uml#_u70KgHN9EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_v6qYYXN9EfCTGutOISnrsw" position="-3298.0,-56.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_v6qYYnN9EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="OTPMicroService1.uml#_u70KgXN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_v6qYY3N9EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="OTPMicroService1.uml#_u70xknN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_v6qYZHN9EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_v6qYZXN9EfCTGutOISnrsw" name="accountSid">
+      <modelElement href="OTPMicroService1.uml#_u_GvEHN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6qYZnN9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u_GvEXN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6qYZ3N9EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_v6qYaHN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_v6qYaXN9EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_v6qYanN9EfCTGutOISnrsw" name="authToken">
+      <modelElement href="OTPMicroService1.uml#_u_GvFHN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6qYa3N9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u_GvFXN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6qYbHN9EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_v6qYbXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_v6qYbnN9EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_v6qYb3N9EfCTGutOISnrsw" name="initTwilio">
+      <modelElement href="OTPMicroService1.uml#_u70KgnN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6qYcHN9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u70xkHN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6qYcXN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6qYcnN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v6xGGXN9EfCTGutOISnrsw" name="UserOtp" associationsOut="_v6wfAHN9EfCTGutOISnrsw _v6wfCXN9EfCTGutOISnrsw _v6xGEHN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u75DAHN9EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_v6xGGnN9EfCTGutOISnrsw" position="-3841.0,-5.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_v6xGG3N9EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="OTPMicroService1.uml#_u76RIHN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_v6xGHHN9EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="OTPMicroService1.uml#_u78GUHN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_v6xGHXN9EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_v6xGHnN9EfCTGutOISnrsw" name="id">
+      <modelElement href="OTPMicroService1.uml#_u_HWInN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6xGH3N9EfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="OTPMicroService1.uml#_u_H9MHN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v6xGIHN9EfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="OTPMicroService1.uml#_u_IkQHN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6xGIXN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6xGInN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_v6xGI3N9EfCTGutOISnrsw" name="ObjectId">
+        <modelElement href="OTPMicroService1.uml#_u-qqMHN9EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_v6xGJHN9EfCTGutOISnrsw" name="userId">
+      <modelElement href="OTPMicroService1.uml#_u_IkQXN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6xGJXN9EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="OTPMicroService1.uml#_u_JLUHN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6xGJnN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6xGJ3N9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_v6xGKHN9EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_v6xGKXN9EfCTGutOISnrsw" name="phone">
+      <modelElement href="OTPMicroService1.uml#_u_JLUXN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6xGKnN9EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="OTPMicroService1.uml#_u_JLUnN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6xGK3N9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6xGLHN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_v6xGLXN9EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_v6xGLnN9EfCTGutOISnrsw" name="otp">
+      <modelElement href="OTPMicroService1.uml#_u_JLU3N9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6xGL3N9EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="OTPMicroService1.uml#_u_JLVHN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6xGMHN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6xGMXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_v6xGMnN9EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_v6xGM3N9EfCTGutOISnrsw" defaultValue="Instant.now()" name="createdAt">
+      <modelElement href="OTPMicroService1.uml#_u_JLVXN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6xGNHN9EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="OTPMicroService1.uml#_u_LAgHN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v6xGNXN9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u_LAhXN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6xGNnN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6xGN3N9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_v6xGOHN9EfCTGutOISnrsw" name="Instant">
+        <modelElement href="OTPMicroService1.uml#_u-u7oHN9EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_v6xGOXN9EfCTGutOISnrsw" name="expiresAt">
+      <modelElement href="OTPMicroService1.uml#_u_LnkHN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6xGOnN9EfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="OTPMicroService1.uml#_u_LnkXN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v6xGO3N9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u_MOpHN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6xGPHN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6xGPXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_v6xGPnN9EfCTGutOISnrsw" name="Instant">
+        <modelElement href="OTPMicroService1.uml#_u-u7oHN9EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_v6xGP3N9EfCTGutOISnrsw" name="get_id_asString">
+      <modelElement href="OTPMicroService1.uml#_u76RIXN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6xGQHN9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u764MXN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6xGQXN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6xGQnN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v6xGQ3N9EfCTGutOISnrsw">
+        <modelElement href="OTPMicroService1.uml#_u764MHN9EfCTGutOISnrsw"/>
+        <type xmi:id="_v6xGRHN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v6xGRXN9EfCTGutOISnrsw" name="UserOtp">
+      <modelElement href="OTPMicroService1.uml#_u_BPgHN9EfCTGutOISnrsw"/>
+      <keywords xmi:id="_v6xGRnN9EfCTGutOISnrsw" keyword="create"/>
+      <stereotypes xmi:id="_v6xGR3N9EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="OTPMicroService1.uml#_u_B2k3N9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6xGSHN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6xGSXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v6xGSnN9EfCTGutOISnrsw">
+        <modelElement href="OTPMicroService1.uml#_u_B2knN9EfCTGutOISnrsw"/>
+        <type xmi:id="_v6xGS3N9EfCTGutOISnrsw" name="UserOtp">
+          <modelElement href="OTPMicroService1.uml#_u75DAHN9EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v6xGTHN9EfCTGutOISnrsw" name="userId">
+        <modelElement href="OTPMicroService1.uml#_u_BPgXN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v6xGTXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v6xGTnN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v6xGT3N9EfCTGutOISnrsw" name="phone">
+        <modelElement href="OTPMicroService1.uml#_u_BPgnN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v6xGUHN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v6xGUXN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v6xGUnN9EfCTGutOISnrsw" name="otp">
+        <modelElement href="OTPMicroService1.uml#_u_BPg3N9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v6xGU3N9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v6xGVHN9EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v6xGVXN9EfCTGutOISnrsw" name="expiresAt">
+        <modelElement href="OTPMicroService1.uml#_u_BPhHN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v6xGVnN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v6xGV3N9EfCTGutOISnrsw" name="Instant">
+          <modelElement href="OTPMicroService1.uml#_u-u7oHN9EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v6tbuXN9EfCTGutOISnrsw" name="OtpController" associationsOut="_v6tbsHN9EfCTGutOISnrsw">
+    <modelElement href="OTPMicroService1.uml#_u73N0HN9EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_v6tbunN9EfCTGutOISnrsw" position="-3999.0,-111.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_v6tbu3N9EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="OTPMicroService1.uml#_u7304HN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_v6tbvHN9EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="OTPMicroService1.uml#_u74b8HN9EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_v6tbvXN9EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_v6tbvnN9EfCTGutOISnrsw" name="otpService">
+      <modelElement href="OTPMicroService1.uml#_u_GvGHN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6tbv3N9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u_HWIHN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6tbwHN9EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_v6tbwXN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_v6tbwnN9EfCTGutOISnrsw" name="OtpService">
+        <modelElement href="OTPMicroService1.uml#_u8C0AHN9EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_v6tbw3N9EfCTGutOISnrsw" name="sendOtp">
+      <modelElement href="OTPMicroService1.uml#_u-8XAHN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6tbxHN9EfCTGutOISnrsw" name="Generics">
+        <modelElement href="OTPMicroService1.uml#_u-8-EHN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v6tbxXN9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u-9lI3N9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6tbxnN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6tbx3N9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v6tbyHN9EfCTGutOISnrsw">
+        <modelElement href="OTPMicroService1.uml#_u-8-EXN9EfCTGutOISnrsw"/>
+        <type xmi:id="_v6tbyXN9EfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="OTPMicroService1.uml#_u-pcEXN9EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v6tbynN9EfCTGutOISnrsw" name="request">
+        <modelElement href="OTPMicroService1.uml#_u-8XAXN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v6tby3N9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v6tbzHN9EfCTGutOISnrsw" name="Map">
+          <modelElement href="OTPMicroService1.uml#_u-oN8HN9EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_v6tbzXN9EfCTGutOISnrsw" name="verifyOtp">
+      <modelElement href="OTPMicroService1.uml#_u--MMHN9EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_v6tbznN9EfCTGutOISnrsw" name="Generics">
+        <modelElement href="OTPMicroService1.uml#_u--zQHN9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v6tbz3N9EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="OTPMicroService1.uml#_u-_aU3N9EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_v6tb0HN9EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_v6tb0XN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v6tb0nN9EfCTGutOISnrsw">
+        <modelElement href="OTPMicroService1.uml#_u--zQXN9EfCTGutOISnrsw"/>
+        <type xmi:id="_v6tb03N9EfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="OTPMicroService1.uml#_u-pcEXN9EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v6tb1HN9EfCTGutOISnrsw" name="request">
+        <modelElement href="OTPMicroService1.uml#_u--MMXN9EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_v6tb1XN9EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_v6tb1nN9EfCTGutOISnrsw" name="Map">
+          <modelElement href="OTPMicroService1.uml#_u-oN8HN9EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

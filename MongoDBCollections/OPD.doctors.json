@@ -1,0 +1,344 @@
+[{
+  "_id": {
+    "$oid": "6883742864d9b4574f963fb9"
+  },
+  "id": 1,
+  "user_id": "6881f77864d9b4574f963f41",
+  "first_name": "Dr. Santosh",
+  "last_name": "Kumar",
+  "specialization": "Cardiology",
+  "contact_number": "+919000111222",
+  "email": "dr.santhosh@example.com",
+  "license_number": "MED-12345",
+  "consultation_fee": 800,
+  "created_at": "2024-02-15T11:30:00Z",
+  "updated_at": "2024-02-15T11:30:00Z",
+  "experience": 2,
+  "education": "MD"
+},
+{
+  "_id": {
+    "$oid": "6883742864d9b4574f963fba"
+  },
+  "user_id": "6881f77864d9b4574f963f49",
+  "first_name": "Dr. Rahul",
+  "last_name": "Kumar",
+  "specialization": "Pediatrics",
+  "contact_number": "+919000333444",
+  "email": "dr.rahul@example.com",
+  "license_number": "MED-67890",
+  "consultation_fee": 800,
+  "created_at": {
+    "$date": "2024-03-01T09:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-16T13:13:56.322Z"
+  },
+  "experience": 2,
+  "education": "MSC",
+  "_class": "training.iqgateway.entities.Doctor"
+},
+{
+  "_id": {
+    "$oid": "6883742864d9b4574f963fbb"
+  },
+  "id": 3,
+  "user_id": "6881f77864d9b4574f963f4a",
+  "first_name": "Dr. Satish",
+  "last_name": "Kumar",
+  "specialization": "Dermatology",
+  "contact_number": "+919000555666",
+  "email": "dr.satish@example.com",
+  "license_number": "MED-13579",
+  "consultation_fee": 900,
+  "created_at": "2024-04-10T14:00:00Z",
+  "updated_at": "2024-04-10T14:00:00Z",
+  "experience": 2,
+  "education": "MDDDD"
+},
+{
+  "_id": {
+    "$oid": "6883742864d9b4574f963fbc"
+  },
+  "id": 4,
+  "user_id": "6881f77864d9b4574f963f4b",
+  "first_name": "Dr. Anil",
+  "last_name": "Kumar",
+  "specialization": "Orthopedics",
+  "contact_number": "+919000777888",
+  "email": "dr.yuvraj@example.com",
+  "license_number": "MED-24680",
+  "consultation_fee": 1000,
+  "created_at": "2024-05-20T10:30:00Z",
+  "updated_at": "2024-05-20T10:30:00Z",
+  "experience": 2,
+  "education": "MD"
+},
+{
+  "_id": {
+    "$oid": "6883742864d9b4574f963fbd"
+  },
+  "id": 5,
+  "user_id": "6881f77864d9b4574f963f4c",
+  "first_name": "Dr. Nithish",
+  "last_name": "Kumar",
+  "specialization": "General Physician",
+  "contact_number": "+919000999000",
+  "email": "dr.nitish@example.com",
+  "license_number": "MED-98765",
+  "consultation_fee": 650,
+  "created_at": "2024-06-01T08:00:00Z",
+  "updated_at": "2024-06-01T08:00:00Z",
+  "experience": 2,
+  "education": "MD"
+},
+{
+  "_id": {
+    "$oid": "689240695fe008848afda9d2"
+  },
+  "id": 1,
+  "first_name": "Dr. Rohan",
+  "last_name": "Mehra",
+  "specialization": "Cardiologist",
+  "contact_number": "+919876543210",
+  "email": "dr.rohan.mehra@example.com",
+  "license_number": "CARD-10001",
+  "consultation_fee": 800,
+  "created_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "experience": 7,
+  "education": "MD, DM Cardiology",
+  "_class": "training.iqgateway.entities.Doctor",
+  "user_id": {
+    "$oid": "68923fb7fc19cba58e96cf56"
+  }
+},
+{
+  "_id": {
+    "$oid": "689240695fe008848afda9d3"
+  },
+  "id": 2,
+  "first_name": "Dr. Ananya",
+  "last_name": "Sharma",
+  "specialization": "Pediatrician",
+  "contact_number": "+919765432109",
+  "email": "dr.ananya.sharma@example.com",
+  "license_number": "PEDS-10002",
+  "consultation_fee": 700,
+  "created_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "experience": 5,
+  "education": "MD, DNB Pediatrics",
+  "_class": "training.iqgateway.entities.Doctor",
+  "user_id": {
+    "$oid": "68923fb7fc19cba58e96cf57"
+  }
+},
+{
+  "_id": {
+    "$oid": "689240695fe008848afda9d4"
+  },
+  "id": 3,
+  "first_name": "Dr. Vikram",
+  "last_name": "Singh",
+  "specialization": "Orthopedic Surgeon",
+  "contact_number": "+919654321098",
+  "email": "dr.vikram.singh@example.com",
+  "license_number": "ORTHO-10003",
+  "consultation_fee": 950,
+  "created_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "experience": 10,
+  "education": "MS Orthopedics",
+  "_class": "training.iqgateway.entities.Doctor",
+  "user_id": {
+    "$oid": "68923fb7fc19cba58e96cf58"
+  }
+},
+{
+  "_id": {
+    "$oid": "689240695fe008848afda9d5"
+  },
+  "id": 4,
+  "first_name": "Dr. Pooja",
+  "last_name": "Verma",
+  "specialization": "Dermatologist",
+  "contact_number": "+919543210987",
+  "email": "dr.pooja.verma@example.com",
+  "license_number": "DERM-10004",
+  "consultation_fee": 750,
+  "created_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "experience": 6,
+  "education": "MD Dermatology",
+  "_class": "training.iqgateway.entities.Doctor",
+  "user_id": {
+    "$oid": "68923fb7fc19cba58e96cf59"
+  }
+},
+{
+  "_id": {
+    "$oid": "689240695fe008848afda9d6"
+  },
+  "id": 5,
+  "first_name": "Dr. Arjun",
+  "last_name": "Reddy",
+  "specialization": "Neurologist",
+  "contact_number": "+919432109876",
+  "email": "dr.arjun.reddy@example.com",
+  "license_number": "NEURO-10005",
+  "consultation_fee": 1000,
+  "created_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "experience": 12,
+  "education": "MD, DM Neurology",
+  "_class": "training.iqgateway.entities.Doctor",
+  "user_id": {
+    "$oid": "68923fb7fc19cba58e96cf5a"
+  }
+},
+{
+  "_id": {
+    "$oid": "689240695fe008848afda9d7"
+  },
+  "id": 6,
+  "first_name": "Dr. Kavita",
+  "last_name": "Joshi",
+  "specialization": "Gynecologist",
+  "contact_number": "+919321098765",
+  "email": "dr.kavita.joshi@example.com",
+  "license_number": "GYN-10006",
+  "consultation_fee": 850,
+  "created_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "experience": 9,
+  "education": "MD OB/GYN",
+  "_class": "training.iqgateway.entities.Doctor",
+  "user_id": {
+    "$oid": "68923fb7fc19cba58e96cf5b"
+  }
+},
+{
+  "_id": {
+    "$oid": "689240695fe008848afda9d8"
+  },
+  "id": 7,
+  "first_name": "Dr. Sameer",
+  "last_name": "Desai",
+  "specialization": "Gastroenterologist",
+  "contact_number": "+919210987654",
+  "email": "dr.sameer.desai@example.com",
+  "license_number": "GASTRO-10007",
+  "consultation_fee": 900,
+  "created_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "experience": 8,
+  "education": "MD, DM Gastroenterology",
+  "_class": "training.iqgateway.entities.Doctor",
+  "user_id": {
+    "$oid": "68923fb7fc19cba58e96cf5c"
+  }
+},
+{
+  "_id": {
+    "$oid": "689240695fe008848afda9d9"
+  },
+  "id": 8,
+  "first_name": "Dr. Neha",
+  "last_name": "Gupta",
+  "specialization": "Ophthalmologist",
+  "contact_number": "+919109876543",
+  "email": "dr.neha.gupta@example.com",
+  "license_number": "OPHTH-10008",
+  "consultation_fee": 780,
+  "created_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "experience": 4,
+  "education": "MS Ophthalmology",
+  "_class": "training.iqgateway.entities.Doctor",
+  "user_id": {
+    "$oid": "68923fb7fc19cba58e96cf5d"
+  }
+},
+{
+  "_id": {
+    "$oid": "689240695fe008848afda9da"
+  },
+  "id": 9,
+  "first_name": "Dr. Alok",
+  "last_name": "Kumar",
+  "specialization": "Pulmonologist",
+  "contact_number": "+919098765432",
+  "email": "dr.alok.kumar@example.com",
+  "license_number": "PULM-10009",
+  "consultation_fee": 820,
+  "created_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "experience": 6,
+  "education": "MD, DM Pulmonology",
+  "_class": "training.iqgateway.entities.Doctor",
+  "user_id": {
+    "$oid": "68923fb7fc19cba58e96cf5e"
+  }
+},
+{
+  "_id": {
+    "$oid": "689240695fe008848afda9db"
+  },
+  "id": 10,
+  "first_name": "Dr. Rina",
+  "last_name": "Shah",
+  "specialization": "Endocrinologist",
+  "contact_number": "+918987654321",
+  "email": "dr.rina.shah@example.com",
+  "license_number": "ENDO-10010",
+  "consultation_fee": 920,
+  "created_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "updated_at": {
+    "$date": "2025-08-05T17:33:29.234Z"
+  },
+  "experience": 11,
+  "education": "MD, DM Endocrinology",
+  "_class": "training.iqgateway.entities.Doctor",
+  "user_id": {
+    "$oid": "68923fb7fc19cba58e96cf5f"
+  }
+}]

@@ -1,0 +1,193 @@
+[{
+  "_id": {
+    "$oid": "688392c264d9b4574f963fde"
+  },
+  "id": 1,
+  "bill_id": "1",
+  "description": "CBC(Complete Blood Count)",
+  "quantity": 1,
+  "unit_price": 299,
+  "service_date": "2025-07-01T10:30:00Z",
+  "notes": "Initial consult with Dr. Smith",
+  "created_at": "2025-07-01T11:00:00Z",
+  "updated_at": "2025-07-01T11:00:00Z",
+  "appointment_id": "6883933864d9b4574f963fee"
+},
+{
+  "_id": {
+    "$oid": "688392c264d9b4574f963fdf"
+  },
+  "id": 2,
+  "bill_id": "1",
+  "description": "ECG",
+  "quantity": 1,
+  "unit_price": 400,
+  "service_date": "2025-07-01T10:30:00Z",
+  "notes": "Part of cardiac assessment",
+  "created_at": "2025-07-01T11:00:00Z",
+  "updated_at": "2025-07-01T11:00:00Z",
+  "appointment_id": "6883933864d9b4574f963fee"
+},
+{
+  "_id": {
+    "$oid": "688392c264d9b4574f963fe0"
+  },
+  "id": 3,
+  "bill_id": "2",
+  "description": "Lipid Profile",
+  "quantity": 1,
+  "unit_price": 299,
+  "service_date": "2025-07-05T14:00:00Z",
+  "notes": "Child's check-up",
+  "created_at": "2025-07-05T14:30:00Z",
+  "updated_at": "2025-07-05T14:30:00Z",
+  "appointment_id": "6883933864d9b4574f963fee"
+},
+{
+  "_id": {
+    "$oid": "688392c264d9b4574f963fe1"
+  },
+  "id": 4,
+  "bill_id": "2",
+  "description": "Thyroid Profile(TFI)",
+  "quantity": 1,
+  "unit_price": 299,
+  "service_date": "2025-07-05T14:00:00Z",
+  "notes": "Routine childhood vaccination",
+  "created_at": "2025-07-05T14:30:00Z",
+  "updated_at": "2025-07-05T14:30:00Z",
+  "appointment_id": "6883933864d9b4574f963fee"
+},
+{
+  "_id": {
+    "$oid": "688392c264d9b4574f963fe2"
+  },
+  "id": 5,
+  "bill_id": "3",
+  "description": "Liver Function Test",
+  "quantity": 1,
+  "unit_price": 370,
+  "service_date": "2025-07-10T11:00:00Z",
+  "notes": "Rash diagnosis",
+  "created_at": "2025-07-10T11:30:00Z",
+  "updated_at": "2025-07-10T11:30:00Z",
+  "appointment_id": "6883933864d9b4574f963fee"
+},
+{
+  "_id": {
+    "$oid": "688392c264d9b4574f963fe3"
+  },
+  "id": 6,
+  "bill_id": "4",
+  "description": "HIV Test",
+  "quantity": 1,
+  "unit_price": 250,
+  "service_date": "2025-07-15T09:45:00Z",
+  "notes": "Knee injury assessment",
+  "created_at": "2025-07-15T10:00:00Z",
+  "updated_at": "2025-07-15T10:00:00Z",
+  "appointment_id": "6883933864d9b4574f963fee"
+},
+{
+  "_id": {
+    "$oid": "688392c264d9b4574f963fe4"
+  },
+  "id": 7,
+  "bill_id": "4",
+  "description": "Physiotherapy Session",
+  "quantity": 3,
+  "unit_price": 500,
+  "service_date": "2025-07-15T10:00:00Z",
+  "notes": "Recommended 3 sessions",
+  "created_at": "2025-07-15T10:00:00Z",
+  "updated_at": "2025-07-15T10:00:00Z",
+  "appointment_id": "6883933864d9b4574f963fee"
+},
+{
+  "_id": {
+    "$oid": "6888b2a046119a9cf4ba1f05"
+  },
+  "bill_id": "6888b2a046119a9cf4ba1f03",
+  "description": "Orthopedic Consultation",
+  "quantity": 1,
+  "unit_price": 1000,
+  "service_date": "2025-07-15",
+  "notes": "Knee injury assessment",
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.BillItem"
+},
+{
+  "_id": {
+    "$oid": "6889bdee22f1a7b734cf94ea"
+  },
+  "bill_id": "6889bdee22f1a7b734cf94e9",
+  "description": "Vaccination (Polio)",
+  "quantity": 1,
+  "unit_price": 200,
+  "service_date": "2025-07-05",
+  "notes": "Routine childhood vaccination",
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.BillItem"
+},
+{
+  "_id": {
+    "$oid": "6889be0522f1a7b734cf94ed"
+  },
+  "bill_id": "6889be0522f1a7b734cf94ec",
+  "description": "Vaccination (Polio)",
+  "quantity": 1,
+  "unit_price": 200,
+  "service_date": "2025-07-05",
+  "notes": "Routine childhood vaccination",
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.BillItem"
+},
+{
+  "_id": {
+    "$oid": "688f942622f1a7b734cf9503"
+  },
+  "bill_id": "688f942622f1a7b734cf9502",
+  "description": "Cardiology Consultation",
+  "quantity": 1,
+  "unit_price": 800,
+  "service_date": "2025-07-01",
+  "notes": "Initial consult with Dr. Smith",
+  "appointment_id": "6883933864d9b4574f963ff0",
+  "_class": "training.iqgateway.entities.BillItem"
+},
+{
+  "_id": {
+    "$oid": "688fab1722f1a7b734cf951b"
+  },
+  "description": "Cardiology Consultation",
+  "quantity": 1,
+  "unit_price": 800,
+  "service_date": "2025-07-01",
+  "notes": "Initial consult with Dr. Smith",
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.BillItem"
+},
+{
+  "_id": {
+    "$oid": "688fab1722f1a7b734cf951c"
+  },
+  "description": "Dermatology Consultation",
+  "quantity": 1,
+  "unit_price": 900,
+  "service_date": "2025-07-10",
+  "notes": "Rash diagnosis",
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.BillItem"
+},
+{
+  "_id": {
+    "$oid": "688fb01422f1a7b734cf952a"
+  },
+  "description": "Physiotherapy Session",
+  "quantity": 3,
+  "unit_price": 500,
+  "service_date": "2025-07-15",
+  "notes": "Recommended 3 sessions",
+  "appointment_id": "6883933864d9b4574f963fee",
+  "_class": "training.iqgateway.entities.BillItem"
+}]

@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_KX5k0HOBEfCTGutOISnrsw">
+  <modelElement href="users-microservice.uml#_K52bU3OBEfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Lqt3kHOBEfCTGutOISnrsw" sourceAnchor="0.0,122.0" targetAnchor="387.0,123.0" target="_Lq3okHOBEfCTGutOISnrsw" source="_Lqt3mXOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K9pWMHOBEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_Lqt3kXOBEfCTGutOISnrsw" name="Reference">
+      <modelElement href="users-microservice.uml#_K9rycHOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Lqt3knOBEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_OlBskHOBEfCTGutOISnrsw" position="-13.0,7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Lqt3k3OBEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="users-microservice.uml#_K9pWMXOBEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_OlBFg3OBEfCTGutOISnrsw" position="-13.0,41.0"/>
+      <visibility xmi:id="_Lqt3lHOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lqt3lXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Lqt3lnOBEfCTGutOISnrsw" aggregationKind="NONE" name="userService" navigable="true">
+      <modelElement href="users-microservice.uml#_K9aFoHOBEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_OlBskXOBEfCTGutOISnrsw" position="-32.0,-51.0"/>
+      <visibility xmi:id="_Lqt3l3OBEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Lqt3mHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_LqyJAHOBEfCTGutOISnrsw" sourceAnchor="0.0,279.0" targetAnchor="0.0,127.0" target="_Lq3okHOBEfCTGutOISnrsw" source="_LqzXKHOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K9m58nOBEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_gHO_EHOBEfCTGutOISnrsw" sourceX="-787" targetX="-18" targetY="464"/>
+    <bendpoints xmi:id="_gHO_EXOBEfCTGutOISnrsw" sourceX="-787" sourceY="-464" targetX="-18"/>
+    <nameVisual xmi:id="_LqyJAXOBEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_OlCToHOBEfCTGutOISnrsw" position="41.0,212.00000000000034"/>
+    </nameVisual>
+    <sourceRole xmi:id="_LqyJAnOBEfCTGutOISnrsw" aggregationKind="NONE" name="allUsers" navigable="true">
+      <modelElement href="users-microservice.uml#_K6VjgXOBEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_OlBsknOBEfCTGutOISnrsw" position="-123.0,2.0"/>
+      <visibility xmi:id="_LqywEXOBEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_LqywEHOBEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_LqyJA3OBEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="users-microservice.uml#_K9m583OBEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_OlCToXOBEfCTGutOISnrsw" position="-17.0,40.99999999999983"/>
+      <visibility xmi:id="_LqywE3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqywEnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_LqywFHOBEfCTGutOISnrsw" target="_LqzXKHOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K9mS53OBEfCTGutOISnrsw"/>
+    <nameVisual xmi:id="_LqywFXOBEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_LqywFnOBEfCTGutOISnrsw" aggregationKind="NONE" name="last_login" navigable="true">
+      <modelElement href="users-microservice.uml#_K9dwA3OBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_LqywF3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqywGHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_LqywGXOBEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="users-microservice.uml#_K9mS6HOBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_LqywGnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqywG3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_LqywHHOBEfCTGutOISnrsw" target="_LqzXKHOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K9mS6XOBEfCTGutOISnrsw"/>
+    <nameVisual xmi:id="_LqywHXOBEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_LqywHnOBEfCTGutOISnrsw" aggregationKind="NONE" name="created_at" navigable="true">
+      <modelElement href="users-microservice.uml#_K9dwBXOBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_LqywH3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqywIHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_LqywIXOBEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="users-microservice.uml#_K9mS6nOBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_LqywInOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqywI3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_LqzXIHOBEfCTGutOISnrsw" target="_LqzXKHOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K9m58HOBEfCTGutOISnrsw"/>
+    <nameVisual xmi:id="_LqzXIXOBEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_LqzXInOBEfCTGutOISnrsw" aggregationKind="NONE" name="updated_at" navigable="true">
+      <modelElement href="users-microservice.uml#_K9dwB3OBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_LqzXI3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqzXJHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_LqzXJXOBEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="users-microservice.uml#_K9m58XOBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_LqzXJnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqzXJ3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Lq6E0HOBEfCTGutOISnrsw" sourceAnchor="0.0,27.0" targetAnchor="329.0,56.0" target="_Lq1zYHOBEfCTGutOISnrsw" source="_Lq7S8HOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K9rycXOBEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_Lq6E1XOBEfCTGutOISnrsw" name="Reference">
+      <modelElement href="users-microservice.uml#_K9wD4HOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Lq6E0nOBEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_OlCTo3OBEfCTGutOISnrsw" position="-18.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Lq6E03OBEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="users-microservice.uml#_K9rycnOBEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_OlCTonOBEfCTGutOISnrsw" position="-18.0,-51.0"/>
+      <visibility xmi:id="_Lq6r4XOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq6r4HOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Lq6E1HOBEfCTGutOISnrsw" aggregationKind="NONE" name="userRepository" navigable="true">
+      <modelElement href="users-microservice.uml#_K9eXEXOBEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_OlCTpHOBEfCTGutOISnrsw" position="-57.0,46.0"/>
+      <visibility xmi:id="_Lq6r43OBEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Lq6r4nOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Lq6E0XOBEfCTGutOISnrsw" sourceAnchor="15.0,0.0" targetAnchor="362.0,256.0" dashed="true" superClass="_Lq3okHOBEfCTGutOISnrsw" subClass="_Lq7S8HOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K9HxwXOBEfCTGutOISnrsw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Lq-WQHOBEfCTGutOISnrsw" sourceAnchor="163.0,0.0" targetAnchor="194.0,0.0" target="_Lq3okHOBEfCTGutOISnrsw" source="_LrCAsnOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K9zuQXOBEfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_gHO_EnOBEfCTGutOISnrsw" sourceY="-33" targetX="1039" targetY="-15"/>
+    <bendpoints xmi:id="_gHO_E3OBEfCTGutOISnrsw" sourceX="-1039" sourceY="-33" targetY="-15"/>
+    <stereotypes xmi:id="_LrAygHOBEfCTGutOISnrsw" name="Reference">
+      <modelElement href="users-microservice.uml#_K92xkHOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_LrALcHOBEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_OlC6sXOBEfCTGutOISnrsw" position="27.5,-21.0000000000001"/>
+    </nameVisual>
+    <sourceRole xmi:id="_LrALcXOBEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="users-microservice.uml#_K9zuQnOBEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_OlC6sHOBEfCTGutOISnrsw" position="-202.31818181818176,-30.99999999999997"/>
+      <visibility xmi:id="_LrBZkHOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrAyhXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_LrALcnOBEfCTGutOISnrsw" aggregationKind="NONE" name="userService" navigable="true">
+      <modelElement href="users-microservice.uml#_K9flMXOBEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_OlC6snOBEfCTGutOISnrsw" position="88.0454545454545,-66.00000000000003"/>
+      <visibility xmi:id="_LrBZknOBEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_LrBZkXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Lq-WQXOBEfCTGutOISnrsw" sourceAnchor="0.0,232.0" targetAnchor="432.0,249.0" target="_Lqt3mXOBEfCTGutOISnrsw" source="_LrCAsnOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K92xkXOBEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_LrAyhHOBEfCTGutOISnrsw" name="Reference">
+      <modelElement href="users-microservice.uml#_K95N0HOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_LrAygXOBEfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_OlDhwHOBEfCTGutOISnrsw" position="-3.571428571428555,-21.000000000000057"/>
+    </nameVisual>
+    <sourceRole xmi:id="_LrAygnOBEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="users-microservice.uml#_K92xknOBEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_OlC6s3OBEfCTGutOISnrsw" position="-29.117647058823536,-51.0"/>
+      <visibility xmi:id="_LrBZlnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrBZlXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_LrAyg3OBEfCTGutOISnrsw" aggregationKind="NONE" name="userController" navigable="true">
+      <modelElement href="users-microservice.uml#_K9gMQXOBEfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_OlDhwXOBEfCTGutOISnrsw" position="50.66666666666674,2.0000000000000284"/>
+      <visibility xmi:id="_LrBZmHOBEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_LrBZl3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_LrCAoHOBEfCTGutOISnrsw" source="_LrCAsnOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K9wD4XOBEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_LrCAoXOBEfCTGutOISnrsw" name="Reference">
+      <modelElement href="users-microservice.uml#_K9zuQHOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_LrCAonOBEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_LrCAo3OBEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="users-microservice.uml#_K9wD4nOBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_LrCApHOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCApXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_LrCApnOBEfCTGutOISnrsw" aggregationKind="NONE" name="mockMvc" navigable="true">
+      <modelElement href="users-microservice.uml#_K9e-InOBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_LrCAp3OBEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_LrCAqHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_LrCAqXOBEfCTGutOISnrsw" source="_LrCAsnOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K95N0XOBEfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_LrCAqnOBEfCTGutOISnrsw" name="Reference">
+      <modelElement href="users-microservice.uml#_K98RIHOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_LrCAq3OBEfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_LrCArHOBEfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="users-microservice.uml#_K95N0nOBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_LrCArXOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCArnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_LrCAr3OBEfCTGutOISnrsw" aggregationKind="NONE" name="objectMapper" navigable="true">
+      <modelElement href="users-microservice.uml#_K9gMRXOBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_LrCAsHOBEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_LrCAsXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_LrFD8HOBEfCTGutOISnrsw" name="Exception">
+    <modelElement href="users-microservice.uml#_K9XCUXOBEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_LrFD8XOBEfCTGutOISnrsw" position="-471.0,691.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_LrFD8nOBEfCTGutOISnrsw" name="Reference">
+      <modelElement href="users-microservice.uml#_K9XCUnOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_LrFD83OBEfCTGutOISnrsw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Lq3okHOBEfCTGutOISnrsw" name="UserService" associationsIn="_LqyJAHOBEfCTGutOISnrsw _Lqt3kHOBEfCTGutOISnrsw _Lq-WQHOBEfCTGutOISnrsw" subclassedBy="_Lq6E0XOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K6U8cHOBEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Lq3okXOBEfCTGutOISnrsw" position="-1926.0,-91.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Lq3oknOBEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_Lq3ok3OBEfCTGutOISnrsw" name="allUsers">
+      <modelElement href="users-microservice.uml#_K6VjgXOBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_Lq3olHOBEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_Lq3olXOBEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_Lq3olnOBEfCTGutOISnrsw" name="User">
+        <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Lq3ol3OBEfCTGutOISnrsw" name="getUserById">
+      <modelElement href="users-microservice.uml#_K6U8cXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq3omHOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6U8c3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq3omXOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq3omnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq3om3OBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9T_A3OBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq3onHOBEfCTGutOISnrsw" name="Optional">
+          <modelElement href="users-microservice.uml#_K9EucHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq3onXOBEfCTGutOISnrsw" name="_id">
+        <modelElement href="users-microservice.uml#_K6U8cnOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq3onnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq3on3OBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq3ooHOBEfCTGutOISnrsw" name="getUserByUsername">
+      <modelElement href="users-microservice.uml#_K6U8dHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq3ooXOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6VjgHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq3oonOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq3oo3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq3opHOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9T_BHOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq3opXOBEfCTGutOISnrsw" name="Optional">
+          <modelElement href="users-microservice.uml#_K9EucHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq3opnOBEfCTGutOISnrsw" name="username">
+        <modelElement href="users-microservice.uml#_K6U8dXOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq3op3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq3oqHOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq3oqXOBEfCTGutOISnrsw" name="deleteUser">
+      <modelElement href="users-microservice.uml#_K6Vjg3OBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_Lq3oqnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq3oq3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Lq3orHOBEfCTGutOISnrsw" name="_id">
+        <modelElement href="users-microservice.uml#_K6VjhHOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq3orXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq3ornOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq3or3OBEfCTGutOISnrsw" name="findByCustomId">
+      <modelElement href="users-microservice.uml#_K6VjhXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq3osHOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6Vjh3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq3osXOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq3osnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq3os3OBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9UmEHOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq3otHOBEfCTGutOISnrsw" name="Optional">
+          <modelElement href="users-microservice.uml#_K9EucHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq3otXOBEfCTGutOISnrsw" name="id">
+        <modelElement href="users-microservice.uml#_K6VjhnOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq3otnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq3ot3OBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq3ouHOBEfCTGutOISnrsw" name="findByEmail">
+      <modelElement href="users-microservice.uml#_K6VjiHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq3ouXOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6WKkHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq3ounOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq3ou3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq3ovHOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9UmEXOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq3ovXOBEfCTGutOISnrsw" name="Optional">
+          <modelElement href="users-microservice.uml#_K9EucHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq3ovnOBEfCTGutOISnrsw" name="email">
+        <modelElement href="users-microservice.uml#_K6VjiXOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq3ov3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq3owHOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq3owXOBEfCTGutOISnrsw" name="updateProfilePic">
+      <modelElement href="users-microservice.uml#_K6WKkXOBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_Lq3ownOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq3ow3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq3oxHOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9GjoHOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq3oxXOBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq3oxnOBEfCTGutOISnrsw" name="userId">
+        <modelElement href="users-microservice.uml#_K6WKknOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq3ox3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq3oyHOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Lq3oyXOBEfCTGutOISnrsw" name="imageData">
+        <modelElement href="users-microservice.uml#_K6WKk3OBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq3oynOBEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Lq3oy3OBEfCTGutOISnrsw" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq3ozHOBEfCTGutOISnrsw" name="updatePassword">
+      <modelElement href="users-microservice.uml#_K6WKlXOBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_Lq3ozXOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq3oznOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq3oz3OBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9GjoXOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq4PoHOBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq4PoXOBEfCTGutOISnrsw" name="userId">
+        <modelElement href="users-microservice.uml#_K6WKlnOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq4PonOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq4Po3OBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Lq4PpHOBEfCTGutOISnrsw" name="newPassword">
+        <modelElement href="users-microservice.uml#_K6WKl3OBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq4PpXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq4PpnOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq4Pp3OBEfCTGutOISnrsw" name="createUser">
+      <modelElement href="users-microservice.uml#_K9F8kHOBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_Lq4PqHOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq4PqXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq4PqnOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9F8knOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq4Pq3OBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq4PrHOBEfCTGutOISnrsw" name="user">
+        <modelElement href="users-microservice.uml#_K9F8kXOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq4PrXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq4PrnOBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq4Pr3OBEfCTGutOISnrsw" name="updateUser">
+      <modelElement href="users-microservice.uml#_K9F8k3OBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_Lq4PsHOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq4PsXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq4PsnOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9F8lnOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq4Ps3OBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq4PtHOBEfCTGutOISnrsw" name="_id">
+        <modelElement href="users-microservice.uml#_K9F8lHOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq4PtXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq4PtnOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Lq4Pt3OBEfCTGutOISnrsw" name="user">
+        <modelElement href="users-microservice.uml#_K9F8lXOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq4PuHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq4PuXOBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq4PunOBEfCTGutOISnrsw" name="patchUser">
+      <modelElement href="users-microservice.uml#_K9T_BXOBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_Lq4Pu3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq4PvHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq4PvXOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9T_CHOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq4PvnOBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq4Pv3OBEfCTGutOISnrsw" name="_id">
+        <modelElement href="users-microservice.uml#_K9T_BnOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq4PwHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq4PwXOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Lq4PwnOBEfCTGutOISnrsw" name="updates">
+        <modelElement href="users-microservice.uml#_K9T_B3OBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq4Pw3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq4PxHOBEfCTGutOISnrsw" name="Map">
+          <modelElement href="users-microservice.uml#_K84hMXOBEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Lq1zYHOBEfCTGutOISnrsw" name="UserRepository" associationsIn="_Lq6E0HOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K6THQHOBEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Lq1zYXOBEfCTGutOISnrsw" position="-1929.0,181.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Lq1zYnOBEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_Lq1zY3OBEfCTGutOISnrsw" name="findByUsername">
+      <modelElement href="users-microservice.uml#_K6THQXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq1zZHOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6UVYHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq1zZXOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq1zZnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq1zZ3OBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9T_AHOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq1zaHOBEfCTGutOISnrsw" name="Optional">
+          <modelElement href="users-microservice.uml#_K9EucHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq1zaXOBEfCTGutOISnrsw" name="username">
+        <modelElement href="users-microservice.uml#_K6THQnOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq1zanOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq1za3OBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq1zbHOBEfCTGutOISnrsw" name="findByCustomId">
+      <modelElement href="users-microservice.uml#_K6UVYXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq1zbXOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6UVY3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq1zbnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq1zb3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq1zcHOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9T_AXOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq1zcXOBEfCTGutOISnrsw" name="Optional">
+          <modelElement href="users-microservice.uml#_K9EucHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq1zcnOBEfCTGutOISnrsw" name="customId">
+        <modelElement href="users-microservice.uml#_K6UVYnOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq1zc3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq1zdHOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq1zdXOBEfCTGutOISnrsw" name="findByEmail">
+      <modelElement href="users-microservice.uml#_K6UVZHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq1zdnOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6UVZnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq1zd3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq1zeHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq1zeXOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9T_AnOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq1zenOBEfCTGutOISnrsw" name="Optional">
+          <modelElement href="users-microservice.uml#_K9EucHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq1ze3OBEfCTGutOISnrsw" name="email">
+        <modelElement href="users-microservice.uml#_K6UVZXOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq1zfHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq1zfXOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Lqt3mXOBEfCTGutOISnrsw" name="UserController" associationsIn="_Lq-WQXOBEfCTGutOISnrsw" associationsOut="_Lqt3kHOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K6OOz3OBEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Lqt3mnOBEfCTGutOISnrsw" position="-1528.0,-90.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Lqt3m3OBEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="users-microservice.uml#_K6OO0HOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Lqt3nHOBEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="users-microservice.uml#_K6RSFXOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_Lqt3nXOBEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_Lqt3nnOBEfCTGutOISnrsw" name="userService">
+      <modelElement href="users-microservice.uml#_K9aFoHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lqt3n3OBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K9assHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lqt3oHOBEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Lqt3oXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Lqt3onOBEfCTGutOISnrsw" name="UserService">
+        <modelElement href="users-microservice.uml#_K6U8cHOBEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Lqt3o3OBEfCTGutOISnrsw" name="getUserById">
+      <modelElement href="users-microservice.uml#_K6O10HOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lqt3pHOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6O10nOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lqt3pXOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6Pc4HOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lqt3pnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lqt3p3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lqt3qHOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9OfcXOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lqt3qXOBEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="users-microservice.uml#_K85IQXOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lqt3qnOBEfCTGutOISnrsw" name="id">
+        <modelElement href="users-microservice.uml#_K6O10XOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lqt3q3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lqt3rHOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lqt3rXOBEfCTGutOISnrsw" name="getUserByUsername">
+      <modelElement href="users-microservice.uml#_K6Pc43OBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lqt3rnOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6Pc5XOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lqt3r3OBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6QD8nOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lqt3sHOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lqt3sXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lqt3snOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9OfcnOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lqt3s3OBEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="users-microservice.uml#_K85IQXOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lqt3tHOBEfCTGutOISnrsw" name="username">
+        <modelElement href="users-microservice.uml#_K6Pc5HOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lqt3tXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lqt3tnOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lqt3t3OBEfCTGutOISnrsw" name="getUserByEmail">
+      <modelElement href="users-microservice.uml#_K6QD9XOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lqt3uHOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6QD93OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lqt3uXOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6QD-nOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lqt3unOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lqt3u3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lqt3vHOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9Ofc3OBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lqt3vXOBEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="users-microservice.uml#_K85IQXOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lqt3vnOBEfCTGutOISnrsw" name="email">
+        <modelElement href="users-microservice.uml#_K6QD9nOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lqt3v3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lqt3wHOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lqt3wXOBEfCTGutOISnrsw" name="getAllUsers">
+      <modelElement href="users-microservice.uml#_K6QD_XOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lqt3wnOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6QEAHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lqt3w3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lqt3xHOBEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Lqt3xXOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K6QD_nOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lqt3xnOBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Lqt3x3OBEfCTGutOISnrsw" name="deleteUser">
+      <modelElement href="users-microservice.uml#_K6QEAnOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lqt3yHOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6QrAHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lqt3yXOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6QrA3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lqt3ynOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lqt3y3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lqt3zHOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9RixXOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lqt3zXOBEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="users-microservice.uml#_K85IQXOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lqt3znOBEfCTGutOISnrsw" name="id">
+        <modelElement href="users-microservice.uml#_K6QEA3OBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lqt3z3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lqt30HOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lqt30XOBEfCTGutOISnrsw" name="getUserImage">
+      <modelElement href="users-microservice.uml#_K6QrBnOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lqt30nOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6QrCHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lqt303OBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6QrC3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lqt31HOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lqt31XOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lqt31nOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9RixnOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lqt313OBEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="users-microservice.uml#_K85IQXOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lqt32HOBEfCTGutOISnrsw" name="id">
+        <modelElement href="users-microservice.uml#_K6QrB3OBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lqt32XOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lqt32nOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lqt323OBEfCTGutOISnrsw" name="getUserByCustomId">
+      <modelElement href="users-microservice.uml#_K6QrDnOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lqt33HOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6QrEHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lqt33XOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6RSEnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lqt33nOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lqt333OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lqt34HOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9Rix3OBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lqt34XOBEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="users-microservice.uml#_K85IQXOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lqt34nOBEfCTGutOISnrsw" name="id">
+        <modelElement href="users-microservice.uml#_K6QrD3OBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lqt343OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lqt35HOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lqt35XOBEfCTGutOISnrsw" name="createUser">
+      <modelElement href="users-microservice.uml#_K8_O4HOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lqt35nOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K8_18HOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lqt353OBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K8_183OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lqt36HOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lqt36XOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lqt36nOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9OfcHOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lqt363OBEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="users-microservice.uml#_K85IQXOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lqt37HOBEfCTGutOISnrsw" name="user">
+        <modelElement href="users-microservice.uml#_K8_O4XOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lqt37XOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lqt37nOBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lqt373OBEfCTGutOISnrsw" name="updateUser">
+      <modelElement href="users-microservice.uml#_K9AdAXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lqt38HOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K9AdBHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lqt38XOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K9BEEnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lqt38nOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lqt383OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lqt39HOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9OfdHOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lqt39XOBEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="users-microservice.uml#_K85IQXOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lqt39nOBEfCTGutOISnrsw" name="id">
+        <modelElement href="users-microservice.uml#_K9AdAnOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lqt393OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lqt3-HOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Lqt3-XOBEfCTGutOISnrsw" name="user">
+        <modelElement href="users-microservice.uml#_K9AdA3OBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lqt3-nOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lqt3-3OBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lqt3_HOBEfCTGutOISnrsw" name="patchUser">
+      <modelElement href="users-microservice.uml#_K9OfdXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lqt3_XOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K9PGgHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lqt3_nOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K9PGh3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lqt3_3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lqt4AHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lqt4AXOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9PGgXOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lqt4AnOBEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="users-microservice.uml#_K85IQXOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lqt4A3OBEfCTGutOISnrsw" name="id">
+        <modelElement href="users-microservice.uml#_K9OfdnOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lqt4BHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lqt4BXOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Lqt4BnOBEfCTGutOISnrsw" name="updates">
+        <modelElement href="users-microservice.uml#_K9Ofd3OBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lqt4B3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lqt4CHOBEfCTGutOISnrsw" name="Map">
+          <modelElement href="users-microservice.uml#_K84hMXOBEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lqt4CXOBEfCTGutOISnrsw" name="updatePassword">
+      <modelElement href="users-microservice.uml#_K9PtkHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lqt4CnOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K9Ptk3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lqt4C3OBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K9QUo3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lqt4DHOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lqt4DXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lqt4DnOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9PtlHOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lqt4D3OBEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="users-microservice.uml#_K85IQXOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lqt4EHOBEfCTGutOISnrsw" name="id">
+        <modelElement href="users-microservice.uml#_K9PtkXOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lqt4EXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lqt4EnOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Lqt4E3OBEfCTGutOISnrsw" name="requestBody">
+        <modelElement href="users-microservice.uml#_K9PtknOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lqt4FHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lqt4FXOBEfCTGutOISnrsw" name="Map">
+          <modelElement href="users-microservice.uml#_K84hMXOBEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lqt4FnOBEfCTGutOISnrsw" name="updateProfilePic">
+      <modelElement href="users-microservice.uml#_K9QUpnOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lqt4F3OBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K9Q7sHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lqt4GHOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K9RiwnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lqt4GXOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lqt4GnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lqt4G3OBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9Q7sXOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lqt4HHOBEfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="users-microservice.uml#_K85IQXOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lqt4HXOBEfCTGutOISnrsw" name="id">
+        <modelElement href="users-microservice.uml#_K9QUp3OBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lqt4HnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lqt4H3OBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Lqt4IHOBEfCTGutOISnrsw" name="file">
+        <modelElement href="users-microservice.uml#_K9QUqHOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lqt4IXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lqt4InOBEfCTGutOISnrsw" name="MultipartFile">
+          <modelElement href="users-microservice.uml#_K8-Aw3OBEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Lq7S8HOBEfCTGutOISnrsw" name="UserServiceImpl" associationsOut="_Lq6E0HOBEfCTGutOISnrsw" generalizations="_Lq6E0XOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K6WxoHOBEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Lq7S8XOBEfCTGutOISnrsw" position="-1579.0,210.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Lq7S8nOBEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="users-microservice.uml#_K6WxoXOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Lq7S83OBEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="users-microservice.uml#_K6Ym03OBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_Lq7S9HOBEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_Lq7S9XOBEfCTGutOISnrsw" name="userRepository">
+      <modelElement href="users-microservice.uml#_K9eXEXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq7S9nOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K9e-IHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq7S93OBEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_Lq7S-HOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_Lq7S-XOBEfCTGutOISnrsw" name="UserRepository">
+        <modelElement href="users-microservice.uml#_K6THQHOBEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Lq7S-nOBEfCTGutOISnrsw" name="getUserById">
+      <modelElement href="users-microservice.uml#_K6WxonOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq7S-3OBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6WxpHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lq7S_HOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6WxpXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq7S_XOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq7S_nOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq7S_3OBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9UmEnOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq7TAHOBEfCTGutOISnrsw" name="Optional">
+          <modelElement href="users-microservice.uml#_K9EucHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq7TAXOBEfCTGutOISnrsw" name="_id">
+        <modelElement href="users-microservice.uml#_K6Wxo3OBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq7TAnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq7TA3OBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq7TBHOBEfCTGutOISnrsw" name="getUserByUsername">
+      <modelElement href="users-microservice.uml#_K6Wxp3OBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq7TBXOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6XYsHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lq7TBnOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6XYsXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq7TB3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq7TCHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq7TCXOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9VNIHOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq7TCnOBEfCTGutOISnrsw" name="Optional">
+          <modelElement href="users-microservice.uml#_K9EucHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq7TC3OBEfCTGutOISnrsw" name="username">
+        <modelElement href="users-microservice.uml#_K6WxqHOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq7TDHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq7TDXOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq7TDnOBEfCTGutOISnrsw" name="getAllUsers">
+      <modelElement href="users-microservice.uml#_K6XYs3OBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq7TD3OBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6XYtnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq7TEHOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq7TEXOBEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Lq7TEnOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K6XYtHOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq7TE3OBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Lq7TFHOBEfCTGutOISnrsw" name="updateProfilePic">
+      <modelElement href="users-microservice.uml#_K6XYuHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq7TFXOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6X_wHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq7TFnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq7TF3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq7TGHOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9I_4nOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq7TGXOBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq7TGnOBEfCTGutOISnrsw" name="userId">
+        <modelElement href="users-microservice.uml#_K6XYuXOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq7TG3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq7THHOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Lq7THXOBEfCTGutOISnrsw" name="imageData">
+        <modelElement href="users-microservice.uml#_K6XYunOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq7THnOBEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Lq7TH3OBEfCTGutOISnrsw" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq7TIHOBEfCTGutOISnrsw" name="updatePassword">
+      <modelElement href="users-microservice.uml#_K6X_wnOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq7TIXOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6X_xXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq7TInOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq7TI3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq7TJHOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9I_43OBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq7TJXOBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq7TJnOBEfCTGutOISnrsw" name="userId">
+        <modelElement href="users-microservice.uml#_K6X_w3OBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq7TJ3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq7TKHOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Lq7TKXOBEfCTGutOISnrsw" name="newPassword">
+        <modelElement href="users-microservice.uml#_K6X_xHOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq7TKnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq7TK3OBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq7TLHOBEfCTGutOISnrsw" name="deleteUser">
+      <modelElement href="users-microservice.uml#_K6X_x3OBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq7TLXOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6X_yXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq7TLnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq7TL3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Lq7TMHOBEfCTGutOISnrsw" name="_id">
+        <modelElement href="users-microservice.uml#_K6X_yHOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq7TMXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq7TMnOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq7TM3OBEfCTGutOISnrsw" name="findByCustomId">
+      <modelElement href="users-microservice.uml#_K6X_y3OBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq7TNHOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6X_zXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lq7TNXOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6X_znOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq7TNnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq7TN3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq7TOHOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9V0M3OBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq7TOXOBEfCTGutOISnrsw" name="Optional">
+          <modelElement href="users-microservice.uml#_K9EucHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq7TOnOBEfCTGutOISnrsw" name="id">
+        <modelElement href="users-microservice.uml#_K6X_zHOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq7TO3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq7TPHOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq7TPXOBEfCTGutOISnrsw" name="findByEmail">
+      <modelElement href="users-microservice.uml#_K6X_0HOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq7TPnOBEfCTGutOISnrsw" name="Generics">
+        <modelElement href="users-microservice.uml#_K6Ym0HOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lq7TP3OBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6Ym0XOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq7TQHOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq7TQXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq7TQnOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9V0NHOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq7TQ3OBEfCTGutOISnrsw" name="Optional">
+          <modelElement href="users-microservice.uml#_K9EucHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq7TRHOBEfCTGutOISnrsw" name="email">
+        <modelElement href="users-microservice.uml#_K6X_0XOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq7TRXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq7TRnOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq7TR3OBEfCTGutOISnrsw" name="createUser">
+      <modelElement href="users-microservice.uml#_K9HxwnOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq7TSHOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K9HxxXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq7TSXOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq7TSnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq7TS3OBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9HxxHOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq7TTHOBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq7TTXOBEfCTGutOISnrsw" name="user">
+        <modelElement href="users-microservice.uml#_K9Hxw3OBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq7TTnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq7TT3OBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq7TUHOBEfCTGutOISnrsw" name="updateUser">
+      <modelElement href="users-microservice.uml#_K9IY0HOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq7TUXOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K9I_4HOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq7TUnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq7TU3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq7TVHOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9IY03OBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq7TVXOBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq7TVnOBEfCTGutOISnrsw" name="_id">
+        <modelElement href="users-microservice.uml#_K9IY0XOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq7TV3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq7TWHOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Lq7TWXOBEfCTGutOISnrsw" name="userData">
+        <modelElement href="users-microservice.uml#_K9IY0nOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq7TWnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq7TW3OBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lq7TXHOBEfCTGutOISnrsw" name="patchUser">
+      <modelElement href="users-microservice.uml#_K9VNIXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq7TXXOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K9V0MXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq7TXnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_Lq7TX3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lq7TYHOBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9VNJHOBEfCTGutOISnrsw"/>
+        <type xmi:id="_Lq7TYXOBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lq7TYnOBEfCTGutOISnrsw" name="_id">
+        <modelElement href="users-microservice.uml#_K9VNInOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq7TY3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq7TZHOBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Lq7TZXOBEfCTGutOISnrsw" name="updates">
+        <modelElement href="users-microservice.uml#_K9VNI3OBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_Lq7TZnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lq7TZ3OBEfCTGutOISnrsw" name="Map">
+          <modelElement href="users-microservice.uml#_K84hMXOBEfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_LqzXKHOBEfCTGutOISnrsw" name="User" associationsIn="_LqywFHOBEfCTGutOISnrsw _LqywHHOBEfCTGutOISnrsw _LqzXIHOBEfCTGutOISnrsw" associationsOut="_LqyJAHOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_LqzXKXOBEfCTGutOISnrsw" position="-1157.0,221.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_LqzXKnOBEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="users-microservice.uml#_K6SgMHOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_LqzXK3OBEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="users-microservice.uml#_K6SgNXOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_LqzXLHOBEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_LqzXLXOBEfCTGutOISnrsw" name="_id">
+      <modelElement href="users-microservice.uml#_K9bTwHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LqzXLnOBEfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="users-microservice.uml#_K9ch4HOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LqzXL3OBEfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="users-microservice.uml#_K9ch4XOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LqzXMHOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqzXMXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_LqzXMnOBEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LqzXM3OBEfCTGutOISnrsw" name="customId">
+      <modelElement href="users-microservice.uml#_K9ch4nOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LqzXNHOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K9ch43OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LqzXNXOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K9dI83OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LqzXNnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqzXN3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_LqzXOHOBEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LqzXOXOBEfCTGutOISnrsw" name="username">
+      <modelElement href="users-microservice.uml#_K9dI9nOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LqzXOnOBEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="users-microservice.uml#_K9dI93OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LqzXO3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqzXPHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_LqzXPXOBEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LqzXPnOBEfCTGutOISnrsw" name="password_hash">
+      <modelElement href="users-microservice.uml#_K9dI-HOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LqzXP3OBEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="users-microservice.uml#_K9dI-XOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LqzXQHOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqzXQXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_LqzXQnOBEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LqzXQ3OBEfCTGutOISnrsw" name="email">
+      <modelElement href="users-microservice.uml#_K9dI-nOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LqzXRHOBEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="users-microservice.uml#_K9dI-3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LqzXRXOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqzXRnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_LqzXR3OBEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LqzXSHOBEfCTGutOISnrsw" name="phone_number">
+      <modelElement href="users-microservice.uml#_K9dI_HOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LqzXSXOBEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="users-microservice.uml#_K9dI_XOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LqzXSnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqzXS3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_LqzXTHOBEfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LqzXTXOBEfCTGutOISnrsw" name="role_id">
+      <modelElement href="users-microservice.uml#_K9dI_nOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LqzXTnOBEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="users-microservice.uml#_K9dI_3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LqzXT3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqzXUHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_LqzXUXOBEfCTGutOISnrsw" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LqzXUnOBEfCTGutOISnrsw" name="image">
+      <modelElement href="users-microservice.uml#_K9dJAHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LqzXU3OBEfCTGutOISnrsw" name="Array">
+        <modelElement href="users-microservice.uml#_K9dwAXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LqzXVHOBEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="users-microservice.uml#_K9dwAnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LqzXVXOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqzXVnOBEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_LqzXV3OBEfCTGutOISnrsw" name="byte">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LqzXWHOBEfCTGutOISnrsw" name="last_login">
+      <modelElement href="users-microservice.uml#_K9dwA3OBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LqzXWXOBEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="users-microservice.uml#_K9dwBHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LqzXWnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqzXW3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_LqzXXHOBEfCTGutOISnrsw" name="LocalDateTime">
+        <modelElement href="users-microservice.uml#_K9CSMHOBEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LqzXXXOBEfCTGutOISnrsw" name="created_at">
+      <modelElement href="users-microservice.uml#_K9dwBXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LqzXXnOBEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="users-microservice.uml#_K9dwBnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LqzXX3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqzXYHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_LqzXYXOBEfCTGutOISnrsw" name="LocalDateTime">
+        <modelElement href="users-microservice.uml#_K9CSMHOBEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LqzXYnOBEfCTGutOISnrsw" name="updated_at">
+      <modelElement href="users-microservice.uml#_K9dwB3OBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LqzXY3OBEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="users-microservice.uml#_K9eXEHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LqzXZHOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqzXZXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_LqzXZnOBEfCTGutOISnrsw" name="LocalDateTime">
+        <modelElement href="users-microservice.uml#_K9CSMHOBEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_LqzXZ3OBEfCTGutOISnrsw" name="User">
+      <modelElement href="users-microservice.uml#_K6SgMXOBEfCTGutOISnrsw"/>
+      <keywords xmi:id="_LqzXaHOBEfCTGutOISnrsw" keyword="create"/>
+      <visibility xmi:id="_LqzXaXOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqzXanOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LqzXa3OBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K6SgNHOBEfCTGutOISnrsw"/>
+        <type xmi:id="_LqzXbHOBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_LqrbUHOBEfCTGutOISnrsw" name="UsersMicroserviceApplication">
+    <modelElement href="users-microservice.uml#_K6NnsHOBEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_LqrbUXOBEfCTGutOISnrsw" position="-1092.0,-86.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_LqrbUnOBEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="users-microservice.uml#_K6NnsXOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_LqrbU3OBEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="users-microservice.uml#_K6OOzXOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_LqrbVHOBEfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_LqrbVXOBEfCTGutOISnrsw" name="main" staticOperation="true">
+      <modelElement href="users-microservice.uml#_K6OOyXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LqrbVnOBEfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="users-microservice.uml#_K6OOy3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LqrbV3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LqrbWHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LqrbWXOBEfCTGutOISnrsw" name="args">
+        <modelElement href="users-microservice.uml#_K6OOynOBEfCTGutOISnrsw"/>
+        <cardinality xmi:id="_LqrbWnOBEfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_LqrbW3OBEfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Lq9IIHOBEfCTGutOISnrsw" name="UsersMicroserviceApplicationTests">
+    <modelElement href="users-microservice.uml#_K6ZN4HOBEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_Lq9IIXOBEfCTGutOISnrsw" position="-1084.0,4.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Lq9IInOBEfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="users-microservice.uml#_K6ZN5HOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Lq9II3OBEfCTGutOISnrsw" name="Annotations">
+      <modelElement href="users-microservice.uml#_K6Z08HOBEfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_Lq9IJHOBEfCTGutOISnrsw" label="~"/>
+    <operations xmi:id="_Lq9IJXOBEfCTGutOISnrsw" name="contextLoads">
+      <modelElement href="users-microservice.uml#_K6ZN5XOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_Lq9IJnOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6ZN5nOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lq9IJ3OBEfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_Lq9IKHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_LrCAsnOBEfCTGutOISnrsw" name="UserControllerTest" associationsOut="_Lq-WQHOBEfCTGutOISnrsw _Lq-WQXOBEfCTGutOISnrsw _LrCAoHOBEfCTGutOISnrsw _LrCAqXOBEfCTGutOISnrsw">
+    <modelElement href="users-microservice.uml#_K6Z08nOBEfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_LrCAs3OBEfCTGutOISnrsw" position="-856.0,-73.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_LrCAtHOBEfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_LrCAtXOBEfCTGutOISnrsw" name="mockMvc">
+      <modelElement href="users-microservice.uml#_K9e-InOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCAtnOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K9flMHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCAt3OBEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_LrCAuHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_LrCAuXOBEfCTGutOISnrsw" name="MockMvc">
+        <modelElement href="users-microservice.uml#_K9WbQHOBEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LrCAunOBEfCTGutOISnrsw" name="userService">
+      <modelElement href="users-microservice.uml#_K9flMXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCAu3OBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K9flMnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCAvHOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K9flM3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCAvXOBEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_LrCAvnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_LrCAv3OBEfCTGutOISnrsw" name="UserService">
+        <modelElement href="users-microservice.uml#_K6U8cHOBEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LrCAwHOBEfCTGutOISnrsw" name="userController">
+      <modelElement href="users-microservice.uml#_K9gMQXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCAwXOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K9gMQnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCAwnOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K9gMQ3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCAw3OBEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_LrCAxHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_LrCAxXOBEfCTGutOISnrsw" name="UserController">
+        <modelElement href="users-microservice.uml#_K6OOz3OBEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LrCAxnOBEfCTGutOISnrsw" name="objectMapper">
+      <modelElement href="users-microservice.uml#_K9gMRXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCAx3OBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K9gMRnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCAyHOBEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_LrCAyXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_LrCAynOBEfCTGutOISnrsw" name="ObjectMapper">
+        <modelElement href="users-microservice.uml#_K9LcK3OBEfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_LrCAy3OBEfCTGutOISnrsw" name="setup">
+      <modelElement href="users-microservice.uml#_K6Z09nOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCAzHOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6Z093OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCAzXOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6Z0-HOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCAznOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCAz3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCA0HOBEfCTGutOISnrsw" name="createTestUser">
+      <modelElement href="users-microservice.uml#_K6Z0-nOBEfCTGutOISnrsw"/>
+      <visibility xmi:id="_LrCA0XOBEfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_LrCA0nOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LrCA03OBEfCTGutOISnrsw">
+        <modelElement href="users-microservice.uml#_K9MDMHOBEfCTGutOISnrsw"/>
+        <type xmi:id="_LrCA1HOBEfCTGutOISnrsw" name="User">
+          <modelElement href="users-microservice.uml#_K6R5IHOBEfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_LrCA1XOBEfCTGutOISnrsw" name="testGetUserByIdFound">
+      <modelElement href="users-microservice.uml#_K6Z0-3OBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCA1nOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6Z0_HOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCA13OBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6Z0_XOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCA2HOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCA2XOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCA2nOBEfCTGutOISnrsw" name="testGetUserByIdNotFound">
+      <modelElement href="users-microservice.uml#_K6acAHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCA23OBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6acAXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCA3HOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6acAnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCA3XOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCA3nOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCA33OBEfCTGutOISnrsw" name="testGetUserByUsername">
+      <modelElement href="users-microservice.uml#_K6acBHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCA4HOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6acBXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCA4XOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6acBnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCA4nOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCA43OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCA5HOBEfCTGutOISnrsw" name="testGetUserByEmail">
+      <modelElement href="users-microservice.uml#_K6bqIHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCA5XOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6bqIXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCA5nOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6bqInOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCA53OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCA6HOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCA6XOBEfCTGutOISnrsw" name="testGetAllUsers">
+      <modelElement href="users-microservice.uml#_K6bqJHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCA6nOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6bqJXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCA63OBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6bqJnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCA7HOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCA7XOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCA7nOBEfCTGutOISnrsw" name="testPatchUserFound">
+      <modelElement href="users-microservice.uml#_K6bqKHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCA73OBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6bqKXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCA8HOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6cRMHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCA8XOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCA8nOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCA83OBEfCTGutOISnrsw" name="testPatchUserNotFound">
+      <modelElement href="users-microservice.uml#_K6cRMnOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCA9HOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6cRM3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCA9XOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6cRNHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCA9nOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCA93OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCA-HOBEfCTGutOISnrsw" name="testUpdatePasswordSuccess">
+      <modelElement href="users-microservice.uml#_K6cRNnOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCA-XOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6cRN3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCA-nOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6cROHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCA-3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCA_HOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCA_XOBEfCTGutOISnrsw" name="testUpdatePasswordBadRequest">
+      <modelElement href="users-microservice.uml#_K6cROnOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCA_nOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6c4QHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCA_3OBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6c4QXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCBAHOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCBAXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCBAnOBEfCTGutOISnrsw" name="testUpdateProfilePicSuccess">
+      <modelElement href="users-microservice.uml#_K6c4Q3OBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCBA3OBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6c4RHOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCBBHOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6c4RXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCBBXOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCBBnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCBB3OBEfCTGutOISnrsw" name="testUpdateProfilePicBadRequestWhenNoFile">
+      <modelElement href="users-microservice.uml#_K6dfUXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCBCHOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6dfUnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCBCXOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6dfU3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCBCnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCBC3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCBDHOBEfCTGutOISnrsw" name="testDeleteUser">
+      <modelElement href="users-microservice.uml#_K6dfVXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCBDXOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6dfVnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCBDnOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6dfV3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCBD3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCBEHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCBEXOBEfCTGutOISnrsw" name="testGetUserImageFound">
+      <modelElement href="users-microservice.uml#_K6dfWXOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCBEnOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6dfWnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCBE3OBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6dfW3OBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCBFHOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCBFXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCBFnOBEfCTGutOISnrsw" name="testGetUserImageNotFound">
+      <modelElement href="users-microservice.uml#_K6etcHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCBF3OBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6etcXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCBGHOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6etcnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCBGXOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCBGnOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCBG3OBEfCTGutOISnrsw" name="testGetUserImageUserNotFound">
+      <modelElement href="users-microservice.uml#_K6etdHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCBHHOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6etdXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCBHXOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6etdnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCBHnOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCBH3OBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCBIHOBEfCTGutOISnrsw" name="testGetUserByCustomIdFound">
+      <modelElement href="users-microservice.uml#_K6eteHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCBIXOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6eteXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCBInOBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6etenOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCBI3OBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCBJHOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LrCBJXOBEfCTGutOISnrsw" name="testGetUserByCustomIdNotFound">
+      <modelElement href="users-microservice.uml#_K6fUgHOBEfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_LrCBJnOBEfCTGutOISnrsw" name="LegacyStyledElement">
+        <modelElement href="users-microservice.uml#_K6fUgXOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LrCBJ3OBEfCTGutOISnrsw" name="Annotations">
+        <modelElement href="users-microservice.uml#_K6fUgnOBEfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_LrCBKHOBEfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_LrCBKXOBEfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

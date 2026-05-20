@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_zsI-kHOAEfCTGutOISnrsw" name="SpringBootEmailNotificationApplication">
+    <eAnnotations xmi:id="_0FCmwHOAEfCTGutOISnrsw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_0FCmwXOAEfCTGutOISnrsw" source="codegen">
+        <details xmi:id="_0FCmwnOAEfCTGutOISnrsw" key="codegenDirectory" value="/SpringBootEmailNotificationApplication/src/main/java"/>
+        <details xmi:id="_0U8rAHOAEfCTGutOISnrsw" key="AssociatedSourceCode" value="/SpringBootEmailNotificationApplication/src/main/java/training/iqgateway/SpringBootEmailNotificationApplication.java;1431091232/1;/SpringBootEmailNotificationApplication/src/main/java/training/iqgateway/controller/NotificationController.java;2737925881/1;/SpringBootEmailNotificationApplication/src/main/java/training/iqgateway/controller/TestController.java;3052232542/1;/SpringBootEmailNotificationApplication/src/main/java/training/iqgateway/dto/EmailRequest.java;3292051311/1;/SpringBootEmailNotificationApplication/src/main/java/training/iqgateway/service/EmailService.java;1731713341/1;/SpringBootEmailNotificationApplication/src/test/java/training/iqgateway/SpringBootEmailNotificationApplicationTests.java;874903820/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_0KuYAHOAEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_0KuYAXOAEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_0Ku_EHOAEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_0Ku_EXOAEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_0Ku_EnOAEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_0Ku_E3OAEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_0Ku_FHOAEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_0KvmIHOAEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_0KvmIXOAEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_0KRsEHOAEfCTGutOISnrsw" name="training">
+      <packagedElement xmi:type="uml:Package" xmi:id="_0KThQHOAEfCTGutOISnrsw" name="iqgateway">
+        <packagedElement xmi:type="uml:Package" xmi:id="_0KUvZ3OAEfCTGutOISnrsw" name="dto">
+          <packagedElement xmi:type="uml:Class" xmi:id="_0K3h8HOAEfCTGutOISnrsw" name="EmailRequest">
+            <ownedAttribute xmi:id="_0NLPEXOAEfCTGutOISnrsw" name="to">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_0NLPEnOAEfCTGutOISnrsw" name="subject">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_0NLPE3OAEfCTGutOISnrsw" name="body">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_0NLPFHOAEfCTGutOISnrsw" name="resetLink">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0NMdOXOAEfCTGutOISnrsw" name="EmailRequest" specification="_0K6lQHOAEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_0NMdOnOAEfCTGutOISnrsw" name="to">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_0NMdO3OAEfCTGutOISnrsw" name="subject">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_0NMdPHOAEfCTGutOISnrsw" name="body">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_0NMdPXOAEfCTGutOISnrsw" name="resetLink">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_0NMdPnOAEfCTGutOISnrsw" type="_0K3h8HOAEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>this.to = to;&#xD;
+  this.subject = subject;&#xD;
+  this.body = body;&#xD;
+  this.resetLink = resetLink;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0NMdP3OAEfCTGutOISnrsw" name="toString" specification="_0K7MU3OAEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_0NMdQHOAEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return &quot;EmailRequest{&quot; +&#xD;
+         &quot;to='&quot; + to + '\'' +&#xD;
+         &quot;, subject='&quot; + subject + '\'' +&#xD;
+         &quot;, body='&quot; + body + '\'' +&#xD;
+         &quot;, resetLink='&quot; + resetLink + '\'' +&#xD;
+         '}';&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0NNEQHOAEfCTGutOISnrsw" name="equals" specification="_0NJZ4XOAEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_0NNEQXOAEfCTGutOISnrsw" name="o" type="_0NIy0nOAEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_0NNEQnOAEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>if (this == o) return true;&#xD;
+  if (o == null || getClass() != o.getClass()) return false;&#xD;
+&#xD;
+  EmailRequest that = (EmailRequest) o;&#xD;
+&#xD;
+  if (to != null ? !to.equals(that.to) : that.to != null) return false;&#xD;
+  if (subject != null ? !subject.equals(that.subject) : that.subject != null) return false;&#xD;
+  if (body != null ? !body.equals(that.body) : that.body != null) return false;&#xD;
+  return resetLink != null ? resetLink.equals(that.resetLink) : that.resetLink == null;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0NNEQ3OAEfCTGutOISnrsw" name="hashCode" specification="_0K9BgHOAEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_0NNERHOAEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>int result = to != null ? to.hashCode() : 0;&#xD;
+  result = 31 * result + (subject != null ? subject.hashCode() : 0);&#xD;
+  result = 31 * result + (body != null ? body.hashCode() : 0);&#xD;
+  result = 31 * result + (resetLink != null ? resetLink.hashCode() : 0);&#xD;
+  return result;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_0K5XIHOAEfCTGutOISnrsw" name="EmailRequest">
+              <eAnnotations xmi:id="_0K5XIXOAEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_0K5XInOAEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_0K5-MXOAEfCTGutOISnrsw" type="_0K3h8HOAEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_0K6lQHOAEfCTGutOISnrsw" name="EmailRequest" method="_0NMdOXOAEfCTGutOISnrsw">
+              <eAnnotations xmi:id="_0K7MUHOAEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_0K7MUXOAEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_0K6lQXOAEfCTGutOISnrsw" name="to">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_0K6lQnOAEfCTGutOISnrsw" name="subject">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_0K6lQ3OAEfCTGutOISnrsw" name="body">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_0K6lRHOAEfCTGutOISnrsw" name="resetLink">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_0K7MUnOAEfCTGutOISnrsw" type="_0K3h8HOAEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_0K7MU3OAEfCTGutOISnrsw" name="toString" method="_0NMdP3OAEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_0K7zYHOAEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_0K9BgHOAEfCTGutOISnrsw" name="hashCode" method="_0NNEQ3OAEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_0K9BgXOAEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_0NJZ4XOAEfCTGutOISnrsw" name="equals" method="_0NNEQHOAEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_0NJZ4nOAEfCTGutOISnrsw" name="o" type="_0NIy0nOAEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_0NJZ43OAEfCTGutOISnrsw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_0KUvaHOAEfCTGutOISnrsw" name="service">
+          <packagedElement xmi:type="uml:Class" xmi:id="_0K_dwHOAEfCTGutOISnrsw" name="EmailService">
+            <ownedAttribute xmi:id="_0NLPFXOAEfCTGutOISnrsw" name="mailSender" visibility="private" type="_0NDTQXOAEfCTGutOISnrsw" association="_0NOSY3OAEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="_0NL2InOAEfCTGutOISnrsw" name="mailPassword" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_0NL2JnOAEfCTGutOISnrsw" name="fromAddress" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0NNERXOAEfCTGutOISnrsw" name="printPassword" specification="_0LAr4HOAEfCTGutOISnrsw">
+              <language>java</language>
+              <body>System.out.println(&quot;Password loaded from properties: &quot; + mailPassword);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0NNERnOAEfCTGutOISnrsw" name="sendSimpleEmail" specification="_0NFIcHOAEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_0NNER3OAEfCTGutOISnrsw" name="emailRequest" type="_0K3h8HOAEfCTGutOISnrsw"/>
+              <language>java</language>
+              <body>try {&#xD;
+         SimpleMailMessage message = new SimpleMailMessage();&#xD;
+         message.setFrom(fromAddress); // Corrected to use the configured value&#xD;
+         message.setTo(emailRequest.getTo());&#xD;
+         message.setSubject(emailRequest.getSubject());&#xD;
+         message.setText(emailRequest.getBody());&#xD;
+         mailSender.send(message);&#xD;
+         System.out.println(&quot;Email sent successfully to: &quot; + emailRequest.getTo());&#xD;
+     } catch (MailException e) {&#xD;
+         System.err.println(&quot;Error sending email to &quot; + emailRequest.getTo() + &quot;: &quot; + e.getMessage());&#xD;
+         // In a real application, you would log this error more robustly&#xD;
+         throw new RuntimeException(&quot;Failed to send email&quot;, e);&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0NNESHOAEfCTGutOISnrsw" name="sendPasswordResetEmail" specification="_0NFIc3OAEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_0NNESXOAEfCTGutOISnrsw" name="emailRequest" type="_0K3h8HOAEfCTGutOISnrsw"/>
+              <language>java</language>
+              <body>String subject = emailRequest.getSubject() != null ? emailRequest.getSubject() : &quot;Password Reset Request&quot;;&#xD;
+     String body = String.format(&#xD;
+             &quot;Dear User,\n\nYou have requested to reset your password. Please click on the following link to reset your password:\n\n%s\n\nThis link will expire in a short time. If you did not request a password reset, please ignore this email.\n\nRegards,\nYour Application Team&quot;,&#xD;
+             emailRequest.getResetLink()&#xD;
+     );&#xD;
+&#xD;
+     EmailRequest resetEmail = new EmailRequest(emailRequest.getTo(), subject, body, emailRequest.getResetLink());&#xD;
+     sendSimpleEmail(resetEmail);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_0LAr4HOAEfCTGutOISnrsw" name="printPassword" method="_0NNERXOAEfCTGutOISnrsw"/>
+            <ownedOperation xmi:id="_0NFIcHOAEfCTGutOISnrsw" name="sendSimpleEmail" method="_0NNERnOAEfCTGutOISnrsw">
+              <ownedComment xmi:id="_0NNET3OAEfCTGutOISnrsw">
+                <body>Sends a simple email.&#xD;
+     * @param emailRequest The request containing recipient, subject, and body.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_0NFIcXOAEfCTGutOISnrsw" name="emailRequest" type="_0K3h8HOAEfCTGutOISnrsw"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_0NFIc3OAEfCTGutOISnrsw" name="sendPasswordResetEmail" method="_0NNESHOAEfCTGutOISnrsw">
+              <ownedComment xmi:id="_0NNEUHOAEfCTGutOISnrsw">
+                <body>Sends a password reset email with a dynamic reset link.&#xD;
+     * @param emailRequest The request containing recipient, subject, and the reset link.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_0NFIdHOAEfCTGutOISnrsw" name="emailRequest" type="_0K3h8HOAEfCTGutOISnrsw"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_0NOSY3OAEfCTGutOISnrsw" name="" memberEnd="_0NOSZHOAEfCTGutOISnrsw _0NLPFXOAEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_0NOSZHOAEfCTGutOISnrsw" name="" type="_0K_dwHOAEfCTGutOISnrsw" association="_0NOSY3OAEfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_0KWkkHOAEfCTGutOISnrsw" name="controller">
+          <packagedElement xmi:type="uml:Class" xmi:id="_0KxbUHOAEfCTGutOISnrsw" name="NotificationController">
+            <ownedAttribute xmi:id="_0NKoAHOAEfCTGutOISnrsw" name="emailService" visibility="private" type="_0K_dwHOAEfCTGutOISnrsw" association="_0NOSYHOAEfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0NMdM3OAEfCTGutOISnrsw" name="sendEmail" specification="_0M8lkXOAEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_0NMdNHOAEfCTGutOISnrsw" name="emailRequest" type="_0K3h8HOAEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_0NMdNXOAEfCTGutOISnrsw" type="_0M6JUXOAEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         emailService.sendSimpleEmail(emailRequest);&#xD;
+         return ResponseEntity.ok(&quot;Email sent successfully!&quot;);&#xD;
+     } catch (RuntimeException e) {&#xD;
+         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(&quot;Failed to send email: &quot; + e.getMessage());&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0NMdNnOAEfCTGutOISnrsw" name="sendForgotPasswordEmail" specification="_0M_B0HOAEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_0NMdN3OAEfCTGutOISnrsw" name="emailRequest" type="_0K3h8HOAEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_0NMdOHOAEfCTGutOISnrsw" type="_0M6JUXOAEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>if (emailRequest.getTo() == null || emailRequest.getTo().isEmpty()) {&#xD;
+         return ResponseEntity.badRequest().body(&quot;Recipient email 'to' cannot be empty.&quot;);&#xD;
+     }&#xD;
+     if (emailRequest.getResetLink() == null || emailRequest.getResetLink().isEmpty()) {&#xD;
+         return ResponseEntity.badRequest().body(&quot;Reset link 'resetLink' cannot be empty.&quot;);&#xD;
+     }&#xD;
+&#xD;
+     try {&#xD;
+         emailService.sendPasswordResetEmail(emailRequest);&#xD;
+         return ResponseEntity.ok(&quot;Password reset email sent successfully to &quot; + emailRequest.getTo());&#xD;
+     } catch (RuntimeException e) {&#xD;
+         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(&quot;Failed to send password reset email: &quot; + e.getMessage());&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_0M8lkXOAEfCTGutOISnrsw" name="sendEmail" method="_0NMdM3OAEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_0M9MoHOAEfCTGutOISnrsw" name="emailRequest" type="_0K3h8HOAEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_0NHksHOAEfCTGutOISnrsw" type="_0M6JUXOAEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_0M_B0HOAEfCTGutOISnrsw" name="sendForgotPasswordEmail" method="_0NMdNnOAEfCTGutOISnrsw">
+              <ownedParameter xmi:id="_0M_B0XOAEfCTGutOISnrsw" name="emailRequest" type="_0K3h8HOAEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="_0NILwHOAEfCTGutOISnrsw" type="_0M6JUXOAEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_0K264HOAEfCTGutOISnrsw" name="TestController"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_0NOSYHOAEfCTGutOISnrsw" name="" memberEnd="_0NOSYXOAEfCTGutOISnrsw _0NKoAHOAEfCTGutOISnrsw">
+            <ownedEnd xmi:id="_0NOSYXOAEfCTGutOISnrsw" name="" type="_0KxbUHOAEfCTGutOISnrsw" association="_0NOSYHOAEfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0KrUsHOAEfCTGutOISnrsw" name="SpringBootEmailNotificationApplication">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0NMdMHOAEfCTGutOISnrsw" name="main" specification="_0KwNMHOAEfCTGutOISnrsw">
+            <ownedParameter xmi:id="_0NMdMXOAEfCTGutOISnrsw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0NMdMnOAEfCTGutOISnrsw" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>SpringApplication.run(SpringBootEmailNotificationApplication.class, args);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_0KwNMHOAEfCTGutOISnrsw" name="main" isStatic="true" method="_0NMdMHOAEfCTGutOISnrsw">
+            <ownedParameter xmi:id="_0KwNMXOAEfCTGutOISnrsw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0KwNM3OAEfCTGutOISnrsw" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0LDvMHOAEfCTGutOISnrsw" name="SpringBootEmailNotificationApplicationTests" visibility="package">
+          <eAnnotations xmi:id="_0LEWQHOAEfCTGutOISnrsw" source="http://ns.yatta.de/umllab">
+            <contents xmi:type="ecore:EAnnotation" xmi:id="_0LEWQXOAEfCTGutOISnrsw" source="codegen">
+              <details xmi:id="_0LEWQnOAEfCTGutOISnrsw" key="codegenDirectory" value="/SpringBootEmailNotificationApplication/src/test/java"/>
+            </contents>
+          </eAnnotations>
+          <ownedOperation xmi:id="_0LE9UHOAEfCTGutOISnrsw" name="contextLoads" visibility="package"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_0KSTIHOAEfCTGutOISnrsw" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_0KS6MHOAEfCTGutOISnrsw" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_0KS6MXOAEfCTGutOISnrsw" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_0KS6MnOAEfCTGutOISnrsw" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_0M4UIXOAEfCTGutOISnrsw" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_0Kix0XOAEfCTGutOISnrsw" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_0Kix0nOAEfCTGutOISnrsw" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_0NG9oHOAEfCTGutOISnrsw" name="SpringBootTest"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_0M3tEHOAEfCTGutOISnrsw" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_0KUvYHOAEfCTGutOISnrsw" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_0KUvYXOAEfCTGutOISnrsw" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_0KUvYnOAEfCTGutOISnrsw" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_0M47MXOAEfCTGutOISnrsw" name="Autowired"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_0NCFIHOAEfCTGutOISnrsw" name="Value"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_0KUvY3OAEfCTGutOISnrsw" name="http">
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_0M5iQXOAEfCTGutOISnrsw" name="HttpStatus"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_0M6JUXOAEfCTGutOISnrsw" name="ResponseEntity"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_0KUvZHOAEfCTGutOISnrsw" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_0KUvZXOAEfCTGutOISnrsw" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_0KUvZnOAEfCTGutOISnrsw" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_0M6wYXOAEfCTGutOISnrsw" name="PostMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_0M7XcXOAEfCTGutOISnrsw" name="RequestBody"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_0M7-gXOAEfCTGutOISnrsw" name="RequestMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_0M7-g3OAEfCTGutOISnrsw" name="RestController"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_0Kd5UHOAEfCTGutOISnrsw" name="mail">
+          <packagedElement xmi:type="uml:Package" xmi:id="_0Kd5UXOAEfCTGutOISnrsw" name="javamail">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_0NDTQXOAEfCTGutOISnrsw" name="JavaMailSender"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_0NCsMHOAEfCTGutOISnrsw" name="MailException"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_0NCsMnOAEfCTGutOISnrsw" name="SimpleMailMessage"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_0Kd5UnOAEfCTGutOISnrsw" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_0ND6UXOAEfCTGutOISnrsw" name="Service"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_0KiKwHOAEfCTGutOISnrsw" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_0KiKwXOAEfCTGutOISnrsw" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_0Kix0HOAEfCTGutOISnrsw" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_0NGWkHOAEfCTGutOISnrsw" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_0NIy0HOAEfCTGutOISnrsw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_0NIy0XOAEfCTGutOISnrsw" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_0NIy0nOAEfCTGutOISnrsw" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_0FDN0HOAEfCTGutOISnrsw">
+      <eAnnotations xmi:id="_0FDN0XOAEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_0FDN0nOAEfCTGutOISnrsw" base_Package="_zsI-kHOAEfCTGutOISnrsw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_0Ktw8HOAEfCTGutOISnrsw" base_Element="_0KrUsHOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_0KwNMnOAEfCTGutOISnrsw" base_Element="_0KwNMHOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_0Kw0QHOAEfCTGutOISnrsw" base_Element="_0KrUsHOAEfCTGutOISnrsw">
+    <annotations xmi:id="_0Kw0QXOAEfCTGutOISnrsw" name="SpringBootApplication"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_0KypcHOAEfCTGutOISnrsw" base_Element="_0KxbUHOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_0Kz3kHOAEfCTGutOISnrsw" base_Element="_0KxbUHOAEfCTGutOISnrsw">
+    <annotations xmi:id="_0K0eoHOAEfCTGutOISnrsw" name="RestController"/>
+    <annotations xmi:id="_0K0eoXOAEfCTGutOISnrsw" name="RequestMapping">
+      <annotationParameters xmi:id="_0K0eonOAEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_0NNESnOAEfCTGutOISnrsw" value="&quot;/api/notifications&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_0K5-MHOAEfCTGutOISnrsw" base_Element="_0K5XIHOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_0K7zYXOAEfCTGutOISnrsw" base_Element="_0K7MU3OAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_0K8acHOAEfCTGutOISnrsw" base_Element="_0K7MU3OAEfCTGutOISnrsw">
+    <annotations xmi:id="_0K8acXOAEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_0K9okHOAEfCTGutOISnrsw" base_Element="_0K9BgHOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_0K9okXOAEfCTGutOISnrsw" base_Element="_0K9BgHOAEfCTGutOISnrsw">
+    <annotations xmi:id="_0K9oknOAEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_0LAE0HOAEfCTGutOISnrsw" base_Element="_0K_dwHOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_0LAr4XOAEfCTGutOISnrsw" base_Element="_0LAr4HOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_0LB6AHOAEfCTGutOISnrsw" base_Element="_0K_dwHOAEfCTGutOISnrsw">
+    <annotations xmi:id="_0LB6AXOAEfCTGutOISnrsw" name="Service"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_0LEWQ3OAEfCTGutOISnrsw" base_Element="_0LDvMHOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_0LE9UXOAEfCTGutOISnrsw" base_Element="_0LE9UHOAEfCTGutOISnrsw">
+    <annotations xmi:id="_0LFkYHOAEfCTGutOISnrsw" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_0LFkYXOAEfCTGutOISnrsw" base_Element="_0LDvMHOAEfCTGutOISnrsw">
+    <annotations xmi:id="_0LFkYnOAEfCTGutOISnrsw" name="SpringBootTest"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_0M4UIHOAEfCTGutOISnrsw" base_Element="_0M3tEHOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0M47MHOAEfCTGutOISnrsw" base_Element="_0M4UIXOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0M5iQHOAEfCTGutOISnrsw" base_Element="_0M47MXOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0M6JUHOAEfCTGutOISnrsw" base_Element="_0M5iQXOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0M6wYHOAEfCTGutOISnrsw" base_Element="_0M6JUXOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0M7XcHOAEfCTGutOISnrsw" base_Element="_0M6wYXOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0M7-gHOAEfCTGutOISnrsw" base_Element="_0M7XcXOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0M7-gnOAEfCTGutOISnrsw" base_Element="_0M7-gXOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0M8lkHOAEfCTGutOISnrsw" base_Element="_0M7-g3OAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="_0M9MoXOAEfCTGutOISnrsw" genericsValue="String" base_Element="_0M8lkXOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_0M-awHOAEfCTGutOISnrsw" base_Element="_0M9MoHOAEfCTGutOISnrsw">
+    <annotations xmi:id="_0M-awXOAEfCTGutOISnrsw" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_0M-awnOAEfCTGutOISnrsw" base_Element="_0M8lkXOAEfCTGutOISnrsw">
+    <annotations xmi:id="_0M-aw3OAEfCTGutOISnrsw" name="PostMapping">
+      <annotationParameters xmi:id="_0M-axHOAEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_0NNES3OAEfCTGutOISnrsw" value="&quot;/send-email&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_0M_o4HOAEfCTGutOISnrsw" genericsValue="String" base_Element="_0M_B0HOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_0NAP8HOAEfCTGutOISnrsw" base_Element="_0M_B0XOAEfCTGutOISnrsw">
+    <annotations xmi:id="_0NAP8XOAEfCTGutOISnrsw" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_0NA3AHOAEfCTGutOISnrsw" base_Element="_0M_B0HOAEfCTGutOISnrsw">
+    <annotations xmi:id="_0NA3AXOAEfCTGutOISnrsw" name="PostMapping">
+      <annotationParameters xmi:id="_0NA3AnOAEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_0NNETHOAEfCTGutOISnrsw" value="&quot;/forgot-password&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_0NCFIXOAEfCTGutOISnrsw" base_Element="_0NCFIHOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0NCsMXOAEfCTGutOISnrsw" base_Element="_0NCsMHOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0NDTQHOAEfCTGutOISnrsw" base_Element="_0NCsMnOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0ND6UHOAEfCTGutOISnrsw" base_Element="_0NDTQXOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0NEhYHOAEfCTGutOISnrsw" base_Element="_0ND6UXOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_0NFIcnOAEfCTGutOISnrsw" base_Element="_0NFIcHOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_0NFvgHOAEfCTGutOISnrsw" base_Element="_0NFIc3OAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0NGWkXOAEfCTGutOISnrsw" base_Element="_0NGWkHOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0NG9oXOAEfCTGutOISnrsw" base_Element="_0NG9oHOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0NJZ4HOAEfCTGutOISnrsw" base_Element="_0NIy0nOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_0NJZ5HOAEfCTGutOISnrsw" base_Element="_0NJZ4XOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="_0NKA8HOAEfCTGutOISnrsw" base_Element="_0NJZ4XOAEfCTGutOISnrsw">
+    <annotations xmi:id="_0NKA8XOAEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_0NKoAXOAEfCTGutOISnrsw" base_Element="_0NKoAHOAEfCTGutOISnrsw">
+    <annotations xmi:id="_0NLPEHOAEfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_0NL2IHOAEfCTGutOISnrsw" base_Element="_0NLPFXOAEfCTGutOISnrsw">
+    <annotations xmi:id="_0NL2IXOAEfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_0NL2I3OAEfCTGutOISnrsw" base_Element="_0NL2InOAEfCTGutOISnrsw">
+    <annotations xmi:id="_0NL2JHOAEfCTGutOISnrsw" name="Value">
+      <annotationParameters xmi:id="_0NL2JXOAEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_0NNETXOAEfCTGutOISnrsw" value="&quot;${spring.mail.password}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_0NL2J3OAEfCTGutOISnrsw" base_Element="_0NL2JnOAEfCTGutOISnrsw">
+    <annotations xmi:id="_0NL2KHOAEfCTGutOISnrsw" name="Value">
+      <annotationParameters xmi:id="_0NL2KXOAEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_0NNETnOAEfCTGutOISnrsw" value="&quot;${spring.mail.properties.mail.smtp.from}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_0NOSYnOAEfCTGutOISnrsw" base_Element="_0NOSYHOAEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="_0NO5cHOAEfCTGutOISnrsw" base_Element="_0NOSY3OAEfCTGutOISnrsw"/>
+</xmi:XMI>

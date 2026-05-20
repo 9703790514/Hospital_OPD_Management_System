@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_mWZpUHN8EfCTGutOISnrsw">
+  <modelElement href="NurseCheckUpsMicroService-1.uml#_nTVLpHN8EfCTGutOISnrsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oaYTQHN8EfCTGutOISnrsw" sourceAnchor="456.0,0.0" targetAnchor="0.0,106.0" target="_oam8wHN8EfCTGutOISnrsw" source="_oaYTSXN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nVvmcHN8EfCTGutOISnrsw"/>
+    <stereotypes xmi:id="_oaYTQXN8EfCTGutOISnrsw" name="Reference">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVxboHN8EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_oaYTQnN8EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_qEpcsnN8EfCTGutOISnrsw" position="-3.0,22.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oaYTQ3N8EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVvmcXN8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEpcsXN8EfCTGutOISnrsw" position="1.0,41.0"/>
+      <visibility xmi:id="_oaYTRHN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oaYTRXN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oaYTRnN8EfCTGutOISnrsw" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVmcgHN8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEqDwHN8EfCTGutOISnrsw" position="-35.0,-51.0"/>
+      <visibility xmi:id="_oaYTR3N8EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_oaYTSHN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oaaIcHN8EfCTGutOISnrsw" sourceAnchor="0.0,42.0" targetAnchor="430.0,66.0" target="_oam8wHN8EfCTGutOISnrsw" source="_oabWonN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nVtxQHN8EfCTGutOISnrsw"/>
+    <nameVisual xmi:id="_oaaIcXN8EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_qEqq0HN8EfCTGutOISnrsw" position="-3.0,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oaaIcnN8EfCTGutOISnrsw" aggregationKind="NONE" name="allCheckups" navigable="true">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nT-r4nN8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEqDwXN8EfCTGutOISnrsw" position="-28.0,-90.0"/>
+      <visibility xmi:id="_oaaIdXN8EfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_oaaIdHN8EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oaaIc3N8EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVtxQXN8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEqq0XN8EfCTGutOISnrsw" position="5.0,2.0"/>
+      <visibility xmi:id="_oabWkXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oabWkHN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oabWknN8EfCTGutOISnrsw" target="_oabWonN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nVr8FHN8EfCTGutOISnrsw"/>
+    <nameVisual xmi:id="_oabWk3N8EfCTGutOISnrsw" text=""/>
+    <sourceRole xmi:id="_oabWlHN8EfCTGutOISnrsw" aggregationKind="NONE" name="date" navigable="true">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVoRtXN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oabWlXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oabWlnN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oabWl3N8EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVr8FXN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oabWmHN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oabWmXN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oabWmnN8EfCTGutOISnrsw" sourceAnchor="158.0,55.0" targetAnchor="68.0,176.0" target="_oabWonN8EfCTGutOISnrsw" source="_oady6HN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nVsjIHN8EfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_ZYGxcnN9EfCTGutOISnrsw" sourceX="591" sourceY="2" targetX="2" targetY="176"/>
+    <nameVisual xmi:id="_oabWm3N8EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_qErR4HN8EfCTGutOISnrsw" position="-12.0,-60.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oabWnHN8EfCTGutOISnrsw" aggregationKind="NONE" name="vitals" navigable="true">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVoRt3N8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEqq0nN8EfCTGutOISnrsw" position="38.0,-51.0"/>
+      <visibility xmi:id="_oabWnXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oabWnnN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oabWn3N8EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVsjIXN8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEr48HN8EfCTGutOISnrsw" position="2.0,35.0"/>
+      <visibility xmi:id="_oabWoHN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oabWoXN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oadLwHN8EfCTGutOISnrsw" sourceAnchor="59.0,0.0" targetAnchor="158.0,67.0" target="_oady6HN8EfCTGutOISnrsw" source="_oafA8HN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nVsjInN8EfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_ZYHYgHN9EfCTGutOISnrsw" sourceX="-4" sourceY="-40" targetX="374"/>
+    <nameVisual xmi:id="_oadLwXN8EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_qEr48nN8EfCTGutOISnrsw" position="-219.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oadLwnN8EfCTGutOISnrsw" aggregationKind="NONE" name="bloodPressure" navigable="true">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4xHN8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEr48XN8EfCTGutOISnrsw" position="7.0,-39.0"/>
+      <visibility xmi:id="_oadLw3N8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oadLxHN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oadLxXN8EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVsjI3N8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEsgAHN8EfCTGutOISnrsw" position="23.0,2.000000000000057"/>
+      <visibility xmi:id="_oadLxnN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oadLx3N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oady0HN8EfCTGutOISnrsw" sourceAnchor="64.0,96.0" targetAnchor="79.0,138.0" target="_oady6HN8EfCTGutOISnrsw" source="_oagPEHN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nVsjJHN8EfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_ZYHYg3N9EfCTGutOISnrsw" sourceY="242" targetX="755" targetY="101"/>
+    <bendpoints xmi:id="_ZYHYhHN9EfCTGutOISnrsw" sourceX="-755" sourceY="242" targetY="101"/>
+    <nameVisual xmi:id="_oady0XN8EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_qEsgAnN8EfCTGutOISnrsw" position="-39.0,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oady0nN8EfCTGutOISnrsw" aggregationKind="NONE" name="bloodSugar" navigable="true">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4xXN8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEsgAXN8EfCTGutOISnrsw" position="-80.0,39.19999999999999"/>
+      <visibility xmi:id="_oady03N8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oady1HN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oady1XN8EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVtKMHN8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEsgA3N8EfCTGutOISnrsw" position="45.500000000000114,41.000000000000114"/>
+      <visibility xmi:id="_oady1nN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oady13N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oady2HN8EfCTGutOISnrsw" sourceAnchor="0.0,25.0" targetAnchor="158.0,115.0" target="_oady6HN8EfCTGutOISnrsw" source="_oajSYHN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nVtKMXN8EfCTGutOISnrsw"/>
+    <nameVisual xmi:id="_oady2XN8EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_qEtHEXN8EfCTGutOISnrsw" position="-15.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oady2nN8EfCTGutOISnrsw" aggregationKind="NONE" name="temperature" navigable="true">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4yHN8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEtHEHN8EfCTGutOISnrsw" position="-133.0,41.0"/>
+      <visibility xmi:id="_oady23N8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oady3HN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oady3XN8EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVtKMnN8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEtHEnN8EfCTGutOISnrsw" position="92.0,2.0"/>
+      <visibility xmi:id="_oady3nN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oady33N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oady4HN8EfCTGutOISnrsw" sourceAnchor="54.0,98.0" targetAnchor="76.0,138.0" target="_oady6HN8EfCTGutOISnrsw" source="_oakggHN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nVtKM3N8EfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_ZYHYgXN9EfCTGutOISnrsw" sourceX="3" sourceY="31" targetX="608" targetY="100"/>
+    <bendpoints xmi:id="_ZYHYgnN9EfCTGutOISnrsw" sourceX="-603" sourceY="29" targetX="2" targetY="98"/>
+    <nameVisual xmi:id="_oady4XN8EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_qEtuIHN8EfCTGutOISnrsw" position="20.0,-20.99999999999997"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oady4nN8EfCTGutOISnrsw" aggregationKind="NONE" name="oxygenSaturation" navigable="true">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4yXN8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEtHE3N8EfCTGutOISnrsw" position="-193.0,36.0"/>
+      <visibility xmi:id="_oady43N8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oady5HN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oady5XN8EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVtKNHN8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEtuIXN8EfCTGutOISnrsw" position="0.0,11.000000000000057"/>
+      <visibility xmi:id="_oady5nN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oady53N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oaox8HN8EfCTGutOISnrsw" sourceAnchor="0.0,118.0" targetAnchor="0.0,44.0" target="_oaluoHN8EfCTGutOISnrsw" source="_oaqAEHN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nVxboXN8EfCTGutOISnrsw"/>
+    <bendpoints xmi:id="_ZYGxcHN9EfCTGutOISnrsw" sourceX="-493" targetX="-19" targetY="240"/>
+    <bendpoints xmi:id="_ZYGxcXN9EfCTGutOISnrsw" sourceX="-492" sourceY="-240" targetX="-18"/>
+    <stereotypes xmi:id="_oaox9XN8EfCTGutOISnrsw" name="Reference">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVzQ0HN8EfCTGutOISnrsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_oaox8nN8EfCTGutOISnrsw" text="">
+      <visualProperties xmi:id="_qEuVMXN8EfCTGutOISnrsw" position="-43.0,1.0000000000001137"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oaox83N8EfCTGutOISnrsw" aggregationKind="NONE" name="">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVxbonN8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEuVMHN8EfCTGutOISnrsw" position="-60.0,2.0"/>
+      <visibility xmi:id="_oapZAXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oapZAHN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oaox9HN8EfCTGutOISnrsw" aggregationKind="NONE" name="repository" navigable="true">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVqG5XN8EfCTGutOISnrsw"/>
+      <visualProperties xmi:id="_qEuVMnN8EfCTGutOISnrsw" position="-89.0,33.000000000000114"/>
+      <visibility xmi:id="_oapZA3N8EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_oapZAnN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_oaox8XN8EfCTGutOISnrsw" sourceAnchor="195.0,0.0" targetAnchor="198.0,157.0" dashed="true" superClass="_oam8wHN8EfCTGutOISnrsw" subClass="_oaqAEHN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfu0nN8EfCTGutOISnrsw"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oaYTSXN8EfCTGutOISnrsw" name="NurseCheckupController" associationsOut="_oaYTQHN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nTlqUXN8EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_oaYTSnN8EfCTGutOISnrsw" position="-1371.0,-660.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_oaYTS3N8EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nTlqUnN8EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_oaYTTHN8EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nTsYAHN8EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_oaYTTXN8EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_oaYTTnN8EfCTGutOISnrsw" name="service">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVmcgHN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oaYTT3N8EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVnDkHN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oaYTUHN8EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_oaYTUXN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oaYTUnN8EfCTGutOISnrsw" name="NurseCheckupService">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nT7BgHN8EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oaYTU3N8EfCTGutOISnrsw" name="getCheckupById">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nTlqU3N8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oaYTVHN8EfCTGutOISnrsw" name="Generics">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTmRYHN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oaYTVXN8EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTm4cHN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oaYTVnN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oaYTV3N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oaYTWHN8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVhkAXN8EfCTGutOISnrsw"/>
+        <type xmi:id="_oaYTWXN8EfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nVXzAnN8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaYTWnN8EfCTGutOISnrsw" name="id">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTlqVHN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oaYTW3N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oaYTXHN8EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oaYTXXN8EfCTGutOISnrsw" name="getByAppointmentId">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nTm4c3N8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oaYTXnN8EfCTGutOISnrsw" name="Generics">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nToGkHN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oaYTX3N8EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTqi0HN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oaYTYHN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oaYTYXN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oaYTYnN8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVhkAnN8EfCTGutOISnrsw"/>
+        <type xmi:id="_oaYTY3N8EfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nVXzAnN8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaYTZHN8EfCTGutOISnrsw" name="appointmentId">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTm4dHN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oaYTZXN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oaYTZnN8EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oaYTZ3N8EfCTGutOISnrsw" name="getAllCheckups">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nTqi03N8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oaYTaHN8EfCTGutOISnrsw" name="Generics">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTqi1HN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oaYTaXN8EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTqi1XN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oaYTanN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oaYTa3N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oaYTbHN8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVhkA3N8EfCTGutOISnrsw"/>
+        <type xmi:id="_oaYTbXN8EfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nVXzAnN8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oaYTbnN8EfCTGutOISnrsw" name="deleteCheckup">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nTrJ4HN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oaYTb3N8EfCTGutOISnrsw" name="Generics">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTrJ4nN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oaYTcHN8EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTrw8nN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oaYTcXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oaYTcnN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oaYTc3N8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVhkBXN8EfCTGutOISnrsw"/>
+        <type xmi:id="_oaYTdHN8EfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nVXzAnN8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaYTdXN8EfCTGutOISnrsw" name="id">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTrJ4XN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oaYTdnN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oaYTd3N8EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oaYTeHN8EfCTGutOISnrsw" name="createCheckup">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVa2UnN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oaYTeXN8EfCTGutOISnrsw" name="Generics">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVbdYHN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oaYTenN8EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVbdY3N8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oaYTe3N8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oaYTfHN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oaYTfXN8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVhkAHN8EfCTGutOISnrsw"/>
+        <type xmi:id="_oaYTfnN8EfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nVXzAnN8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaYTf3N8EfCTGutOISnrsw" name="checkup">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVa2U3N8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oaYTgHN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oaYTgXN8EfCTGutOISnrsw" name="NurseCheckup">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nTtmIHN8EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oaYTgnN8EfCTGutOISnrsw" name="updateCheckup">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVbdZXN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oaYTg3N8EfCTGutOISnrsw" name="Generics">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVbdaHN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oaYThHN8EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVcEdHN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oaYThXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oaYThnN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oaYTh3N8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVhkBHN8EfCTGutOISnrsw"/>
+        <type xmi:id="_oaYTiHN8EfCTGutOISnrsw" name="ResponseEntity">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nVXzAnN8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaYTiXN8EfCTGutOISnrsw" name="id">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVbdZnN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oaYTinN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oaYTi3N8EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oaYTjHN8EfCTGutOISnrsw" name="checkup">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVbdZ3N8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oaYTjXN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oaYTjnN8EfCTGutOISnrsw" name="NurseCheckup">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nTtmIHN8EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oaqAEHN8EfCTGutOISnrsw" name="NurseCheckupServiceImpl" associationsOut="_oaox8HN8EfCTGutOISnrsw" generalizations="_oaox8XN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nT_6AHN8EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_oaqAEXN8EfCTGutOISnrsw" position="-893.0,-598.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_oaqAEnN8EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nUAhEHN8EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_oaqAE3N8EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nUCWR3N8EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_oaqAFHN8EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_oaqAFXN8EfCTGutOISnrsw" name="repository">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVqG5XN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oaqAFnN8EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVqt8HN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oaqAF3N8EfCTGutOISnrsw" label="-"/>
+      <cardinality xmi:id="_oaqAGHN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oaqAGXN8EfCTGutOISnrsw" name="NurseCheckupRepository">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nT5MUHN8EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oaqAGnN8EfCTGutOISnrsw" name="getCheckupById">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nUAhEXN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oaqAG3N8EfCTGutOISnrsw" name="Generics">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nUBIIHN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oaqAHHN8EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nUBIIXN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oaqAHXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oaqAHnN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oaqAH3N8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVl1cHN8EfCTGutOISnrsw"/>
+        <type xmi:id="_oaqAIHN8EfCTGutOISnrsw" name="Optional">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfHw3N8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaqAIXN8EfCTGutOISnrsw" name="id">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nUAhEnN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oaqAInN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oaqAI3N8EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oaqAJHN8EfCTGutOISnrsw" name="deleteCheckup">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nUBvMXN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oaqAJXN8EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nUBvM3N8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oaqAJnN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oaqAJ3N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_oaqAKHN8EfCTGutOISnrsw" name="id">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nUBvMnN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oaqAKXN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oaqAKnN8EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oaqAK3N8EfCTGutOISnrsw" name="getAllCheckups">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nUBvNXN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oaqALHN8EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nUCWQHN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oaqALXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oaqALnN8EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_oaqAL3N8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nUBvNnN8EfCTGutOISnrsw"/>
+        <type xmi:id="_oaqAMHN8EfCTGutOISnrsw" name="NurseCheckup">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nTtmIHN8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oaqAMXN8EfCTGutOISnrsw" name="getCheckupByAppointmentId">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nUCWQnN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oaqAMnN8EfCTGutOISnrsw" name="Generics">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nUCWRHN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oaqAM3N8EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nUCWRXN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oaqANHN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oaqANXN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oaqANnN8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVl1cXN8EfCTGutOISnrsw"/>
+        <type xmi:id="_oaqAN3N8EfCTGutOISnrsw" name="Optional">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfHw3N8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaqAOHN8EfCTGutOISnrsw" name="appointmentId">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nUCWQ3N8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oaqAOXN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oaqAOnN8EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oaqAO3N8EfCTGutOISnrsw" name="createCheckup">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfu03N8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oaqAPHN8EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfu1nN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oaqAPXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oaqAPnN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oaqAP3N8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfu1XN8EfCTGutOISnrsw"/>
+        <type xmi:id="_oaqAQHN8EfCTGutOISnrsw" name="NurseCheckup">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nTtmIHN8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaqAQXN8EfCTGutOISnrsw" name="checkup">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfu1HN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oaqAQnN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oaqAQ3N8EfCTGutOISnrsw" name="NurseCheckup">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nTtmIHN8EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oaqARHN8EfCTGutOISnrsw" name="updateCheckup">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVgV4HN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oaqARXN8EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVgV5HN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oaqARnN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oaqAR3N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oaqASHN8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVgV43N8EfCTGutOISnrsw"/>
+        <type xmi:id="_oaqASXN8EfCTGutOISnrsw" name="NurseCheckup">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nTtmIHN8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaqASnN8EfCTGutOISnrsw" name="id">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVgV4XN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oaqAS3N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oaqATHN8EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oaqATXN8EfCTGutOISnrsw" name="checkup">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVgV4nN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oaqATnN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oaqAT3N8EfCTGutOISnrsw" name="NurseCheckup">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nTtmIHN8EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_oaluoHN8EfCTGutOISnrsw" name="NurseCheckupRepository" associationsIn="_oaox8HN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nT5MUHN8EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_oaluoXN8EfCTGutOISnrsw" position="-1368.0,-764.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_oaluonN8EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nT5zYHN8EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_oaluo3N8EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nT6acnN8EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_oalupHN8EfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_oalupXN8EfCTGutOISnrsw" name="findByAppointmentId">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nT5zYXN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oalupnN8EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nT6acXN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oalup3N8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oaluqHN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oaluqXN8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfHwnN8EfCTGutOISnrsw"/>
+        <type xmi:id="_oaluqnN8EfCTGutOISnrsw" name="NurseCheckup">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nTtmIHN8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaluq3N8EfCTGutOISnrsw" name="appointmentId">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nT6acHN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oalurHN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oalurXN8EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_oam8wHN8EfCTGutOISnrsw" name="NurseCheckupService" associationsIn="_oaaIcHN8EfCTGutOISnrsw _oaYTQHN8EfCTGutOISnrsw" subclassedBy="_oaox8XN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nT7BgHN8EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_oam8wXN8EfCTGutOISnrsw" position="-896.0,-766.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oam8wnN8EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_oam8w3N8EfCTGutOISnrsw" name="allCheckups">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nT-r4nN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oam8xHN8EfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_oam8xXN8EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_oam8xnN8EfCTGutOISnrsw" name="NurseCheckup">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTtmIHN8EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oam8x3N8EfCTGutOISnrsw" name="getCheckupById">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nT8PoHN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oam8yHN8EfCTGutOISnrsw" name="Generics">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nT9dwHN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oam8yXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oam8ynN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oam8y3N8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVlOYHN8EfCTGutOISnrsw"/>
+        <type xmi:id="_oam8zHN8EfCTGutOISnrsw" name="Optional">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfHw3N8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oam8zXN8EfCTGutOISnrsw" name="id">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nT8PoXN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oam8znN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oam8z3N8EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oam80HN8EfCTGutOISnrsw" name="deleteCheckup">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nT-r4HN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oam80XN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oam80nN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_oam803N8EfCTGutOISnrsw" name="id">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nT-r4XN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oam81HN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oam81XN8EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oam81nN8EfCTGutOISnrsw" name="getCheckupByAppointmentId">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nT_S8HN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oam813N8EfCTGutOISnrsw" name="Generics">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nT_S8nN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oam82HN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oam82XN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oam82nN8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVlOYXN8EfCTGutOISnrsw"/>
+        <type xmi:id="_oam823N8EfCTGutOISnrsw" name="Optional">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfHw3N8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oam83HN8EfCTGutOISnrsw" name="appointmentId">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nT_S8XN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oam83XN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oam83nN8EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oam833N8EfCTGutOISnrsw" name="createCheckup">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfHxXN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oam84HN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oam84XN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oam84nN8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfHx3N8EfCTGutOISnrsw"/>
+        <type xmi:id="_oam843N8EfCTGutOISnrsw" name="NurseCheckup">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nTtmIHN8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oam85HN8EfCTGutOISnrsw" name="checkup">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfHxnN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oam85XN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oam85nN8EfCTGutOISnrsw" name="NurseCheckup">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nTtmIHN8EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oam853N8EfCTGutOISnrsw" name="updateCheckup">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfHyHN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oam86HN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oam86XN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oam86nN8EfCTGutOISnrsw">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfHy3N8EfCTGutOISnrsw"/>
+        <type xmi:id="_oam863N8EfCTGutOISnrsw" name="NurseCheckup">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nTtmIHN8EfCTGutOISnrsw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oam87HN8EfCTGutOISnrsw" name="id">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfHyXN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oam87XN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oam87nN8EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oam873N8EfCTGutOISnrsw" name="checkup">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVfHynN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oam88HN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+        <type xmi:id="_oam88XN8EfCTGutOISnrsw" name="NurseCheckup">
+          <modelElement href="NurseCheckUpsMicroService-1.uml#_nTtmIHN8EfCTGutOISnrsw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oabWonN8EfCTGutOISnrsw" name="NurseCheckup" associationsIn="_oabWknN8EfCTGutOISnrsw _oabWmnN8EfCTGutOISnrsw" associationsOut="_oaaIcHN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nTtmIHN8EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_oabWo3N8EfCTGutOISnrsw" position="-437.0,-742.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_oabWpHN8EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nTtmIXN8EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_oabWpXN8EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nTyeoHN8EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_oabWpnN8EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_oabWp3N8EfCTGutOISnrsw" name="id">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVnDknN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oabWqHN8EfCTGutOISnrsw" name="PrimaryKey">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVnqoXN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oabWqXN8EfCTGutOISnrsw" name="JPA1StyledElement">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVoRsHN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oabWqnN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oabWq3N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oabWrHN8EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oabWrXN8EfCTGutOISnrsw" name="appointmentId">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVoRsXN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oabWrnN8EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVoRsnN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oabWr3N8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oabWsHN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oabWsXN8EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oabWsnN8EfCTGutOISnrsw" name="patientId">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVoRs3N8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oabWs3N8EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVoRtHN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oabWtHN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oabWtXN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oabWtnN8EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oabWt3N8EfCTGutOISnrsw" name="date">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVoRtXN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oabWuHN8EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVoRtnN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oabWuXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oabWunN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oabWu3N8EfCTGutOISnrsw" name="Date">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVcEe3N8EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oabWvHN8EfCTGutOISnrsw" name="vitals">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVoRt3N8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oabWvXN8EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVoRuHN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oabWvnN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oabWv3N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oabWwHN8EfCTGutOISnrsw" name="Vitals">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTu0QHN8EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oabWwXN8EfCTGutOISnrsw" name="notes">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4wHN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oabWwnN8EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4wXN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oabWw3N8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oabWxHN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oabWxXN8EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oabWxnN8EfCTGutOISnrsw" name="nurseId">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4wnN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oabWx3N8EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4w3N8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oabWyHN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oabWyXN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oabWynN8EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oaWeEHN8EfCTGutOISnrsw" name="NurseCheckUpsMicroService1Application">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nTj1IHN8EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_oaWeEXN8EfCTGutOISnrsw" position="-1390.0,-461.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_oaWeEnN8EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nTkcMHN8EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_oaWeE3N8EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nTlDTHN8EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_oaWeFHN8EfCTGutOISnrsw" label="+"/>
+    <operations xmi:id="_oaWeFXN8EfCTGutOISnrsw" name="main" staticOperation="true">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nTlDSHN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oaWeFnN8EfCTGutOISnrsw" name="StyledElement">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTlDSnN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oaWeF3N8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oaWeGHN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_oaWeGXN8EfCTGutOISnrsw" name="args">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTlDSXN8EfCTGutOISnrsw"/>
+        <cardinality xmi:id="_oaWeGnN8EfCTGutOISnrsw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_oaWeG3N8EfCTGutOISnrsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oady6HN8EfCTGutOISnrsw" name="Vitals" associationsIn="_oadLwHN8EfCTGutOISnrsw _oady0HN8EfCTGutOISnrsw _oady2HN8EfCTGutOISnrsw _oady4HN8EfCTGutOISnrsw" associationsOut="_oabWmnN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nTu0QHN8EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_oady6XN8EfCTGutOISnrsw" position="-1116.0,-447.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_oady6nN8EfCTGutOISnrsw" keyword="static"/>
+    <stereotypes xmi:id="_oady63N8EfCTGutOISnrsw" name="StyledElement">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nTu0Q3N8EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_oady7HN8EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_oady7XN8EfCTGutOISnrsw" name="bloodPressure">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4xHN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oady7nN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oady73N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oady8HN8EfCTGutOISnrsw" name="BloodPressure">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTvbUHN8EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oady8XN8EfCTGutOISnrsw" name="bloodSugar">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4xXN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oady8nN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oady83N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oady9HN8EfCTGutOISnrsw" name="BloodSugar">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTvbU3N8EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oady9XN8EfCTGutOISnrsw" name="pulseRate">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4xnN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oady9nN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oady93N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oady-HN8EfCTGutOISnrsw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oady-XN8EfCTGutOISnrsw" name="respiratoryRate">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4x3N8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oady-nN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oady-3N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oady_HN8EfCTGutOISnrsw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oady_XN8EfCTGutOISnrsw" name="temperature">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4yHN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oady_nN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oady_3N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oadzAHN8EfCTGutOISnrsw" name="Temperature">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTwCYHN8EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oadzAXN8EfCTGutOISnrsw" name="oxygenSaturation">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4yXN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oadzAnN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oadzA3N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oadzBHN8EfCTGutOISnrsw" name="OxygenSaturation">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nTwCY3N8EfCTGutOISnrsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oadzBXN8EfCTGutOISnrsw" name="weightKg">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4ynN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oadzBnN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oadzB3N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oadzCHN8EfCTGutOISnrsw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oadzCXN8EfCTGutOISnrsw" name="heightCm">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4y3N8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oadzCnN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oadzC3N8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oadzDHN8EfCTGutOISnrsw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oajSYHN8EfCTGutOISnrsw" name="Temperature" associationsOut="_oady2HN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nTwCYHN8EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_oajSYXN8EfCTGutOISnrsw" position="-825.0,-357.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_oajSYnN8EfCTGutOISnrsw" keyword="static"/>
+    <visibility xmi:id="_oajSY3N8EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_oajSZHN8EfCTGutOISnrsw" name="value">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVqG4XN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oajSZXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oajSZnN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oajSZ3N8EfCTGutOISnrsw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oajSaHN8EfCTGutOISnrsw" name="unit">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVqG4nN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oajSaXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oajSanN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oajSa3N8EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oafA8HN8EfCTGutOISnrsw" name="BloodPressure" associationsOut="_oadLwHN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nTvbUHN8EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_oafA8XN8EfCTGutOISnrsw" position="-639.0,-339.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_oafA8nN8EfCTGutOISnrsw" keyword="static"/>
+    <visibility xmi:id="_oafA83N8EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_oafA9HN8EfCTGutOISnrsw" name="systolic">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4zHN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oafA9XN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oafA9nN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oafA93N8EfCTGutOISnrsw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oafA-HN8EfCTGutOISnrsw" name="diastolic">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4zXN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oafA-XN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oafA-nN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oafA-3N8EfCTGutOISnrsw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oafA_HN8EfCTGutOISnrsw" name="unit">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4znN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oafA_XN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oafA_nN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oafA_3N8EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oakggHN8EfCTGutOISnrsw" name="OxygenSaturation" associationsOut="_oady4HN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nTwCY3N8EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_oakggXN8EfCTGutOISnrsw" position="-489.0,-338.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_oakggnN8EfCTGutOISnrsw" keyword="static"/>
+    <visibility xmi:id="_oakgg3N8EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_oakghHN8EfCTGutOISnrsw" name="value">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVqG43N8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oakghXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oakghnN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oakgh3N8EfCTGutOISnrsw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oakgiHN8EfCTGutOISnrsw" name="unit">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVqG5HN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oakgiXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oakginN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oakgi3N8EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oagPEHN8EfCTGutOISnrsw" name="BloodSugar" associationsOut="_oady0HN8EfCTGutOISnrsw">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nTvbU3N8EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_oagPEXN8EfCTGutOISnrsw" position="-346.0,-546.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_oagPEnN8EfCTGutOISnrsw" keyword="static"/>
+    <visibility xmi:id="_oagPE3N8EfCTGutOISnrsw" label="+"/>
+    <attributes xmi:id="_oagPFHN8EfCTGutOISnrsw" name="value">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVo4z3N8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oagPFXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oagPFnN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oagPF3N8EfCTGutOISnrsw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oagPGHN8EfCTGutOISnrsw" name="unit">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nVqG4HN8EfCTGutOISnrsw"/>
+      <visibility xmi:id="_oagPGXN8EfCTGutOISnrsw" label="+"/>
+      <cardinality xmi:id="_oagPGnN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+      <type xmi:id="_oagPG3N8EfCTGutOISnrsw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oatqcHN8EfCTGutOISnrsw" name="NurseCheckUpsMicroService1ApplicationTests">
+    <modelElement href="NurseCheckUpsMicroService-1.uml#_nUDkYHN8EfCTGutOISnrsw"/>
+    <visualProperties xmi:id="_oatqcXN8EfCTGutOISnrsw" position="-357.0,-363.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_oatqcnN8EfCTGutOISnrsw" name="LegacyStyledElement">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nUELcHN8EfCTGutOISnrsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_oatqc3N8EfCTGutOISnrsw" name="Annotations">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nUELdHN8EfCTGutOISnrsw"/>
+    </stereotypes>
+    <visibility xmi:id="_oatqdHN8EfCTGutOISnrsw" label="~"/>
+    <operations xmi:id="_oatqdXN8EfCTGutOISnrsw" name="contextLoads">
+      <modelElement href="NurseCheckUpsMicroService-1.uml#_nUELcXN8EfCTGutOISnrsw"/>
+      <stereotypes xmi:id="_oatqdnN8EfCTGutOISnrsw" name="Annotations">
+        <modelElement href="NurseCheckUpsMicroService-1.uml#_nUELcnN8EfCTGutOISnrsw"/>
+      </stereotypes>
+      <visibility xmi:id="_oatqd3N8EfCTGutOISnrsw" label="~"/>
+      <cardinality xmi:id="_oatqeHN8EfCTGutOISnrsw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

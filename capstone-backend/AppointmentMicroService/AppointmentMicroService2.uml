@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_-ma1cHNtEfCTGutOISnrsw" name="AppointmentMicroService2">
+    <eAnnotations xmi:id="_-318oHNtEfCTGutOISnrsw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_-318oXNtEfCTGutOISnrsw" source="codegen">
+        <details xmi:id="_-318onNtEfCTGutOISnrsw" key="codegenDirectory" value="/AppointmentMicroService/src/main/java"/>
+        <details xmi:id="_AEqVEHNuEfCTGutOISnrsw" key="AssociatedSourceCode" value="/AppointmentMicroService/src/main/java/training/iqgateway/AppointmentMicroServiceApplication.java;2229005235/1;/AppointmentMicroService/src/main/java/training/iqgateway/controller/AppointmentController.java;3169636626/1;/AppointmentMicroService/src/main/java/training/iqgateway/entities/Appointment.java;2994793593/1;/AppointmentMicroService/src/main/java/training/iqgateway/entities/DailySlotDTO.java;2415331079/1;/AppointmentMicroService/src/main/java/training/iqgateway/entities/ScheduleUpdatePayload.java;277147158/1;/AppointmentMicroService/src/main/java/training/iqgateway/entities/TimeRangeDTO.java;1751813132/1;/AppointmentMicroService/src/main/java/training/iqgateway/repository/AppointmentRepository.java;1912015020/1;/AppointmentMicroService/src/main/java/training/iqgateway/service/AppointmentService.java;220382109/1;/AppointmentMicroService/src/main/java/training/iqgateway/serviceimpl/AppointmentServiceImpl.java;1518257860/1;/AppointmentMicroService/src/test/java/training/iqgateway/AppointmentMicroServiceApplicationTests.java;1280533758/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="__wjGQHNtEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="__wjGQXNtEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="__wjGQnNtEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="__wjGQ3NtEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="__wjGRHNtEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="__wjGRXNtEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="__wjGRnNtEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="__wjGR3NtEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="__wkUYHNtEfCTGutOISnrsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="__uaYQHNtEfCTGutOISnrsw" name="training">
+      <packagedElement xmi:type="uml:Package" xmi:id="__uepsHNtEfCTGutOISnrsw" name="iqgateway">
+        <packagedElement xmi:type="uml:Package" xmi:id="__ujiM3NtEfCTGutOISnrsw" name="entities">
+          <packagedElement xmi:type="uml:Class" xmi:id="__xIVEHNtEfCTGutOISnrsw" name="Appointment">
+            <ownedAttribute xmi:id="__68YYHNtEfCTGutOISnrsw" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="__6-NkXNtEfCTGutOISnrsw" name="customId" type="__6ivwHNtEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="__7ACwHNtEfCTGutOISnrsw" name="patientId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="__7DtIHNtEfCTGutOISnrsw" name="doctorId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="__7E7RHNtEfCTGutOISnrsw" name="appointmentDate" type="__5gN8XNtEfCTGutOISnrsw" association="__79sEHNtEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="__7GJY3NtEfCTGutOISnrsw" name="appointmentTime" type="__5fm4XNtEfCTGutOISnrsw" association="__8CkkXNtEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="__7GwdHNtEfCTGutOISnrsw" name="reasonForVisit">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="__7H-kHNtEfCTGutOISnrsw" name="status">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="__7H-knNtEfCTGutOISnrsw" name="bookedByUserId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="__7LB4HNtEfCTGutOISnrsw" name="notes">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="__7Lo8HNtEfCTGutOISnrsw" name="consultationStartTime" type="__5fm4XNtEfCTGutOISnrsw" association="__8JSQXNtEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="__7NeI3NtEfCTGutOISnrsw" name="consultationEndTime" type="__5fm4XNtEfCTGutOISnrsw" association="__8QnAHNtEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="__7PTUHNtEfCTGutOISnrsw" name="roomNumber">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="__7QhcHNtEfCTGutOISnrsw" name="createdAt" type="__5fm4XNtEfCTGutOISnrsw" association="__8U4cXNtEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="__7SWoXNtEfCTGutOISnrsw" name="updatedAt" type="__5fm4XNtEfCTGutOISnrsw" association="__8epcXNtEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="__7Uy4HNtEfCTGutOISnrsw" name="medicalRecordId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="__xVJYHNtEfCTGutOISnrsw" name="Appointment">
+              <eAnnotations xmi:id="__xVwcHNtEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="__xVwcXNtEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="__xVwcnNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="__xrHoHNtEfCTGutOISnrsw" name="DailySlotDTO">
+            <ownedAttribute xmi:id="__7X2MHNtEfCTGutOISnrsw" name="day">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="__7YdQHNtEfCTGutOISnrsw" name="slots" type="__xx1UHNtEfCTGutOISnrsw" isOrdered="true" association="__8oacHNtEfCTGutOISnrsw">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__7YdQXNtEfCTGutOISnrsw" value="*"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="__7YdQnNtEfCTGutOISnrsw" name="breakSlots" type="__xx1UHNtEfCTGutOISnrsw" isOrdered="true" association="__8wWQHNtEfCTGutOISnrsw">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__7YdQ3NtEfCTGutOISnrsw" value="*"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="__xrusHNtEfCTGutOISnrsw" name="DailySlotDTO">
+              <eAnnotations xmi:id="__xrusXNtEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="__xrusnNtEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="__xs80XNtEfCTGutOISnrsw" type="__xrHoHNtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="__xtj4HNtEfCTGutOISnrsw" name="ScheduleUpdatePayload">
+            <ownedAttribute xmi:id="__7ZrYHNtEfCTGutOISnrsw" name="doctorId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="__7ZrYXNtEfCTGutOISnrsw" name="leaveDates" type="__5fm4XNtEfCTGutOISnrsw" isOrdered="true" association="__85gMHNtEfCTGutOISnrsw">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__7ZrYnNtEfCTGutOISnrsw" value="*"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="__7a5gHNtEfCTGutOISnrsw" name="dailySlots" type="__xrHoHNtEfCTGutOISnrsw" isOrdered="true" association="__9CDEXNtEfCTGutOISnrsw">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__7a5gXNtEfCTGutOISnrsw" value="*"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="__xuyAHNtEfCTGutOISnrsw" name="ScheduleUpdatePayload">
+              <eAnnotations xmi:id="__xvZEHNtEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="__xvZEXNtEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="__xwAIXNtEfCTGutOISnrsw" type="__xtj4HNtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="__xx1UHNtEfCTGutOISnrsw" name="TimeRangeDTO">
+            <ownedAttribute xmi:id="__7a5gnNtEfCTGutOISnrsw" name="startTime" type="__5fm4XNtEfCTGutOISnrsw" association="__7xe0HNtEfCTGutOISnrsw"/>
+            <ownedAttribute xmi:id="__7a5g3NtEfCTGutOISnrsw" name="endTime" type="__5fm4XNtEfCTGutOISnrsw" association="__7yF4XNtEfCTGutOISnrsw"/>
+            <ownedOperation xmi:id="__xycYHNtEfCTGutOISnrsw" name="TimeRangeDTO">
+              <eAnnotations xmi:id="__xzDcHNtEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="__xzDcXNtEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="__xzDc3NtEfCTGutOISnrsw" type="__xx1UHNtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__7xe0HNtEfCTGutOISnrsw" name="" memberEnd="__7a5gnNtEfCTGutOISnrsw __7yF4HNtEfCTGutOISnrsw">
+            <ownedEnd xmi:id="__7yF4HNtEfCTGutOISnrsw" name="" type="__xx1UHNtEfCTGutOISnrsw" association="__7xe0HNtEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__7yF4XNtEfCTGutOISnrsw" name="" memberEnd="__7a5g3NtEfCTGutOISnrsw __7ys8HNtEfCTGutOISnrsw">
+            <ownedEnd xmi:id="__7ys8HNtEfCTGutOISnrsw" name="" type="__xx1UHNtEfCTGutOISnrsw" association="__7yF4XNtEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__79sEHNtEfCTGutOISnrsw" name="" memberEnd="__79sEXNtEfCTGutOISnrsw __7E7RHNtEfCTGutOISnrsw">
+            <ownedEnd xmi:id="__79sEXNtEfCTGutOISnrsw" name="" type="__xIVEHNtEfCTGutOISnrsw" association="__79sEHNtEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__8CkkXNtEfCTGutOISnrsw" name="" memberEnd="__8DLoHNtEfCTGutOISnrsw __7GJY3NtEfCTGutOISnrsw">
+            <ownedEnd xmi:id="__8DLoHNtEfCTGutOISnrsw" name="" type="__xIVEHNtEfCTGutOISnrsw" association="__8CkkXNtEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__8JSQXNtEfCTGutOISnrsw" name="" memberEnd="__8JSQnNtEfCTGutOISnrsw __7Lo8HNtEfCTGutOISnrsw">
+            <ownedEnd xmi:id="__8JSQnNtEfCTGutOISnrsw" name="" type="__xIVEHNtEfCTGutOISnrsw" association="__8JSQXNtEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__8QnAHNtEfCTGutOISnrsw" name="" memberEnd="__8QnAXNtEfCTGutOISnrsw __7NeI3NtEfCTGutOISnrsw">
+            <ownedEnd xmi:id="__8QnAXNtEfCTGutOISnrsw" name="" type="__xIVEHNtEfCTGutOISnrsw" association="__8QnAHNtEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__8U4cXNtEfCTGutOISnrsw" name="" memberEnd="__8U4cnNtEfCTGutOISnrsw __7QhcHNtEfCTGutOISnrsw">
+            <ownedEnd xmi:id="__8U4cnNtEfCTGutOISnrsw" name="" type="__xIVEHNtEfCTGutOISnrsw" association="__8U4cXNtEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__8epcXNtEfCTGutOISnrsw" name="" memberEnd="__8epcnNtEfCTGutOISnrsw __7SWoXNtEfCTGutOISnrsw">
+            <ownedEnd xmi:id="__8epcnNtEfCTGutOISnrsw" name="" type="__xIVEHNtEfCTGutOISnrsw" association="__8epcXNtEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__8oacHNtEfCTGutOISnrsw" name="" memberEnd="__8oacXNtEfCTGutOISnrsw __7YdQHNtEfCTGutOISnrsw">
+            <ownedEnd xmi:id="__8oacXNtEfCTGutOISnrsw" name="" type="__xrHoHNtEfCTGutOISnrsw" association="__8oacHNtEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__8wWQHNtEfCTGutOISnrsw" name="" memberEnd="__8wWQXNtEfCTGutOISnrsw __7YdQnNtEfCTGutOISnrsw">
+            <ownedEnd xmi:id="__8wWQXNtEfCTGutOISnrsw" name="" type="__xrHoHNtEfCTGutOISnrsw" association="__8wWQHNtEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__85gMHNtEfCTGutOISnrsw" name="" memberEnd="__85gMXNtEfCTGutOISnrsw __7ZrYXNtEfCTGutOISnrsw">
+            <ownedEnd xmi:id="__85gMXNtEfCTGutOISnrsw" name="" type="__xtj4HNtEfCTGutOISnrsw" association="__85gMHNtEfCTGutOISnrsw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__9CDEXNtEfCTGutOISnrsw" name="" memberEnd="__9CDEnNtEfCTGutOISnrsw __7a5gHNtEfCTGutOISnrsw">
+            <ownedEnd xmi:id="__9CDEnNtEfCTGutOISnrsw" name="" type="__xtj4HNtEfCTGutOISnrsw" association="__9CDEXNtEfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="__ukJQHNtEfCTGutOISnrsw" name="service">
+          <packagedElement xmi:type="uml:Interface" xmi:id="__x5xIHNtEfCTGutOISnrsw" name="AppointmentService">
+            <ownedAttribute xmi:id="__x80cnNtEfCTGutOISnrsw" name="allAppointments" visibility="package" type="__xIVEHNtEfCTGutOISnrsw" isOrdered="true" association="__7ys8XNtEfCTGutOISnrsw">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__x9bgHNtEfCTGutOISnrsw" value="*"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="__x6YMHNtEfCTGutOISnrsw" name="getAppointmentById">
+              <ownedParameter xmi:id="__x6YMXNtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__6yAUHNtEfCTGutOISnrsw" type="__5iDIXNtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__x6_QXNtEfCTGutOISnrsw" name="getAppointmentsByPatientId">
+              <ownedParameter xmi:id="__x6_QnNtEfCTGutOISnrsw" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__x7mUHNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__x7mUXNtEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="__x7mUnNtEfCTGutOISnrsw" name="getAppointmentsByDoctorId" visibility="package">
+              <ownedParameter xmi:id="__x7mU3NtEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__x7mVHNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__x7mVXNtEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="__x8NYHNtEfCTGutOISnrsw" name="updateAppointmentStatus">
+              <ownedParameter xmi:id="__x8NYXNtEfCTGutOISnrsw" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__x8NYnNtEfCTGutOISnrsw" name="newStatus">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__6JuM3NtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__x80cHNtEfCTGutOISnrsw" name="deleteAppointmentById">
+              <ownedParameter xmi:id="__x80cXNtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="__6IgEHNtEfCTGutOISnrsw" name="createAppointment">
+              <ownedParameter xmi:id="__6IgEXNtEfCTGutOISnrsw" name="appointment" type="__xIVEHNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__6IgEnNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__6JuMHNtEfCTGutOISnrsw" name="updateAppointment">
+              <ownedParameter xmi:id="__6JuMXNtEfCTGutOISnrsw" name="appointment" type="__xIVEHNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__6JuMnNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__6ynYHNtEfCTGutOISnrsw" name="getAppointmentsByDoctorAndDate">
+              <ownedParameter xmi:id="__6ynYXNtEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__6ynYnNtEfCTGutOISnrsw" name="date" type="__5gN8XNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__6zOcHNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__6zOcXNtEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="__6z1gHNtEfCTGutOISnrsw" name="cancelAppointmentsByDoctorAndDate">
+              <ownedParameter xmi:id="__6z1gXNtEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__6z1gnNtEfCTGutOISnrsw" name="leaveDate" type="__5gN8XNtEfCTGutOISnrsw"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__7ys8XNtEfCTGutOISnrsw" name="" memberEnd="__x80cnNtEfCTGutOISnrsw __7ys8nNtEfCTGutOISnrsw">
+            <ownedEnd xmi:id="__7ys8nNtEfCTGutOISnrsw" name="" type="__x5xIHNtEfCTGutOISnrsw" association="__7ys8XNtEfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="__u1PAHNtEfCTGutOISnrsw" name="controller">
+          <packagedElement xmi:type="uml:Class" xmi:id="__wmwonNtEfCTGutOISnrsw" name="AppointmentController">
+            <ownedAttribute xmi:id="__66jMHNtEfCTGutOISnrsw" name="appointmentService" visibility="private" isLeaf="true" type="__x5xIHNtEfCTGutOISnrsw" isReadOnly="true" association="__74zkHNtEfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7fyA3NtEfCTGutOISnrsw" name="AppointmentController" specification="__5nisHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7gZEHNtEfCTGutOISnrsw" name="appointmentService" type="__x5xIHNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__7gZEXNtEfCTGutOISnrsw" type="__wmwonNtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>this.appointmentService = appointmentService;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7gZEnNtEfCTGutOISnrsw" name="getAllAppointments" specification="__wpz8HNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7gZE3NtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>List&lt;Appointment> appointments = appointmentService.getAllAppointments();&#xD;
+     return ResponseEntity.ok(appointments);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7gZFHNtEfCTGutOISnrsw" name="handleScheduleChange" specification="__5ow0nNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7gZFXNtEfCTGutOISnrsw" name="payload" type="__xtj4HNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__7gZFnNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         String doctorId = payload.getDoctorId();&#xD;
+         List&lt;Instant> leaveDates = payload.getLeaveDates();&#xD;
+&#xD;
+         if (leaveDates != null &amp;&amp; !leaveDates.isEmpty()) {&#xD;
+             for (Instant leaveDateInstant : leaveDates) {&#xD;
+                 LocalDate leaveDate = leaveDateInstant.atZone(java.time.ZoneId.of(&quot;UTC&quot;)).toLocalDate();&#xD;
+                 appointmentService.cancelAppointmentsByDoctorAndDate(doctorId, leaveDate);&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         return ResponseEntity.ok(&quot;Appointments updated based on schedule changes.&quot;);&#xD;
+     } catch (Exception e) {&#xD;
+         System.err.println(&quot;Error updating appointments on schedule change: &quot; + e.getMessage());&#xD;
+         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)&#xD;
+                              .body(&quot;Error updating appointments: &quot; + e.getMessage());&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7hAIHNtEfCTGutOISnrsw" name="updateAppointmentStatus" specification="__wrCEnNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7hAIXNtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7hAInNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>appointmentService.updateAppointmentStatus(id, &quot;Completed&quot;);&#xD;
+     return ResponseEntity.ok().body(&quot;Appointment status updated successfully.&quot;);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7hAI3NtEfCTGutOISnrsw" name="createAppointment" specification="__5pX5nNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7hAJHNtEfCTGutOISnrsw" name="appointment" type="__xIVEHNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__7hAJXNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>Appointment createdAppointment = appointmentService.createAppointment(appointment);&#xD;
+     return new ResponseEntity&lt;>(createdAppointment, HttpStatus.CREATED);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7hAJnNtEfCTGutOISnrsw" name="getAppointmentById" specification="__wuFYXNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7hAJ3NtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7hAKHNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>Optional&lt;Appointment> appointment = appointmentService.getAppointmentById(id);&#xD;
+     return appointment.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7hAKXNtEfCTGutOISnrsw" name="getAppointmentsByPatient" specification="__wyW0HNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7hAKnNtEfCTGutOISnrsw" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7hAK3NtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>List&lt;Appointment> appointments = appointmentService.getAppointmentsByPatientId(patientId);&#xD;
+     // It's generally better to return an empty list with 200 OK than 204 No Content for lists&#xD;
+     return ResponseEntity.ok(appointments);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7hALHNtEfCTGutOISnrsw" name="getAppointmentsByDoctor" specification="__w2BMHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7hALXNtEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7hALnNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>List&lt;Appointment> appointments = appointmentService.getAppointmentsByDoctorId(doctorId);&#xD;
+     // It's generally better to return an empty list with 200 OK than 204 No Content for lists&#xD;
+     return ResponseEntity.ok(appointments);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7hAL3NtEfCTGutOISnrsw" name="getAppointmentsByDoctorAndDate" specification="__w5EgHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7hAMHNtEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7hAMXNtEfCTGutOISnrsw" name="date">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7hAMnNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         LocalDate appointmentDate = LocalDate.parse(date); // Parses YYYY-MM-DD&#xD;
+         List&lt;Appointment> appointments = appointmentService.getAppointmentsByDoctorAndDate(doctorId, appointmentDate);&#xD;
+         // --- FIX APPLIED HERE ---&#xD;
+         // Always return ResponseEntity.ok(appointments)&#xD;
+         // If 'appointments' is empty, Spring will serialize it to '[]' (empty JSON array)&#xD;
+         // which the frontend can correctly parse.&#xD;
+         return ResponseEntity.ok(appointments);&#xD;
+     } catch (DateTimeParseException e) {&#xD;
+         System.err.println(&quot;Error parsing date: &quot; + date + &quot; - &quot; + e.getMessage());&#xD;
+         return ResponseEntity.badRequest().body(null); // Invalid date format&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7hnMHNtEfCTGutOISnrsw" name="updateAppointment" specification="__5qmAHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7hnMXNtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7hnMnNtEfCTGutOISnrsw" name="updatedAppointment" type="__xIVEHNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__7hnM3NtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>Optional&lt;Appointment> existing = appointmentService.getAppointmentById(id);&#xD;
+     if (!existing.isPresent()) {&#xD;
+         return ResponseEntity.notFound().build();&#xD;
+     }&#xD;
+     updatedAppointment.setId(id);&#xD;
+     Appointment savedAppointment = appointmentService.updateAppointment(updatedAppointment);&#xD;
+     return ResponseEntity.ok(savedAppointment);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7hnNHNtEfCTGutOISnrsw" name="updateAppointmentStatus" specification="__6bbAHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7hnNXNtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7hnNnNtEfCTGutOISnrsw" name="statusUpdate" type="__5hcE3NtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__7hnN3NtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>String newStatus = statusUpdate.get(&quot;status&quot;);&#xD;
+     if (newStatus == null || newStatus.isEmpty()) {&#xD;
+         return ResponseEntity.badRequest().body(null);&#xD;
+     }&#xD;
+     Appointment updated = appointmentService.updateAppointmentStatus(id, newStatus);&#xD;
+     if (updated != null) {&#xD;
+         return ResponseEntity.ok(updated);&#xD;
+     }&#xD;
+     return ResponseEntity.notFound().build();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7hnOHNtEfCTGutOISnrsw" name="deleteAppointment" specification="__w8H0HNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7hnOXNtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7hnOnNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>appointmentService.deleteAppointmentById(id);&#xD;
+     return ResponseEntity.noContent().build();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="__wpz8HNtEfCTGutOISnrsw" name="getAllAppointments" method="__7gZEnNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__6WigHNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__wrCEnNtEfCTGutOISnrsw" name="updateAppointmentStatus" method="__7hAIHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__wrpIHNtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__6YXsHNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__wuFYXNtEfCTGutOISnrsw" name="getAppointmentById" method="__7hAJnNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__wuFYnNtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__6Y-wXNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__wyW0HNtEfCTGutOISnrsw" name="getAppointmentsByPatient" method="__7hAKXNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__wy94HNtEfCTGutOISnrsw" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__6Y-wnNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__w2BMHNtEfCTGutOISnrsw" name="getAppointmentsByDoctor" method="__7hALHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__w2BMXNtEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__6Zl0HNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__w5EgHNtEfCTGutOISnrsw" name="getAppointmentsByDoctorAndDate" method="__7hAL3NtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__w5EgXNtEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__w5EgnNtEfCTGutOISnrsw" name="date">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__6aM4HNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__w8H0HNtEfCTGutOISnrsw" name="deleteAppointment" method="__7hnOHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__w8H0XNtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__6fscHNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__5nisHNtEfCTGutOISnrsw" name="AppointmentController" method="__7fyA3NtEfCTGutOISnrsw">
+              <eAnnotations xmi:id="__5oJwXNtEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="__5oJwnNtEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="__5oJwHNtEfCTGutOISnrsw" name="appointmentService" type="__x5xIHNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__5oJw3NtEfCTGutOISnrsw" type="__wmwonNtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__5ow0nNtEfCTGutOISnrsw" name="handleScheduleChange" method="__7gZFHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__5ow03NtEfCTGutOISnrsw" name="payload" type="__xtj4HNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__6XwoHNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__5pX5nNtEfCTGutOISnrsw" name="createAppointment" method="__7hAI3NtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__5pX53NtEfCTGutOISnrsw" name="appointment" type="__xIVEHNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__6Y-wHNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__5qmAHNtEfCTGutOISnrsw" name="updateAppointment" method="__7hnMHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__5qmAXNtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__5qmAnNtEfCTGutOISnrsw" name="updatedAppointment" type="__xIVEHNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__6aM4XNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__6bbAHNtEfCTGutOISnrsw" name="updateAppointmentStatus" method="__7hnNHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__6bbAXNtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__6bbAnNtEfCTGutOISnrsw" name="statusUpdate" type="__5hcE3NtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__6dQMHNtEfCTGutOISnrsw" type="__5iqM3NtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__74zkHNtEfCTGutOISnrsw" name="" memberEnd="__74zkXNtEfCTGutOISnrsw __66jMHNtEfCTGutOISnrsw">
+            <ownedEnd xmi:id="__74zkXNtEfCTGutOISnrsw" name="" type="__wmwonNtEfCTGutOISnrsw" association="__74zkHNtEfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="__vv1AHNtEfCTGutOISnrsw" name="repository">
+          <packagedElement xmi:type="uml:Interface" xmi:id="__x1fsHNtEfCTGutOISnrsw" name="AppointmentRepository">
+            <generalization xmi:id="__6uV8HNtEfCTGutOISnrsw" general="__6DnkHNtEfCTGutOISnrsw"/>
+            <ownedOperation xmi:id="__x2t0HNtEfCTGutOISnrsw" name="findByPatientId">
+              <ownedParameter xmi:id="__x2t0XNtEfCTGutOISnrsw" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__x2t0nNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__x2t03NtEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="__x378HNtEfCTGutOISnrsw" name="findByDoctorId">
+              <ownedParameter xmi:id="__x378XNtEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__x378nNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__x3783NtEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="__6wyMHNtEfCTGutOISnrsw" name="findByDoctorIdAndAppointmentDate" visibility="package">
+              <ownedParameter xmi:id="__6wyMXNtEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__6wyMnNtEfCTGutOISnrsw" name="appointmentDate" type="__5gN8XNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__6wyM3NtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__6wyNHNtEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="__v5mAHNtEfCTGutOISnrsw" name="serviceimpl">
+          <packagedElement xmi:type="uml:Class" xmi:id="__yBs8HNtEfCTGutOISnrsw" name="AppointmentServiceImpl">
+            <ownedAttribute xmi:id="__7bgkHNtEfCTGutOISnrsw" name="appointmentRepository" visibility="private" isLeaf="true" type="__x1fsHNtEfCTGutOISnrsw" isReadOnly="true" association="__9Kl8XNtEfCTGutOISnrsw"/>
+            <interfaceRealization xmi:id="__6MxgHNtEfCTGutOISnrsw" client="__yBs8HNtEfCTGutOISnrsw" supplier="__x5xIHNtEfCTGutOISnrsw" contract="__x5xIHNtEfCTGutOISnrsw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7nGwHNtEfCTGutOISnrsw" name="AppointmentServiceImpl" specification="__6MxgXNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7nGwXNtEfCTGutOISnrsw" name="appointmentRepository" type="__x1fsHNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__7nGwnNtEfCTGutOISnrsw" type="__yBs8HNtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>this.appointmentRepository = appointmentRepository;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7nGw3NtEfCTGutOISnrsw" name="createAppointment" specification="__6N_oHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7nGxHNtEfCTGutOISnrsw" name="appointment" type="__xIVEHNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__7nt0HNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return appointmentRepository.save(appointment);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7nt0XNtEfCTGutOISnrsw" name="getAppointmentById" specification="__yC7EHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7nt0nNtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7nt03NtEfCTGutOISnrsw" type="__5iDIXNtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return appointmentRepository.findById(id);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7nt1HNtEfCTGutOISnrsw" name="getAppointmentsByPatientId" specification="__yEwQHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7nt1XNtEfCTGutOISnrsw" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7nt1nNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__7nt13NtEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return appointmentRepository.findByPatientId(patientId);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7nt2HNtEfCTGutOISnrsw" name="getAppointmentsByDoctorId" specification="__yF-YXNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7nt2XNtEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7nt2nNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__7nt23NtEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return appointmentRepository.findByDoctorId(doctorId);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7oU4HNtEfCTGutOISnrsw" name="getAppointmentsByDoctorAndDate" specification="__60ckXNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7oU4XNtEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7oU4nNtEfCTGutOISnrsw" name="date" type="__5gN8XNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__7oU43NtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__7oU5HNtEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return appointmentRepository.findByDoctorIdAndAppointmentDate(doctorId, date);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7oU5XNtEfCTGutOISnrsw" name="updateAppointment" specification="__6P00HNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7oU5nNtEfCTGutOISnrsw" name="appointment" type="__xIVEHNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__7oU53NtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>return appointmentRepository.save(appointment);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7oU6HNtEfCTGutOISnrsw" name="updateAppointmentStatus" specification="__yHMgHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7oU6XNtEfCTGutOISnrsw" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7oU6nNtEfCTGutOISnrsw" name="newStatus">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7oU63NtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" direction="return"/>
+              <language>java</language>
+              <body>Optional&lt;Appointment> optionalAppointment = appointmentRepository.findById(appointmentId);&#xD;
+     if (optionalAppointment.isPresent()) {&#xD;
+         Appointment existingAppointment = optionalAppointment.get();&#xD;
+         existingAppointment.setStatus(newStatus);&#xD;
+         // Optionally, update 'updatedAt' timestamp here&#xD;
+         return appointmentRepository.save(existingAppointment);&#xD;
+     }&#xD;
+     return null; // Appointment not found&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7oU7HNtEfCTGutOISnrsw" name="deleteAppointmentById" specification="__yJBsHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7oU7XNtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>appointmentRepository.deleteById(id);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7oU7nNtEfCTGutOISnrsw" name="getAllAppointments" specification="__yKP0nNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7oU73NtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__7oU8HNtEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return appointmentRepository.findAll();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7pjAHNtEfCTGutOISnrsw" name="cancelAppointmentsByDoctorAndDate" specification="__61qsHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__7pjAXNtEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__7pjAnNtEfCTGutOISnrsw" name="leaveDate" type="__5gN8XNtEfCTGutOISnrsw"/>
+              <language>java</language>
+              <body>List&lt;Appointment> appointmentsToCancel = appointmentRepository.findByDoctorIdAndAppointmentDate(doctorId, leaveDate);&#xD;
+&#xD;
+	        // 2. Iterate through the found appointments and update their status.&#xD;
+	        for (Appointment appointment : appointmentsToCancel) {&#xD;
+	            // Only update appointments that are not already cancelled or completed.&#xD;
+	            if (!&quot;Cancelled&quot;.equalsIgnoreCase(appointment.getStatus()) &amp;&amp; !&quot;Completed&quot;.equalsIgnoreCase(appointment.getStatus())) {&#xD;
+	                appointment.setStatus(&quot;Cancelled&quot;);&#xD;
+	                // 3. Save the updated appointment back to the database.&#xD;
+	                appointmentRepository.save(appointment);&#xD;
+	            }&#xD;
+	        }&#xD;
+	        System.out.println(&quot;Cancelled &quot; + appointmentsToCancel.size() + &quot; appointments for doctor &quot; + doctorId + &quot; on &quot; + leaveDate);&#xD;
+	    </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="__yC7EHNtEfCTGutOISnrsw" name="getAppointmentById" method="__7nt0XNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__yC7EXNtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__60ckHNtEfCTGutOISnrsw" type="__5iDIXNtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__yEwQHNtEfCTGutOISnrsw" name="getAppointmentsByPatientId" method="__7nt1HNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__yEwQXNtEfCTGutOISnrsw" name="patientId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__yFXUHNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__yFXUXNtEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="__yF-YXNtEfCTGutOISnrsw" name="getAppointmentsByDoctorId" method="__7nt2HNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__yF-YnNtEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__yF-Y3NtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__yF-ZHNtEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="__yHMgHNtEfCTGutOISnrsw" name="updateAppointmentStatus" method="__7oU6HNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__yHMgXNtEfCTGutOISnrsw" name="appointmentId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__yHMgnNtEfCTGutOISnrsw" name="newStatus">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__6RC8nNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__yJBsHNtEfCTGutOISnrsw" name="deleteAppointmentById" method="__7oU7HNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__yJBsXNtEfCTGutOISnrsw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="__yKP0nNtEfCTGutOISnrsw" name="getAllAppointments" method="__7oU7nNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__yKP03NtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__yLd8HNtEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="__6MxgXNtEfCTGutOISnrsw" name="AppointmentServiceImpl" method="__7nGwHNtEfCTGutOISnrsw">
+              <eAnnotations xmi:id="__6NYkHNtEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="__6NYkXNtEfCTGutOISnrsw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="__6MxgnNtEfCTGutOISnrsw" name="appointmentRepository" type="__x1fsHNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__6NYknNtEfCTGutOISnrsw" type="__yBs8HNtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__6N_oHNtEfCTGutOISnrsw" name="createAppointment" method="__7nGw3NtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__6N_oXNtEfCTGutOISnrsw" name="appointment" type="__xIVEHNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__6N_onNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__6P00HNtEfCTGutOISnrsw" name="updateAppointment" method="__7oU5XNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__6P00XNtEfCTGutOISnrsw" name="appointment" type="__xIVEHNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__6P00nNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__60ckXNtEfCTGutOISnrsw" name="getAppointmentsByDoctorAndDate" method="__7oU4HNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__60cknNtEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__60ck3NtEfCTGutOISnrsw" name="date" type="__5gN8XNtEfCTGutOISnrsw"/>
+              <ownedParameter xmi:id="__60clHNtEfCTGutOISnrsw" type="__xIVEHNtEfCTGutOISnrsw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__60clXNtEfCTGutOISnrsw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="__61qsHNtEfCTGutOISnrsw" name="cancelAppointmentsByDoctorAndDate" method="__7pjAHNtEfCTGutOISnrsw">
+              <ownedParameter xmi:id="__61qsXNtEfCTGutOISnrsw" name="doctorId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="__62RwHNtEfCTGutOISnrsw" name="leaveDate" type="__5gN8XNtEfCTGutOISnrsw"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__9Kl8XNtEfCTGutOISnrsw" name="" memberEnd="__9Kl8nNtEfCTGutOISnrsw __7bgkHNtEfCTGutOISnrsw">
+            <ownedEnd xmi:id="__9Kl8nNtEfCTGutOISnrsw" name="" type="__yBs8HNtEfCTGutOISnrsw" association="__9Kl8XNtEfCTGutOISnrsw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="__wgqAHNtEfCTGutOISnrsw" name="AppointmentMicroServiceApplication">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__7fyAHNtEfCTGutOISnrsw" name="main" specification="__wkUYXNtEfCTGutOISnrsw">
+            <ownedParameter xmi:id="__7fyAXNtEfCTGutOISnrsw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__7fyAnNtEfCTGutOISnrsw" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>SpringApplication.run(AppointmentMicroServiceApplication.class, args);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="__wkUYXNtEfCTGutOISnrsw" name="main" isStatic="true" method="__7fyAHNtEfCTGutOISnrsw">
+            <ownedParameter xmi:id="__wk7cHNtEfCTGutOISnrsw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__wmJkHNtEfCTGutOISnrsw" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="__yQ9gHNtEfCTGutOISnrsw" name="AppointmentMicroServiceApplicationTests" visibility="package">
+          <eAnnotations xmi:id="__yRkkHNtEfCTGutOISnrsw" source="http://ns.yatta.de/umllab">
+            <contents xmi:type="ecore:EAnnotation" xmi:id="__yRkkXNtEfCTGutOISnrsw" source="codegen">
+              <details xmi:id="__yRkknNtEfCTGutOISnrsw" key="codegenDirectory" value="/AppointmentMicroService/src/test/java"/>
+            </contents>
+          </eAnnotations>
+          <ownedOperation xmi:id="__ySysHNtEfCTGutOISnrsw" name="contextLoads" visibility="package"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="__ubmYHNtEfCTGutOISnrsw" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="__ucNcHNtEfCTGutOISnrsw" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="__ucNcXNtEfCTGutOISnrsw" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="__uc0gHNtEfCTGutOISnrsw" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="__5e_0XNtEfCTGutOISnrsw" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="__wATsXNtEfCTGutOISnrsw" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="__wATsnNtEfCTGutOISnrsw" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="__6SREnNtEfCTGutOISnrsw" name="SpringBootTest"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="__5dxsHNtEfCTGutOISnrsw" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="__uiUEHNtEfCTGutOISnrsw" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="__ui7IHNtEfCTGutOISnrsw" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="__ui7IXNtEfCTGutOISnrsw" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="__5iDI3NtEfCTGutOISnrsw" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="__ui7InNtEfCTGutOISnrsw" name="http">
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="__5iqMXNtEfCTGutOISnrsw" name="HttpStatus"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="__5iqM3NtEfCTGutOISnrsw" name="ResponseEntity"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="__ujiMHNtEfCTGutOISnrsw" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="__ujiMXNtEfCTGutOISnrsw" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="__ujiMnNtEfCTGutOISnrsw" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="__5iqNXNtEfCTGutOISnrsw" name="CrossOrigin"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="__5j4UHNtEfCTGutOISnrsw" name="DeleteMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="__5j4UnNtEfCTGutOISnrsw" name="GetMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="__5j4VHNtEfCTGutOISnrsw" name="PatchMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="__5kfYXNtEfCTGutOISnrsw" name="PathVariable"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="__5kfY3NtEfCTGutOISnrsw" name="PostMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="__5lGcXNtEfCTGutOISnrsw" name="PutMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="__5lGc3NtEfCTGutOISnrsw" name="RequestBody"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="__5ltgXNtEfCTGutOISnrsw" name="RequestMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="__5mUkXNtEfCTGutOISnrsw" name="RestController"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="__u9x4nNtEfCTGutOISnrsw" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="__u-Y8HNtEfCTGutOISnrsw" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="__5zI4HNtEfCTGutOISnrsw" name="Id"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="__u-Y8XNtEfCTGutOISnrsw" name="mongodb">
+            <packagedElement xmi:type="uml:Package" xmi:id="__u-Y8nNtEfCTGutOISnrsw" name="core">
+              <packagedElement xmi:type="uml:Package" xmi:id="__u_AAHNtEfCTGutOISnrsw" name="mapping">
+                <packagedElement xmi:type="uml:Interface" xmi:id="__5zI4nNtEfCTGutOISnrsw" name="Document"/>
+                <packagedElement xmi:type="uml:Interface" xmi:id="__5zv8XNtEfCTGutOISnrsw" name="Field"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="__vum4HNtEfCTGutOISnrsw" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="__6DnkHNtEfCTGutOISnrsw" name="MongoRepository"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="__vvN8HNtEfCTGutOISnrsw" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="__6EOoXNtEfCTGutOISnrsw" name="Repository"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="__6LjYHNtEfCTGutOISnrsw" name="Service"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="__v_soHNtEfCTGutOISnrsw" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="__v_soXNtEfCTGutOISnrsw" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="__wATsHNtEfCTGutOISnrsw" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="__6SREHNtEfCTGutOISnrsw" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="__uge4HNtEfCTGutOISnrsw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="__uge4XNtEfCTGutOISnrsw" name="time">
+        <packagedElement xmi:type="uml:Package" xmi:id="__uhF8HNtEfCTGutOISnrsw" name="format">
+          <packagedElement xmi:type="uml:Class" xmi:id="__5g1AXNtEfCTGutOISnrsw" name="DateTimeParseException"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="__5fm4XNtEfCTGutOISnrsw" name="Instant"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="__5gN8XNtEfCTGutOISnrsw" name="LocalDate"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="__uhF8XNtEfCTGutOISnrsw" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="__5hcEXNtEfCTGutOISnrsw" name="List"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="__5hcE3NtEfCTGutOISnrsw" name="Map"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="__5iDIXNtEfCTGutOISnrsw" name="Optional"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="__6iIsHNtEfCTGutOISnrsw" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="__6ivwHNtEfCTGutOISnrsw" name="Long"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="__u9x4HNtEfCTGutOISnrsw" name="jakarta">
+      <packagedElement xmi:type="uml:Package" xmi:id="__u9x4XNtEfCTGutOISnrsw" name="persistence">
+        <packagedElement xmi:type="uml:Class" xmi:id="__5x6wHNtEfCTGutOISnrsw" name="Id"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_-33KwHNtEfCTGutOISnrsw">
+      <eAnnotations xmi:id="_-33x0HNtEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="__68YYXNtEfCTGutOISnrsw">
+      <eAnnotations xmi:id="__68YYnNtEfCTGutOISnrsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_-34Y4HNtEfCTGutOISnrsw" base_Package="_-ma1cHNtEfCTGutOISnrsw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__wifMHNtEfCTGutOISnrsw" base_Element="__wgqAHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="__wligHNtEfCTGutOISnrsw" base_Element="__wkUYXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__wmwoHNtEfCTGutOISnrsw" base_Element="__wgqAHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__wmwoXNtEfCTGutOISnrsw" name="SpringBootApplication"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__wn-wHNtEfCTGutOISnrsw" base_Element="__wmwonNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="__wqbAHNtEfCTGutOISnrsw" genericsValue="List&lt;Appointment>" base_Element="__wpz8HNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__wrCEHNtEfCTGutOISnrsw" base_Element="__wpz8HNtEfCTGutOISnrsw">
+    <annotations xmi:id="__wrCEXNtEfCTGutOISnrsw" name="GetMapping"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="__wsQMHNtEfCTGutOISnrsw" genericsValue="?" base_Element="__wrCEnNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__wteUHNtEfCTGutOISnrsw" base_Element="__wrpIHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__wteUXNtEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__wteUnNtEfCTGutOISnrsw" base_Element="__wrCEnNtEfCTGutOISnrsw">
+    <annotations xmi:id="__wteU3NtEfCTGutOISnrsw" name="PatchMapping">
+      <annotationParameters xmi:id="__wuFYHNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7rYM3NtEfCTGutOISnrsw" value="&quot;/{id}/status&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="__wvTgHNtEfCTGutOISnrsw" genericsValue="Appointment" base_Element="__wuFYXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__wv6kHNtEfCTGutOISnrsw" base_Element="__wuFYnNtEfCTGutOISnrsw">
+    <annotations xmi:id="__wv6kXNtEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__wxIsHNtEfCTGutOISnrsw" base_Element="__wuFYXNtEfCTGutOISnrsw">
+    <annotations xmi:id="__wxvwHNtEfCTGutOISnrsw" name="GetMapping">
+      <annotationParameters xmi:id="__wxvwXNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7rYNHNtEfCTGutOISnrsw" value="&quot;/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="__wy94XNtEfCTGutOISnrsw" genericsValue="List&lt;Appointment>" base_Element="__wyW0HNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__wzk8HNtEfCTGutOISnrsw" base_Element="__wy94HNtEfCTGutOISnrsw">
+    <annotations xmi:id="__wzk8XNtEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__w0MAHNtEfCTGutOISnrsw" base_Element="__wyW0HNtEfCTGutOISnrsw">
+    <annotations xmi:id="__w0MAXNtEfCTGutOISnrsw" name="GetMapping">
+      <annotationParameters xmi:id="__w0zEHNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7rYNXNtEfCTGutOISnrsw" value="&quot;/patient/{patientId}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="__w3PUHNtEfCTGutOISnrsw" genericsValue="List&lt;Appointment>" base_Element="__w2BMHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__w32YHNtEfCTGutOISnrsw" base_Element="__w2BMXNtEfCTGutOISnrsw">
+    <annotations xmi:id="__w32YXNtEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__w4dcHNtEfCTGutOISnrsw" base_Element="__w2BMHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__w4dcXNtEfCTGutOISnrsw" name="GetMapping">
+      <annotationParameters xmi:id="__w4dcnNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7rYNnNtEfCTGutOISnrsw" value="&quot;/doctor/{doctorId}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="__w5rkHNtEfCTGutOISnrsw" genericsValue="List&lt;Appointment>" base_Element="__w5EgHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__w5rkXNtEfCTGutOISnrsw" base_Element="__w5EgXNtEfCTGutOISnrsw">
+    <annotations xmi:id="__w5rknNtEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__w6SoHNtEfCTGutOISnrsw" base_Element="__w5EgnNtEfCTGutOISnrsw">
+    <annotations xmi:id="__w6SoXNtEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__w65sHNtEfCTGutOISnrsw" base_Element="__w5EgHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__w65sXNtEfCTGutOISnrsw" name="GetMapping">
+      <annotationParameters xmi:id="__w7gwHNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7rYN3NtEfCTGutOISnrsw" value="&quot;/doctor/{doctorId}/date/{date}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="__w8u4HNtEfCTGutOISnrsw" genericsValue="Void" base_Element="__w8H0HNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__w9V8HNtEfCTGutOISnrsw" base_Element="__w8H0XNtEfCTGutOISnrsw">
+    <annotations xmi:id="__w9V8XNtEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__w9V8nNtEfCTGutOISnrsw" base_Element="__w8H0HNtEfCTGutOISnrsw">
+    <annotations xmi:id="__w9V83NtEfCTGutOISnrsw" name="DeleteMapping">
+      <annotationParameters xmi:id="__w99AHNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7smUHNtEfCTGutOISnrsw" value="&quot;/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__w-kEHNtEfCTGutOISnrsw" base_Element="__wmwonNtEfCTGutOISnrsw">
+    <annotations xmi:id="__w-kEXNtEfCTGutOISnrsw" name="RestController"/>
+    <annotations xmi:id="__w-kEnNtEfCTGutOISnrsw" name="RequestMapping">
+      <annotationParameters xmi:id="__w-kE3NtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7rYMHNtEfCTGutOISnrsw" value="&quot;/api/appointments&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="__w_LIHNtEfCTGutOISnrsw" name="CrossOrigin">
+      <annotationParameters xmi:id="__w_LIXNtEfCTGutOISnrsw" name="origins" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7rYMXNtEfCTGutOISnrsw" value="&quot;http://localhost:5173&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__xL_cHNtEfCTGutOISnrsw" base_Element="__xIVEHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__xXloHNtEfCTGutOISnrsw" base_Element="__xIVEHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__xXloXNtEfCTGutOISnrsw" name="Document">
+      <annotationParameters xmi:id="__xXlonNtEfCTGutOISnrsw" name="collection" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7smUXNtEfCTGutOISnrsw" value="&quot;appointments&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__xs80HNtEfCTGutOISnrsw" base_Element="__xrusHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__xwAIHNtEfCTGutOISnrsw" base_Element="__xuyAHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__xzDcnNtEfCTGutOISnrsw" base_Element="__xycYHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__x2GwHNtEfCTGutOISnrsw" base_Element="__x1fsHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="__x3U4HNtEfCTGutOISnrsw" base_Element="__x2t0HNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="__x379HNtEfCTGutOISnrsw" base_Element="__x378HNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__x4jAHNtEfCTGutOISnrsw" base_Element="__x1fsHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__x4jAXNtEfCTGutOISnrsw" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="__x6_QHNtEfCTGutOISnrsw" genericsValue="Appointment" base_Element="__x6YMHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__yCUAHNtEfCTGutOISnrsw" base_Element="__yBs8HNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="__yEJMHNtEfCTGutOISnrsw" genericsValue="Appointment" base_Element="__yC7EHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__yEJMXNtEfCTGutOISnrsw" base_Element="__yC7EHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__yEJMnNtEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__yFXUnNtEfCTGutOISnrsw" base_Element="__yEwQHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__yF-YHNtEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__yGlcHNtEfCTGutOISnrsw" base_Element="__yF-YXNtEfCTGutOISnrsw">
+    <annotations xmi:id="__yGlcXNtEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__yHzkHNtEfCTGutOISnrsw" base_Element="__yHMgHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__yIaoHNtEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__yKP0HNtEfCTGutOISnrsw" base_Element="__yJBsHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__yKP0XNtEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__yMFAHNtEfCTGutOISnrsw" base_Element="__yKP0nNtEfCTGutOISnrsw">
+    <annotations xmi:id="__yMFAXNtEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__yMsEHNtEfCTGutOISnrsw" base_Element="__yBs8HNtEfCTGutOISnrsw">
+    <annotations xmi:id="__yMsEXNtEfCTGutOISnrsw" name="Service"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__ySLoHNtEfCTGutOISnrsw" base_Element="__yQ9gHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__yVO8HNtEfCTGutOISnrsw" base_Element="__ySysHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__yVO8XNtEfCTGutOISnrsw" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__yV2AHNtEfCTGutOISnrsw" base_Element="__yQ9gHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__yXEIHNtEfCTGutOISnrsw" name="SpringBootTest"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="__5e_0HNtEfCTGutOISnrsw" base_Element="__5dxsHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5fm4HNtEfCTGutOISnrsw" base_Element="__5e_0XNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5gN8HNtEfCTGutOISnrsw" base_Element="__5fm4XNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5g1AHNtEfCTGutOISnrsw" base_Element="__5gN8XNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5hcEHNtEfCTGutOISnrsw" base_Element="__5g1AXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5hcEnNtEfCTGutOISnrsw" base_Element="__5hcEXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5iDIHNtEfCTGutOISnrsw" base_Element="__5hcE3NtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5iDInNtEfCTGutOISnrsw" base_Element="__5iDIXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5iqMHNtEfCTGutOISnrsw" base_Element="__5iDI3NtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5iqMnNtEfCTGutOISnrsw" base_Element="__5iqMXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5iqNHNtEfCTGutOISnrsw" base_Element="__5iqM3NtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5iqNnNtEfCTGutOISnrsw" base_Element="__5iqNXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5j4UXNtEfCTGutOISnrsw" base_Element="__5j4UHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5j4U3NtEfCTGutOISnrsw" base_Element="__5j4UnNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5kfYHNtEfCTGutOISnrsw" base_Element="__5j4VHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5kfYnNtEfCTGutOISnrsw" base_Element="__5kfYXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5lGcHNtEfCTGutOISnrsw" base_Element="__5kfY3NtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5lGcnNtEfCTGutOISnrsw" base_Element="__5lGcXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5ltgHNtEfCTGutOISnrsw" base_Element="__5lGc3NtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5mUkHNtEfCTGutOISnrsw" base_Element="__5ltgXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5m7oHNtEfCTGutOISnrsw" base_Element="__5mUkXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__5ow0HNtEfCTGutOISnrsw" base_Element="__5nisHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__5ow0XNtEfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="__5pX4HNtEfCTGutOISnrsw" genericsValue="?" base_Element="__5ow0nNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__5pX4XNtEfCTGutOISnrsw" base_Element="__5ow03NtEfCTGutOISnrsw">
+    <annotations xmi:id="__5pX4nNtEfCTGutOISnrsw" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__5pX43NtEfCTGutOISnrsw" base_Element="__5ow0nNtEfCTGutOISnrsw">
+    <annotations xmi:id="__5pX5HNtEfCTGutOISnrsw" name="PostMapping">
+      <annotationParameters xmi:id="__5pX5XNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7rYMnNtEfCTGutOISnrsw" value="&quot;/update-on-schedule-change&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="__5p-8HNtEfCTGutOISnrsw" genericsValue="Appointment" base_Element="__5pX5nNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__5p-8XNtEfCTGutOISnrsw" base_Element="__5pX53NtEfCTGutOISnrsw">
+    <annotations xmi:id="__5p-8nNtEfCTGutOISnrsw" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__5p-83NtEfCTGutOISnrsw" base_Element="__5pX5nNtEfCTGutOISnrsw">
+    <annotations xmi:id="__5p-9HNtEfCTGutOISnrsw" name="PostMapping"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="__5rNEHNtEfCTGutOISnrsw" genericsValue="Appointment" base_Element="__5qmAHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__5rNEXNtEfCTGutOISnrsw" base_Element="__5qmAXNtEfCTGutOISnrsw">
+    <annotations xmi:id="__5rNEnNtEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__5rNE3NtEfCTGutOISnrsw" base_Element="__5qmAnNtEfCTGutOISnrsw">
+    <annotations xmi:id="__5rNFHNtEfCTGutOISnrsw" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__5rNFXNtEfCTGutOISnrsw" base_Element="__5qmAHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__5r0IHNtEfCTGutOISnrsw" name="PutMapping">
+      <annotationParameters xmi:id="__5r0IXNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7r_QHNtEfCTGutOISnrsw" value="&quot;/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="__5yh0HNtEfCTGutOISnrsw" base_Element="__5x6wHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5zI4XNtEfCTGutOISnrsw" base_Element="__5zI4HNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5zv8HNtEfCTGutOISnrsw" base_Element="__5zI4nNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__5zv8nNtEfCTGutOISnrsw" base_Element="__5zv8XNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__6EOoHNtEfCTGutOISnrsw" base_Element="__6DnkHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__6FcwHNtEfCTGutOISnrsw" base_Element="__6EOoXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__6MKcHNtEfCTGutOISnrsw" base_Element="__6LjYHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__6NYk3NtEfCTGutOISnrsw" base_Element="__6MxgXNtEfCTGutOISnrsw">
+    <annotations xmi:id="__6NYlHNtEfCTGutOISnrsw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__6OmsHNtEfCTGutOISnrsw" base_Element="__6N_oHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__6OmsXNtEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__6RC8HNtEfCTGutOISnrsw" base_Element="__6P00HNtEfCTGutOISnrsw">
+    <annotations xmi:id="__6RC8XNtEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="__6SREXNtEfCTGutOISnrsw" base_Element="__6SREHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__6S4IHNtEfCTGutOISnrsw" base_Element="__6SREnNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="__6cCEHNtEfCTGutOISnrsw" genericsValue="Appointment" base_Element="__6bbAHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__6d3QHNtEfCTGutOISnrsw" base_Element="__6bbAXNtEfCTGutOISnrsw">
+    <annotations xmi:id="__6d3QXNtEfCTGutOISnrsw" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="__6eeUHNtEfCTGutOISnrsw" genericsValue="String, String" base_Element="__6bbAnNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__6fFYHNtEfCTGutOISnrsw" base_Element="__6bbAnNtEfCTGutOISnrsw">
+    <annotations xmi:id="__6fFYXNtEfCTGutOISnrsw" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__6fFYnNtEfCTGutOISnrsw" base_Element="__6bbAHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__6fFY3NtEfCTGutOISnrsw" name="PutMapping">
+      <annotationParameters xmi:id="__6fFZHNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7r_QXNtEfCTGutOISnrsw" value="&quot;/{id}/status&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="__6jW0HNtEfCTGutOISnrsw" base_Element="__6ivwHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Generics xmi:id="__6vkEHNtEfCTGutOISnrsw" genericsValue="Appointment, String" base_Element="__6uV8HNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:StyledElement xmi:id="__6xZQHNtEfCTGutOISnrsw" base_Element="__6wyMHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Annotations xmi:id="__61DoHNtEfCTGutOISnrsw" base_Element="__60ckXNtEfCTGutOISnrsw">
+    <annotations xmi:id="__61DoXNtEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="__6240HNtEfCTGutOISnrsw" base_Element="__61qsHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__6240XNtEfCTGutOISnrsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <Persistency:PrimaryKey xmi:id="__68_cHNtEfCTGutOISnrsw" base_Property="__68YYHNtEfCTGutOISnrsw"/>
+  <Persistency:JPA1StyledElement xmi:id="__6-NkHNtEfCTGutOISnrsw" base_Element="__68YYHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__6-NknNtEfCTGutOISnrsw" base_Element="__6-NkXNtEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="__6-0oHNtEfCTGutOISnrsw" name="getCustomId" method="__7i1UHNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__6-0o3NtEfCTGutOISnrsw" type="__6ivwHNtEfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="__6-0oXNtEfCTGutOISnrsw" name="setCustomId" method="__7jcYHNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__6-0onNtEfCTGutOISnrsw" name="customId" type="__6ivwHNtEfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="__6_bsHNtEfCTGutOISnrsw" base_Element="__6-NkXNtEfCTGutOISnrsw">
+    <annotations xmi:id="__6_bsXNtEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="__6_bsnNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7smUnNtEfCTGutOISnrsw" value="&quot;id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__7BQ4HNtEfCTGutOISnrsw" base_Element="__7ACwHNtEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7BQ4XNtEfCTGutOISnrsw" name="getPatientId" method="__7jcYnNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7B38HNtEfCTGutOISnrsw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7BQ4nNtEfCTGutOISnrsw" name="setPatientId" method="__7jcZHNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7BQ43NtEfCTGutOISnrsw" name="patientId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="__7DGEHNtEfCTGutOISnrsw" base_Element="__7ACwHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__7DGEXNtEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="__7DGEnNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7tNYHNtEfCTGutOISnrsw" value="&quot;patient_id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__7EUMHNtEfCTGutOISnrsw" base_Element="__7DtIHNtEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7EUMXNtEfCTGutOISnrsw" name="getDoctorId" method="__7kDcHNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7E7QHNtEfCTGutOISnrsw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7EUMnNtEfCTGutOISnrsw" name="setDoctorId" method="__7kDcnNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7EUM3NtEfCTGutOISnrsw" name="doctorId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="__7E7QXNtEfCTGutOISnrsw" base_Element="__7DtIHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__7E7QnNtEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="__7E7Q3NtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7tNYXNtEfCTGutOISnrsw" value="&quot;doctor_id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__7FiUHNtEfCTGutOISnrsw" base_Element="__7E7RHNtEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7FiUXNtEfCTGutOISnrsw" name="getAppointmentDate" method="__7kDdHNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7FiVHNtEfCTGutOISnrsw" type="__5gN8XNtEfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7FiUnNtEfCTGutOISnrsw" name="setAppointmentDate" method="__7kDdnNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7FiU3NtEfCTGutOISnrsw" name="appointmentDate" type="__5gN8XNtEfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="__7GJYHNtEfCTGutOISnrsw" base_Element="__7E7RHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__7GJYXNtEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="__7GJYnNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7tNYnNtEfCTGutOISnrsw" value="&quot;appointment_date&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__7GJZHNtEfCTGutOISnrsw" base_Element="__7GJY3NtEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7GJZXNtEfCTGutOISnrsw" name="getAppointmentTime" method="__7kDeHNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7GwcHNtEfCTGutOISnrsw" type="__5fm4XNtEfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7GJZnNtEfCTGutOISnrsw" name="setAppointmentTime" method="__7kDenNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7GJZ3NtEfCTGutOISnrsw" name="appointmentTime" type="__5fm4XNtEfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="__7GwcXNtEfCTGutOISnrsw" base_Element="__7GJY3NtEfCTGutOISnrsw">
+    <annotations xmi:id="__7GwcnNtEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="__7Gwc3NtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7t0cHNtEfCTGutOISnrsw" value="&quot;appointment_time&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__7HXgHNtEfCTGutOISnrsw" base_Element="__7GwdHNtEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7HXgXNtEfCTGutOISnrsw" name="getReasonForVisit" method="__7kDfHNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7HXhHNtEfCTGutOISnrsw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7HXgnNtEfCTGutOISnrsw" name="setReasonForVisit" method="__7kDfnNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7HXg3NtEfCTGutOISnrsw" name="reasonForVisit">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="__7HXhXNtEfCTGutOISnrsw" base_Element="__7GwdHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__7HXhnNtEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="__7HXh3NtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7t0cXNtEfCTGutOISnrsw" value="&quot;reason_for_visit&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="__7H-kXNtEfCTGutOISnrsw" base_Element="__7H-kHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__7IloHNtEfCTGutOISnrsw" base_Element="__7H-knNtEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7JMsHNtEfCTGutOISnrsw" name="getBookedByUserId" method="__7kDgHNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7JzwHNtEfCTGutOISnrsw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7JMsXNtEfCTGutOISnrsw" name="setBookedByUserId" method="__7kDgnNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7JMsnNtEfCTGutOISnrsw" name="bookedByUserId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="__7Ka0HNtEfCTGutOISnrsw" base_Element="__7H-knNtEfCTGutOISnrsw">
+    <annotations xmi:id="__7Ka0XNtEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="__7Ka0nNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7ubgHNtEfCTGutOISnrsw" value="&quot;booked_by_user_id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="__7LB4XNtEfCTGutOISnrsw" base_Element="__7LB4HNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__7MQAHNtEfCTGutOISnrsw" base_Element="__7Lo8HNtEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7MQAXNtEfCTGutOISnrsw" name="getConsultationStartTime" method="__7lRkHNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7M3EHNtEfCTGutOISnrsw" type="__5fm4XNtEfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7MQAnNtEfCTGutOISnrsw" name="setConsultationStartTime" method="__7lRknNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7MQA3NtEfCTGutOISnrsw" name="consultationStartTime" type="__5fm4XNtEfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="__7NeIHNtEfCTGutOISnrsw" base_Element="__7Lo8HNtEfCTGutOISnrsw">
+    <annotations xmi:id="__7NeIXNtEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="__7NeInNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7ubgXNtEfCTGutOISnrsw" value="&quot;consultation_start_time&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__7OFMHNtEfCTGutOISnrsw" base_Element="__7NeI3NtEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7OFMXNtEfCTGutOISnrsw" name="getConsultationEndTime" method="__7lRlHNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7OsQHNtEfCTGutOISnrsw" type="__5fm4XNtEfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7OFMnNtEfCTGutOISnrsw" name="setConsultationEndTime" method="__7lRlnNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7OFM3NtEfCTGutOISnrsw" name="consultationEndTime" type="__5fm4XNtEfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="__7OsQXNtEfCTGutOISnrsw" base_Element="__7NeI3NtEfCTGutOISnrsw">
+    <annotations xmi:id="__7OsQnNtEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="__7OsQ3NtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7ubgnNtEfCTGutOISnrsw" value="&quot;consultation_end_time&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__7PTUXNtEfCTGutOISnrsw" base_Element="__7PTUHNtEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7PTUnNtEfCTGutOISnrsw" name="getRoomNumber" method="__7lRmHNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7P6YXNtEfCTGutOISnrsw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7PTU3NtEfCTGutOISnrsw" name="setRoomNumber" method="__7lRmnNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7P6YHNtEfCTGutOISnrsw" name="roomNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="__7P6YnNtEfCTGutOISnrsw" base_Element="__7PTUHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__7P6Y3NtEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="__7P6ZHNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7vCkHNtEfCTGutOISnrsw" value="&quot;room_number&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__7QhcXNtEfCTGutOISnrsw" base_Element="__7QhcHNtEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7RIgHNtEfCTGutOISnrsw" name="getCreatedAt" method="__7lRnHNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7RvkHNtEfCTGutOISnrsw" type="__5fm4XNtEfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7RIgXNtEfCTGutOISnrsw" name="setCreatedAt" method="__7lRnnNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7RIgnNtEfCTGutOISnrsw" name="createdAt" type="__5fm4XNtEfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="__7RvkXNtEfCTGutOISnrsw" base_Element="__7QhcHNtEfCTGutOISnrsw">
+    <annotations xmi:id="__7RvknNtEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="__7SWoHNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7vCkXNtEfCTGutOISnrsw" value="&quot;created_at&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__7S9sHNtEfCTGutOISnrsw" base_Element="__7SWoXNtEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7S9sXNtEfCTGutOISnrsw" name="getUpdatedAt" method="__7lRoHNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7TkwHNtEfCTGutOISnrsw" type="__5fm4XNtEfCTGutOISnrsw" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7S9snNtEfCTGutOISnrsw" name="setUpdatedAt" method="__7l4oHNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7S9s3NtEfCTGutOISnrsw" name="updatedAt" type="__5fm4XNtEfCTGutOISnrsw"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="__7UL0HNtEfCTGutOISnrsw" base_Element="__7SWoXNtEfCTGutOISnrsw">
+    <annotations xmi:id="__7UL0XNtEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="__7UL0nNtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7vCknNtEfCTGutOISnrsw" value="&quot;updated_at&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="__7Uy4XNtEfCTGutOISnrsw" base_Element="__7Uy4HNtEfCTGutOISnrsw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7Uy4nNtEfCTGutOISnrsw" name="getMedicalRecordId" method="__7l4onNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7WBAHNtEfCTGutOISnrsw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="__7Uy43NtEfCTGutOISnrsw" name="setMedicalRecordId" method="__7l4pHNtEfCTGutOISnrsw">
+      <ownedParameter xmi:id="__7Uy5HNtEfCTGutOISnrsw" name="medicalRecordId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="__7WBAXNtEfCTGutOISnrsw" base_Element="__7Uy4HNtEfCTGutOISnrsw">
+    <annotations xmi:id="__7WBAnNtEfCTGutOISnrsw" name="Field">
+      <annotationParameters xmi:id="__7WBA3NtEfCTGutOISnrsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="__7vCk3NtEfCTGutOISnrsw" value="&quot;medical_record_id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <uml:OpaqueBehavior xmi:id="__7i1UHNtEfCTGutOISnrsw" name="getCustomId" specification="__6-0oHNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7i1UXNtEfCTGutOISnrsw" type="__6ivwHNtEfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return customId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7jcYHNtEfCTGutOISnrsw" name="setCustomId" specification="__6-0oXNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7jcYXNtEfCTGutOISnrsw" name="customId" type="__6ivwHNtEfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.customId = customId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7jcYnNtEfCTGutOISnrsw" name="getPatientId" specification="__7BQ4XNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7jcY3NtEfCTGutOISnrsw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return patientId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7jcZHNtEfCTGutOISnrsw" name="setPatientId" specification="__7BQ4nNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7jcZXNtEfCTGutOISnrsw" name="patientId">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.patientId = patientId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7kDcHNtEfCTGutOISnrsw" name="getDoctorId" specification="__7EUMXNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7kDcXNtEfCTGutOISnrsw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return doctorId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7kDcnNtEfCTGutOISnrsw" name="setDoctorId" specification="__7EUMnNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7kDc3NtEfCTGutOISnrsw" name="doctorId">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.doctorId = doctorId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7kDdHNtEfCTGutOISnrsw" name="getAppointmentDate" specification="__7FiUXNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7kDdXNtEfCTGutOISnrsw" type="__5gN8XNtEfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return appointmentDate;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7kDdnNtEfCTGutOISnrsw" name="setAppointmentDate" specification="__7FiUnNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7kDd3NtEfCTGutOISnrsw" name="appointmentDate" type="__5gN8XNtEfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.appointmentDate = appointmentDate;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7kDeHNtEfCTGutOISnrsw" name="getAppointmentTime" specification="__7GJZXNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7kDeXNtEfCTGutOISnrsw" type="__5fm4XNtEfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return appointmentTime;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7kDenNtEfCTGutOISnrsw" name="setAppointmentTime" specification="__7GJZnNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7kDe3NtEfCTGutOISnrsw" name="appointmentTime" type="__5fm4XNtEfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.appointmentTime = appointmentTime;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7kDfHNtEfCTGutOISnrsw" name="getReasonForVisit" specification="__7HXgXNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7kDfXNtEfCTGutOISnrsw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return reasonForVisit;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7kDfnNtEfCTGutOISnrsw" name="setReasonForVisit" specification="__7HXgnNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7kDf3NtEfCTGutOISnrsw" name="reasonForVisit">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.reasonForVisit = reasonForVisit;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7kDgHNtEfCTGutOISnrsw" name="getBookedByUserId" specification="__7JMsHNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7kDgXNtEfCTGutOISnrsw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return bookedByUserId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7kDgnNtEfCTGutOISnrsw" name="setBookedByUserId" specification="__7JMsXNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7kDg3NtEfCTGutOISnrsw" name="bookedByUserId">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.bookedByUserId = bookedByUserId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7lRkHNtEfCTGutOISnrsw" name="getConsultationStartTime" specification="__7MQAXNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7lRkXNtEfCTGutOISnrsw" type="__5fm4XNtEfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return consultationStartTime;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7lRknNtEfCTGutOISnrsw" name="setConsultationStartTime" specification="__7MQAnNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7lRk3NtEfCTGutOISnrsw" name="consultationStartTime" type="__5fm4XNtEfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.consultationStartTime = consultationStartTime;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7lRlHNtEfCTGutOISnrsw" name="getConsultationEndTime" specification="__7OFMXNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7lRlXNtEfCTGutOISnrsw" type="__5fm4XNtEfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return consultationEndTime;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7lRlnNtEfCTGutOISnrsw" name="setConsultationEndTime" specification="__7OFMnNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7lRl3NtEfCTGutOISnrsw" name="consultationEndTime" type="__5fm4XNtEfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.consultationEndTime = consultationEndTime;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7lRmHNtEfCTGutOISnrsw" name="getRoomNumber" specification="__7PTUnNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7lRmXNtEfCTGutOISnrsw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return roomNumber;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7lRmnNtEfCTGutOISnrsw" name="setRoomNumber" specification="__7PTU3NtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7lRm3NtEfCTGutOISnrsw" name="roomNumber">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.roomNumber = roomNumber;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7lRnHNtEfCTGutOISnrsw" name="getCreatedAt" specification="__7RIgHNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7lRnXNtEfCTGutOISnrsw" type="__5fm4XNtEfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return createdAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7lRnnNtEfCTGutOISnrsw" name="setCreatedAt" specification="__7RIgXNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7lRn3NtEfCTGutOISnrsw" name="createdAt" type="__5fm4XNtEfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.createdAt = createdAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7lRoHNtEfCTGutOISnrsw" name="getUpdatedAt" specification="__7S9sXNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7lRoXNtEfCTGutOISnrsw" type="__5fm4XNtEfCTGutOISnrsw" direction="return"/>
+    <language>java</language>
+    <body>return updatedAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7l4oHNtEfCTGutOISnrsw" name="setUpdatedAt" specification="__7S9snNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7l4oXNtEfCTGutOISnrsw" name="updatedAt" type="__5fm4XNtEfCTGutOISnrsw"/>
+    <language>java</language>
+    <body>this.updatedAt = updatedAt;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7l4onNtEfCTGutOISnrsw" name="getMedicalRecordId" specification="__7Uy4nNtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7l4o3NtEfCTGutOISnrsw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return medicalRecordId;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="__7l4pHNtEfCTGutOISnrsw" name="setMedicalRecordId" specification="__7Uy43NtEfCTGutOISnrsw">
+    <ownedParameter xmi:id="__7l4pXNtEfCTGutOISnrsw" name="medicalRecordId">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.medicalRecordId = medicalRecordId;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="__79FAHNtEfCTGutOISnrsw" base_Element="__74zkHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__8CkkHNtEfCTGutOISnrsw" base_Element="__79sEHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__8JSQHNtEfCTGutOISnrsw" base_Element="__8CkkXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__8P_8HNtEfCTGutOISnrsw" base_Element="__8JSQXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__8U4cHNtEfCTGutOISnrsw" base_Element="__8QnAHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__8epcHNtEfCTGutOISnrsw" base_Element="__8U4cXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__8nzYHNtEfCTGutOISnrsw" base_Element="__8epcXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__8vvMHNtEfCTGutOISnrsw" base_Element="__8oacHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__845IHNtEfCTGutOISnrsw" base_Element="__8wWQHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__9CDEHNtEfCTGutOISnrsw" base_Element="__85gMHNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__9Kl8HNtEfCTGutOISnrsw" base_Element="__9CDEXNtEfCTGutOISnrsw"/>
+  <UMLLabProfile:Reference xmi:id="__9UW8HNtEfCTGutOISnrsw" base_Element="__9Kl8XNtEfCTGutOISnrsw"/>
+</xmi:XMI>

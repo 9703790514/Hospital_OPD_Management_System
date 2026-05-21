@@ -33,7 +33,7 @@ const LabTechnicianPrescriptions = ({ medicalRecordId, onBack }) => {
         setLoading(true);
         setError(null);
 
-        const response = await fetch(`http://localhost:2006/api/prescriptions/medical/${medicalRecordId}`);
+        const response = await fetch(import.meta.env.VITE_MEDICAL_RECORD_SERVICE_URL + '/api/prescriptions/medical/' + medicalRecordId);
 
         if (response.status === 204 || response.headers.get('content-length') === '0') {
           setLabTests([]);

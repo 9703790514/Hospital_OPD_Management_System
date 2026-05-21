@@ -247,8 +247,8 @@ const HomePage = ({ patient }) => {
         setLoadingDoctors(true);
         setErrorDoctors(null);
 
-        const res = await fetch(`${import.meta.env.VITE_DOCTOR_SERVICE_URL}/api/doctors/all');
-        if (!res.ok) throw new Error(`Failed to fetch doctors: ${res.status} ${res.statusText}`);
+        const res = await fetch(import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctors/all');
+        if (!res.ok) throw new Error('Failed to fetch doctors: ' + res.status + ' ' + res.statusText);
         const doctorsData = await res.json();
 
         const doctorsWithImages = await Promise.all(

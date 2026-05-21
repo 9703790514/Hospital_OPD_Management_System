@@ -1,4 +1,4 @@
-﻿// import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 // import PropTypes from 'prop-types';
 // import {
 //   Box,
@@ -338,7 +338,7 @@
 //             <AttachMoneyIcon color="primary" sx={{ mr: 1.5 }} />
 //             <Typography variant="body1">
 //               <strong>Consultation Fee:</strong>{' '}
-//               {doctor.consultationFee ? `â‚¹${doctor.consultationFee}` : 'N/A'}
+//               {doctor.consultationFee ? `₹${doctor.consultationFee}` : 'N/A'}
 //             </Typography>
 //           </Box>
 //           <Box sx={{ display: 'flex', alignItems: 'center' }}>
@@ -912,7 +912,7 @@
 //         }, {
 //           icon: <AttachMoneyIcon color="primary" />,
 //           label: 'Consultation Fee',
-//           value: doctor.consultationFee ? `â‚¹${doctor.consultationFee}` : 'N/A',
+//           value: doctor.consultationFee ? `₹${doctor.consultationFee}` : 'N/A',
 //         }, {
 //           icon: <CalendarTodayIcon color="primary" />,
 //           label: 'Availability',
@@ -1280,9 +1280,9 @@ export const DoctorDetailsPage = ({ doctor, onBack, patient }) => {
         return;
       }
       try {
-        const response = await fetch(`http://localhost:2008/api/patients/user/${patient.userId}`);
+        const response = await fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients/user/' + patient.userId);
         if (!response.ok)
-          throw new Error(`Failed to fetch patient details: ${response.status} ${response.statusText}`);
+          throw new Error('Failed to fetch patient details: ' + response.status + ' ' + response.statusText);
         const data = await response.json();
       } catch (error) {
       }
@@ -1316,16 +1316,16 @@ export const DoctorDetailsPage = ({ doctor, onBack, patient }) => {
       setLoadingReviews(true);
       setReviewsError(null);
       try {
-        const response = await fetch(`http://localhost:2007/ratings/doctor/${doctor.id}`);
+        const response = await fetch(import.meta.env.VITE_DOCTOR_RATING_SERVICE_URL + '/ratings/doctor/' + doctor.id);
         if (!response.ok)
-          throw new Error(`Failed to fetch reviews: ${response.status} ${response.statusText}`);
+          throw new Error('Failed to fetch reviews: ' + response.status + ' ' + response.statusText);
         const data = await response.json();
 
         const reviewsWithNames = await Promise.all(
           data.map(async (review) => {
             if (review.patientId) {
               try {
-                const patientResponse = await fetch(`http://localhost:2008/api/patients/${review.patientId}`);
+                const patientResponse = await fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients/' + review.patientId);
                 if (patientResponse.ok) {
                   const patientData = await patientResponse.json();
                   return {
@@ -1379,7 +1379,7 @@ export const DoctorDetailsPage = ({ doctor, onBack, patient }) => {
     setReviewSubmissionSuccess(false);
 
     try {
-      const patientRes = await fetch(`http://localhost:2008/api/patients/user/${patient.userId}`);
+      const patientRes = await fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients/user/' + patient.userId);
       if (!patientRes.ok) throw new Error('Could not fetch patient details for review submission.');
       const patientData = await patientRes.json();
 
@@ -1394,33 +1394,33 @@ export const DoctorDetailsPage = ({ doctor, onBack, patient }) => {
         time: new Date().toISOString(),
       };
 
-      const response = await fetch(`${import.meta.env.VITE_DOCTOR_RATING_SERVICE_URL}/ratings', {
+      const response = await fetch(import.meta.env.VITE_DOCTOR_RATING_SERVICE_URL + '/ratings', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(reviewPayload),
       });
 
       if (!response.ok)
-        throw new Error(`Failed to submit review: ${response.status} ${response.statusText}`);
+        throw new Error('Failed to submit review: ' + response.status + ' ' + response.statusText);
 
       await response.json();
       setReviewSubmissionSuccess(true);
       setNewRating(0);
       setNewReviewText('');
 
-      const updatedResponse = await fetch(`http://localhost:2007/ratings/doctor/${doctor.id}`);
+      const updatedResponse = await fetch(import.meta.env.VITE_DOCTOR_RATING_SERVICE_URL + '/ratings/doctor/' + doctor.id);
       const updatedData = await updatedResponse.json();
 
       const updatedReviewsWithNames = await Promise.all(
         updatedData.map(async (review) => {
           if (review.patientId) {
             try {
-              const patientResponse = await fetch(`http://localhost:2008/api/patients/${review.patientId}`);
+              const patientResponse = await fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients/' + review.patientId);
               if (patientResponse.ok) {
                 const patientData = await patientResponse.json();
                 return {
                   ...review,
-                  reviewerName: `${patientData.first_name || ''} ${patientData.last_name || ''}`.trim(),
+                  reviewerName: ((patientData.first_name || '') + ' ' + (patientData.last_name || '')).trim(),
                 };
               }
             } catch {
@@ -1428,7 +1428,7 @@ export const DoctorDetailsPage = ({ doctor, onBack, patient }) => {
             }
           }
           return { ...review, reviewerName: 'Anonymous' };
-        }),
+        })
       );
 
       setReviews(updatedReviewsWithNames);
@@ -1604,7 +1604,7 @@ export const DoctorDetailsPage = ({ doctor, onBack, patient }) => {
           {
             icon: <AttachMoneyIcon color="primary" />,
             label: 'Consultation Fee',
-            value: doctor.consultationFee ? `â‚¹${doctor.consultationFee}` : 'N/A',
+            value: doctor.consultationFee ? `₹${doctor.consultationFee}` : 'N/A',
           },
           {
             icon: <CalendarTodayIcon color="primary" />,
@@ -1889,3 +1889,4 @@ DoctorDetailsPage.propTypes = {
 };
 
 export default DoctorDetailsPage;
+

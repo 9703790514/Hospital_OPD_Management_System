@@ -1089,7 +1089,7 @@ export const LabTechnicianDashboard = () => {
           userId: storedUserId,
           name: storedUsername,
           email: storedEmail,
-          profilePic: storedProfilePic || 'http://localhost:2004/default-labtech.png',
+          profilePic: storedProfilePic || (import.meta.env.VITE_USERS_SERVICE_URL + '/default-labtech.png'),
         });
       } else {
         // Redirect to login if user data is not found

@@ -902,11 +902,11 @@ const DoctorAppointments = ({ doctorUser }) => {
 
     try {
       const doctorDetailsResponse = await fetch(
-        `http://localhost:2005/api/doctors/customId/${doctorUser.userId}`
+        import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctors/customId/' + doctorUser.userId
       );
 
       if (!doctorDetailsResponse.ok) {
-        throw new Error(`Failed to fetch doctor details: ${doctorDetailsResponse.status}`);
+        throw new Error('Failed to fetch doctor details: ' + doctorDetailsResponse.status);
       }
 
       const doctorDetails = await doctorDetailsResponse.json();
@@ -928,7 +928,7 @@ const DoctorAppointments = ({ doctorUser }) => {
 
       const patientPromises = patientIds.map(async (patientId) => {
         if (!newPatientDetailsMap[patientId]) {
-          const patientResponse = await fetch(`http://localhost:2008/api/patients/${patientId}`);
+          const patientResponse = await fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients/' + patientId);
           if (!patientResponse.ok) {
             return { [patientId]: { first_name: 'Unknown', last_name: 'Patient' } };
           }

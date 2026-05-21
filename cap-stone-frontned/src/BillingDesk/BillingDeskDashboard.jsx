@@ -1060,10 +1060,10 @@ export const BillingDeskDashboard = () => {
 
       let currentUserData = {};
       try {
-        const fetchResponse = await fetch(`http://localhost:2009/api/users/${userId}`);
+        const fetchResponse = await fetch(import.meta.env.VITE_BILL_SERVICE_URL + '/api/users/' + userId);
         if (!fetchResponse.ok) {
           const errorText = await fetchResponse.text();
-          throw new Error(`Failed fetch: ${fetchResponse.status} - ${errorText}`);
+          throw new Error('Failed fetch: ' + fetchResponse.status + ' - ' + errorText);
         }
         currentUserData = await fetchResponse.json();
       } catch (fetchError) {
@@ -1081,7 +1081,7 @@ export const BillingDeskDashboard = () => {
       delete payload.profilePic;
       delete payload._id;
 
-      const response = await fetch(`http://localhost:2009/api/users/${userId}`, {
+      const response = await fetch(import.meta.env.VITE_BILL_SERVICE_URL + '/api/users/' + userId, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
@@ -1089,7 +1089,7 @@ export const BillingDeskDashboard = () => {
 
       if (!response.ok) {
         const errorText = await response.text();
-        throw new Error(`Failed to update profile: ${response.status} - ${errorText}`);
+        throw new Error('Failed to update profile: ' + response.status + ' - ' + errorText);
       }
 
       const updatedUser = await response.json();

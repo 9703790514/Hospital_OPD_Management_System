@@ -126,7 +126,7 @@ const LabReportsPage = ({ medicalRecordId, onBack }) => {
           }
           // For any other non-OK status, we'll throw an error.
           const errorText = await response.text();
-          throw new Error(`Failed to fetch lab reports: ${response.status} - ${errorText}`);
+          throw new Error('Failed to fetch lab reports: ' + response.status + ' - ' + errorText);
         }
         const data = await response.json();
         setLabReports(data);

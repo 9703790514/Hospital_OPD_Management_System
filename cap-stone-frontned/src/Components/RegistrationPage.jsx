@@ -63,7 +63,7 @@ export const RegistrationPage = () => {
 
     while (retries < MAX_RETRIES) {
       try {
-        response = await fetch(`${import.meta.env.VITE_USERS_SERVICE_URL}/api/users`);
+        response = await fetch(import.meta.env.VITE_USERS_SERVICE_URL + '/api/users');
         if (response.status === 429) { // Too Many Requests
           const delay = Math.pow(2, retries) * 1000;
           await new Promise(res => setTimeout(res, delay));
@@ -177,7 +177,7 @@ export const RegistrationPage = () => {
 
       while (retries < MAX_RETRIES) {
         try {
-          response = await fetch('http://localhost:2004/api/patient/register', {
+          response = await fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patient/register', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',

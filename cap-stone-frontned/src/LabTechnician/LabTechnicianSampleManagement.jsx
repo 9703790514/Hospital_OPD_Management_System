@@ -186,9 +186,9 @@ const LabTechnicianDashboard = () => {
     try {
       setLoading(true);
       setError(null);
-      const response = await fetch(`${import.meta.env.VITE_APPOINTMENT_SERVICE_URL}/api/appointments');
+      const response = await fetch(import.meta.env.VITE_APPOINTMENT_SERVICE_URL + '/api/appointments');
       if (!response.ok) {
-        throw new Error(`Failed to fetch appointments: ${response.status} ${response.statusText}`);
+        throw new Error('Failed to fetch appointments: ' + response.status + ' ' + response.statusText);
       }
       const appointmentsData = await response.json();
 

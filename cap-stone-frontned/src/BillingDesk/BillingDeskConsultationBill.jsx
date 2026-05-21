@@ -138,7 +138,7 @@ export default function BillingDesk() {
         try {
           setListLoading(true);
           setListError(null);
-          const appts = await fetchData(`${import.meta.env.VITE_APPOINTMENT_SERVICE_URL}/api/appointments');
+          const appts = await fetchData(import.meta.env.VITE_APPOINTMENT_SERVICE_URL + '/api/appointments');
 
           // Enrich appointment data with patient and doctor details
           const enriched = await Promise.all(
@@ -150,16 +150,16 @@ export default function BillingDesk() {
 
               // Fetch patient details
               try {
-                const patient = await fetchData(`http://localhost:2008/api/patients/${appt.patientId}`);
-                patientFullName = `${patient.first_name} ${patient.last_name}`;
+                const patient = await fetchData(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients/' + appt.patientId);
+                patientFullName = patient.first_name + ' ' + patient.last_name;
               } catch (e) {
                 // Optionally set a more specific error for the list item if needed
               }
 
               // Fetch doctor details
               try {
-                const doctor = await fetchData(`http://localhost:2005/api/doctors/${appt.doctorId}`);
-                doctorFullName = ` ${doctor.firstName} ${doctor.lastName}`;
+                const doctor = await fetchData(import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctors/' + appt.doctorId);
+                doctorFullName = ' ' + doctor.firstName + ' ' + doctor.lastName;
                 doctorConsultationFee = doctor.consultationFee?.toString() ?? '250.00'; // Default fee if not found
                 doctorSpecialization = doctor.specialization ?? 'General Physician';
               } catch (e) {
@@ -195,7 +195,7 @@ export default function BillingDesk() {
         try {
           setFormLoading(true);
           setFormError(null);
-          const appt = await fetchData(`http://localhost:2010/api/appointments/${selectedAppointmentId}`);
+          const appt = await fetchData(import.meta.env.VITE_APPOINTMENT_SERVICE_URL + '/api/appointments/' + selectedAppointmentId);
 
           let patientFullName = 'Unknown Patient';
           let doctorFullName = 'Unknown Doctor';
@@ -204,15 +204,15 @@ export default function BillingDesk() {
 
           // Fetch patient details
           try {
-            const patient = await fetchData(`http://localhost:2008/api/patients/${appt.patientId}`);
-            patientFullName = `${patient.first_name} ${patient.last_name}`;
+            const patient = await fetchData(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients/' + appt.patientId);
+            patientFullName = patient.first_name + ' ' + patient.last_name;
           } catch (e) {
           }
 
           // Fetch doctor details
           try {
-            const doctor = await fetchData(`http://localhost:2005/api/doctors/${appt.doctorId}`);
-            doctorFullName = `${doctor.firstName} ${doctor.lastName}`;
+            const doctor = await fetchData(import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctors/' + appt.doctorId);
+            doctorFullName = doctor.firstName + ' ' + doctor.lastName;
             doctorConsultationFee = doctor.consultationFee?.toString() ?? '250.00';
             doctorSpecialization = doctor.specialization ?? 'General Physician';
           } catch (e) {
@@ -294,7 +294,7 @@ export default function BillingDesk() {
       paymentMethod: paymentMethod,
       status: status,
       billType: billType,
-      transactionId: `TRANS-${Math.floor(Math.random() * 1000000)}`, // Auto-generated simple transaction ID
+      transactionId: 'TRANS-' + Math.floor(Math.random() * 1000000), // Auto-generated simple transaction ID
       issuedByUserId: '84525', // Static for this example, replace with actual user ID
       // The 'bills' field is removed as it's causing the JSON parse error.
       // The backend seems to expect a List<String>, not a List of objects.
@@ -303,7 +303,7 @@ export default function BillingDesk() {
     };
 
     try {
-      const createdBill = await fetchData(`${import.meta.env.VITE_BILL_SERVICE_URL}/api/bills', {
+      const createdBill = await fetchData(import.meta.env.VITE_BILL_SERVICE_URL + '/api/bills', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newBill),
@@ -312,7 +312,7 @@ export default function BillingDesk() {
       setSelectedBillId(createdBill.id);
       setShowSuccessModal(true);
     } catch (e) {
-      setFormError(`Failed to create bill: ${e.message}`);
+      setFormError('Failed to create bill: ' + e.message);
     } finally {
       setFormLoading(false);
     }
@@ -473,7 +473,7 @@ export default function BillingDesk() {
     formData.append('billDocument', file);
 
     try {
-      const response = await fetch(`http://localhost:2009/api/bills/upload-document`, {
+      const response = await fetch(import.meta.env.VITE_BILL_SERVICE_URL + '/api/bills/upload-document', {
         method: 'POST',
         body: formData,
       });

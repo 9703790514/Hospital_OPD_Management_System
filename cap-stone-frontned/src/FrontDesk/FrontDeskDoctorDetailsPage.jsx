@@ -75,11 +75,11 @@ export const FrontDeskDoctorDetailsPage = ({ doctorId, onBack, patient, onNaviga
 
 
       try {
-        const response = await fetch(`http://localhost:2005/api/doctors/${doctorId}`);
+        const response = await fetch(import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctors/' + doctorId);
 
         if (!response.ok) {
           const errorText = await response.text();
-          throw new Error(`Failed to fetch doctor details: ${response.status} - ${errorText}`);
+          throw new Error('Failed to fetch doctor details: ' + response.status + ' - ' + errorText);
         }
 
         const data = await response.json();
@@ -111,14 +111,14 @@ export const FrontDeskDoctorDetailsPage = ({ doctorId, onBack, patient, onNaviga
       setLoadingReviews(true);
       setReviewsError(null);
       try {
-        const response = await fetch(`http://localhost:2007/ratings/doctor/${doctor.id}`);
-        if (!response.ok) throw new Error(`Failed to fetch reviews: ${response.status} ${response.statusText}`);
+        const response = await fetch(import.meta.env.VITE_DOCTOR_RATING_SERVICE_URL + '/ratings/doctor/' + doctor.id);
+        if (!response.ok) throw new Error('Failed to fetch reviews: ' + response.status + ' ' + response.statusText);
         const data = await response.json();
 
         const reviewsWithNames = await Promise.all(data.map(async (review) => {
           if (review.patientId) {
             try {
-              const patientResponse = await fetch(`http://localhost:2008/api/patients/${review.patientId}`);
+              const patientResponse = await fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients/' + review.patientId);
               if (patientResponse.ok) {
                 const patientData = await patientResponse.json();
                 return { ...review, reviewerName: `${patientData.first_name || ''} ${patientData.last_name || ''}`.trim() };
@@ -177,27 +177,27 @@ export const FrontDeskDoctorDetailsPage = ({ doctorId, onBack, patient, onNaviga
     };
 
     try {
-      const response = await fetch(`${import.meta.env.VITE_DOCTOR_RATING_SERVICE_URL}/ratings', {
+      const response = await fetch(import.meta.env.VITE_DOCTOR_RATING_SERVICE_URL + '/ratings', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(reviewPayload),
       });
-      if (!response.ok) throw new Error(`Failed to submit review: ${response.status} ${response.statusText}`);
+      if (!response.ok) throw new Error('Failed to submit review: ' + response.status + ' ' + response.statusText);
 
       await response.json();
       setReviewSubmissionSuccess(true);
       setNewRating(0);
       setNewReviewText('');
       // Re-fetch reviews
-      const updatedResponse = await fetch(`http://localhost:2007/ratings/doctor/${doctor.id}`);
+      const updatedResponse = await fetch(import.meta.env.VITE_DOCTOR_RATING_SERVICE_URL + '/ratings/doctor/' + doctor.id);
       const updatedData = await updatedResponse.json();
       const updatedReviewsWithNames = await Promise.all(updatedData.map(async (review) => {
         if (review.patientId) {
           try {
-            const patientResponse = await fetch(`http://localhost:2008/api/patients/${review.patientId}`);
+            const patientResponse = await fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients/' + review.patientId);
             if (patientResponse.ok) {
               const patientData = await patientResponse.json();
-              return { ...review, reviewerName: `${patientData.first_name || ''} ${patientData.last_name || ''}`.trim() };
+              return { ...review, reviewerName: (patientData.first_name || '') + ' ' + (patientData.last_name || '') };
             }
           } catch {
             // fail silently

@@ -1417,7 +1417,7 @@ export const NurseDashboard = () => {
           });
         } else {
           try {
-            const response = await fetch(`http://localhost:2002/api/users/${storedUserId}/image`);
+            const response = await fetch(import.meta.env.VITE_USERS_SERVICE_URL + '/api/users/' + storedUserId + '/image');
             if (response.ok) {
               const imageBlob = await response.blob();
               const reader = new FileReader();

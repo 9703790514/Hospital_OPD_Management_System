@@ -220,14 +220,14 @@ const LabTechnicianTestReports = ({ medicalRecordId, onBack, labTechnician, orde
         }
 
         try {
-            const response = await fetch(`${import.meta.env.VITE_MEDICAL_RECORD_SERVICE_URL}/api/diagnostic-tests', {
+            const response = await fetch(import.meta.env.VITE_MEDICAL_RECORD_SERVICE_URL + '/api/diagnostic-tests', {
                 method: 'POST',
                 body: formData,
             });
 
             if (!response.ok) {
                 const errorText = await response.text();
-                throw new Error(`Failed to add test report: ${response.status} - ${errorText}`);
+                throw new Error('Failed to add test report: ' + response.status + ' - ' + errorText);
             }
 
             await response.json();

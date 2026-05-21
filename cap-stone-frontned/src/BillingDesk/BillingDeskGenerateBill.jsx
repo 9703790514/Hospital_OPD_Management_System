@@ -74,14 +74,14 @@ const BillingDeskGenerateBill = ({ appointment }) => {
       try {
         setLoading(true);
         const [patientResponse, doctorResponse, billItemsResponse] = await Promise.all([
-          fetch(`http://localhost:2008/api/patients/${appointment.patientId}`),
-          fetch(`http://localhost:2005/api/doctors/${appointment.doctorId}`),
-          fetch(`${import.meta.env.VITE_BILL_SERVICE_URL}/api/bill-items')
+          fetch('http://localhost:2008/api/patients/' + appointment.patientId),
+          fetch('http://localhost:2005/api/doctors/' + appointment.doctorId),
+          fetch(import.meta.env.VITE_BILL_SERVICE_URL + '/api/bill-items')
         ]);
 
-        if (!patientResponse.ok) throw new Error(`Patient data fetch failed with status: ${patientResponse.status}`);
-        if (!doctorResponse.ok) throw new Error(`Doctor data fetch failed with status: ${doctorResponse.status}`);
-        if (!billItemsResponse.ok) throw new Error(`Bill items data fetch failed with status: ${billItemsResponse.status}`);
+        if (!patientResponse.ok) throw new Error('Patient data fetch failed with status: ' + patientResponse.status);
+        if (!doctorResponse.ok) throw new Error('Doctor data fetch failed with status: ' + doctorResponse.status);
+        if (!billItemsResponse.ok) throw new Error('Bill items data fetch failed with status: ' + billItemsResponse.status);
 
         const patientData = await patientResponse.json();
         const doctorData = await doctorResponse.json();
@@ -225,13 +225,13 @@ const BillingDeskGenerateBill = ({ appointment }) => {
       const formData = new FormData();
       formData.append("billDocument", billDocumentFile);
       
-      const uploadResponse = await fetch(`${import.meta.env.VITE_BILL_SERVICE_URL}/api/bills/upload-document', {
+      const uploadResponse = await fetch(import.meta.env.VITE_BILL_SERVICE_URL + '/api/bills/upload-document', {
         method: 'POST',
         body: formData,
       });
 
       if (!uploadResponse.ok) {
-        throw new Error(`File upload failed with status ${uploadResponse.status}`);
+        throw new Error('File upload failed with status ' + uploadResponse.status);
       }
 
       const uploadResult = await uploadResponse.json();
@@ -256,7 +256,7 @@ const BillingDeskGenerateBill = ({ appointment }) => {
       };
 
       // Step 4: Post the bill data to the /api/bills endpoint
-      const billResponse = await fetch(`${import.meta.env.VITE_BILL_SERVICE_URL}/api/bills', {
+      const billResponse = await fetch(import.meta.env.VITE_BILL_SERVICE_URL + '/api/bills', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -265,7 +265,7 @@ const BillingDeskGenerateBill = ({ appointment }) => {
       });
 
       if (!billResponse.ok) {
-        throw new Error(`Bill creation failed with status ${billResponse.status}`);
+        throw new Error('Bill creation failed with status ' + billResponse.status);
       }
 
       const createdBill = await billResponse.json();

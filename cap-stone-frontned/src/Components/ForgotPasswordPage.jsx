@@ -73,7 +73,7 @@ const LoginPage = ({ setPage }) => {
     try {
       // NOTE: The fetch call to a local host URL is for demonstration purposes.
       // It will not work in the live preview environment.
-      const response = await fetch(`${import.meta.env.VITE_LOGIN_SERVICE_URL}/api/auth/login', {
+      const response = await fetch(import.meta.env.VITE_LOGIN_SERVICE_URL + '/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
@@ -214,7 +214,7 @@ const ForgotPasswordPage = ({ setPage }) => {
     setMessage('');
     try {
       // Step 1: Get user details by email. Mocked API call.
-      const userRes = await fetch(`${import.meta.env.VITE_USERS_SERVICE_URL}/api/users/email/${email}`, {
+      const userRes = await fetch(import.meta.env.VITE_USERS_SERVICE_URL + '/api/users/email/' + email, {
         method: 'GET',
         headers: { 'Content-Type': 'application/json' },
       });
@@ -235,7 +235,7 @@ const ForgotPasswordPage = ({ setPage }) => {
       setPhoneNumber(fetchedPhoneNumber);
 
       // Step 2: Send the OTP to the fetched phone number. Mocked API call.
-      const otpRes = await fetch(`${import.meta.env.VITE_OTP_SERVICE_URL}/otp/send`, {
+      const otpRes = await fetch(import.meta.env.VITE_OTP_SERVICE_URL + '/otp/send', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId: fetchedUserId, phone: fetchedPhoneNumber }),
@@ -262,7 +262,7 @@ const ForgotPasswordPage = ({ setPage }) => {
     setMessage('');
     try {
       // Verify the OTP using the stored user data and the entered OTP. Mocked API call.
-      const verifyRes = await fetch(`${import.meta.env.VITE_OTP_SERVICE_URL}/otp/verify`, {
+      const verifyRes = await fetch(import.meta.env.VITE_OTP_SERVICE_URL + '/otp/verify', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId, phone: phoneNumber, otp }),
@@ -302,7 +302,7 @@ const ForgotPasswordPage = ({ setPage }) => {
 
     try {
       // Send the new password to the backend to update the user. Mocked API call.
-      const updateRes = await fetch(`${import.meta.env.VITE_USERS_SERVICE_URL}/api/users/updatePassword/${userId}`, {
+      const updateRes = await fetch(import.meta.env.VITE_USERS_SERVICE_URL + '/api/users/updatePassword/' + userId, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ newPassword }),
@@ -328,7 +328,7 @@ const ForgotPasswordPage = ({ setPage }) => {
     setError('');
     setMessage('');
     try {
-      const resendRes = await fetch(`${import.meta.env.VITE_OTP_SERVICE_URL}/otp/send`, {
+      const resendRes = await fetch(import.meta.env.VITE_OTP_SERVICE_URL + '/otp/send', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId, phone: phoneNumber }),
@@ -366,7 +366,7 @@ const ForgotPasswordPage = ({ setPage }) => {
 
   const getSubtitle = () => {
     if (step === 'email') return 'Enter your email address to begin the password reset process.';
-    if (step === 'otp') return `An OTP has been sent to your phone number ending in ${phoneNumber.slice(-4)}.`;
+    if (step === 'otp') return 'An OTP has been sent to your phone number ending in ' + phoneNumber.slice(-4) + '.';
     return 'Enter your new password below.';
   };
 
@@ -523,3 +523,4 @@ const App = () => {
 };
 
 export default App;
+

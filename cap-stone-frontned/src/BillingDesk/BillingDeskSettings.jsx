@@ -14,6 +14,7 @@ const BillingDeskSettings = ({ billingDeskUser }) => {
   const [emailReportFrequency, setEmailReportFrequency] = React.useState('Daily');
 
   const handleSaveSettings = () => {
+    console.log({
       notificationEnabled,
       defaultCurrency,
       emailReportFrequency,

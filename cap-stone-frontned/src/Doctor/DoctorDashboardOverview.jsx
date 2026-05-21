@@ -103,7 +103,7 @@ import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 
 // Assume a base URL for your appointment service
-const API_BASE_URL = `${import.meta.env.VITE_APPOINTMENT_SERVICE_URL}/api/appointments';
+const API_BASE_URL = import.meta.env.VITE_APPOINTMENT_SERVICE_URL + '/api/appointments';
 
 const DoctorDashboardOverview = ({ doctorUser }) => {
   const [appointments, setAppointments] = useState([]);
@@ -120,7 +120,7 @@ const DoctorDashboardOverview = ({ doctorUser }) => {
       const response = await fetch(API_BASE_URL);
 
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        throw new Error('HTTP error! status: ' + response.status);
       }
       const data = await response.json();
       setAppointments(data);

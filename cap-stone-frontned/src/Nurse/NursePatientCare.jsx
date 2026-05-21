@@ -16,8 +16,8 @@ import PersonIcon from '@mui/icons-material/Person';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 import PaidIcon from '@mui/icons-material/Paid';
 
-const APPOINTMENTS_API_URL = `${import.meta.env.VITE_APPOINTMENT_SERVICE_URL}/api/appointments';
-const BILLS_API_BASE_URL = `${import.meta.env.VITE_BILL_SERVICE_URL}/api/bills/appointments';
+const APPOINTMENTS_API_URL = import.meta.env.VITE_APPOINTMENT_SERVICE_URL + '/api/appointments';
+const BILLS_API_BASE_URL = import.meta.env.VITE_BILL_SERVICE_URL + '/api/bills/appointments';
 const BILL_TYPE = 'Consultation';
 
 // ------ Helpers to handle backend Instant ------

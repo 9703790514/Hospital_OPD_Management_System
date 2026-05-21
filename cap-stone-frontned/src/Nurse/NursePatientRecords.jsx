@@ -23,9 +23,9 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import WcIcon from '@mui/icons-material/Wc';
 
-const APPOINTMENTS_API_URL = `${import.meta.env.VITE_APPOINTMENT_SERVICE_URL}/api/appointments';
-const VITALS_API_URL = `${import.meta.env.VITE_NURSE_CHECKUP_SERVICE_URL}/api/nurse-checkups';
-const PATIENTS_API_URL = `${import.meta.env.VITE_PATIENT_SERVICE_URL}/api/patients';
+const APPOINTMENTS_API_URL = import.meta.env.VITE_APPOINTMENT_SERVICE_URL + '/api/appointments';
+const VITALS_API_URL = import.meta.env.VITE_NURSE_CHECKUP_SERVICE_URL + '/api/nurse-checkups';
+const PATIENTS_API_URL = import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients';
 
 const App = () => {
     const [appointments, setAppointments] = useState([]);

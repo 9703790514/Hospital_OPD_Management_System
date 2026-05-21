@@ -414,9 +414,9 @@ const LabTechnicianAppointments = ({ labTechnician }) => {
       try {
         setLoading(true);
         setError(null);
-        const response = await fetch(`${import.meta.env.VITE_APPOINTMENT_SERVICE_URL}/api/appointments');
+        const response = await fetch(import.meta.env.VITE_APPOINTMENT_SERVICE_URL + '/api/appointments');
         if (!response.ok) {
-          throw new Error(`Failed to fetch appointments: ${response.status} ${response.statusText}`);
+          throw new Error('Failed to fetch appointments: ' + response.status + ' ' + response.statusText);
         }
         const data = await response.json();
         setAppointments(data);
@@ -428,19 +428,19 @@ const LabTechnicianAppointments = ({ labTechnician }) => {
           data.map(async (appointment) => {
             if (appointment.doctorId && !doctors[appointment.doctorId]) {
               try {
-                const docRes = await fetch(`http://localhost:2005/api/doctors/${appointment.doctorId}`);
+                const docRes = await fetch(import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctors/' + appointment.doctorId);
                 if (docRes.ok) {
                   const docData = await docRes.json();
-                  doctors[appointment.doctorId] = `Dr. ${docData.firstName} ${docData.lastName}`;
+                  doctors[appointment.doctorId] = 'Dr. ' + docData.firstName + ' ' + docData.lastName;
                 }
               } catch {}
             }
             if (appointment.patientId && !patients[appointment.patientId]) {
               try {
-                const patRes = await fetch(`http://localhost:2008/api/patients/${appointment.patientId}`);
+                const patRes = await fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients/' + appointment.patientId);
                 if (patRes.ok) {
                   const patData = await patRes.json();
-                  const fullName = `${patData.first_name || ''} ${patData.last_name || ''}`.trim();
+                  const fullName = ((patData.first_name || '') + ' ' + (patData.last_name || '')).trim();
                   patients[appointment.patientId] = fullName || appointment.patientId;
                 }
               } catch {}

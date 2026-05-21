@@ -90,11 +90,11 @@ const DoctorMySchedule = ({ doctorUser }) => {
 
     try {
       // 1. Fetch Doctor Details using customId from the Doctor microservice
-      const doctorDetailsApiUrl = `http://localhost:2005/api/doctors/customId/${doctorCustomId}`;
+      const doctorDetailsApiUrl = import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctors/customId/' + doctorCustomId;
       const doctorDetailsResponse = await fetch(doctorDetailsApiUrl);
       if (!doctorDetailsResponse.ok) {
         const errorText = await doctorDetailsResponse.text();
-        throw new Error(`Failed to fetch doctor details: ${doctorDetailsResponse.status} - ${errorText}`);
+        throw new Error('Failed to fetch doctor details: ' + doctorDetailsResponse.status + ' - ' + errorText);
       }
       const doctorData = await doctorDetailsResponse.json();
       setDoctorDetails(doctorData);
@@ -105,7 +105,7 @@ const DoctorMySchedule = ({ doctorUser }) => {
       }
 
       // 2. Fetch Doctor Availability using the MongoDB _id from the Availability microservice
-      const doctorAvailabilityApiUrl = `http://localhost:2005/api/doctor-availabilities/byDoctorId/${doctorMongoId}`;
+      const doctorAvailabilityApiUrl = import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctor-availabilities/byDoctorId/' + doctorMongoId;
       const doctorAvailabilityResponse = await fetch(doctorAvailabilityApiUrl);
 
       let availabilityData = null;
@@ -124,7 +124,7 @@ const DoctorMySchedule = ({ doctorUser }) => {
         setLeaveDates([]);
       } else {
         const errorText = await doctorAvailabilityResponse.text();
-        throw new Error(`Failed to fetch schedule data: ${doctorAvailabilityResponse.status} - ${errorText}`);
+        throw new Error('Failed to fetch schedule data: ' + doctorAvailabilityResponse.status + ' - ' + errorText);
       }
 
       const rawDailySlots = availabilityData ? availabilityData.dailySlots || [] : [];
@@ -353,7 +353,7 @@ const DoctorMySchedule = ({ doctorUser }) => {
       };
 
       // Use port 2010 for appointments microservice
-      const response = await fetch(`${import.meta.env.VITE_APPOINTMENT_SERVICE_URL}/api/appointments/update-on-schedule-change', {
+      const response = await fetch(import.meta.env.VITE_APPOINTMENT_SERVICE_URL + '/api/appointments/update-on-schedule-change', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
@@ -361,9 +361,8 @@ const DoctorMySchedule = ({ doctorUser }) => {
 
       if (!response.ok) {
         const errorText = await response.text();
-        throw new Error(`Failed to update appointments: ${response.status} - ${errorText}`);
+        throw new Error('Failed to update appointments: ' + response.status + ' - ' + errorText);
       }
-
       setAppointmentUpdateStatus('success');
     } catch (err) {
       setAppointmentUpdateStatus('error');
@@ -385,13 +384,13 @@ const DoctorMySchedule = ({ doctorUser }) => {
       let response;
       // Use port 2005 for doctor-availability microservice
       if (doctorAvailabilityId) {
-        response = await fetch(`http://localhost:2005/api/doctor-availabilities/${doctorAvailabilityId}`, {
+        response = await fetch(import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctor-availabilities/' + doctorAvailabilityId, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload),
         });
       } else {
-        response = await fetch(`${import.meta.env.VITE_DOCTOR_SERVICE_URL}/api/doctor-availabilities', {
+        response = await fetch(import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctor-availabilities', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload),
@@ -400,11 +399,8 @@ const DoctorMySchedule = ({ doctorUser }) => {
 
       if (!response.ok) {
         const errorText = await response.text();
-        throw new Error(`Failed to save availability: ${response.status} - ${errorText}`);
+        throw new Error('Failed to save availability: ' + response.status + ' - ' + errorText);
       }
-
-      const result = await response.json();
-      setDoctorAvailabilityId(result.id);
       setAvailabilitySaveStatus('success');
 
       // Call a separate API to update appointments after saving availability
@@ -512,7 +508,7 @@ const DoctorMySchedule = ({ doctorUser }) => {
               {
                 icon: <PersonIcon color="success" sx={{ fontSize: 28 }} />,
                 label: 'Name',
-                value: `${doctorDetails.firstName} ${doctorDetails.lastName}`,
+                value: (doctorDetails.firstName || '') + ' ' + (doctorDetails.lastName || ''),
               },
               {
                 icon: <WorkIcon color="success" sx={{ fontSize: 28 }} />,

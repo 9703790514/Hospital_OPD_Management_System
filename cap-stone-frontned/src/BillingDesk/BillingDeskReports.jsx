@@ -45,7 +45,7 @@ const BillingDeskReports = ({ billingDeskUser }) => {
       setError(null);
 
       try {
-        const response = await fetch(`${import.meta.env.VITE_BILL_SERVICE_URL}/api/bills');
+        const response = await fetch(import.meta.env.VITE_BILL_SERVICE_URL + '/api/bills');
         if (!response.ok) throw new Error('Failed to fetch bills data');
         const data = await response.json();
 

@@ -20,13 +20,10 @@ export const WelcomePage = () => {
     // Async function to fetch all doctors and their images
     const fetchDoctors = async () => {
       try {
-        const doctorsResponse = await fetch(`${import.meta.env.VITE_DOCTOR_SERVICE_URL}/api/doctors/all`);
-        if (!doctorsResponse.ok) {
-          throw new Error(`Failed to fetch doctors list: ${doctorsResponse.statusText}`);
-        }
-        const doctorsData = await doctorsResponse.json();
-
-        // Fetch user data (including images) for each doctor
+        const doctorsResponse = await fetch(import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctors/all');
+        if (!doctorsResponse.ok) {
+          throw new Error('Failed to fetch doctors list: ' + doctorsResponse.statusText);
+        }
         const doctorsWithImages = await Promise.all(
           doctorsData.map(async (doctor) => {
             if (doctor.customId) {

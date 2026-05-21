@@ -178,14 +178,14 @@ const MedicalRecordsPage = ({ medicalRecordId, appointmentId, onBack, onNavigate
       setLoading(true);
       setError(null);
       try {
-        const response = await fetch(`http://localhost:2006/api/medical-records/${medicalRecordId}`);
+        const response = await fetch(import.meta.env.VITE_MEDICAL_RECORD_SERVICE_URL + '/api/medical-records/' + medicalRecordId);
         if (!response.ok) {
           if (response.status === 404) {
             setMedicalRecord(null);
             return;
           }
           const errorText = await response.text();
-          throw new Error(`Failed to fetch medical record: ${response.status} - ${errorText}`);
+          throw new Error('Failed to fetch medical record: ' + response.status + ' - ' + errorText);
         }
         const data = await response.json();
         setMedicalRecord(data);
@@ -204,10 +204,10 @@ const MedicalRecordsPage = ({ medicalRecordId, appointmentId, onBack, onNavigate
       setLoadingCheckup(true);
       setErrorCheckup(null);
       try {
-        const res = await fetch(`http://localhost:2012/api/nurse-checkups/appointment/${appointmentId}`);
+        const res = await fetch(import.meta.env.VITE_NURSE_CHECKUP_SERVICE_URL + '/api/nurse-checkups/appointment/' + appointmentId);
         if (!res.ok) {
           const text = await res.text();
-          throw new Error(`Failed to fetch nurse checkup info: ${res.status} - ${text}`);
+          throw new Error('Failed to fetch nurse checkup info: ' + res.status + ' - ' + text);
         }
         const data = await res.json();
         setNurseCheckup(data);

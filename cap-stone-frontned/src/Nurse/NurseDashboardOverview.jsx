@@ -29,12 +29,12 @@ const NurseDashboardOverview = () => {
 
       try {
         // Fetch patients
-        const patientsRes = await fetch(`${import.meta.env.VITE_PATIENT_SERVICE_URL}/api/patients');
+        const patientsRes = await fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients');
         if (!patientsRes.ok) throw new Error('Failed to fetch patients');
         const patientsData = await patientsRes.json();
 
         // Fetch appointments
-        const apptsRes = await fetch(`${import.meta.env.VITE_APPOINTMENT_SERVICE_URL}/api/appointments');
+        const apptsRes = await fetch(import.meta.env.VITE_APPOINTMENT_SERVICE_URL + '/api/appointments');
         if (!apptsRes.ok) throw new Error('Failed to fetch appointments');
         const apptsData = await apptsRes.json();
 

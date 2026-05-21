@@ -39,7 +39,6 @@ import MyBillsPage from './MyBillsPage';
 import ServicesPage from './ServicesPage';
 import ContactPage from './ContactPage';
 import EditProfilePage from './EditProfilePage';
-import './PatientDashboard.css';
 
 // Navigation configuration with the new "Edit Profile" button
 const NAVIGATION = [
@@ -472,7 +471,7 @@ const PatientDashboard = () => {
           setPatient({
             name: storedUsername,
             email: storedEmail,
-            profilePic: storedProfilePic || `${import.meta.env.VITE_PATIENT_SERVICE_URL}/default-profile.png`,
+            profilePic: storedProfilePic || (import.meta.env.VITE_PATIENT_SERVICE_URL + '/default-profile.png'),
             userId: storedUserId,
             phoneNumber: storedPhoneNumber || 'N/A',
           });

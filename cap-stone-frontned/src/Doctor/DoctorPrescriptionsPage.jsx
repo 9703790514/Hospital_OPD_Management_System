@@ -61,7 +61,7 @@ const DoctorPrescriptionsPage = ({ medicalRecordId, onBack }) => {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch(`http://localhost:2006/api/prescriptions/medical/${medicalRecordId}`);
+      const response = await fetch(import.meta.env.VITE_MEDICAL_RECORD_SERVICE_URL + '/api/prescriptions/medical/' + medicalRecordId);
 
       if (response.status === 404) {
         // No prescriptions found; treat as empty list, NOT error
@@ -72,7 +72,7 @@ const DoctorPrescriptionsPage = ({ medicalRecordId, onBack }) => {
 
       if (!response.ok) {
         const errorText = await response.text();
-        throw new Error(`Failed to fetch prescriptions: ${response.status} - ${errorText}`);
+        throw new Error('Failed to fetch prescriptions: ' + response.status + ' - ' + errorText);
       }
 
       const data = await response.json();
@@ -125,7 +125,7 @@ const DoctorPrescriptionsPage = ({ medicalRecordId, onBack }) => {
     };
 
     try {
-      const response = await fetch(`${import.meta.env.VITE_MEDICAL_RECORD_SERVICE_URL}/api/prescriptions', {
+      const response = await fetch(import.meta.env.VITE_MEDICAL_RECORD_SERVICE_URL + '/api/prescriptions', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formattedPrescription),
@@ -133,7 +133,7 @@ const DoctorPrescriptionsPage = ({ medicalRecordId, onBack }) => {
 
       if (!response.ok) {
         const errorText = await response.text();
-        throw new Error(`Failed to add prescription: ${response.status} - ${errorText}`);
+        throw new Error('Failed to add prescription: ' + response.status + ' - ' + errorText);
       }
 
       // Refresh list on success

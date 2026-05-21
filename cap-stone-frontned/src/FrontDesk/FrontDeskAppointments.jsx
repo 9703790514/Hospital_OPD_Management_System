@@ -820,10 +820,10 @@ const FrontDeskAppointments = ({ frontDeskUser }) => {
       setError(null);
 
       try {
-        const response = await fetch(`${import.meta.env.VITE_APPOINTMENT_SERVICE_URL}/api/appointments');
+        const response = await fetch(import.meta.env.VITE_APPOINTMENT_SERVICE_URL + '/api/appointments');
         if (!response.ok) {
           const errorText = await response.text();
-          throw new Error(`Failed to fetch appointments: ${response.status} - ${errorText}`);
+          throw new Error('Failed to fetch appointments: ' + response.status + ' - ' + errorText);
         }
         const data = await response.json();
         setAppointmentsData(data);
@@ -837,11 +837,11 @@ const FrontDeskAppointments = ({ frontDeskUser }) => {
           const map = {};
           await Promise.all(patientIds.map(async (id) => {
             try {
-              const res = await fetch(`http://localhost:2008/api/patients/${id}`);
+              const res = await fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients/' + id);
               if (res.ok) {
                 const patientData = await res.json();
                 if (patientData.first_name && patientData.last_name) {
-                  map[id] = `${patientData.first_name} ${patientData.last_name}`;
+                  map[id] = patientData.first_name + ' ' + patientData.last_name;
                 } else {
                   map[id] = id;
                 }
@@ -860,12 +860,12 @@ const FrontDeskAppointments = ({ frontDeskUser }) => {
           const map = {};
           await Promise.all(doctorIds.map(async (id) => {
             try {
-              const res = await fetch(`http://localhost:2005/api/doctors/${id}`);
+              const res = await fetch(import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctors/' + id);
               if (res.ok) {
                 const doctorData = await res.json();
                 // Use the example data structure provided by the user
                 if (doctorData.firstName && doctorData.lastName) {
-                  map[id] = `Dr. ${doctorData.firstName} ${doctorData.lastName}`;
+                  map[id] = 'Dr. ' + doctorData.firstName + ' ' + doctorData.lastName;
                 } else {
                   map[id] = id;
                 }

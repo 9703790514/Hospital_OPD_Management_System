@@ -2064,7 +2064,7 @@ const LabTechnicianMedicalRecords = ({ patientId, doctorIdFromAppointment, onBac
         setLoading(true);
         setError(null);
 
-        const response = await fetch(`http://localhost:2006/api/medical-records/${medicalRecordId}`);
+        const response = await fetch(import.meta.env.VITE_MEDICAL_RECORD_SERVICE_URL + '/api/medical-records/' + medicalRecordId);
 
         if (response.status === 204 || response.headers.get('content-length') === '0') {
           setMedicalRecord(null);
@@ -2074,7 +2074,7 @@ const LabTechnicianMedicalRecords = ({ patientId, doctorIdFromAppointment, onBac
 
         if (!response.ok) {
           const errorBody = await response.text();
-          throw new Error(`Failed to fetch medical record: ${response.status} ${response.statusText} - ${errorBody}`);
+          throw new Error('Failed to fetch medical record: ' + response.status + ' ' + response.statusText + ' - ' + errorBody);
         }
 
         const data = await response.json();
@@ -2101,11 +2101,11 @@ const LabTechnicianMedicalRecords = ({ patientId, doctorIdFromAppointment, onBac
         setPatientLoading(true);
         setPatientError(null);
 
-        const response = await fetch(`http://localhost:2008/api/patients/${patientId}`);
+        const response = await fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients/' + patientId);
 
         if (!response.ok) {
           const errorBody = await response.text();
-          throw new Error(`Failed to fetch patient details: ${response.status} ${response.statusText} - ${errorBody}`);
+          throw new Error('Failed to fetch patient details: ' + response.status + ' ' + response.statusText + ' - ' + errorBody);
         }
 
         const data = await response.json();

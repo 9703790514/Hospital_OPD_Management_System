@@ -57,8 +57,8 @@ const BillingDashboard = () => {
         setLoading(true);
         setError(null);
 
-        const response = await fetch(`${import.meta.env.VITE_APPOINTMENT_SERVICE_URL}/api/appointments');
-        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const response = await fetch(import.meta.env.VITE_APPOINTMENT_SERVICE_URL + '/api/appointments');
+        if (!response.ok) throw new Error('HTTP error! status: ' + response.status);
         const data = await response.json();
 
         // Extract unique doctor and patient IDs
@@ -68,7 +68,7 @@ const BillingDashboard = () => {
         // Fetch doctor details in parallel
         const doctorsRes = await Promise.all(
           doctorIds.map((id) =>
-            fetch(`http://localhost:2005/api/doctors/${id}`).then((res) =>
+            fetch(import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctors/' + id).then((res) =>
               res.ok ? res.json() : null
             )
           )
@@ -76,14 +76,14 @@ const BillingDashboard = () => {
         const doctorsMap = {};
         doctorsRes.forEach((doc) => {
           if (doc) {
-            doctorsMap[doc.id || doc._id] = `${doc.firstName || doc.first_name} ${doc.lastName || doc.last_name}`;
+            doctorsMap[doc.id || doc._id] = (doc.firstName || doc.first_name) + ' ' + (doc.lastName || doc.last_name);
           }
         });
 
         // Fetch patient details in parallel
         const patientsRes = await Promise.all(
           patientIds.map((id) =>
-            fetch(`http://localhost:2008/api/patients/${id}`).then((res) =>
+            fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients/' + id).then((res) =>
               res.ok ? res.json() : null
             )
           )
@@ -91,7 +91,7 @@ const BillingDashboard = () => {
         const patientsMap = {};
         patientsRes.forEach((pat) => {
           if (pat) {
-            patientsMap[pat.id || pat._id] = `${pat.firstName || pat.first_name} ${pat.lastName || pat.last_name}`;
+            patientsMap[pat.id || pat._id] = (pat.firstName || pat.first_name) + ' ' + (pat.lastName || pat.last_name);
           }
         });
 
@@ -115,7 +115,7 @@ const BillingDashboard = () => {
         setAppointments(processedData);
         setFilteredAppointments(processedData);
       } catch (err) {
-        setError(`Failed to load appointments: ${err.message}`);
+        setError('Failed to load appointments: ' + err.message);
       } finally {
         setLoading(false);
       }

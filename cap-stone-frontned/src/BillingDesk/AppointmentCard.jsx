@@ -51,24 +51,24 @@ const AppointmentCard = ({ appointment, onClick }) => {
 
   useEffect(() => {
     if (appointment.doctorId) {
-      fetch(`http://localhost:2005/api/doctors/${appointment.doctorId}`)
+      fetch(import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctors/' + appointment.doctorId)
         .then((res) => {
           if (!res.ok) throw new Error('Failed to fetch doctor details');
           return res.json();
         })
-        .then((data) => setDoctorName(`${data.firstName} ${data.lastName}`))
+        .then((data) => setDoctorName(data.firstName + ' ' + data.lastName))
         .catch(() => setDoctorName('Unknown Doctor'));
     }
   }, [appointment.doctorId]);
 
   useEffect(() => {
     if (appointment.patientId) {
-      fetch(`http://localhost:2008/api/patients/${appointment.patientId}`)
+      fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients/' + appointment.patientId)
         .then((res) => {
           if (!res.ok) throw new Error('Failed to fetch patient details');
           return res.json();
         })
-        .then((data) => setPatientName(`${data.first_name} ${data.last_name}`))
+        .then((data) => setPatientName(data.first_name + ' ' + data.last_name))
         .catch(() => setPatientName('Unknown Patient'));
     }
   }, [appointment.patientId]);

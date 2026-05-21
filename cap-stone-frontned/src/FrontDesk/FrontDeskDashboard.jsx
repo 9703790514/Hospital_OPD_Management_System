@@ -1398,7 +1398,7 @@ export const FrontDeskDashboard = () => {
           userId: storedUserId,
           name: storedUsername,
           email: storedEmail,
-          profilePic: storedProfilePic || 'http://localhost:2004/default-frontdesk.png',
+          profilePic: storedProfilePic || (import.meta.env.VITE_USERS_SERVICE_URL + '/default-frontdesk.png'),
         });
       } else {
         window.location.href = '/login';

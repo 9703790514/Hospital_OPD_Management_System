@@ -34,9 +34,9 @@ const BillingDeskPatientAccounts = ({ billingDeskUser }) => {
         setLoading(true);
         setError(null);
 
-        const response = await fetch(`${import.meta.env.VITE_BILL_SERVICE_URL}/api/bill-items');
+        const response = await fetch(import.meta.env.VITE_BILL_SERVICE_URL + '/api/bill-items');
         if (!response.ok) {
-          throw new Error(`Failed to fetch bill items: ${response.status} ${response.statusText}`);
+          throw new Error('Failed to fetch bill items: ' + response.status + ' ' + response.statusText);
         }
         const data = await response.json();
         setBillItemsData(data);

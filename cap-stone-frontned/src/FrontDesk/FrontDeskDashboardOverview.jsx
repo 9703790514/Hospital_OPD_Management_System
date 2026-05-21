@@ -38,17 +38,17 @@ const FrontDeskDashboardOverview = ({ frontDeskUser }) => {
 
       try {
         // Fetch patients
-        const patientsRes = await fetch(`${import.meta.env.VITE_PATIENT_SERVICE_URL}/api/patients');
+        const patientsRes = await fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients');
         if (!patientsRes.ok) throw new Error('Failed to fetch patients data');
         const patientsData = await patientsRes.json();
 
         // Fetch doctors
-        const doctorsRes = await fetch(`${import.meta.env.VITE_DOCTOR_SERVICE_URL}/api/doctors/all');
+        const doctorsRes = await fetch(import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctors/all');
         if (!doctorsRes.ok) throw new Error('Failed to fetch doctors data');
         const doctorsData = await doctorsRes.json();
 
         // Fetch appointments
-        const apptsRes = await fetch(`${import.meta.env.VITE_APPOINTMENT_SERVICE_URL}/api/appointments');
+        const apptsRes = await fetch(import.meta.env.VITE_APPOINTMENT_SERVICE_URL + '/api/appointments');
         if (!apptsRes.ok) throw new Error('Failed to fetch appointments data');
         const apptsData = await apptsRes.json();
 

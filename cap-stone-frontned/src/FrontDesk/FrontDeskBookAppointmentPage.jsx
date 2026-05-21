@@ -1699,12 +1699,12 @@ const FrontDeskBookAppointmentPage = ({ doctorId, patientId, onBack, frontDeskUs
   // Fetch doctor details
   useEffect(() => {
     if (!doctorId) return;
-    fetch(`http://localhost:2005/api/doctors/${doctorId}`)
+    fetch(import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctors/' + doctorId)
       .then(res => {
         if (!res.ok) throw new Error('Failed to fetch doctor details.');
         return res.json();
       })
-      .then(data => setDoctorName(`Dr. ${data.firstName} ${data.lastName}`))
+      .then(data => setDoctorName('Dr. ' + data.firstName + ' ' + data.lastName))
       .catch(console.error);
   }, [doctorId]);
 
@@ -1717,7 +1717,7 @@ const FrontDeskBookAppointmentPage = ({ doctorId, patientId, onBack, frontDeskUs
     }
     setLoadingAvailability(true);
     setAvailabilityError(null);
-    fetch(`http://localhost:2005/api/doctor-availabilities/byDoctorId/${doctorId}`)
+    fetch(import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctor-availabilities/byDoctorId/' + doctorId)
       .then(res => {
         if (res.ok) return res.json();
         if (res.status === 404) return null;
@@ -1732,9 +1732,9 @@ const FrontDeskBookAppointmentPage = ({ doctorId, patientId, onBack, frontDeskUs
   useEffect(() => {
     setLoadingPatients(true);
     setPatientsError(null);
-    fetch(`${import.meta.env.VITE_PATIENT_SERVICE_URL}/api/patients')
+    fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients')
       .then(res => {
-        if (!res.ok) throw new Error(`Failed to fetch patients: ${res.status}`);
+        if (!res.ok) throw new Error('Failed to fetch patients: ' + res.status);
         return res.json();
       })
       .then(data => {
@@ -1776,7 +1776,7 @@ const FrontDeskBookAppointmentPage = ({ doctorId, patientId, onBack, frontDeskUs
 
     const isLeaveDay = doctorAvailability.leaveDates.some(ld => dayjs(ld).isSame(selectedDateTime, 'day'));
     if (isLeaveDay) {
-      setAppointmentsError(`Dr. ${doctorName.split(' ')[1]} is on leave on ${selectedDateTime.format('MM/DD/YYYY')}.`);
+      setAppointmentsError('Dr. ' + doctorName.split(' ')[1] + ' is on leave on ' + selectedDateTime.format('MM/DD/YYYY') + '.');
       setLoadingAppointments(false);
       return;
     }
@@ -1808,7 +1808,7 @@ const FrontDeskBookAppointmentPage = ({ doctorId, patientId, onBack, frontDeskUs
       });
     });
 
-    fetch(`http://localhost:2010/api/appointments/doctor/${doctorId}/date/${appointmentDate}`)
+    fetch(import.meta.env.VITE_APPOINTMENT_SERVICE_URL + '/api/appointments/doctor/' + doctorId + '/date/' + appointmentDate)
       .then(res => {
         if (!res.ok) {
           if (res.status === 204) return [];
@@ -1856,7 +1856,7 @@ const FrontDeskBookAppointmentPage = ({ doctorId, patientId, onBack, frontDeskUs
       created_by_user_id: frontDeskUser.userId,
     };
 
-    const response = await fetch(`${import.meta.env.VITE_MEDICAL_RECORD_SERVICE_URL}/api/medical-records', {
+    const response = await fetch(import.meta.env.VITE_MEDICAL_RECORD_SERVICE_URL + '/api/medical-records', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload),
@@ -1864,7 +1864,7 @@ const FrontDeskBookAppointmentPage = ({ doctorId, patientId, onBack, frontDeskUs
 
     if (!response.ok) {
       const text = await response.text();
-      throw new Error(`Failed to create medical record: ${response.status} - ${text}`);
+      throw new Error('Failed to create medical record: ' + response.status + ' - ' + text);
     }
 
     const createdRecord = await response.json();
@@ -1907,7 +1907,7 @@ const FrontDeskBookAppointmentPage = ({ doctorId, patientId, onBack, frontDeskUs
       // Prepare ISO 8601 strings for appointmentDate and appointmentTime (Instant compatible)
       const formattedAppointmentDate = dayjs(appointmentDate).startOf('day').toISOString(); // "YYYY-MM-DDT00:00:00Z"
       const slotStart = appointmentTime.split('-')[0];
-      const formattedAppointmentTime = dayjs(`1970-01-01T${slotStart}:00`).toISOString(); // Dummy date with time
+      const formattedAppointmentTime = dayjs('1970-01-01T' + slotStart + ':00').toISOString(); // Dummy date with time
 
       const payload = {
         patientId: patientIdInput,
@@ -1923,7 +1923,7 @@ const FrontDeskBookAppointmentPage = ({ doctorId, patientId, onBack, frontDeskUs
       };
 
 
-      const response = await fetch(`${import.meta.env.VITE_APPOINTMENT_SERVICE_URL}/api/appointments', {
+      const response = await fetch(import.meta.env.VITE_APPOINTMENT_SERVICE_URL + '/api/appointments', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
@@ -1931,7 +1931,7 @@ const FrontDeskBookAppointmentPage = ({ doctorId, patientId, onBack, frontDeskUs
 
       if (!response.ok) {
         const text = await response.text();
-        throw new Error(`Failed to book appointment: ${response.status} - ${text}`);
+        throw new Error('Failed to book appointment: ' + response.status + ' - ' + text);
       }
 
       const result = await response.json();
@@ -1958,7 +1958,7 @@ const FrontDeskBookAppointmentPage = ({ doctorId, patientId, onBack, frontDeskUs
 
   const filterOptions = createFilterOptions({
     matchFrom: 'any',
-    stringify: (option) => `${option.first_name} ${option.last_name} ${option._id}`,
+    stringify: (option) => (option.first_name || '') + ' ' + (option.last_name || '') + ' ' + (option._id || ''),
   });
 
   return (
@@ -1990,7 +1990,7 @@ const FrontDeskBookAppointmentPage = ({ doctorId, patientId, onBack, frontDeskUs
             <Autocomplete
               id="patient-id-autocomplete"
               options={allPatients}
-              getOptionLabel={(option) => `${option.first_name} ${option.last_name} (ID: ${option._id})`}
+              getOptionLabel={(option) => option.first_name + ' ' + option.last_name + ' (ID: ' + option._id + ')'}
               isOptionEqualToValue={(option, value) => option._id === value._id}
               value={selectedPatientObject}
               onChange={(event, newValue) => {

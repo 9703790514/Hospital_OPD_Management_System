@@ -51,10 +51,10 @@ const FrontDeskDoctors = ({ frontDeskUser, onNavigate }) => {
 
       try {
         // Step 1: Fetch the list of doctors
-        const doctorsResponse = await fetch(`${import.meta.env.VITE_DOCTOR_SERVICE_URL}/api/doctors/all');
+        const doctorsResponse = await fetch(import.meta.env.VITE_DOCTOR_SERVICE_URL + '/api/doctors/all');
         if (!doctorsResponse.ok) {
           const errorText = await doctorsResponse.text();
-          throw new Error(`Failed to fetch doctors list: ${doctorsResponse.status} - ${errorText}`);
+          throw new Error('Failed to fetch doctors list: ' + doctorsResponse.status + ' - ' + errorText);
         }
         const doctorsData = await doctorsResponse.json();
 

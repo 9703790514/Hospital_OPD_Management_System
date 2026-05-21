@@ -596,9 +596,9 @@ const FrontDeskPatientManagement = ({ frontDeskUser }) => {
         setLoading(true);
         setError(null);
 
-        const response = await fetch(`${import.meta.env.VITE_PATIENT_SERVICE_URL}/api/patients');
+        const response = await fetch(import.meta.env.VITE_PATIENT_SERVICE_URL + '/api/patients');
         if (!response.ok) {
-          throw new Error(`Failed to fetch patient data: ${response.status} ${response.statusText}`);
+          throw new Error('Failed to fetch patient data: ' + response.status + ' ' + response.statusText);
         }
         const data = await response.json();
 

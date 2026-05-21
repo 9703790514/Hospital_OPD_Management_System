@@ -16,20 +16,35 @@ This system provides complete OPD management functionality including patient reg
 ## 📦 Project Structure
 
 ```
-hospital-opd-management-system/
-├── frontend/              # React frontend application
-├── backend/               # Spring Boot microservices
-│   ├── LoginService/
-│   ├── RegistrationService/
-│   ├── AppointmentMicroService/
-│   ├── BillMicroService/
-│   ├── DoctorMicroService/
-│   ├── PatientMicroService/
-│   ├── users-microservice/
-│   ├── roles-microservice/
-│   └── ... (more microservices)
-├── docs/                  # Documentation and diagrams
-└── database/              # Database schemas and collections
+Capstone/
+├── cap-stone-frontned/        # React frontend application (Vite)
+│   ├── src/
+│   │   ├── Components/        # Shared components
+│   │   ├── Patient/           # Patient portal components
+│   │   ├── Doctor/            # Doctor portal components
+│   │   ├── Nurse/             # Nurse portal components
+│   │   ├── FrontDesk/         # Front desk components
+│   │   ├── BillingDesk/       # Billing desk components
+│   │   └── LabTechnician/     # Lab technician components
+│   ├── .env                   # Environment variables (create from .env.example)
+│   ├── package.json
+│   └── vite.config.js
+├── capstone-backend/          # Spring Boot microservices
+│   ├── LoginService/          # Authentication service (Port 2003)
+│   ├── users-microservice/    # User management (Port 2002)
+│   ├── DoctorMicroService/    # Doctor management (Port 2005)
+│   ├── PatientMicroService/   # Patient management (Port 2008)
+│   ├── AppointmentMicroService/ # Appointments (Port 2010)
+│   ├── BillMicroService/      # Billing (Port 2009)
+│   ├── MedicalRecordMicroService-1/ # Medical records (Port 2006)
+│   ├── DoctorRatingMicroService/ # Doctor ratings (Port 2007)
+│   ├── NurseCheckUpsMicroService/ # Nurse checkups (Port 2012)
+│   ├── OTPMicroService1/      # OTP service (Port 1009)
+│   └── RegistrationService/   # Patient registration (Port 2011)
+├── MongoDBCollections/        # Sample MongoDB collections
+├── Class Diagrams/            # UML class diagrams
+├── DatabaseDiagrams/          # Database schema diagrams
+└── README.md
 ```
 
 ## 🚀 Features
@@ -82,78 +97,214 @@ hospital-opd-management-system/
 
 ### Backend
 - **Framework:** Spring Boot 3.5.4
-- **Security:** Spring Security with JWT
-- **Database:** MongoDB
-- **API Documentation:** Swagger/OpenAPI
-- **Build Tool:** Maven
-- **Java Version:** 17
-
-### Additional Services
-- **Email:** Spring Mail (Gmail SMTP)
-- **SMS:** Twilio API
-- **Charts:** Chart.js
-- **PDF Generation:** jsPDF
-
-## 📋 Prerequisites
-
-- **Java:** JDK 17 or higher
+- **Maven:** 3.8 or higher (or use included Maven wrapper)
 - **Node.js:** v18 or higher
-- **MongoDB:** v5.0 or higher
-- **Maven:** 3.8 or higher
+- **npm:** v9 or higher
+- **MongoDB:** v5.0 or higher (running on localhost:27017)
 
 ## ⚙️ Installation & Setup
 
-### 1. Clone Repository
+### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/your-username/hospital-opd-management-system.git
-cd hospital-opd-management-system
+git clone https://github.com/9703790514/Hospital_OPD_Management_System.git
+cd Hospital_OPD_Management_System
 ```
 
-### 2. Backend Setup
+### Step 2: MongoDB Setup
 
-**Set Environment Variables:**
+1. **Install MongoDB** (if not already installed)
+2. **Start MongoDB** service:
+   ```bash
+   # Windows
+   net start MongoDB
+   
+   # Linux/Mac
+   sudo systemctl start mongod
+   ```
+3. **Create Database:**
+   ```bash
+   mongosh
+   use OPD
+   ```
+4. **Import Sample Collections** (optional but recommended):
+   
+   Navigate to the project root directory and import all MongoDB collections:
+   
+   ```bash
+   # Import all collections one by one
+   mongoimport --db OPD --collection appointments --file MongoDBCollections/OPD.appointments.json --jsonArray
+   mongoimport --db OPD --collection bill_items --file MongoDBCollections/OPD.bill_items.json --jsonArray
+   mongoimport --db OPD --collection bills --file MongoDBCollections/OPD.bills.json --jsonArray
+   mongoimport --db OPD --collection diagnostic_tests --file MongoDBCollections/OPD.diagnostic_tests.json --jsonArray
+   mongoimport --db OPD --collection doctor_availabilities --file MongoDBCollections/OPD.doctor_availabilities.json --jsonArray
+   mongoimport --db OPD --collection doctors --file MongoDBCollections/OPD.doctors.json --jsonArray
+   mongoimport --db OPD --collection doctors_rating --file MongoDBCollections/OPD.doctors_rating.json --jsonArray
+   mongoimport --db OPD --collection medical_records --file MongoDBCollections/OPD.medical_records.json --jsonArray
+   mongoimport --db OPD --collection nurse_checkups --file MongoDBCollections/OPD.nurse_checkups.json --jsonArray
+   mongoimport --db OPD --collection patients --file MongoDBCollections/OPD.patients.json --jsonArray
+   mongoimport --db OPD --collection prescriptions --file MongoDBCollections/OPD.prescriptions.json --jsonArray
+   mongoimport --db OPD --collection roles --file MongoDBCollections/OPD.roles.json --jsonArray
+   mongoimport --db OPD --collection users --file MongoDBCollections/OPD.users.json --jsonArray
+   ```
+   
+   **Note:** The `--jsonArray` flag is used because these files contain JSON arrays. If import fails, verify the file exists in `MongoDBCollections/` folder.
+   
+5. **Verify Import** (optional):
+   ```bash
+   mongosh
+   use OPD
+   show collections
+   db.patients.countDocuments()
+   db.doctors.countDocuments()
+   ```
 
-Create a `.env` file in the `backend` directory or set system environment variables:
+### Step 3: Frontend Setup
 
+1. **Navigate to frontend directory:**
+   ```bash
+   cd cap-stone-frontned
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Create environment file:**
+   
+   Create a `.env` file in the `cap-stone-frontned` directory with the following content:
+   
+   ```env
+   # Backend Service URLs
+   VITE_LOGIN_SERVICE_URL=http://localhost:2003
+   VITE_USERS_SERVICE_URL=http://localhost:2002
+   VITE_DOCTOR_SERVICE_URL=http://localhost:2005
+   VITE_PATIENT_SERVICE_URL=http://localhost:2008
+   VITE_BILL_SERVICE_URL=http://localhost:2009
+   VITE_APPOINTMENT_SERVICE_URL=http://localhost:2010
+   VITE_MEDICAL_RECORD_SERVICE_URL=http://localhost:2006
+   VITE_DOCTOR_RATING_SERVICE_URL=http://localhost:2007
+   VITE_NURSE_CHECKUP_SERVICE_URL=http://localhost:2012
+   VITE_OTP_SERVICE_URL=http://localhost:1009
+   VITE_REGISTRATION_SERVICE_URL=http://localhost:2011
+   ```
+
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+   
+   Frontend will be available at: **http://localhost:5173/**
+
+5. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+### Step 4: Backend Setup
+
+#### Option 1: Start Individual Services (Recommended for Development)
+
+Open separate terminal windows for each service:
+
+**Terminal 1 - LoginService:**
 ```bash
-# Database
-export MONGODB_URI=mongodb://localhost:27017/OPD
-
-# Service Ports
-export LOGIN_SERVICE_PORT=2003
-export USERS_SERVICE_PORT=2002
-export APPOINTMENT_SERVICE_PORT=2001
-# ... (see backend/.env.example for all variables)
-
-# Email Configuration
-export MAIL_USERNAME=your-email@gmail.com
-export MAIL_PASSWORD=your-app-password
-
-# Twilio SMS
-export TWILIO_ACCOUNT_SID=your-account-sid
-export TWILIO_AUTH_TOKEN=your-auth-token
-export TWILIO_PHONE_NUMBER=+1234567890
-
-# JWT Security
-export JWT_SECRET=your-secure-256-bit-secret-key
-export JWT_EXPIRATION_MS=86400000
-
-# CORS
-export ALLOWED_ORIGINS=http://localhost:5173
-```
-
-**Build & Run Microservices:**
-
-```bash
-# For each microservice
-cd backend/LoginService
-mvn clean install
+cd capstone-backend/LoginService
 mvn spring-boot:run
-
-# Repeat for other services...
 ```
 
+**Terminal 2 - UsersService:**
+```bash
+cd capstone-backend/users-microservice
+mvn spring-boot:run
+```
+
+**Terminal 3 - DoctorService:**
+```bash
+cd capstone-backend/DoctorMicroService
+mvn spring-boot:run
+```
+
+**Terminal 4 - PatientService:**
+```bash
+cd capstone-backend/PatientMicroService
+mvn spring-boot:run
+``` Description |
+|---------|------|-------------|
+| LoginService | 2003 | JWT authentication & authorization |
+| UsersService | 2002 | User management |
+| DoctorService | 2005 | Doctor profiles & availability |
+| PatientService | 2008 | Patient management |
+| AppointmentService | 2010 | Appointment scheduling |
+| BillService | 2009 | Billing & payments |
+| MedicalRecordService | 2006 | Medical records & prescriptions |
+| DoctorRatingService | 2007 | Doctor ratings & reviews |
+| NurseCheckupService | 2012 | Nurse checkup records |
+| OTPService | 1009 | OTP generation & validation |
+| RegistrationService | 2011 | New patient registrationlRecordService:**
+```bash
+cd capstone-backend/MedicalRecordMicroService-1
+mvn spring-boot:run
+```
+
+**Terminal 8 - DoctorRatingService:**
+```bash
+cd capstone-backend/DoctorRatingMicroService
+mvn spring-boot:run
+```
+
+**Terminal 9 - NurseCheckupService:**
+```bash
+cd capstone-backend/NurseCheckUpsMicroService
+mvn spring-boot:run
+```
+
+**Terminal 10 - OTPService:**
+```bash
+cd capstone-backend/OTPMicroService1
+mvn spring-boot:run
+```
+
+**Terminal 11 - RegistrationService:**
+```bash
+cd capstone-backend/RegistrationService
+mvn spring-boot:run
+```
+
+#### Option 2: Using Maven Wrapper (if mvn not in PATH)
+
+```bash
+# Windows
+.\mvnw.cmd spring-boot:run
+
+# Linux/Mac
+./mvnw spring-boot:run
+```
+
+### Step 5: Verify Services
+
+Once all services are running, verify they're accessible:
+
+- LoginService: http://localhost:2003
+- UsersService: http://localhost:2002
+- DoctorService: http://localhost:2005
+- PatientService: http://localhost:2008
+- AppointmentService: http://localhost:2010
+- BillService: http://localhost:2009
+- MedicalRecordService: http://localhost:2006
+- DoctorRatingService: http://localhost:2007
+- NurseCheckupService: http://localhost:2012
+- OTPService: http://localhost:1009
+- RegistrationService: http://localhost:2011
+
+### Step 6: Access the Application
+
+Open your browser and navigate to: **http://localhost:5173/**
+
+**Default Login Credentials:**
+- Check MongoDB collections for existing users
+- Or register a new user through the registration page
 ### 3. Frontend Setup
 
 ```bash
@@ -212,15 +363,109 @@ After setting up the system, you'll need to:
 ```bash
 cd backend/LoginService
 mvn test
+```capstone-backend/LoginService
+mvn test
 ```
 
 ### Frontend Tests
 ```bash
-cd frontend
+cd cap-stone-frontned
 npm test
 ```
 
-## 📖 API Documentation
+### Build Frontend for Production
+```bash
+cd cap-stone-frontned
+npm run build
+# Output will be in 5/swagger-ui/index.html  (DoctorService)
+http://localhost:2008/swagger-ui/index.html  (PatientService)
+http://localhost:2010/swagger-ui/index.html  (AppointmentService)
+http://localhost:2009/swagger-ui/index.html  (BillService)
+http://localhost:2006/swagger-ui/index.html  (MedicalRecordService)
+# ... etc for each service
+```
+
+## 🐛 Troubleshooting
+
+### Common Issues
+
+**1. MongoDB Connection Error**
+```bash
+# Make sure MongoDB is running
+mongosh --eval "db.version()"
+```
+
+**2. Port Already in Use**
+```bash
+# Windows - Find and kill process
+netstat -ano | findstr :2003
+taskkill /PID <process_id> /F
+
+# Linux/Mac
+lsof -i :2003
+kill -9 <process_id>
+```
+
+  - React 19 frontend with Material-UI
+  - Spring Boot 3.5.4 microservices
+  - JWT authentication with BCrypt
+  - MongoDB integration
+  - Environment-based configuration
+  - Complete OPD management functionality
+  - Role-based access control
+  - Responsive UI design
+
+## ⚠️ Important Notes
+
+1. **MongoDB:** Must be running before starting backend services
+2. **Service Order:** Start backend services before accessing frontend
+3. **Environment Variables:** Frontend requires `.env` file with all VITE_* variables
+4. **Ports:** Ensure all ports (2002-2012, 1009, 5173) are available
+5. **Build:** Run `npm run build` before deploying to production
+6. **CORS:** Update CORS settings in backend for production domains
+
+## 🔐 Security Notes
+
+- All passwords are hashed with BCrypt
+- JWT tokens for authentication
+- XSS protectionemail notifications
+- [ ] Add SMS notifications with Twilio
+- [ ] Implement password reset via email
+- [ ] Add comprehensive logging
+- [ ] Set up CI/CD pipeline
+- [ ] Add API rate limiting
+- [ ] Implement WebSocket for real-time updates
+- [ ] Mobile application support
+- [ ] Docker containerization
+- [ ] Kubernetes deployment
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📞 Support
+
+For issues and questions:
+- Create an issue in the [GitHub repository](https://github.com/9703790514/Hospital_OPD_Management_System)
+- Check existing documentation in `/Class Diagrams` and `/DatabaseDiagrams`
+
+## 👥 Authors
+
+- **Project:** Hospital OPD Management System
+- **Organization:** Sarvotham's Spine Care
+- **Repository:** https://github.com/9703790514/Hospital_OPD_Management_Systemorrect backend URLs
+- Verify backend CORS configuration allows http://localhost:5173
+
+**6. Environment Variables Not Loading**
+```bash
+# Frontend - Make sure .env file exists in cap-stone-frontned/
+# Restart Vite dev server after changing .env
+
+# Backend - Check application.properties or application.yml
 
 Once the services are running, access Swagger UI at:
 
